@@ -237,7 +237,14 @@ async def chat(prompt: str, max_tokens: int = 12288, temperature: float = 0.4) -
     if MODEL:
         entries = [("openrouter", MODEL)]
     else:
-        entries = build_ladder()
+        # OrcaRouter-first policy: while ANY orca free model is healthy, use
+        # ONLY orca (fresh capacity, no shared-pool saturation). OpenRouter's
+        # free ladder is the fallback for when orca models go unhealthy.
+        orca = [("orcarouter", m) for m in discover_orca_models() if _model_ok(m)]
+        if orca:
+            entries = orca
+        else:
+            entries = [("openrouter", m) for m in discover_models() if _model_ok(m)]
     # rotate the start position so concurrent agents spread across the whole
     # free pool instead of herding onto one saturated model
     global _rr
