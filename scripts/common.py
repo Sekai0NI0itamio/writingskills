@@ -85,6 +85,13 @@ def _record_failure(model: str, emsg: str) -> None:
         h["blocked_until"] = time.time() + BLACKLIST_HOURS * 3600
         h["reason"] = "403"
         log(f"  [health] {model} BLACKLISTED {BLACKLIST_HOURS}h (403 Forbidden)")
+    elif "503" in emsg or "Service Temporarily Unavailable" in emsg or "provider_unavailable" in emsg:
+        h["fails"] += 1  # weighted: availability failures cool down after 2 hits
+        if h["fails"] >= 3:
+            h["blocked_until"] = time.time() + COOLDOWN_SOFT_MIN * 60
+            h["fails"] = 0
+            h["reason"] = "503"
+            log(f"  [health] {model} cooling down {COOLDOWN_SOFT_MIN}m (repeated 503s)")
     elif "429" in emsg and h["fails"] >= 3:
         h["blocked_until"] = time.time() + COOLDOWN_429_MIN * 60
         h["fails"] = 0
@@ -98,7 +105,16 @@ def _record_failure(model: str, emsg: str) -> None:
 
 
 def _record_success(model: str) -> None:
-    _health[model] = {"fails": 0, "blocked_until": 0, "reason": ""}
+    h = _health.setdefault(model, {"fails": 0, "blocked_until": 0, "reason": ""})
+    h["fails"] = 0
+    h["blocked_until"] = 0
+    h["successes"] = h.get("successes", 0) + 1
+
+
+def health_snapshot() -> dict:
+    """Per-model success/failure counters for progress reporting."""
+    return {m: {"ok": h.get("successes", 0), "blocked": time.time() < h.get("blocked_until", 0)}
+            for m, h in _health.items()}
 
 
 def log(msg: str) -> None:

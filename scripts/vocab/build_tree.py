@@ -157,7 +157,10 @@ async def categorize_word_chunks(words: list[list], per_agent: int, in_flight: i
                     f.write(json.dumps({"hash": h, "frags": frags}) + "\n")
             progress["done"] += 1
             if progress["done"] % 25 == 0:
-                log(f"  categorizers done: {progress['done']}/{len(todo)}")
+                from common import health_snapshot
+                stats = health_snapshot()
+                mix = ", ".join(f"{m.split('/')[-1]}={v['ok']}" for m, v in sorted(stats.items(), key=lambda x: -x[1]["ok"]) if v["ok"])
+                log(f"  categorizers done: {progress['done']}/{len(todo)} | producing: {mix or 'none yet'}")
 
     _write_lock = asyncio.Lock()
     await asyncio.gather(*(run_chunk(c) for c in todo))
