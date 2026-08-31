@@ -1,0 +1,88 @@
+name: Vocab Diversity
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "full = extract+tree+compile | compile = tool_db from cached tree"
+        required: false
+        default: "full"
+        type: choice
+        options: [full, compile]
+      min-count:
+        description: "Minimum corpus frequency for a word to enter the tree"
+        required: false
+        default: "2"
+      in-flight:
+        description: "Concurrent categorizer agents"
+        required: false
+        default: "20"
+      words-per-agent:
+        description: "Words per categorizer agent"
+        required: false
+        default: "20"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: vocab-diversity
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 290
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install poppler (pdftotext)
+        if: inputs.mode == 'full'
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+
+      - name: Extract vocabulary
+        if: inputs.mode == 'full'
+        run: python3 scripts/vocab/extract_vocab.py
+
+      - name: Build word tree (20-word categorizers + consolidation)
+        if: inputs.mode == 'full'
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: |
+          python3 scripts/vocab/build_tree.py \
+            --min-count "${{ inputs.min-count }}" \
+            --in-flight "${{ inputs.in-flight }}" \
+            --words-per-agent "${{ inputs.words-per-agent }}"
+
+      - name: Compile tool database
+        run: python3 scripts/vocab/compile_tool_db.py
+
+      - name: Commit results
+        if: always()
+        run: |
+          git config user.name "vocab-bot"
+          git config user.email "vocab-bot@users.noreply.github.com"
+          git add -A vocab cache 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+          else
+            git commit -m "Vocab diversity update (run ${{ github.run_id }}, mode ${{ inputs.mode }})"
+            git pull --rebase origin "${GITHUB_REF_NAME}" || true
+            git push origin HEAD:"${GITHUB_REF_NAME}"
+          fi
+
+      - name: Upload artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: vocab-results-${{ github.run_id }}
+          path: |
+            vocab/
+          if-no-files-found: warn
+          retention-days: 14
