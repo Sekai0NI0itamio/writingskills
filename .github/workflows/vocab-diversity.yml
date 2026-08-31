@@ -54,6 +54,7 @@ jobs:
         if: inputs.mode == 'full'
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          ORCA_API_KEY: ${{ secrets.ORCA_API_KEY }}
         run: |
           python3 scripts/vocab/build_tree.py \
             --min-count "${{ inputs.min-count }}" \

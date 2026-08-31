@@ -20,6 +20,7 @@ import argparse
 import asyncio
 import hashlib
 import json
+import os
 import re
 import sys
 import time
@@ -274,6 +275,7 @@ async def main() -> None:
 
     words = load_words(args.min_count)
     log(f"{len(words)} words (count >= {args.min_count})")
+    log(f"providers: ORCA_API_KEY {'set' if os.environ.get('ORCA_API_KEY') else 'MISSING'} | OPENROUTER_API_KEY {'set' if os.environ.get('OPENROUTER_API_KEY') else 'MISSING'}")
 
     if args.test_one:
         chunk = words[: args.words_per_agent]

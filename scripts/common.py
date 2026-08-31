@@ -180,6 +180,7 @@ def discover_orca_models() -> list[str]:
     if _orca_cache:
         return list(_orca_cache)
     if not _orca_key():
+        log("  [orca] ORCA_API_KEY not set — orca lane disabled")
         return []
     try:
         req = urllib.request.Request(ORCA_PRICING_URL, headers={"content-type": "application/json"})
@@ -240,11 +241,16 @@ async def chat(prompt: str, max_tokens: int = 12288, temperature: float = 0.4) -
         # OrcaRouter-first policy: while ANY orca free model is healthy, use
         # ONLY orca (fresh capacity, no shared-pool saturation). OpenRouter's
         # free ladder is the fallback for when orca models go unhealthy.
-        orca = [("orcarouter", m) for m in discover_orca_models() if _model_ok(m)]
+        orca_all = discover_orca_models()
+        orca = [("orcarouter", m) for m in orca_all if _model_ok(m)]
         if orca:
             entries = orca
+            log(f"  [ladder] ORCA-FIRST: {len(entries)} healthy orca models ({', '.join(m for _, m in entries[:3])}...)")
         else:
-            entries = [("openrouter", m) for m in discover_models() if _model_ok(m)]
+            fb = [("openrouter", m) for m in discover_models() if _model_ok(m)]
+            entries = fb
+            reason = "key missing" if not _orca_key() else ("discovery failed" if not orca_all else "all orca models unhealthy")
+            log(f"  [ladder] orca unavailable ({reason}) — falling back to {len(fb)} openrouter models")
     # rotate the start position so concurrent agents spread across the whole
     # free pool instead of herding onto one saturated model
     global _rr
