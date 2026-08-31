@@ -21,6 +21,10 @@ on:
         description: "Concurrent agents per file"
         required: false
         default: "5"
+      chain:
+        description: "Auto-continue chain counter (set automatically — do not touch)"
+        required: false
+        default: "0"
 
 permissions:
   contents: write
@@ -29,10 +33,15 @@ concurrency:
   group: idea-flow
   cancel-in-progress: false
 
+env:
+  MAX_WORK_MINUTES: "205" # graceful stop before the ~4h cadence; job hard limit is 290m
+  CHAIN_LIMIT: "60"
+  COMMIT_EVERY: "12"
+
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 350
+    timeout-minutes: 290
     steps:
       - uses: actions/checkout@v4
         with:
@@ -42,8 +51,20 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Record resume point
+        run: |
+          BEFORE=$(find notes -name '*__part*.md' 2>/dev/null | wc -l || echo 0)
+          echo "NOTES_BEFORE=$BEFORE" >> "$GITHUB_ENV"
+          echo "resuming with $BEFORE notes already committed"
+
       - name: Install poppler (pdftotext)
+        if: inputs.mode != 'distill'
         run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+
+      - name: Configure git (progress commits)
+        run: |
+          git config user.name "idea-flow-bot"
+          git config user.email "idea-flow-bot@users.noreply.github.com"
 
       - name: Extract PDF texts
         if: inputs.mode != 'distill'
@@ -53,7 +74,7 @@ jobs:
         if: inputs.mode != 'distill'
         run: python3 scripts/split_sections.py
 
-      - name: Analyze idea flow (per-section agents)
+      - name: Analyze idea flow (per-section agents, graceful stop at MAX_WORK_MINUTES)
         if: inputs.mode != 'distill'
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
@@ -61,7 +82,9 @@ jobs:
           python3 scripts/analyze_idea_flow.py \
             --limit-files "${{ inputs.limit-files }}" \
             --in-flight "${{ inputs.in-flight }}" \
-            --per-file "${{ inputs.per-file }}"
+            --per-file "${{ inputs.per-file }}" \
+            --max-minutes "$MAX_WORK_MINUTES" \
+            --commit-every "$COMMIT_EVERY"
 
       - name: Distill IdeaThinkingFlow.md
         if: inputs.mode != 'analyze'
@@ -74,16 +97,61 @@ jobs:
         run: |
           git config user.name "idea-flow-bot"
           git config user.email "idea-flow-bot@users.noreply.github.com"
-          git add texts parts notes IdeaThinkingFlow.md cache 2>/dev/null || true
-          git add -A texts parts notes 2>/dev/null || true
-          if [ -f IdeaThinkingFlow.md ]; then git add IdeaThinkingFlow.md; fi
+          git add -A texts parts notes IdeaThinkingFlow.md cache 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "nothing to commit"
           else
-            git commit -m "IdeaThinkingFlow update (run ${{ github.run_id }}, mode ${{ inputs.mode }})"
-            git pull --rebase origin ${GITHUB_REF_NAME} || true
-            git push origin HEAD:${GITHUB_REF_NAME}
+            git commit -m "IdeaThinkingFlow update (run ${{ github.run_id }}, mode ${{ inputs.mode }}, chain ${{ inputs.chain }})"
+            git pull --rebase origin "${GITHUB_REF_NAME}" || true
+            git push origin HEAD:"${GITHUB_REF_NAME}"
           fi
+
+      - name: Chain next run (auto-continue until corpus is done)
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          REMAINING_FILE="notes/_remaining.txt"
+          REMAINING=""
+          [ -f "$REMAINING_FILE" ] && REMAINING=$(cat "$REMAINING_FILE")
+          if [ -z "$REMAINING" ]; then
+            REMAINING=$(python3 - <<'PY'
+          import json, pathlib
+          parts = json.loads(pathlib.Path("parts/parts.json").read_text())
+          done = sum(1 for p in parts if (pathlib.Path("notes")/f"{p['file']}__part{p['part']:02d}.md").exists())
+          print(len(parts) - done)
+          PY
+          )
+          fi
+          BEFORE="${NOTES_BEFORE:-0}"
+          AFTER=$(find notes -name '*__part*.md' 2>/dev/null | wc -l || echo 0)
+          CHAIN="${{ inputs.chain }}"
+          echo "chain=$CHAIN remaining=$REMAINING notes_before=$BEFORE notes_after=$AFTER"
+          if [ "${{ inputs.mode }}" = "distill" ]; then
+            echo "distill run — chain ends here"
+            exit 0
+          fi
+          if [ "$REMAINING" = "0" ] || [ -z "$REMAINING" ]; then
+            echo "corpus complete — chaining a final distill run"
+            gh workflow run idea-thinking-flow.yml \
+              -R "${{ github.repository }}" -f mode=distill -f chain=$((CHAIN + 1)) \
+              -f in-flight="${{ inputs.in-flight }}" -f per-file="${{ inputs.per-file }}"
+            exit 0
+          fi
+          PROGRESS=$(( AFTER > BEFORE ? AFTER - BEFORE : 0 ))
+          if [ "$PROGRESS" -le 0 ] && [ "$CHAIN" != "0" ]; then
+            echo "no progress this run — stopping the chain (needs manual attention)"
+            exit 0
+          fi
+          if [ "$CHAIN" -ge "$CHAIN_LIMIT" ]; then
+            echo "chain limit reached ($CHAIN_LIMIT) — stopping"
+            exit 0
+          fi
+          echo "chaining next analyze run (chain $((CHAIN + 1)), $REMAINING parts remain)"
+          gh workflow run idea-thinking-flow.yml \
+            -R "${{ github.repository }}" -f mode=analyze -f chain=$((CHAIN + 1)) \
+            -f limit-files="${{ inputs.limit-files }}" \
+            -f in-flight="${{ inputs.in-flight }}" -f per-file="${{ inputs.per-file }}"
 
       - name: Upload artifacts
         if: always()

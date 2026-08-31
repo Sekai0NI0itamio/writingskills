@@ -24,6 +24,8 @@ from __future__ import annotations
 import argparse
 import asyncio
 import json
+import os
+import subprocess
 import sys
 import time
 from collections import Counter
@@ -68,6 +70,20 @@ HARD RULES: every claim carries a short verbatim quote from the text; mechanisms
 INDEX_NAME = ROOT / "notes" / "_index.json"
 
 
+def _git_commit(done_n: int) -> None:
+    """Commit+push finished notes so a hard timeout loses almost nothing."""
+    try:
+        subprocess.run(["git", "add", "notes"], cwd=ROOT, capture_output=True, timeout=60)
+        r = subprocess.run(["git", "commit", "-m", f"idea-flow progress: {done_n} parts done"],
+                           cwd=ROOT, capture_output=True, timeout=60)
+        if r.returncode == 0:
+            subprocess.run(["git", "pull", "--rebase", "origin", "main"], cwd=ROOT, capture_output=True, timeout=120)
+            p = subprocess.run(["git", "push", "origin", "HEAD:main"], cwd=ROOT, capture_output=True, timeout=120)
+            log(f"progress commit pushed ({done_n} parts done, rc={p.returncode})")
+    except Exception as e:  # noqa: BLE001
+        log(f"progress commit failed: {redact(str(e))[:120]}")
+
+
 def load_jobs(limit_files: int, only: str) -> list[dict]:
     data = json.loads(PARTS.read_text())
     files = sorted({p["file"] for p in data})
@@ -108,6 +124,8 @@ async def main() -> None:
     ap.add_argument("--in-flight", type=int, default=15, help="global concurrent agents")
     ap.add_argument("--per-file", type=int, default=5, help="max concurrent agents per file")
     ap.add_argument("--only", type=str, default="", help="process files whose name contains this")
+    ap.add_argument("--max-minutes", type=int, default=0, help="graceful stop: finish in-flight, skip new parts after N minutes (0 = no limit)")
+    ap.add_argument("--commit-every", type=int, default=0, help="git commit+push notes every N newly analyzed parts (0 = off)")
     args = ap.parse_args()
 
     NOTES.mkdir(exist_ok=True)
@@ -122,14 +140,22 @@ async def main() -> None:
     done_count = {"done": 0, "skipped": 0, "failed": 0}
     total = len(jobs)
     start = time.time()
+    deadline = start + args.max_minutes * 60 if args.max_minutes > 0 else None
+    since_commit = {"n": 0}
 
     file_sems: dict[str, asyncio.Semaphore] = {f: asyncio.Semaphore(args.per_file) for f in files}
     global_sem = asyncio.Semaphore(args.in_flight)
 
     async def worker(job: dict):
+        if deadline is not None and time.time() > deadline:
+            return  # past the graceful stop — this part re-runs in the next chained run
         async with global_sem:
             async with file_sems[job["file"]]:
                 await analyze_part(job, stats, done_count)
+                if args.commit_every > 0 and done_count["done"] > 0 and done_count["done"] % args.commit_every == 0 \
+                        and since_commit["n"] != done_count["done"]:
+                    since_commit["n"] = done_count["done"]
+                    await asyncio.get_running_loop().run_in_executor(None, _git_commit, done_count["done"])
 
     stop = False
 
@@ -137,8 +163,9 @@ async def main() -> None:
         while not stop:
             el = time.time() - start
             sys.stdout.write("\033[2J\033[H")
+            left = f" | stop in {max(0, int((deadline - time.time()) / 60))}m" if deadline else ""
             print(f"IdeaThinkingFlow — {len(jobs)} parts | done {done_count['done'] + done_count['skipped']}/{total} "
-                  f"(cached {done_count['skipped']}, failed {done_count['failed']}) | {el:.0f}s | model {MODEL}")
+                  f"(cached {done_count['skipped']}, failed {done_count['failed']}) | {el:.0f}s{left} | model {MODEL}")
             print("-" * 104)
             print(f"{'File':<56} {'Status':<18} {'Parts done':<12}")
             print("-" * 104)
@@ -167,7 +194,9 @@ async def main() -> None:
         if f.exists() and f.stat().st_size > 600:
             index.append({"file": p["file"], "part": p["part"], "heading": p["heading"], "note": str(f.relative_to(ROOT))})
     INDEX_NAME.write_text(json.dumps(index, indent=1), encoding="utf-8")
-    log(f"complete: {done_count['done']} analyzed, {done_count['skipped']} cached, {done_count['failed']} failed — index at {INDEX_NAME}")
+    remaining = sum(1 for j in jobs if not (NOTES / f"{j['file']}__part{j['part']:02d}.md").exists())
+    log(f"complete: {done_count['done']} analyzed, {done_count['skipped']} cached, {done_count['failed']} failed — {remaining} parts remain — index at {INDEX_NAME}")
+    (NOTES / "_remaining.txt").write_text(str(remaining), encoding="utf-8")
 
 
 if __name__ == "__main__":
