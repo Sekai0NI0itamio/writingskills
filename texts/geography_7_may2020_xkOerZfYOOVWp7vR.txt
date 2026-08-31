@@ -1,0 +1,786 @@
+To what extent does the Glenderaterra Beck
+follow the predictions of the Bradshaw Model?
+                A RIVER FIELD WORK STUDY
+
+
+        Geography Internal Assessment | Assessment May 2020
+
+                        [Word count: 2365]
+
+
+
+
+                                 i
+Contents
+Acknowledgements ................................................................................................................. iii
+Table of Figures ....................................................................................................................... iii
+I. Fieldwork Question and Geographic Context ...................................................................... 1
+   a. Hypotheses ........................................................................................................................ 1
+   b. Relation to Syllabus........................................................................................................... 1
+   c. Geography in Study Area .................................................................................................. 1
+   d. Geographic Theory............................................................................................................ 2
+II. Methods of Investigation ..................................................................................................... 2
+   a. Equipment ......................................................................................................................... 2
+   b. Particle Size and Shape ..................................................................................................... 3
+   c. Velocity .............................................................................................................................. 3
+   d. Wet Width......................................................................................................................... 3
+   e. Wet Depth ......................................................................................................................... 3
+   f. Wetted Perimeter...............................................................................................................4
+   g. Sampling Strategies ...........................................................................................................4
+III. Hypothesis 1 – Particle Size and Shape............................................................................... 5
+   a. Particle Size ....................................................................................................................... 5
+   b. Particle Shape .................................................................................................................... 7
+IV. Hypothesis 2 – Hydraulic Radius........................................................................................8
+V. Hypothesis 3 – Velocity ...................................................................................................... 10
+VI. Conclusion ..........................................................................................................................12
+VII. Evaluation..........................................................................................................................12
+References ................................................................................................................................ 13
+Appendices ............................................................................................................................... iv
+   a. Raw Data ........................................................................................................................... iv
+   b. Spearman’s Rank Correlation Coefficient ....................................................................... iv
+   c. Critical Values.................................................................................................................... v
+   d. Calculations ....................................................................................................................... v
+
+
+
+                                                                      ii
+Acknowledgements
+I want to thank the Field Studies Council Fieldwork Centre in Blencathra for aid and
+guidance with the investigation and the data collection.
+
+
+
+Table of Figures
+Fig. 1: Map of the Glenderaterra Beck ...................................................................................... 1
+Fig. 2: Cumbria in England [1].................................................................................................... 1
+Fig. 3: Cumbria - screenshot from Google Maps [2].................................................................. 1
+Fig. 4: Bradshaw Model............................................................................................................. 2
+Fig. 5: Equipment ...................................................................................................................... 2
+Fig. 6: Power's Roundness Index [3] – 1 (left) to 6 (right) ......................................................... 3
+Fig. 7: Stratified Strategy ...........................................................................................................4
+Fig. 8: Particle Size – all axes .................................................................................................... 5
+Fig. 9: Particle Volume ..............................................................................................................6
+Fig. 10: Distribution of Particle Shapes .................................................................................... 7
+Fig. 11: Hydraulic Radius ...........................................................................................................8
+Fig. 12: Hydroprop Velocity ..................................................................................................... 11
+
+
+
+
+                                                                   iii
+I. Fieldwork Question and Geographic Context
+A. HYPOTHESES
+       1) The particle size decreases, and shape increases as the river distances from the
+source due to attrition.
+       2) As the distance downstream increases, the Hydraulic Radius increases. That is
+because the river widens and deepens and therefore becomes more effective at transporting
+water.
+       3) The velocity does increase with distance downstream because tributaries join the
+river and add more water, increasing the speed of the flow.
+
+B. RELATION TO SYLLABUS
+      The study relates to Option A: Freshwater.
+
+C. GEOGRAPHY IN STUDY AREA
+       The Glenderaterra Beck is a river in the Northern Lake
+District in England, its source situated between the moun-
+tains Blencathra and Skiddaw, creating a steep valley. The
+mountains are 700 to 800m high at either side of the river.
+That makes it easy for rainwater to flow into said river.
+The land around the upper part of the river is used for sheep
+farming, making it hard for trees to grow. Because of the low
+interception, this creates a further factor that contributes to
+the rather excessive flow of rainwater into the river.
+Due to the maritime climate with lots of humid, windy and
+cold days, there is an abundance of relief rainfall. The about
+1500mm rain per year create a risk of flooding, such as one in
+                                                                  Fig. 1: Map of the Glenderaterra Beck
+Keswick, a town just nearby, in 2009.
+       Not only the relief, land use and climate contribute to rising river levels, but also the
+geology. Around the Glenderaterra Beck there is a lot of slate, some rocks bigger than oth-
+ers. Because these rocks are impermeable, the speed of the water  Fig. 2:running
+                                                                          Bradshawdown
+                                                                                    ModelFig. 3: Map of
+                                                                                         the hill
+increases, which then also leads to a higher discharge of water inthethe
+                                                                      Glenderaterra
+                                                                          river.     Beck
+
+
+
+                                                                   Fig. 4: Bradshaw Model
+
+
+
+                                                      Keswick      Fig. 5: Bradshaw ModelFig. 6: Map
+                                                                   of the Glenderaterra Beck
+
+
+
+                                                                    Fig. 7: Bradshaw ModelFig. 8: Map
+                                                                    of the Glenderaterra Beck
+    Fig. 2: Cumbria in England [1]            Fig. 3: Cumbria - screenshot from Google Maps [2]
+                                                1
+                                                                   Fig. 9: Bradshaw ModelFig. 10: Map
+                                                                   of the Glenderaterra Beck
+                                      D. GEOGRAPHIC THEORY
+                                              The Bradshaw Model describes a rivers character-
+                                      istic and its variation between the upstream and down-
+                                      stream part of the river, for example as the river flows
+                                      downstream the slope angle decreases.
+                                              The hypothesis formed states that the river stud-
+                                      ied does follow the predictions of the Bradshaw Model.
+                                              We must consider that not all variables increase
+                                      by the same factor, which means that for example dis-
+                                      charge and load quantity increase more radically than
+                                      the average velocity.
+                                              However, the three variables that are supposed to
+                                      decrease may decrease by the same or a similar factor.
+
+
+Fig. 4: Bradshaw Model
+
+
+
+
+   II. Methods of Investigation
+   A. EQUIPMENT
+
+
+        Chain                                                                       Metre ruler
+
+
+      Hydroprop                                                                   Stopwatch
+       Chain                                                                       Metre ruler
+
+
+Power’s Roundness Index                                                            Clinometer
+      Hydroprop                                                                   Stopwatch
+       Chain                                                                       Metre ruler
+
+
+Power’sImpeller
+        Roundness Index                                                            Tape measure
+      Hydroprop                                                                    Clinometer
+                                                                                  Stopwatch
+       Chain                                                                       Metre ruler
+                          Fig. 5: Equipment
+
+Power’sImpeller
+        Roundness Index                                                            Fig. 18: Equip-
+      Hydroprop                                                                    Clinometer
+                                                                                  Stopwatch
+       Chain                                                                         mentTape
+                                                                                   Metre   ruler
+                                                                                      measure
+Power’sImpeller
+        Roundness Index
+      Hydroprop                                                                    Clinometer
+                                                                                  Stopwatch
+       Chain                                                                        Metre ruler
+                                                                                   Fig. 19: Equip-
+Power’sImpeller
+        Roundness Index                         2                                  ment
+      Hydroprop                                                                    Clinometer
+                                                                                  Stopwatch
+       Chain                                                                        Metre ruler
+
+Power’sImpeller
+        Roundness Index                                                               Fig. 20:
+ What data was collected?    How was the data collected?            Why was the data collected?
+B. PARTICLE SIZE AND        The width, length and depth of         Due to attrition the rocks may
+SHAPE                       a rock or pebble is measured           be more rounded or angular.
+                            using a ruler. To determine the        To measure the size and shape
+                            shape the Power's Roundness            of rocks one can investigate if
+                            Index was used.                        attrition happens altogether.
+
+
+
+
+                                     Fig.6: Power's Roundness Index [3] – 1 (left) to 6 (right)
+
+C. VELOCITY                 An impeller is attached to a The distance travelled by the
+                            Hydroprop. This is placed into impeller and the time meas-
+                            the water Fig. 29:
+                                             withStratified   StrategyFig.
+                                                      reasonable        ured 30:  Power's
+                                                                              is used  to Roundness
+                                                                                           calculate the
+                            depth. As    soon[2]as
+                                      Index       – 1the
+                                                      (left) to  6 (right)
+                                                          impeller      velocity.
+                            is covered by water, the time is
+                            recorded with a stopwatch.
+D. WET WIDTH                Two people are measuring the Used to calculate the Cross-
+                                      Fig. 31: Stratified Strategy
+                            width just above the river level Section Area.
+                            using a tape measure. A third
+                            person is the recorder, mean-
+                            ing theyFig.
+                                       keep 32:track
+                                                Particleof the   re-all axesFig. 33: Stratified Strate-
+                                                            Size –
+                            sults. It is  advisable
+                                      gyFig.   34: to
+                                                    Power'suse the
+                                                               Roundness Index [2] – 1 (left) to 6
+                            metric system.
+                                      (right)
+                            The recorder either uses a sys-
+                            tem that automatically divides
+                            the width into ten values, or
+E. WET DEPTH                manuallyFig.    35: Stratified
+                                         calculates
+                                              [2]
+                                                       them.StrategyFig.     36: Power's Roundness
+                                                                        Used to calculate the Cross-
+                                      Index       – 1 (left) to  6
+                            The depth is measured at Section Area. (right)
+                            those ten calculated points;
+                            therefore, the tape measure
+                            must beFig. stretched      acrossStrategyFig.
+                                            37: Stratified      the          38: Power's Roundness
+                            river. AIndexfourth
+                                              [2] person now
+                                                  – 1 (left) to 6 (right)
+                            uses a metre ruler and sticks it
+                            in at each of the ten points. It
+                            is easier to read off the results
+                            off the Fig.
+                                      ruler39:   Stratified
+                                             if it's          StrategyFig. 40: Power's Roundness
+                                                       stuck into
+                                              [2]
+                            the water Index
+                                          along – 1the(left)
+                                                         flowto 6
+                                                                and(right)
+                            not across.
+
+
+                                     Fig. 41: Stratified Strategy
+
+
+
+                                     Fig. 42:3Particle Size – all axesFig. 43: Stratified Strate-
+                                     gyFig. 44: Power's Roundness Index [2] – 1 (left) to 6
+                                     (right)
+ F. WETTED PERIMETER             A chain is laid down on the riv- Used to calculate the Hydrau-
+                                 erbed, it's beginning at the top lic Radius.
+                                 of the bank. After fully placed
+                                 in the water, across the river,
+                                 the chain will be laid up the
+                                 riverbank. The wetted perime-
+                                 ter is determined by holding
+                                 the chain's point where it got
+                                 out at the bank and measure
+                                 the length from start to there.
+
+
+
+
+G. SAMPLING STRATEGIES
+       A stratified strategy was used to collect the data,
+meaning that a proportional number of measurements was
+taken in each area. The data is measured after each tributary
+joins the river.
+       This strategy is quicker than others as more data can
+be collected in the time provided.
+        There were only three sites of data collection, all sit-
+uated with low distance downstream. This can be seen as a
+limitation to the study; however, trends can still be estab-
+lished with the three sites being upstream.
+
+
+
+
+                                                                   Fig. 7: Stratified Strategy
+
+
+
+
+                                                4
+III. Hypothesis 1 – Particle Size and Shape
+  Null Hypothesis (H0): There is no relationship between distance downstream and
+                                 particle size/shape.
+  Alternative Hypothesis (H1): The particle size and shape decrease as the river dis-
+                               tances from the source.
+
+       To investigate the change in particle size and shape, I will look at both factors indi-
+vidually. The data used for all figures can be found in the appendices.
+
+A. PARTICLE SIZE
+
+                                                              Particle Size - all axes
+                      700
+
+                      600
+
+                      500
+
+
+
+
+   average Axis /mm
+                      400
+
+                      300
+
+                      200
+
+                      100
+
+                        0
+                            1,88             1,98               2,08               2,18           2,28            2,38
+                                                                 Distance Downstream /km-1
+
+                                   Av. A Axis (mm)                     Av. B Axis (mm)             Av. C Axis (mm)
+                                   Linear (Av. A Axis (mm))            Linear (Av. B Axis (mm))    Linear (Av. C Axis (mm))
+
+Fig. 8: Particle Size – all axes
+        The Axes B and C are decreasing throughout the sites, whereas Axis A is increasing.
+I will go into detail about this effect in the section “b. Particle Shape”.
+
+        I believe that in order to establish an actual correlation between the distance from
+the source and the particle size, it would be more useful to work in volume rather than in
+lengths of particle axes. Hence, I will use volume to maximise the possibility of a correct
+result. I will not look at the sites individually, because there might be a negative trend at
+each site, but an overall positive trend. This will increase the hopes of a correct result.
+
+
+
+
+                                                                               5
+                                                  Particle Volume - all sites
+                          16000
+
+                          14000
+
+                          12000
+
+
+
+
+   Particle Volume /cm3
+                          10000
+
+                          8000
+
+                          6000
+
+                          4000
+
+                          2000
+
+                             0
+                                  1,88   1,98           2,08          2,18            2,28             2,38
+                                                          Distance Downstream /km
+
+                                         Particle Volume (cm3)        Linear (Particle Volume (cm3))
+
+
+Fig. 9: Particle Volume
+
+
+        There is an overall positive trend, although a weak one, it seems. It is skewed into
+the positive by outliers, e.g. at (2.01|7085.21), (2.02|5823.65) and (2.40|13,895.81). These
+anomalies could have been caused by particles fallen or thrown into the river by animals or
+hikers. These result do not meet the predictions of the Bradshaw Model.
+        The Spearman’s Rank Correlation Coefficient for this set of values is 0.03. This is a
+very weak value, which does not exceed the required value of 0.409 at n = 24, therefore I
+will have to accept the null hypothesis, i.e. there is no significant correlation between par-
+ticle size and distance downstream.
+
+
+
+
+                                                                 6
+B. PARTICLE SHAPE
+       The particle shape is determined using the “Power’s Roundness Index” (see Method-
+ology). This shows us how angular and how spherical the particle is.
+
+                                        Particle Shape - all sites
+                  6
+
+                  5
+
+                  4
+
+
+
+      Frequency
+                  3
+
+                  2
+
+                   1
+
+                  0
+                            Site 1                        Site 2                  Site 3
+                  -1
+
+                       very angular             angular                 sub-angular
+                       sub-rounded              Linear (very angular)   Linear (angular)
+                       Linear (sub-angular)     Linear (sub-rounded)
+
+   Fig. 10: Distribution of Particle Shapes
+
+         There is not much variation between the particles collected from different distances
+downstream, they are all either sub-angular or sub-rounded. An exception is a particle at
+site 1, which is surprisingly very angular. The Bradshaw Model predicts that the particles, as
+well as getting smaller, smooth out with distance downstream. A possibility is that the par-
+ticle was transferred into the water more recently than the other particles, probably through
+external influence. When looking at Fig. 6 (Particle Size), at x = 1.95, we can see that the
+same particle was the smallest collected at that site. This may be an explanation, because
+smaller particles can travel easier for longer distances without experiencing as much attri-
+tion as larger particles as they have less surface area.
+
+       Picking up the before mentioned axes A, B and C, I have noticed that the trends are
+also showing, or at least indicating, the shapes or the particles. There is an increase in Axis
+A (longitudinal), but a decrease in Axis B (latitudinal) throughout the sites. This could in-
+dicate that the particles get more oblong and less rounded, i.e. their sphericity decreases.
+       Concluding, the particles get smoother throughout the sites, but their sphericity de-
+creases.
+
+
+
+
+                                                      7
+IV. Hypothesis 2 – Hydraulic Radius
+ Null Hypothesis (H0): There is no correlation between distance downstream and
+                                the Hydraulic Radius.
+ Alternative Hypothesis (H1): As the distance downstream increases, the Hydraulic
+                               Radius increases with it.
+
+        The hydraulic radius is a measure to determine how effective a river is flowing and
+how efficiently it transports water. It is calculated by dividing the Cross-Section Area by the
+Wetted Perimeter.
+        For example, the Hydraulic Radius at 1.89km distance from the source is calculated
+as follows:
+
+
+                                           𝐶𝑟𝑜𝑠𝑠−𝑆𝑒𝑐𝑡𝑖𝑜𝑛 𝐴𝑟𝑒𝑎        𝑊𝑒𝑡 𝑊𝑖𝑑𝑡ℎ × 𝑊𝑒𝑡 𝐷𝑒𝑝𝑡ℎ
+Hydraulic Radius                       =                    = 𝑊𝑒𝑡 𝑊𝑖𝑑𝑡ℎ+2(𝑊𝑒𝑡 𝐷𝑒𝑝𝑡ℎ)
+                                           𝑊𝑒𝑡𝑡𝑒𝑑 𝑃𝑒𝑟𝑖𝑚𝑒𝑡𝑒𝑟
+
+                                           (2.51×0.05)     0.1255
+                                       = 2.51+2(0.05) = 2.61
+
+                                       = 0.0480
+
+
+           All values for the hydraulic radius are displayed in Figure 9.
+
+
+                                                           Hydraulic Radius
+                          0,3
+
+                         0,25
+
+
+
+
+      Hydraulic Radius
+                          0,2
+
+                         0,15
+
+                          0,1
+
+                         0,05
+
+                           0
+                                1,88       1,98             2,08           2,18           2,28          2,38
+                                                             Distance Downstream /km
+
+                                                  Hydraulic Radius          Linear (Hydraulic Radius)
+
+   Fig. 11: Hydraulic Radius
+
+
+
+
+                                                                      8
+        It is clear to see that there is an overall increase in Hydraulic radius, meaning that as
+the river commences, it becomes more efficient as transporting water. This is because the
+river gets wider and deeper with distance downstream, as predicted by the Bradshaw Model.
+However, to achieve the maximum efficiency potential, the cross-section area must be large,
+whereas the wetted perimeter must be kept small. This assures the highest possible value
+for the hydraulic radius, therefore the highest efficiency.
+        Although the overall trend in increasing, the river would not have such a high in-
+crease in hydraulic radius, because the data points (1.91|0.168) and (2.42|0.269) are influ-
+encing the correlation and skewing the coefficient into the positive. These anomalies could
+have been caused but sudden widenings of the river due to tributaries joining or curving of
+the riverbanks.
+
+        As shown by the graph, there is a definite increase, however, to establish if this
+means I can reject the null hypothesis, I am going to use the Spearman’s Rank correlation
+coefficient (see Appendix b.).
+
+ Independent                       Dependent
+                   Rank (Rx)                          Rank (Ry)      D (Rx-Ry)           D2
+  variable (x)                     variable (y)
+      1.89              1             0.048              4               -3              9
+      1.90              2             0.088              9              -7               49
+      1.91              3             0.166              20             -17             289
+      1.92              4             0.108              15             -11              121
+      1.93              5             0.087              8               -3              9
+      1.94              6             0.049              5               1                1
+      1.95              7             0.090             10.5            -3.5            12.25
+      1.96              8             0.103              14             -6               36
+      2.00              9             0.031               1              8               64
+      2.01             10             0.084              7               3               9
+      2.02             11             0.046              3               8               64
+      2.03             12             0.090             10.5            1.5             2.25
+      2.04             13             0.056              6               7               49
+      2.05             14             0.121              17              -3              9
+      2.06             15             0.040              2               13             169
+      2.07             16             0.099              13              3               9
+      2.37             17             0.097              12              5               25
+      2.38             18             0.170              22             -4               16
+      2.39             19             0.129             18.5            0.5             0.25
+
+                                                  9
+     2.40              20            0.129            18.5            1.5            2.25
+      2.41              21           0.109            16               5              25
+      2.42             22            0.269            24              -2               4
+      2.43              23           0.172            21               2               4
+      2.44             24            0.187            23               1               1
+                                                             Σ         0             979
+
+              6(979)
+𝑅𝑠 = 1 − (            ) = 1 − 0.43
+             243 − 24
+
+Rs = 0,57
+
+
+        As the Spearman’s Rank Correlation Coefficient for the hydraulic radius with respect
+to distance downstream is 0.57, and the critical value for 24 ranks is 0.409 (see appendix c),
+we can reject the null hypothesis of no correlation at a 95% confidence level. This means
+we can accept the alternative hypothesis (H1), i.e. there is a positive correlation between
+distance downstream and the hydraulic radius.
+
+       It is important to notice that the river study indeed investigated changes of the Glen-
+deraterra Beck downstream, but the area of investigation is relatively upstream. That means
+that although the test results say that the Hydraulic Radius increases with distance from
+the source, it might have a peak at a certain distance and then decrease again.
+
+
+
+V. Hypothesis 3 – Velocity
+ Null Hypothesis (H0): There is no correlation between distance downstream and
+                                     velocity.
+  Alternative Hypothesis (H1): The velocity increases with distance downstream.
+
+       Velocity measures how fast a river flows. When a Hydroprop is used, the velocity is
+calculated as follows:
+                                             3.2805
+       𝐻𝑦𝑑𝑟𝑜𝑝𝑟𝑜𝑝 𝑉𝑒𝑙𝑜𝑐𝑖𝑡𝑦 = 0.0277 + (𝑡 𝑖𝑛 𝑠𝑒𝑐𝑜𝑛𝑑𝑠 ) , where 3.2805 is the distance travelled
+by the impeller.
+
+       All obtained values for the Hydroprop velocity are displayed in Figure 10.
+
+
+
+
+                                              10
+                                                              Hydroprop Velocity
+                                     0,6
+
+
+
+
+      av. Hydroprop Velocity /ms-1
+                                     0,5
+
+                                     0,4
+
+                                     0,3
+
+                                     0,2
+
+                                     0,1
+
+                                      0
+                                           1,88   1,98          2,08          2,18          2,28             2,38
+                                                                 Distance Downstream /km
+
+                                                    Hydroprop Velocity         Linear (Hydroprop Velocity)
+
+
+   Fig. 12: Hydroprop Velocity
+
+
+       A definite positive trend can be seen. There is an outlier present at (1.90|0.39), where
+the velocity is higher than at the rest of the site. At site 2, the velocities measured have more
+variation in their values - some are higher, some are lower. This makes it harder to establish
+outliers. At site 3, a similar problem is present. I will treat the data as if there is only one
+outlier, however, an explanation for the variating values is that the velocity might have been
+measured behind a rock, which would lower the value at that distance downstream, as the
+rock would interfere with the flow of the water and slow it down. On the other hand, higher
+velocity values could have arisen due to free flow of water without any interference.
+
+        The Spearman’s Rank Correlation Coefficient (Rs) for the correlation of Hydroprop
+velocity and distance downstream is 0.51. This exceeds the critical value of 0.409 at n = 24,
+therefore the null hypothesis can be rejected at a 95% confidence level. This means that
+there is a significant positive correlation between distance downstream and Hydroprop ve-
+locity.
+
+
+
+
+                                                                         11
+VI. Conclusion
+Summary of results:
+▪ The particle size did not increase significantly, but the shape did change as predicted.
+▪ There is a significant positive correlation between hydraulic radius and distance down-
+  stream.
+▪ There is a significant positive correlation between velocity and distance downstream.
+
+
+   Firstly, the particle size has increased over the three sites, when it was predicted to de-
+crease. Although the shape has changed into the rounded direction, thus higher values on
+Power’s Roundness Index, the initial hypothesis of the particle size decreasing and the
+shape increasing had to be rejected, as not all requirements to make the statement true
+have been fulfilled.
+   Secondly, a positive correlation between hydraulic radius and distance downstream was
+proven. Although the Bradshaw Model does not specify how the hydraulic radius changes
+with distance from the source, with the river widening and deepening the hydraulic radius
+should increase up to a certain point.
+   Lastly, a positive correlation between velocity and distance downstream has been deter-
+mined. With more tributaries joining the river, it gains water and therefore speed.
+
+   In general, it can be said that the Glenderaterra Beck follows the predictions of the Brad-
+shaw Model to the extent of anything that has to do with purely the river, and not its bed-
+load, falling into the predictions of the Bradshaw Model.
+
+
+
+VII. Evaluation
+       The data obtained in field studies is heavily influenced by the equipment and meth-
+ods used. Because most data were collected by hand, errors are unavoidable, but the
+weather conditions play a major role in data collection as well. During the 3 day-stay at
+Blencathra Field Studies Centre, it has been raining non-stop, and that has influenced not
+only the results, but also the way data collected.
+
+        It was hard to read off results and because the rain has caused the water level in the
+river to rise, it was difficult to obtain results while trying to not soak all clothes. Also, the
+river was very fast, and additionally to difficulties in maintaining balance inside the river
+due to slippery bedload, it was hard to stand inside and measure values at the same time.
+However, the rain had done more damage to the clothes that to the data, so the values
+obtained were as reliable as if they would have been on a brighter day.
+        An aspect to mention is the sampling strategy. What would have given more precise
+results is if the sites were further apart to underline trends that can be seen on a larger scale
+instead within approximately 500 metres. I think another sampling strategy would have
+produced more data for analysis, however, given the time required and access to the river,
+this was not possible. A systematic strategy could have been a better option.
+                                               12
+References
+[1]
+    TUBS. “Cumbria in England.” Cumbria, Wikimedia Commons, 28 Nov. 2011, Retrieved
+       from: de.wikipedia.org/wiki/Cumbria.
+       Accessed on 09.03.2020
+[2]
+    Google Maps. “Cumbria.” Cumbria, 2020, Retrieved from:
+         www.google.com/maps/place/Cumbria/@54.6313011,-
+         3.0454932,9z/data=!4m5!3m4!1s0x48632ab0a13de7c5:0x16e1925b0544819a!8m2!3d54.
+         5772323!4d-2.7974835.
+         Accessed on 09.03.2020
+[3]
+   : Saputra, Wardana. “A New Roundness Scale for Sedimentary Particles (after Powers).”
+         Problem Encountered When Producing Carbonate Sand Reservoir, ResearchGate,
+         May 2016, Retrieved from: www.researchgate.net/profile/Wardana_Saputra/publi-
+         cation/303702743/figure/fig4/AS:368119399895044@1464777912894/A-new-round-
+         ness-scale-for-sedimentary-particles-after-Powers.png.
+         Accessed on 20.03.2019
+
+Note: All figures except the ones referenced were produced by the student.
+
+
+
+
+                                             13
+Appendices
+A. RAW DATA
+         Distance     Wet     Av.     Hydroprop
+                                                    Av. A Axis   Av. B Axis   Av. C Axis   Av. Power’s
+ Site   Downstream   Width   Depth     Velocity
+                                                      (mm)         (mm)         (mm)       Shape Index
+           (km)       (m)     (m)       (m/s)
+  1       1.89       2.51     0.05      0.13        110.80        55.80        20.60         3.00
+  1       1.90       1.61     0.10      0.39        172.70       126.40        55.50         4.00
+  1       1.91       1.44     0.20      0.12         54.10        40.10        14.20         3.00
+  1       1.92       1.78     0.14      0.23        108.20        81.90        28.60         4.00
+  1       1.93       2.25     0.09      0.08         80.50        47.00        17.40         4.00
+  1       1.94        163     0.06      0.20         58.50        50.30        12.90         3.00
+  1       1.95       1.05     0.09      0.20         11.40         6.20         3.50         1.00
+  1       1.96       2.30     0.15      0.13         62.50        43.60        18.70         3.00
+  2       2.00       4.42     0.03      0.16         72.70        14.10        14.10         4.00
+  2       2.01       4.00     0.10      0.41        314.50       195.90       115.00         3.00
+  2       2.02       3.92     0.06      0.29        321.20       199.90       90.70          2.00
+  2       2.03       3.48     0.11      0.27        152.20       125.50       65.40          3.00
+  2       2.04       4.20     0.06      0.22         81.70        52.20        17.80         3.00
+  2       2.05       2.20     0.15      0.42        64.80         46.20        23.10         4.00
+  2       2.06       3.14     0.05      0.11          8.10         5.50        2.00          3.00
+  2       2.07       3.05     0.12      0.36        95.40         63.00       24.80          3.00
+  3       2.37       6.65     0.10      0.48        127.50        27.00        27.00         2.00
+  3       2.38       7.20     0.18      0.38        190.00        75.50        75.50         3.00
+  3       2.39       5.38     0.14      0.25        145.50        45.80       45.80          4.00
+  3       2.40       5.70     0.15      0.41        665.50       144.50       144.50         4.00
+  3       2.41       4.00     0.16      0.41         68.10        18.20        18.20         3.00
+  3       2.42       6.95     0.31      0.23         87.20        16.10        16.10         4.00
+  3       2.43       7.45     0.18      0.32         6.50          5.50         2.40         4.00
+  3       2.44       3.20     0.20      0.39        110.60        71.60        17.00         3.00
+
+
+
+B. SPEARMAN’S RANK CORRELATION COEFFICIENT
+          6∑𝐷2
+𝑅𝑠 = 1 − (𝑛3−𝑛); Where Rs is the correlation coefficient, D the difference between the
+ranks and n the number of ranks.
+
+
+
+                                               iv
+C. CRITICAL VALUES
+                                                 Confidence Levels
+    Number of ranks (n)                  95%                            99%
+                5                        1.000                            -
+                6                        0.886                         1.000
+                7                        0.786                         0.929
+                8                        0.738                         0.881
+                9                        0.683                         0.883
+               10                        0.648                         0.818
+               11                        0.623                         0.794
+               12                        0.591                         0.780
+               13                        0.566                         0.745
+               14                        0.545                         0.716
+               15                        0.525                         0.689
+               16                        0.507                         0.666
+               17                        0.409                         0.645
+               18                        0.476                         0.625
+               19                        0.462                         0.608
+               20                        0.450                         0.591
+               21                        0.438                         0.576
+               22                        0.428                         0.562
+               23                        0.418                         0.549
+               24                        0.409                         0.537
+               25                        0.400                         0.526
+
+
+
+D. CALCULATIONS
+                               6(2224)                                     6(1125.5)
+Rs (particle volume) = 1 − ( 243 −24 )               Rs (velocity) = 1 − ( 243 −24 )
+
+                      = 1 − (0.97)                                = 1 − (0.49)
+
+                      = 0.03                                      = 0.51
+
+
+
+
+                                           v
+

@@ -1,0 +1,367 @@
+1    South Africa set to introduce long-awaited carbon tax in June
+South Africa is on course to put a price on carbon pollution, after the National Assembly passed a long-
+awaited Carbon Tax Bill on Tuesday. The tax will start at 120 rand ($8) a tonne of carbon dioxide,
+although various free allocations reduce the effective rate to R6-54/t, depending on the industry. In
+his budget speech on Wednesday, finance minister Tito Mboweni also announced funds to restructure
+ailing state-owned utility Eskom, which owns most of the country’s coal plants. ”The sustainability
+challenge affects us all. Climate change is real. The steps being undertaken at Eskom will allow us to
+expand renewable energy, and the carbon tax will come into effect from 1 June 2019,” said Mboweni.
+The bill needs to be rubber-stamped by the National Council of Provinces and the president before it
+becomes law. A carbon tax was first proposed in 2010, then repeatedly delayed by industry pushback
+and broader political inertia. The rate at which it increases has been scaled down from 10 per cent
+a year in the initial plan to two per cent above inflation. Climate experts said the introduction of a
+carbon price was significant but its immediate impact would be limited. ”South Africa re-committing
+in the 2019 budget speech to implementing its carbon tax by June 2019 is a welcome and key step
+forward,” said Patrick Curran of LSE, who has been tracking the policy since its inception. ”However,
+according to the South African government’s own analysis, the current design of the tax is too low
+and will not do enough to meet the country’s nationally determined contributions submitted under the
+Paris Agreement.” He added: ”It is crucial that the tax rate is strengthened in future reviews, starting
+in 2022, to support meeting South Africa’s national and global climate change objectives. This has
+to be accompanied by a range of supporting policies, such as greater investment in renewable energy.”
+Harald Winkler, energy and climate policy professor at the University of Cape Town, took a similar
+view. He also urged the government to invest the carbon tax revenues in expanding access to clean
+energy and retraining coal workers. ”Yes, we have to make this transition away from coal and towards
+renewables, but there are workers and communities that depend on the coal value chain,” he said.
+”Those [carbon tax] revenues should be used to make sure the poor are not worse off.” South Africa
+gets some 90 per cent of its electricity and two-thirds of total energy from coal, a high emissions source.
+As its contribution to the Paris Agreement, it committed to peak emissions between 2020 and 2025,
+then plateau for around a decade and decline. Since that 2015 pledge, wind and solar power generators
+have started to undercut new coal plants on price, disrupting Eskom’s coal-heavy monopoly. At the
+same time, citizens face rolling blackouts as ageing, poorly maintained coal plants fail to meet demand.
+Eskom, the main utility, is undergoing a restructure to separate its debt-laden generation business from
+its grid and distribution arms. Mboweni announced a R69 billion ($4.8bn) bailout package, contingent
+on the power company slashing costs. ”Pouring money directly into Eskom in its current form is
+like pouring money into a sieve,” said the finance minister. Winkler said the restructure was ”good
+news for renewables” because independent power producers could deal with Eskom’s grid operation,
+rather than the monopoly generator. Following on from the carbon tax, South Africa is developing a
+framework climate law, to build the institutions to monitor and manage emissions across economic
+sectors. [1]
+
+
+2    Commentary
+South Africa announced the introduction of a carbon tax, on a quantitative basis. Therefore, effective
+June 1st 2019, polluters, such as firms, are required to pay 120 rand (approx. US$8) per tonne of
+carbon dioxide emitted.
+    This is a clear example of negating a negative production externality, which occurs when a third
+party is affected negatively in the production, and this is not reflected in the price. In this case,
+manufacturing industries in South Africa emit carbon dioxide, a greenhouse gas harmful to our en-
+vironment, thus causing a negative effect on the population. Negative production externalities are a
+type of market failure: situations where goods and services are distributed in an inefficient way. These
+need to be internalized with the help of government intervention, in this case, the tax.
+
+
+
+
+                                                    1
+      Figure 1: Market graph of various productions in South Africa that emit carbon dioxide.
+
+    Referring to figure 1, the demand curve is represented in yellow. It is equal to both the marginal
+social benefit, as well as the marginal private benefit, which refer to the benefit to society from the
+consumption of one unit of the good as well as the benefit to the consumer from the consumption
+of one unit of the good, respectively. The supply curve before the tax is in blue, it is equal to the
+marginal private cost (MPC), the cost to the firm for producing one more unit of the good. As such,
+the equilibrium prior to the tax is at point (Qe |Pe ). The red curve is the marginal social cost curve,
+which refers to the cost to society that arises from producing one more unit of the good. It is above
+the MPC curve as the cost to the environment is higher than the cost of raw production: there is an
+externality. The cyan triangle represents the welfare loss, the burden to society for the market not
+operating at the optimum equilibrium. With the introduction of the tax, the goal is to shift the MPC
+curve upwards in order to meet the MSC curve.
+    Supply depends on the determinants of supply, and as such production costs plays a role. Due to
+a per unit tax on carbon dioxide emission, production costs will rise, thus causing the market supply
+curve to shift upwards per unit. As such the aim is to shift the market equilibrium to the point
+(Qt |Pt ). This means selling less units at a higher price, which ultimately decreases the quantity to
+society’s optimum level (Qt , factoring in emission rates).
+    The introduction of the tax will help with the combatting of polution and climate change. A
+strong advantage is that it can be implemented swiftly. The tax will take effect 4 months after its
+announcement. Compared to other measures such as legislation, this is very fast.
+    However, it comes with several issues. Firsly, it is difficult to quantify the MSC curve, especially
+as the problem is pollution and climate change, something that is still being actively researched. The
+government assumes the indirect tax to be the sufficiently priced to perfectly shift the supply curve
+to MSC, even though they can only estimate costs; quantification is difficult. Moreover, it assumes
+that there are no consumption externalities, in the real world, this is very unlikely. These estimations
+and assumptions result in a very vague picture of the problem, and as such the effectiveness of the
+tax suffers. On the contrary, the short implementation time of a tax will allow frequent adjustments
+in the future, which can combat this.
+    Consumers and producers must share the price of this tax, which disadvantages both stakeholders.
+As many products are produced with carbon dioxide, these taxes could add up and severely increase
+consumer spending for the same products. On the contrary, consumers may see this increase in price
+as an incentive to live more sustainably and environmentally friendlier. Producers face an increase in
+production cost, which may put struggling firms out of business.
+    Ultimately, the tax does not eliminate pollution, going completely carbon neutral is not possible
+currently. 120 rand is an insignificant amount for larger firms, they can afford the tax, while smaller
+
+
+                                                   2
+firms are forced to comply. However, production costs will increase, goods produced will decrease,
+and the market supply curve will shift, contributing towards controlling climate change.
+    Therefore, to conclude, taxation is an effective way to decrease the pollution in South Africa, as
+total elimination is not possible. The tax is not significant enough to make a large enough impact,
+but nonetheless a step in the right direction. Consumers and smaller firms are the most negatively
+impacted.
+
+Word Count: 744.
+
+
+
+
+                                                  3
+References
+[1]   Megan Darby. “South Africa set to introduce long-awaited carbon tax in June”. In: BusinessGreen
+      (Feb. 21, 2019). url: https://www.businessgreen.com/bg/news/3071435/south- africa-
+      set-to-introduce-long-awaited-carbon-tax-in-june (visited on 05/01/2019).
+
+
+
+
+                                                  4
+1    OECD tips better economic growth for Australia
+Australia’s economic growth is expected improve next year, but may warrant more fiscal stimulus and a
+potential retightening of lending standards if the surge in house prices continues, the Organisation for
+Economic Co-operation and Development says. The mix between monetary and fiscal policies around
+the world has become ”unbalanced”, according to the OECD’s latest biannual global economic outlook,
+and global growth is also expected to remain at the weakest annual growth rates since the financial
+crisis. In Australia, the OECD said ”a more expansionary fiscal stance may be warranted given that
+the economy is growing well below its potential”. The OECD kept its 2019 estimate of domestic
+economic growth at 1.7 per cent inline with its September estimate, while lifted the 2020 forecast to
+2.3 per cent from its previous 2 per cent forecast. The forecasts are less bullish than the Reserve Bank
+of Australia’s forecasts of 2.3 per cent and 2.6 per cent respectively. The Paris-based OECD warned
+about high debt levels in Australia, which have now reached 202 per cent of income, and that any
+run-up in credit growth and house prices could leave the economy vulnerable.
+    ”Macroprudential policies may need to be tightened if lower interest rates fuel house prices, which
+would create imbalances and expose the economy to downside vulnerabilities,” it said. ”High household
+indebtedness means that the authorities should stand ready to tighten macroprudential policy settings if
+lower interest rates fuel house price inflation through a sharp pick-up in credit.” Housing lending over
+the four months to September has grown at an annualised pace of 52 per cent, while property prices in
+Melbourne and Sydney are growing at an annualised 20 per cent. Treasurer Josh Frydenberg said the
+OECD’s assessment highlighted global risks to the Australian economy. ”We do face headwinds, with
+the OECD in its November Economic Outlook pointing out that the global outlook is ’fragile’ with ’trade
+policy tensions since May taking an increasing toll on confidence and investment’,” Mr Frydenberg said.
+Globally GDP growth has now been downgraded to 2.9 per cent for this year and projected to remain
+around 3 per cent for 2020-21. The OECD blamed ”persistent high policy uncertainty and weak trade
+and investment” for its downgrade and said fiscal policy was needed for ”unaddressed structural changes
+more than any cyclical shock”. ”There is scope and an urgent need for much bolder policy action to
+revive growth,” the OECD said. ”Should the outlook deteriorate more than we project, co-ordinated
+fiscal and monetary action across the G20, even allowing for the limited policy space some central
+banks have, could efficiently avert a recession. ”The current stabilisation at low levels of economic
+growth, inflation and interest rates does not warrant policy complacency.” It has also backed the idea of
+creating new government investment vehicles. ”The creation of national investment funds, focused on
+investing in the future, could help governments design investment plans to address market failures and
+take account of positive externalities for society as a whole.” In Australia there have been calls for a
+new sovereign wealth fund that would act as a low-fee public default fund for workers’ superannuation.
+[1]
+
+
+2    Commentary
+Australia’s Organisation for Economic Co-operation and Development (OECD) suggests a more ex-
+pansionary fiscal policy to ensure growth continues.
+    The economy of Australia is below potential, suggestion a recessionary gap at its current state,
+i.e. the equilibrium is to the left of that of the LRAS. High household debt poses an issue to the
+economy, and as such a demand-side policy, such as in this case a fiscal policy, is called for in order to
+ensure further economic growth towards the potential GDP. Lowered interest rates contribute towards
+the social problem of inflated housing market prices. Trade tensions are lowering confidence in the
+economy, resulting in fewer investments. Additionally, interventionalist supply side policies could aid
+Australia in market failures and correct positive externalities, while ensuring economic growth.
+
+
+
+
+                                                    1
+                            Figure 1: The Economy of Australia in 2019
+
+    Figure 1 portrays the Australian economic situation. The potential output of the economy is shown
+by the long run aggregate supply (LRAS) curve, and marked as point Yp . Currently, the economy is in
+a recessionary gap. The aggregate demand (AD) is not high enough to reach the potential equilibrium
+located at (Yp |Pp ), which is where the short run aggregate supply (SRAS) intersects the LRAS curve.
+Instead, the current eqilibrium is at (Yc |Pc ), which is below the target output and price level. The
+determinants of aggregate demand are consumption, business investments, government spending, as
+well as net exports. This is why, with reduced consumer confidence and investment, the AD curve is
+leftward of the potential AD curve, labelled as ADp on the diagram. The current fiscal (and potentially
+monetary) policies, as implied in the article, have been included in the AD curve.
+    With the help of an expansionary fiscal policy, as requested by the OECD, the government aims to
+stimulate one of the determinants of AD, in order to shift the curve rightwards. This new aggregate
+demand curve is shown as ADf , and the result of the fiscal policy is shown as an arrow. Due to
+the new ADf curve, the price level would rise from Pc to Pf . Simoultaneously, the real GDP would
+increase from Yc to Yf , getting increasingly closer to the potential GDP at Yp .
+    As suggested by the OECD, an expansionary fiscal policy could be the solution to the recessionary
+gap. Various types of fiscal policies have different advantages and disadvantages, due to the state of
+the Australian economy.
+    High household indebtness means that changes in taxes may be ineffective. Rather than spending
+the proportionally higher disposable income, this could be re-invested in decreasing the debts, instead
+of purchasing final goods/services. Similarly, an increase in taxes will decrease consumption, and will
+not neccessarily result in equally as high government spending.
+    In this scenario, government spending is the optimum solution to increasing aggregate demand in
+the economy. For example, subsidising construction of houses in Melbourne and Sydney. Not only
+does this help combat the shortage of housing, but also increases employment, further stimulating
+aggregate demand. Consumers will benefit from lower prices, construction companies will benefit
+from an increase in quantity demanded. However, this assumes that construction can be completed
+in a short time frame. Due to the length of construction processes, it could be that the economy is in
+a different state by the time many of the building projects are complete. Therefore, the unknownness
+poses an opportunity cost to the government; if housing subsidies are counterproductive in the long
+run, the money could be spent elsewhere.
+    The real output of the economy will benefit from the increased government spending. Australia’s
+public debt as a percentage of its GDP is low compared to other HICs. This means that there are
+potentially less political pressures to minimize debt, especially since the removal of the debt ceiling
+in 2013. However, this speculation could also go the other way, and it could be that the government
+
+
+                                                  2
+wants to keep debt low. Moreover, such government spending may lead to crowding out, though this
+economic theory is debated. This is amplified by the ”sharp pick-up” in credit: should the government
+spend so much money, the already growing demand may increase even further, pushing up interest
+rates. An increase in interest rates would reduce investments and consumptions, potentially damping
+the effect of the fiscal policy, or even completely negating it.
+    In conclusion, fiscal spending as a subsidy of construction in the housing market in the most
+problematic markets is a solution to the recessionary gap in Australia’s economy. While there are
+limitations such as time constraints, these are outweighed by the benefits.
+
+Word Count: 728.
+
+
+
+
+                                                 3
+References
+[1]   Matthew Cranston. “OECD tips better economic growth for Australia”. In: Financial Review
+      (Nov. 21, 2019). url: https://www.afr.com/policy/economy/oecd-tips-better-economic-
+      growth-for-australia-20191121-p53cpd (visited on 11/24/2019).
+
+
+
+
+                                               4
+1    UK could put tariffs on food from countries with lower standards
+The UK could introduce tariffs on imports of food from countries with lower food safety and farm-
+ing standards than the UK, using World Trade Organization rules, the environment secretary has
+suggested.
+      ”We want to ensure all our food comes from countries that meet our standards,” Theresa Villiers
+told an audience of farmers on Wednesday. ”That is what the powerful tools of the WTO do, they
+enable us to impose tariffs where we believe products do not meet our high standards.”
+     The surprising suggestion, which would be highly controversial with any potential trade partners
+and could provoke a trade war, followed an admission by Villiers that farming would be a key compo-
+nent of any post-Brexit trade deal, and that the UK would face heavy bargaining from potential trade
+partners.
+     ”Absolutely, there will be pressure on agriculture [in trade negotiations], there always is,” she said.
+”Agriculture is always the last chapter to close on a trade deal.”
+     But she vowed to uphold UK standards. ”We put in our manifesto our commitment to our stan-
+dards of food safety and food security, animal welfare and the environment,” she said. ”That’s what
+we will put on the table.”
+     For a country such as the UK to insist on being able to maintain its own high standards on envi-
+ronmental protections would be legal under WTO rules, she said.
+     Farmers were sceptical of her stance, however. After her speech at the Oxford Farming Conference,
+the hundreds of participants were asked to raise their hands if they were convinced that she would in
+fact protect their interests against trade partners, including the US. No hands were raised.
+     Rob Percival, head of food and health policy at the Soil Association, said: ”Villiers’s suggestion
+that tariffs could be placed on imports that don’t meet UK standards suggests the government is looking
+for ways to support UK farming, but such piecemeal measures need to be part of a coherent trade
+policy, which we are yet to see. This policy and the ensuing legislation must ensure non-regression on
+environment, food and farming standards, and ensure the UK can continue to raise the bar in response
+to the climate and nature emergency.”
+     Villiers refused to back farmers’ demands for an independent trade commission that would rule on
+whether trade deals met the UK’s standards, but said she would relay their views to her government
+colleagues and a decision would be made.
+     Mark Bridgeman, president of the Country Land and Business Association, which represents
+landowners and rural businesses, said farmers were also concerned about the transition to a new
+subsidy system. Under plans laid out by Villiers, farmers will be moved over the next seven years from
+payments based on the amount of land farmed to new subsidies based on agreements by farmers to
+provide environmental protections.
+     Villers said these agreements would be made with individual farmers based on their circumstances,
+which would be a huge undertaking, but provided few details of what would be involved.
+     Bridgeman said: ”Farmers are already starting to plan for 2021 and beyond, so we need early clar-
+ity on how direct payments will be reduced during the whole transition period. There are serious risks
+to many farming businesses if there are major reductions in direct payments before the introduction of
+the new [environmental land management systems].”
+     Farmers at the conference also heard about some of the problems with diets in Britain, including
+obesity and poor health caused by a poor diet. Healthy and environmentally sustainable food should be
+more widely and cheaply available, said Henry Dimbleby, co-founder of the Leon restaurant chain, who
+is leading the government’s national food strategy.
+     Denise Bentley, founder of the First Love Foundation food bank charity, said the problems went
+much deeper than blaming people for making poor choices and that poverty was ”the elephant in the
+room” because people simply could not afford healthier food.
+     Campaigners want the government to make bigger interventions in the market for food, to ensure
+higher nutritional standards in food products. However, the food and drink industry is resistant to
+demands for greater regulation. [1]
+
+
+
+
+                                                     1
+2    Commentary
+The United Kingdom is looking into implementing import tariffs on food products from countries with
+lower production and safety standards. As such, exporters need to pay a tax for every food import
+if this meets the UK’s criteria. This is being done as a protectionist measure to decrease the number
+of imports of these ”products [that] do not meet our high standards.” Moreover, it is mentioned that
+the tariff is to address the commitment to food safety/security standards, animal welfare, as well as
+the environment. The incidence of the tariff is shown in figure 1.
+
+
+
+
+                             Figure 1: The United Kingdom food market
+
+    As seen in figure 1, the United Kingdom’s market equilibrium for food is at (Qe |Pe ). While the
+domestic equilibrium is at Pe , international producers can export to the UK at a lower price of Pw . As
+a result, United Kingdom consumers purchase Q4 tonnes of food, at a price of Pw . Of this, Q4 − Q1
+tonnes are imports, and Q1 tonnes are produced domestically. The incidence of a tariff raises the
+per-unit price, thus shifting the world supply curve upwards, where Pt − Pw is the tariff. As a result,
+domestic production increases from Q1 to Q2 tonnes. Imports decrease from Q4 − Q1 to Q3 − Q2 . The
+United Kingdom consumers now purchase Q3 tonnes at a price of Pt . The government revenue from
+the tariff is shown as the yellow square, and equal to (Pt − Pw )(Q3 − Q2 ).
+    However, this diagram is a generalization of the tariff. It is unclear if specific industries and/or
+countries are being targeted with the tariff. Especially since under WTO rules ”countries cannot
+normally discriminate between their trading partners” [2], whereas the article mentions the tariffs
+would be legal. Moreover, the tariff is not quantified, so it is difficult to determine the impact on
+imports and the price. As such, it is probable that not all food markets’ imports will decrease in the
+UK. Nonetheless, the impact of the tariff will be a higher price for lower standard foods, as well as a
+decrease in their imports.
+    The introduction of the tariff causes benefit to the local economy. Domestic producers benefit
+from the tariff: they are able to produce more goods at a higher price, and as such their revenue
+increases. An increase in revenue could help with the concerns due to the uncertainty of the new
+subsidy system for farmers that is also mentioned in the article. This could have a positive benefit
+on the domestic employment in the food industry in the United Kingdom. Governments benefit from
+the revenue generated by the tariffs, which could again be re-used to subsidise domestic production.
+    Nonetheless, there are many negative impacts of the tariff. Since the size of the tariff is unclear,
+the extent of its impact is also unclear. Regardless of size, consumers have the biggest burden of the
+tariff. They must pay the higher costs of the good. Due to the price inelastic nature of food, this
+could lead to a decrease in disposable income. Moreover, the article mentions the consumers’ inability
+
+
+                                                   2
+to afford healthy food. Imposing a tariff that will raise prices even further does not solve this issue,
+especially if lower quality food was the only food consumers are able to afford. Similarly, tariffs have
+been said to negatively impact income distribution, which is amplified by the inability of some to
+afford quality food.
+    Additionally, imposing a tariff as a form of regulation is not particularly effective. As aforemen-
+tioned, the tariff will decrease imports of subpar foods - rather than stopping these imports entirely.
+This is done at the expense of the consumer. Administrative barriers are a much better alternative
+to this as their purpose is to prevent imports of subpar quality. This is exactly what the tariff is
+attempting to achieve, though imports are completely prevented rather than just decreased. Nonethe-
+less, both solutions could trigger a trade war, which is undesirable for most economies, let alone those
+in the midst of trade negotiations with the EU. The article mentions that campaigners want further
+(quality of food) interventions in the domestic food market, and as such striking a tariff before in-
+tervening domestically may further fuel potential conflict. Due to the UK’s Brexit negotiations, the
+possible imposition of a tariff on exports of a EU country could significantly impact the smooth trade
+regulations both entities are aiming for.
+    To conclude, a tariff is an inadequate solution to the problem. Whilst successfully decreasing the
+imports, they do not eliminate the problem entirely (as compared to administrative barriers), and
+the burden is given to the consumers. This results in a limited effectiveness. Nonetheless, domestic
+producers and the government would benefit from its introduction.
+
+Word Count: 748.
+
+
+
+
+                                                   3
+References
+[1]   Fiona Harvey. “UK could put tariffs on food from countries with lower standards”. In: The
+      Guardian (Jan. 8, 2020). url: https://www.theguardian.com/environment/2020/jan/08/
+      uk - could - put - tariffs - on - food - from - countries - with - lower - standards (visited on
+      02/05/2020).
+[2]   World Trade Organisation. Principles of the trading system. url: https : / / www . wto . org /
+      english/thewto_e/whatis_e/tif_e/fact2_e.htm (visited on 03/08/2020).
+
+
+
+
+                                                   4
+

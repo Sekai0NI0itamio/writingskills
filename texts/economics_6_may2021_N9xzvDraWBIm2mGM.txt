@@ -1,0 +1,284 @@
+“China slaps up to 200% tariffs on Australian wine ”
+
+                     Source: BBC NEWS (URL)
+
+
+
+
+                   Date accessed: March 23, 2021
+
+                 Date of article: November 27, 2020
+
+                Date of commentary: March 24, 2021
+
+           Section of the syllabus: International Economics
+
+               Key concepts used: Tariff and Dumping
+
+                          Word Count: 745
+                                                                          Candidate code: jdk323
+
+
+The Article
+
+* Note that the commentary only focuses on the highlighted paragraphs of the article below.
+
+
+
+
+China will impose taxes on Australian wine of up to 212%, starting on Saturday.
+
+Its commerce ministry said these were temporary anti-dumping measures to stop subsidised
+imports of Australian wine.
+
+The duties will range from 107% to 212%, intensifying trade tensions between the two
+countries.
+
+In recent months, Beijing has targeted Australian imports including coal, sugar, barley and
+lobsters amid political tensions.
+
+Officials in China have argued that some Australian wine is being sold cheaper there
+(dumped) than in its home market through the use of subsidies. Australia has rejected that
+assertion.
+
+China is the biggest destination for Australia's wine exports, accounting for 39% in the first
+nine months of 2020, according to Wine Australia.
+
+
+
+
+                                                                                        | Page 2
+                                                                         Candidate code: jdk323
+
+
+China has been carrying out a year-long investigation into anti-dumping, looking at wines
+being sold in China at prices alleged to be lower than in Australia.
+
+Following the announcement on Friday, Treasury Wine Estates (TWE), one of the world's
+biggest winemakers saw its share price slump more than 13%.
+
+TWE, the maker of Penfolds and Wolf Blass, has built up a powerhouse business selling into
+China which analysts estimate is worth A$4bn (£2.2bn; $3bn) alone after six years of robust
+growth.
+
+Other Australian winemakers have been singled out alongside TWE, including Casella Wines
+and Australian Swan Vintage.
+
+China's commerce ministry didn't specify how long the measures would last for.
+
+
+'Extremely disappointed'
+
+Australia's agriculture minister David Littleproud reacted to the announcement via Twitter,
+saying the government was "extremely disappointed".
+
+"The Australian government categorically rejects any allegation that our wine producers are
+dumping product into China," he said.
+
+"Australian wine is hugely popular both in China and across the globe due to its high quality
+and we are confident that a full and thorough investigation will confirm this."
+
+Australia's trade minister Simon Birmingham said the new tariffs make Australian wine
+unviable and unmarketable in China.
+
+"This is a very distressing time for many hundreds of Australian wine producers, who have
+built, in good faith, a sound market in China," he said.
+
+Mr Birmingham has raised the idea of taking China to the World Trade Organisation (WTO)
+over the restrictions.
+
+
+
+
+                                                                                       | Page 3
+                                                                          Candidate code: jdk323
+
+
+Growing tensions
+
+Political relations between China and Australia have deteriorated this year to their lowest
+point in decades, experts say.
+
+Australia backed a global inquiry into the origins of the coronavirus in April, and effectively
+singled out China, according top Chinese diplomat.
+
+Since then, Australian imports have been under the spotlight while Chinese students and
+tourists were warned against travelling to Australia citing fears of racism.
+
+
+
+
+‌
+
+
+
+
+                                                                                        | Page 4
+                                                                        Candidate code: jdk323
+
+
+Commentary
+
+
+      The article reports on China imposing up to 212% tariff on Australian wine, calling it
+
+“... temporary anti-dumping measures to stop subsidized imports ...”. Dumping is a practice
+
+of selling goods in international markets at prices below their production costs and
+
+internationally considered unfair and illegal, whereas tariff refers to a government-imposed
+
+tax on imported goods.
+
+
+       According to the 5th and 7th highlighted paragraphs of the article, it seems that
+
+Chinese officials have based their move on a year-long investigation of Australian wine
+
+dumping, which they think are due to government subsidies. If it is true, then this enables the
+
+Australian producers to produce and export at prices lower than their normal production
+
+costs, outcompeting the Chinese producers. The diagram below illustrates this scenario:
+
+
+
+
+                                                                                       | Page 5
+                                                                        Candidate code: jdk323
+
+
+       Before Australia subsidized its producers, 0Q3 was being demanded and supplied at
+
+PA in the Chinese wine market, imports being Q2Q3 and 0Q2 domestically produced. After the
+
+subsidy, Australian producers are able to produce and export at lower prices (PA+subsidy) than
+
+before (PA), so SA shifts downwards to SA+subsidy, where overall consumption increases
+
+(0Q3→0Q4). Hence, domestic supply reduces (0Q2→0Q1) since they cannot compete with
+
+cheaper Australian wine anymore, and imports increase (Q2Q3→Q1Q4).
+
+
+       The Australian producers gain significant benefits because now they produce more,
+
+making more profit. Concurrently, to produce more they will need more workers, so it creates
+
+more jobs in their economy. Consumers are also better off, consuming more variety of wine
+
+at lower prices. Besides, world efficiency improves because now Q1Q2 is being produced by
+
+more efficient Australian producers. However, domestic producers are worse off because
+
+their production reduces to 0Q1 bringing them less profit. This also means that unemployment
+
+rises in the economy since some local producers will have to close their businesses, and
+
+therefore, the Chinese government is also worse off because they have to deal with higher
+
+unemployment and moreover, the tax revenue they used to collect from those businesses
+
+vanishes.
+
+
+       This practice is considered illegal because it gives an unfair advantage to Australian
+
+producers. Therefore, to protect the domestic industry and avoid unemployment, China’s
+
+Commerce Ministry has chosen to impose really high protective tariffs on Australian wine.
+
+The potential effect of this tariff is shown below:
+
+
+
+
+                                                                                      | Page 6
+                                                                        Candidate code: jdk323
+
+
+
+
+      Before the tariff imposition, 0Q4 of wine was being demanded and supplied at PA+Subsidy,
+
+where 0Q1 was domestically supplied and Q1Q4 was imported. After “... a year-long
+
+investigation …”, a tariff of 212% (worst-case-scenario) is imposed on imports, resulting in
+
+extra cost to Australian producers. Hence, imports fall from Q1Q4→Q2Q3, and domestic
+
+supply increases from 0Q1→0Q2. As a result, the price of wine increases from
+
+PA+subsidy→PA+tariff, and quantity supplied/demanded falls from 0Q4→0Q3. The government
+
+receives the tax revenue of a shaded (green) rectangular area; and additionally, there occur
+
+deadweight losses (loss of economic efficiency) because of the shift of production from more
+
+efficient Australian producers to less efficient domestic producers ( ◢ ) and a fall in overall
+
+consumption ( ◣ ).
+
+
+      The biggest winners are domestic producers, who increase their production up to 0Q2
+
+making more profit. The Chinese government also wins because they gain huge tariff
+
+revenues, which then can be spent on balancing the current account or on other economic
+
+                                                                                       | Page 7
+                                                                        Candidate code: jdk323
+
+
+sectors. The worst is for Australian producers because they lose their market share in China -
+
+a market “... accounting for 39% ...” of Australia’s wine exports, according to the article.
+
+Undeniably, this results in huge revenue losses and more unemployment in the Australian
+
+economy. Consumers are also worse off because they must pay higher prices, and there are
+
+fewer varieties of wine available in the market. Lastly, the fact that Australian producers can
+
+produce at cheaper prices might be simply because of their comparative advantage, which
+
+means they can produce at lower opportunity costs than their competitors. And if so, the tariff
+
+imposed will lead to misallocation of world resources, because now part of the production
+
+will be supplied by less efficient Chinese producers.
+
+
+      Additionally, as the 4th highlighted paragraph states, China has targeted several other
+
+Australian products apart from wine. Hence, in the long run, China can expect retaliation
+
+policies from Australia, which might lead to a trade war between the two.
+
+
+      To conclude, this tariff might help the Chinese economy protect its domestic industry,
+
+create more employment, gain huge tariff revenues and balance its current account in the
+
+short run; however, they must consider that Australia in its turn might react by imposing
+
+protectionist policies against China affecting its long-term economy, which might outweigh
+
+the current benefits.
+
+
+
+
+Reference to Article:
+
+BBC NEWS (2020). China slaps up to 200% tariffs on Australian wine. BBC News. [online]
+
+27 Nov. Available at: https://www.bbc.com/news/business-55097100 [Accessed 23 Mar.
+
+2021].
+
+
+
+
+                                                                                       | Page 8
+

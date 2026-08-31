@@ -1,0 +1,852 @@
+Would Huawei's operation's plan of production of their
+
+    own chips after the trade ban a good financial
+
+                     investment?
+                   Intended Audience: Huawei
+
+                  Candidate Number: xxxxxxx
+
+                       Word Count: 1500
+
+                  IB Business and Management
+
+
+
+
+                              1
+Table of Contents
+Introduction ...............................................................................................................................3
+Commentary...............................................................................................................................4
+   Using other manufactures .................................................................................................................. 4
+   Huawei producing their own chips ..................................................................................................... 6
+Conclusion ................................................................................................................................10
+Appendices ...............................................................................................................................12
+   Supporting document 1: ................................................................................................................... 12
+   Supporting document 2: ................................................................................................................... 15
+   Supporting document 3: ................................................................................................................... 18
+   Supporting document 4: ................................................................................................................... 20
+Bibliography .............................................................................................................................24
+
+
+
+
+                                                                      2
+Introduction
+Huawei, founded in 1987 by Ren ZhengFei, is the leading global provider of information and
+
+communications technology (ICT) infrastructure and consumer electronics (Huawei). Huawei
+
+currently operates in more than 170 countries providing more than 3 billion people with
+
+products and services. (Huawei)
+
+
+On May 16th of 2019, US places Huawei on its “entity list”, banning it from making any
+
+transactions with US companies. Huawei was not affected by this ban as most of their chips
+
+were manufactured by Taiwan’s Taiwan Semiconductor Manufacturing Company (TSMC). TSMC
+
+supplied over 90% of Huawei’s smartphone chips in 2020 (Kharpal). However, one problem was
+
+that TSMC manufactures chips for Huawei using chip making equipment from the US. On May
+
+16th 2020, a new law was enforced by Washington which requires foreign manufacturers using
+
+US chip making equipment to get a license before being able to sell to Huawei. (Kharpal) This
+
+policy indicated that Huawei would no longer be able to use TSMC as their manufacturer. They
+
+would need to find new ways to diversify their supply chain. (Kharpal) This policy would heavily
+
+affect the consumer division which yielded over 50% of the company’s total revenue in
+
+2019 and brought in $66.93 billion in sales (Kharpal).
+
+
+
+Huawei is now deciding whether they start its own production line, or, alternatively, use other
+
+manufacturers.
+
+
+
+
+                                                3
+Methodology
+
+This essay will be focusing on the finance section of the IB Business Management course,
+
+specifically investment appraisal. I used break-even analysis, Ansoff’s matrix, and SWOT analysis
+
+to explore my research question. These tools were chosen as it help illustrate Huawei starting
+
+their own production line from different aspects: price, external factors, internally factors, risk.
+
+Production price of microprocessors were taken from secondary sources that specialize in
+
+breaking down phones and calculating the pricing of each component. However, due to having
+
+limited access, I was not able to get data on some microprocessors mentioned, therefore I
+
+made education estimations, pricing it similarly to chips of the same caliber and the same
+
+technology. This will create some uncertainty with calculations, but it should be relatively
+
+accurate.
+
+
+Commentary
+
+Huawei is praised for its Kirin line of phone CPU chips. Due to the new US policies, Huawei
+
+needs to find a new way of these high-end phone chips in bulk.
+
+Using other manufactures
+
+First, we can consider Chinese manufacturers, the most notable being China’s Semiconductor
+
+Manufacturing International Corporation (SMIC). SMIC is an option that Huawei is currently
+
+exploring. SMIC has been reported to have started production of Huawei’s lower end chips.
+
+(Byford) However, it is no secret that SMIC is behind in terms of technology when compared to
+
+TSMC. Neil Shah, the research director at Counterpoint research was quoted saying “TSMC is
+
+miles ahead of SMIC in terms of leading-edge technology prowess, capacity and scale.”
+
+                                                 4
+(Kharpal) Huawei’s high-end chips are based the 7 nano-meter technology which SMIC has not
+
+yet been able to implement. This may mean that Huawei can only rely on SMIC for lower end
+
+chips. An example would be the Huawei Mate 10, a high-end phone released two and a half
+
+years ago. It uses the Kirin 970 developed by HiSilicon three years ago. According to
+
+Techinsights cost breakdown analysis, a Kirin 970 chip costs Huawei $51.7. (Cowsky) With a
+
+combined production cost of $290, the Huawei Mate 10 goes at a retail price of $750. Huawei
+
+Mate 10 has a return rate of:
+
+                                          750
+                                              = 258%
+                                          290
+
+Since the Huawei Mate 10 with all the components combined has a return rate of 258%, we will
+
+assume that the chip itself also has a return rate of 258%. This means that each chip is sold at
+
+$133.40. In just year, the Huawei Mate 10 reached 10 million sales worldwide. (Artashyan) This
+
+would give Huawei a gross profit of:
+
+                            133.4(10,000,000) − 51.7(10,000,000)
+
+                            = $817,000,000 (Microprocessors only)
+
+With more advanced chips, Huawei can consider using Samsung as their chip manufacturer.
+
+Samsung possess the cutting-edge equipment needed to produce the new chips as the Kirin
+
+790. (Kharpal) Kirin 790 has an estimated production cost of $75. The Mate 30 pro, which
+
+utilizes the Kirin 790, has an estimated production cost of $425 and a starting price of $1215.
+
+(Eschulze) But since Samsung is a manufacturer located in South Korea, we must take into
+
+consideration the tariff fees that will be charged upon entry of China. According to
+
+Custumdutyfree.com, processors has a tariff of 40%, making the total cost per chip:
+
+                                    75 + (75 × 0.4) = $105
+
+                                                5
+                                           (DutyFree)
+
+It was announced on Weibo by a reporter that Huawei’s Mate 30 series has exceeded 10 million
+
+sales. (千年) If we continue to assume that the return rate of the CPU is equal to the return rate
+
+of the phone (without tariffs)
+
+                                         1215
+                                              = 296%
+                                          425
+
+We can assume that the Kirin 990 has a selling price of:
+
+                                      75 × 2.96 = $210.75
+
+So, the gross profit of 10 million sales of the Mate 30 Pro would equal to:
+
+                                  10,000,000(210.75 − 105)
+
+                                 = $1,057,500,000 (chips only)
+
+
+
+
+Huawei producing their own chips
+
+The last option Huawei has is that they can start their own production line. This would be
+
+considered the growth strategy diversification; Huawei would be entering a new market with a
+
+new product.
+
+
+
+
+                                   Figure 1. Diagram of the Ansoff matrix
+
+                                                 6
+                                                (Bhasin)
+
+Diversification is extremely risky and requires a large amount of startup capital, however if it
+
+succeeds, it has an extremely high growth potential and profitability.
+
+
+
+To implement this, Huawei will first need to purchase semiconductor equipment.
+
+
+
+
+                         Figure 2. SWOT analysis of implementation of semiconductors
+
+
+Figure 2 demonstrates the strengths, weaknesses, opportunities, and threats of investing in
+
+semiconductor equipment.
+
+
+
+
+                               Figure 3. Break even analysis of Kirin 970 chips
+
+
+
+                                                    7
+GlobalFoundaries invested $15 billion to build a chip factory that had the capabilities of 7 nano-
+
+meter technology, Huawei must do the same. (Takahashi) The variable cost, however, in
+
+comparison to the fixed cost, is much cheaper at an estimated $8 per chip.
+
+
+
+From figure three, we can see that Huawei must sell 119,617,224 Kirin 970 chips to break-even.
+
+                                                                    133.4
+But once Huawei breaks even, they will have a return rate of                = 1668% and would take
+                                                                      8
+
+
+them less than 817,000,000 ÷ (133.4 − 8) = 6,515,152 total sales to reach how much they
+
+made with 10million sales using chips from suppliers.
+
+
+
+
+                              Figure 4. Break even analysis of Kirin 990 chips
+
+
+
+
+Figure four shows that Huawei needs to sell 73,982,737 Kirin 990 chips to break-even. But once
+
+they break-even, they will be earning a gross profit of $205.75 per chip which is $100 more
+
+than purchasing from supplier. This significant increase in profit margin makes it the better
+
+option in the long term.
+
+
+
+
+                                                   8
+According to Forbes.com, Huawei sold a total of 240 million phones in 2019. (Sin) If we estimate
+
+the average gross profit of a single chip to be $100, we will be able to calculate the payback
+
+period of this investment (only chips).
+
+                             15,000,000,000 ÷ 240,000,000(100)
+
+                                          = 6.25 years
+
+However, it is more than likely Huawei would use profits earned from other components or
+
+their telecommunication services to payback the cost of this investment. Therefore, the
+
+payback period should be significantly less. I have also not considered factors such as employee
+
+training and device maintenance which can increase the cost of this investment and increase
+
+the payback period.
+
+
+
+
+                                                9
+Conclusion
+To conclude, Huawei’s plan of producing their own chips would be significantly better in the
+
+long term and remove their reliance on US/other companies, whereas, using suppliers would be
+
+better for Huawei’s short term cashflow, especially during a time of uncertainty with COVID and
+
+the trade war. Both options have their up and downs, ultimately, it comes down to what
+
+Huawei wants.
+
+
+
+Using manufacturers would allow Huawei to continue to operate the way they do normally.
+
+This makes it low risk as the way in which Huawei operates has proven to be very effective.
+
+However as mentioned, the options Huawei have are not the most advanced in chip research
+
+and may hinder future products. If Huawei is unable to keep up with in the future in chip
+
+performance, Huawei will lose out on an immense amount of market share as the
+
+microprocessor is the most crucial part of a mobile phone and it is one of Huawei’s biggest
+
+unique selling points.
+
+
+
+If Huawei’s goal is to make sure external problems will not affect their production again and
+
+regain their top spot for sales, diversifying to produce their own chips is the way forwards. large
+
+investment initially needed is troublesome, however, if Huawei manages to break-even, their
+
+profit margins would increase by an immense amount and give them more capital to better
+
+promote their products overseas where they have a bad reputation and allow them to thrive in
+
+the future. They will also be able to sell their products at lower prices, drawing in price sensitive
+
+customers. One last factor to consider is as processors become more advanced, it may mean
+
+
+                                                 10
+that machines may need to be replaced. This means that Huawei may have to invest in new
+
+machinery or upgrade their machinery once every few years.
+
+
+
+Another option that Huawei can consider is investing in 7nm semiconductor equipment as a
+
+short–mid-term solution. Once the machines are outdated, hopefully Huawei would be
+
+removed from the “entity list” and they would be able to use services from TSMC again, or,
+
+SMIC would then have access to advanced equipment. Huawei would then be able to get the
+
+new chips from manufacturers without another hefty investment in machines. They would still
+
+be able to use their machines as a mean for them to develop their 7nm chips, cutting costs and
+
+increasing profit margins.
+
+
+
+
+                                              11
+Appendices
+Supporting document 1:
+
+Why new U.S. rules on selling chips to Huawei
+could be a ‘big blow’ for the Chinese tech giant
+PUBL ISHED MON, MAY 18 2 02 01: 29 AM ED TUPDAT ED MON, MAY 18 2 02 07: 59 AM EDT
+
+The United States’ latest move to restrict chip sales to Huawei could be a big
+blow to the Chinese technology giant, hitting its two biggest businesses and
+offering very little wriggle room for the firm to find alternative suppliers.
+Billions of dollars of revenue are at risk from Washington’s latest rule which
+requires foreign manufacturers using U.S. chipmaking equipment to get a
+license before being able to sell semiconductors to Huawei. There is no
+indication that the U.S. will grant licenses either.
+Huawei said in its first comments on the issue that it “categorically opposes”
+the U.S.’s chip regulation.
+“Nevertheless, in its relentless pursuit to tighten its stranglehold on our
+company, the U.S. government has decided to proceed and completely ignore
+the concerns of many companies and industry associations,” the company
+said in a statement.
+“This decision was arbitrary and pernicious, and threatens to undermine the
+entire industry worldwide. This new rule will impact the expansion,
+maintenance, and continuous operations of networks worth hundreds of
+billions of dollars that we have rolled out in more than 170 countries.”
+It added that its business “will inevitably be affected.”
+Washington’s latest rule will give it power in determining what semiconductors
+Huawei can get its hands on.
+“The US government will have full global authority in interpreting what chip
+items Huawei will be able to access going forward,” China Renaissance said
+in a note published Monday.
+That’s a big deal. Chips are critical for a huge swathe of Huawei’s products
+from its base stations required for 5G networks to its smartphones. Huawei
+designs semiconductors for its products via a division of the company called
+HiSilicon. But the actual manufacturing of those chips is done by
+Taiwan’s TSMC, one of the companies that stands to be most affected by the
+new U.S. rules. TSMC uses American-made equipment to manufacture those
+chips.
+
+                                            12
+For its smartphones, Huawei has a series of processors under the brand
+name Kirin which goes into almost all of its smartphone models. The problem
+for Huawei is its huge reliance on TSMC with over 98% of smartphone-related
+chips manufactured by the Taiwanese firm, according to an estimate by
+Counterpoint Research.
+Huawei’s consumer division accounted for over 50% of the company’s total
+revenue in 2019 and brought in 467.3 billion yuan ($66.93 billion) in sales.
+There is a lot of money at stake if this business unit is hit.
+Diversifying is a ‘humongous ask’
+So, what are Huawei’s options? Well, it needs to find a way to diversify its
+supply chain, a task that could prove difficult given the wide-ranging impact of
+Washington’s new rules.
+Huawei has been looking to do this over the past year. In March, Tim Danks,
+a U.S.-based Huawei executive told Bloomberg the company sold 50,000 5G
+base stations that did not contain U.S. technology. At the time, that number
+was only 8% of the total number of 5G base stations Huawei had sold
+globally. A base station is a piece of equipment critical to mobile networks. 5G
+refers to next-generation network infrastructure that promises super-fast
+download speeds and the ability to underpin key infrastructure.
+Meanwhile, Huawei has been looking at mainland Chinese chipmakers to
+produce its Kirin processors for smartphones. SMIC, China’s largest contract
+chip manufacturer, is the number one contender.
+State-backed publication Global Times reported last week that SMIC had
+begun mass production of Huawei’s Kirin 710A chip. This processor is
+designed for a lower tier phone under Huawei’s budget Honor brand. This chip
+is only for one device and does not solve Huawei’s problems for the rest of its
+product portfolio.
+Huawei declined to comment on the Global Times report.
+On top of that, “TSMC is miles ahead of SMIC in terms of leading edge
+technology prowess, capacity and scale,” according to Neil Shah, research
+director at Counterpoint Research, who added the new U.S. rules could be a
+“big blow” for Huawei.
+Huawei’s flagship chip, the Kirin 990, is based on so-called 7-nanometer
+technology. This essentially refers to the size of certain aspects of the chips.
+These 7nm chips are smaller and faster than predecessors.
+TSMC has been producing these for around two years. It’s unclear when
+SMIC may introduce a 7nm production process at scale. So even if Huawei
+                                        13
+wanted to switch production to SMIC, the chipmaker might not be able to
+actually produce those parts.
+SMIC was not immediately available for comment when contacted by CNBC.
+TSMC has already halted taking new orders for chips from Huawei, the Nikkei
+Asian Review reported on Monday, citing unnamed sources.
+“It is market rumor, and TSMC does not disclose customers’ order details,” a
+spokesperson for the company said.
+Huawei could look to Samsung’s chip manufacturing business to make the
+semiconductors required as an alternative to TSMC. However, Samsung is
+“currently Huawei’s biggest competitor and so it would rather push a domestic
+supplier than a rival company which is South Korean and technically a U.S.
+ally,” Shah told CNBC.
+That leaves Huawei in a very tough position.
+“So from Huawei’s perspective, it will help to quickly look to diversify its supply
+chain further into a non-U.S. tech-based supplier list which is a humongous
+ask in the short-to-mid-term. Most of the companies which supply advanced
+components have some or the other form of (U.S.) equipment or technology
+being indirectly used,” Shah said.
+
+
+
+
+                                        14
+Supporting document 2:
+Cost Comparison – Huawei Mate 10, iPhone 8, Samsung Galaxy S8
+                     Posted: November 1, 2017, Updated: November 6, 2017
+                                Contributing Authors: Al Cowsky
+
+While Apple and Samsung have been engaged in a tug-of-war for the title of top-selling
+smartphone provider over the past couple of years, China’s dominant OEM - Huawei - has been
+quietly gaining traction globally with their P- and Mate-series offerings.
+
+TechInsights has conducted in-depth an analysis of each provider’s most recent contenders:
+
+
+
+   •   Apple iPhone 8
+   •   Huawei Mate 10
+   •   Samsung Galaxy S8
+
+Our reports provide our complete details of each phone, and our various tools provide a number
+of ways to slice and dice and compare data about them; here, we are providing a summary cost
+comparison of the three phones.
+
+
+
+
+Cost Comparison Observations
+
+
+
+
+                                                                                    Huawei Mate 10
+
+
+ Teardown Date                                                                         October 2017
+ Applications Processor                                                                           –
+
+                                             15
+                                                                                         Huawei Mate 10
+
+  Applications/Baseband Processor                                                                $52.50
+  Baseband Processor                                                                                   –
+  Battery                                                                                          $6.00
+  Camera / Image                                                                                 $35.00
+  Connectivity                                                                                     $6.50
+  Display / Touchscreen                                                                          $31.00
+  Memory: Non-Volatile                                                                           $24.00
+  Memory: Volatile                                                                               $31.50
+  Mixed Signal                                                                                     $0.50
+  Non-Electronics                                                                                $17.00
+  Other                                                                                          $17.50
+  Power Management / Audio                                                                       $10.50
+  RF Component                                                                                   $20.50
+  Sensor                                                                                           $5.50
+  Substrates                                                                                       $9.50
+  Supporting Materials                                                                             $8.00
+  Final Assembly & Test                                                                          $14.50
+  Total                                                                                         $290.00
+* Costing note: All cost estimates provided here are compiled using information available to us
+at the time of the initial teardown. Some assumptions have been made where concrete data is
+not yet available. We will continue to gather and refine this costing data throughout our on-going
+deep-dive teardown process and analysis. While we do not expect drastic cost changes, we do
+expect some adjustments.
+
+Application Processors
+The Applications Processors of the phones appear to be categorized inconsistently in the table
+above; this is intentional, based on the different components that combine to provide the
+functionality.
+
+ Phone                            Applications Processor Components                       Cost of Components
+ Huawei Mate 10                   Kirin 970                                               $51.70
+ Apple iPhone 8                   A11                                                     $51.96
+                                  Intel PMB9948P LTE modem                                $14.26
+ Samsung Galaxy S8                Samsung Exynos 9 (Exynos 8895)                          $71.00
+Street price compared to manufacturing cost
+Apple and Huawei have very similar parts costing models, whereas the estimated parts cost of
+the Samsung is significantly higher.
+
+
+
+
+                                                16
+                               Huawei Mate 10   Apple iPhone 8   Samsung Galaxy S8
+                                                (A1905)          (SM-G950F)
+Street Price                   $710.00          $699.00          $725.00
+Parts Cost                     $290.00          $285.00          $326.50
+Representative Cost of Parts   40.8%            $40.8%           45.0%
+
+
+
+
+                                    17
+Supporting document 3:
+Huawei hits back at US as TSMC cuts off chip
+orders
+ “The US government still persists in attacking Huawei, but what will that
+bring to the world?”
+By Sam Byford@345triangle May 18, 2020, 4:41am EDT
+
+
+Huawei rotating chairman Guo Ping has hit back at the US government’s stricter
+export controls intended to stop the Chinese tech giant from obtaining essential
+chips, following reports that its biggest supplier has already cut it off. “We still
+haven’t figured it out,” Guo said on stage at Huawei’s annual analyst summit.
+“The US government still persists in attacking Huawei, but what will that bring
+to the world?”
+
+“In its relentless pursuit to tighten its stranglehold on our company, the US
+government has decided to proceed and completely ignore the concerns of
+many companies and industry associations,” Huawei adds in an official
+statement. “This decision was arbitrary and pernicious, and threatens to
+undermine the entire industry worldwide. This new rule will impact the
+expansion, maintenance, and continuous operations of networks worth
+hundreds of billions of dollars that we have rolled out in more than 170
+countries.”
+
+“We expect that our business will inevitably be affected,” Huawei’s statement
+continues. “We will try all we can to seek a solution.”
+
+Nikkei reported earlier today that TSMC has moved to stop new orders from
+Huawei following the US government’s announcement last week. The rules
+are specifically designed to target Huawei and its chip subsidiary HiSilicon,
+requiring a license for any shipments from manufacturers that use US
+technology or equipment. TSMC didn’t deny the reports but called them
+“purely market rumor,” according to Reuters.
+
+Huawei has in the past suggested that it could switch its chip supply to
+Samsung in this eventuality. The company has also recently been exploring
+domestic chip production through China’s Semiconductor Manufacturing
+International Corporation (SMIC), which just received a $2.2 billion investment
+from the Chinese government.
+
+
+                                                     18
+“THE US IS LEVERAGING ITS OWN TECHNOLOGICAL STRENGTHS TO
+CRUSH COMSPANIES OUTSIDE ITS OWN BORDERS.”
+
+SMIC is a relatively tiny competitor to TSMC, however, and it would take a
+long time to scale up to Huawei’s cutting-edge demands. Last week SMIC
+started mass production of HiSilicon’s Kirin 710A processor on its 14nm node,
+but TSMC is expected to move onto a more advanced 5nm process this year.
+Even the original Kirin 710 was manufactured by TSMC at 12nm, and that
+was a mid-range chip in 2018.
+
+“This decision by the US government does not just affect Huawei. It will have
+a serious impact on a wide number of global industries,” Huawei says in its
+statement. “In the long run, this will damage the trust and collaboration within
+the global semiconductor industry which many industries depend on,
+increasing conflict and loss within these industries. The US is leveraging its
+own technological strengths to crush companies outside its own borders. This
+will only serve to undermine the trust international companies place in US
+technology and supply chains. Ultimately, this will harm US interests.”
+
+Richard Yu, CEO of Huawei’s consumer division, also spoke out against the
+US government today. “The so-called cybersecurity reasons are merely an
+excuse,” he wrote in a WeChat post reported on by Bloomberg. “The key is the
+threat to the technology hegemony of the US.”
+
+
+
+
+                                       19
+Supporting document 4:
+Why the $10 billion chip factory club just got smaller
+Dean Takahashi@deantakAugust 28, 2018 11:35 AMBusiness
+
+           Globalfoundries was creating a 7-nm chip factory. Now it will shift to other nodes.Image Credit: Globalfoundries
+
+It takes about $10 billion or even $15 billion to build a brand new state-of-the-art chip
+
+manufacturing plant, and only a few companies in the world can amass the kind of
+
+expertise and capital to do it. Globalfoundries admitted yesterday it would no longer
+
+invest in a bleeding-edge 7-nanometer fabrication plant, or fab. Advanced Micro Devices
+
+said at the same time that it would switch from Globalfoundries to TSMC to build its
+latest high-end processors.
+
+
+Globalfoundries will instead focus on making investments in older 14-nanometer and
+
+12-nanometer factories (a nanometer is a billionth of a meter, and the number refers to
+
+the distance between circuits), which require less upfront investment and carry a far
+
+smaller burden of technology development. That means that just a few companies —
+
+TSMC, Intel, and Samsung — are still in the race to build 7-nanometer chip factories.
+
+
+“Globalfoundries was falling further and further behind, so AMD really had no choice
+
+but to switch,” said Linley Gwennap, analyst at the Linley Group. “Also, AMD has been
+
+using TSMC for years to build its graphics chips, so they already have a strong
+
+relationship.”
+
+
+This is all happening against the backdrop of changes in Moore’s law, the prediction
+
+made in 1965 by Intel chairman emeritus Gordon Moore that the number of transistors
+
+on a chip will double every year. The chip industry has been on the metronome of
+
+Moore’s law for decades, and that progress has delivered computing power in a
+
+smartphone that once took a whole room of computers. Intel executives say that if every
+
+industry had moved forward on the same line as the chip industry has, we would be able
+
+
+                                                         20
+to travel to the sun on a single gallon of gas, feed the world’s population on a square
+
+kilometer of land, and travel at 300 times the speed of light. If you feel like technology
+
+has been moving along at an accelerated pace, it’s not your imagination. It’s because of
+
+Moore’s law.
+
+
+
+
+                                              Above: Inside Globalfoundries’ 7-nm chip factory.
+                                                                     Image Credit: Globalfoundries
+
+But Gordon Moore himself has said in the past that he believed that we would hit an
+
+economic barrier to Moore’s law before we hit a technological one. The technological
+
+barrier may be at hand as well, as even chip manufacturing giant Intel had to delay mass
+
+production of its 10-nanometer chips (due to a difference in naming conventions, Intel’s
+
+10-nanometer chips are the equivalent of 7-nanometer chips from its rivals) until 2019.
+
+The task of making chips at smaller and smaller dimensions is getting difficult as
+
+engineers run into the laws of physics and the behavior of individual atoms in less than
+
+razor-thin manufacturing layers.
+
+
+
+                                             21
+At the dawn of chip factories in the 1950s and 1960s, almost every Silicon Valley chip
+
+maker created its own chips in factories. They built wafer fabs in Silicon Valley, and then
+
+offshored the assembly of the wafers into individual chips to places where labor costs
+
+were lower. The rising manufacturing costs went hand-in-hand with greater throughput,
+
+so each chip factory could make more revenue. But amassing the capital for a new
+
+factory became huge.
+
+
+That trend led to the rise of foundries, or contract manufacturers who took the designs
+
+of “fabless” companies and built them in factories. TSMC was founded in 1987. At first,
+
+it saw rising competition as demand for foundries rose, but now many of its rivals have
+
+dropped out due to the rising capital costs. And that’s where we are today. It’s perhaps
+
+no wonder that TSMC’s market value exceeded Intel’s for the first time in March 2017.
+
+Today, Intel is valued at $223 billion, and TSMC is $211 billion.
+
+
+Dan Hutcheson, analyst at VLSI Research, said that Globalfoundries’ decision to skip 7-
+
+nanometer will allow the company to focus on fully depleted silicon-on-insulator, where
+
+it has a unique advantage for chips that require features such as low power, radio
+
+frequency, and things needed for other chip markets.
+
+
+“It simply didn’t make sense for them to continue playing in the me-TSMC-too poker
+
+game, where the house always has the advantage,” Hutcheson said in an email. “AMD
+
+has a long history of working with TSMC that dates back to their entry, via acquisition,
+
+into GPUs.”
+
+
+He aadded, “As for cost to build a fab, it’s now at $15 billion heading to a cool $20
+
+billion. The problem isn’t capital as much as it is finding the people who know what
+
+they’re doing at the leading edge.”
+
+
+
+                                            22
+For AMD, the switch to TSMC required some foresight, as the company had to go to the
+
+trouble to make sure that its processor designs could be manufactured in TSMC’s
+
+factories as easily as they could be built in Globalfoundries’ factories.
+
+
+“Since I consider TSMC 7-nanometer to be in the same class as Intel 10-nanometer (and
+
+thus better than Intel 14-nanometer), AMD will actually have superior transistors than
+
+Intel until at least late next year. Who would have thought?” said Gwennap.
+
+
+For AMD, there is some risk in going to a single source at TSMC to make its chips.
+TSMC will have to scramble to ensure enough capacity to build AMD’s chips and serve
+
+its existing customers as well. But the switch will likely simplify AMD’s engineering
+
+work, as TSMC already makes AMD’s Radeon graphics chips.
+
+
+“AMD had to make a call to keep pace with bleeding-edge process nodes and TSMC had
+
+the lead. I’d guess Globalfoundries just couldn’t scale big enough to pay for the 7-
+
+nanometer development costs without AMD as a customer — possibly even with AMD as
+
+a customer,” said Kevin Krewell, analyst at Tirias Research.
+
+
+In other news, the head of AMD’s computing and graphics division, Jim Anderson, took
+a job as CEO at Lattice Semiconductor on Monday. But Gwennap didn’t see the latest
+
+departure as a huge problem for AMD, which has a strong talent bench
+
+
+
+
+                                             23
+Bibliography
+Huawei. “About Huawei.” Huawei, 13 Mar. 2020, www.huawei.com/en/about-
+    huawei#:~:text=Who%20is%20Huawei%3F,a%20fully%20connected%2C%20intelligent
+    %20world.
+
+Kharpal, Arjun. “Why New U.S. Rules on Selling Chips to Huawei Could Be a 'Big Blow' for
+     the Chinese Tech Giant.” CNBC, CNBC, 18 May 2020,
+     www.cnbc.com/2020/05/18/huawei-faces-big-blow-from-new-us-rules-to-cut-off-
+     chips.html.
+
+Eschulze. “Huawei Unveils Its New 5G Flagship Phone without Google-Licensed Apps.” CNBC,
+     CNBC, 19 Sept. 2019, www.cnbc.com/2019/09/19/huawei-mate-30-announced-specs-
+     price-
+     android.html#:~:text=The%20lineup%20includes%20the%206.62,cost%201%2C199%20e
+     uros%20(%241%2C326).
+
+Cowsky, Al. “Cost Comparison – Huawei Mate 10, IPhone 8, Samsung Galaxy S8.”
+    TechInsights Inc., 26 Aug. 1970, www.techinsights.com/blog/cost-comparison-huawei-
+    mate-10-iphone-8-samsung-galaxy-s8.
+
+Dutyfree, Customs. “Customs or Import Duty for Cpu to China.” CustomsDutyFree, 23 Sept.
+     2017, customsdutyfree.com/customs-or-import-duty-for-cpu-to-china/.
+
+千年 . 网传华为 Mate30 系列销量已破 1000 万 麒麟 990 处理器研发成本完全收回, 4 June
+   2020, mobile.yesky.com/283/708331783.shtml.
+
+Sin, Ben. “Huawei Still Sold More Phones Than Apple In 2019, But Admits 2020 Will Be
+      'Difficult Year'.” Forbes, Forbes Magazine, 31 Dec. 2019,
+      www.forbes.com/sites/bensin/2020/12/30/huawei-still-sold-more-phones-than-apple-in-
+      2019-but-admits-2020-will-be-difficult-year/#4ccc57c81d8f.
+
+Bhasin, Hitesh, et al. “Ansoff Matrix Theory Examples of Business Strategies for Future
+     Growth.” Marketing91, 30 Nov. 2019, www.marketing91.com/ansoff-matrix/.
+
+Takahashi, Dean. “Why the $10 Billion Chip Factory Club Just Got Smaller.” VentureBeat,
+     VentureBeat, 28 Aug. 2018, venturebeat.com/2018/08/28/why-the-10-billion-chip-factory-
+     club-just-got-smaller/.
+
+Byford, Sam. “Huawei Hits Back at US as TSMC Cuts off Chip Orders.” The Verge, The Verge,
+     18 May 2020, www.theverge.com/2020/5/18/21262042/huawei-us-export-tsmc-chip-
+     manufacture.
+
+Artashyan, Argam, et al. “Huawei Mate 10 Shipped Over 10 Million Units.” Gizchina.com, 3
+     Aug. 2018, www.gizchina.com/2018/08/03/huawei-mate-10-shipped-over-10-million-
+     units/.
+
+                                              24
+

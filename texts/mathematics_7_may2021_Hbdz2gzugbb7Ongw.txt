@@ -1,0 +1,864 @@
+       Mathematics: Analysis and Approaches Higher Level
+
+                      Internal Assessment
+Investigation of the motion of double pendulums using
+                 differential equations
+                      Session: May 2021
+
+                     Number of pages: 17
+Contents
+1 Introduction                                                                                             1
+  1.1 Simple pendulums . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .           1
+  1.2 Double pendulums . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .           3
+  1.3 Aim . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        3
+
+2 Mathematics used: Lagrangian mechanics and partial differentiation                                       3
+
+3 The equations of motion                                                                                  5
+  3.1 Description of the system . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        5
+  3.2 The Euler-Lagrange equations of the system . . . . . . . . . . . . . . . . . . . . . . .             7
+
+4 Solving the differential equation                                                                        8
+  4.1 Use of Euler’s Method . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .          8
+  4.2 Example of solving the DEs using Euler’s Method . . . . . . . . . . . . . . . . . . . .              8
+  4.3 Trials . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    10
+
+5 Results                                                                                                11
+  5.1 Behaviour of standard double pendulum . . . . . . . . . . . . . . . . . . . . . . . . .            11
+  5.2 Behaviour of the double pendulum after tweaks in initial conditions . . . . . . . . . .            13
+  5.3 Divergence of trajectories . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     15
+  5.4 Trajectory of approximations to simple pendulum . . . . . . . . . . . . . . . . . . . .            16
+
+6 Potential further study                                                                                17
+
+7 Conclusion                                                                                             17
+
+References                                                                                                  i
+
+A Behaviour of angles in double pendulums                                                                   ii
+  A.1 Behaviour of standard double pendulum . . . . . . . . . . . . . . . . . . . . . . . . .               ii
+  A.2 Behaviour after 5% increase in θ10 . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        iii
+  A.3 Behaviour after 5% increase in θ20 . . . . . . . . . . . . . . . . . . . . . . . . . . . . .         iv
+  A.4 Behaviour after small initial ω10 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .         v
+  A.5 Behaviour after small initial ω20 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        vi
+  A.6 Behaviour after 5% increase in m1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . .         vii
+  A.7 Behaviour after 5% increase in m2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        viii
+  A.8 Behaviour after 5% increase in l1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . .          ix
+  A.9 Behaviour after 5% increase in l2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . .           x
+  A.10 Approximation to single pendulum: small angle . . . . . . . . . . . . . . . . . . . . .             xi
+  A.11 Approximation to double pendulum: large angle . . . . . . . . . . . . . . . . . . . . .             xi
+1     Introduction
+
+1.1    Simple pendulums
+
+One of the most basic examples of periodic motion in mechanics is the simple pendulum under a
+gravitational field. It is in high school physics textbooks as an everyday example of periodic motion,
+and in undergraduate beginner physics textbooks as a beginner’s problem. It consists of a point mass
+on a massless string.
+
+
+
+
+                                              g
+                                                         l
+
+                                                             m
+
+                        Figure 1: A simple pendulum under a gravitational field
+
+
+
+    Its equation of motion has been well-studied and is given below.
+
+                                                    g
+                                              θ̈ = − sin θ                                          (1)
+                                                    l
+
+One dot on top of the variable symbol denotes one time derivative. This notation will be used
+throughout this investigation. θ is the angle between the vertical axis and the string, l is the length
+of the string, and g is the gravitational field strength.
+At small angles, equation (1) can be changed to another form using the small angle approximation
+(sin θ ≈ θ) (Kleppner & Kolenkow, 2014):
+
+
+                                                        g
+                                                  θ̈ = − θ                                          (2)
+                                                        l
+
+    This is a case of the equation below:
+
+                                               d2 y
+                                                    = −ω 2 y                                        (3)
+                                               dx2
+
+                                                     1
+   This is a well-known ODE with an analytic solution. For equation (2), the solution is:
+
+
+                                                                     g
+                                        θ = A sin (ωt + φ) , ω 2 =                                        (4)
+                                                                     l
+
+Where A and φ depend on initial conditions.(Keisler, 2012)
+If the angle of oscillation is larger, while equation (1) still has an analytic solution, it is quite complex.
+Most will simply obtain numerical solutions using Euler’s Method.
+   For example, this is the numerical solution for θ0 = 0.75π, l = 1, g = 9.81, and zero initial angular
+velocity.
+
+
+
+
+            Figure 2: Numerical solution using Euler’s method with a time-step of 0.0001
+
+
+   As a student who regularly reads materials in both mathematics and physics, I have encountered
+the simple pendulum, and similar periodic systems, many times. However, a much more fascinating
+system is the double pendulum.
+
+
+
+
+                                                      2
+1.2    Double pendulums
+
+Double pendulums consist of two rigid massless rods and two point masses.
+
+
+                                                         l1
+                                            g
+                                                        m1
+                                                              l2
+                                                        m2
+
+                        Figure 3: Double pendulum under gravitational field
+
+
+
+The motion of double pendulum is often claimed as ”unpredictable”, ”chaotic”, and ”unintuitive”. It
+is a famous example of the ”butterfly effect” in chaos theory due to the sensitivity of its motion to
+initial conditions (Levien & Tan, 1993). It is also well-known for being a problem that is rarely solved
+using Newtonian mechanics. Instead, Lagrangian mechanics (an alternative formulation of mechanics
+based on energy) is used.
+Having an interest in mathematical modelling, I decided to attempt simulating the double pendulum
+using my own knowledge in physics and the mathematical skills taught in IB Mathematics HL.
+
+
+1.3    Aim
+
+In this investigation: I will endeavour to find out about the motion of the double pendulum by deriving
+the ODEs using Lagrangian mechanics, then using Euler’s method to find numerical solutions of its
+motion.
+
+
+
+2     Mathematics used: Lagrangian mechanics and partial dif-
+
+      ferentiation
+
+Lagrangian mechanics is an alternative formulation of mechanics developed by physicist and mathe-
+matician Joseph-Louis Lagrange. It is unlike Newtonian mechanics, as it is based on energy calcula-
+tions, with no need of calculation using vectors.
+
+
+
+                                                    3
+   It is based upon the Euler-Lagrange equation (seen below), which is a result from the Principle of
+Least Action and calculus of variations (the study of the minima and maxima of functionals) (Susskind
+& Hrabovsky, 2020). It serves as an alternative to F = ma.
+
+                                             d ∂L       ∂L
+                                                      =                                              (5)
+                                             dt ∂ q˙j   ∂qj
+
+It often involves several variables, and has to use partial derivatives, denoted by ∂. This means the
+differentiation is focused on one variable, and all others are treated as constants.
+In the equations, qj is a generalised coordinate, and L is the Lagrangian. It is defined below (Morin,
+2007):
+
+
+                                              L=T −V                                                 (6)
+                                                   N
+                                                   X
+                                             T =         mk vk2                                      (7)
+                                                   k=1
+
+   T is the kinetic energy (which depends on mass m and speed v), and V is the potential energy.
+The potential energy depends on the existing force. (Morin, 2007)
+In the case of an object under a gravitational field:
+
+                                                   N
+                                                   X
+                                            V =          mk gyk                                      (8)
+                                                   k=1
+
+
+Where y is the height. Its value depends on the reference level (where potential energy is defined as
+zero) chosen. (Morin, 2007)
+In the above equations, N is the number of objects in the system, and k is the designation given to
+each object.
+To solve for the equations of motion, there will be multiple Euler-Lagrange equations, each based on
+one coordinate. For example, q1 can be θ1 , so q˙1 will have to be θ˙1 . θ2 will be treated as a constant
+during differentiation and formulation of the equation.
+
+
+
+
+                                                    4
+    An example of this partial differentiation can be demonstrated by a simple multivariable function:
+
+
+                                       f (θ1 , θ2 ) = θ1 2 + θ1 θ2 + θ2 2
+
+                                    ∂f               ∂f
+                                        = 2θ1 + θ2 ,     = θ1 + 2θ2
+                                    ∂θ1              ∂θ2
+                                 d ∂f                  d ∂f
+                                        = 2θ˙1 + θ˙2 ,        = θ˙1 + 2θ˙2
+                                 dt ∂θ1                dt ∂θ2
+
+
+3     The equations of motion
+
+3.1     Description of the system
+
+                                              θ1
+                                                         l1
+                                          g
+                                                    m1
+                                                    θ2         l2
+                                                                    m2
+
+                   Figure 4: Diagram of double pendulum with all parameters used
+
+
+
+    Refer to figure 4 for definitions of parameters. l1 , l2 , m1 , and m2 are constant.
+For the frame of reference, the top fixed pivot will be used as the origin.
+For the equations of motion, θ1 and θ2 will be solved using the Euler-Lagrange equation.
+x1 , x2 , y1 , and y2 can be found using the below equations:
+
+
+                                              x1 = l1 sin θ1                                       (9)
+
+                                              y1 = −l1 cos θ1                                    (10)
+
+                                              x2 = x1 + l2 sin θ2                                (11)
+
+                                              y2 = y1 − l2 cos θ2                                (12)
+
+
+    To list the required Euler-Lagrange equations, the kinetic and potential energies will need to be
+computed first to assemble the Lagrangian. They are computed below:
+
+                                                       5
+Kinetic energy For computation of kinetic energy, v 2 must first be expressed in terms of given
+variables
+Using Pythagoras’ Theorem (v 2 = ẋ2 + ẏ 2 ) and equation (7):
+
+                                                 1
+                                             T1 = m1 (x˙1 2 + y˙1 2 )                                   (13)
+                                                 2
+
+                                                 1
+                                             T2 = m2 (x˙2 2 + y˙2 2 )                                   (14)
+                                                 2
+
+Expanding using equations (9) to (12):
+                                                        m1 2 2
+                                                 T1 =     l1 θ̇1                                        (15)
+                                                        2
+                                     1        2 1        2
+                            T2 = m2 [ l1 2 θ˙1 + l2 2 θ˙2 + l1 l2 cos(θ2 − θ1 )θ˙1 θ˙2 ]                (16)
+                                     2          2
+
+Gravitational potential energies Using equation (8):
+
+
+                                                  V1 = m1 gy1                                           (17)
+
+
+                                                  V2 = m2 gy2                                           (18)
+
+Expanding using equation (10) and (12):
+
+
+                                              V1 = −m1 gl1 cos θ1                                       (19)
+
+
+                                       V2 = −m2 g(l1 cos θ1 + l2 cos θ2 )                               (20)
+
+
+The Lagrangian Using the definition of the Lagrangian (equation 6) and the energies derived
+above:
+
+
+              L = T1 + T2 − V1 − V2
+                      1
+                = m1 ( l1 2 θ̇12 + gl1 cos θ1 )                                                         (21)
+                      2
+                        1         2    1       2
+                  + m2 [ l1 2 θ˙1 + l2 2 θ˙2 + l1 l2 cos(θ2 − θ1 )θ˙1 θ˙2 + gl1 cos θ1 + gl2 cos θ2 ]
+                        2              2
+
+
+                                                         6
+3.2      The Euler-Lagrange equations of the system
+
+To get the equation of motion, one can simply use the Euler-Lagrange equation (eq. 5) For this
+system, we can use two Euler-Lagrange equations, where q1 is θ1 and q2 is θ2 :
+
+                                                       d ∂L       ∂L
+                                                                =                                                (22)
+                                                       dt ∂ θ˙1   ∂θ1
+
+                                                       d ∂L       ∂L
+                                                                =                                                (23)
+                                                       dt ∂ θ˙2   ∂θ2
+
+   Then, finally, we can derive the equations of motion. Differentiating, we get:
+
+                 d ∂L
+                          = (m1 + m2 )l1 2 θ¨1 + m2 l1 l2 [θ¨2 cos(θ2 − θ1 ) − θ˙2 (θ˙2 − θ˙1 ) sin(θ2 − θ1 )]
+                 dt ∂ θ˙1
+                                                                                                                 (24)
+                            ∂L
+                          =     = m2 l1 l2 θ˙1 θ˙2 sin(θ2 − θ1 ) − (m1 + m2 )gl1 sin θ1
+                            ∂θ1
+
+                     d ∂L
+                             = m2 l2 2 θ¨2 + m2 l1 l2 [θ¨1 cos(θ2 − θ1 ) − θ˙1 (θ˙2 − θ˙1 ) sin(θ2 − θ1 )]
+                           ˙
+                     dt ∂ θ2
+                                                                                                                 (25)
+                               ∂L
+                             =      = −m2 l2 [l1 sin(θ2 − θ1 )θ˙1 θ˙2 + gsinθ2 ]
+                               ∂θ2
+   These equations can then be transformed into a form suitable for numerical solving:
+
+           m2                                            m2                         2                     2
+  [1 −           cos2 (θ2 − θ1 )]l1 θ¨1 = −g sin θ1 +           sin(θ2 − θ1 )(l2 θ˙2 + l1 cos(θ2 − θ1 )θ˙1 )
+         m1 + m2                                      m1 + m2
+                                                                                                             (26)
+                                               m2
+                                          +           g cos(θ2 − θ1 ) sin θ2
+                                            m1 + m2
+
+                   m2                                                          2
+          [1 −           cos2 (θ2 − θ1 )]l2 θ¨2 = −g sin θ2 − sin(θ2 − θ1 )θ˙1
+                 m1 + m2
+                                                                                                                 (27)
+                                                                    m2 l2                    2
+                                                  − cos(θ2 − θ1 )[           sin(θ2 − θ1 )θ˙2 − g sin θ1 ]
+                                                                   m1 + m2
+One method for verifying these equations is to take the limiting case of the single pendulum, which
+means letting m2 and l2 approach 0. In this case, equation (26) becomes:
+
+
+                                                     l1 θ¨1 = −g sin θ1
+
+
+which is identical to equation (1).
+
+                                                              7
+4     Solving the differential equation
+
+4.1     Use of Euler’s Method
+
+To numerically solve for θ1 (t) and θ2 (t), Euler’s method must be used. This is achieved by the
+equations below:
+
+
+                                          θi (0) = θi0 (initial conditions)                      (28)
+                                                             dθi
+                                               ωi = θ˙i =        = f (θ1 , θ2 )                  (29)
+                                                              dt
+                                θi (t + dt) = θi (t) + θ˙i (t) × dt, i = 1, 2                    (30)
+
+
+However, θ˙i (t) must also be solved numerically using Euler’s method:
+
+
+                                         θ˙i (0) = ωi0 (initial conditions)                      (31)
+                                                      2
+                                                     d θi
+                                              θ¨i = 2 = f (θ1 , θ2 , θ˙1 , θ˙2 )                 (32)
+                                                      dt
+                                θ˙i (t + dt) = θ˙i (t) + θ¨i (t) × dt, i = 1, 2                  (33)
+
+
+θ¨1 and θ¨2 can be found by using equations (26) and (27). They are used in equation (33) to solve for
+θ˙1 and θ˙2 , which are then used in equation (30) to find angular displacements.
+
+
+4.2     Example of solving the DEs using Euler’s Method
+
+Conditions:
+m1 = m2 = l1 = l2 = 1
+θ1 (0) = 0.25π, θ2 (0) = 0.5π
+θ˙1 (0) = θ˙2 (0) = 0
+dt = 0.001
+
+
+
+
+                                                          8
+                     1                                       1
+                 [1 −  cos2 (0.25π)]θ¨1 (0) = −g sin(0.25π) + g cos(0.25π) sin(0.5π)
+                     2                          √            2
+                                                  2
+                                    θ¨1 (0) = −     g
+                                                 3
+                     1
+                 [1 − cos2 (0.25π)]θ¨2 (0) = −g sin(0.5π) − cos(0.25π)[−g sin(0.25π)]
+                     2
+                                                2
+                                    θ¨2 (0) = − g
+                                                3
+
+
+                        θ˙1 (0.001) = θ˙1 (0) + 0.001 × θ¨1 (0)
+                                                   √
+                                                     2
+                                    = −0.001 ×         × 9.81 = −4.62 × 10−3 s−1
+                                                    3
+                        θ1 (0.001) = θ1 (0) + 0.001 × θ˙1 (0)
+
+                                   = 0.25π
+
+                        θ1 (0.002) = θ1 (0.001) + 0.001 × θ˙1 (0.001)
+
+                                   = 0.25π − 4.62 × 10−6
+
+
+
+                         θ˙2 (0.001) = θ˙2 (0) + 0.001 × θ¨2 (0)
+                                                  2
+                                    = −0.001 ×      × 9.81 = −6.54 × 10−3 s−1
+                                                  3
+                         θ2 (0.001) = θ2 (0) + 0.001 × θ˙2 (0)
+
+                                    = 0.5π
+
+                         θ2 (0.002) = θ2 (0.001) + 0.001 × θ˙2 (0.001)
+
+                                    = 0.5π − 6.54 × 10−6
+
+
+As these equations are complicated, and there are many iterations, it is difficult to do by hand. It is
+better to use computer software. I chose to use the programming language Python, with the libraries
+math, numpy, and matplotlib.
+
+
+
+
+                                                      9
+4.3      Trials
+
+Common results for analysis of double pendulum include trajectories of the masses, and graphs of the
+angular displacements as functions of time.
+   A chaotic nature means small changes in initial conditions bring about a significant difference in
+final results, which is the ”butterfly effect”. This can be verified by doing trials with slightly different
+initial conditions.
+   All trials are done with dt = 0.0001 and g = 9.81. θ is in radians. T is the duration of the trial.
+
+
+         Description        l1       l2    m1      m2          θ10     ω10          θ20     ω20      T
+          Standard          1        1      1       1        0.25π      0         0.75π      0       20
+      5% increase in θ10    1        1      1       1       0.2625π     0         0.75π      0       20
+      5% increase in θ20    1        1      1       1        0.25π      0        0.7875π     0       20
+       Small initial ω10    1        1      1       1        0.25π    −0.01π      0.75π      0       20
+       Small initial ω20    1        1      1       1        0.25π      0         0.75π    −0.01π    20
+       5% increase in l1   1.05      1      1       1        0.25π      0         0.75π      0       20
+       5% increase in l2    1       1.05    1       1        0.25π      0         0.75π      0       20
+      5% increase in m1     1        1     1.05     1        0.25π      0         0.75π      0       20
+      5% increase in m2     1        1      1      1.05      0.25π      0         0.75π      0       20
+      Approximation to
+      simple pendulum:
+         Small angle        1     0.0001     1    0.0001     0.05π       0          0         0      5
+      Approximation to
+      simple pendulum:
+         Large angle        1     0.0001     1    0.0001     0.75π       0          0         0      5
+
+   The standard trial serves as a control to compare against all other trials. Its initial condition is
+represented in the diagram below.
+                                                           m2
+
+                                                   m1
+
+                                Figure 5: Initial conditions of standard trial
+
+
+
+
+                                                     10
+5     Results
+
+5.1    Behaviour of standard double pendulum
+
+The following are all results of the standard trial.
+
+
+
+
+                                           (a) Behaviour of θ1
+
+
+
+
+                                           (b) Behaviour of θ2
+
+                     Figure 6: Behaviour of angles in standard double pendulum
+
+
+
+
+                                                   11
+   There are several evident properties for all parameters seen in the graphs:
+
+    There is no clear period, amplitude, or wavelength
+
+    There are sharp maxima and minima
+
+    There is no clear relationship between behaviours of the two masses
+
+These properties can also be seen in online demonstrations of double pendulums. (Neumann, 2002)
+The trajectory was calculated by finding x1 , x2 , y1 , y2 at each moment using equations (9) to (12).
+
+
+
+
+                             Figure 7: Trajectory of standard pendulum
+
+
+   Again, multiple conclusions can be drawn:
+
+    The upper mass sweeps out an asymmetrical, continuous circular arc (the speed is inconsistent,
+
+     which can’t be seen in the trajectory)
+
+    The motion of the lower mass has no clear pattern. It can form large loops or sharp corners.
+
+    Both masses can reach a height above the original
+
+The last property can be explained via energy conservation. As the one falls and loses energy, the
+other gains energy and can get back up to or over its initial height. This allows the lower mass to
+form large loops. This phenomenon continues throughout all other trials.
+
+                                                   12
+5.2    Behaviour of the double pendulum after tweaks in initial conditions
+
+It is easiest to compare between trials by looking at trajectories, as they give a better understanding
+of the movement of the pendulum. Graphs of the angular parameters will be given in the appendix.
+
+
+
+
+       (a) Trajectory after 5% increase in θ10             (b) Trajectory after 5% increase in θ20
+
+                          Figure 8: Trajectories after changes in initial angle
+
+
+
+
+       (a) Trajectory after a small initial ω10             (b) Trajectory after a small initial ω20
+
+            Figure 9: Trajectories after pendulum is given small initial angular velocity
+
+
+
+                                                   13
+       (a) Trajectory after 5% increase in l1              (b) Trajectory after 5% increase in l2
+
+                            Figure 10: Trajectories after changes in length
+
+
+
+
+       (a) Trajectory after 5% increase in m1             (b) Trajectory after 5% increase in m2
+
+                           Figure 11: Trajectories after changes in masses
+
+
+   Any change in initial conditions have resulted in wild and unpredictable changes in the movement
+of the masses. These include changes in positions, shapes, and sizes of the loops formed, and also the
+maximum heights of both masses.
+   The path of the lower mass is often spread out over a large area, but can also be more localised
+(as seen in figure 8b). The amplitude of θ1 can also vary wildly.
+
+                                                  14
+5.3    Divergence of trajectories
+
+It seems that variations in the trajectory manifest after some time. Before a certain time, the paths
+from different initial conditions are visibly similar.
+This can be seen in the graphs of the angular parameters in the appendix. It can also be shown after
+running a trial with a shorter duration.
+   I ran a trial with the same initial conditions as the standard trial, except that T = 7.5s
+
+
+
+
+                            Figure 12: Trajectory in the initial 7.5 seconds
+
+
+   This initial pattern can be seen in the results of all trials. Although the precise path is different,
+the overall shape is similar. It is not until later that the trajectories begin to diverge significantly.
+
+
+
+
+                                                    15
+5.4    Trajectory of approximations to simple pendulum
+
+Two trials were done with parameters chosen such that the upper mass will behave as if it is a simple
+pendulum, meaning than m2 , l2 << 1. If the initial angle is small, it should behave according to
+equation (4). If the initial angle is large, it should behave similarly to figure 2.
+   The behaviour of the lower mass is not shown as it gives little physical insight, apart from the
+fact that it circulates around the upper mass at a very high angular velocity.
+
+
+
+
+              Figure 13: Behaviour of approximated single pendulum at low amplitude
+
+
+
+
+              Figure 14: Behaviour of approximated single pendulum at high amplitude
+
+
+   As expected, at low amplitude, θ1 (t) can be approximated by a sinusoidal function, and at high
+amplitude, it behaves like Figure 2. This further verifies the validity of this mathematical model.
+
+
+                                                    16
+6     Potential further study
+
+Physical pendulums As with many other examples in physics, the simple pendulum is only an
+approximation. In real life, the rods would have mass, and the masses have volume. Models taking
+this into account are called physical pendulums. These situations are more complicated, but they can
+still be modelled using other equations.
+
+
+Improvement of numerical solving For more precision, and to model even more complicated
+differential equations, Euler’s Method may not be sufficient.
+    There are other, more precise methods, such as the Runge-Kutta methods, which uses more steps
+to make a better approximation.
+
+
+
+7     Conclusion
+
+Using Lagrangian mechanics and Euler’s Method, various properties of the double pendulum have
+been found:
+
+     Its behaviour is unpredictable and non-periodic
+
+     The motion of the masses is often spread out over a large area
+
+     Any small change in initial conditions will result in a vastly different trajectory, but only after
+
+      some time
+
+     When m2 , l2 << 1, the upper mass behaves similarly to a simple pendulum
+
+For further study, physical pendulums can be studied to match a real-life situation. Another method
+for solving DEs may need to be used.
+
+
+
+
+                                                   17
+References
+
+Keisler, H. J. (2012). Differential equations. Elementary calculus an infinitesimal approach (pp. 846–
+       901). Dover Publications.
+
+
+Kleppner, D., & Kolenkow, R. J. (2014). Hooke’s law and simple harmonic motion. An introduction
+       to mechanics (2nd ed.). Cambridge University Press.
+
+
+Levien, R. B., & Tan, S. M. (1993). Double pendulum: An experiment in chaos. American Journal of
+       Physics, 61 (11), 1038–1044. https://doi.org/10.1119/1.17335
+
+
+Morin, D. J. (2007). Introduction to classical mechanics. Cambridge University Press.
+
+
+Neumann, E. (2002). Double pendulum. https : / / www . myphysicslab . com / pendulum / double -
+       pendulum-en.html
+
+
+Susskind, L., & Hrabovsky, G. (2020). Classical mechanics: The theoretical minimum. Penguin Books.
+
+
+
+
+                                                  i
+A     Behaviour of angles in double pendulums
+
+A.1   Behaviour of standard double pendulum
+
+
+
+
+                            (a) Behaviour of θ1
+
+
+
+
+                            (b) Behaviour of θ2
+
+
+
+
+                                    ii
+A.2   Behaviour after 5% increase in θ10
+
+
+
+
+                              (a) Behaviour of θ1
+
+
+
+
+                              (b) Behaviour of θ2
+
+
+
+
+                                      iii
+A.3   Behaviour after 5% increase in θ20
+
+
+
+
+                              (a) Behaviour of θ1
+
+
+
+
+                              (b) Behaviour of θ2
+
+
+
+
+                                      iv
+A.4   Behaviour after small initial ω10
+
+
+
+
+                               (a) Behaviour of θ1
+
+
+
+
+                               (b) Behaviour of θ2
+
+
+
+
+                                       v
+A.5   Behaviour after small initial ω20
+
+
+
+
+                               (a) Behaviour of θ1
+
+
+
+
+                               (b) Behaviour of θ2
+
+
+
+
+                                       vi
+A.6   Behaviour after 5% increase in m1
+
+
+
+
+                             (a) Behaviour of θ1
+
+
+
+
+                             (b) Behaviour of θ2
+
+
+
+
+                                     vii
+A.7   Behaviour after 5% increase in m2
+
+
+
+
+                             (a) Behaviour of θ1
+
+
+
+
+                             (b) Behaviour of θ2
+
+
+
+
+                                    viii
+A.8   Behaviour after 5% increase in l1
+
+
+
+
+                              (a) Behaviour of θ1
+
+
+
+
+                              (b) Behaviour of θ2
+
+
+
+
+                                      ix
+A.9   Behaviour after 5% increase in l2
+
+
+
+
+                              (a) Behaviour of θ1
+
+
+
+
+                              (b) Behaviour of θ2
+
+
+
+
+                                      x
+A.10   Approximation to single pendulum: small angle
+
+
+
+
+         Figure 24: Behaviour of approximated single pendulum at low amplitude
+
+
+
+A.11   Approximation to double pendulum: large angle
+
+
+
+
+         Figure 25: Behaviour of approximated single pendulum at high amplitude
+
+
+
+
+                                           xi
+

@@ -1,0 +1,558 @@
+                                      IB Chemistry
+                                      Higher Level
+
+How does the addition of an 0.1 moldm-3 iron (III) chloride catalyst affect the activation
+                energy of the decomposition of hydrogen peroxide?
+
+                                         hlp110
+                                        May 2020
+
+
+
+
+                                                                                         1
+Introduction
+In my study of chemical kinetics, I encountered the properties of hydrogen peroxide (H2O2),
+a chemical is notably used as a bleaching agent in the processing of shark fins - a traditional
+Chinese dish. As someone who has been hospitalised after eating a contaminated bowl of
+shark fin soup, I am conscious of the health risks in consuming the product. This led me to
+question the role of hydrogen peroxide in my food poisoning, as well as how to reduce these
+impacts. A study by the Hong Kong Centre of Food Safety showed that samples of shark fin
+were found to have residual hydrogen peroxide with concentrations as high as 1.5%.
+Fortunately, the health risks to this were minimised as hydrogen peroxide readily decomposes
+into water and oxygen upon heating.
+
+                                2H2O2 (aq) → 2H2O (l) + O2 (g)
+
+In light of this information, I was interested in finding out how to increase the rate of
+decomposition of hydrogen peroxide. One way this could be done was by reducing the
+reaction's activation energy. I thus decided to examine the impact of adding an iron (III)
+chloride catalyst. This was because iron chloride is a homogenous catalyst, which encourages
+higher catalytic activity as they are more easily accessible to the reactants.
+
+Background Information
+In any given reaction, the activation energy (EA) is the minimum amount of energy required
+for bond dissociation in the reactants to occur. Provided that reactants also collide in the
+sufficient orientation, the ensuing reaction forms a transition state, from which these bonds
+reform to create the reaction's products. The literature value for the uncatalyzed
+decomposition of hydrogen peroxide is +75kJ/mol.
+
+Adding a catalyst would lower the EA by providing an alternative reaction pathway, as
+illustrated by Figure 2 on page 4. Hence, the frequency of successful particle collisions would
+increase, as demonstrated by the Maxwell-Boltzmann diagram on page 4. A method of
+deciphering a reaction's activation energy would be through an equation devised by Svante
+Arrhenius, which characterises the relationship between temperature and reaction rate. The
+equation is as follows:
+
+                                            k = Ae-Ea/RT
+
+In this equation, k is the rate constant, A is frequency of collisions in the correct orientation,
+T is the temperature in Kelvin, and R is the universal gas constant. A rearranged version of
+the natural logarithm of this reaction results in the following equation:
+
+                                 ln k = (-EA÷R) × (1÷T) + ln A
+
+This is in the same format as the equation of a straight line. Therefore, one can find the
+activation energy by plotting a graph of ln k against 1÷T. The gradient in this line would
+therefore equal -EA÷R, from which one can multiply by -R to compute the EA value.
+
+With an iron (III) chloride catalyst, the rate expression for the decomposition of hydrogen
+peroxide is r = k[H2O2][Fe3+]. In this expression, r is the rate of reaction: the change in
+concentration of H2O2 per second. The rate of reaction will be experimentally collected via
+measuring the time taken for a certain volume of oxygen gas to be produced. As oxygen is
+one of the products of this reaction, another method that could have been used to measure the
+
+
+                                                                                                     2
+rate of reaction is by measuring the change in mass as oxygen escapes from the flask.
+However, this was not used because the low quantity of reactants used would create the risk
+for a higher rate of uncertainty.
+
+The reaction mechanism for the decomposition of H2O2 (Haber and Weiss, 1932) is that of a
+chain reaction, as shown below:
+
+   1. Chain initiation: Fe3+ + H2O2 ⇌ [FeIIIOOH]2+ + H+ ⇌ Fe2+ + HOO• + H+
+   2. Chain propagation: Fe2+ + H2O2 → Fe3+ + 2OH•
+      Fe3+ + H2O2 + OH• → Fe3+ + HOO• + H2O →Fe2+ + H+ + O2 + H2O
+
+Another proposed mechanism (Kremer and Stein, 1959) involves the production of an
+intermediate oxygen complex, which reacts with another H2O2 molecule to form water and
+oxygen while regenerating the ferric ion:
+
+         Fe3+ + H2O2 ⇌ [FeIIIOOH]2+ + H+ ⇌ [FeVO]3+ + H2O -> 2H2O + O2 + Fe3+
+
+Methodology
+
+Table 1: Apparatus Used and Margin of Error of Apparatus (if applicable)
+  Material Used                              Uncertainty Rate
+  250cm3 volumetric flask                    ±0.15cm3
+  Stopwatch                                  ±0.5s (accounting for reaction time)
+  25cm3 measuring cylinder                   ±0.5cm3
+  Thermometer                                ±0.1°K
+  100cm3 gas syringe                         ±0.1cm3
+  800cm3 beaker (to be used as water bath)
+  500cm3 of 1 moldm-3 hydrogen peroxide
+  200cm3 of 0.1 moldm-3 iron (III) chloride
+  450cm3 of distilled water                  N/A
+  Clamp stand
+  Boiling tubes
+  Boiling tube rack
+
+Apparatus Set-Up
+Figure 1: A photograph displaying the apparatus setup before the commencement of the
+experiment, with a boiling tube connected to a gas syringe held by a clamp stand.
+
+
+
+
+                                                                                              3
+Figure 2: An enthalpy diagram showing the change in activation energy for the
+decomposition of hydrogen peroxide when a catalyst is used. (Burns, 2003)
+
+
+
+
+Figure 3: A Maxwell-Boltzmann graph displaying the amount of particles that surpass, or
+are equal to, the activation energy in reactions occurring with and without a catalyst.
+(Horner, Davies, and Toerien, 2012)
+
+
+
+
+                                                                                          4
+Investigation Variables
+The independent variable of this investigation is temperature (K). This will be altered via
+changing the temperature of the water bath in which the reaction occurs. A kettle has been
+kindly lent out for use during this investigation, and I hence will pour hot water into my
+water bath until the thermometer reading is commensurate with the temperatures I intend to
+investigate below. This independent variable has been chosen as I am able to, using the
+Arrhenius equation, find the activation energy of this reaction through the gradient of a graph
+of ln k against 1/T. The temperature values that were tested were 328.0K, 333.0K, 338.0K,
+343.0K and 348.0K. These values were chosen as the high temperatures would decrease the
+time taken for the reaction to occur. Furthermore, the use of five different values increases
+the reliability of any trendline that my results infer.
+
+The dependent variable of this investigation is the time taken for 10cm3 of oxygen gas to
+be produced. This will be measured through a gas syringe with a bung connected to the
+boiling tube that the reaction occurs in. This dependent variable has been chosen as one can
+find the rate of reaction using the previous equation: r = k[H2O2][Fe3+] , in which the
+concentration of both H2O2 and Fe3+ are of 0.1 moldm-3. Calculating k is integral in plotting
+the graph of ln k vs 1/T, which can be multiplied by the negative of the gas constant to result
+in the activation energy value.
+
+A detailed overview of the control variables, along with the steps taken to minimise their
+impact on this investigation, can be seen below:
+
+Table 2: Control Variables
+ Control Variable              Steps Taken To Minimise Impact
+ Surrounding pressure          Data from the Hong Kong Observatory states that there are
+                               minimal changes in atmospheric pressure over the course of
+                               the two weeks when this experiment was conducted; pressure
+                               can therefore be considered as a control variable. Any
+                               significant changes could impact the moles of oxygen gas
+                               evolved, as per the ideal gas law.
+ Volume of reactants           The volumes of FeCl3 and H2O2 that were kept consistent at
+                               10cm3 and 25cm3 respectively. Any changes in volume could
+                               affect the calculated rate of reaction. Both of these solutions
+                               were measured with a 25cm3 measuring cylinder.
+ Concentration of reactants    The concentrations of FeCl3 and H2O2 in the experiment were
+                               kept at 0.1moldm-3 for all trials. This was done by diluting
+                               samples of 1 moldm-3 to a concentration of 0.1 moldm-3via a
+                               volumetric flask. Concentration is another variable that can
+                               change an experiment's rate of reaction, which makes
+                               discerning the impact of changes in temperature on the rate of
+                               reaction unclear.
+
+Risk Assessment
+According to its CLEAPSS Hazcard, hydrogen peroxide at high concentrations has the risk of
+causing irritation to the eyes and skin, and may be harmful if swallowed. As it decomposes to
+produce water and oxygen, pressure may build up and care needs to be taken when opening a
+bottle of the chemical.
+
+
+
+
+                                                                                                 5
+Furthermore, CLEAPSS states that iron (III) chloride poses the risk of being harmful if
+swallowed, causing skin irritation and serious eye damage on contact with the skin and eyes.
+Some suppliers classify solutions more concentrated than 0.2M as corrosive.
+
+To minimise these risks, I will be working with goggles and latex gloves in the entire
+duration of my experiment. In between sessions, I will store my hydrogen peroxide solution
+away from heat and light. Both chemicals will be diluted to a concentration of 0.1moldm-3 to
+minimise the impact of any accidents. I will not dispose of these chemicals through the sink,
+and will instead do so separately through a chemical waste basket.
+
+Experimental Procedure
+   1. Prepare a standard solution of hydrogen peroxide with a concentration of 0.1 moldm-3
+      by diluting a 1.0 moldm-3 sample of the liquid in a volumetric flask.
+   2. Set up a water bath with a temperature of 348.0K, with a boiling tube attached to a
+      gas syringe within it. This gas syringe will be held up by a clamp.
+   3. Measure 25 cm3 of the diluted hydrogen peroxide using a measuring cylinder, and
+      pour it into the boiling tube.
+   4. Pour 10 cm3 of 0.1 moldm-3 iron (III) chloride into the boiling tube. At the same time,
+      start the timer of a stopwatch.
+   5. Record any observations as necessary.
+   6. Stop the timer once 10 cm3 of oxygen gas has been collected, as per the gas syringe.
+   7. Repeat steps 3 to 5 thrice, for a total of four experimental attempts.
+   8. Repeat steps 2 to 7, using a water bath with temperatures of 343.0K, 338.0K, 333.0K
+      and 328.0K.
+
+   This experimental procedure was adapted from the Job Foundation of Thermodynamics.
+   The primary differences between the method outlined above and the method shown on
+   their corresponding documents are the stochiometric quantities used, as well as the choice
+   of laboratory glassware in which the reaction is conducted in.
+
+   A multitude of methods were attempted in the conduction of this experiment. While
+   several attempts were made using the adapted volumes of 10cm3 H2O2 and 2cm3 FeCl3
+   initial observations showed no evidence of a reaction within 10 minutes. The slow rate of
+   reaction could have been due to the small volume of oxygen gas that was expected to be
+   produced (approximately 24.5cm3), much of which could have escaped before the gas
+   syringe was attached to the boiling tube. I therefore increased the initial volume of H2O2
+   to 25cm3.
+
+   Alternatively, the low temperatures of my initial method could also have hindered the
+   speed at which results were collected. Although had planned on using a range of 278.0,
+   288.0, 298.0, 308.0, and 318.0K, the slow rate of reaction prompted me to increase the
+   range to 328.0, 333.0, 338.0, 343.0 and 348.0K. As stated by the ideal gas law [pV =
+   nRT], increasing temperature would also increase the moles of gas evolved, thus
+   decreasing the time taken to obtain only 10cm3 of oxygen gas. After implementing these
+   changes, there was a sharp difference in my raw results between the first and second
+   attempts with a water bath at 348K. To sustain the reliability of results, I then completed
+   another trial for all temperatures.
+
+
+
+
+                                                                                                 6
+Raw Data
+
+Quantitative Observations
+Table 3: A table displaying the time taken in each experiment to produce 10cm3 of oxygen
+gas at all investigated temperatures for the catalysed decomposition of hydrogen peroxide.
+   Temperature                Time taken for 10 cm3 of oxygen to evolve (±0.5s)
+     (±0.1°K)             trial 1         trial 2         trial 3          trial 4
+      328.0         31.3             43.2            58.0               42.7
+      333.0         18.1             21.4            10.5               23.3
+      338.0         10.6             12.9            16.6               20.8
+      338.0         13.6             10.6            16.7               11.2
+      348.0         29.3             10.1            8.0                13.12
+
+(Note: The result in bold in Table 3 is anomalous, and will not be included in any further
+calculations. Furthermore, displayed values are shown to one decimal place to align with the
+uncertainty of the stopwatch and reaction time. Full values were used in all calculations.)
+
+Qualitative Observations:
+                Applicable to all runs                        Observations particular to a certain trial
+
+    1. Reaction started releasing gas                      1. For all reactions at 328.0K: gas released
+       immediately after contact, increases                   for ~20 seconds on average before the
+       magnitude of error as this contact was                 reading on the gas syringe began to
+       before the bung was placed or the                      move.
+       stopwatch had started.                              2. For all reactions at 333.0, 338.0, 338.0
+    2. An immediate colour change occurred                    and 348.0K: immediate release of gas
+       from colourless (colour of hydrogen                    for experiments in other temperatures.
+       peroxide) to orange-brown (initial colour           3. For trial 3 at 348K: despite adding the
+       of iron (III) chloride), but there was no              same volume of H2O2 and catalyst, the
+       colour change during the reaction itself.              final colour of this test tube was
+    3. Boiling tube immediately warm to the                   significantly darker (brown) than other
+       touch.                                                 experiments.
+
+Data Analysis
+
+Calculating the rate of reaction
+The mean amount of time taken to produce 10cm3 of oxygen gas was calculated with the
+below formula:
+
+      (Σ time taken to produce 10cm3 of oxygen gas for each trial) ÷ (number of trials)
+
+An example calculation is displayed below for reactions at 348K.
+
+                               10.14 + 7.98 + 13.13 ÷ 3 = 10.4s
+
+    This was repeated with trials at all other temperatures to result in the following table:
+
+
+
+                                                                                                 7
+   Table 4: A processed data table displaying the mean amount of time taken (s) to evolve
+               10cm3 of oxygen gas for trials at all investigated temperatures
+
+               Temperature (K)                    Time taken for 10 cm3 of oxygen to evolve
+                   328.0                                            43.8
+                   333.0                                            18.3
+                   338.0                                            15.2
+                   338.0                                            13.0
+                   348.0                                            10.4
+
+To calculate the amount of moles of oxygen evolved, a rearranged version of the ideal gas
+law was used as follows:
+                                       n = pV ÷ RT
+
+                             n = 101 000 × 0.01 ÷ 1 8.314 × 348
+                                n = 0.35 mol [of O2 produced]
+
+This formula was used to find values for n at all other temperatures. As the equation for the
+decomposition for hydrogen peroxide has a molar ratio of 1:2 between O2 and H2O2, the
+value of n was multiplied by 2 to calculate the moles of H2O2 that was reacted.
+
+The rate of reaction (r) was calculated by dividing the amount of moles of H2O2 reacted by
+the average time taken for 10cm3 of oxygen gas to be produced. An example calculation at
+348K is displayed below:
+
+                                     r = [0.35×2] ÷ 10.4
+                                     r = 0.067moldm-3s-1
+
+This formula was used to find values for r at all other temperatures, which has been
+summarised in the following table:
+
+Table 5: A processed data table displaying the number of moles of oxygen gas evolved (mol),
+the number of moles of H2O2 consumed (mol) and the rate of reaction (moldm-3s-1) for each
+temperature investigated (K) (±0.1K)
+Temperature (K) Moles of O2 evolved          Moles of H2O2 evolved     Rate of Reaction
+                                                                       (moldm-3s-1)
+     328.0                  0.37                       0.74                     0.017
+     333.0                  0.36                       0.73                     0.040
+     338.0                  0.36                       0.72                     0.047
+     338.0                  0.35                       0.71                     0.054
+     348.0                  0.35                       0.70                     0.067
+
+Calculating the natural logarithm of the rate constant
+Using the rate expression of r = k[H2O2][Fe3+], the rate constant can be found by dividing the
+rate of reaction with the product of the initial concentrations of hydrogen peroxide and iron
+(III) chloride. As the molar ratio of Fe3+ and FeCl3 is 1:1, this value need not be changed. An
+example calculation at 348K is displayed below:
+
+                                    k = r ÷ [H2O2][FeCl3]
+
+
+                                                                                                8
+                                    k = 0.067 ÷ [0.1] [0.1]
+                                           k = 6.70
+
+The natural logarithm was taken for all values of k to give the y-axis of an Arrhenius graph.
+
+Table 6: A processed data table showing how k and ln k varies with temperature.
+   Temperature (K)             Rate constant (k)                       ln k
+         328.0                       1.69                              0.53
+         333.0                       3.98                              1.38
+         338.0                       4.72                              1.55
+         338.0                       5.44                              1.69
+         348.0                       6.70                              1.90
+
+The x-axis of the Arrhenius graph is of (temperature-1), which was calculated by dividing 1
+by the temperature (K) the reaction took place in.
+
+Table 7: A processed data table showing the different temperatures (K-1) of this investigation
+             Temperature (K)                             (Temperature) -1 (K-1)
+                   328.0                                         0.00305
+                   333.0                                         0.00300
+                   338.0                                         0.00296
+                   338.0                                         0.00292
+                   348.0                                         0.00287
+
+
+Table 8: A processed data table showing the change in ln K with (Temperature) -1
+           (Temperature) -1 (K-1)                                ln k
+                  0.00305                                          0.53
+                  0.00300                                          1.38
+                  0.00296                                          1.55
+                  0.00292                                          1.69
+                  0.00287                                          1.90
+
+
+
+
+                                                                                                9
+10
+Calculation of Activation Energy
+As shown in Figure 3, the gradient of the graph's line of regression is -7042.9. Using a
+rearranged form of the Arrhenius equation, the activation energy can be found by multiplying
+the negative gradient of the line of regression by the gas constant:
+
+                                    EA = -7042.9 × -8.314
+                                     EA = +58.55kJ/mol
+                                       EA = +59kJ/mol
+
+For comparison, the literature value for the uncatalyzed decomposition of hydrogen peroxide
+is +75kJ/mol. Therefore, one can surmise that the addition of an iron (III) chloride catalyst
+decreases the activation energy of this reaction by approximately 16kJ/mol, or 21%.
+
+Calculation of Random Error
+The percentage uncertainty in the calculated value of activation energy lies within the error of
+the gradient of the Arrhenius' graph. Separate percentage uncertainties were computed in
+calculating ln k and temperature, and they were used to calculate the uncertainty of the slope.
+
+Percentage Uncertainty in Calculating ln k
+The percentage uncertainty in collecting the moles of oxygen gas evolved factors in both the
+uncertainty of the thermometer and the gas syringe, as both volume and temperature were
+taken into account in the ideal gas law. Uncertainties in both of these pieces of apparatus
+were calculated using the following general formula:
+
+Percentage uncertainty = uncertainty of the apparatus itself (see table 1) / the value measured,
+multiplied by 100.
+
+Example calculations at 348K are displayed below:
+Uncertainty of gas syringe: (±0.1cm3 ÷ 10cm3) × 100 = 1%
+Uncertainty of thermometer: (±0.1K ÷ 348K) 100 = 0.03%
+
+The percentage uncertainty in the time taken for 10cm3 of oxygen to evolve was calculated
+using the above general formula for all trials. The rate of uncertainty for a particular
+temperature was the mean value of the percentage uncertainties of its constituent trials.
+
+                [(±0.5 ÷ 13.13) + (±0.5 ÷ 7.98) + (±0.5 ÷ 10.14)] ÷ 3 = 0.05%
+
+The percentage uncertainty in the volume of the solution was the sum of the uncertainties in
+the volumetric flask used to create the standard solution and the measuring cylinder used to
+extract both the iron (III) chloride and dilute hydrogen peroxide.
+
+Uncertainty of volumetric flask: ±0.15 cm3 ÷ 250 cm3 × 100 = 0.06%
+Uncertainty of measuring cylinder: ±1.0 cm3 ÷ 35 cm3 × 100 = 3%
+
+These uncertainties were summed to create a range of error for all data points on the y-axis.
+The uncertainty in temperature was restated to give the range of error for points on the x-axis.
+
+
+
+
+                                                                                             11
+            Uncertainty in time Uncertainty in                  Total y-axis        Total x-axis
+Temperature taken for gas to     moles O2        Uncertainty in uncertainty (%, 1 uncertainty (%, 1
+(K)         evolve (%)           collected (%) volume (%)       significant figure) significant figure)
+        328                 0.01            1.00           2.92                   4                 0.03
+         333                  0.03              1.00            2.92                    4                 0.03
+         338                  0.04              1.00            2.92                    4                 0.03
+         343                  0.04              1.00            2.92                    4                 0.03
+         348                  0.05              1.00            2.92                    4                 0.03
+
+     Taking these uncertainties into account resulted in the error bars shown on Figure 3 in page
+     10. Due to the low level of uncertainty, it was infeasible to draw alternate lines of best fit by
+     hand. I thus used Excel's LINEST function to calculate the uncertainty of the graph's slope.
+
+     This produced an uncertainty of ±1740 out of a gradient of -7043, which amounted to a rate
+     of random error of 24%, or ±15kJ/mol. Such a degree of uncertainty definitively
+     compromises the reliability of the 59kJ/mol value of activation energy stated earlier.
+
+     Evaluation
+
+     Conclusion
+     Despite the uncertainties propagated with the computed value of this experiment,
+     comparisons with the literature EA value of H2O2 decomposition (+75kJ/mol) shows that the
+     addition of an iron (III) chloride catalyst reduces the activation energy by approximately
+     21%. Similar research using a goethite catalyst - a mineral also containing the Fe3+ ion, the
+     reactant catalysing the decomposition of H2O2 - has resulted in an activation energy of
+     32kJ/mol, which can be used as a literature value. Hence, the percentage error of this
+     experiment is as follows:
+
+                                         59-32 ÷ 59 = 46% error
+
+     Even when accounting for the high random error shown above, it is evident that this
+     experiment still had sources of systematic error. Nonetheless, this investigation has shown
+     the decreasing effects of a Fe3+ catalyst on the activation energy of decomposition, which is
+     in line with scientific orthodoxy. The high degree of random error, however, puts into
+     consideration the extent to which the activation energy has decreased.
+
+     Strengths
+     The temperature of the reaction was tightly controlled and recorded, resulting in low random
+     errors in that regard. One of the factors contributing to this low random error is the use of a
+     water bath made of glass, which is a thermal insulator. This prevented the excess loss of heat
+     after boiling water was poured in. Furthermore, the thermometer was added directly into the
+     boiling tube in which the reaction occurred, which resulted in an accurate measurement of
+     temperature. These values were used twice - both in calculations for the moles of gas evolved
+     and in computing 1/T - and thus their low margin of error increased the validity of results.
+
+
+
+
+                                                                                                     12
+          Limitations                 Impact on Results                   Improvements
+ Random: Use of imprecise      This decreases the reliability      This error can be mitigated
+ apparatus - a measuring       of my results through the           by using more precise
+ cylinder was used to collect  propagation of random error,        apparatus, especially in
+ both my solutions of ferric   which amounted to half of the       measuring reactants. Using
+ chloride and hydrogen         percentage error between my         a graduated pipette would
+ peroxide.                     results and the literature          be of use.
+                               value.
+ Systematic: A significant     As the first few seconds of a       This error can be reduced if
+ volume of gas may have        reaction has the highest rate       this experiment had been
+ escaped before I connected    of reaction, I may have been        collaborative; having
+ the gas syringe to each       overestimating the time taken       another person start the
+ boiling tube. My qualitative to produce 10cm3 of gas. This        stopwatch would have me
+ observations show that gas    would compromise my value           connect each boiling tube
+ started being released        of the rate constant (k). I view    to the gas syringe in a
+ immediately, while there      this to be the most important       shorter period of time.
+ was sometimes a 2-3 second source of systematic error,
+ gap between the start of the because the small quantities
+ stopwatch timer and           of product involved could
+ movement of the gas           have largely escaped in a 2-3
+ syringe.                      second period of time.
+ Systematic: As I used the     This could have changed the         Provided the time, I could
+ same volumetric flask of      concentration of the hydrogen       have made a standardised
+ H2O2 between lessons, a       peroxide, which is integral in      solution immediately
+ small amount of the solution calculating the rate constant.       before each reaction.
+ could have decomposed.        This therefore propagates a
+                               systematic error.
+ Systematic: As only 10cm3     This compromises the                In future runs, this
+ of oxygen gas was             accuracy of my rate of              experiment could measure
+ collected, this rate measured reaction, which is used in          higher volumes of gas.
+ is only an average of the     calculating values of the rate      However, this would not be
+            3
+ first 10cm - qualitative      constant (k). This hence            sufficient unless a method
+ observations showed that      reduces the accuracy of the         was deciphered for a
+ this evolved at a faster rate gradient of my Arrhenius plot       minimal amount of gas to
+ than the remaining ~50cm3     as a systematic error.              escape before the reaction
+ of oxygen gas.                                                    was connected to the
+                                                                   boiling tube.
+
+Extensions for Investigation
+To further expand on the scope of this experiment, one could examine the impact of other
+variables on the activation energy of H2O2 decomposition - notably, the effects of pH and
+reactant concentration. Furthermore, the literature value that was cited is not without error; to
+more closely control the effects of confounding variables (particularly temperature), this
+experiment could, given the resources, first measure the activation energy of uncatalyzed
+decomposition of hydrogen peroxide.
+
+This experiment could also serve as a point of comparison with other catalysts for the same
+reaction, particularly in d-block elements; a further investigation could aim to decipher, and
+explain, the most effective catalyst of this particular reaction.
+
+
+                                                                                                13
+   Bibliography
+
+24-hour Time Series of Mean Sea Level Pressure in Hong Kong . (n.d.). Retrieved November
+   10, 2019, from https://www.hko.gov.hk/wxinfo/ts/display_element_pp_e.htm.
+
+Decomposition of Hydrogen Peroxide by Various Catalysts. (n.d.). Retrieved from
+  https://www.job-stiftung.de/pdf/versuche/H2O2_Decomposition.pdf.
+
+Horner, Mark, et al. Physical Sciences Grade 12. Siyavula Education, 2012.
+
+Kremer, M. L., & Stein, G. (1958). The catalytic decomposition of hydrogen peroxide by ferric
+   perchlorate. Transactions of the Faraday Society, 55, 959. doi: 10.1039/tf9595500959
+
+Kwan, W. P. (1999, April 3). KINETICS OF THE Fe(III) INITIATED DECOMPOSITION
+  OF ... Retrieved November 10, 2019, from
+  https://dspace.mit.edu/bitstream/handle/1721.1/80211/44602388-MIT.pdf?sequence=2.
+
+
+Lin, S.-S., & Gurol, M. D. (1998). Catalytic Decomposition of Hydrogen Peroxide on Iron
+   Oxide: Kinetics, Mechanism, and Implications. Environmental Science &
+   Technology, 32(10), 1417–1423. doi: 10.1021/es970648k
+
+   CLEAPSS (2016). CLEAPSS HazCards. science.cleapss.org.uk. Available at:
+   http://science.cleapss.org.uk/Resources/HazCards/ [Accessed 10 Nov. 2019].
+
+Haber F., Weiss J. (1932). "Über die katalyse des hydroperoxydes" [On the catalysis of
+  hydroperoxide]. Naturwissenschaften.
+
+Pauling, L. C. (1988). General Chemistry. Dover Publications.
+
+Burns, R. (2003). “Chapter 15: Reaction Rates and Chemical Equlibrium.” Study Guide and
+   Selected Solutions Manual: Fundamentals of Chemistry, 4th Edition, Prentice Hall.
+
+
+
+
+                                                                                            14
+

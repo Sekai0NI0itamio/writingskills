@@ -1,0 +1,712 @@
+                    Chemistry Higher Level
+
+                     Internal Assessment
+Investigation of hypochlorite content in solutions made by
+             home-made disinfectant machine
+                      Session: May 2021
+
+                     Number of pages: 12
+Contents
+1 Introduction                                                                                          1
+  1.1 Aim . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     1
+
+2 Theoretical background and hypothesis                                                                  1
+
+3 Methodology                                                                                           2
+  3.1 Determination of disinfecting ability . . . . . . . . . . . . . . . . . . . . . . . . . . . .     2
+  3.2 Titration of iodine . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     3
+  3.3 Parameters of electrolysis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    3
+  3.4 Standard for comparison . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       4
+  3.5 Variables . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   4
+
+4 Experimental procedure                                                                                5
+  4.1 Preparation of 0.05M potassium iodide solution . . . . . . . . . . . . . . . . . . . . .          5
+  4.2 Preparation of 0.005M sodium thiosulphate solution . . . . . . . . . . . . . . . . . . .          5
+  4.3 Preparation of starch indicator . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     5
+  4.4 Electrolysis of salt-water and analysis of hypochlorite content . . . . . . . . . . . . . .       6
+  4.5 Precautions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     6
+  4.6 Repeated trials . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     7
+
+5 Results                                                                                               7
+  5.1 Electrolysis according to manufacturer’s instructions . . . . . . . . . . . . . . . . . .         7
+  5.2 Electrolysis using larger amount of salt . . . . . . . . . . . . . . . . . . . . . . . . . .      8
+  5.3 Error calculation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     9
+  5.4 Summary of results . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      9
+
+6 Analysis of results                                                                                   10
+  6.1 Sources of systematic error . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     10
+  6.2 Cost comparison . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       11
+  6.3 Practicality for household use . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      12
+  6.4 Potential improvements in methodology . . . . . . . . . . . . . . . . . . . . . . . . . .         12
+
+7 Conclusion                                                                                            12
+
+References                                                                                               i
+
+A Raw titration data                                                                                    ii
+1     Introduction
+Chlorine bleach is a common cleaning product mainly used to remove colour or dyes from fabric.
+However, it can also kill bacteria and disinfect household surfaces. In the COVID-19 pandemic,
+many consumers started regularly disinfecting appliances and surfaces at home using dilute bleach.
+Some companies began selling small appliances that electrolyse dilute salt-water to make a solution
+of sodium hypochlorite, which is the main active ingredient in chlorine bleach.
+One example is the ”CleanJug” manufactured by the electronics company Momax.
+
+
+
+
+          Figure 1: The CleanJug Homemade Disinfectant Machine, from Momax website
+
+These machines became rather popular and many families purchased one. They often costed up to 700
+HKD, or 90 USD, which shocked me as it just seems like a normal electrolysis cell. I became skeptical
+of the claims of the product, which is that the electrolysed water is suitable for use in disinfection,
+and can kill 99% of germs. (Clean-Jug Homemade Disinfectant Machine, n.d.)
+
+1.1    Aim
+In this investigation, I will find out about the disinfecting ability of electrolysed dilute salt water
+made using a commercial device (via determining hypochlorite content), and make recommendations
+on how to disinfect surfaces using it.
+
+
+2     Theoretical background and hypothesis
+The main active ingredient in both commercial bleach and home-made disinfectant is sodium hypochlo-
+rite, or NaClO. It destroys micro-organisms by harming degrading phospholipids in cell membranes,
+deactivating enzymes, and interfering with cell metabolism. (Estrela et al., 2002)
+Industrially, sodium hypochlorite solution is produced via the Hooker Process, in which chlorine is
+passed through cold sodium hydroxide solution.
+
+                    2 NaOH(aq) + Cl2 (g) −−→ NaClO(aq) + NaCl(aq) + H2 O(l)
+
+On a small scale, it can be made by oxidation of chloride during electrolysis of salt water.
+
+                Cl− (aq) + H2 O(l) −−→ ClO− (aq) + 2 H+ (aq) + 2 e−              E◦ = −1.49 V
+                  2 H2 O(l) + 2 e− −−→ H2 (g) + 2 OH− (aq)                           E◦ = 0 V
+       Overall: Cl− (aq) + H2 O(l) −−→ ClO− (aq) + H2 (g)                        E◦ = −1.49 V
+
+                                                  1
+However, the electrolysis can yield side products. Chloride and hypochlorite can also be oxidised into
+other ions or gases. These products do not have the same disinfection effect. (Harvey, 2020)
+
+                      2 Cl− (aq) −−→ Cl2 (g) + 2 e−                          E◦ = −1.40 V
+           ClO− (aq) + H2 O(l) −−→ ClO2 − (aq) + 2 H+ (aq) + 2 e−            E◦ = −1.64 V
+                    ClO2 − (aq) −−→ ClO2 (g) + e−                            E◦ = −1.19 V
+            ClO2 (g) + H2 O(l) −−→ ClO3 − (aq) + 2 H+ (aq) + e−              E◦ = −1.18 V
+          ClO3 − (aq) + H2 O(l) −−→ ClO4 − (aq) + 2 H+ (aq) + 2 e−           E◦ = −1.20 V
+
+Although more hypochlorite will be produced as time goes on, more of it could be further oxidized.
+This mean that it is impractical to simply calculate hypochlorite content of electrolysed salt-water
+using electrochemical principles, and it must be measured by experiment.
+
+                                             RT [oxidised form]
+                                  E = Eo −      ln
+                                             nF    [reduced form]
+
+As more hypochlorite is produced, according to the Nernst equation above, its production becomes
+less favourable, while its further oxidation into chlorite and other ions becomes more favourable. At
+some point, the rates of hypochlorite depletion and production are equal.
+Therefore, my hypothesis is that there should be an optimum time for electrolysis that yields the
+largest hypochlorite concentration.
+
+
+3     Methodology
+3.1    Determination of disinfecting ability
+As hypochlorite is the active ingredient in disinfectant, disinfecting ability is proportional to its
+concentration.
+Hypochlorite content can be quantitatively decided by redox titration. As it is unstable in solution,
+it must first be used up to make a more stable compound. In this case, it acts as an oxidizing agent
+to oxidize iodide into iodine.
+
+                         ClO− (aq) + 2 H+ (aq) + 2 e− −−→ Cl− (aq) + H2 O(l)
+                                               2 I− (aq) −−→ I2 (aq) + 2 e−
+             Overall: ClO− (aq) + 2 I− (aq) + 2 H+ (aq) −−→ I2 (aq) + Cl− (aq) + H2 O(l)
+
+The elemental iodine dissolves in water due to it combining with leftover iodide to form the more
+soluble triiodide ion.
+
+                                    I− (aq) + I2 (aq) −
+                                                      )−
+                                                       −*
+                                                            −
+                                                        − I3 (aq)
+
+Therefore, a large excess of iodide should be added to the hypochlorite.
+
+
+
+
+                                                  2
+3.2    Titration of iodine
+The iodine content can then be determined by titration with sodium thiosulphate.
+
+                           I2 (aq) + 2 S2 O3 2− (aq) −−→ 2 I− (aq) + S4 O6 2− (aq)
+
+As iodine solution is yellow, and the final solution is colourless, the end-point is not obvious. Therefore,
+starch solution should be added, forming a blue-black starch-triiodide complex and making the end-
+point more obvious. However, the complex does not dissociate easily, especially when it is more
+concentrated. This leads to potential overestimation of the volume of sodium thiosulphate required,
+and thus the concentration of iodine. Therefore, to make sure the complex dissociates, the starch
+must be added near the end of the titration, when the solution is pale yellow.
+
+
+
+
+      (a) The point at which starch has to be added          (b) After addition of starch solution
+
+                              Figure 2: Before and after addition of starch
+
+
+
+3.3    Parameters of electrolysis
+To discover the capabilities of the machine for household use, the manufacturer’s instructions should
+be followed. On the website, it recommends:
+
+    2g of salt
+
+    Water filled up to the ”Max” line of the machine
+
+    Salt-water electrolysed for 10 minutes
+
+    Using provided power adapter attached to mains supply, with voltage of 12V and power of 26W
+
+The manufacturer claims that 10 minutes of electroysis can produce disinfectant suitable for a ”deep
+clean” of bathroom surfaces and clothes. (Clean-Jug Homemade Disinfectant Machine, n.d.)
+By measurement, the capacity of the machine was found to be 330mL. This volume of water will be
+used for every trial.
+If all chloride is converted to hypochlorite, the resulting NaClO concentration will be 0.772%.
+
+
+
+
+                                                      3
+3.4    Standard for comparison
+As a standard for disinfecting ability, I chose the guidelines for home disinfection by the Centre for
+Disease Control and Prevention (or CDC) in the US. For disinfection of household surfaces, they
+recommend mixing 5.25% to 8.25% sodium hypochlorite bleach with water, in a ratio of either 5
+tablespoons bleach per gallon, or 4 teaspoons bleach per quart. This results in 0.1025% to 0.172%
+sodium hypochlorite solution. This solution needs to be in contact with the surface for at least 1
+minute. (Cleaning And Disinfecting Your Home, 2020)
+
+3.5    Variables
+• Controlled variables:
+
+Volume of water The volume is fixed at the capacity of the machine, 330mL, to keep initial
+concentration in trials constant
+
+Voltage and current adapter used Voltage affects the favourability of different redox reactions,
+while current affects the rate of formation of ions. As mentioned above, V=12V while I = P/V =
+2.167W
+
+Concentration of iodide While simply excess for formation of triiodide is enough, the concen-
+tration should be kept constant for convenience. While iodide solution would normally need to be
+standardized, there is no need as long as there is excess
+
+Concentration of thiosulphate This must be kept constant and precise as it is the titrant. The
+volume of water and mass of solid Na2 S2 O3 must be the same in every trial.
+
+Form of sodium thiosulphate solid used Solid anhydrous Na2 S3 O3 can absorb water to form
+hydrates. This would require solutions prepared from it to be standardized. Therefore, I will use
+Na2 S2 O3 · 5 H2 O. Since the pentahydrate cannot accomodate more water, it will not absorb moisture
+and can be treated as standard.
+
+Form of salt used Solid, reagent-grade sodium chloride was used for all trials
+
+Titration setup and procedure A white tile should always be present for ease of colour compar-
+ison, and the flask has to be swirled to ensure uniform colour.
+
+• Independent variable: Time of electrolysis
+
+• Dependent variable: Volume of sodium thiosulphate used in titration
+
+
+
+
+                                                  4
+4     Experimental procedure
+4.1     Preparation of 0.05M potassium iodide solution
+    1. 2.08g of potassium iodide was weighed
+
+    2. It was dissolved in a 250mL beaker with distilled water
+
+    3. The solution was added to a 250mL volumetric flask using a funnel
+
+    4. The beaker was washed, with the washings added to the flask
+
+    5. The solution was topped up to the flask marking using a Pasteur pipette
+
+4.2     Preparation of 0.005M sodium thiosulphate solution
+    1. 3.10g of sodium thiosulphate pentahydrate was weighed
+
+    2. It was dissolved in a 250mL beaker using distilled water
+
+    3. The solution was added to a 250mL volumetric flask using a funnel
+
+    4. The beaker was washed, with the washings added to the flask
+
+    5. The solution was topped up to the flask marking using a Pasteur pipette (This makes 0.05M
+       Na2 S2 O3 solution)
+
+    6. 25mL of the solution was transferred to another 250mL volumetric flask using a pipette
+
+    7. The solution was topped up to the flask marking using a Pasteur pipette (This dilutes the
+       solution to 0.005M)
+
+4.3     Preparation of starch indicator
+    1. 100mL of water was brought to a gentle boil in a beaker
+
+    2. The heat was shut off, and approx. 1g of starch was added
+
+    3. The solution is stirred with a glass rod until all starch was dissolved
+
+
+
+
+                                                    5
+4.4    Electrolysis of salt-water and analysis of hypochlorite content
+  1. The machine was filled with 330mL of water and the desired amount of salt was added
+
+  2. The machine was sealed and shaken well to dissolve the salt
+
+  3. The power supply was switched on for the desired duration
+
+  4. Four 25mL samples were extracted and transferred to a 250mL conical flask
+
+  5. 25mL of 0.05M potassium iodide solution was added to each flask
+
+  6. Each sample was titrated with 0.005M sodium thiosulphate
+
+  7. During the last stage of titration, when the solution is pale yellow, 1 or 2 drops of 1% starch
+     solution are added. The end-point is reached when the solution turns from blue-black to clear.
+
+
+
+
+        (a) Titration setup with iodine solution            (b) Electrolysis in progress
+
+                                    Figure 3: Experimental setups
+
+
+
+4.5    Precautions
+ The electrolysed water should be added to the iodide solution as soon as possible to prevent decom-
+position or further oxidation of hypochlorite.
+Both the iodide and thiosulphate solutions must be prepared on the same day as the experiment. They
+can become cloudy, as iodide can be oxidised into iodine or iodate (Wong, 1980), while thiosulphate
+can undergo disproportionation to form sulfur. (D’Huart et al., 2018)
+
+
+
+
+                                                   6
+4.6    Repeated trials
+ Each sample of electrolysed water is analysed via 1 trial titration (to determine approximate position
+of end-point) and 3 proper ones, which the actual results will be derived from. Each electrolysis
+duration will be tested 3 times. This means at least 12 titrations in total for each electrolysis duration
+tested.
+
+5     Results
+Only mean titrant volumes of each trial will be shown below. Full titration results are shown in the
+appendix.
+
+5.1    Electrolysis according to manufacturer’s instructions
+Parameters: 2g of salt, 10 min of electrolysis
+
+
+                Titrations Trial      1   2 3           Titrations Trial    1   2   3
+                 Volume     9.8      9.7 9.5 9           Volume     9.2    8.6 8.9 8.9
+                             Sample 1                              Sample 2
+
+                                   Titrations Trial       1   2   3
+                                    Volume     9.3       9.2 9.3 8.8
+                                                Sample 3
+
+
+                                       Trials                 1   2   3
+                               Mean ∆V (Na2 S2 O3 )(mL)      9.4 8.8 9.1
+
+                                              9.4 + 8.8 + 9.1
+Average volume of thiosulphate solution =                     = 9.1 mL
+                                                     3
+Average number of moles of thiosulphate = 0.005 × 9.1 × 10−3 = 4.55 × 10−5 mol
+Average number of moles of hypochlorite = Average number of moles of iodine = 2.28 × 10−5 mol
+
+                             2.28 × 10−5 mol   9.12 × 10−4 mol   0.0679g NaClO
+Concentration of NaClO =                     =                 =               = 6.79 × 10−3 %
+                                 0.025L               L             L solution
+This concentration is about 15 times less than the one recommended by the CDC.
+Although less concentrated solutions can still kill bacteria given a longer contact time with surfaces,
+this concentration is still too small. The disinfectant is likely to dry, or the hypochlorite will be used
+up before successful disinfection.
+Therefore, more salt must be used. 5g of salt can lead to a more concentrated solution while still being
+reasonably economical for households. Therefore, further trials to find optimum electrolysis time will
+be done with 5g of salt.
+
+
+
+
+                                                    7
+5.2    Electrolysis using larger amount of salt
+Titration data
+
+      Electrolysis duration   ∆V (Sample 1) (mL) ∆V (Sample 2) (mL) ∆V (Sample 3) (mL)
+              3 min                  11.6               10.2               12.1
+              5 min                  18.2               17.9               19.4
+              7 min                  24.1               21.5               22.9
+              9 min                  22.5               23.3               23.4
+             10 min                  25.5               24.9               26.7
+             12 min                  25.9               29.3               28.5
+             15 min                   31                27.6               30.5
+             17 min                  33.3               31.8               31.5
+             20 min                  30.8               32.8               32.2
+
+
+Final concentration of NaClO
+The method of calculation is identical as the one used in section 5.1. An additional example is shown
+below:
+
+Parameters: 5g of salt, 10 min of electrolysis
+Average volume of thiosulphate solution = 25.7 mL
+Average number of moles of thiosulphate = 1.285 × 10−4 mol
+Average number of moles of hypochlorite = Average number of moles of iodine = 6.425 × 10−5 mol
+                            6.425 × 10−5 mol
+Concentration of NaClO =                       = 1.91 × 10−2 %
+                                 0.025L
+Percentage of CDC-recommended concentration = 18.75%
+
+
+                                                          Percentage of CDC-
+                                                  −2
+               Electrolysis duration   [NaClO] (10 %) recommended concentration
+                       3 min                0.84                  8.21
+                       5 min                1.38                 13.44
+                       7 min                1.70                 16.58
+                       9 min                1.72                 16.75
+                      10 min                1.91                 18.67
+                      12 min                2.08                 20.26
+                      15 min                2.21                 21.57
+                      17 min                2.40                 23.39
+                      20 min                2.38                 23.19
+
+
+
+
+                                                 8
+5.3    Error calculation
+Titration is a very precise method, and the uncertainties in measurement will be insignificant compared
+to that from systematic error or variations in experimental technique.
+Experimentally possible values of the concentration lie anywhere between the maximum and minimum
+values obtained (from an individual titration instead of the average result). Concentrations from these
+results should be taken as the upper bound and lower bound respectively.
+
+Example of error calculation
+Parameters: 5g of salt, 10 min of electrolysis
+
+Minimum volume of Na2 S3 O3 (aq) = 24.7 mL
+Maximum volume of Na2 S2 O3 (aq) = 27 mL
+Minimum concentration of NaClO = 1.84 × 10−2 %
+Maximum concentration of NaClO = 2.01 × 10−2 %
+All errors are shown as error bars in the graph below.
+
+5.4    Summary of results
+NaClO concentration of disinfectant made according to manufacturer’s instructions:
+6.79 × 10−3 %, 6.6% of CDC-recommended concentration
+
+NaClO concentration of disinfectant made with 5g of salt:
+
+           Time (min)         3     5     7     9    10    12    15    17    20
+      Concentration (10−2 %) 0.84 1.38 1.70 1.72 1.91 2.08 2.21 2.40 2.38
+          Percentage of
+       CDC-recommended
+          concentration      8.21 13.44 16.58 16.75 18.67 20.26 21.57 23.39 23.19
+
+
+
+
+                                                  9
+6     Analysis of results
+If the disinfectant is made by fully following the instructions given by the manufacturer, the hypochlo-
+rite concentration will be too low for effective disinfection. If 5g of salt is used, it will take around 17
+minutes for the hypochlorite concentration to reach its maximum of approximately 0.024%, when its
+rate of depletion matches its rate of production.
+
+6.1    Sources of systematic error
+Conversion to chlorine During the process of sample collection before titration, the hypochlorite
+can be converted into chlorine gas, which can escape from the water.
+
+                        ClO− (aq) + Cl− (aq) + H2 O(l) −
+                                                       ←−
+                                                        −→               −
+                                                         − Cl2 (g) + 2 OH (aq)
+
+This is prevented in normal bleach as there is significant alkali present. However, this is not true for
+home-made disinfectant. Therefore, the result will not accurately reflect hypochlorite content after
+application to surfaces.
+During electrolysis, if the container is not sealed tight enough, the chlorine can easily escape. This
+means the equilibrium will continue to tend to the right, causing significant loss of ClO – .
+
+Reduction of other ions Other ions produced during electrolysis such as chlorite, chlorate, and
+perchlorate can also be reduced by the iodide ions. Therefore, the titration results may over-estimate
+hypochlorite content.
+
+Inaccurate end-point Even if the starch solution is added when the solution is pale yellow, the
+dissociation of starch-triiodide complex is still unfavourable. This means the hypochlorite content
+can still be over-estimated.
+
+                                                    10
+6.2    Cost comparison
+Another way to look at the results is to see if producing disinfectant by electrolysis is cheaper than
+just diluting supermarket bleach. If it is, we can also find how much disinfectant has to be made
+before enough money is saved to equal the value of the machine. All prices below are in Hong Kong
+Dollar.
+
+Material costs
+Cheapest price of salt in supermarket = $3.31 /100 g
+Cheapest price of 2.4% bleach in supermarket = $28.1 /L
+Cost of machine from official website = $698
+As for household cost of water and electricity, the rates are different depending on consumption level.
+For simplicity, I will assume the household has enough consumption to have to pay the maximum
+rates.
+Cost of water = $9.05 per m3 (“HK WSD: Residential water tariffs”, n.d.)
+Cost of electricity = $1.605 /kWh (“HK Electric: Residential tariffs”, n.d.)
+
+
+Cost of 1 portion of home-made disinfectant
+                         9.05
+Cost of water = 330 × 6 = $2.99 × 10−3
+                         10
+                    3.31
+Cost of salt = 5 ×        = $0.1655
+                    100
+Total electrical energy used = 26W × 17min × 60 = 26.5kJ = 7.37 × 10−3 kW h
+Cost of electricity = 1.605 × 7.37 × 10−3 = $0.0118
+Total cost = $0.18
+
+Cost of diluting bleach to make equivalent disinfectant
+To make 0.024% disinfectant from 2.4% bleach, a 1:99 dilution is needed.
+                             9.05
+Cost of water = 330 × 0.99 × 6 = $2.96 × 10−3
+                             10
+                              28.1
+Cost of bleach = 330 × 0.01 × 3 = $0.0927
+                              10
+Total cost = $0.0957
+Even if the cost of the machine (which is about 600 HKD) is not accounted for, the homemade
+disinfectant is still at least 80% more expensive. If a household uses it, they will simply lose more
+and more money during successive uses.
+Therefore, I suggest that the only reason one should buy this machine is if the process of diluting
+bleach poses a serious danger (either from the strong alkali or release of chlorine).
+
+
+
+
+                                                  11
+6.3    Practicality for household use
+Even the maximum hypochlorite concentration right after electrolysis is below the one recommended
+by the CDC for 1-minute disinfection. The concentration may even decrease during use as the
+hypochlorite is converted to chlorine.
+Therefore, consumers should let the disinfectant stay on the surface for a longer time before scrubbing,
+or even apply it multiple times.
+Making and using homemade disinfectant is also inconvenient, and takes a significant amount of time
+as the electrolysis lasts over 10 minutes.
+However, there can be one advantage to this method.
+Commercial bleach is a sodium hypochlorite solution mixed with sodium hydroxide. (May, 2011) As
+aforementioned, the basicity keeps the hypochlorite stable so it is not converted into chlorine. This
+makes even diluted bleach slightly corrosive. The process of dilution can also be risky as the user’s
+skin can be burned by the undiluted bleach.
+Therefore, despite the time and cost, making dilute disinfectant at home may be a safer solution for
+consumers with skin that is sensitive to strong alkali, or for households with children.
+
+6.4    Potential improvements in methodology
+Other tests of disinfecting ability Indirectly measuring disinfection ability by hypochlorite con-
+tent is not that rigorous or accurate. It also does not reflect the situation during the actual process of
+disinfection. Instead, a direct measurement using colonies of bacteria or other micro-organisms may
+be a better test.
+
+Use of other forms of salt Laboratory technical-grade sodium chloride was used in the experiment,
+but household salt contains many impurities such as other minerals, or iodide salts. So, this may not
+be an accurate reflection of household use
+
+Testing other machines Other disinfectant machines may use different forms of electrolytic cell.
+The Momax machine used here places its electrodes flat at the bottom. Other machines may have
+different methods, such as using metal strips/rods as electrodes similar to laboratory setups. These
+may be more efficient at producing hypochlorite. Therefore, it may be worth also testing them.
+
+7     Conclusion
+Home-made disinfectant machines are effective at making dilute disinfectant, as they can produce
+hypochlorite ions via electrolysis.
+However, this method of making disinfectant has many flaws:
+    The amount of salt recommended by manufacturer is not enough
+
+     The time required to make effective disinfectant is long, at above 10 minutes
+
+     The cost of salt-water electrolysis is more costly than just using diluted bleach, and the machine
+      itself is also expensive
+However, not only is the cost of salt and electricity make this method more expensive than just di-
+luting bleach. This might only be a better option if bleach poses a danger to the household.
+Of course, this is only a rough, preliminary investigation. Other more in-depth and rigorous experi-
+ments may be needed to truly determine whether these machines are worth it.
+
+                                                   12
+References
+Cleaning And Disinfecting Your Home. (2020). Cleaning and disinfecting your home. https://www.
+       cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/disinfecting-your-home.html
+
+Clean-Jug Homemade Disinfectant Machine. (n.d.). Clean-jug homemade disinfectant machine. https:
+      //www.momax.net/product/clean-jug-homemade-disinfectant-machine/
+
+D’Huart, E., Vigneron, J., Ranchon, F., Vantard, N., Rioufol, C., & Demoré, B. (2018). Physico-
+      chemical stability of sodium thiosulfate infusion solutions in polyolefin bags at room temper-
+      ature over a period of 24 hours. Pharmaceutical Technology in Hospital Pharmacy, 3 (3), 135–
+      142. https://doi.org/10.1515/pthp-2018-0015
+
+Estrela, C., Estrela, C. R., Barbin, E. L., Spanó, J. C. E., Marchesan, M. A., & Pécora, J. D. (2002).
+       Mechanism of action of sodium hypochlorite. Brazilian Dental Journal, 13 (2), 113–117. https:
+       //doi.org/10.1590/s0103-64402002000200007
+
+Harvey, D. (2020). P1: Standard reduction potentials by element. https : / / chem . libretexts . org /
+      Bookshelves/Ancillary Materials/Reference/Reference Tables/Electrochemistry Tables/P1:
+       Standard Reduction Potentials by Element
+
+Hk electric: Residential tariffs. (n.d.). Retrieved February 23, 2021, from https://www.hkelectric.
+      com/en/customer-services/billing-payment-electricity-tariffs/residential-tariff
+
+Hk wsd: Residential water tariffs. (n.d.). Retrieved February 23, 2021, from https://www.wsd.gov.
+      hk/en/customer-services/manage-account-and-water-bills/water-sewage-tariff/index.html
+
+May, P. (2011). Sodium hypochlorite. http://www.chm.bris.ac.uk/motm/bleach/bleachh.htm
+
+Wong, G. T. (1980). The stability of dissolved inorganic species of iodine in seawater. Marine Chem-
+      istry, 9 (1), 13–24. https://doi.org/10.1016/0304-4203(80)90003-1
+
+
+
+
+                                                   i
+A     Raw titration data
+For all data, overshoot titrations are indicated in red. These are not accounted in calculations, and
+an additional titration will be done.
+
+2g of salt, 10 min of electrolysis
+
+
+               Titrations Trial        1   2 3             Titrations Trial      1   2   3
+                Volume     9.8        9.7 9.5 9             Volume     9.2      8.6 8.9 8.9
+                            Sample 1                                  Sample 2
+
+                                    Titrations Trial         1   2   3
+                                     Volume     9.3         9.2 9.3 8.8
+                                               Sample 3
+
+
+5g of salt, 3 min of electrolysis
+
+
+     Titrations Trial      1    2    3                     Titrations Trial      1    2    3
+      Volume    12.2      11.9 12.3 12.1                    Volume    10.1      10.3 10.1 10.2
+                        Sample 1                                              Sample 2
+
+                             Titrations Trial      1    2    3    4
+                              Volume    11.7      11.6 11.7 11.5 11.6
+                                               Sample 3
+
+
+5g of salt, 5 min of electrolysis
+
+
+               Titrations Trial        1    2 3            Titrations Trial      1    2    3
+                Volume    18.1        17.7 18 18            Volume    18.1      18   18.1 17.6
+                            Sample 1                                  Sample 2
+
+                                   Titrations Trial         1    2    3
+                                    Volume    19.3         19.7 19.3 19.2
+                                               Sample 3
+
+
+
+
+                                                      ii
+5g of salt, 7 min of electrolysis
+
+
+     Titrations Trial      1    2    3                      Titrations Trial      1    2    3    4
+      Volume    24.5      24.4 24.2 23.8                     Volume    22.1      21.7 21.3 21.5 21.6
+                Sample 1                                                       Sample 2
+
+                                   Titrations Trial         1   2    3
+                                    Volume    22.8          23 22.8 22.9
+                                               Sample 3
+
+
+5g of salt, 9 min of electrolysis
+
+
+       Titrations Trial      1    2    3                           Titrations Trial       1   2    3
+        Volume    23.1      22.6 22.1 22.8                          Volume    23.3        23 23.5 23.4
+                  Sample 1                                                       Sample 2
+
+                                   Titrations Trial          1    2    3
+                                    Volume    23.5          23.6 23.5 23.2
+                                               Sample 3
+
+
+5g of salt, 10 min of electrolysis
+
+
+         Titrations Trial      1    2    3                      Titrations Trial      1    2    3
+          Volume    25.9      25.5 25.7 25.3                     Volume    24.7      25.1 24.7 24.8
+                        Sample 1                                               Sample 2
+
+                                   Titrations Trial          1    2    3
+                                    Volume     27           26.6 26.8 26.6
+                                               Sample 3
+
+
+
+
+                                                      iii
+5g of salt, 12 min of electrolysis
+
+        Titrations Trial      1    2   3                       Titrations Trial        1    2    3
+         Volume    25.8      26    26 25.6                      Volume    29.6        29.5 29.2 29.2
+                   Sample 1                                                 Sample 2
+
+                                  Titrations Trial         1    2    3
+                                   Volume    28.9         28.5 28.7 28.4
+                                              Sample 3
+
+
+5g of salt, 15 min of electrolysis
+
+            Titrations Trial       1    2   3               Titrations Trial      1    2    3
+             Volume    30.9       31.1 30.8 31               Volume    27.6      27.6 27.5 27.6
+                     Sample 1                                          Sample 2
+
+                                  Titrations Trial         1    2    3
+                                   Volume    30.7         30.6 30.6 30.3
+                                              Sample 3
+
+
+5g of salt, 17 min of electrolysis
+
+       Titrations Trial     1    2    3    4                    Titrations Trial        1    2    3    4
+        Volume    33.3     33.5 33.4 33.4 33.1                   Volume    31.9        31.8 31.6 31.9 31.7
+                  Sample 1                                                     Sample 2
+
+                                  Titrations Trial         1    2    3
+                                   Volume    31.8         31.7 31.6 31.3
+                                              Sample 3
+
+
+5g of salt, 20 min of electrolysis
+
+         Titrations Trial      1    2    3                    Titrations Trial      1    2    3
+          Volume     31       30.9 30.6 30.8                   Volume     33       32.9 32.7 32.7
+                     Sample 1                                              Sample 2
+
+                                  Titrations Trial         1    2    3
+                                   Volume    32.4         32.2 32.3 32.1
+                                              Sample 3
+
+
+
+                                                     iv
+

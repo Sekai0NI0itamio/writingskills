@@ -1,0 +1,818 @@
+Investigation of the moment of inertia of hollow cylinders
+IB Physics Internal Assessment
+Contents
+
+Introduction                                     1–4
+Research Question                                1
+Background Information                           1–3
+Hypothesis                                       3
+Apparatus                                        4
+Variables                                        4–5
+Experimental Procedures                          5
+Safety, ethical and environmental concerns       5
+
+
+Data Collection, Processing and Analysis         6–9
+Raw Qualitative Data                             6
+Sample Calculations                              6
+Experimental Graph Analysis                      7
+Linearization of the Relationship                7–8
+Linearized Graph Analysis                        8
+Comparison with Theory                           8–9
+Experimental and Theoretical Graphs Comparison   9
+
+
+Conclusion and Evaluation                        10 – 11
+Conclusion                                       10
+Evaluation                                       11
+
+
+Extensions and Further Investigations            12
+Extensions                                       12
+Further Investigations                           12
+
+
+Bibliography                                     13
+Works cited                                      13
+References                                       13
+
+
+Appendices                                       14 – 16
+Appendix 1                                       14
+Appendix 2                                       15
+Appendix 3                                       16
+IB Physics HL | Internal Assessment
+
+
+
+Introduction
+     When I was 8 years old, my primary school science teacher performed an experiment in class.
+She showed us that a cylinder with a hole in it took longer to roll down a slope than a cylinder
+without a hole made from the same material. This intrigued me as I thought that the speed at which
+an object falls is independent of its mass, and thus the experiment lingers in my mind till this day.
+Therefore, for this IA, I will be investigating and researching the reasons behind this phenomenon
+and replicating the experiment with a much higher level of detail.
+
+
+Research Question
+      How does the diameter of a hole in a hollow cylinder affect the cylinder’s final velocity when
+rolling down a slope?
+
+
+Background Information
+    The difference between the motion of a cube and a cylinder going down a slope is that the
+former would slip while the latter would roll.
+                                                            (Refer to Figure 1) When a cylinder
+                                                       is placed on a slope, two of the forces
+                                                       that act on it are its weight and the
+                                                                      friction between the cylinder and the
+                                                                      slope. Weight acts on the Centre of
+                                                                      Mass of the cylinder, and it gives the
+                                                                      cylinder a downward acceleration.
+                                                                      However, friction acts on the surface of
+                                                                      the cylinder instead of the Centre of
+                                                                      Mass, and therefore giving the cylinder
+                                                                      a torque, which is defined as force
+                                                                      multiplied by the perpendicular
+Figure 1     Free-body diagram of a cylinder rolling down a slope.
+                                                            distance from the line of action of the
+force to a point (Hamper 420), and in this case, friction multiplied by the perpendicular distance
+between the slope and the centre of mass of the cylinder. This is why the cylinder rolls down a slope
+instead of sliding down like a cube.
+
+
+     The rolling motion of the cylinder means that linear mechanics cannot be applied in its
+calculations. Rotational dynamics have to be applied instead. The equivalent of linear velocity in
+rotational dynamics is angular velocity, which is described by Equation 1.
+
+
+                                                   ∆𝜃     ∆𝑙     𝑣
+                                             𝜔 = ∆𝑡 = 𝑟∆𝑡 = 𝑟 = 2𝜋𝑓
+
+Equation 1        The relationship between angular velocity and frequency.
+
+
+                                                                                                            1
+IB Physics HL | Internal Assessment
+
+
+     Where ω denotes the angular velocity of a rotating point, Δθ denotes the change in the angle
+and Δl denotes the change in arc length over Δt, r denotes the radius and v denotes the tangential
+velocity of the rotating point, and f denotes the frequency of the point.
+
+
+     The equivalent of mass in rotational dynamics is the moment of inertia, which is defined as an
+object’s resistance to a change in its rotational motion (Homer 552). The moment of inertia of a
+point mass is given by Equation 2.
+
+
+                                                       𝐼 = 𝑚𝑟 2
+Equation 2        The moment of inertia of a point mass.
+
+
+    Where I denotes the moment of inertia of the point mass, m denotes the mass of the point
+mass, and r denotes the distance of the point mass from its axis of rotation.
+
+
+     For an object with more than one point mass, the moment of inertia about a given axis can be
+calculated by adding the moments of inertia for each point mass (Homer 552). The summation of
+the moments of inertia of n point masses can be calculated as in Equation 3.
+
+
+                           𝐼 = 𝑚1 𝑟1 2 + 𝑚2 𝑟2 2 + ⋯ + 𝑚𝑛 𝑟𝑛 2 = ∑ 𝑚𝑟 2 = ∫ 𝑟 2 𝑑𝑚              (Pelcovits 225)
+Equation 3        The summation of the moments of inertia of n point masses and its mathematical abbreviations.
+
+
+      Therefore from Equation 3, we can deduce that the moment of inertia of a hollow cylinder with
+a total mass of M, a volume density of ρ, a height of h, an outer radius of R and an inner radius of R’
+can be calculated as the summation of the moments of inertia of infinitely small rings, or the integral
+of r2 by m over the range of R’ to R, as illustrated in Figure 2 and Equation 4.
+
+
+
+
+Figure 2     A hollow cylinder with the given conditions.
+
+
+                                                                                                                  2
+IB Physics HL | Internal Assessment
+
+                                                                                                                                  4
+        𝑅                𝑅                      𝑅                                                         𝑅         𝑅4       𝑅′
+ 𝐼 = ∫𝑅′ 𝑟 2 𝑑𝑚 = ∫𝑅′ 𝑟 2 ∙ 𝜌 ∙ 𝑑𝑉 = ∫𝑅′ 𝑟 2 ∙ 𝜌 ∙ 2𝜋𝑟 ∙ 𝑑𝑟 ∙ ℎ = 𝜌2𝜋ℎ ∫𝑅′ 𝑟 3 𝑑𝑟 = 𝜌2𝜋ℎ (                               −            )
+                                                                                                                    4        4
+
+               𝜋                 4        𝜋         𝑀                                  2                  2   1      2
+             = 2 𝜌ℎ(𝑅 4 − 𝑅 ′ ) = 2 [                   2     ] ℎ(𝑅 2 − 𝑅 ′ )(𝑅 2 + 𝑅 ′ ) = 2 𝑀(𝑅 2 + 𝑅 ′ )
+                                              𝜋(𝑅 2 −𝑅 ′ )ℎ
+
+Equation 4         The derivation of the moment of inertia of a hollow cylinder with the given conditions.
+
+
+     With the equivalent of linear velocity and mass in rotational dynamics, we can obtain rotational
+kinetic energy. Any object rotating about an axis is said to have rotational kinetic energy (Giancoli
+212). The rotational kinetic energy of a rigid rotating object, which is the sum of all the kinetic energy
+of the particles in the object, can be obtained as in Equation 5, along with using Equation 2.
+
+
+                                      1                   1                                1                  1
+                         𝐸𝐾𝑟 = ∑ (2 𝑚𝑣 2 ) = ∑ (2 𝑚𝑟 2 𝜔2 ) = 2 ∑(𝑚𝑟 2 )𝜔2 = 2 𝐼𝜔2                                (Giancoli 213)
+
+Equation 5         The derivation of the rotational kinetic energy of a rigid rotating object.
+
+
+     An object that rotates while its centre of mass undergoes translational motion will have both
+translational and rotational kinetic energy (Giancoli 213). Therefore the total kinetic energy of a
+translating and rotating object can be given by Equation 6.
+
+
+                                                              1                    1
+                                                    𝐸𝐾 = 2 𝑚𝑣 2 + 2 𝐼𝜔2                                            (Homer 556)
+
+Equation 6         The total kinetic energy of a rotating and translating object.
+
+
+     Therefore, the final velocity of a hollow cylinder identical to that in Equation 4 released from
+rest on the top of a slope with a vertical height of h, can be calculated as in Equation 7.
+
+                                                                  1                1
+                                                    𝑀𝑔ℎ = 𝑀𝑣 2 + 𝐼𝜔2
+                                                                  2                2
+
+                                                    1             1 1                          2    𝑣 2
+                                          𝑀𝑔ℎ = 𝑀𝑣 2 + [ 𝑀(𝑅2 + 𝑅′ )] ( )
+                                                    2             2 2                               𝑅
+
+
+                                                                                       2       𝑣2
+                                                4𝑔ℎ = 2𝑣 2 + (𝑅2 + 𝑅′ ) ( 2)
+                                                                                               𝑅
+
+                                                                        4𝑔ℎ
+                                                          𝑣=√                      2
+                                                                            𝑅′
+                                                                      3+(      )
+                                                                            𝑅
+
+Equation 7         Derivation of the final velocity of a hollow cylinder in the given conditions.
+
+
+Hypothesis
+    The moment of inertia of the cylinder increases as R’ increases, which would increase rotational
+kinetic energy and decrease the translational kinetic energy. Therefore it is hypothesized that as R’
+of a hollow cylinder increases, and its final velocity in rolling down a slope will decrease.
+
+
+
+                                                                                                                                          3
+IB Physics HL | Internal Assessment
+
+
+Apparatus
+
+
+                                                 Equipment                                                       Quantity
+                                        Slope with a length of 150 cm                                                1
+                                                  Lab Jack                                                           1
+                                                    Stand                                                            1
+                                        Velocity Sensor (± 0.01 m s-1)                                               1
+                                      Data logger with Pasco Capstone                                                1
+   Hollow wooden cylinders with an outer diameter of 10 cm and inner diameters of 0, 1, 2,…, 8, 9 cm             1 of each
+                                              Ruler (± 0.05 cm)                                                      1
+                                             Protractor (± 0.5°)                                                     1
+Table 1     Equipment list of the experiment, as well as the corresponding uncertainties of the equipment.
+
+
+Variables
+
+    Types of Variables                                                   Variables
+   Independent Variable                                 The inner radius of the hollow cylinder
+    Dependent Variable                          The final velocity of the cylinder rolling down the slope
+Table 2     Independent and dependent variables of the experiment.
+
+
+          Controlled Variables                      Reason of control                        Method of control
+                                            The magnitude of the outer radius
+                                           of the hollow cylinder will affect the
+                                             moment of inertia of the hollow
+                                            cylinder. The outer radius has to be     The hollow cylinders are all made
+  Outer radius of the hollow cylinder       kept constant in order to ensure a        out of a wooden cylinder with a
+                                               fair comparison between the                   diameter of 10 cm.
+                                           different moments of inertia caused
+                                             by the different inner radii of the
+                                                     hollow cylinders.
+                                             The wooden cylinder will have a
+                                              higher amount of gravitational
+                                            potential energy if it is positioned     Since the same slope is used for all
+                                           higher above the ground. The height       trials, the angle of the slope is kept
+          Height of the slope              of the slope has to be kept constant      constant to keep the height of the
+                                             for there to be a fair comparison             slope constant as well.
+                                            between the final velocities of the
+                                             wooden cylinders when they roll
+                                                     down the slope.
+
+
+
+                                                                                                                              4
+IB Physics HL | Internal Assessment
+
+
+                                            Different materials have different
+                                            coefficients of frictions as well as
+                                            different volume densities, which
+                                             will affect the magnitude of the
+                                          friction and the moment of inertia of
+     Materials of the cylinders and the       the hollow cylinders. Thus the        Use the same slope for all trials and
+                   slope                    materials have to be kept constant      use the same type of wood to make
+                                          to ensure a fair comparison between            all the wooden cylinders.
+                                             the different moments of inertia
+                                           caused by the different inner radii of
+                                            the hollow cylinders and the final
+                                            velocities of the wooden cylinders
+                                             when they roll down the slope.
+Table 3      Controlled variables of the experiment.
+
+
+Experiment Procedures
+1. Set up the apparatus as shown in Figure 3.
+2. Turn on the velocity sensor and the data logger.
+3. Let go of the cylinder at the top of the slope from rest.
+4.     Turn off the velocity sensor and the data logger after the cylinder rolled off the slope.
+5.     Repeat steps 1 to 4 for 3 times to obtain 3 trials for the experiment.
+6.     Repeat steps 1 to 5 for the remaining 9 cylinders.
+7.     After the experiment, collect and process the data for further analysis.
+
+
+
+
+                Figure 3    A diagram illustrating the experiment setup.
+
+Safety, ethical and environmental concerns
+     Safety precautions such as wearing gloves and protective goggles must be taken during the
+creation of the cylinders. Furthermore, leftover wood from the construction of other products is
+used for the creation of the cylinders to prevent further cut-offs of trees upon taking ethical and
+environmental factors into consideration.
+
+
+                                                                                                                            5
+IB Physics HL | Internal Assessment
+
+
+
+Data Collection, Processing and Analysis
+
+Raw Qualitative Data
+    By observation, the final velocity at which the cylinders roll down the slope decreases as the
+diameter of the hole increases in the hollow cylinder.
+
+
+Sample Calculations
+     The final velocities which the cylinders reach at the end of the slope is calculated by averaging
+the final 10 velocity data points recorded by the velocity sensor (Note that the velocity sensor
+records data at a frequency of 20 Hz). The data collected when the diameter of the hole of the hollow
+cylinder is 0 cm is used as an example.
+
+                        1
+Final velocity (𝑣) =         × (1.42 + 1.55 + ⋯ + 1.29 + 1.57) = 1.47 m s −1 (2dp)
+                        10
+      1
+∆𝑣 = × (1.57 − 1.35) = 0.11 m s −1 (2dp)
+      2
+
+
+
+     Similarly, the final velocities of Trial 2 and Trial 3 can be calculated. The three final velocities
+calculated is then averaged to one value.
+
+In Trial 1, 𝑣 = (1.47 ± 0.11) m s −1 ; In Trial 2, 𝑣 = (1.48 ± 0.10) m s −1 ; In Trial 3, 𝑣 = (1.45 ± 0.12) m s −1
+                                      1
+Averaged final velocity (𝑣𝑎𝑣𝑔 ) = × (1.47 + 1.48 + 1.45) = 1.47 m s −1 (2dp)
+                                      3
+          1
+∆𝑣𝑎𝑣𝑔 = × (1.58 − 1.33) = 0.13 m s −1 (2dp)
+          2
+
+
+
+     Similarly, using the above method, the final velocities and the averaged final velocities of all the
+cylinders can be calculated. The results are shown in Table 3.
+
+
+   Diameter of the hole                               Final Velocities                         Average final velocity
+          (± 0.05 cm)               Trial 1 (m s-1)    Trial 2 (m s-1)    Trial 3 (m s-1)              (m s-1)
+              0.00                   1.47 ± 0.11        1.48 ± 0.10        1.45 ± 0.12              1.47 ± 0.13
+              1.00                   1.45 ± 0.12        1.47 ± 0.11        1.47 ± 0.13              1.46 ± 0.14
+              2.00                   1.41 ± 0.09        1.45 ± 0.15        1.44 ± 0.10              1.43 ± 0.15
+              3.00                   1.43 ± 0.11        1.42 ± 0.13        1.43 ± 0.14              1.43 ± 0.14
+              4.00                   1.36 ± 0.11        1.38 ± 0.12        1.37 ± 0.09              1.37 ± 0.13
+              5.00                   1.35 ± 0.10        1.35 ± 0.10        1.33 ± 0.11              1.34 ± 0.12
+              6.00                   1.34 ± 0.08        1.31 ± 0.14        1.32 ± 0.12              1.32 ± 0.14
+              7.00                   1.25 ± 0.11        1.25 ± 0.13        1.27 ± 0.10              1.26 ± 0.13
+              8.00                   1.21 ± 0.12        1.24 ± 0.11        1.24 ± 0.13              1.23 ± 0.14
+              9.00                   1.12 ± 0.14        1.16 ± 0.09        1.17 ± 0.11              1.15 ± 0.15
+Table 4       Processed raw quantitative data of the experiment.
+
+
+
+
+                                                                                                                        6
+IB Physics HL | Internal Assessment
+
+
+                                               Relationship between the averaged final velocity and the diameter of the hole
+                                                                             in the cylinder
+                                     1.7
+
+
+
+
+   Averaged Final Velocity (m s-1)
+                                     1.6
+                                     1.5
+                                     1.4
+                                     1.3
+                                     1.2
+                                     1.1
+                                       1
+                                                                                                               y = -0.0026x2 - 0.011x + 1.4699
+                                     0.9
+                                                                                                                         R² = 0.9889
+                                     0.8
+                                           0          1          2          3          4            5               6        7           8       9   10
+                                                                             Diameter of the hole in the cylinder (cm)
+
+
+Figure 4                                   The relationship between the averaged final velocity and the diameter of the hole in the cylinder.
+
+
+Experimental Graph Analysis
+     From Figure 4, we can see that as the diameter of the hole in the hollow cylinder increases, its
+averaged final velocity in rolling down the slope decreases with an increasing rate. A parabolic curve
+is used to fit the data as a parabolic curve resembles the trend suggested by the data, and a curve
+with an equation of y = – 0.0026x2 – 0.011x + 1.4699 is yielded.
+
+
+Linearization of the Relationship
+     From Equation 4, the expression of the final velocity of a cylinder rolling down a slope is derived.
+The expression showed that given that the acceleration due to gravity and the vertical height of the
+slope remain constant, the final velocity is proportional to the inverse of the root of the square of
+the ratio between the inner radius and the outer radius of the hollow cylinder added by 3 (This will
+be named as the Ratio Factor in this report). The proportionality is shown in Equation 8.
+
+
+                                                                                      4𝑔ℎ                       1
+                                                                            𝑣=√           2   ⇒𝑣∝
+                                                                                       𝑅′                           ′ 2
+                                                                                    3+( )                    √3+(𝑅 )
+                                                                                       𝑅
+                                                                                                                    𝑅
+
+
+Equation 8                                         The proportionality of the final velocity to the Ratio Factor.
+
+
+    To see if the data obtained from the experiment fits with the theoretical model of this
+experiment, the data obtained will be plot against the Ratio Factor of the cylinders. If the data
+produces a linear relationship with the Ratio Factor, it means that the data obtained fits the model.
+
+
+                                     The Ratio Factor of the hollow cylinders have to be calculated. The hollow cylinder with a hole
+with a diameter of 9 cm is used as an example.
+
+                                                                                                1
+                                                                      Ratio Factor (𝑃) =                 2
+                                                                                                             = 0.512 (3sf)
+                                                                                                 9⁄
+                                                                                            √3+(10 2 )
+                                                                                                    ⁄2
+
+
+
+
+                                                                                                                                                          7
+IB Physics HL | Internal Assessment
+
+
+                                                                                  ∆𝑃 1        ∆𝑅 ∆𝑅′
+                                                                                    = × [2 × ( + ′ )]
+                                                                                  𝑃  2        𝑅   𝑅
+
+                                                                                              ∆𝑃 = 0.005
+
+
+     Similarly, the Ratio Factors of all the other cylinders can be calculated. The results are shown in
+Table 1 in Appendix 2.
+
+
+      The average final velocity is then graphed against the Ratio Factor of each of the cylinders. The
+relationship is shown in Figure 5.
+
+
+                                                    Relationship between averaged final velocity and the Ratio Factor
+                                     1.70
+
+                                     1.60
+
+
+
+
+   Averaged Final Velocity (m s-1)
+                                     1.50
+
+                                     1.40
+
+                                     1.30
+                                                                                                                                     y = 10.428x - 4.3986
+                                     1.20
+                                                                                                                                     y = 4.6193x - 1.2089
+                                     1.10                                                                                                 R² = 0.9857
+                                                                                                                                     y = 0.5682x + 1.012
+                                     1.00
+
+                                     0.90
+                                            0.50            0.52                  0.54                  0.56               0.58              0.60           0.62
+                                                                                                   Ratio Factor
+
+                                                               Maximum Slope Line                Minimum Slope Line         Best-fit Line
+
+
+Figure 5                                    The relationship between averaged final velocity and the Ratio Factor.
+
+
+Linearized Graph Analysis
+     From Figure 5, we can see that as the Ratio Factor increases, the final velocity increases linearly.
+A very high R2 value of 0.9875 is produced. Furthermore, we can see that the slope of the best-fit
+line falls between the maximum slope line and the minimum slope line (0.5682 < 4.6193 < 10.428).
+This means that the data obtained from the experiment fit the theoretical model of the experiment.
+
+
+Comparison with Theory
+     From Equation 7, the theoretical final velocity at which a hollow cylinder rolls down a slope can
+be calculated. The hollow cylinder with a hole of a diameter of 9 cm is used as an example.
+
+
+                                                                       4𝑔ℎ                4×9.81×1.50 sin(10° )
+                                                               𝑣=√            2   =                9⁄ 2
+                                                                                                                  = 1.64 m s −1 (3sf)
+                                                                         𝑅′           √
+                                                                      3+( )
+                                                                         𝑅                     3+(10 2 )
+                                                                                                     ⁄2
+
+
+
+(∵ The slope has a length of 150 cm and is put at 10∘ to the table, ∴ ℎ = 1.50 sin(10° ))
+
+                                                                                                                                                                   8
+IB Physics HL | Internal Assessment
+
+
+                       Similarly, the theoretical final velocities of all the other cylinders can be calculated. The results
+are shown in Table 1 in Appendix 3.
+
+
+     To compare the calculated theoretical values with the experimental data, the experimental and
+theoretical relationships between the final velocities, the diameters of the hole in the hollow
+cylinders and the Ratio Factors will be graphed. These are shown in Figures 6 and 7.
+
+                                       Relationships between the final velocity and the diameter of the hole in the
+                                                                         cylinder
+                            2.00
+
+                            1.80
+
+
+
+
+   Final Velocity (m s-1)
+                            1.60
+                                                                         y = -0.0022x2 - 0.0038x + 1.8481
+                            1.40
+                                                                                                                        Theoretical Relationship
+                            1.20                                                                                        Experimental Relationship
+
+                            1.00                              y = -0.0026x2 - 0.011x + 1.4699
+                                                                        R² = 0.9889
+                            0.80
+                                   0                 2               4                 6                8         10
+                                                         Diameter of the hole in the cylinder (cm)
+Figure 6                           Theoretical and Experimental relationship between final velocity and the diameter of the hole in the cylinder.
+
+
+
+                                              Relationships between the final velocity and the Ratio Factor
+                            1.9
+                            1.8
+                            1.7                                                    y = 3.197x - 3E-13
+
+
+
+
+   Final Velocity (m s-1)
+                            1.6
+                            1.5
+                            1.4
+                                                                                                                        Theoretical Relationship
+                            1.3
+                            1.2                                                 y = 4.6193x - 1.2089                    Experimental Relationship
+                                                                                     R² = 0.9857
+                            1.1
+                             1
+                            0.9
+                               0.500         0.520           0.540         0.560           0.580        0.600   0.620
+                                                                      Ratio Factor
+Figure 7                           Theoretical and Experimental relationship between final velocity and the Ratio Factor.
+
+
+Experimental and Theoretical Graphs Comparison
+    From Figures 6 and 7, we can see that the theoretical values calculated have a generally higher
+value than the experimental values. However, the discrepancies between both relationships are
+small. Both theoretical relationships has the same trend as the experimental relationships, meaning
+that the experimental data obtained are relatively accurate.
+
+
+                                                                                                                                                    9
+IB Physics HL | Internal Assessment
+
+
+
+Conclusion and Evaluation
+
+Conclusion
+     This investigation aims to answer the question “How does the diameter of a hole in a hollow
+cylinder affect the cylinder’s final velocity when rolling down a slope?” It is hypothesized that as the
+diameter of a hollow cylinder increases, and its final velocity in rolling down a slope would decrease.
+
+
+     Through experimentation and data processing, the results showed that as the diameter of the
+hole in a hollow wooden cylinder increases, its final velocity in rolling down a slope decreases with
+an increasing rate, and the relationship can be represented by the question y = – 0.0026x2 – 0.011x
++ 1.4699 in Figure 4, verifying the hypothesis. This phenomenon can be explained by the moment
+of inertia of the hollow wooden cylinders increasing as the inner radius of the hollow wooden
+cylinders increase. A hollow cylinder with a higher moment of inertia will have higher rotational
+kinetic energy, which in turn decreases its translational kinetic energy, causing it to have a lower
+velocity in rolling down a slope when compared with a cylinder with a lower moment of inertia.
+
+
+     To show that the experimental data obtained fits the mathematical model of the experiment,
+the experimental data is linearized by plotting the final velocities against the Ratio Factors of the
+wooden cylinders. Upon linearization, the results showed that as the Ratio Factor increased, the final
+velocity increases linearly, and the relationship can be represented by the equation y = 4.6193x –
+1.2089 with a very high R2 value of 0.9875 in Figure 5. Furthermore, the slope of the best-fit line falls
+between the maximum slope line and the minimum slope line. This means that the data obtained
+from the experiment fits the theoretical model of the experiment.
+
+
+      The graphs of the obtained relationships are plotted with the theoretical mathematical
+relationships for comparison in Figures 6 and 7. A slight discrepancy between the two relationships
+are seen in both cases as the theoretical values are higher than the experimental values. However,
+the theoretical relationship and the experimental relationship both showed the same trends. The
+slight discrepancy along with the experimental values showing the same trend as the theoretical
+values means that the experimental data obtained is relatively accurate. Therefore, this experiment
+is a success in showing the relationship between the diameter of the hole in a hollow cylinder and
+its final velocity in rolling down a slope.
+
+
+
+
+                                                                                                      10
+IB Physics HL | Internal Assessment
+
+
+Evaluation
+
+
+      Random Error                             Effect on experiment                        Method of Improvement
+                             It is noted that in some trials, the wooden cylinders do
+   Accidental incorrect       not travel down the slope in an exactly straight path.     Create a straight track on the
+  measurements of the        Therefore, the velocity sensor may not have measured        slope that is aligned with the
+  final velocities of the   the actual final velocity of the wooden cylinders, and the       velocity sensor for the
+    wooden cylinders           actual final velocity of the wooden cylinders may be       wooden cylinders to roll on.
+                                         higher than the measured value.
+Table 5      Source of random error in the experiment.
+
+
+    Systematic Error                           Effect on experiment                        Method of Improvement
+                                There is air resistance opposing the motion of the
+                             cylinder as it goes down the slope, and energy is lost in    Account for the energy lost
+                                 opposing the air resistance, resulting in the final      due to air resistance in the
+                              velocities obtained through the experiment being less           calculations for the
+                             than theoretical velocities, as shown in Figures 7 and 8.   theoretical final velocities of
+  Energy loss due to air         But as energy loss due to air resistance is almost      the cylinders in rolling down
+          resistance           impossible to account for with secondary school lab        the slope to obtain a more
+                             equipment, and as the cylinders are moving at relatively     accurate theoretical value,
+                              slow speeds such that air resistance will not affect the        and create a better
+                               results dramatically, we assumed that there is no air       comparison between the
+                            resistance opposing the motion of the cylinder as it goes    theoretical and experimental
+                             down the slope, and that there is no energy loss due to                 results.
+                                                   air resistance.
+                             Slipping occurs when the instantaneous velocity at the
+                            point of contact between a rolling body and the medium         Use materials that have a
+     Slipping of the           supporting it is not zero (Hecht 306). Slipping would      higher coefficient of friction
+   cylinders when they         result in the cylinders sliding and rotating down the      with the slope to construct
+ moved down the slope             slope at the same time, causing errors in the          the hollow cylinders to reduce
+                             experimental velocities. However, it is assumed that no        the chance of slipping.
+                            slipping occurs when the cylinders roll down the slope in
+                                                 this experiment.
+                                                                                          Use two velocity sensors to
+                             The velocity sensor may have incorrect calibrations and     measure the final velocity of
+  Incorrect calibrations      zero errors, which may cause the measured values of        the cylinders in rolling down
+    of the equipment          the final velocity to be either higher or lower than the       the slope to see if the
+                                                   actual values.                           measured values of one
+                                                                                            deviates from the other.
+Table 6      Sources of systematic error in the experiment.
+
+
+                                                                                                                           11
+IB Physics HL | Internal Assessment
+
+
+
+Extensions and Further Investigations
+
+Extensions
+     This investigation found the relationship between the diameter of the hole in a hollow cylinder
+and its final velocity in rolling down a slope. The results can be significant in wheel design, as the
+ideal tire and wheel rim radius can be determined for different vehicles, such as bicycles, cars, trucks
+and aircraft. One on hand, bicycle wheels, for example, do not have to spin at a large angular velocity
+and have to be light-weight for commercial use. On the other hand, aircraft wheels, for example,
+have to have high durability and have to spin at a large angular velocity during take offs and landings.
+Through using similar experiment and data processing methods in this experiment, the ideal tire and
+rim radius, and thus the ideal tire designs for different vehicles can be determined.
+
+
+Further Investigations
+     Firstly, further investigations can be conducted with the mentioned improvements in the
+Evaluation applied to the experiment. From the improved experiment, we can draw new and more
+accurate results on the final velocity of the cylinder in rolling down a slope, as well as create a more
+accurate comparison between the theoretical and experimental results.
+
+
+     Secondly, further investigations can also be conducted to see how the different materials used
+to make the cylinder affect its final velocity in rolling down a slope. Different materials have different
+volume densities, which may have an effect on the moment of inertia of the cylinder, thus affecting
+the final velocity of the cylinder in rolling down the slope. Therefore, a relationship between the
+volume density of the cylinders and their final velocities in rolling down a slope can be drawn and
+analysed.
+
+
+     Thirdly, since this experiment can be said to be investigating how different diameters of the
+hole in the hollow cylinder affects in rotation by its centre, another further investigation can be
+investigating how the diameter of the hole in the hollow cylinder affect its maximum rotational
+velocity when rotated by its diameter by a constant power source. The results of the two
+investigations can then be compared with each other to see if the relationship between the
+maximum rotational velocity by the centre of the cylinder and the diameter of the hole is similar to
+the relationship between the maximum rotational velocity by the diameter of the cylinder and the
+diameter of the hole.
+
+
+
+
+                                                                                                       12
+IB Physics HL | Internal Assessment
+
+
+
+Bibliography
+
+Works Cited
+Giancoli, Douglas C. Physics: Principles with Applications: Global Edition. 7th ed. Boston: Pearson,
+    2016. Print.
+
+
+Hamper, Chris. Higher Level Physics: Supporting Every Learner across the IB Continuum. 2nd ed.
+   Harlow: Pearson Education Limited, 2014. Print.
+
+
+Hecht, Eugene. Physics: Calculus. 2nd ed. Pacific Grove, CA: Thomson Learning, 2000. Print.
+
+
+Homer, David, and Michael Bowen-Jones. Physics Course Companion. 2014 ed. Oxford: Oxford UP,
+   2014. Print.
+
+Pelcovits, Robert A., and Joshua Farkus. Barron's AP Physics C. 4th ed. Hauppauge, NY: Barron's,
+     2012. Print.
+
+
+References
+"Moment of Inertia: Cylinder." Parallel Axis Theorem. Georgia State University, n.d. Web. 15 Dec.
+   2016. <http://hyperphysics.phy-astr.gsu.edu/hbase/icyl.html>
+
+
+
+
+                                                                                                 13
+IB Physics HL | Internal Assessment
+
+
+
+Appendix 1
+
+Photos
+    The following are photos taken during the experiment.
+
+
+
+
+Photo 1    Photo of the experiment setup.
+
+
+
+
+Photo 2    Photo of the wooden cylinders.
+
+
+                                                            14
+IB Physics HL | Internal Assessment
+
+
+
+Appendix 2
+
+Ratio Factor for different diameters of the hole in the hollow cylinders
+
+
+                 Diameter of the hole in the hollow cylinder (± 0.05 cm)                   Ratio Factor
+                                           0.00                                            0.577 ± 0.003
+                                           1.00                                            0.576 ± 0.032
+                                           2.00                                            0.574 ± 0.017
+                                           3.00                                            0.569 ± 0.012
+                                           4.00                                            0.563 ± 0.010
+                                           5.00                                            0.555 ± 0.008
+                                           6.00                                            0.546 ± 0.007
+                                           7.00                                            0.535 ± 0.006
+                                           8.00                                            0.524 ± 0.006
+                                           9.00                                            0.512 ± 0.005
+Table 1    The Ratio Factors for different diameters of the hole in the hollow cylinder.
+
+
+
+
+                                                                                                           15
+IB Physics HL | Internal Assessment
+
+
+
+Appendix 3
+
+Theoretical Final Velocities
+
+
+     Diameter of the hole in the hollow cylinder (cm)   Theoretical Final Velocity (ms-1)
+                             0                                        1.85
+                             1                                        1.84
+                             2                                        1.83
+                             3                                        1.82
+                             4                                        1.80
+                             5                                        1.77
+                             6                                        1.74
+                             7                                        1.71
+                             8                                        1.68
+                             9                                        1.64
+Table 1    Calculated theoretical final velocities.
+
+
+
+
+                                                                                            16
+

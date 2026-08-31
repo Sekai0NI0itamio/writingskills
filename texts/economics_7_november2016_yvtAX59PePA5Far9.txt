@@ -1,0 +1,525 @@
+                                            Economics IA                      1 of 14
+
+
+               IB Economics IA Portfolio Coversheet
+
+
+School code:
+
+
+School name:
+
+
+Candidate name:           Yingtong Li
+
+
+Candidate number:
+
+
+
+
+                           Commentary 1      Commentary 2     Commentary 3
+
+
+Source of the article:     Sydney Morning    The Timaru       The Globe and
+                           Herald            Herald           Mail
+
+
+Date article published:    2014-08-31        2015-09-12       2015-03-08
+
+
+Date commentary            2015-05-22        2016-01-05       2016-02-25
+written:
+
+
+Word count:                742               741              745
+
+
+Section of the syllabus    Microeconomics    Macroeconomics   International
+the article relates to:                                       Economics
+
+
+                © Yingtong Li, 2018 (November 2016 session)
+                Licensed under the Creative Commons Attribution-
+                ShareAlike 4.0 International licence.
+                                                 Economics IA Commentary 1           2 of 14
+
+
+Internal Assessment 1 - Micro Commentary
+
+             IB Economics IA Commentary Coversheet
+
+
+ School code:
+
+
+ School name:
+
+
+ Candidate name:            Yingtong Li
+
+
+ Candidate number:
+
+
+ Teacher:
+
+
+ Title of the article:      A dollar to light up: smokers brace for another jump in tobacco
+                            excise
+
+
+ Source of the article:     Sydney Morning Herald: http://www.smh.com.au/fede
+                            ral-politics/political-news/a-dollar-to-ligh
+                            t-up-smokers-brace-for-another-jump-in-tobac
+                            co-excise-20140831-10aln2.html
+
+
+ Date article published:    2014-08-31
+
+
+ Date commentary            2015-05-22
+ written:
+
+
+ Word count:                742
+
+
+ Section of the syllabus    Microeconomics
+ the article relates to:
+
+
+                   © Yingtong Li, 2018 (November 2016 session)
+                   Licensed under the Creative Commons Attribution-
+                   ShareAlike 4.0 International licence.
+                                      Economics IA Commentary 1        3 of 14
+
+
+A dollar to light up: smokers brace for another jump in to-
+bacco excise
+Peter Martin
+                   Text removed due to copyright
+                     Copyright © 2014 Fairfax Media; The Sydney Morning Herald
+                                                                 Economics IA Commentary 1               4 of 14
+
+
+This article describes the Australian government's plan to increase the tobacco excise in order to combat
+the market failure caused by negative consumption externalities associated with cigarettes. Taxes can
+indeed be used to correct these market failures and maximise social welfare, but should be combined
+with other approaches for optimal impact.
+Cigarettes are demerit goods as their consumption results in negative effects on third parties, such as
+those exposed to passive smoking, who suffer an increased risk of lung cancer, and the government,
+which must support smokers and victims of passive smoking who develop lung cancer through increased
+healthcare expenditure. These negative consumption externalities cause the marginal social benefit for
+cigarettes (𝑀𝑆𝐵) to be less than the marginal private benefit (𝑀𝑃𝐵).
+
+                    P ($∕cigarette)      Market for Cigarettes
+
+
+                                                                                     C
+                                                                                MS
+
+
+
+                          P
+                        Popt                     WL external cost
+                                                            MS                  MP
+                                                              B                    B
+                                                                                          Q
+                                          Qopt      Q
+                                                                                     (×1 000 000
+                                                                                      cigarettes)
+
+An efficient market should operate at (𝑃opt , 𝑄opt ), however, without suitable regulation, the market
+fails to take into account the externalities and so instead operates at (𝑃, 𝑄). Consequently, cigarettes
+are over-provided, so a market failure exists as resources are over-allocated to cigarettes, resulting in a
+welfare loss from the provision of cigarettes where 𝑀𝑆𝐶 > 𝑀𝑆𝐵.
+The increase of the indirect tax on cigarettes to a suitable level causes the cost of production to increase,
+shifting the supply curve up by the amount of the tax increase.
+
+                      P ($∕cigarette)      Market for Cigarettes
+                                                                          tax
+                                                                  S new
+                                                                                         tax
+                                                                                 S old
+
+                  P1 ≈ $1.00                            increased tax of ≈ $0.06/cigarette
+                           P
+                          Pp
+                                                             MS
+                                                  800             B                      D
+                                                                                               Q
+                                             Q1         Q
+                                                                                          (×1 000 000
+                                                                                           cigarettes)
+
+As a result of the decrease in supply from 𝑆old tax to 𝑆new tax , the price of cigarettes increases from 𝑃 to
+𝑃1 , ‘approach[ing] $1 a stick’, while quantity traded decreases by ‘around 800 million’ from 𝑄 to 𝑄1
+correcting the over-allocation of resources, so the externalities are internalised and the market failure is
+                                                            Economics IA Commentary 1                 5 of 14
+
+
+corrected.
+Cigarettes, however, are highly addictive. As a result, demand for cigarettes is likely to be price inelastic
+as cigarette users fail to reduce consumption in proportion to an increase in price.
+
+                      P ($∕cigarette)      Market for Cigarettes
+                                                                       tax
+                                                               S new
+                                                                                     tax
+                                                                             S old
+                  P2 ≈ $1.00
+                                 consumer incidence    increased tax of ≈ $0.06/cigarette
+                           P      producer incidence
+                           Pp
+
+
+                                                           D
+                                                                                            Q
+                                                  Q2 Q
+                                                                                       (×1 000 000
+                                                                                        cigarettes)
+
+In this case, the tax will cause a large increase in price for consumers, from 𝑃 to 𝑃2 , but a comparatively
+small decrease in quantity traded, from 𝑄 to 𝑄2 , and so would not be as effective at discouraging
+consumption of cigarettes. Additionally, the decrease in price received by producers is smaller, from 𝑃
+to 𝑃p , so the consumer incidence is much greater than the producer incidence, indicating that consumers
+shoulder more of the tax burden than producers. This creates opportunity costs for consumers who may
+need to reduce expenditure on other goods such as food, clothing, healthcare and education, which is
+particularly damaging for poorer consumers, who are also more likely to smoke. Consequently, the tax
+may in fact lower the standard of living for these consumers, widening income inequality.
+The regressive nature of the tax is offset, however, by the fact that the tax increase raises additional
+government revenue of Δ𝑡𝑎𝑥 × 𝑄1 = (𝑃1 − 𝑃p ) × 𝑄1 , which could be spent on social services such as
+healthcare to address the harm caused by cigarettes, and which would benefit those on lower incomes.
+If, however, consumers are unwilling or unable to quit smoking due to addiction, and also cannot afford
+the increased tax, consumers and producers may attempt to circumvent the tax through black markets.
+This would impair the ability of the tax to reduce consumption and raise revenue, and would also result
+in the unintended consequence of encouraging trade in illegal or less-easily-regulated markets.
+The measures to be used in conjunction with the increased taxes can ease some of these undesirable
+consequences in yielding long-term benefits. The increase in the excise ‘breaches significant price
+points’, prompting an estimated ‘60,000 smokers’ to choose to quit smoking altogether, decreasing
+demand. The sustained future increases in price from the change to indexation, in combination with
+‘measures such as plain packaging’ and the ‘great deal of publicity’ raised by advertising accompanying
+the tax, are likely to further encourage consumers to quit smoking, further decreasing demand for
+cigarettes.
+                                                           Economics IA Commentary 1               6 of 14
+
+
+                    P ($∕cigarette)      Market for Cigarettes
+
+
+                                                                          S
+
+
+
+                          P
+                                                decrease in demand
+                         P3
+
+                                                           D1             D
+                                                                               Q
+                                          Q3       Q
+                                                                          (×1 000 000
+                                                                           cigarettes)
+
+The decrease in demand from 𝐷 to 𝐷1 causes the price of cigarettes to decrease from 𝑃 to 𝑃3 and
+quantity traded to decrease from 𝑄 to 𝑄3 , which further assists in discouraging cigarette consumption
+and addressing the market failure in the long term.
+Overall, increasing the tax on cigarettes has the capacity to raise government revenue and correct the
+market failures in the cigarette market through its deterrent effect. However, it disproportionately affects
+poorer consumers, and its effectiveness may be diminished by the price inelastic demand for cigarettes,
+or by trade in the black market, and so it is important that it is pursued, as planned, in conjunction with
+other measures such as advertising and plain packaging to most effectively reduce cigarette consumption
+in the long term.
+                                                Economics IA Commentary 2   7 of 14
+
+
+Internal Assessment 2 - Macro Commentary
+
+             IB Economics IA Commentary Coversheet
+
+
+ School code:
+
+
+ School name:
+
+
+ Candidate name:            Yingtong Li
+
+
+ Candidate number:
+
+
+ Teacher:
+
+
+ Title of the article:      Cash rate cut points to softening economy
+
+
+ Source of the article:     The Timaru Herald: http://search.ebscohost.com/lo
+                            gin.aspx?direct=true&db=anh&AN=THL1509120010
+                            1106053005-BO&site=ehost-live
+
+
+ Date article published:    2015-09-12
+
+
+ Date commentary            2016-01-05
+ written:
+
+
+Word count:                 741
+
+
+ Section of the syllabus    Macroeconomics
+ the article relates to:
+
+
+                   © Yingtong Li, 2018 (November 2016 session)
+                   Licensed under the Creative Commons Attribution-
+                   ShareAlike 4.0 International licence.
+                                      Economics IA Commentary 2        8 of 14
+
+
+Cash rate cut points to softening economy
+Edlin Bob
+                   Text removed due to copyright
+                                            Copyright © 2015 The Timaru Herald
+                                                                     Economics IA Commentary 2   9 of 14
+
+
+This article describes the Reserve Bank of New Zealand's move to address a weakening economy
+by implementing expansionary monetary policy, cutting the official cash rate to increase levels of
+aggregate demand and thereby stimulate the economy. Expansionary monetary policy can indeed
+stimulate economic growth in the short run, but may have several negative impacts on other sectors and
+in the long term.
+In the domestic New Zealand economy, ‘weakening … consumer confidence’ results in decreased
+consumer expenditure due to fears of unemployment or cuts to wages, while ‘a weakening in business
+… confidence’ causes businesses to reduce investment due to a pessimistic outlook on future sales.
+Internationally, ‘a weakening of economic prospects in … overseas markets’ decreases demand for
+New Zealand's exports. These factors lower aggregate demand from 𝐴𝐷 to 𝐴𝐷1 .
+                                                    New Zealand Economy
+                              APL                                 LRAS SRAS
+
+
+
+
+                       (2% inﬂation)        decrease in AD
+                                 Pl
+                                Pl1
+                      (0.4% inﬂation)
+                                                                                  AD
+                                                             recessionary
+                                                                 gap
+                                                                            AD1
+                                                           Y1        Yf            RGDP
+                                              (2.1% GDP growth
+                                            6.1% unemployment)
+
+This causes price levels to fall from 𝑃𝑙 to 𝑃𝑙1 , and creates a recessionary gap, as GDP, 𝑌1 , falls below
+the full-employment level 𝑌f .
+The New Zealand Reserve Bank has moved to address this through expansionary monetary policy by
+lowering interest rates. Consequently, it becomes less profitable for consumers to save, so consumers
+increase their spending, and cheaper to borrow, ‘support[ing] businesses wanting to invest’, so business
+investment increases. Additionally, lower interest rates reduce the profitability of foreign investment
+into New Zealand, decreasing demand for the New Zealand dollar. This causes the NZD to depreciate,
+so imports become dearer and decrease, while exports become cheaper and increase. Consequently,
+aggregate demand increases from 𝐴𝐷1 to 𝐴𝐷2 .
+                                                    New Zealand Economy
+                              APL                                 LRAS SRAS
+
+
+
+
+                                        increase in AD
+                       (2% inﬂation)
+                                Pl2
+                                Pl1
+                      (0.4% inﬂation)
+                                                                            AD1        AD2
+                                                           Y1        Yf            RGDP
+                                              (2.1% GDP growth
+                                            6.1% unemployment)
+                                                           Economics IA Commentary 2               10 of 14
+
+
+This causes price levels to increase from 𝑃𝑙1 to 𝑃𝑙2 , which is in fact desirable as inflation was previously
+0.4%, less than the 2% target. Output also increases from 𝑌1 to the full-employment level 𝑌f , closing
+the recessionary gap, and increasing demand for labour by firms to expand output, resulting in lower
+unemployment, and hence higher living standards.
+On the other hand, however, increased borrowing will result in higher indebtedness, which may not be
+desirable, particularly when poor economic conditions impair the ability of households to repay these
+loans. Alternatively, if the ‘jaw-dropping downgrade’ in the ‘economic forecast’ indicates that economic
+conditions are particularly poor, banks may be unwilling to lend, and consumers and firms unwilling to
+borrow, out of fear that the loans cannot be repaid. In this case, consumption and investment, and thus
+aggregate demand, will not increase, even if interest rates are lowered, and so expansionary monetary
+policy will be less effective at stimulating the economy, hence multiple ‘further OCR cuts’ may be
+required to overcome this difficulty.
+An advantage of monetary policy is that the Reserve Bank meets frequently, and so can respond quickly
+to changes in economic conditions, such as the new CPI data referenced in the article, resulting in a
+short implementation lag. Similarly, monetary policy can be implemented incrementally, assisting in
+the implementation of a policy of the optimum magnitude. Furthermore, since central banks are usually
+independent from the government, they are also free of political constraints.
+Monetary policies, however, typically have long impact lags. Over such long time periods, the effect of
+the policy may come too late to effectively address the issue, or the situation may have since changed –
+for example, the sudden increase in forecasted unemployment from 5.3% to 6.1% in only three months
+– so the original policy is no longer appropriate. Monetary policy also cannot be targeted, but different
+areas of the economy may have different policy needs: for example, ‘tourism is robust’ and stimulus
+likely unnecessary, but exports suffer from declining prices and poor overseas conditions.
+Aside from its impact on aggregate demand, expansionary monetary policy also causes the NZD to
+depreciate, as mentioned earlier. While this supports domestic exporters, it also causes the cost of
+imports to increase, including imported capital and intermediate goods, which accounted for 64.26%
+of New Zealand's merchandise imports in 2014–15. This increases the costs of production for domestic
+firms using imports, hence offsetting some of the policy's effect of increasing output. In the long run,
+the lower exchange rate may also discourage foreign investment and thus inhibit the ability of firms to
+invest in expanding production.
+Overall, expansionary monetary policy will likely be effective at addressing both the below-target
+inflation and recessionary gap in New Zealand by stimulating aggregate demand, while also supporting
+exporters, however it may be some time before the effects are seen, and the resultant depreciation of the
+exchange rate could have detrimental impacts on domestic firms using imports, as well as investment
+and long-term economic growth.
+                                                Economics IA Commentary 3        11 of 14
+
+
+Internal Assessment 3 - International Commentary
+
+             IB Economics IA Commentary Coversheet
+
+
+ School code:
+
+
+ School name:
+
+
+ Candidate name:            Yingtong Li
+
+
+ Candidate number:
+
+
+ Teacher:
+
+
+ Title of the article:      Tariffs on Chinese solar panels may hurt Canadian renewables
+                            industry
+
+
+ Source of the article:     The Globe and Mail: https://tinyurl.com/hkfhcgq
+
+
+ Date article published:    2015-03-08
+
+
+ Date commentary            2016-02-25
+ written:
+
+
+ Word count:                745
+
+
+ Section of the syllabus    International Economics
+ the article relates to:
+
+
+                   © Yingtong Li, 2018 (November 2016 session)
+                   Licensed under the Creative Commons Attribution-
+                   ShareAlike 4.0 International licence.
+                                       Economics IA Commentary 3      12 of 14
+
+
+Tariffs on Chinese solar panels may hurt Canadian renew-
+ables industry
+Richard Blackwell
+                    Text removed due to copyright
+                                            Copyright © 2015 The Globe and Mail
+                                                          Economics IA Commentary 3             13 of 14
+
+
+This article discusses the Canada Border Services Agency's imposition of tariffs on Chinese solar
+panels in response to dumping, and its effects on Canadian panel manufacturers, retailers and others.
+Dumping by Chinese manufacturers, the sale of solar panels at low prices in Canada, causes the world
+price 𝑃w to be less than the domestic price 𝑃d .
+                                            Market for Solar Panels
+                         price
+                       (CAD)                                                Sd
+
+
+
+                             Pd
+
+                                                                           Sw
+                            Pw
+                                                     M                     Dd
+                                       Qs                         Qd      quantity
+
+At 𝑃w , domestic quantity demanded is 𝑄𝑑 but domestic quantity supplied is only 𝑄𝑠, so the excess
+demand is met through imports, 𝑀 = 𝑄𝑑 − 𝑄𝑠.
+A tariff, a tax on imported solar panels, shifts the world supply curve up by the amount of the tariff,
+approximately 174%, from 𝑆w to 𝑆w1 .
+                                            Market for Solar Panels
+                         price
+                       (CAD)                                                Sd
+
+
+
+                             Pd
+                                             WL                           Sw1
+                           Pw1
+                                  174%              M1            tariﬀ    Sw
+                            Pw
+                                                     M                     Dd
+                                       Qs     Qs1         Qd1     Qd      quantity
+
+This causes the price of solar panels to increase from 𝑃w to 𝑃w1 , so domestic demand contracts from 𝑄𝑑
+to 𝑄𝑑1 while domestic supply expands from 𝑄𝑠 to 𝑄𝑠1 . Consequently, imports fall from 𝑀 = 𝑄𝑑 − 𝑄𝑠
+to 𝑀1 = 𝑄𝑑1 − 𝑄𝑠1 , protecting Canadian panel manufacturers, such as the four who ‘complain[ed]
+about cut-rate Chinese panels’, from foreign competition. The expansion in domestic supply also
+increases demand for labour by these firms to expand production, increasing domestic employment in
+panel manufacturing. It also allows Canadian producers to grow and increase their efficiency through
+economies of scale, in the long term potentially enabling them to compete without protection.
+However, by protecting domestic firms from foreign competition, the tariff may reduce the incentive
+for these firms to innovate, and thus ‘slow development of solar projects’ in future. Additionally, for
+consumers, the increased prices restrict choice, represented by the decrease in quantity demanded,
+causing a welfare loss as shown. Since electricity is a necessity in developed nations like Canada, the
+contraction in demand also likely represents a switch by consumers to alternative, less environmentally-
+friendly energy sources, such as coal, to satisfy their energy requirements. This would further discourage
+                                                          Economics IA Commentary 3              14 of 14
+
+
+development of solar projects, while the external costs of the resultant environmental damage further
+decrease social welfare in the long term.
+The increase in the cost of solar panels also increases costs of production for solar panel installers,
+hence supply of panel installation decreases, and demand contracts. This in turn decreases demand for
+panel installation labour by these firms, thus increasing unemployment in this industry, which generates
+‘far more employment than panel manufacturing’. Therefore, while the tariff may increase employment
+in panel manufacturing, larger decreases in employment in panel installation, ‘As many as 5,000’, may
+outweigh these gains.
+Additionally, the tariff is detrimental to importers of Chinese solar panels, as the price received after
+paying the tariff remains 𝑃w , but quantity traded decreases from 𝑀 = 𝑄𝑑 − 𝑄𝑠 to 𝑀1 = 𝑄𝑑1 − 𝑄𝑠1 ,
+decreasing revenue. Importers may therefore attempt to circumvent the tariff through the black market,
+limiting its effectiveness. The Chinese government may also retaliate by imposing protection themselves,
+risking trade wars, damaging Canada's export competitiveness, and as China was Canada's second-
+largest single export market in goods in 2015, potentially negating any benefits to domestic producers
+from the tariff.
+Despite these potential disadvantages however, this tariff may be beneficial in the long term, as it
+follows from the CBSA's ruling that Chinese producers dumping solar panels in Canada were being
+subsidised. In this case, the world price is not truly representative of the foreign firms' efficiency. By
+protecting Canadian panel manufacturers from this unfair competition, which would otherwise force
+them to close, the imposition of a tariff may in fact increase competition in the long term, ‘level[ling]
+the playing field’ and protecting both local consumers and producers.
+However, difficulties arise out of the definition of dumping. The Chinese manufacturers could simply
+be ‘selling below the local manufacturer's cost structure’, but not ‘below the actual cost’, suggesting
+that they can produce panels ‘significantly cheaper’ than Canadian manufacturers, which may result
+from factors such as lower labour costs, or economies of scale made possible by the large Chinese
+market. In this case, where the lower world price is representative of greater efficiency, then in spite of
+the allegations of dumping, the tariff would be detrimental to global welfare by diverting trade away
+from more efficient Chinese firms to less efficient local producers, distorting trade and resulting in a
+global misallocation of resources.
+Overall, it is reasonable that the imposition of a tariff would protect local panel manufacturing industry
+and employment from allegedly unfair foreign competition, however, may also negatively impact the
+use and development of Canadian solar technology and hence the environment in the long term, damage
+export competitiveness and employment in related industries, and decrease global welfare, particularly
+if the allegations of subsidies are false, and so should be approached with caution.
+

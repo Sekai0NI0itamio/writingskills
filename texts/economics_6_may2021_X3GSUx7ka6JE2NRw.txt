@@ -1,0 +1,306 @@
+IBDP HL Economics Internal Assessment
+          Microeconomics Commentary
+
+               Word Count: 748
+
+
+
+
+                  Page 1 of 8
+HITTING THE SWEET SPOT
+
+
+
+THE NEW SUGAR TAX IS AIMED AT CURBING MALAYSIA’S SWEET TOOTH
+
+CPG, FMCG & RETAIL | 18-07-2019
+
+Much has been said about the state of Malaysia’s health, with the 2015 National Health
+
+and Morbidity Survey reporting that 48% of Malaysian adults are overweight or obese
+
+and at risk for lifestyle-related diseases such as diabetes, hypertension and cancer.
+
+
+To curb this burgeoning health problem, the Malaysian government introduced a new
+
+sugar tax in November 2018 aimed at reducing Malaysians’ consumption of sugary
+
+drinks. As of July 1, 2019, a MYR 0.40 tax per litre will be added to the price of soft
+
+drinks with more than 5 grams of sugar per 100 ml and juice or vegetable-based drinks
+
+with more than 12 grams of sugar per 100 ml.
+
+
+MANUFACTURERS GET CREATIVE AMID NEW TAX
+
+The government has imposed the tax at the manufacturer level, and we expect
+
+manufacturers to pass the increased cost on to customers.
+
+
+When pressed, it’s common for manufacturers to reduce the size of their products
+
+while leaving the cost unchanged, which makes the impact of the overall cost less
+
+visible to consumers. In fact, this has become a common cost-reduction strategy over
+
+the past few years. And this new sugar tax could be a reason for manufacturers to
+
+continue using this strategy to protect their profit margins. If downsizing a product is
+
+too constant or highly noticeable to the consumers, however, consumers may lose
+
+faith in brands and consider alternatives.
+
+
+
+
+                                       Page 2 of 8
+But manufacturers aren’t going to simply address the issue with price and pack sizes.
+
+We also expect to see an increase in low- and zero-sugar beverage variants in the
+
+market, particularly in light of the government’s push for a healthier Malaysia. Over the
+
+past 12 months, low-sugar carbonated soft drinks have tripled their share of the
+
+beverage market, signifying manufacturers’ aggressiveness in experimenting and
+
+testing consumers’ acceptance of healthier drink options. For example, bottled water
+
+sales are up 15% over the past 12 months, and we expect this trend to continue.
+
+
+HOW WILL MALAYSIAN CONSUMERS REACT?
+
+Despite the drive to be healthier, Malaysians love their carbonated soft drinks, which
+
+are affected by the sugar tax. Carbonated beverages are the most-consumed type of
+
+beverage in Malaysia, accounting for 21% of the beverage market.
+
+
+Despite the stronghold these beverages have in the market, a recent Nielsen study on
+
+consumer awareness of the sugar tax in Malaysia found that a majority of consumers
+
+intend to change their purchase behaviour in light of the new sugar tax. One way they
+
+plan to change is by purchasing fewer carbonated soft drinks. In this price-sensitive
+
+market, consumers say they would either buy smaller beverage packs or buy less
+
+quantities in general, thereby altering their lifestyles in the process.
+
+
+
+
+To prevent a decline in their overall sales, manufacturers should market their low-
+
+sugar variants more aggressively through the effective use of branding and advertising.
+
+By raising awareness about the appeal of healthier variants, manufacturers can attract
+
+consumers to low-sugar variants. And since these options are not affected by the new
+
+tax, consumers can buy them in the same quantities.
+
+
+
+                                        Page 3 of 8
+THE SUGAR TAX IS NOT A NEW PHENOMENON
+
+The idea of a sugar tax is not unique to Malaysia. In fact, more than 40 countries
+
+around the globe have some form of sugar tax on the books. Given the notoriety of
+
+the concept, we can envision three possible scenarios that could play out in Malaysia
+
+based on the effects that we’ve seen in other countries:
+
+
+1. Consumption of soda drops—temporarily. In Mexico, one of the world’s largest soda
+
+markets, the sugar tax caused the price of the affected beverages, including
+
+carbonated soft drinks, to rise 10%. Consequently, consumption declined by 3%
+
+shortly after the tax came took effect, but returned to pre-tax levels just two years later.
+
+
+2. Consumer preferences outweigh change. In the U.K., the sugar tax has encouraged
+
+manufacturers to reformulate their offerings and make low-sugar options available.
+
+Despite the efforts of manufacturers, however, many consumers have stated that their
+
+consumption behavior has not changed.
+
+
+3. Soda consumption drops dramatically. In Saudi Arabia and the Philippines, the
+
+sugar tax led to a steep decline in soda consumption, falling by 14% and 6%,
+
+respectively. The pullback led to a notable rise in bottled water sales.
+
+
+The next year will tell us which of these three possible outcomes will play out in
+
+Malaysia. The implementation of the sugar tax won’t, however, solve Malaysia’s health
+
+problem. It is, however, a component of the overall issue and is a step in the right
+
+direction, as it will lead to increased availability and awareness on the healthier
+
+beverages available in the market.
+
+
+https://www.nielsen.com/apac/en/insights/article/2019/hitting-the-sweet-spot/
+
+
+
+                                        Page 4 of 8
+Commentary
+
+   This article discusses the imposition of MYR0.40 per unit tax, a type of specific tax
+
+which is “a tax calculated as an absolute amount per unit of the good or service sold”
+
+(Tragakes, 2012) to correct negative externalities of consumption in Malaysia.
+
+   Traditionally sugary drinks are considered demerit goods - “goods that are
+
+considered to be undesirable for consumers and are overprovided by the market”
+
+(Tragakes, 2012). Hence, market failure - the misallocation of resources from a social
+
+optimal perspective arises, imposing undesirable impacts onto third parties.
+
+   Shown diagrammatically below, market forces are driven by self-interest
+
+maximization incentives. Consumers only consider private benefits when consuming;
+
+producers only consider private costs when producing. Thus, market output is where
+
+marginal private cost equates marginal private benefit. However, social optimal output
+
+is where social cost equates marginal social benefit where externalities must be
+
+considered. Therefore, market output Qe exceeds social optimal output Qopt as
+
+external cost of sugary drinks is ignored.
+
+
+
+
+                                       Page 5 of 8
+   “48% of Malaysian adults are overweight or obese and at risk for lifestyle-related
+
+diseases”. Negative externalities - the negative impacts that affect third parties, would
+
+arise because the government would allocate more resources on healthcare, leading
+
+to opportunity cost as less amount of resources could be spent on other social needs.
+
+Moreover, health problems may affect productivity, hindering economic growth.
+
+   Therefore, indirect tax may help correct market failure - producers would pass part
+
+of the tax onto consumers by raising the price, discouraging consumption. However,
+
+the effectiveness is affected by price elasticity of demand. In the UK, "many consumers
+
+have stated that their consumption has not changed" despite substitutes available. It
+
+suggests that consumption of sugary drinks could be habit-forming and the demand is
+
+price inelastic. In Figure 2. the price inelastic demand allows the producers to pass a
+
+large proportion of tax, as shown by differing tax incidences, onto consumers by
+
+                                       Page 6 of 8
+raising the price significantly (P1 → P2) as consumers can only reduce consumption to
+
+a proportionally lesser extent (Q1 → Q2). Therefore, tax alone may not be effective in
+
+discouraging consumption unless raised significantly.
+
+
+
+
+   Additionally, in “price-sensitive” Malaysia “a majority of consumers” plan to
+
+purchase “fewer carbonated soft drinks”. Since the availability of substitutes in the
+
+market is a determinant of PED, tax could be more effective in discouraging
+
+consumption amongst low-income consumers in developing countries like Malaysia
+
+as their demand tends to be more price elastic over developed countries like the UK.
+
+   However, indirect tax is regressive which means the tax would represent a smaller
+
+proportion of income when income increases. The distribution of income and poverty
+
+would worsen because low-income consumers spend a larger proportion of their
+
+budget on sugary drinks, having less to spend on other areas including essential
+
+goods. This may lower the standard of living and worsen poverty. However, it also may
+
+
+                                      Page 7 of 8
+benefit low-income consumers in the long run because indirect tax would be more
+
+effective in discouraging consumption of sugary drinks and avoiding long-term
+
+potential health problems. On the other hand, richer consumers may not suffer in the
+
+short run as the price hike is negligible, however are more likely to suffer in the long-
+
+term as health problems such as diabetes may occur.
+
+   Comparatively, using legislation such as prohibiting the sales of unhealthy drinks
+
+in schools or colleges may be more effective than taxation as the availability of demerit
+
+goods would be reduced. Furthermore, legislation is not affected by PED which makes
+
+it more viable. However, legislation would lead to allocative inefficiency in that it does
+
+not allow price signalling leading to loss of consumer sovereignty, and resources must
+
+be used to enforce said legislation, creating opportunity cost. Alternatively, negative
+
+advertising or education that reduces the perceived benefits of sugary drinks may
+
+effectively reduce consumption in the long run, as consumers may choose not to
+
+consume by free will. Furthermore, it may convince manufacturers to decrease sugary
+
+drink production in accordance to consumer sovereignty as social trends may increase
+
+demand for lower-sugar substitutes - “low-sugar carbonated soft drinks have tripled
+
+their share of the beverage market.” However, a large time-lag is present, which may
+
+decrease effectiveness in the short-term.
+
+   In conclusion, if carefully planned, indirect tax could be effective in correcting
+
+market failure of demerit goods, as it would not only discourage consumption via
+
+higher prices, but also increase availability and awareness of healthier beverages in
+
+the market through market mechanisms. However, the government must be astute in
+
+its implementation; over or under-taxing the market would lead to government failure
+
+and may reduce the tax’s effectiveness.
+
+
+
+                                        Page 8 of 8
+

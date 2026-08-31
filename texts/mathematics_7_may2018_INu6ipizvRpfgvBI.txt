@@ -1,0 +1,637 @@
+  Mathematics Investigation: How many ways can a
+number of telephones be connected if a telephone can’t
+          connect to more than one other?
+
+                  Candidate Number Here
+Contents
+1 Introduction                                                                                  3
+  1.1 Purpose of exploration . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    3
+  1.2 Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    3
+
+2 Graph theory                                                                                  4
+  2.1 Understanding graph theory . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      4
+  2.2 Representing telephones with graphs . . . . . . . . . . . . . . . . . . . . . . . .       4
+
+3 Finding a solution with recursive programming                                                 5
+  3.1 Analysing the problem . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     5
+  3.2 Recurrence relation formula . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     9
+
+4 Solution using differential calculus                                                          9
+
+5 Extension: finding the maximum number of connections which can be made
+  with n telephones                                                      10
+
+6 Conclusion                                                                                   14
+
+7 Bibliography                                                                                 15
+
+
+
+
+                                               2
+1      Introduction
+1.1     Purpose of exploration
+   I have found the idea of using math to find combinations in a given scenario very thought-
+provoking, as it initially seemed to me as though it would be impossible to derive any sort of
+method to find the number of ways in which something could be done. Of course, depending on
+the scenario, some ways of deriving this value will be harder than others and some will require
+the use of recursion – in which the formula to obtain a value of an input must rely on the result
+of the same formula of a different input.
+
+
+   This very idea of combinations has encouraged me to apply it to the scenario of connection
+telephones. Thus, the research question: “How many ways can a number of telephones
+be connected if a telephone can’t connect to more than one other?”
+
+
+  The exploration will look at graph theory as a way to illustrate the problem, look into my
+solution of solving the problem and then look at an alternative solution to solving the problem
+using differential calculus. Then, as an extension, the exploration will look at finding the
+maximum number of connections which can be made and how many ways this can occur.
+
+
+1.2     Background
+   Back before mobile phones were created, landlines were the common method of calling out
+friends and family members. These landlines were connected by metal wires or fibre-optic cables
+and allowed us to only call one person at a time. Nowadays, of course, we can talk to multiple
+people simultaneously in a group chat. Given that a connection can only be established between
+two phones, there must be a number of connection combinations that can be made with a given
+number of phones.
+
+
+    For example:
+
+
+  Given 2 phones (A and B), there are 2 ways in which they can be connected:
+1. A and B are not connected
+2. A and B are connected
+
+
+    Note that we include the situation in which they are not connected as a combination.
+
+
+  Given 3 telephones (A, B and C), there are 4 ways:
+1. A, B and C are not connected
+2. A and B are connected
+3. B and C are connected
+4. C and A are connected
+
+
+  Because we are taking into account that a phone can’t connect to more than one other phone,
+we can’t include all of the three phones connected as a combination.
+
+
+   In order to derive a formula for the number of ways in which the telephones can be connected,
+it is important to understand graph theory and to see a pattern when more telephones are added.
+
+                                               3
+2     Graph theory
+2.1     Understanding graph theory
+  Graph theory refers to a way in which data can be represented. A graph contains vertices and
+edges. In this case, a vertex will represent a telephone and an edge will represent a connection
+between two telephones. Note that an edge can only connect two vertices, which makes graph
+theory an excellent method of modelling this problem.
+
+   Since a telephone can’t connect to more than one other telephone, we know that a graph of
+telephones can’t be complete (that is, every vertex can’t have an edge) and that each vertex
+can only have a degree of 0 or 1.
+
+2.2     Representing telephones with graphs
+ The diagrams below show graph representations of the different connections which can be
+made from telephones 1-4. As stated, 0 telephones will have 1 combination.
+
+    1 telephone [1 combination]:
+
+
+
+
+                                      Figure 1: Graph A
+
+    2 telephones [2 combinations]:
+
+
+
+
+                               Graph AB 1          Graph AB 2
+                                     Figure 2: Graphs AB
+
+    3 telephones [4 combinations]:
+
+
+
+
+          Graph ABC 1         Graph ABC 2          Graph ABC 3         Graph ABC 4
+                                    Figure 3: Graphs ABC
+
+
+
+
+                                               4
+    4 telephones [10 combinations]:
+
+
+
+
+                             Graph ABCD 1          Graph ABCD 2
+
+
+
+
+        Graph ABCD 3         Graph ABCD 4          Graph ABCD 5         Graph ABCD 6
+
+
+
+
+       Graph ABCD 7         Graph ABCD 8           Graph ABCD 9        Graph ABCD 10
+                                   Figure 4: Graphs ABCD
+
+  An interesting thing to know is that the connection combinations are bipartite graphs.
+This means that the vertices can be put into two groups where the vertices are disjoint between
+the two groups. The next section will look at my solution to solving the problem.
+
+
+3     Finding a solution with recursive programming
+   I have had an interest in programming since I was 14 years old. I gained a great deal
+of experience within a short amount of time, purely because of my keen interest in problem-
+solving and software-developing. Given this and that Computer Science is an interesting branch
+of Mathematics (which is also relatively new), I feel that it is only right to put programming
+to use in order to find a solution to the problem.
+
+  The next few sections will focus on analysing the problem and gradually adding program code
+to what will be the solution.
+
+3.1     Analysing the problem
+  A possible solution to the problem is to deduce the total number of edge combinations
+possible for a graph of n vertices and count the number of solutions which satisfy this problem.
+However, this solution would be a waste of time and would also not give an exact formula which
+can be used to get the number of combinations for any integer n. What will be done instead is
+an analysis of the problem to see a pattern as n is increased.
+
+     1. Consider 2 people (A and B) who each have a telephone. We know that there
+can be 2 combinations for this case: either they are connected or they are not.
+
+                                               5
+     2. Consider 3 people (A, B and C) who each have a telephone.
+
+   • Firstly, we know that there must be combinations included where a person isn’t connected.
+     Let this be person C. So A and B have a combination: 2 (either they are connected or
+     they are not). We will include this for the number of combinations for 3 people.
+
+   • Now consider the situation where C is connected to someone. C will have a choice
+     between 2 people to connect to. Then when the person is connected to that one person,
+     the other disconnected person will have only 1 connection combination: they must remain
+     disconnected.
+
+   • Therefore, we multiply the values of 2 (from the choices of C) and 1 to make 2. This is
+     known as the Product Principle (AND rule); we must say that C connects to someone
+     AND the other person connects to someone.
+
+   • Then we must add this multiplied value with the number of ways A and B can connect.
+     2 + 2 = 4. This is known as the Addition Principle (OR rule).
+
+   • We must say that A and B are connected with C disconnected OR C is connected AND
+     the other person is connected.
+
+   • Therefore, there are 4 ways that 3 telephones can connect to each other.
+
+
+     3. Consider 4 people (A, B, C and D) who each have a telephone.
+
+   • Using the same process as in the previous example with 3 people, consider the situation
+     where D isn’t connected to anyone. There are 4 ways that A, B and C can connect to
+     each other.
+
+   • Now consider the situation where D is connected to another person. There are 3 people
+     for D to choose from.
+
+   • When D is connected to someone else, there are 2 other people who are not connected.
+     They can connect 2 ways (as seen above).
+
+   • Therefore, applying the Product Principle and the Addition Principle: 4 + 3(2) = 4 + 6 =
+     10. This is, indeed, the correct number of ways in which 4 telephones can connect to
+     each other.
+
+
+      4. Following the examples above, a general solution for n telephones will be:
+the combination of n − 1 telephones + the product of (n − 1) telephones and the combination
+of n − 2 telephones, where the combination of 0 and 1 telephones is 1. To illustrate this, a
+recursive Python program which calculates the number of combinations is shown below:
+        def T(n):
+           if n == 0:
+              return 1
+           else:
+              return T(n-1) + (n-1) * T(n-2)
+
+
+
+                                              6
+   This code has a minor efficiency error: it recursively invokes the function T twice (once in
+T (n − 1) and another in T (n − 2)). A solution to this issue is shown below:
+             def T(n):
+                 if n == 0:
+                     return [1, 1]
+                 else:
+                     combinations = T(n-1)
+                     return [combinations[0] + (n-1) * combinations[1],
+                        combinations[0]]
+
+
+
+  This solution makes use of only one recursive invocation of the function T and instead returns
+a pair of values. The first value of the pair is T (n) and the second value is T (n − 1). Effectively,
+this will result in the function returning T (n − 1) + (n − 1)T (n − 2). Listed below are values
+obtained from 0 to 20 telephones using the program above:
+
+Table 1: Number of telephones with the number of possible connection combinations
+
+              Number of Telephones                Number of Combinations
+                       0                                     1
+                       1                                     1
+                       2                                     2
+                       3                                     4
+                       4                                    10
+                       5                                    26
+                       6                                    76
+                       7                                    232
+                       8                                    764
+                       9                                   2620
+                      10                                   9496
+                      11                                   35696
+                      12                                  140152
+                      13                                  568504
+                      14                                  2390480
+                      15                                 10349536
+                      16                                 46206736
+                      17                                211799312
+                      18                                997313824
+                      19                               4809701440
+                      20                               23758664096
+
+  In the above table (apart from the first two rows), let n be the number of telephones and let
+Cn be the number of combinations with n telephones. For example, n = 0, C0 = 1 and n = 1,
+C1 = 1. Apart from the first row and the second row, the combinations of n telephones are
+given by: Cn = Cn−1 + (n − 1)Cn−2 , where Cn−1 is the row above and Cn−2 is two rows above.
+For example, C5 = C5−1 + (5 − 1)C5−2 = C4 + 4C3 . We can see from the table that C4 = 10
+and C3 = 4. Therefore, C5 = 10 + 4(4) = 26, which is, indeed, what is shown in the row in
+
+                                                  7
+which n = 5. The relation we have used, Cn = Cn−1 + (n − 1)Cn−2 , is known as a Recurrence
+Relation and it is discussed in the section below.
+
+   The table shows a large increase in combinations as the number of telephones is increased.
+It is quite easy to see why this is the case, as the relation above shows that we must add the
+previous number of combinations with the previous of the previous number of combinations
+multiplied by (n − 1). Therefore, it is obvious why it would gives a huge increase in the number
+of combinations when a telephone is added. A graph of this relation is shown below to illustrate
+the large rate of change for the relation:
+
+
+
+
+             Figure 5: Graph to show number of telephones (x-axis) against num-
+             ber of connection combinations (y-axis)
+
+  The shape of the graph is similar to that of the factorial function: f (x) = x!, x ≥ 0. The two
+graphs are shown below:
+
+
+
+
+                                               8
+             Figure 6: Graphs of telephone connection combinations relation
+             (blue) and factorial function (red)
+
+
+
+  It would seem that the factorial function’s rate of change is higher than that of the telephone
+connection combinations relation. This is the case for all x ≥ 0, so the graphs never intersect.
+This is because the factorial function, x! multiplies the previous term, (x − 1)! by x. Whereas,
+the telephone relation multiplies the previous term of the previous term by (n − 1). This
+explains why they get relatively close for large values of x, but never intersect.
+
+
+
+3.2    Recurrence relation formula
+   As recursion is being used, an alternative form of the formula is a second-order recurrence
+relation: tn = tn−1 + (n − 1)tn−2 , and t0 = t1 = 1, as seen in the previous section. As with the
+program, the recurrence relation will also give the number of connection combinations given n
+telephones. I have tried coming up with a solution for the recurrence relation in terms of n.
+However, I was unsuccessful in doing so. After some research, I have found out that there is
+no solution to this recurrence relation because one term of the relation is dependent of n.
+
+
+
+4     Solution using differential calculus
+  While researching, I came across a calculus solution to the problem by finding the n’th
+derivative of a function. Initially, I thought that what I was reading was false, as generally a
+derivative is supposed to “decrease” a function. However, after looking into it, I was astounded
+to find out that this solution actually works.
+
+                                               9
+                                       x2
+  The formula is defined as: f (x) = e 2 +x 1 and the value of the number of connection combi-
+                             dn
+nations of n telephones is:     f (0). The first 5 derivatives of f (x) and their values at x = 0
+                            dxn
+are shown in the table below:
+
+                  Table 2: Derivatives of f (x) and their values at x = 0
+
+ Derivative order (n)                          Derivative                              Value at x = 0
+                                                           x2
+                                                              +x
+             1                                 (x + 1) e    2                                1
+                                                              x2
+                                                                 +x
+             2                              (x2 + 2x + 2) e    2                             2
+                                                                   x2
+                                                                      +x
+             3                         (x3 + 3x2 + 6x + 4) e        2                        4
+                                                                           x2
+                                                                              +x
+             4                   (x4 + 4x3 + 12x2 + 16x + 10) e             2               10
+                                                                               x2
+                                                                                  +x
+             5               (x5 + 5x4 + 20x3 + 40x2 + 50x + 26) e              2           26
+
+
+   It’s very interesting to see that a polynomial of n’th degree is formed as the function is
+differentiated, with the constant term being the number of connection combinations. As can
+be seen, the number of terms in the polynomial formed increases for each derivative order.
+However, since we are setting x = 0 for the derivative, all terms in the polynomial with x result
+            x2
+to 0 and e 2 +x results to 1. This, of course, only leaves the constant term.
+
+
+  Given this is the case, it may not be entirely practical for us to use this method for large
+values of n, since x-terms result in either 0 or 1 to leave the constant term. However, it is still
+very interesting to know that calculus can still be used to solve the problem and gives us an
+opportunity to explore further into why this is the case and to learn more about how the two
+topics of calculus and discrete math can be related.
+
+
+5       Extension: finding the maximum number of connec-
+        tions which can be made with n telephones
+  Before concluding, it would be interesting to think about the maximum number of connections
+which can be made, given a number of telephones (that is, the maximum number of edges which
+can exist for the a graph of n vertices to solve the problem).
+
+
+
+
+    • Consider 4 vertices. An edge connects two vertices and no vertex can have a degree of
+      more than 1. Therefore, the maximum number of connections (edges) we can have is 2.
+
+    • Consider 5 vertices. Connecting 4 vertices can be done with 2 edges (as shown above),
+      leaving 1 vertex which can’t connect to another. Therefore, the number of connections
+      we can have is also 2.
+
+    • Consider 6 vertices. Connecting 6 vertices can be done with 3 edges, leaving no
+      vertices.. Therefore, the number of connections we can have is 3.
+    1
+    The Telephone Numbers – Graph Theory.      IB Maths Resources from British Interna-
+tional School Phuket, IB Maths Resources, 10 June 2014, ibmathsresources.com/2014/06/25/
+the-telephone-numbers-graph-theory/
+
+
+                                                 10
+                                                                                            n
+   • Consider n vertices, where n is even. Connecting the n vertices can be done with
+                                                                                            2
+     edges (since each edge connects 2 vertices). Therefore, the number of connections we can
+             n
+     have is .
+             2
+   • Consider n vertices, where n is odd. Connecting n − 1 vertices can be done with
+     n−1
+            edges, leaving 1 vertex unconnected. Therefore, the number of connections we can
+       2
+             n−1
+     have is       .
+               2
+   • In general, the number of connections we can have with n, where n is even or odd, is
+      n
+     b c.
+      2
+
+   We can also consider the number of ways in which we can connect the maximum number of
+edges. We have derived that, for n telephones, the maximum number of connections which can
+             n
+be made is b c. From here, we must now count the number of ways we can select all pairs
+             2
+from n telephones. This is shown below:
+
+
+
+
+   • Consider 2 telephones. The maximum number of connections (edges) which can be
+     made which still satisfies the problem is 1 (only 1 edge can connect the 2 vertices). There
+     is only 1 way of doing this (since there are 2 vertices). Therefore, the number of ways
+     will be 1.
+
+   • Consider 4 telephones. The maximum number of connections which can be made is 2
+     (using the formula from before). We must keep choosing a pair until there are none left.
+                                                                                  n
+                                                                                   
+     We can use the Addition Principle (AND rule) and the combination formula: r  to solve
+     this problem. Choose 2 out of the 4 AND choose 2 out of the remaining 2: 42 22 = 6.
+     However, this counts the number of pairings 2! times (factorial of the maximum number
+     of connections). Therefore, we must divide our result by 2: 62 = 3 ways.
+
+   • Consider n telephones, where n is even. Themaximum   n−4number
+                                                                      of connections which
+     can be made is n2 . As done with 4 telephones: n2 n−2
+                                                        2    2
+                                                                ... 2
+                                                                    2
+                                                                      . Evaluating this gives:
+
+         n!     (n − 2)! 2    n(n − 1) (n − 2)(n − 3) 2    n!
+                        ... =                        ... = n .
+     2(n − 2)! 2(n − 4)! 2       2           2          2 22
+                                          n
+     This counts the number of pairings ! times. Therefore, dividing our result with this
+                                          2
+             n!
+     gives: n n ways for an even number of telephones, n.
+            22 2!
+
+   • Consider n telephones, where n is odd. The maximum number of connections which
+                      n
+     can be made is b c. For an odd number, n, the number of combinations which can be
+                      2
+     made will be the combinations for n − 1 (which is even), but then taking into account the
+     number of ways which the remaining telephone can be connected (as not all telephones
+     can be paired). Taking the formula for n − 1, this will simply require the multiplication
+     of the formula by n:
+
+      (n − 1)!     n!
+     n n−1 n−1 = n−1 n−1 ways for an odd number of telephones.
+      2 2 2 !   2 2 2 !
+
+                                              11
+   • In general, the maximum number of connections which can be made with n telephones,
+                                     n!
+     where n is odd or even, is: b n c n . By flooring (rounding down) n2 , there is no need to
+                                 2 2 b 2 c!
+     have to write two formulae for the odd and even cases of n.
+
+                                n!
+  The values of               n             for values of n from 0-20 are shown below:
+                           2b 2 c b n2 c!
+
+    Table 3: Number of telephones (n) with maximum connection combinations
+
+                    Number of telephones (n) Number of combinations
+                               0                        1
+                               1                        1
+                               2                        1
+                               3                        3
+                               4                        3
+                               5                       15
+                               6                       15
+                               7                      105
+                               8                      105
+                               9                      945
+                              10                      945
+                              11                     10395
+                              12                     10395
+                              13                    135135
+                              14                    135135
+                              15                    2027025
+                              16                    2027025
+                              17                   34459425
+                              18                   34459425
+                              19                   654729075
+                              20                   654729075
+
+  The first obvious thing which can be seen here is that, for n > 0, numbers of combination
+are in pairs such that n and n + 1 have the same number of combinations where n is odd. To
+prove this works for all odd n ∈ N, consider:
+
+       n!                     (n + 1)!
+     n             and       n+1               for n ∈ N, n ≡ 1 (mod 2).
+  2b 2 c b n2 c!           2b 2 c b n+1
+                                     2
+                                        c!
+
+  We must show that these two expressions are equal:
+
+       n!                  (n + 1)!
+     n             =     b n+1
+  2b 2 c b n2 c!       2    2
+                               c
+                                   b n+1
+                                      2
+                                         c!
+
+  First, multiply both sides by both denominators to give:
+         n+1                                    n
+  n! 2b 2 c b n+1
+               2
+                  c! = (n + 1)! 2b 2 c b n2 c!
+
+                                                               12
+  We can then divide both sides by n!:
+      n+1                         n
+  2b 2 c b n+1
+            2
+               c! = (n + 1) 2b 2 c b n2 c!
+
+                               n+1    n+1      n    n−1
+  Since n ≡ 1 (mod 2): b           c=     and b c =     .
+                                2      2       2     2
+
+  Therefore, we can re-write the equation as:
+
+      n+1   n+1              n−1 n − 1
+  2 2           ! = (n + 1) 2 2        !
+             2                     2
+
+                                n+1     n−1
+ Since the difference of            and     is 1, we can divide both side of the equation by
+                                 2       2
+n−1
+    ! to give:
+ 2
+
+      n+1   n+1            n−1
+  2 2           = (n + 1) 2 2
+             2
+   √      n+1            √
+  ( 2)n+1     = (n + 1) ( 2)n−1
+           2
+                                      √
+  Multiplying both sides by               2 gives:
+
+   √      n+1            √
+  ( 2)n+2     = (n + 1) ( 2)n
+           2
+                               √
+  Then dividing both sides by ( 2)n gives:
+
+      n+1
+  2       =n+1
+       2
+
+  n+1=n+1
+
+  Both sides are shown to be identical. Hence, the equation holds true for all odd n ∈ N.
+
+  The graphs below show how the telephone combinations relationship from earlier compares
+                                                                              n!
+with the maximum connection combinations function (note that the function, n n , is used so
+                                                                             22 2!
+there is no rounding done only so that the relationship can be illustrated).
+
+
+
+
+                                                     13
+             Figure 7: Graphs of telephone connection combinations relation
+             (blue) and factorial maximum connection combinations function
+             (purple)
+
+
+
+  It can be seen that the slope of the blue graph is steeper than that of the purple graph. This
+comes as no surprise, since the maximum connection combinations is a subset of the telephone
+connection combinations. The maximum connection combinations relationship can be used to
+determine the maximum number of calls which can occur on the phones at once (out of n
+phones) and to determine how many ways this number of calls can occur between the n people.
+
+
+
+6    Conclusion
+   Finding combinations in different scenarios can be quite a fascinating task and there may
+be a number solutions for certain situations. The interesting thing about different scenarios
+is there will always be some method of determining some sort of solution. Different solutions
+will also use different areas of mathematics, as we have seen in this situation where we used
+recursion (and recurrence relations) and calculus; both of which are completely different areas
+of mathematics. Additionally, out of the number of telephone connection combinations of n
+telephones, it is possible to obtain the maximum number of connections (edges) which can be
+made and also the number of ways in which this can occur.
+
+
+
+  As stated, landline telephones have become obsolete in the present day, so there may not
+be any real purpose of applying this solution now. However, it is still an interesting solution
+nonetheless and could very well be applied to situations other than connecting telephones.
+
+                                              14
+7    Bibliography
+[1] Fannon, Paul Mathematics Higher Level Topic 10 - Option: Discrete Mathematics for the
+IB Diploma., Cambridge University Press, 2013
+
+[2] Neill, Hugh, and D. A. Quadling. Mathematics for the IB Diploma Higher Level: Discrete
+Mathematics. Cambridge University Press, 2007.
+
+[3] The Telephone Numbers – Graph Theory. IB Maths Resources from British International
+School Phuket, IB Maths Resources, 10 June 2014, ibmathsresources.com/2014/06/25/
+the-telephone-numbers-graph-theory/.
+
+
+
+
+                                           15
+

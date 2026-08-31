@@ -1,0 +1,441 @@
+Mathematics Analysis and Approaches HL
+         Internal Assessment
+
+      Application of the
+    shortest path problem
+
+
+          Number of pages: 12
+Introduction
+Some time ago I took a trip with Uber and during that trip I was wondering if they took
+
+me for the shortest path. So, in this exploration my aim is to try to figure out if they
+
+took me for the shortest route. The shortest path problem is a well-known problem in
+
+maths, more precisely in Graph theory, which I will explain later. There are different
+
+algorithms in this theory, but I chose to use the Dijkstra’s algorithm. Figure 1 is a
+
+screenshot from the Uber site which shows the route they took me, that took 5.8km
+
+according to their website.
+
+
+
+
+ Figure 1 – Uber trip
+
+
+
+
+                                                                                      1
+     Graph Theory
+     In 1736 Euler published the first paper about graph theory, even if at the time he did
+
+     not call it graph theory, this paper was the beginning of a new field in mathematics. At
+
+     that time there was a problem that divided mathematicians, the Königsberg bridge
+
+     problem. This problem asks if it was possible to cross the seven bridges of Königsberg
+
+     (at that time Germany but now is part of Russia) which pass over the river Preger in a
+
+     single trip. But there are two conditions, the first one you cannot pass two times the
+
+     same bridge. And the second that you must end in the same point which you began.
+
+     In Figure 2 you have the image of the city at that time and its bridges.
+
+
+
+
+                               Figure 2 - Königsberg bridges
+
+
+
+
+     As I said that problem divided the mathematicians at that time with some arguing it
+
+     was possible and others arguing otherwise. But in 1736 Euler proved that it was not
+
+     possible in that paper, which set the beginning of graph theory.
+
+
+
+
+Figure 2 - Leonard Euler’s Solution to the Konigsberg Bridge Problem | Mathematical Association of America. 2
+     https://www.maa.org/press/periodicals/convergence/leonard-eulers-solution-to-the-konigsberg-bridge-
+     problem. Accessed 24 Nov. 2020.
+In this theory the term graph has a different connotation from the one we are used to
+
+as data charts. In graph theory, graphs refer to a set of vertices and edges that connect
+
+the vertices. There are different types of graphs. There are simples’ graphs where one
+
+edge connects two vertices and there are no loops. There are also multigraphs where
+
+two vertices are joint by more than one edge, which are the graphs that I am going to
+
+use to solve my problem. Moreover, for my problem I will need to use weighted graphs
+
+i.e., graphs where its edges have associated values to them. In this case the values
+
+will represent the distance from each vertex to the other. In Figure 3 there is an
+
+example of a weighted multigraph.
+
+
+
+
+                            Figure 3 – Weighted multigraph
+
+
+
+
+                                                                                       3
+Shortest path problem and Dijkstra’s Algorithm
+In graph theory there is a well-known problem called the shortest path problem, where
+
+you want to find a path between two vertices such that the sum of the weights is
+
+minimized.
+
+
+
+Edsger Djikstra, a computer scientist in the 20 th century was of extreme help in the
+
+field of graph theory. In 1956 he created an algorithm which could solve the shortest
+
+path problem. This is a simple algorithm but very powerful to solve this problem.
+
+
+
+Before applying the algorithm, we need to assume that we are only moving forward,
+
+for example in Figure 4 we are going from a to h and therefore we will not count paths
+
+moving backwards. Like if we move from a to b to c to d and then to e we will not check
+
+back to b. In Figure 4 all values are expressed in meters.
+
+
+
+
+                     Figure 4 – Simple graph
+
+
+
+
+                                                                                     4
+The idea of this theorem is to start at point a and visit the points that are connected to
+
+it, in this case only b. Then visit the points connected to b, in this case c and e. After
+
+that we will continue with the smallest known distance vertex and see the smallest
+
+distances. And go on like this until we reach point j. It is easier to understand after
+
+seeing how it applies to a specific problem, thus below it is shown how the algorithm
+
+applies.
+
+
+
+Starting in point a, we updated the table with a value of zero in the vertex a (our initial
+
+point) and a value of “infinite” to the other vertexes, as it is the shortest cost until now
+
+(Table 1).
+
+
+           Vertex              Shortest distance from a (m)            Previous vertex
+             a                               0
+             b                              ∞
+             c                              ∞
+             d                              ∞
+             e                              ∞
+             f                              ∞
+             g                              ∞
+             h                              ∞
+
+ Table 1
+
+
+
+
+                                                                                          5
+Then the closest point to a is point b, with a cost of 600m. Therefore we will update it
+
+in our table by cutting the “infinite” in vertex b and switching it for the shortest value
+
+known until now. Also we need to update the collum of previous vertex in row b to a.
+
+
+
+        Vertex                Shortest distance from a (m)            Previous vertex
+          a                                 0
+           b                            ∞ ; 600                              a
+           c                                ∞
+           d                                ∞
+           e                                ∞
+           f                                ∞
+           g                                ∞
+           h                                ∞
+
+ Table 2
+
+
+After that we will start in vertex b and check again the shortest path. In this case we
+
+have two options. We can go either to c or e. So we will sum the distance from a to b,
+
+which is 600 to the individual distances.
+
+
+
+                      𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒 𝑡𝑜 𝑣𝑒𝑟𝑡𝑒𝑥 𝑐 = 600 + 110 = 710𝑚
+
+
+
+                      𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒 𝑡𝑜 𝑣𝑒𝑟𝑡𝑒𝑥 𝑒 = 600 + 228 = 828𝑚
+
+
+
+Now we have two vertices to update on our table, the vertex c and e. We will do the
+
+same we did for vertex b, as it shown in Table 3.
+
+
+
+
+                                                                                        6
+           Vertex             Shortest distance from a (m)        Previous vertex
+             a                              0
+             b                          ∞ ; 600                          a
+             c                          ∞ ; 710                          b
+             d                             ∞
+             e                          ∞ ; 828                          b
+             f                             ∞
+             g                             ∞
+             h                             ∞
+
+Table 3
+
+
+Now the work will we have to do is the same. We must visit each vertex and write
+
+down in the table the shortest distance known at the moment. In table 4 you can see
+
+the final table when all vertices have been visited.
+
+
+
+           Vertex               Shortest distance from a          Previous vertex
+             a                              0
+             b                          ∞ ; 600                          a
+             c                          ∞ ; 710                          b
+             d                       ∞ ; 900 ; 898                      c;e
+             e                          ∞ ; 828                          b
+             f                         ∞ ; 1059                          e
+             g                         ∞ ; 1090                          d
+             h                         ∞ ; 1237                          f
+
+ Table 4
+
+
+
+After all this work, we get that the shortest path from a to h goes by : a → b → e → f
+
+→ h, and has a total cost of 1237 m.
+
+
+
+
+                                                                                    7
+Applying the theorem to my problem
+
+After seeing that the Dijkstra’s theorem applies to a simpler problem, now we can
+
+apply it to a more complex one. This algorithm is very helpful but it is very difficult to
+
+do by hand when we have a problem with a lot of vertices, like my Uber trip. Therefore,
+
+I will use a software that runs the Djikstra’s algorithm to help me solve the shortest
+
+path for the Uber trip.
+
+
+
+The first step to solve the problem is to draw a simpler version of the map. In this
+
+version I will exclude some neighbourhoods, as we know without the need of a
+
+calculation, that going in circles around a neighbourhood will take longer. In Figure 5
+
+we have the image from google maps and in Figure 6 the simpler representation of
+
+the map. Also, we will need to make the same assumption we did in the example, we
+
+are only moving forward, we will not count paths moving backwards.
+
+
+
+
+ Figure 5 - Map                                     Figure 6 – Representation of the map
+
+
+
+
+                                                                                           8
+The next step is to construct the graph. At each intersection between two or more
+
+roads, we will set a vertex. And each line that connect two vertices will be a weighted
+
+edge where the edges will have the distance associated. I chose to do two separate
+
+figures to show the vertices and the edges. If they were only in one figure it would be
+
+a mess, therefore in two different figure it is much easier to understand. In Figure 7
+
+we have the representation with vertices. And in Figure 8 we have the representation
+
+of the edges where all values are in meters.
+
+
+
+
+          Figure 7 – Representation of the graph with the name of the vertices
+
+
+
+
+                                                                                     9
+     Figure 8 – Representation of the graph with weighted edges
+
+
+
+
+In Figure 8, I got the values using a tool in google maps to measure distances. The
+
+problem with this tool is that the values are only an approximation and the error can
+
+be high, as I got the values by setting the initial and final point by the eye.
+
+
+
+Now that we got the graphs we can put them in the algorithm to solve the shortest
+
+path. I used an online programme created in JavaScript which runs the Dijkstra’s
+
+algorithm.
+
+
+
+
+                                                                                  10
+After inserting all the vertexes and weighted edges, the result I got for the shortest
+
+path is:
+
+
+
+1 → 2 → 3 → 5 → 7 → 44 → 45 → 51 → 52 → 53 → 54 → 88 → 89 → 90 → 119 →
+
+120 → 121 → 136 → 137 → 138 → 153 → 154 → 159 → 160 → 161 → 162 → 163 →
+
+174
+
+
+
+And the value for the total distance is 5345m. Figure 9 shows the shortest path.
+
+
+
+
+           Figure 9 – Shortest path
+
+
+
+
+                                                                                   11
+Conclusion
+
+The objective of this exploration was to find out if Uber took me for the shortest path
+
+or not. Which we have seen that did not, Uber took me for a 455m longer trip. This
+
+does not mean that Uber is cheating me. There are some other factors to consider.
+
+The first one, we must not forget that the values I used in my calculations are a simple
+
+approximation of the real values and have some error associated. Then Uber takes
+
+more into account than only the shortest path. Like traffic lights and traffic.
+
+
+
+Therefore, we can say that the shortest path is not the one Uber took me but this does
+
+not mean that Uber is cheating me.
+
+
+
+
+                                                                                     12
+     Sources
+Adobe. Photoshop.
+
+Edsger Dijkstra | IEEE Computer Society. https://www.computer.org/profiles/edsger-dijkstra/.
+
+     Accessed 26 Nov. 2020.
+
+Graph Theory | Problems & Applications | Britannica. https://www.britannica.com/topic/graph-
+
+     theory. Accessed 24 Nov. 2020.
+
+Graph Theory - Introduction - Tutorialspoint.
+
+     https://www.tutorialspoint.com/graph_theory/graph_theory_introduction.htm. Accessed 3
+
+     Oct. 2020.
+
+Joshi, Vaidehi. ‘A Gentle Introduction To Graph Theory’. Medium, 25 May 2017,
+
+     https://medium.com/basecs/a-gentle-introduction-to-graph-theory-77969829ead8.
+
+---. ‘Finding The Shortest Path, With A Little Help From Dijkstra’. Medium, 17 Oct. 2017,
+
+     https://medium.com/basecs/finding-the-shortest-path-with-a-little-help-from-dijkstra-
+
+     613149fbdc8e.
+
+---. ‘From Theory To Practice: Representing Graphs’. Medium, 11 Sept. 2017,
+
+     https://medium.com/basecs/from-theory-to-practice-representing-graphs-cfd782c5be38.
+
+Leonard Euler’s Solution to the Konigsberg Bridge Problem | Mathematical Association of
+
+     America. https://www.maa.org/press/periodicals/convergence/leonard-eulers-solution-to-
+
+     the-konigsberg-bridge-problem. Accessed 24 Nov. 2020.
+
+‘Mathematics | Graph Theory Basics - Set 1’. GeeksforGeeks, 4 Jan. 2018,
+
+     https://www.geeksforgeeks.org/mathematics-graph-theory-basics-set-1/.
+
+Online Dijkstra Solver in JavaScript. https://wjholden.com/dijkstra. Accessed 24 Nov. 2020.
+
+
+
+
+                                                                                               13
+Weisstein, Eric W. Königsberg Bridge Problem. Wolfram Research, Inc.,
+
+    https://mathworld.wolfram.com/KoenigsbergBridgeProblem.html. Accessed 24 Nov. 2020.
+
+
+
+
+                                                                                      14
+

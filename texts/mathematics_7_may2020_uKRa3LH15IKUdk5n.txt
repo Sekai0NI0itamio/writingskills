@@ -1,0 +1,742 @@
+Investigating the behavior of a function modeling the depth
+of a towfish
+Rationale
+This investigation aims to investigate the behavior of a function
+that models the depth of a towfish traveling at a constant velocity.
+As shown in figure 1 towfish are missile-shaped probes towed at
+specific depths behind boats to study the seafloor at depths out
+of reach from active sonar on the surface (Wikmark). Towfish are
+a significant resource for subsea industry, military endeavors, and
+scientific investigation (Wikmark). Despite the applicability of
+towfish there has been little development in their operational
+methods in the last 20 years (Wikmark). Currently, towfish
+manage their depth by varying the length of rope they are tethered
+to, and micro-adjustments are done by use of fins and engines, Figure 1 Schematic showing a towfish vessel system
+essentially depth is mechanically varied by direct application of (Townsend)
+force to the towfish (Wikmark). This blunt approach may be
+outdated and inefficient, and there is great room for development. Recently there has been great
+developments in the aerospace industry with companies like Boeing revolutionizing airplane design with
+the new X-37B spaceplane (Wall). The significance of the X37-B is that it generates lift by using the
+aerodynamics of its body rather than wings, which has proven to be an efficient space shuttle design (Wall).
+Perhaps the concept of using a body’s inherent aerodynamic properties to its advantage can be applied to
+towfish design as well. The equivalent to the X-37B in towfish design would be designing a towfish that
+varies its depth by changing its environment rather than applying a brute force directly to itself, for example
+increasing the drag experienced by a towfish would cause its depth to decrease. To apply this new method
+of towfish depth management, a mathematical model of how varying the environmental conditions a
+towfish is under, changes its depth must be explored. This technology could potentially save companies,
+and researchers millions and is thus essential to be investigated. This exploration is however only concerned
+with the basics of how a towfish responds to changes in its environment, more specifically its only
+concerned with mathematically modeling how the towfish behaves when at a constant velocity. But the
+investigation strongly urges other researchers to build on the concepts and ideas presented in this
+investigation.
+In this investigation a function that models the depth of a towfish based on the behavior of the vector
+forces acting on the towfish was investigated. The success of the function was then evaluated by
+investigating the behavior of the function when its argument was set as the towfish’s velocity and its
+geometry. The investigation produced the following function, whose behavior was analyzed and shown to
+be effective when modeling the effect of varying the towfish’s velocity under ideal conditions:
+
+                                                                                    2
+                          𝑛                              1         2
+                    𝑓 = ∑ √1 −                           2 𝜌𝐶𝐷 𝐴𝑣⃗
+                                                     2
+                         𝑖=1        √ 1        2                        2
+                                   ( (2 𝜌𝐶𝐷 𝐴𝑣⃗ ) + (𝑔⃗(∆𝜌𝑖𝑉𝑛 + 𝜌𝑉 − 𝑚)) )
+                                                                           𝑖
+
+The function f models the depth of the towfish as any one of the parameters is varied (under ideal
+conditions). Due to the expanse of this investigation, it was split into several components which were
+explored individually these 3 sections of the exploration are:
+    1. Conjecturing a function that models the behavior of a towfish tethered to a straight wire (a very
+       simplified model)
+
+
+                                                                                                  Page | 1
+    2. Conjecturing a function that models the behavior of a towfish tethered to a wire that changes shape
+       in response to its environment (a more realistic model)
+    3. Exploring the behavior of the function
+
+Introduction to the task
+When a towfish is towed by a towing
+vessel, as shown in figure 2, there are a
+variety of vector forces acting on the
+system. If the vector sum of all forces
+acting on the system is 0 at any given time,
+the system will have a defined shape (the
+towfish will have a constant position), but
+if the vector sum is greater or less than 0,
+the system will move until it reaches a state
+where the vector sum of all forces are 0
+(equilibrium)(Allum and Talbot). Thus it's
+essential to understand the behavior of the
+forces acting on the system to conjecture a Figure 2 free body diagram showing all the forces acting on the system. where vectors
+function modeling the depth of the are presented in bold
+towfish. The forces shown in figure 2 are
+explained in greater detail below.
+The vector forces acting on the towfish at any time are the force of gravity, buoyancy, and drag. These
+vector forces act on the towfish as well as the rope connecting the towfish to the towing vessel (the vector
+forces acting on the towfish are shown in figure 2). Gravitational force is the fundamental force of attraction
+between any 2 masses in the universe (Allum and Talbot), it can be calculated on earth using Newtons
+second law (Allum and Talbot):
+
+                                                   ⃗⃗⃗⃗
+                                                   𝐹 𝑔 = −𝑚𝑔
+                                                           ⃗
+
+Where ⃗⃗⃗⃗
+       𝐹𝑔 is the gravitational force acting on the object, m is the objects mass, and 𝑔⃗ is the acceleration due
+to gravity (Allum and Talbot).
+The buoyant force is an upwards force that always acts in opposition to the force of gravity (Allum and
+Talbot). The buoyant force is caused by a difference in pressure between the bottom of a vessel and the
+top when submerged in a fluid (Allum and Talbot). Mathematically the buoyant force can be expressed
+through Archimedes principle which states that the buoyant force acting on an object when submerged is
+equal to the weight of the fluid displaced, which is summarized in the below relation:
+
+                                                   ⃗⃗⃗⃗⃗
+                                                   𝐹  𝐵 = 𝜌𝑔
+                                                           ⃗𝑉
+
+Where ⃗⃗⃗⃗⃗
+        𝐹𝐵 is the buoyant force acting on the object, 𝜌 is the density of the fluid, 𝑔⃗ is the acceleration due
+to gravity, and V is the volume of the displaced fluid (Allum and Talbot). The vectors 𝐹  ⃗⃗⃗⃗    ⃗⃗⃗⃗⃗
+                                                                                            𝑔 and 𝐹𝐵 are shown
+in figure 2 to only act on the towfish and towing vessel, although they act on the wire as well. The ideal
+wire is neutrally buoyant so the vector sum of ⃗⃗⃗⃗
+                                                  𝐹𝑔 and ⃗⃗⃗⃗⃗
+                                                         𝐹𝐵 is 0, thus no vectors are shown on the ideal wire.
+While the real wire, is negatively buoyant which is shown by the force in the figure denoted by 𝑝⃗. 𝑝⃗ is the
+distributed net force of gravity, which is the vector sum of ⃗⃗⃗⃗𝐹𝑔 and ⃗⃗⃗⃗⃗
+                                                                         𝐹𝐵 acting on every point in the wire
+(Allum and Talbot). 𝑝⃗ is the force that causes the curved shape of the real wire which is known as a catenary
+curve (Svirin).
+The third force that acts on the towfish is the force of drag. Drag is a frictional force caused by collisions
+between particles of the fluid and the object in motion, during each of these collisions the object transfers
+
+
+                                                                                                          Page | 2
+some of its kinetic energy to the particles of the fluid, thus drag always acts opposite to the direction of
+motion (Allum and Talbot). Mathematically drag can be expressed using the drag equation:
+                                                        1
+                                                   𝑅⃗⃗ = 𝜌𝐶𝐷 𝐴𝑣⃗ 2
+                                                        2
+Where 𝑅⃗⃗ is drag, 𝑣⃗ is the velocity, 𝜌 is the density of the fluid, 𝐶𝐷 is the drag coefficient of the object, and
+A is the reference area, which is the cross-sectional area of the object on the plane perpendicular to the
+direction of motion (Allum and Talbot).
+The vector forces acting on the towing vessel are what causes the towfish to move. Since the investigation
+is only concerned with the behavior of the towfish when at a constant velocity the vector sum of the force
+⃗⃗⃗⃗𝑒 (engine output) and 𝑅⃗⃗ drag can always be assumed to be 0 which causes the towfish to be at a constant
+𝐹
+velocity.
+All these forces can be expressed in terms of the force of internal tension in the ideal or the real wire. Thus
+the behavior of the function for the depth of the towfish will be mathematically treated as wholly dependent
+on the forces presented in the diagram in terms of internal tension.
+
+
+Towfish dynamics
+The simplest possible model of a towfish system
+that to some extent reflects reality is a towfish
+tethered to an ideal wire (Wikmark). An ideal wire
+is a neutrally buoyant wire that behaves like a rigid
+body, meaning that the application of a force to the
+body doesn’t change its shape (Wikmark). The first
+model considered in this investigation was the ideal
+wire model as it’s the simplest model that reflects
+reality, and can thus serve as a good starting point
+for further exploration.
+To conjecture a function modeling the behavior of Figure 3 Free body diagram showing vector forces acting on the idealised
+                                                  system
+the idealized system the following 2 axioms were
+considered along with figure 3:
+    1. For the towfish to have a defined constant position the vector sum of all forces acting on the
+       system must be 0
+    2. In an ideal wire, the internal tension vector must be colinear with the wire.
+The first axiom is valid at all times because if the vector sum of forces acting on the towfish is greater than
+or less than 0 the unbalanced force will cause the system to move until it gets to a position where the vector
+sum of forces is 0. The significance of this axiom is that at all times the vector sum of ⃗𝑇⃗, ⃗⃗⃗⃗⃗⃗⃗⃗⃗⃗
+                                                                                               𝑅(𝑣), 𝐹    ⃗⃗⃗⃗      ⃗⃗⃗⃗⃗
+                                                                                                            𝑔 , and 𝐹𝐵
+must be 0. Thus:
+
+                                                  ⃗⃗ = 𝑅⃗⃗ + 𝐹
+                                                 −𝑇          ⃗⃗⃗⃗  ⃗⃗⃗⃗⃗
+                                                               𝑔 + 𝐹𝐵
+
+This property of the tension vector is significant when considered along with the second axiom; since the
+                                                                                   ⃗⃗ determines the angle the
+tension vector and the ideal wire are always colinear; the direction of the vector 𝑇
+wire will take to the x-axis, and thus determines the depth of the towfish, as shown in figure 4. Since 𝑅⃗⃗ only
+has a non-zero x component, and ⃗⃗⃗⃗⃗
+                                    𝐹𝐵 and ⃗⃗⃗⃗
+                                            𝐹𝑔 only have non-zero y components the tension vector 𝑇  ⃗⃗ colinear
+with the wire is:
+
+
+                                                                                                              Page | 3
+                                                                           𝑅⃗⃗
+                                                            ⃗⃗ = − (
+                                                            𝑇                     )
+                                                                     ⃗⃗⃗⃗⃗
+                                                                     𝐹𝐵 + ⃗⃗⃗⃗ 𝐹𝑔
+
+                                                                             Since the vector 𝑇⃗⃗ determines the angle the ideal
+                                                                             wire takes to the x axis, by applying Pythagoras
+                                                                             theorem the depth of the towfish can be given as
+                                                                             follows by considering the wire as the hypotenuse
+                                                                             of a right angled triangle as shown in figure 4:
+
+                                                                                                     𝐷 = 𝑙 sin 𝜃
+                                                                             Where D is the depth of the towfish, l is the length
+                                                                             of the wire, and θ is the angle between the tension
+                                                                             vector and the x axis. To make this function
+Figure 4 Sketch showing the theoretical triangle formed between the
+wire and the axes
+                                                                             applicable to the sensory data available to towfish
+                                                                             vessels a function for θ was explored.
+         The angle between the tension vector and the x axis can be expressed in 2 ways by considering the x and y
+         components of 𝑇⃗⃗ in cartesian form:
+
+                                                   ⃗⃗⃗⃗⃗⃗⃗⃗⃗⃗
+                                                   𝑅(𝑣)                 𝑥 = |𝑇  ⃗⃗| cos 𝜃 = −𝑅⃗⃗
+                                       ⃗𝑇⃗ = − (                 )={
+                                                ⃗⃗⃗⃗⃗
+                                                𝐹  𝐵 + 𝐹𝑔
+                                                            ⃗⃗⃗⃗          ⃗⃗| sin 𝜃 = −(𝐹
+                                                                     𝑦 = |𝑇                ⃗⃗⃗⃗⃗ + 𝐹
+                                                                                                   ⃗⃗⃗⃗)
+                                                                                                 𝐵    𝑔
+
+         Thus the function for the angle between the tension vector and the x axis that uses relevant sensory data
+         is:
+
+                                                                        ⃗⃗⃗⃗⃗
+                                                                      −(𝐹        ⃗⃗⃗⃗
+                                                                           𝐵 + 𝐹𝑔 )
+                                                      𝜃 = 𝑠𝑖𝑛−1 (                     )
+                                                                           |𝑇⃗⃗|
+
+         Or:
+
+                                                                              −𝑅⃗⃗
+                                                            𝜃 = 𝑐𝑜𝑠 −1 (           )
+                                                                               ⃗⃗|
+                                                                              |𝑇
+         Thus the function that models the depth of a towfish tethered to an ideal wire is:
+
+                                                                              ⃗⃗⃗⃗⃗
+                                                                            −(𝐹        ⃗⃗⃗⃗
+                                                                                 𝐵 + 𝐹𝑔 )
+                                                 𝐷 = 𝑙𝑠𝑖𝑛 (𝑠𝑖𝑛−1 (                          ))
+                                                                                 |𝑇⃗⃗|
+
+         Which can be simplified to:
+
+                                                                     ⃗⃗⃗⃗⃗
+                                                                   −(𝐹        ⃗⃗⃗⃗
+                                                                        𝐵 + 𝐹𝑔 )
+                                                           𝐷=𝑙
+                                                                        |𝑇⃗⃗|
+
+         Which in expanded form is:
+                                                                  −𝑔⃗(𝑉𝜌 − 𝑚)
+                                             𝐷=𝑙
+                                                                        2
+                                                      √(1 𝜌𝐶𝐷 𝐴𝑣⃗ 2 ) + (𝑔⃗(𝑉𝜌 − 𝑚))2
+                                                        2
+         Where D is the depth of the towfish, 𝑙 is the length of the wire, 𝑔⃗ is gravitational acceleration, V is the
+         volume of the towfish, 𝜌 is the density of water, CD is the drag coefficient of the towfish, A is the cross
+         sectional area of the towfish, 𝑣⃗ is the velocity of the towfish, and m is the mass of the towfish.
+
+                                                                                                                       Page | 4
+The function D(𝑣⃗) is shown plotted in figure 5 with parameters set as realistic values (the exact values
+chosen are unimportant):
+                                                                          Figure 5 shows the function D(v)
+                                                                          plotted on a cartesian co-ordinate
+                                                                          system. Figure 5 shows that the
+                                                                          function D(v) takes a bell shape that
+                                                                          rapidly converges to y=0. Figure 5
+                                                                          supports the accuracy of the function,
+                                                                          because the wire length was set to 100
+                                                                          and figure 5 shows that the maximum
+                                                                          depth that can be reached by the
+                                                                          towfish is 100 m. It also shows that
+                                                                          the function D(v) is very responsive to
+                                                                          changes in v, which makes sense, as
+                                                                          velocity in the drag equation is
+                                                                          squared.
+                                                                     Although the accuracy of this function
+                                                                     is qualitatively supported by figure 5
+Figure 5 Plot of function D(v) showing the depth of the towfish plotted
+against its velocity
+                                                                     its still only able to model the depth of
+                                                                     the towfish under ideal conditions
+where the flow velocity of the fluid is constant, and the wire pulling the towfish is considered as an ideal
+non rigid body. Thus, the function likely estimates how a function modeling the depth of a towfish would
+behave, however it doesn’t actually model how the depth of a towfish changes in response to its
+environment. Thus this exploration was continued to explore how a function modeling a towfish tethered
+to a non rigid wire behaves.
+Towfish with a real wire dynamics
+The next logical question to ask is how the behavior of the function changes when the towfish is tethered
+to a real wire as shown in figure 6. A real wire is a wire that behaves like a non-rigid body, which are bodies
+that change shape in response to the vector forces acting on them (Wikmark). To conjecture a function
+that models the depth of a towfish attached to a real wire the following axioms of the wires behavior must
+be considered:
+     1. For a non-rigid body to have a defined
+        constant shape the vector sum of all
+        forces acting on it must be 0
+     2. Tension vectors are always tangential
+        to the point in a wire they act on
+The first axiom can be summarized in terms of
+internal tension; all the forces acting on a point
+in the wire can be expressed in terms of one
+tension vector, and the vector sum of all the
+tension vectors on all the points in the wire must
+equal 0 for the wire to have a defined constant Figure 6 free body diagram showing the vectors acting on the towfish
+                                                     system when the towfish is tethered to a real wire
+shape. The second axiom is of special
+importance, it essentially says that the gradient
+of a tension vector at point x is the same as the gradient of the line at point x. Thus when the sum of the
+internal tension vectors in the wire is 0 the following function f(x) should model the shape of the wire:
+
+                                                           ⃗⃗⃗⃗𝑥 𝑑𝑥 + 𝑐
+                                                  𝑓(𝑥) = ∫ 𝑇
+
+                                                                                                       Page | 5
+            ⃗⃗⃗⃗𝑥 is the tension vector tangential to the wire at point x. due to axiom 1 stated above, 𝑇
+      Where 𝑇                                                                                           ⃗⃗⃗⃗𝑥 is equal
+      and opposite to all the vector forces that act on any point below point x:
+
+                                                                   𝑅⃗⃗ + 𝑅   ⃗⃗⃗⃗⃗𝑥
+                                                     ⃗⃗⃗⃗𝑥 = − (
+                                                     𝑇                                   )
+                                                                𝑝⃗ + 𝐹 ⃗⃗⃗⃗⃗
+                                                                          𝐵 + 𝐹𝑔
+                                                                                    ⃗⃗⃗⃗
+
+      Where 𝑅⃗⃗ is the drag acting on the towfish, and ⃗⃗⃗⃗⃗
+                                                           𝑅𝑥 1 is the drag acting on a small segment of wire at which
+      point x is on (drag cannot act on a point), and 𝑝⃗ is the distributed force of gravity and buoyancy acting on
+      any point >x, 𝐹    ⃗⃗⃗⃗⃗                                                  ⃗⃗⃗⃗
+                            𝐵 is the buoyant force acting on the towfish, and 𝐹𝑔 is the force of gravity acting on the
+      towfish. Ideally this vector would be investigated to conjecture a function f(x) modelling the depth of a
+      towfish in response to various parameters, however this is impossible without advanced computing
+      software, because the x component of the vector contains a loop dependency. The function f(x) depends
+      on 𝑇  ⃗⃗⃗⃗𝑥 which depends on ⃗⃗⃗⃗⃗
+                                      𝑅𝑥 , but ⃗⃗⃗⃗⃗
+                                               𝑅𝑥 depends on the cross sectional area of wire exposed to the fluid thus
+      ⃗⃗⃗⃗⃗
+      𝑅𝑥 is dependent on f(x) and vice versa, thus an insolvable loop occurs. This loop is however eliminated if
+      the wire is considered to be very thin, making ⃗⃗⃗⃗⃗
+                                                         𝑅𝑥 is negligible so the tension vector on any point in the thin
+      wire is:
+
+                                                                           𝑅⃗⃗
+                                                     ⃗⃗⃗⃗𝑥 = − (
+                                                     𝑇                   ⃗⃗⃗⃗⃗
+                                                                    𝑝⃗ + 𝐹      ⃗⃗⃗⃗)
+                                                                            𝐵 + 𝐹𝑔
+
+      The vector 𝑇⃗⃗⃗⃗𝑥 can be used to conjecture a function f(x), but since vector calculus is out of the scope of this
+      exploration a workaround had to be explored, which was done by considering the conditions allowing 𝑇           ⃗⃗⃗⃗𝑥
+      to model the wire. As mentioned in the first axiom of the wires behavior, a non-rigid body will only have a
+      constant shape when the vector sum of all forces acting on it is 0. Thus, the only condition that allows the
+      function f(x) to model the depth of the towfish is when:
+
+                                                              ⃗⃗⃗⃗𝑥 = 𝑇
+                                                              𝑇       ⃗⃗⃗⃗⃗⃗⃗⃗⃗⃗⃗⃗
+                                                                         𝑥+∆𝑥
+
+      For any values of x and x+∆x along the wire. By considering the vector 𝑇            ⃗⃗⃗⃗𝑥 and figure 6 it becomes clear
+      that the only component of 𝑇    ⃗⃗⃗⃗𝑥 that changes between a point x and x+∆x is 𝑝⃗. This is because 𝑝⃗ is the only
+      vector that is directly intersecting the wire as seen in figure 6. Since the only parameter that changes between
+      points in the wire is 𝑝⃗ and 𝑝⃗ is a parameter of the y component of 𝑇  ⃗⃗⃗⃗𝑥 the conditions that allow f(x) to model
+                                                                 the depth of the towfish can be specified to:
+
+                                                                                                       ⃗⃗⃗⃗⃗⃗| = |𝑇
+                                                                                      ⃗⃗⃗⃗𝑥 | sin 𝛼 + |∆𝑝
+                                                                                     |𝑇                           ⃗⃗⃗⃗⃗⃗⃗⃗⃗⃗⃗⃗
+                                                                                                                     𝑥+∆𝑥 |𝑠𝑖𝑛𝛽
+
+                                                                       For any values of x and x+∆x along the wire. Where
+                                                                       α and β are the angles between the vectors and the x
+                                                                       axis, and ⃗⃗⃗⃗⃗⃗
+                                                                                  ∆𝑝 is the difference in 𝑝⃗ between points x
+                                                                       and x+∆x, this important property is displayed clearly
+                                                                       in figure 7.
+Figure 7 Free body diagram showing how 𝑝⃗ changes between 2Since the only parameter that changes between 2
+points in the wire                                         points in the wire is 𝑝⃗, the rate of change of 𝑝⃗ thus
+                                                           directly determines the rate of change of f(x) and its
+      behavior was thus further investigated to conjecture f(x).
+
+      𝑝⃗ is the distributed force of gravity acting on any point on the curve and is given by:
+
+
+
+      1              ⃗⃗⃗⃗⃗𝑥 is not shown on figure 6 because its neglected as explained later in the paragraph
+          The vector 𝑅
+
+                                                                                                                                  Page | 6
+                                        𝑝⃗ = (𝜌𝑤𝑎𝑡𝑒𝑟 − 𝜌𝑤𝑖𝑟𝑒 )(𝑉𝑔⃗)
+Where 𝜌 is density, V is the volume of the wire below the given point in the wire, and 𝑔⃗ is gravitational
+acceleration. The function above shows that 𝑝⃗ is a multiple of 𝑔⃗ so the x component of 𝑝⃗ will always be 0
+just like 𝑔⃗, so the function for 𝑝⃗ can be considered a scalar function. When treating the function for 𝑝⃗ as
+scalar function it takes the form of a straight line function (y=mx):
+                                    |𝑝⃗|(𝑉) = |𝑔⃗|(𝜌𝑤𝑖𝑟𝑒 − 𝜌𝑤𝑎𝑟𝑡𝑒𝑟 )(𝑉)
+
+Where V is the argument of the function and |𝑔⃗|(𝜌𝑤𝑎𝑟𝑡𝑒𝑟 − 𝜌𝑤𝑖𝑟𝑒 ) is the gradient of the function. Thus,
+the rate of change of V directly determines the rate of change of 𝑝⃗ which determines the rate of change of
+f(x). To use the volume of wire below any specific point in the wire to conjecture f(x) the volume of wire
+below point x would have to be expressed in terms of x, which is impossible since volume of wire below
+point x determines f(x) but f(x) determines the volume of wire below x. This makes the function f(x) an
+insolvable loop in its current state.
+Thus the function f(x) cannot be expressed as:
+
+                                                    ⃗⃗⃗⃗𝑥 | 𝑑𝑥 + 𝑐
+                                           𝑓(𝑥) = ∫|𝑇
+
+However the function f(x) can be approximated by splitting the wire into n segments of length l that are
+assumed to be straight. Then by calculating the height of each straight segment using basic trigonometric
+techniques, and summing up the height of every segment of the wire an approximation of f(x) is created
+(an approximation of the depth of the towfish). Since each segment has defined dimensions, the volume of
+wire below any segment number c can be calculated as the product of the segment number and the volume
+per segment.
+Thus, the problem with the exact model of f(x) is solved using the approximation of f(x). To approximate
+f(x) the same method can be applied but instead of considering the integral of the vector 𝑇      ⃗⃗⃗⃗𝑥 as the
+expression for f(x), the expression for f(x) can be approximated by summation of the change in y value (the
+height) of each segment of the wire. This is expressed mathematically as:
+                                                          𝑛
+
+                                                 𝑓 = ∑ ∆𝑦𝑖
+                                                        𝑖=1
+
+Where ∆y is the segment’s height, and n is the total number of segments. To find ∆y the properties of the
+vector ⃗⃗⃗⃗
+       𝑇𝑐 can be applied. The vector ⃗⃗⃗⃗                         ⃗⃗⃗⃗𝑥 but it is the tension vector tangential
+                                     𝑇𝑐 is the same as the vector 𝑇
+to segment number c rather than point x. Thus ⃗⃗⃗⃗
+                                                𝑇𝑐 is:
+
+                                                               𝑅⃗⃗
+                                          ⃗⃗⃗⃗𝑐 = − (
+                                          𝑇                            )
+                                                        𝑝⃗ + ⃗⃗⃗⃗⃗
+                                                             𝐹𝐵 + ⃗⃗⃗⃗
+                                                                   𝐹𝑔
+
+If each segment of wire is straight and considered to be 1 unit long, since tension vectors in a wire are
+always tangential to the wire; the tension vector at segment c is colinear with the segment number c. Thus
+the height of any segment c is equal to the y component of the unit vector in the direction of ⃗⃗⃗⃗
+                                                                                               𝑇𝑐 , which is
+mathematically expressed as:
+
+                                                     ⃗⃗⃗⃗𝑐
+                                                     𝑇
+                                             ∆𝑦𝑐 = |       | sin 𝛼
+                                                     ⃗⃗𝑐 |
+                                                    |𝑇
+since:
+
+
+
+                                                                                                     Page | 7
+                                                            ⃗⃗⃗⃗
+                                                            𝑇𝑐
+                                                       |         |=1
+                                                            ⃗⃗𝑐 |
+                                                           |𝑇
+
+
+                                                      ∆𝑦𝑐 = sin 𝛼
+                                        ⃗⃗⃗⃗𝑐 and the x axis. Thus, for a wire with one-unit long straight
+Where α is the angle between the vector 𝑇
+segments
+                                                             𝑛
+
+                                                     𝑓 = ∑ sin 𝛼𝑖
+                                                            𝑖=1
+
+Where angle α is equal to the angle formed by the intersection of the vector ⃗⃗⃗⃗
+                                                                             𝑇𝑐 and a place holder vector
+                       ⃗
+parallel to the x axis 𝑋:
+
+                                                                   ⃗⃗⃗⃗
+                                                                   𝑋 ∙ ⃗⃗⃗⃗
+                                                                         𝑇𝑐
+                                                  𝛼 = 𝑐𝑜𝑠 −1 (                 )
+                                                                  |𝑋⃗||𝑇⃗⃗⃗⃗𝑐 |
+
+Since 𝑋⃗ is parallel to the x axis:
+                                                                 1
+                                                           𝑋⃗ = ( )
+                                                                 0
+                                                                      ⃗⃗⃗⃗𝑐
+                                                       𝑥 𝑐𝑜𝑚𝑝𝑜𝑛𝑒𝑛𝑡 𝑜𝑓 𝑇
+                                        𝛼 = 𝑐𝑜𝑠 −1 (                        )
+                                                              ⃗⃗⃗⃗𝑐 |
+                                                             |𝑇
+Thus:
+                                        𝑛
+                                                                            ⃗⃗⃗⃗𝑐
+                                                             𝑥 𝑐𝑜𝑚𝑝𝑜𝑛𝑒𝑛𝑡 𝑜𝑓 𝑇
+                                𝑓 = ∑ sin (𝑐𝑜𝑠 −1 (                               ))
+                                                                    ⃗⃗⃗⃗𝑐 |
+                                                                   |𝑇
+                                       𝑖=1
+                                                                                           𝑖
+
+Which can be simplified to:
+
+                                             𝑛                                     2
+                                                           𝑥 𝑐𝑜𝑚𝑝𝑜𝑛𝑒𝑛𝑡 𝑜𝑓 ⃗⃗⃗⃗
+                                                                          𝑇𝑐
+                                      𝑓 = ∑ √1 − (                             )
+                                                                  ⃗⃗⃗⃗𝑐 |
+                                                                 |𝑇
+                                            𝑖=1
+                                                                                       𝑖
+
+by use of the following trigonometric simplification:
+
+                                                  𝑠𝑖𝑛2 𝑥 + 𝑐𝑜𝑠 2 𝑥 = 1
+Thus:
+
+                                                  𝑠𝑖𝑛𝑥 = √1 − 𝑐𝑜𝑠 2 𝑥
+Hence:
+
+                              sin( 𝑐𝑜𝑠 −1 𝑥) = √1 − 𝑐𝑜𝑠 2 (𝑐𝑜𝑠 −1 𝑥) = √1 − 𝑥 2
+
+
+
+
+                                                                                                 Page | 8
+Thus, the function that approximates the depth of the towfish tethered to a real wire in its fully expanded
+form is:
+
+                                                                                                 2
+                     𝑛                                 1
+                                                         𝜌    𝐶 𝐴𝑣⃗ 2
+               𝑓 = ∑ √1 −                              2 𝑤𝑎𝑡𝑒𝑟 𝐷
+                                                        2
+                    𝑖=1         √ 1              2                              2
+                               ( (2 𝜌𝑤𝑎𝑡𝑒𝑟 𝐶𝐷 𝐴𝑣⃗ ) + (𝑔⃗(∆𝜌𝑖𝑉𝑛 + 𝜌𝑤𝑎𝑡𝑒𝑟 𝑉 − 𝑚)) )
+
+The function f presented above only
+estimates the depth of the towfish tethered
+to a real wire, when the wire is split into n
+number of segments of length 1m. The
+function f is limited to estimating the depth
+of the towfish when the wire is split into 1-
+meter long segments because the unit vector
+   ⃗⃗⃗⃗𝑐 was used to derive it.
+of 𝑇
+In figure 8 each of the parameters have been
+given a realistic value (for the investigation
+it’s not of importance to mention the value)
+and the argument of the function has been
+set as the velocity of the towfish 𝑣⃗. Figure 8
+shows that the function f just like D (the Figure 8 Plot of function f(v) showing the depth of the towfish when
+function for the depth of the towfish tethered to a real wire plotted against its velocity
+tethered to an ideal wire) takes the shape of
+a bell function rapidly converging to 0, and just like D it is supported by the fact that the maximum depth
+the towfish can reach is the same as the length of the wire. It can also be seen in figure 8 that the function
+D and f behave similarly as the velocity of the towfish is varied, which further supports the validity of f and
+D since they both model the same thing, but with different simplifications and assumptions, this pattern is
+further highlighted in figure 9.
+
+Figure 9 shows that the function f(𝑣⃗) and D(𝑣⃗) are almost identical when the real wire is very thin (0.001
+mm), which is consistent with the assumptions used to derive the functions. The function D(𝑣⃗) models
+the towfish depth with a neutrally buoyant straight wire, and when the real wire is very thin, the effect of
+                                                       the distributed force of gravity acting on the wire will
+                                                       be very low since the distributed force of gravity is
+                                                       expressed by:
+
+                                                                               𝑝⃗ = 𝑔⃗(∆𝜌𝑖𝑉𝑛 )
+                                                             And when the radius of the wire is small Vn will be
+                                                             small thus the effect of the distributed force of
+                                                             gravity will be small. Thus when the radius of f(𝑣⃗) is
+                                                             very low d(𝑣⃗) is a good approximation of f(𝑣⃗).
+                                                             However as seen in figure 10 when the radius of the
+                                                             wire considered in f(𝑣⃗) is increased the discrepancy
+                                                             between the f(𝑣⃗) and D(𝑣⃗) is greatly increased, yet
+Figure 9 plot of function f(v) with a wire of radius 0.001 m the behavior of the function is not significantly
+and D(v)
+                                                             changed. Since the only difference between D(𝑣⃗) and
+                                                             f(𝑣⃗) is the consideration of 𝑝⃗, it can interestingly
+enough be concluded that f(𝑣⃗) is simply a translation of D(𝑣⃗). another interesting observation from figure
+10 is that when the radius of the wire goes beyond 0.01 m the rate at which the function converges to 0
+
+                                                                                                          Page | 9
+decreases significantly. Which indicates that varying the velocity of the towfish for large wires is not a valid
+system of depth control as very large velocity would be needed.
+                                                           Behavior of the function as the geometry of the
+                                                           towfish is varied
+                                                          Previously in the investigation the velocity of the
+                                                          towfish has been set as the argument of the function,
+                                                          and its behavior has been analyzed however varying
+                                                          the geometry of a towfish is another parameter
+                                                          which is vital to explore, as it too has a large effect
+                                                          on the depth of the towfish. To investigate the
+                                                          behavior of a towfish as the geometry is varied could
+Figure 10 Plot of the function D(v) in blue and f(v) with be done for any towfish shape, however this
+different wire radii (Radious 0.01m: Green line, Radious  exploration only concerns itself with the teardrop
+0.1m: Red line, Radious 1m: Grey line)
+                                                          towfish design, as shown in figure 11, as it’s the most
+                                                          modern design (Wikmark). The geometry of the
+towfish has a large impact on the drag acting on the towfish as well as the buoyant force acting on the
+towfish. Changing the geometry of the towfish has a large impact on the drag acting on the towfish because
+one of the parameters of drag is A (the cross sectional area of the towfish). Changing the geometry also
+impacts the buoyant force because one of the parameters of the buoyant force is V (volume of the towfish).
+Since changing the geometry of the towfish changes
+2 different parameters of the function f, these 2
+parameters mut be expressed in terms of 1
+parameter. This one parameter can be the parameter
+r (radius of the towfish). But since the towfish
+considered in this investigation is teardrop shaped,
+which is an irregular shape both V and A cant be
+simply expressed in terms of r since there is no
+standard volume equation available for a teardrop Figure 11 Image showing teardrop shape towfish (Arnero)
+shape. Given that the teardrop towfish is defined by
+a function y(x) where y is the radius of the towfish at any point x, the parameters A and V can be defined
+using the derivative and integral of y(x). The parameter A can be defined as:
+
+                                                 𝐴 = 𝜋𝑦𝑚𝑎𝑥 2
+Where ymax is the maximum radius of any point in the towfish. And V can be defined as the volume of
+rotation of the function y(x):
+                                                       𝑏
+                                                𝑉 = ∫ 𝜋𝑦 2 𝑑𝑥
+                                                      𝑎
+
+ymax is the y value of the maximum point of the function y(x), which can be found using the first derivative
+test:
+
+                                                     𝑑𝑦
+                                           𝑦𝑚𝑎𝑥 = 𝑦 ( = (0))
+                                                     𝑑𝑥
+
+Which can be expressed in terms of the inverse function of the derivative of y:
+
+                                                       𝑑𝑥
+                                             𝑦𝑚𝑎𝑥 = 𝑦 ( (0))
+                                                       𝑑𝑦
+
+
+
+                                                                                                      Page | 10
+        𝑑𝑥
+Where      is the inverse function of the derivative of y. using the above expression for y, the function can
+        𝑑𝑦
+f can be expressed using the function y that describes the shape of the towfish:
+                                                                                                                      2
+                                                                                    2
+                                                  1              𝑑𝑥
+       𝑛                                            𝜌    𝐶 𝜋 (𝑦 ( (0))) 𝑣⃗ 2
+                                                  2 𝑤𝑎𝑡𝑒𝑟 𝐷      𝑑𝑦
+𝑓 =∑ 1−
+                                                                     2
+      𝑖=1                                                   2
+                      √(1 𝜌𝑤𝑎𝑡𝑒𝑟 𝐶𝐷 𝜋 (𝑦 (𝑑𝑥 (0))) 𝑣⃗ 2 ) + (𝑔⃗(∆𝜌𝑖𝑉𝑛 + 𝜌𝑤𝑎𝑡𝑒𝑟 ∫𝑏 𝜋𝑦 2 𝑑𝑥 − 𝑚))2
+                        2                 𝑑𝑦                                    𝑎
+            √     (                                                                                               )
+
+
+This version of the function shows how the radious of the towfish at any point x is related to the depth of
+the towfish. As an example plot of this function for a varrying towfish radious, the function was set as:
+                                                  1              𝑥+1
+                                            𝑦(𝑥) = √1 − 𝑥 2 (1 −     )
+                                                  2               2
+Which is a funtion showing how the radious of a teardrop shaped towfish varries across its body. To plot
+figure 12 showing how varrying the radious of the towfish changes its depth, the function y(x) was solved
+for A and V so the function returned to its original form:
+
+                                                                                                        2
+                       𝑛                                    1                2
+                𝑓 = ∑ √1 −                                  2 𝜌𝑤𝑎𝑡𝑒𝑟 𝐶𝐷 𝑥𝐴𝑣⃗
+                                                                 2
+                      𝑖=1         √ 1               2                               2
+                                 ( (2 𝜌𝑤𝑎𝑡𝑒𝑟 𝐶𝐷 𝑥𝐴𝑣⃗ ) + (𝑔⃗(∆𝜌𝑖𝑉𝑛 + 𝜌𝑤𝑎𝑡𝑒𝑟 𝑥𝑉 − 𝑚)) )
+
+Where x represents a multiple of the radius of the towfish at any point.
+                                                                     In figure 12 all parameters other than x were set as
+                                                                     constant. Interestingly figure 13 shows that
+                                                                     varying the geometry of the towfish has a far
+                                                                     smaller effect on the depth of the towfish than
+                                                                     varying the velocity of the towfish. Also
+                                                                     interestingly it shows that when varying the
+                                                                     geometry of the towfish the function doesn’t
+                                                                     converge to 0 as it does when varying the velocity
+                                                                     of the towfish, the limit of f(x) as x approaches
+                                                                     infinity is 1.33, which shows that at some point
+                                                                     varying the geometry of the towfish has no effect
+                                                                     on the depth of the towfish.
+
+Figure 12 Plot of f(x) showing how multiplying the radius at
+any point of the towfish by x effects the depth of the towfish
+
+Conclusion
+The goal of this exploration was to investigate a function that models the depth of the towfish in response
+to several parameters. Throughout this investigation, trigonometry and vector techniques have been used
+to conjecture a function that models the depth of a towfish in response to varying its environmental
+conditions. Throughout this exploration 2 functions were found which model the depth of the towfish.
+
+
+                                                                                                              Page | 11
+First a function that estimated its depth when assuming that the wire connected to the towfish is straight
+and rigid was found:
+
+                                                   −𝑔⃗(𝑉𝜌 − 𝑚)
+                                 𝐷=𝑙
+                                                         2
+                                        √(1 𝜌𝐶𝐷 𝐴𝑣⃗ 2 ) + (𝑔⃗(𝑉𝜌 − 𝑚))2
+                                          2
+This function largely acted at as a stepping stone for further exploration however, interestingly it was later
+found that this function was a very close estimate to the function that models the depth of the towfish
+tethered to a non-rigid wire, which is significant as this function required far less computing power to plot
+than the function for the non rigid wire. It was also found that when increasing the wires radius past 0.01
+m the discrepancy between the function modeling the rigid and non rigid wire became so vast that using it
+becomes inaccurate. To deal with this a function that models the towfish when tethered to an ideal wire
+was found too:
+
+                                                                                           2
+                    𝑛                               1               2
+              𝑓 = ∑ √1 −                            2 𝜌𝑤𝑎𝑡𝑒𝑟 𝐶𝐷 𝐴𝑣⃗
+                                                     2
+                   𝑖=1         √ 1              2                              2
+                              ( (2 𝜌𝑤𝑎𝑡𝑒𝑟 𝐶𝐷 𝐴𝑣⃗ ) + (𝑔⃗(∆𝜌𝑖𝑉𝑛 + 𝜌𝑤𝑎𝑡𝑒𝑟 𝑉 − 𝑚)) )
+
+However this function is only an estimate of the depth of the towfish when the wire tethered to the towfish
+is considered as a collection of 1 meter rigid wire segments attached together rather than a long continuous
+non rigid wire. This is the largest limitation of the function, its unknown how much the error of this
+function is because there is no empirical data available, however the consulting engineer (Frank Wikmark
+of marex consult) confirmed that the behavior of the functions derived in this investigation is consistent
+with his experience.
+Although this exploration isn’t fully comprehensive it provides a base function for future investigations
+into advanced towfish techniques. Future explorations into this topic are encouraged to explore how
+turbulence and complex water currents impact the behavior of the functions found in this exploration.
+Although this exploration wasn’t as vast as originally anticipated, it managed to explore the basic concepts
+and behaviors of a function modeling the depth of a towfish.
+
+Citations
+Allum, John, and Christopher Talbot. Physics For The Ib Diploma. 2nd ed., Hodder Education, 2014.
+
+Allum, John, and Christopher Talbot. Physics For The Ib Diploma Option C: Engineering physics. 1st ed.,
+        Hodder Education, 2014.
+
+Arnero. Teardrop Shape. 2007, https://commons.wikimedia.org/wiki/File:Teardrop_shape.svg. Accessed
+        22 Jan 2020.
+
+Harcet, Josip. Mathematics Higher Level. Oxford University Press, 2012.
+
+Svirin, Alex. "Equation Of Catenary". Math24, 2020, https://www.math24.net/equation-catenary/.
+         Accessed 6 Dec 2019.
+
+Townsend, Gordon. Schematic Showing A Towfish System. 2015,
+      https://slideplayer.com/slide/4898657/. Accessed 13 Jan 2019.
+
+Wall, Mike. "X-37B: The Air Force's Mysterious Space Plane". Space.Com, 2020,
+        https://www.space.com/25275-x37b-space-plane.html. Accessed 20 Dec 2019.
+
+Wikmark, Frank. "Interview With Engineer from marex consult". Sandefjord, 2019.
+
+
+                                                                                                   Page | 12
+Page | 13
+

@@ -1,0 +1,694 @@
+                       Geography Internal Assessment
+
+
+
+
+              How does water quality in the Silver Mine River
+
+                     change with distance downstream?
+
+
+ A river field work study investigating downstream changes in river quality on the
+                                     Silver Mine River
+
+
+
+
+Session: May 2021
+Candidate code:
+Word count: 2453
+Contents
+
+   Introduction                                             3
+
+   Methodology                                              7
+
+   Primary Research Hypothesis                              15
+
+   Secondary Research Hypothesis                            27
+
+   Conclusion and Evaluation                                30
+
+   Bibliography                                             32
+
+   Appendices                                               33
+
+
+List of Abbreviations
+
+     SMR          Silver Mine River
+
+     WQS          Water Quality Score
+
+     SRCC         Spearman’s Rank Correlation Coefficient
+
+     PMCC         Product-Moment Correlation Coefficient
+
+
+
+
+                                                                 2
+Introduction
+  This study aims to answer the research question:
+  How does water quality in the Silver Mine River (SMR) change with distance downstream?
+  Geography of Area of Study
+
+
+
+
+                                                                                           Figure 1.1 Location Map of the SMR
+
+
+                                                                                                                  3
+The SMR is located Southeast of Lantau Island, Hong Kong. It flows through Mui Wo, a rural town with
+a population of 6000 located on the Eastern coast of Lantau Island, Hong Kong1.
+
+Relation to Syllabus
+This study relates to Option A Freshwater, specifically Section 3 (Water Quality) and Section 4 (Water
+Management)
+
+Primary Research Hypothesis
+
+!! - Primary Research Hypothesis - Water quality in the SMR will deteriorate with increasing distance
+downstream.
+
+!" - Null Hypothesis - Water quality in the SMR is independent of distance downstream.
+
+                                                    Figure 1.2 The Bradshaw Model states that in theory,
+                                                    load quantity and capacity is expected to increase with
+                                                    distance downstream, allowing for more pollution to
+                                                    accumulate. Moreover, increasing distance downstream
+                                                    would expose the SMR to more point and nonpoint
+                                                    sources of human pollution. Thus, my prediction is that
+                                                    pollution will accumulate and build up from river source
+                                                    to mouth, resulting in deteriorating water quality.
+
+
+
+
+Figure 1.2 The Bradshaw Model2
+
+
+
+1
+  "Fact Sheet for Tertiary Planning Units 961 - 2011 Hong Kong ...." https://www.census2011.gov.hk/en/district-
+profiles/tpu/tpu961.html. Accessed: 5 Jan. 2021.
+2
+  "Applied Geographical skills 2010 - Cool Geography." http://www.coolgeography.co.uk/A-
+level/AQA/Year%2013/Fieldwork%20investigation/Fieldwork_Investigation_2012.htm. Accessed: 22 June. 2020.
+
+
+                                                                                                          4
+Figure 1.3 Area of Study Map, showing point and nonpoint sources of pollution
+
+                                                                  5
+Existing governmental research into SMR suggests that livestock farms and unsewered villages are major
+sources of pollution3, indicating poor water quality. However secondary sources also suggested that tight
+governmental regulations, including the Livestock Waste Control Scheme in Mui Wo4 might have
+improved river water quality. In terms of geographical factors, secondary sources have stated that water
+quality in SMR is generally poorer in wet seasons5.
+
+Secondary Research Hypothesis
+
+!! - Secondary Research Hypothesis - As dissolved oxygen levels increase, species WQS increases
+
+!" - Null Hypothesis - There will be no significant relationship between dissolved oxygen levels and
+species WQS in the SMR
+
+Additionally, I hypothesized that there will be a relationship between dissolved oxygen levels and species
+Water Quality Score (WQS). Dissolved oxygen levels are expected to decrease downstream due to
+reduced riparian shading, which in turn rises the temperature of the river leading to decreased oxygen
+solubility6. Moreover, biological oxygen demand is expected to increase downstream, reducing dissolved
+oxygen levels. Furthermore, species WQS is expected to decrease downstream due to an accumulation of
+pollution and decreased habitat availability for macroinvertebrates. All these reasons suggest that
+dissolved oxygen levels might be correlated to species WQS.
+
+Factors that might influence water quality include geographical factors such as river length, rainfall, and
+time of the year, and human influences such as surrounding agricultural activity.
+
+
+
+
+3
+  "River Water Quality in Hong Kong - EPD." https://www.epd.gov.hk/epd/misc/river_quality/1986-
+2005/eng/6_lantau_content.htm. Accessed: 22 June. 2020.
+4
+  "Success Stories | Environmental Protection Department - Epd." 1 Apr. 2020,
+https://www.epd.gov.hk/epd/english/environmentinhk/water/beach_quality/story.html. Accessed: 22 June. 2020.
+5
+  "Beach Pollution Source - HKU." http://www.waterman.hku.hk/beach/member/beachpollsnew.aspx?code=SIL.
+Accessed: 22 June. 2020.
+6
+  "Dissolved Oxygen - Environmental Measurement Systems." https://www.fondriest.com/environmental-
+measurements/parameters/water-quality/dissolved-oxygen/. Accessed: 6 Feb. 2021.
+
+
+                                                                                                     6
+Methodology
+ Line systematic sampling will be used to enable comparison between locations of regular intervals, which
+ will allow us to measure downstream changes in water quality. However, due to safety and legal reasons
+ with site access, locations are not equidistant. The data will be collected during a fieldwork excursion to
+ the SMR on Friday, 9th October 2020.
+
+
+
+
+                                                                             Figure 2.1 Sampling Location Map
+
+
+
+
+                                                                                                     7
+Primary Data Collection Methods
+
+Water Quality
+Water quality was measured by looking for indicator species, chemical data, riparian index, and levels of
+dissolved oxygen. This is a Weighted Composite Index based on multiple indices.
+
+Measuring Species WQS
+Certain invertebrates are associated with high water quality. As invertebrates are bound to their
+environment, by looking for indicator species, this would indicate water quality from a few days ago. No
+creatures were harmed in the process of data collection.
+
+
+
+
+                                                                                    Figure 2.2 Kick Test
+
+
+
+
+                                                                                                 8
+ Figure 2.3 Measuring Species WQS
+
+
+
+
+Figure 2.4 Species Identification Key
+
+
+                               9
+Riparian Index Assessments
+Riparian index is a measure of the ecological condition of riparian vegetation, which is crucial in filtering sediments, retaining pollutants,
+and providing shelter for terrestrial and aquatic species. A lower riparian index score would reflect signs of human activity and pollution,
+indicating low levels of water quality.
+
+
+
+
+                                                                                            Figure 2.5 Riparian Index Assessment (Site 11)
+
+                                                                                                                                    10
+Figure 2.6 Sample Riparian Index Calculation Sheet
+
+
+
+
+                                         11
+Measuring Levels of Dissolved Oxygen
+As previously mentioned, dissolved oxygen is a major indicator of habitat availability for
+macroinvertebrates. Field photographs and observations will also be collected to identify factors
+influencing levels of dissolved oxygen, such as eutrophication.
+
+
+
+
+                                                               Figure 2.7 Dissolved Oxygen Meter
+
+
+
+
+                                                                                          12
+Collecting Chemical Data
+Water samples were collected and tested for nitrates, phosphates, and dissolved oxygen. A sudden
+anomaly of such chemicals would indicate sources of pollution such as illegal dumping of fertilizers.
+Excessive nitrates would stimulate algae growth, which would indirectly cause oxygen deficiency and
+reduced biodiversity7. Similarly, excessive phosphate leads to eutrophication, which reduces levels of
+dissolved oxygen8.
+
+
+
+
+                                                    Figure 2.8 Results of Chemical Tests (phosphate !"4 )
+
+
+
+
+7
+  "Nitrates in rivers — European Environment Agency." 1 Mar. 2015, https://www.eea.europa.eu/data-and-
+maps/explore-interactive-maps/nitrate-in-rivers. Accessed: 9 Nov. 2020.
+8
+  "Phosphorus and Water - USGS." https://www.usgs.gov/special-topic/water-science-
+school/science/phosphorus-and-water. Accessed: 9 Nov. 2020.
+
+
+                                                                                                   13
+                                                           Figure 2.9 Testing for Presence of Nitrate (#"3 )
+
+
+
+Secondary Data
+To investigate factors which may influence downstream changes in river water quality, this will require
+secondary data sources. Maps and satellite photographs throughout this investigation (unless otherwise
+stated) are created using ArcGIS9 software by Esri.
+
+
+
+
+9
+ "About ArcGIS | Mapping & Analytics Platform - Esri." https://www.esri.com/en-us/arcgis/about-arcgis/overview.
+Accessed: 3 Jan. 2021.
+
+
+                                                                                                      14
+Primary Research Hypothesis - Water quality with Distance Downstream
+
+  $! - Primary Research Hypothesis - Water quality in the SMR will deteriorate with increasing distance
+  downstream.
+
+  $" - Null Hypothesis - Water quality in the SMR is independent of distance downstream.
+
+  Weighted Composite Index
+  To examine the water quality of SMR, I designed a Weighted Composite Index based on multiple indices
+  in acknowledgment that multiple variables interact with each other. Looking at the data (Appendix 1),
+  there were no downstream changes in the levels of nitrates, hence I omitted it from my analysis. It is
+  important to note that such data suggests a lack of point and nonpoint sources of pollution, such as due to
+  illegal dumping of fertilizers.
+
+
+  Raw Data
+  To determine how to compose my index, I plotted a raw data graph (Figure 3.1). I noticed that the species
+  WQS fluctuated, suggesting that species WQS might be sensitive to changes in water quality. Thus, I
+  decided to give it more importance in the index. Moreover, Figure 3.1 shows that levels of phosphate in
+  SMR increases with distance downstream (a positive correlation). As we know from earlier research that
+  higher levels of phosphate indicate lower levels of water quality, it is important to process the data so that
+  phosphate levels and water quality are positively correlated (a higher score reflects a higher water
+  quality).
+
+
+
+
+                                                                                                        15
+Figure 3.1 Raw data graph showing changes with distance downstream for different variable
+
+
+
+
+                                                                                            16
+Unweighted Composite Index
+In order to create a weighted composite index for, I must first normalize the data. This is because variables
+measured at different scales do not contribute equally to an index, which creates bias. Min-max
+normalization was used, where I rescaled the data range to [0, 1].
+
+
+
+
+                                                                      Figure 3.2 Min-Max Normalization10
+
+I have also processed the data so that phosphate levels are positively correlated with water quality by
+simply subtracting the new value from 1. Afterwards, individual components were added together, and
+the data was rescaled so that the Unweighted Composite Index has a max score of 100 (Appendix 2).
+
+
+
+
+10
+   "Handbook on Constructing Composite Indicators - OECD." 21 Mar. 2005,
+https://www.oecd.org/sdd/42495745.pdf. Accessed: 1 Jan. 2021.
+
+
+                                                                                                   17
+Figure 3.3 Scatter graph showing WQS (unweighted) and its respective variables (scaled)
+
+
+
+                                                                                          18
+With all variables on the same scale, the degree of change (trendline gradient) and correlation becomes
+more apparent. The composite index also reveals the anomaly [2.31, 4.8], which was removed from the
+data set to preserve the trendline. Potential reasons for the anomaly will be discussed later in this study.
+Additionally, outliers [1.40, 89.8] and [1.82, 64.2] are not considered as anomalies as they do not deviate
+massively. It is important to recognize that they skew and reduce the correlation coefficient (as they are
+still retained in the data set, as opposed to anomaly [2.31, 4.8]).
+
+Weighting
+I noticed that in addition to species WQS, phosphate levels also appear to fluctuate, suggesting that both
+variables might be sensitive to changes in water quality. Hence, I decided to give both a heavier weighting
+(× 1.25). I have also assigned levels of dissolved oxygen a lighter weighting (× 0.75), This is because
+levels of dissolved oxygen are in theory reflected in the species WQS (as explained in the introduction).
+
+By assigning correlated variables a lighter weighting, this prevents double-counting and increases the
+sensitivity of my weighted composite index to different factors which might each influence water quality
+in a different way11. Whether there exists an actual correlation between levels of dissolved oxygen and
+species WQS will be the focus of my Secondary Research Hypothesis.
+
+In a similar way to the unweighted WQS, individual components were then added together after weighting
+and the data was rescaled so that the weighted composite index has a max score of 100 (Appendix 3).
+
+
+
+
+11
+   "Handbook on Constructing Composite Indicators - OECD." 21 Mar. 2005,
+https://www.oecd.org/sdd/42495745.pdf. Accessed: 31 Dec. 2020.
+
+
+                                                                                                  19
+                       Figure 3.4 Scatter graph showing WQS (weighted) and its respective variables (scaled)
+
+At first glance, the scatter graph for the weighted composite index appears to be largely similar to the unweighted one. However, the
+differences will be better reflected when you consider the ratio between different variables (Figure 3.5)
+
+                                                                                                                           20
+Figure 3.5 Map with magnitude indicating WQS (weighted) and relative ratio of variables
+
+
+                                                                                          21
+Figure 3.5 provides us with a spatial understanding of WQS in the SMR. WQS appears to decrease with
+distance downstream, as noted in Figure 3.4. The map suggests that this could be due to the presence of
+rural settlements, which serves as major point and nonpoint sources of pollution. It is interesting to note
+that as the river progresses downstream, in particular at Sites 10-12, the relative contribution from the
+riparian index decreases almost entirely. This indicates a presence of human intervention on the riparian
+corridor, suggesting potential nonpoint sources of pollution.
+
+Inferential Statistics
+Initial descriptive techniques have revealed a general negative trend between WQS and distance
+downstream, supporting my primary research hypothesis. As an alternative to Spearman’s Rank
+Correlation Coefficient (SRCC), the Product-Moment Correlation Coefficient (PMCC) was employed to
+determine the strength and significance of the correlation. This was because ratio-level variables (WQS
+and distance downstream) were measured, sample size was sufficient and that the relationship was
+determined to be linear (via scatter graph, Figure 3.3). Moreover, PMCC is more statistically powerful
+due to how SRCC reduces the level of measurement from ratio-level to ordinal-level, making it less
+sensitive to outliers. As usual, anomaly [2.31, 4.8] was removed from the data set.
+
+PMCC showed a statistically significant result: r(10) = -0.90, p < 0.01 (Appendix 4). Since the probability
+of obtaining this result by chance is less than 0.01, the study successfully rejects the null hypothesis: There
+is a strong negative correlation between water quality in the SMR and distance downstream.
+
+Possible Reasons
+The potential reasons for this strong negative correlation can be explained through the initial secondary
+research and satellite photographs (in the Introduction, in particular, Figure 1.3) where numerous point
+and nonpoint sources of pollution were identified. Figures 3.6-9 elaborates on this.
+
+
+
+
+                                                                                                    22
+Figure 3.6 Annotated map explaining results obtained (Sites 1-2)
+
+
+
+
+                                                      23
+Figure 3.7 Annotated map explaining results obtained (Sites 3-6)
+
+
+
+                                                        24
+Figure 3.8 Annotated map explaining results obtained (Sites 7-9)
+
+
+
+                                                       25
+Figure 3.9 Annotated map explaining results obtained (Sites 10-12
+
+
+
+
+                                                          26
+  Satellite photographs and field observations have indicated the presence of agricultural land use, in
+  particular smallholder, indigenous, and hobby farms. Fertilizers applied to the field creates nonpoint
+  sources of pollution. We have observed that this is particularly significant in SMR as smallholders tend
+  to not follow government guidelines and lack an understanding of fertilizer damage (Figure 3.8).
+  Moreover, isolated housing and rural settlements along the river would result in an accumulation of
+  pollution downstream (Figure 3.7), which explains the sudden decrease in WQS after Site 3. Additionally,
+  feral water buffalos and cows that roam the area would result in the deposition of animal waste,
+  contributing to the deteriorating water quality (Figure 3.8-9). The anomaly present at Site 11 could
+  potentially be due to its low discharge (as indicated by the presence of human activity), resulting in an
+  accumulation of pollutants. The influence of discharge on the concentration of pollutants could be a point
+  of investigation in the future.
+
+
+
+Secondary Research Hypothesis - Dissolved Oxygen and Species WQS
+
+  !! - Secondary Research Hypothesis - As dissolved oxygen levels increase, species WQS increases
+
+  !" - Null Hypothesis - There will be no significant relationship between dissolved oxygen levels and
+  species WQS in the SMR
+
+
+
+
+                                                                                                  27
+           Figure 3.10 Dual series graph showing the downstream changes of Species WQS and Dissolved Oxygen Levels
+
+Figure 3.10 shows a strong negative linear trend for both species WQS and dissolved oxygen levels, suggesting a probable relationship
+between the two. However, the fluctuating species WQS data and high variance challenges the strength of the correlation. A raw data
+graph between dissolved oxygen levels and species WQS is necessary to determine the nature of the relationship.
+
+
+                                                                                                                           28
+         Figure 3.11 Raw data graph showing the relationship between Species WQS and Dissolved Oxygen Levels (mg/L)
+
+Figure 3.11 revealed a moderately strong positive trend between species WQS and dissolved oxygen. However, the correlation appears
+to be weak due to the one-to-many relation between variables and high variance.
+
+
+
+
+                                                                                                                           29
+  Inferential Statistics
+  As the relationship could be non-linear (suggested by Figure 3.11), SRCC is used due to its sensitivity to
+  monotonic relationships (as opposed to linear). SRCC showed a statistically significant result: !! (10) =
+  0.64, p < 0.05 (Appendix 5). Since the probability of obtaining this result by chance is less than 0.05, the
+  study successfully rejects the null hypothesis: There is a moderately strong positive correlation between
+  dissolved oxygen levels and species WQS.
+
+  It is important to note that although the positive correlation was of moderate strength, the one-to-many
+  relationship suggests a lack of causation between the two variables-- there are external factors responsible
+  for the relationship. Nevertheless, such findings reveal the interrelationships between dissolved oxygen
+  levels and species WQS, demonstrating the importance of dissolved oxygen for biological processes.
+
+
+Conclusion and Evaluation
+
+  This study aimed to answer the research question: How does water quality in the SMR change with
+  distance downstream?
+
+  Summary of Results
+    ● Water quality in the SMR deteriorates with increasing distance downstream.
+    ● As dissolved oxygen levels increase, species WQS increases.
+
+  Primary Hypothesis - Water Quality and Distance Downstream
+  Water quality was operationalized as a weighted composite index consisting of species WQS, riparian
+  score, dissolved oxygen levels, and phosphate levels (Figure 3.4-5). In accordance with my hypothesis,
+  the study found a strong and statistically significant negative correlation between water quality in the
+  SMR and distance downstream. This is consistent with The Bradshaw Model, which states that in theory,
+  load quantity and capacity is expected to increase with distance downstream, allowing for more pollution
+  to accumulate.
+
+  Secondary Hypothesis - Species WQS and Dissolved Oxygen levels
+  The study determined a moderately strong positive correlation between dissolved oxygen levels and
+  species WQS. This is in accordance with my hypothesis, which explains the interrelationships between
+  habitat availability for macroinvertebrates and levels of dissolved oxygen.
+
+
+
+
+                                                                                                    30
+      Evaluation
+
+
+   Limitation                                    Impact                                                   Method of Improvement
+
+ The study does      Rainfall prior to data collection would affect the discharge of Any rainfall a few days prior to the data collection should be
+ not account for     the river, which prevents the accumulation of pollutants thus noted. This allows us to account for increased discharge due
+  geographical       influencing the reliability of the data.                        to rainfall thus increasing the reliability of the study.
+     factors
+
+ Sample size was     The lack of equidistant locations greatly diminishes data Ideally, data should be collected on equally spaced-out
+     small and       accuracy as we could only collect limited data from specific locations, allowing us to improve on the accuracy of our
+locations were not   locations due to access restrictions. The limited data is likely to findings and make better generalizations.
+    equidistant      be unreliable and does not provide us with a holistic
+                     understanding of the entire river.
+
+ Weightings for      This could heavily influence the results of our findings. For       The lack of objectivity in the Weighted Composite Index does
+ the Weighted        instance, if a variable that strongly deviated from the trend was   not mean that we should reject its validity. As long as the
+Composite Index      assigned a heavier weight, this could influence the correlation     process was justified and transparent, this could be useful in
+were subjective      and statistical significance of our findings, potentially (and      modeling and approximating the real conditions of the river.
+                     incorrectly) refuting the hypothesis.
+
+   Correlation       Despite the correlation between species WQS and dissolved Additional data, such as river discharge and chemical data
+between variables    oxygen levels, the one-to-many relationship suggests a lack of could be collected to identify such external factors, providing
+ does not imply      causation between the two variables-- there are external factors us with a more holistic understanding of the river.
+    causation        responsible for the relationship.
+
+
+
+
+                                                                                                                                       31
+Bibliography
+
+  Maps and satellite images throughout this investigation (unless otherwise stated) were created using ArcGIS
+       software by Esri, www.esri.com.
+
+  “Fact Sheet for Tertiary Planning Units 961 - 2011 Hong Kong ...." https://www.census2011.gov.hk/en/district-
+        profiles/tpu/tpu961.html. Accessed: 5 Jan. 2021.
+  "Applied Geographical skills 2010 - Cool Geography." http://www.coolgeography.co.uk/A-
+        level/AQA/Year%2013/Fieldwork%20investigation/Fieldwork_Investigation_2012.htm. Accessed: 22
+        June. 2020.
+  "River Water Quality in Hong Kong - EPD." https://www.epd.gov.hk/epd/misc/river_quality/1986-
+        2005/eng/6_lantau_content.htm. Accessed: 22 June. 2020.
+  "Success Stories | Environmental Protection Department - Epd." 1 Apr. 2020,
+        https://www.epd.gov.hk/epd/english/environmentinhk/water/beach_quality/story.html. Accessed: 22 June.
+        2020.
+  "Beach Pollution Source - HKU." http://www.waterman.hku.hk/beach/member/beachpollsnew.aspx?code=SIL.
+        Accessed: 22 June. 2020.
+  "Dissolved Oxygen - Environmental Measurement Systems." https://www.fondriest.com/environmental-
+        measurements/parameters/water-quality/dissolved-oxygen/. Accessed: 6 Feb. 2021.
+  "Riparian Quality Index - Asociación Ibérica de Limnología."
+        http://www.limnetica.net/documentos/limnetica/limnetica-30-2-p-235.pdf. Accessed: 3 Jan. 2021.
+  "Nitrates in rivers — European Environment Agency." 1 Mar. 2015, https://www.eea.europa.eu/data-and-
+        maps/explore-interactive-maps/nitrate-in-rivers. Accessed: 9 Nov. 2020.
+  "Phosphorus and Water - USGS." https://www.usgs.gov/special-topic/water-science-school/science/phosphorus-
+        and-water. Accessed: 9 Nov. 2020.
+  "About ArcGIS | Mapping & Analytics Platform - Esri." https://www.esri.com/en-us/arcgis/about-
+        arcgis/overview. Accessed: 3 Jan. 2021.
+  "Handbook on Constructing Composite Indicators - OECD." 21 Mar. 2005,
+        https://www.oecd.org/sdd/42495745.pdf. Accessed: 1 Jan. 2021.
+  "Pearson Correlation Coefficient - Magoosh Statistics Blog." 9 Apr. 2018, https://magoosh.com/statistics/pearson-
+        correlation-coefficient/. Accessed 5 Jan. 2021.
+  "Table of Critical Values: Pearson Correlation - Statistics ...." https://www.statisticssolutions.com/table-of-
+        critical-values-pearson-correlation/. Accessed: 3 Jan. 2021.
+  "Spearman's Rank Correlation Coefficient." 1 Sept. 2020, https://geographyfieldwork.com/SpearmansRank.htm.
+        Accessed: 3 Jan. 2021.
+  "Significance of Spearman's Rank Correlation Coefficient." 1 Sept. 2020,
+        https://geographyfieldwork.com/SpearmansRankSignificance.htm. Accessed: 3 Jan. 2021.
+
+
+
+
+                                                                                                        32
+  Appendices
+
+       Appendix 1: Raw Data Table
+
+
+Site       Latitude    Longitude     Distance     Species WQS    Dissolved !2     Riparian        Nitrate "!2       Nitrate "!3            Phosphate
+                                    downstream                      (mg/L)         Score                                                   #!4 (mg/L)
+                                       (km)
+       1   22.275899   113.988312          1.05            4.0              1.7              51                 0                 0                0.00
+       2   22.275705   113.988406          1.07            6.1              1.5              45                 0                 0                0.50
+       3   22.273843   113.989824          1.40            6.7              1.7              46                 0                 0                0.50
+       4   22.273976   113.989873          1.42            4.0              1.4              40                 0                 0                0.25
+       5   22.273965   113.990918          1.58            4.7              1.4              35                 0                 0                0.25
+       6   22.273858   113.991208          1.62            4.0              1.5              40                 0                 0                1.00
+       7   22.272771   113.991905          1.78            4.0              1.2              41                 0                 0                1.00
+       8   22.272458   113.992066          1.82            4.8              1.2              41                 0                 0                0.00
+       9   22.272370   113.992521          1.88            5.0              1.2              40                 0                 0                1.25
+   10      22.268915   113.992178          2.29            3.1              1.0              29                 0                 0                0.50
+   11      22.268721   113.992419          2.31            2.9              1.0              19                 0                 0                2.00
+   12      22.268868   113.993495          2.48            2.0              1.0              25                 0                 0                1.00
+
+
+
+
+                                                                                                                                      33
+Appendix 2: Unweighted Composite Index Calculations
+
+
+
+
+                                                      34
+35
+Appendix 3: Weighted Composite Index Calculations
+
+
+
+
+                                                    36
+Appendix 4: PMCC Calculations (WQS and distance downstream)
+
+PMCC Formula12:
+
+
+
+
+Where:
+            ● n is the sample size
+            ● !! , "! are the x and y component of the #"# data point
+            ● mean(x) and mean(y) are the mean of x components and mean of y components of the
+              data set respectively.
+
+
+
+
+12
+   "Pearson Correlation Coefficient - Magoosh Statistics Blog." 9 Apr. 2018,
+https://magoosh.com/statistics/pearson-correlation-coefficient/. Accessed: 3 Jan. 2021.
+
+
+                                                                                          37
+●
+
+
+
+
+    38
+Table of Critical Values (PMCC)13:
+
+
+
+
+                     Where degrees of freedom = !"#$%& () *+,&- ,! .ℎ% -+#*/% − 2
+
+The critical value for PMCC at * = 0.01 for ! = 12 is 0.708. Since 0.90 > 0.708, the result is statistically
+significant.
+
+
+
+
+13
+   "Table of Critical Values: Pearson Correlation - Statistics ...." https://www.statisticssolutions.com/table-of-
+critical-values-pearson-correlation/. Accessed: 3 Jan. 2021.
+
+
+                                                                                                              39
+Appendix 5: SRCC Calculations (Species WQS and Dissolved Oxygen Levels)
+
+SRCC Formula14:
+
+
+
+
+Where:
+           ● 3! is the difference in rank of the ,"# data point
+           ● n is the number of pairs in a sample
+
+
+
+
+14
+   "Spearman's Rank Correlation Coefficient." 1 Sept. 2020,
+https://geographyfieldwork.com/SpearmansRank.htm. Accessed: 3 Jan. 2021.
+
+
+                                                                           40
+Table of Critical Values (SRCC)15:
+
+
+
+
+SRCC showed a statistically significant result: &$ (10) = 0.64, p < 0.05. Since the probability of obtaining
+this result by chance is less than 0.05, the result is statistically significant.
+
+
+
+
+15
+   "Significance of Spearman's Rank Correlation Coefficient." 1 Sept. 2020,
+https://geographyfieldwork.com/SpearmansRankSignificance.htm. Accessed: 3 Jan. 2021.
+
+
+                                                                                                  41
+

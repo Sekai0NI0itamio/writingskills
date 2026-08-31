@@ -1,0 +1,508 @@
+          A study in the effect of lauric acid on
+                      brassica rapa
+
+    I.    Personal Engagement
+
+        Growing up in Vietnam, my mother’s family were farmers. I grew up near rural
+Vietnam and had significant exposure to countryside life. My spirituality is also deeply
+connected to nature, because of Taoist influences on Vietnamese Buddhism. I am not
+much of a deeply religious person though; I consider myself a secular Buddhist,
+concerned with using the teachings of my people to care about life on earth, and it has
+been reinforced by my mother’s green thumb. She has grown many gardens across the
+homes we have lived in and I have developed a deeper appreciation for the life we can
+foster.
+
+       I am quite concerned about the preservation of the environment, because of my
+upbringing. Climate change and overpopulation are the long-term issues that I believe
+we have no way of tackling with the current infrastructure and science we have now. I
+want to take the small-scale planting I do in my backyard and be able to do that in
+places that have been heavily deforested and where the plant biodiversity has been
+devastated.
+
+       I also want to get a biochemistry degree and work with genetic engineering
+techniques to modify how plants and animals can be humanely modified to benefit the
+environment, such as creating a wheat strain that uses less water and space.
+
+    II.   Exploration
+            ○ How do varying increments of lauric acid affect the growth of the
+                Wisconsin Fast Plant’s roots and shoots (brassica rapa)?
+
+             ○ BACKGROUND
+
+Brassica Rapa
+
+       Brassica rapa refers to a member of the cabbage family, though the plant can
+take on many morphs, such as turnips, Chinese cabbage, and canola (Wisconsin Fast
+Plant). One morph is the Wisconsin Fast Plant, which has been selectively bred to be a
+model organism with its short germination and flowering times and its responsiveness to
+
+
+1
+the environment. The plants also flower at roughly 14 days and have a rapid life cycle,
+allowing for it to be grown quickly and easily without using a lot of resources or space
+(Wisconsin Fast Plant).
+
+Plant Hormones
+
+        6-Benzylaminopurine molecules are very stable and “exert a prolonged inhibitory
+effect on rooting” (Podwyszynska, 1). Shoots that develop under exposure to high BAP
+levels tend to be smaller and have smaller leaves, while the roots have a strong positive
+correlation with shoot growth and development.
+        BAP is a type of plant hormone that is known as a cytokinin. Cytokinins are
+hormones that stimulate plant development and cellular division (an increased rate of
+cytokinesis) (Britannica). Therefore, BAP stimulates the setting of blossoms and fruit
+richness through increased amounts of cell production, which has a higher sugar
+content being required to support more mass.
+        Cytokinins also create change and react alongside auxins to impede the process
+of senescence, though in the early stages of a plant’s life cycle, it is a phase of
+metabolism and not just decay (Britannica). This therefore prevents the yellowing of
+leaves by preventing the breakdown of proteins and chlorophyll and stabilizing the
+molecules in the leaf and the chloroplasts. High auxin and low cytokinin concentrations
+give rise to root development,” whereas the inverse will promote the development of
+the shoot (Britannica). Lauric acid is a type of saturated fatty acid that can act as a
+substitute for BAP and have similar effects.
+        Lauric acid is a solid at room temperature but is very soluble in boiling water.
+“The molecule is a saturated medium-chain fatty acid with a 12-carbon backbone” and
+can be found in plant and animal oils, mainly coconut and palm kernel oil (NCI). Like
+BAP, lauric acid can react alongside auxins to impede early stage senescence. It also
+boosts meristematic tissue growth and promotes development.
+
+          ○ HYPOTHESIS
+              ■ The solutions with the higher amounts of lauric acid will result in
+                 faster germination and development.
+          ○ VARIABLES
+              ■ Independent Variable: The variable that is being adjusted and
+                 tested is the concentration of lauric acid being put into the soil.
+              ■ Dependent Variable: The length of the plant specimen from apical
+                 root to apical shoot (in centimeters) will reflect the effects of the
+                 independent variable.
+              ■ Control Variables:
+
+
+
+
+2
+                 ● The amount of water in each molar solution should be equal
+                   to one cup.
+                 ● Each cup should have one teaspoon of lauric acid mixed and
+                   dissolved in it.
+                 ● Each 25.4 x 17.78 x 17.78 cm has to be filled with 1 pt of
+                   soil.
+                 ● One plant per small pot.
+                 ● All of the plants should be exposed to the same light source
+                   and temperature.
+
+    ○ MATERIALS
+        ■ 1000ml Sterile Water
+        ■ 3000ml water
+        ■ Murashige and Skoog Medium 5L
+        ■ pH strips to adjust the agar solution
+        ■ 1M HCl to adjust the pH of the medium (minimum
+        ■ sizes)
+        ■ 1 1000 ml beaker
+        ■ 1 Pressure cooker at 17 psi
+        ■ 1 pair of gloves
+        ■ 30 pots 1 pt of soil
+        ■ 30 grams of lauric acid
+        ■ 30 seeds of brassica rapa
+        ■ 1 balance
+
+    ○ METHOD
+    ○ 1. Gather materials and put on gloves. Tie up hair and make sure to wear
+      closed toe shoes.
+    ○ 2. Label each row of pots with the numbers 1-5, corresponding to each
+      row that the pots are on. Each row should have 7 pots and 5 pots per
+      column. Masking tape and/or a permanent marker can be used. Place
+      them in a wide area that has access to light.
+    ○ 3. Take 600 ml of distilled water and add 4.54 grams of dehydrated
+      Murashige and Skoog medium at room temperature (15-30 C).
+    ○ Rinse the media vila with a small quantity of distilled water to remove trace
+      residues of powder.
+    ○ 4. Add the desired heat stable supplements prior to pressure cooking.
+      Continue stirring until the powder has completely dissolved.
+
+
+
+
+3
+    ○ 5. If the powder does not completely dissolve then use HCL and mix, heat,
+      and rotate until the solution becomes clear. Adjust the final volume upt
+      1000 ml with distilled water.
+    ○ 6. Dispense the mediums into suitable closed containers and pressure
+      cook at 121-125 C for about 15-20 minutes, never over 20 psi.
+    ○ 7. Evenly pour 10ml of the solution into each pot of soil, in the center of
+      the pot.
+    ○ 8. Take the bottle of lauric acid, and pour 25 grams into 5 into 1200 ml of
+      water heated to 37 C. Mix until the lauric acid is saturated in the water.
+    ○ 9. Pour 10 ml each into the second row of pots. Then pour 20 ml of the
+      solution into the third row, 30ml each pot for the fourth row, and 40ml each
+      pot for the fifth row. Stir the dirt.
+    ○ 10. Plant 1 seed per pot.
+    ○ 11. Every two days, water the plants with 300 ml for each plant. Repeat
+      the process of watering and observe for 45 days.
+    ○ 12. Observe how many new seedlings are in each pot and then pull out
+      the specimen. Measure the length of the roots and stem separately.
+    ○ 13. Safely discard and clean up lab materials, then clean off any
+      surrounding surfaces to prevent chemical poisoning or the buildup of toxic
+      residues on lab equipment. Once this process is completed, take off the
+      gloves and discard them safely.
+
+    ○ RISK ASSESSMENT
+         ■ Gloves should be worn because the agar, Murashige and Skoog
+            medium, and the lauric acid are all chemical grade materials. The
+            chemical residues can result in some skin irritation and burning.
+            There is low risk of exposure to the eyes, but it is advised that
+            glasses are worn when handling the agar, medium, and lauric acid
+            because all of them are in powder form.
+         ■ While aprons are not necessary, it can prevent the solution from
+            soaking into one’s clothes and body and causing sickness. The
+            heating of the pressure cooker could potentially create a hot
+            solution that can result in burns if dropped.
+         ■ The plants after they complete their life cycle should be
+            appropriately discarded or composted to avoid introducing this plant
+            into a non-native ecosystem.
+         ■ Forceps were used to minimize even further the amount of contact
+            made with the solutions, one of the reasons being to avoid any of
+            the fluid getting on the arm, especially after retrieving the agar from
+            the pressure cooker.
+
+
+
+4
+III.   Analysis
+         ○ RAW DATA: The top row from 0-40ml is the amount of lauric acid each
+            plant in the column received. The integers horizontally descending is the
+            specimen number for the column. The data represents the length of the
+            roots.The tape measure used has an error margin of ± .159 centimeters.
+            Graphs for both dependent variables can be used as a visual aid to see
+            the relationship.
+
+
+                          0 (control) 10ml          20ml         30ml         40ml
+
+              1             4.1± .159   5.3± .159     6± .159     4.6± .159    3.1± .159
+
+              2             4.4± .159   5.5± .159    6.4± .159    4.8± .159    3.7± .159
+
+              3             4.6± .159   5.6± .159    6.6± .159    4.9± .159    3.9± .159
+
+              4               5± .159   5.7± .159    6.8± .159    5.2± .159     4± .159
+
+              5             5.1± .159   5.9± .159    6.8± .159    5.2± .159    4.1± .159
+
+              6             5.2± .159   6.1± .159    7.1± .159    5.3± .159    4.3± .159
+
+              7             5.4± .159   6.2± .159    7.2± .159    5.5± .159    4.3± .159
+
+
+
+
+5
+IIII.   The top row from 0-40ml is the amount of lauric acid each plant in the column
+        received. The integers horizontally descending is the specimen number for the
+        column. The data represents the length of the shoot.
+                           0 (control) 10ml         20ml        30ml        40ml
+
+                1           25.3± .159 31.8± .159 28.1± .159 16.1± .159 14.2± .159
+
+                2           25.5± .159 33.4± .159 30.9± .159 16.9± .159 14.9± .159
+
+                3           26.4± .159    34± .159 31.7± .159 17.6± .159 15.6± .159
+
+                4             28± .159 35.7± .159 32.2± .159 18.8± .159 15.9± .159
+
+                5           29.1± .159 36.3± .159 32.8± .159 19.7± .159 16.3± .159
+
+                6           30.1± .159 36.8± .159 33.1± .159 20.8± .159 17.1± .159
+
+                7           31.2± .159 37.2± .159 33.7± .159 21.2± .159 18.4± .159
+
+
+
+
+           ○ PROCESSED DATA
+IIV.    The raw data has error bars based on the standard error of the mean (SEM).
+
+                σ
+SEM or s ̄x =     where σrepresents a sample’s standard deviation and n is the amount
+               𝑛
+of data points. Taking the data of the 40ml shoot length, the SEM can be calculated.
+
+
+6
+                                                                                                      𝑁
+                                                                                                  1             2
+The first step is finding the value of the standard deviation. σ =                               𝑁−1
+                                                                                                      ∑ (𝑥₁ − 𝑥) .
+                                                                                                     𝑖=1
+                                                   (3.1 + 3.7 +3.9 + 4 + 4.1 + 4.3 + 4.3)
+The mean can be calculated as 𝑥̄=                                    7
+                                                                                            = 3. 9142857142857
+
+                  7
+              1                            2
+σ=           7−1
+                  ∑ (𝑥₁ − 3. 9142857142857) . N is equal to the number of specimens in
+                 𝑖=1
+each group, 7.
+
+                                                                                        2     Σ(𝑥𝑖 − 𝑥̄)2
+Squaring both sides of the equation simplifies the equation. σ =                                 𝑁−1
+                                                                                                          . The sum of
+the mean subtracted from all of the data points is equal to the top portion of the fraction.
+                          2              2              2            2              2              2             2
+Σ(𝑥𝑖 − 𝑥̄)2   (3.1−3.9...) + (3.7−3.9...) + (3.9−3.9...) + (4−3.9...) + (4.1−3.9...) + (4.3−3.9...) + (4.3−3.9...)
+   𝑁−1
+            =                                                7−1
+                                                                                                                     .
+Completing all of the operations on the top and bottom, the fraction becomes . The
+standard deviation squared or the variance is 0. 1747619047619. Square rooting both
+sides means that σ= 0.4180453381655.
+
+                                                                                                                     σ
+Now the value for the standard deviation can be plugged into the equation s ̄x =                                         .N
+                                                                                                                     𝑛
+                                                   0.4180453381655
+is 7, so the equation becomes s ̄x =                   = 0.15800628593369. This
+                                              7
+means that the standard amount of error for that group sample is 15%. This can seem
+high but the presence of the rosette phenotype should be considered, which is
+significantly shorter than the other phenotypes. The other phenotypes are roughly the
+same height, so the presence of this dwarf stock greatly changes the SD, making it
+seem that it is not accurate (Wisconsin Fast Plant).
+
+Since there are two dependent variables and one independent variable, the MANOVA
+test will be used to examine the relationship between these variables. The first step will
+be calculating the sum of squares of the model, which is represented by the equation
+         𝑛
+                    2
+SSm= ∑ (𝑥k-𝑥 ) .
+        𝑖=1
+
+
+The mean of the different factors, or group intervals, must be calculated. 𝑥𝑘𝐷𝑉𝑁
+represents the mean of the different factors where DV1 represents the root growth and
+DV2 represents the shoot growth.
+
+
+
+7
+Factor 1’s (the control group) mean of the first dependent variable is equal to
+(4.1 + 4.4 + 4.6 + 5 + 5.1 +5.2 +5.4)
+                  7
+                                        = 4.82857143. The same steps can be repeated to give 1F2=
+5.75714286, DV1F3= 6.7, DV1F4= 5.07142857, and DV1F5= 3.91428571. These steps
+can be repeated with the second dependent variable to give DV2F1= 27.942857142857,
+DV2F2= 35.028571428571, DV2F3= 31.785714285714, DV2F4= 18.728571428571, and
+DV2F5= 16.057142857143.
+
+The total means for both dependent variables are needed. For DV1, this is
+5.2542857142857, and for DV2 it is 25.908571428571. Proceed to subtract the total
+means from each of the factor’s means and then square it. Then add all of the values
+                                                                        𝑛
+                                                                                  2
+together to get the sum. The first dependent variable’s SSm= ∑ (𝑥k-𝑥 ) =
+                                                                       𝑖=1
+                                          2                                   2
+(4. 82857143 − 5. 75714286) +(5. 2542857142857 − 5. 75714286) +
+                             2                                   2                                      2
+(6. 7 − 5. 75714286) + (5. 07142857 − 5. 75714286) +(3. 91428571 − 5. 75714286)
+= 5.870416359. The second independent variable’s SSm= 270.4565714.
+
+                                                                                          𝑛
+                                                                                                2
+Then the squares of the error must be calculated, using the equation SSE= ∑ s                   k   (𝑛k-1).
+                                                                                          𝑖=1
+This essentially means that the sum of the squares of all of the factors together is
+needed. In order to get this, the mean of the different factors (Fk) must be subtracted
+from the data points of their respective factors squared and added together. This will be
+demonstrated with the control group of the first dependent variable.
+
+                                 2                          2                         2
+(4. 1 − 4. 82857143) + (4. 4 − 4. 82857143) + (4. 6 − 4. 82857143) +
+                            2                           2                         2
+(5 − 4. 82857143) +(5. 1 − 4. 82857143) + (5. 2 − 4. 82857143) +
+                                 2
+(5. 4 − 4. 82857143) = 1.334285714.
+
+This should be repeated for the other 4 groups of the first dependent variable, and then
+all of the values are to be added together. Therefore, SSE= 1.334285714 +
+0.6371428571 + 1.02 + 0.5942857143 + 1.048571429 = 4.634285714
+
+The squares of the error for the second dependent variable is calculated the same way
+and equals = 111.4914286. Now that the sum of the squares and the squares of the
+error have been calculated, there is enough information to look at the covariance, -- how
+the dependent variables are related both for the model and for the error.
+
+
+
+
+8
+In order to study the covariance, the cross product for the model must be calculated.
+                                                 𝑛
+The equation for the cross product is CPm=       ∑   𝑛k(𝑥group DV1-𝑥DV1)(𝑥group DV2-𝑥
+                                              (0−40𝑚𝑙)
+DV2). The first step is to do this for the first factor. This can be derived by subtracting
+the DV1’s total mean from the group mean of the factors and then multiplying by DV2’s
+total mean from the group means of the factor. Since the k represents the amount of
+terms, which is 7, the product should be multiplied by 7.
+
+7(4.82857143 - 5.2542857142857) (27.942857142857 - 25.908571428571) =
+−6.062171408
+
+The process should be repeated for the next four groups and all total values should be
+added together.
+
+7(4.82857143 - 5.2542857142857) (27.942857142857 - 25.908571428571) +
+7(5.75714286 - 5.2542857142857) (35.028571428571 - 25.908571428571) +
+7(6.7 - 5.2542857142857) (31.785714285714 - 25.908571428571) + 7(5.07142857 -
+5.2542857142857) (18.728571428571 - 25.908571428571) + 7(3.91428571 -
+5.2542857142857) (16.057142857143 - 25.908571428571) = 187.1137149
+
+          𝑛
+CPm=      ∑   𝑛k(𝑥group DV1-𝑥DV1)(𝑥group DV2-𝑥DV2) = 187.1137149
+       (0−40𝑚𝑙)
+
+
+The next element that is needed is the cross product of the error. The cross product of
+                       𝑛
+the error is CPE=      ∑   (𝑥i -𝑥DV1)(𝑥i -𝑥DV2). The first data points for the two
+                    (0−40𝑚𝑙)
+dependent variables (specimen 1 measurements of the control) must have the group
+means subtracted from them and then multiplied. The process should be repeated for
+all data points and groups. (4.1- 4.82857143)(25.3 - 27.942857142857) + (4.4-
+4.82857143)(25.6 - 27.942857142857) + (4.6- 4.82857143)(26.4 - 27.942857142857) +
+… = 17.32775511
+
+With the sum of squares of the model, and the error for both dependent variables, the
+cross products for the model and for the error, the cross product matrices can be made.
+The cross product matrix for the model is H =
+(SSm1 CPm) = (5.870416359 187.1137149)
+(CPm SSm2) = (187.1137149 270.4565714)
+
+The matrix of the error is E=
+
+
+9
+(SSE1 CPE) = ( 4.634285714 17.32775511)
+(CPE SSE2) = (17.32775511 111.4914286)
+
+The processing will require a follow-up test. Using the two matrices that have been
+created, a follow-up test can be done using statistical software, since it is not possible to
+do by hand. The follow-up test that will be used is the Pillai’s trace test, done in XLstat
+of Microsoft Excel. From the D values, F-value, and Lambda, the p-value is less than
+0.0001. This means that the risk to reject the null hypothesis while it is true is lower than
+0.01%. This indicates that the variable has a significant effect on the dependent
+variables at a 99.9% confidence level.
+ Lambda              1.852
+
+ F-value             90.409
+
+ D value of F1       8
+
+ D value of F2       58
+
+ Critical F Values   2.103
+
+ P-value             < 0.0001
+
+
+
+CONCLUSION
+                 ■    The effect of lauric acid on both root and shoot length show a
+                     strong relationship.
+IV.    Evaluation
+         ○ STRENGTHS:
+                ■ The plant chosen was specifically bred to be a model organism
+                  because of its uniform and short flowering time, short lifespan, low
+                  resource cost, and high responsiveness to the environment. The
+                  seeds are inexpensive to purchase.
+                ■ Uniformity was established by using the same pots and seeds
+                  across a uniform amount of soil per pot (as per a scale).
+                ■ The materials were affordable and were widely available. Lauric
+                  acid is inexpensive, non-toxic, and is generally safe to handle.
+                ■ Furthermore, since the class has been taught about the plant cell
+                  structure, life cycle, and the role of hormones, the background
+                  knowledge was used to make the process much easier, especially
+                  with researching and formulating a hypothesis.
+
+
+
+
+10
+              ■ The process was quick, and with gloves, the risk of contamination
+                and error being made is lessened. Excess agar or lauric acid
+                solution was safely disposed of through super-dilution.
+              ■ The pressure cooker was used with gloves and glasses. The
+                process was short and ensured that the agar solution would be
+                sterile and pure.
+
+       ○ WEAKNESS, LIMITATION, AND IMPROVEMENT
+
+
+     Weaknesses and/or Limitation               Improvements
+
+     Lauric acid tends to solidify in the       Once the water and the lauric acid is
+     presence of water because of its           mixed together, pour the solution in a
+     non-polar nature and resistance to         hole in the center of the pot’s soil.
+     mixing with water. Some small clumps       Then, cover it up and mix the soil to
+     of lauric acid solidified on top of the    ensure that it does not solidify.
+     soil instead of being absorbed by it
+     initially after the hot lauric acid and
+     water solution was poured on top of
+     the soil.
+
+     Better documentation of the plants         Images should have been taken of an
+     should have been kept. Pictures were       individual plant while it was still in the
+     taken but were not high quality            pot and after removal, so that the
+     enough for annotation of the               roots can be annotated.
+     specimen. Some of the specimens
+     were outliers, and the documentation
+     does not reflect the recessive
+     phenotypes and other outliers well.
+
+     Not all of the plants were of the same     Exclusion of the rosette phenotype or
+     phenotype. Normally this would not         ensuring all of the plants that were
+     affect the height too much, but there is   measured and used for data
+     a dwarf morph that is smaller than the     processing were all of the same stock.
+     typical phenotypes. However, the
+     rosette phenotype only manifested
+     twice in the total sample.
+
+     Usually data processing of a MANOVA        There is some software that can
+     would require advanced statistical         replace the advanced statistical
+     software that is hard to access. The       software that universities and research
+     mathematics here was done by hand,         organizations use. XLstat can perform
+     when usually MANOVAs and followup          the followup MANOVA tests.
+     tests are done with the help of
+     programs. The last part of the
+
+
+11
+         MANOVA test was done however with
+         a program.
+
+REFERENCES
+
+     ● “Cytokinin.” Encyclopædia Britannica, Encyclopædia Britannica, Inc.,
+       www.britannica.com/science/cytokinin.
+     ● “Inheritance Patterns in Wisconsin Fast Plants Genetic Stocks.” Wisconsin Fast
+       Plants®, 15 Mar. 2018,
+       fastplants.org/2018/03/15/inheritance-genetics-fast-plants/.
+     ● LON-CAPA The Plant,
+       s1.lite.msu.edu/res/msu/botonl/b_online/library/fast/www.fastplants.org/Plant/The
+       Plant.htm.
+     ● “NCI Thesaurus.” National Institutes of Health, U.S. Department of Health and
+       Human Services,
+       ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=
+       NCI_Thesaurus&code=C68384.
+     ● “Origin.” Wisconsin Fast Plants®, fastplants.org/origin/.
+     ● Podwyszynska, M. “CELL, TISSUE AND ORGAN CULTURE: Rooting of
+       Micropropagated Shoots.” Encyclopedia of Rose Science, Elsevier, 13 Jan. 2005,
+       www.sciencedirect.com/science/article/pii/B0122276205001270./.
+
+
+
+
+12
+

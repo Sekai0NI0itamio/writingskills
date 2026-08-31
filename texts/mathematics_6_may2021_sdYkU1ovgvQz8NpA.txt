@@ -1,0 +1,1203 @@
+                                    IB Mathematics
+                                  Internal Assessment
+
+
+
+
+                          Calculus of Variations
+
+- Would the function for the minimal surface area of a revolution be a good function to
+
+                                 model a soap film? -
+
+
+
+
+                                Number of Pages: 16
+
+                                     Candidate #
+Contents
+
+1   Introduction                                                                                                       1
+
+
+2   The theory of the investigation                                                                                    1
+
+    2.1   Arc length Integral . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    1
+
+    2.2   Surface Area Of A Revolution . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       2
+
+    2.3   Hyperbolic Trigonometric Functions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       3
+
+    2.4   Euler-Lagrange Equation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      4
+
+    2.5   Beltrami Identity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    8
+
+
+3   The Problem Of Minimal Surface Area Of A Revolution                                                               10
+
+    3.1   The Extrema Of A Surface Area Of A Revolution . . . . . . . . . . . . . . . . . . . . . . . . . . .         10
+
+    3.2   Analysing The Obtained Equation with Soap Film . . . . . . . . . . . . . . . . . . . . . . . . . . .        12
+
+
+4   Evaluation and Conclusion                                                                                         16
+
+
+References                                                                                                            17
+
+
+Appendices                                                                                                            18
+
+
+A Recordings of Breaking Distances αi                                                                                 18
+1     Introduction
+
+As a person who has been always intrigued with the mathematical nature of objects within our life, my reason to pursue
+
+further education within college is to explore and define the relationship between mathematics, computer science and
+
+the world. One of the key components of computer science for me is its ability to mimic real life, given that it writes
+
+its rules using the language of mathematics. To explore this idea, in this internal assessment I will be focusing on
+
+exploring and mathematically defining the behavior of some material, as I hope to integrate my findings to strengthen
+
+my understanding on how the real world can be virtually simulated. Therefore in this Internal Assessment, I will be
+
+exploring a material which is one of its kind: soap films. The idea of exploring soap films came to me from my Single
+
+Variable Calculus MOOC (Ghrist, 2016) that I took over the summer out of interest. The professor mentioned the
+
+intriguing property of the cosh(x) function as we were exploring hyperbolic u−substitutions for integration, briefly
+
+mentioning that it hides an interesting property in real life. After short research, I have found out that the intriguing
+
+function cosh(x) is involved in various minimal shapes and surfaces. To see this in action, I will be looking at soap
+
+films, an ideal candidate to test out any minimal surfaces for my exploration as it is a natural material that always is
+
+a minimal of surfaces (Introduction to the calculus of variations, 2016, p.17-18). I have decided to infuse the idea
+
+of soap films and minimal surfaces with a recent topic we have covered in class of rotating functions around an axis
+
+to obtain interesting and complex shapes. Therefore in this Internal Assessment I seek to find whether the soap film
+
+would replicate my results after I find the minimal surface area of a revolution in the hope of answering the question
+
+”Would the function for the minimal surface area of a revolution be a good function to model a soap film?”. However,
+
+finding the minimum of the surface area of a revolution is no easy task, and I will require a lot of theory before being
+
+able to answer my exploration. Namely, I will first have to find the equation that will represent the surface area of a
+
+revolution of a function in some domain and effectively find the minimal of this equation using the Beltrami Identity,
+
+a special case of the Euler-Lagrange equation from Calculus of Variations which I require to understand first.
+
+
+
+2     The theory of the investigation
+
+2.1   Arc length Integral
+
+I first require to understand what equation I will be truly minimising. Intuitively the equation must include the arc
+
+length of the function as I will rotate it along an axis, similar to volume of revolution
+
+
+
+
+                                                            1
+   Figure 1: A graphical depiction of infinitesimal triangle dydx (not to scale)(Desmos Graphing Calculator, 2011)
+
+
+To compute the surface area of a revolution of some function f (x) in the domain (xa , xb ) where xa < xb and
+
+xa , xb ∈ R, I will consider the triangle of an infinitesimally small width dx and its corresponding infinitesimally
+
+small height dy, to then compute its infinitesimally small hypotenuse dL which represents an infinitesimally small
+
+function length by Pythagoras’ Theorem.
+                                                            p
+                                                    dL =     dy 2 + dx2
+
+And if I factor out dx from the square root I can obtain
+
+                                                        s         2
+                                                             dy
+                                                 dL =                   + 1 dx                                            (1)
+                                                             dx
+
+Then, if I use the definite integral definition to be the sum of all infinitesimals within the domain (xa , xb ), I can obtain
+
+the exact length of the function as
+                                                            s         2
+                                                     Z xb
+                                                                  dy
+                                               L=                           + 1 dx
+                                                      xa          dx
+
+2.2   Surface Area Of A Revolution
+
+Whilst I have found a way to compute the arc length of a function, I will now have to find a way to rotate it in order
+
+to obtain the surface area of a revolution. If I consider the volume of revolution integral V in the domain (xa , xb )
+
+                                                            Z xb
+                                                   V =π            f (x)2 dx
+                                                             xa
+
+
+Which is indeed derived from the classical formula for the area of a circle πr2 , where the radius r can be represented
+
+by an infinitesimal rectangle of width dx (imitating a very thin strip) and height f (x). If the infinitesimal rectangle is
+
+rotated 360◦ around the x axis, it forms an infinitesimal cylinder of width dx (which in turn imitates a circle, hence
+
+I use the formula for an area of a circle). The integral sums all such infinitesimal cylinder areas in the domain of its
+
+bounds to obtain the volume.
+
+Using similar intuition, I can use the formula 2πR to sum the surface areas of the infinitesimal cylinders instead.
+
+However, in this particular case, the R within the function is not represented by f (x) only. If I use the same logic to
+
+rotate a rectangle of width dx and height f (x) around the x axis to obtain the same cylinder, I obtain no information
+
+                                                              2
+on the surfaces. Instead, I need something that can represent this surface as I rotate. If I introduce the infinitesimal
+
+arc length from equation 1 to be included after the height f (x) at some point, I am obtaining a new shape by the name
+
+of a ”frustum” (a shape similar to a cone, but the cone’s tip is subtracted by a smaller similar cone). A frustum’s
+
+surface area can be conveniently defined through its base radius multiplied by its arc length and 2π (Areas of Surface
+
+of Revolution, 2019). Infinitesimally, I then can define R
+
+                                                        s 
+                                                          dy 2
+                                               R = f (x)       + 1 dx
+                                                          dx
+
+
+
+
+                     Figure 2: An infinitesimal frustum with width dx (not to scale)(Geogebra 3D Calculator, 2011)
+
+
+If I substitute my R into the circumference formula and sum all infinitesimal surface areas (like summing infinitesimal
+
+circumferences of circles) in the interval (xa , xb ) by a definite integral, the surface area of a revolution is then
+
+                                                          s 
+                                                            dy 2
+                                                   Z xb
+                                           S = 2π    f (x)       + 1 dx                                                  (2)
+                                                  xa        dx
+
+
+2.3   Hyperbolic Trigonometric Functions
+
+Since the professor has mentioned that this property is specifically held within the hyperbolic trigonometric functions
+
+as I was doing various u substitutions, it is wise define these functions and their identities, as I am likely to require
+
+them in the future. The hyperbolic trigonometric functions are defined to be (Weisstein, n.d.)
+
+                                                             ex − e−x
+                                                   sinh(x) ≡
+                                                                 2
+                                                             ex + e−x
+                                                   cosh(x) ≡
+                                                                 2
+
+The inverse of these functions are defined to be arsinh(x) and arcosh(x) respectively. Furthermore, the hyperbolic
+
+functions result in the identity
+
+                                                cosh2 (x) − sinh2 (x) ≡ 1                                                (3)
+
+
+
+
+                                                             3
+Which is an identity similar to tan2 (x) − sec2 (x) ≡ 1, allowing an alternative for substitution for integrals originally
+
+requiring tan(x), and can simplify some work which is the case for me later in the investigation. I will show the
+
+validity of this identity by substituting the algebraic definitions of the functions, thus
+
+                                                2  x         2
+                                        e + e−x        e − e−x
+                                       x
+                                   =⇒              −
+                                           2              2
+                                       2x
+                                      e +2+e    −2x   e − 2 + e−2x
+                                                       2x           4
+                                   =⇒               −              = =1
+                                            4               4       4
+
+Lastly, knowing the algebraic definitions of cosh(x) and sinh(x), it is also implied that cosh(x) is even and sinh(x)
+
+is odd, that is:
+                                                         e−x + ex
+                                           cosh(−x) =             = cosh(x)
+                                                            2
+
+and
+                                                                   e−x − ex
+                                                 sinh(−x) =
+                                                                      2
+                                                      ex − e−x
+                                             =⇒ −              = − sinh(x)
+                                                          2
+
+2.4    Euler-Lagrange Equation
+
+The Euler-Lagrange Equation is an equation to find extrema (maximas and minimas) of equations I of the kind
+
+                                                        Z xb
+                                                   I=          F (x, y, y 0 )                                         (5)
+                                                         xa
+
+
+The integrand contains what is defined to be a functional, which is a function with functions as its input. Indeed, the
+
+surface area of a revolution formula is also an equation with an integrand that is explicitly dependent on y and y 0 ,
+
+therefore the Euler-Lagrange is applicable for my investigation. The Euler-Lagrange equation is defined as
+
+                                                                         
+                                                 ∂F    d           ∂F
+                                                    −                         =0                                      (6)
+                                                 ∂y   dx           ∂y 0
+
+However, this equation does not state the nature of the extrema it finds. The notation ∂ used within the equation
+
+denotes a partial derivative, these allow me to analyse the rate of change of a multivariate function with respect to
+
+a single variable, treating the rest like constants. For example, if I consider the equation F (x, y) = x3 y + y 3 x, its
+
+partial derivative with respect to y is
+                                                    ∂F
+                                                       = x3 + 3y 2 x
+                                                    ∂y
+
+As I want to understand how the Euler-Lagrange equation works as it is a tool that is useful in this exploration, I will
+
+see how it will help me find the minimum of a surface area of a revolution by analysing its derivation. However, in
+
+                                                               4
+order to do this, I will take the multivariate chain rule as a given. The multivariate chain rule states that for some
+
+multivariate function F (x1 , x2 , . . . , xn ) with distinct variables x1 , x2 , . . . , xn , when differentiated with respect to
+
+some variable such as t, the chain rule can be given by
+
+                                                               n
+                                                           X ∂F dxi
+                                                      dF
+                                                         =
+                                                      dt     ∂xi dt
+                                                              i=1
+
+
+Similarly, if I am looking for the partial derivative instead
+
+                                                               n
+                                                           X ∂F ∂xi
+                                                      ∂F
+                                                         =
+                                                      ∂t     ∂xi ∂t
+                                                              i=1
+
+
+The rigorous proofs of these generalisations, however, are well beyond the scope of this IA.
+
+To understand how the Euler-Lagrange specifically applies to the equation of surface area of a revolution, I will
+
+begin by denoting the function (The Euler-Lagrange Equation, or Euler’s Equation, n.d.)
+
+
+                                                    Y (x) = y(x) + εη(x)                                                      (7)
+
+
+Where y(x) is a twicely differentiable function whose domain is [xa , xb ] with points (xa , ya ) and (xb , yb ). For y(x)
+
+I will assume that it is an extremum function in the interval [xa , xb ] (that is, it is either a function that maximises or
+
+minimises of my function Y (x) in the domain [xa , xb ]).
+
+η(x) is a twicely differentiable function whose domain is [xa , xb ] and has coordinates (xa , 0) and (xb , 0). This
+
+allows me to add some arbitrary function to y(x) (variation) in order to get Y (x) in any arbitrary form whilst
+
+ensuring my boundary conditions in (xa , ya ) and (xb , yb ) stay constant;
+
+ε is some parameter which which allows me to configure my variation of η(x).
+
+In order to intuitively understand equation 7, I have plotted Figure 3 to visualise it in terms of arc length:
+
+
+
+
+                                           Figure 3: diagram of Y (x), y(x) and εη(x) (Geogebra 3D Calculator, 2011)
+
+
+My problem is then to find the extrema of the function Y (x). Since η(x) is some arbitrary function, it means that
+
+
+                                                                5
+Y (x) will represent a family of curves which can be resulted from adding some arbitrary function η(x) to an
+
+extremum y(x).
+
+Intuitively, a possible extremum function is a straight line in an arc length of the kind y = mx + b (as seen in figure
+
+3), this minimises distance between two points. Moreover, if I were to choose the parameter ε to be approaching
+
+smaller values (closer to 0), then function Y (x) will approach the extremum y(x) (that is, the variation added from
+
+the arbitrary function εη(x) will be getting smaller). If I consider the equation Y (x) (equation 7) which represents
+
+twicely differentiable family of curves in a restricted domain (namely my domain where I seek to minimise, that is,
+
+the domain which I rotate around the x axis) and write it in the same as the equation of the kind 5, I obtain general
+
+integral of a specific family of curves. Namely:
+
+                                                        Z xb
+                                                 I=             F (x, Y, Y 0 )dx
+                                                         xa
+
+
+I know from the definitions of Y and Y 0 are dependent on x and ε. However, once the integral is computed with the
+
+x boundaries, only the variable ε is left in the equation. This means that I is actually only dependent on the
+
+parameter ε and its value, that is
+                                                         Z xb
+                                              I[ε] =             F (x, Y, Y 0 )dx
+                                                           xa
+
+
+And to find a candidate for the minimum, as I is only dependent on ε, I can set its derivative to 0, in order to compute
+
+an extremum like in regular calculus. This allows me to find the extremum from the variational change added to y(x)
+
+                                                              dI
+                                                                 =0
+                                                              dε
+
+However, recall from my assumption that y(x) is an extremum function, so I can then deduce that the solution of the
+
+equation above would be when I set the variation ε = 0 (when my family of functions becomes an extremum i.e.
+
+Y (x) = y(x)), giving me the equation
+                                                          dI
+                                                                 =0
+                                                          dε ε=0
+
+substituting I
+                                                 Z xb
+                                            d
+                                                        F (x, Y, Y 0 )           dx = 0
+                                            dε    xa                       ε=0
+
+The boundaries of the integral are constants. Furthermore, the integrand consists of a multivariate function whose
+
+variables can be reduced to x and ε only. The derivative, on the other hand, is with respect to ε. This implies that I
+
+can apply Leibniz integral rule given as (Haile, 2020)
+
+                                          Z xb                          Z xb
+                                     d                                           ∂
+                                                  f (x, ε)dx          =             f (x, ε)dx
+                                     dε     xa                             xa    ∂ε
+
+                                                                  6
+Moreover, I know that x is not dependent on ε, so its derivative will simply be 0. However, Y (x) and Y 0 (x) are
+
+explicitly dependent on ε, which implies after I evaluate the RHS
+
+       For x, as x is not dependent on ε      For Y                                         For Y 0
+
+                  ∂F ∂x                                      ∂F ∂Y                                    ∂F ∂Y 0
+                        =0
+                  ∂x ∂ε                                      ∂Y ∂ε                                    ∂Y 0 ∂ε
+
+
+
+Hence I obtain after applying the chain rule
+
+                                                              ∂F ∂Y 0
+                                          Z xb                                   
+                                   dI                 ∂F ∂Y
+                                      =            0+       +                               dx = 0                   (8)
+                                   dε       xa        ∂Y ∂ε   ∂Y 0 ∂ε                 ε=0
+
+                                                   0
+I can in fact obtain the expressions ∂Y
+                                     ∂ε and ∂ε from equations Y (x) and Y (x) which will allow me to simplify even
+                                            ∂Y                 0
+
+
+further. Partially differentiating equation 7 with respect to ε
+
+                                                   ∂Y   ∂y  ∂
+                                                      =    + (εη(x))
+                                                   ∂ε   ∂ε ∂ε
+
+I know that y(x) is not dependent on ε, so its derivative is 0. This implies
+
+                                                           ∂Y
+                                                              = η(x)                                                 (9)
+                                                           ∂ε
+
+I will differentiate with respect to x the equation 7 to obtain
+
+
+                                                   Y 0 (x) = y 0 (x) + εη 0 (x)
+
+
+I will also partially differentiate it with respect to ε
+
+                                                  ∂Y 0   ∂y 0  ∂
+                                                       =      + (εη 0 (x))
+                                                   ∂ε    ∂ε    ∂ε
+
+                                                           ∂Y 0
+                                                                = η 0 (x)                                        (10)
+                                                            ∂ε
+
+Substituting equations 9 and 10 to equation 8 I obtain
+
+                                            Z xb                             
+                                     dI                ∂F        ∂F 0
+                                        =                 η(x) +      η (x)             dx = 0                   (11)
+                                     dε      xa        ∂Y        ∂Y 0             ε=0
+
+
+The equation can be simplified further to obtain it in the form of Euler-Lagrange. Using integration by parts with
+
+
+
+
+                                                                 7
+respect to x where u = ∂Y 0 and v = η (x). Then I obtain that
+                       ∂F        0   0
+
+
+                                        
+                             0  d    ∂F
+                          u =              and v = η(x)
+                               dx ∂Y 0
+                                                    ∂F xb
+                          Z xb                                 Z xb         
+                               ∂F 0                                   d   ∂F
+                       =⇒         0
+                                    η (x)dx = η(x) 0           −                 η(x)dx
+                           xa ∂Y                    ∂Y    x=xa    xa dx   ∂Y 0
+
+However I know η(xa ) = 0 and η(xb ) = 0 as I have defined, implying that the evaluated expression is 0, therefore
+
+                                    Z xb                           Z xb                      
+                                           ∂F 0                               d        ∂F
+                                                η (x)dx = −                                       η(x)dx
+                                     xa    ∂Y 0                        xa    dx        ∂Y 0
+
+I will substitute this into equation 11 to obtain
+
+                                        Z xb                                               
+                                 dI                 ∂F         d            ∂F
+                                    =                  η(x) −                          η(x)             dx = 0
+                                 dε       xa        ∂Y        dx            ∂Y 0                  ε=0
+
+
+Factorising η(x)
+                                           Z xb                             
+                                  dI                     ∂F    d       ∂F
+                                     =                      −                       η(x)            dx = 0
+                                  dε           xa        ∂Y   dx       ∂Y 0                   ε=0
+
+From the definition of Y (x), that is equation 7, if I evaluate at ε = 0 then Y (x) = y(x) and Y 0 (x) = y 0 (x), so my
+
+new equation then becomes
+                                                Z xb                             
+                                     dI                   ∂F    d           ∂F
+                                        =                    −                          η(x)dx = 0
+                                     dε             xa    ∂y   dx           ∂y 0
+
+For equation 7 to represent a family of curves, I can’t let the arbitrary function η(x) = 0 otherwise variations would
+
+also not exist. This implies that the inner bracket must be 0 instead, obtaining me the Euler-Lagrange equation
+
+                                                                             
+                                                         ∂F    d       ∂F
+                                                            −                      =0                                  (12)
+                                                         ∂y   dx       ∂y 0
+
+
+Therefore, Euler-Lagrange allows me to find an extremum function defined as y(x) within the domain of the integral
+
+limits. This is done by creating a family of curves resulting from adding some arbitrary function η(x) with
+
+variational parameter ε to the extremum function y(x), obtaining Y (x). Differentiating the integral with the
+
+integrand of the functional F (x, Y, Y 0 ) (which now represents a family of curves of functionals) with respect to ε
+
+forces this functional to take shape of the extremum function y(x). This implies that the final result I obtain after
+
+applying Euler-Lagrange to the surface area of a revolution formula will be the function y(x).
+
+
+2.5   Beltrami Identity
+
+The Beltrami Identity is a special case of the Euler-Lagrange equation when some functional in the integrand
+
+F (x, y, y 0 ) is not explicitly dependent on x (by definition this is ∂F
+                                                                       ∂x = 0). I can denote such functionals as F (y, y ).
+                                                                                                                        0
+
+
+
+                                                                   8
+Since my surface area a revolution integrand is also not explicitly dependent on x in the integrand, thus I can make
+
+use of the identity to find the minimal. I can obtain the Beltrami Identity by applying the Euler-Lagrange equation to
+
+a general functional F (y, y 0 ) (Functionals leading to special cases, n.d.). Hence, I first find dF
+                                                                                                   dx through the
+
+multivariate chain rule:
+
+                           For y                                        For y 0
+
+                                       ∂F dy                                                      ∂F dy 0
+                                       ∂y dx                                                      ∂y 0 dx
+
+
+
+
+                                                       dF   ∂F dy  ∂F dy 0
+                                                 =⇒       =       + 0                                                                          (13)
+                                                       dx   ∂y dx ∂y dx
+                                                                                                                  dy
+I can apply the Euler-Lagrange equation to my functional F (y, y 0 ) if I multiply the Euler-Lagrange equation by dx
+
+on both sides, therefore
+                                                                                      
+                                                 dy ∂F   dy d                   ∂F
+                                                       −                                   =0
+                                                 dx ∂y   dx dx                  ∂y 0
+                                                                dy ∂F
+Now substituting equation 13 to the Euler-Lagrange equation for dx ∂y I get
+
+
+                                                ∂F dy 0
+                                                                                             
+                                            dF            dy d                         ∂F
+                                               − 0      −                                         =0
+                                            dx  ∂y dx     dx dx                        ∂y 0
+
+I will factor out the negative to obtain
+
+                                                      ∂F dy 0
+                                                                                            
+                                           dF                   dy d                   ∂F
+                                              −         0
+                                                              +                                       =0                                       (14)
+                                           dx         ∂y dx     dx dx                  ∂y 0
+
+I can re-write one of the inner derivatives as the following
+
+                                                                                dy 0
+                                                                       
+                                                         d         dy
+                                                                            =
+                                                        dx         dx           dx
+
+as y is a function which is only dependent on x. Using this information I can write the equation 14 as
+
+                                                                                                 
+                                    dF           ∂F d          dy         dy d                ∂F
+                                       −                                +                                 =0                                   (15)
+                                    dx           ∂y 0 dx       dx         dx dx               ∂y 0
+
+                                                                                                                            
+                                                                                                                   dy ∂F
+It became evident that the expression inside the bracket is actually the product rule of dx
+                                                                                          d
+                                                                                                                   dx ∂y 0       , implying that we
+                                                                      dy
+can simply our expression even further. We can confirm by letting u = dx and v = ∂y
+                                                                                 ∂F
+                                                                                    0 , then
+
+
+                                                                                                   
+                                             0   d         dy               0 d                ∂F
+                                            u =                          v =
+                                                dx         dx                dx                ∂y 0
+
+
+                                                                    9
+                                                                                                            
+                                       d       dy ∂F              ∂F d          dy           dy d         ∂F
+                               =⇒                             =                          +
+                                      dx       dx ∂y 0            ∂y 0 dx       dx           dx dx        ∂y 0
+
+Hence for equation 15 I can re-express it as
+
+                                                                                
+                                                  dF    d              dy ∂F
+                                                     −                               =0
+                                                  dx   dx              dx ∂y 0
+
+I notice that the expression above is in fact an expression that was differentiated with respect to x all throughout,
+
+therefore I can simplify by writing
+                                                                     
+                                                      d       dy ∂F
+                                                           F−           =0
+                                                     dx       dx ∂y 0
+
+And I can even further simplify if I integrate everything with respect to x
+
+                                           Z                                           Z
+                                                 d          dy ∂F
+                                                         F−                   dx =           0dx
+                                                dx          dx ∂y 0
+
+Which after integration I obtain that for some arbitrary constant C:
+
+                                                                  dy ∂F
+                                                          F−              =C                                         (16)
+                                                                  dx ∂y 0
+
+Which is the Beltrami Identity, reduced version of the Euler-Lagrange equation that I can use since my surface area
+
+of a revolution integrand is not dependent on x, granting me a simpler way to solve my question.
+
+
+
+3     The Problem Of Minimal Surface Area Of A Revolution
+
+3.1   The Extrema Of A Surface Area Of A Revolution
+
+Indeed, due to my problem, I am looking to minimise the surface area of a revolution equation 2, therefore I am
+
+looking to apply the Euler-Lagrange equation. Indeed, the surface area of a revolution equation is not dependent on
+
+x, hence I could write it as                                            s                   2
+                                                          0                          dy
+                                               F (y, y ) = y(x)             1+
+                                                                                     dx
+
+Hence I will use the Beltrami identity in order to compute its extrema as planned. I first compute
+                                                                    s                            
+                                                                                            2
+                                           ∂F          ∂                             dy
+                                              0
+                                                = y(x) 0                   1+                    
+                                           ∂y         ∂y                             dx
+
+
+                                                                                 dy
+                                                      ∂F
+                                               =⇒          = y(x) r dx 
+                                                      ∂y 0             dy
+                                                                          2
+                                                                   1 + dx
+
+
+                                                                    10
+Applying the Beltrami Identity (equation 16) I obtain
+
+                                                                                         2
+                                                                                     dy
+                                          s                2
+                                                       dy                            dx
+                                     y(x) 1 +                        − y(x) r                  2 = C
+                                                       dx                             
+                                                                                          dy
+                                                                                1+        dx
+
+
+                                                                           q
+                                                                                    2
+                                                                            1+( dy )
+Factorising y(x) and multiplying the left expression inside the bracket by q dx dy 2
+                                                                                      to express it as a single fraction
+                                                                            1+( dx )
+
+                                                              2                  2        
+                                                           dy                   dy
+                                           1+             dx                  dx
+                                     y(x)       2 − r    2  = C
+                                                                
+                                          r
+                                                 dy         dy
+                                             1 + dx     1 + dx
+
+
+                                                                   y(x)
+                                                   =⇒ r               2 = C
+                                                                      dy
+                                                                 1 + dx
+
+                                                          dy
+In fact, this is a hidden differential equation if I make dx the subject that I have to solve If I want to obtain a clear
+
+result of my findings. Raising everything to 2 I get
+
+                                                         y 2 (x)    2
+                                                            2 = C
+                                                              dy
+                                                       1 + dx
+
+                          dy
+And hence rearranging for dx
+                                                                   dy 2
+                                                                     
+                                                   2                  2
+                                                y (x) = C + C
+                                                                   dx
+                                                  p
+                                                    y 2 (x) − C 2   dy
+                                                                  =
+                                                         C          dx
+
+The ± is absorbed by the constant C. This is a separable differential equation, therefore
+
+                                                   dx      dy
+                                                      =p
+                                                   C    y (x) − C 2
+                                                         2
+
+
+                                               Z                 Z
+                                                   dx                     dy
+                                                      =               p                                                 (17)
+                                                   C                   y (x) − C 2
+                                                                        2
+
+
+Whilst the right hand side could be solved with u substitution by letting y(x) = C tan(u) to obtain an integrand of
+
+sec(u), the solution is non-trivial and complex. Instead, I will use my defined hyperbolic trigonometric identity for a
+
+u substitution (equation 3). Let
+
+                                                       y(x) = C cosh(u)                                                 (18)
+
+
+
+                                                                      11
+                                                         dy
+                                                =⇒          = C sinh(u)
+                                                         du
+
+Substituting in the integral and factoring out C in the denominator
+
+                                               Z
+                                                      C sinh(u)
+                                                     q              du
+                                                    C cosh2 (u) − 1
+
+Using my identity (equation 3) for the denominator and simplifying I obtain
+
+                                                   Z
+                                                         C sinh(u)
+                                                         q         du
+                                                                2
+                                                        C sinh (u)
+
+                                                         Z
+                                                             du = u
+
+Solving for u from my substitution in equation 18
+
+                                                                       
+                                                                 y(x)
+                                                   arcosh                   =u
+                                                                  C
+
+Thus I obtain the solution
+                                        Z                                                
+                                                   dy                              y(x)
+                                            p              = arcosh
+                                             y 2 (x) − C 2                          C
+
+Substituting the integral and solving equation 17
+
+                                                                                  
+                                              x                             y(x)
+                                                + h = arcosh
+                                              C                              C
+
+Where h is the constant of integration. Finally rearranging for y(x) I obtain
+
+                                                         x         
+                                              C cosh             + h = y(x)
+                                                             C
+
+Therefore the above equation is the extrema function y(x) from equation 7 for my particular example of the surface
+
+area of a revolution.
+
+
+3.2   Analysing The Obtained Equation with Soap Film
+
+Well, but what does this really mean? What does the cosh(x) really tell me for my soap film? Since the cosh(x)
+
+function is even, I can force my equation C cosh Cx + h to be even too if I let h = 0, that is, I will force the
+                                                       
+
+symmetry to occur at x = 0 to make the investigation and interpretation easier. Then, if I was to restrict the domain
+
+with some number α where α ∈ R such that the domain is [−α, α], the left side ”end” (where x = −α) must be
+
+
+                                                                 12
+identical with the right side ”end” (where x = α) from cosh(α) = cosh(−α), therefore I can assume these ”ends”
+
+also have identical (same radius) frustums of infinitesimal width after rotating the function 360◦ along the x axis.
+
+The C cosh Cx function in the domain [−α, α], then, should be hypothetically mimicked by the soap film if I was to
+               
+
+sandwich it between two pair of identical real life rings. That is, these rings will force the soap film to take the same
+
+properties of C cosh Cx as these rings will help replicate the fact that cosh(α) = cosh(−α). Therefore, in order to
+                       
+
+investigate this hypothesis, I have cut multiple water pipes of different radius with a saw blade to get approximately the
+
+same thickness, and precisely the same radius pairs of rings to investigate. I was able to create a total of 8 rings of 4
+
+distinct radii, which I will denote as ri where i ∈ {1, 2, 3, 4}. Specifically, these radii are r1 = 1.35cm, r2 = 1.10cm,
+
+r3 = 0.85cm and r4 = 0.65cm. To investigate the equation, however, I have selected r1 as its radii is the biggest thus
+
+the easiest to see. The outcome of the investigation to test the hypothesis can be seen in Figure 4 below, a graph with
+
+a photo which I took as I investigated and compared with the function C cosh Cx :
+                                                                                    
+
+
+
+
+     Figure 4: Real life catenoid picture on an axis with function C cosh     x
+                                                                                      (Desmos Graphing Calculator, 2011)
+                                                                                  
+                                                                              C
+
+
+
+The constant C for the image above was found using trial and error, in particular, for the measured distance α ≈ 0.87,
+
+it is C ≈ 0.9. As hypothesised, the soap film is the rotated function C cosh( Cx ) for 360◦ around the x axis in the
+
+interval [−α, α], representing a ”catenoid”, the 3D rotated variant of the function. However, whilst I have found
+
+an expression for a specific value of α, I am looking to apply it to my soap film for all α, as I seek to uncover its
+
+mathematical behaviour for all cases of α. To do this algebraically, I have noticed that I can apply my soap film to
+
+this equation from the α that I have denoted. I know that for the distance x = α I will always have y = 1.35 as seen
+
+in figure 4, as the height is y is bounded by the radius of the rings at that point. Hence, for my soap, the following
+
+equation holds true
+                                                                  α
+                                                  1.35 = C cosh                                                      (20)
+                                                                    C
+
+
+
+                                                           13
+Now reducing the equation to only α and C, I can begin analysing for what values of α and C I can obtain an answer
+
+of 1.35 by graphing equation 20 so I can effectively solve for my C for any α value
+
+
+
+
+                                            Figure 5: Graph of 1.35 = C cosh( C
+                                                                              α
+                                                                                ) (Desmos Graphing Calculator, 2011)
+
+
+This shows me all the possible value of α with its C values, and the first thing I notice is that we do not have solutions
+
+for all α ∈ R and I have a maximum attainable α value which I want to find and test out in real life. I first denote that
+
+for any ri its corresponding α maximum coordinates to be (αi , Cαi ). Thus, in the figure above, Cα1 was denoted to
+
+be the corresponding C value for α = α1 of the equation. Notice that from the definition of the equation, at C = 0 the
+
+graph becomes discontinuous, as C 6= 0. Moreover, the above figure shows me that for |α| < α1 I have 2 solutions,
+
+and for |α| > α1 I have no solutions, therefore finding the value of α1 may be crucial in finding the breaking distance
+
+for my soap films, as solutions do not exist for the radius after the distance |α| > α1 . To find this value, I will implicitly
+
+differentiate with respect to α as the gradient of the tangent is undefined at α1 . Let u = C and v = cosh( C
+                                                                                                            α
+                                                                                                              ), then
+
+                                               dC                 α  C − α dC
+                                        u0 =      and v 0 = sinh      ·      dα
+                                               dα                  C     C2
+
+Finalising the product rule
+                                            α  C − α dC       dC        α
+                                                       dα
+                                    sinh        ·         · C +    · cosh     =0
+                                             C     C2           dα         C
+
+Re-arranging to make dC
+                     dα the subject
+
+
+                                      dC α       α  dC       α          α
+                                  −        sinh      +    cosh     = − sinh
+                                      dα C        C    dα       C            C
+
+                                                                α
+                                                                  
+                                             dC         − sinh C
+                                                = α        α
+                                                                             α
+                                                                                  
+                                             dα  − C sinh C    + cosh         C
+
+If I set the denominator 0, I will find all points where the gradients are undefined (or m → ∞ where m is the gradient
+
+of the tangent). Hence
+                                                       α              α
+                                             −α sinh         + C cosh         =0                                          (21)
+                                                       C                 C
+
+Well, but what does this mean? This is a very, very interesting result. I know that the catenoid equation must be equal
+
+to the radius ri of the rings. However, radius, which is a constant and the boundary condition of my equation, does not
+
+                                                              14
+affect the derivative. This means that the derivative of the catenoid equation must apply to all catenoids with different
+
+radii, that is, it must show the solution to all possible maximum distances x = α of different ri . Consider Figure 6
+
+with different ri = C cosh C   α
+                                   and equation 21 to visualise this relationship:
+                                 
+
+
+
+
+     Figure 6: Graphs of ri = C cosh( C
+                                      α
+                                        ) and −α sinh( C
+                                                       α             α
+                                                         ) + C cosh( C ) = 0 (Desmos Graphing Calculator, 2011)
+
+
+Finding the intersections between equation 21 and the catenoid equation is not solvable by hand, as isolating α or C
+
+is not possible. Solving for the 2 using technology for all ri grants me the solutions for αi in the table below. To test
+
+whether the hypothesised αi breaking distance is the same, I have recorded the breaking distances of my soap film
+
+in real life using a high-res camera and slow motion. The recorded distance was denoted to be βi (By measuring the
+
+distance between two rings and dividing by 2 on the breaking frame. See Appendix A for the recordings).
+                                                                       |αi −βi |
+                                      i    ri        αi          βi       αi     · 100
+                                      1   1.35    0.894704      0.90      0.59%
+                                      2   1.10    0.729018      0.75      2.88%
+                                      3   0.85    0.563332      0.55      2.37%
+                                      4   0.65    0.430783      0.45      4.46%
+
+ Table 1: Recorded results of breaking point distance (βi ), hypothesised breaking distance (αi ) and percentage error
+
+
+    The evaluation of these results can be found in section 4. Whilst I was able to find an equation to solve for all
+
+αi and the breaking distance, I have yet to understand why for any distance |α| < αi I have 2 solutions. Since the
+
+Euler-Lagrange does not show the nature of the extrema, it is possible that one solution is a minima, whilst the other
+
+is a maxima. I can test out for which solution of C resembles my soap film, as I know that soap film mimics minimal
+
+surfaces, which will allow me to negate one of the solutions. To do this, I will consider a arbitrary distance such
+
+as α = 0.5, and analyse how different C compute the equation y(x) = C cosh Cx (Introduction to the calculus of
+                                                                                  
+
+variations, 2016, p.45-46). Using technology, I find that the following are the possible solutions for C when α = 0.5:
+
+
+                                                 C ≃ 0.187988, 1.24854
+
+
+I graph the function with these C values (graphs of y = 0.187988 cosh( 0.187988
+                                                                           x
+                                                                                ) and y = 1.24854 cosh( 1.24854
+                                                                                                           x
+                                                                                                                )) in
+
+                                                           15
+the domain of [−0.5, 0.5] as I have chosen from α = 0.5, to see how my soap film shape differs with both C
+
+
+
+
+     Figure 7: Graph of y = 0.187988 cosh( 0.187988
+                                               x
+                                                    ) and y = 1.24854 cosh( 1.24854
+                                                                               x
+                                                                                    ) in the domain [−0.5, 0.5]
+                                                                             (Desmos Graphing Calculator, 2011)
+
+
+It is now possible to see from Figure 7 that for larger C, the function arc length is smaller than the other C solution
+
+function. Moreover, the shape with C = 1.24854 largely corresponds with the shape in my photo if it is rotated 360◦
+
+around the x axis! Thus, I can deduce that for values of C > Cαi it is a minimal.
+
+
+
+4    Evaluation and Conclusion
+
+The function that I’ve found to express soap films between rings and find the breaking distance shown in table 1
+
+seems to be accurate through real life testing! However, deviations in results in the table can occur from factors such
+
+as thickness of the rings that I have used, the surrounding air pressure or even the concentration of the soap solution.
+
+For a more accurate model in computers, these would also have to be mathematically defined. Moreover, given that
+
+I’ve used a ruler to both measure the radius and the distance between the rings, I was prone to parallax error, as well
+
+as limited accuracy of measurement to 1 decimal point. Despite this, however, my equation to solve for αi for any ri
+
+seems to be a rather good approximation for the breaking distance βi in room conditions. This means that I can use
+
+equation 20 whilst restricting the value of my C to be C ≥ Cαi for some distance α to then compute C and thus find a
+
+function that would represent the soap film for that particular value of α, and finally rotate that function 360◦ around
+
+the x axis to obtain the final simulation.
+
+However, equation 21 also caught my eye as it seems that its relationship is almost linear as seen in figure 6, therefore
+
+it is worth considering and checking whether all αi of their respective ri follow some linear equation and thus a
+
+ratio. This can be useful in the future for optimisation of my model, as the computer will simply have to downscale
+
+and upscale the breaking distance for some constant, without having to compute each solution for catenoid using the
+
+equation of the derivative which can take significantly more processing power.
+
+The main tool of this investigation which I had to learn and use, the Euler-Lagrange equation, undoubtedly brings many
+
+opportunities for me to further define even more mathematical relationships for modeling. One of such mathematical
+
+relationships is the newly introduced Ray Tracing technology in graphics. This technology is defined through Snell’s
+
+law, which is also derived from the Euler-Lagrange equation and Fermat’s principle (light always seeks minimal path).
+
+                                                           16
+References
+
+Areas of surface of revolution [Online].    (2019).   Retrieved 2020-11-19, from https://math.libretexts
+
+     .org/Courses/University of California Davis/UCD Mat 21B%3A Integral Calculus/
+
+     6%3A Applications of Definite Integrals/6.4%3A Areas of Surfaces of Revolution                     (The
+
+     LibreTexts libraries are Powered by MindTouch® and are supported by the Department of Education Open
+
+     Textbook Pilot Project, the UC Davis Office of the Provost, the UC Davis Library, the California State
+
+     University Affordable Learning Solutions Program, and Merlot. We also acknowledge previous National
+
+     Science Foundation support under grant numbers 1246120, 1525057, and 1413739. Unless otherwise noted,
+
+     LibreTexts content is licensed by CC BY-NC-SA 3.0. Legal.)
+
+Desmos graphing calculator [Online].       (2011).    Retrieved 2020-08-12, from https://www.desmos.com/
+
+     calculator
+
+The Euler-Lagrange Equation, or Euler’s Equation [Online]. (n.d.). Retrieved 2020-08-04, from https://www.ucl
+
+     .ac.uk/~ucahmto/latex html/chapter2 latex2html/node5.html#tex2html2
+
+Functionals leading to special cases [Online]. (n.d.). Retrieved 2020-08-04, from https://www.ucl.ac.uk/
+
+     ~ucahmto/latex html/chapter2 latex2html/node8.html
+Geogebra 3d calculator [Online]. (2011). Retrieved 2020-08-04, from https://www.geogebra.org/3d?lang=en
+
+Ghrist, R. (2016). Single Variable Calculus | University of Pennsylvania [MOOC]. Retrieved 2020-08-01, from
+
+     https://repository.upenn.edu/discrete calculus/index.2.html
+
+Haile, P. (2020, February). Differentiating an Integral [Online]. Retrieved 2020-08-03, from http://www.econ
+
+     .yale.edu/%7epah29/409web/leibniz.pdf
+
+Introduction to the calculus of variations [PDF].        (2016).   Open University.   Retrieved 2020-08-01,
+
+     from https://www.open.edu/openlearn/ocw/pluginfile.php/1118521/mod resource/content/
+
+     3/Introduction%20to%20the%20calculus%20of%20variations ms327.pdf
+
+Weisstein, E. W. (n.d.). Hyperbolic Functions [Online]. Retrieved 2020-08-06, from https://mathworld.wolfram
+
+     .com/HyperbolicFunctions.html (Publisher: Wolfram Research, Inc.)
+
+
+
+
+                                                       17
+Appendices
+
+A    Recordings of Breaking Distances αi
+
+For the availability, privacy, and security of these videos, the recordings were uploaded and are available as unlisted.
+
+These were uploaded using an anonymous YouTube account.
+
+Recording using r1 rings for α1
+
+https://youtu.be/u1CGKfzeXLw
+
+
+
+Recording using r2 rings for α2
+
+https://youtu.be/A8n7OSjcINY
+
+
+
+Recording using r3 rings for α3
+
+https://youtu.be/gj7ul-aR6Rg
+
+
+
+Recording using r4 rings for α4
+
+https://youtu.be/4wBY77QKvWs
+
+
+
+
+                                                          18
+

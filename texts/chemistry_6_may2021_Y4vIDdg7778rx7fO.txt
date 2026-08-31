@@ -1,0 +1,718 @@
+Chemistry Internal Assessment:
+
+Factors affecting the enthalpy of combustion values of alcohols:
+
+Background & Introduction:
+
+The idea for this investigation came about when I was studying about organic chemistry in
+
+class. We learnt the relation of the enthalpy of combustion1 values with the homologous
+
+series2. Various factors are taken into consideration but one of these aspects that really
+
+interested me, was to link to the position of these functional groups3 and the number of
+
+carbon atoms and their effect on the enthalpies of combustion values. So, I decided to take up
+
+the functional group of alcohols and research about the effects that these 2 factors have on the
+
+enthalpy of combustion values and the appropriate reasons for the same.
+
+
+
+In this research, for analysing the effects of the position of the hydroxyl group, I have chosen
+
+to investigate different types of alcohols, falling into the three categories primary, secondary
+
+and tertiary4. I have chosen to take the isomers of 3 compounds, them being, Propanol
+
+Isomers, Butanol Isomers and Pentanol Isomers. Additionally, I will also be evaluating how
+
+there are significant changes in the enthalpy values in primary alcohols itself. The number of
+
+carbon atoms will then be taken into consideration. Why I have chosen to take these
+
+compounds is because of the significant changes in the enthalpy values for both the factors
+
+that I will be talking about.
+
+
+
+My aim in this investigation would be to find out how factors like an increase in carbon
+
+atoms, and changes in the position of the hydroxyl group effect the enthalpy of combustion
+
+
+
+1
+  Refer to Appendix 2 – Important definitions
+2
+  Refer to Appendix 2 – Important definition0073
+3
+  Refer to Appendix 2 – Important definitions
+4
+  Refer to Appendix 2 – Important definitions
+
+1|Page
+values. By comparing and analysing the appropriate data of the combustion values of each of
+
+these alcohols, I will state a hypothesis according to the data that I collect and evaluate
+
+effectively in my IA.
+
+Research Question:
+
+How does the position of the hydroxyl group effect the enthalpy of combustion values of
+
+alcohols?
+
+How does the number of carbon atoms effect the enthalpy of combustion values of alcohols?
+
+
+
+Hypothesis:
+
+I hypothesize that by changing the position of the hydroxyl group in each type of alcohol,
+
+from primary secondary and tertiary, the enthalpy of combustion will increase. This is
+
+because strong bonds require higher energies to be broken down than weak bonds so it can be
+
+said that more energy would be released during an exothermic reaction of tertiary alcohols
+
+than primary alcohols. Hence the enthalpy values will rise as we move down the homologous
+
+series.
+
+Moreover, I also hypothesize that by increasing the number of carbon atoms, the value for
+
+enthalpy of combustion will increase. This is because, as the number of carbon atoms
+
+increases, the number of bonds that need to be broken and formed increases. For this to take
+
+place, more heat energy is required and hence the enthalpy of combustion values increase.
+
+For example, methanol has a lower enthalpy of combustion value than pentanol because
+
+methanol has fewer number of carbon atoms and hence less energy is required to break down
+
+the bonds than in pentanol, thereby having a lower enthalpy value than pentanol.
+
+
+
+
+2|Page
+Methodology:
+
+In this research I will be using data from various databases and with graphical representations
+
+I will analyse the data from the different sources and take a close look at the uncertainties that
+
+they contain and how the 2 factors mentioned above, the position of the hydroxyl group and
+
+the number of carbon atoms, affect the values of enthalpy of combustion.
+
+The independent variables for this investigation are the isomers (of the compounds; propanol,
+
+butanol and pentanol) and the number of carbon atoms (from 1 carbon atom to 6 carbon
+
+atoms i.e., methanol to hexanol). The dependent variable in this research is the enthalpy of
+
+combustion of alcohol.
+
+The control variables that I will be considering is the functional group – alcohols. The main
+
+reason why I chose to investigate specifically on alcohols is because there is a wide range of
+
+data available for its compounds and it is easier to compare between the isomers of different
+
+compounds.
+
+I will be comparing data from 4 sources, them being:
+
+      1. NIST Webbook
+
+      2. UCSDB
+
+      3. Nvlpubs – Bureau of Standards Journal of Research
+
+      4. MIT- Research Paper
+
+Using data from these sources I will analyse the raw data and find out uncertainties and I will
+
+analyse my findings and give justified reasoning. For comparing the values of the heat of
+
+combustion and how they are affected by changes in the position of the hydroxyl group, I will
+
+be looking at the isomers of 3 compounds5 :
+
+           a. Propanol Isomers
+
+           b. Butanol Isomers
+
+
+5
+    Refer to Appendix 1
+
+3|Page
+       c. Pentanol Isomers
+
+
+To analyse the effects of the number of carbon atoms on the enthalpy of combustion values,
+
+on top of propanol, butanol and pentanol, I will also be taking the enthalpy values of
+
+methanol and ethanol into consideration for further and effective analysis.
+
+Justification of selected database:
+
+   1. NIST Webbook was the first preference for the source of data because it is an
+
+       accredited site of the National institute of science and technology and the website is
+
+       owned by the US government itself. The data present is also there for many years
+
+       which makes it a much more reliable source for data.
+
+   2. The UCSDB is a good source of data. Additionally, finding all the relevant enthalpy
+
+       of combustion values was also easy.
+
+   3. The nvlpubs research paper is a very detailed and old research paper from the Bureau
+
+       of Standards Journal of Research which again makes it a reliable source to take data
+
+       from.
+
+   4. The last source of data that I have used for this research is the research paper
+
+       published by MIT – Massachusetts Institute of Technology, why I chose this research
+
+       paper is because it is from one of the most well-known universities in the US, and
+
+       secondly all the data available was easy to collect and analyse.
+
+Background Information:
+
+Alcohols are organic compounds part of the homologous series and they are hydrocarbons
+
+containing the OH group. These compounds contain only Hydrogen, Oxygen and Carbon
+
+atoms. There is a positive relationship between the number of carbon atoms and the enthalpy
+
+of combustion values. Due to the increasing number of carbon atoms the bonds get stronger
+
+as we go down through the series from methanol, to ethanol, to propanol. To break and form
+
+bonds a higher energy is required. Combustion is a reaction where energy and heat are
+
+4|Page
+released, and because there is more energy in the products than there is in the reactants, the
+
+value of enthalpy is negative, suggesting that it is an exothermic reaction.
+
+Talking about the isomers I have chosen for this research. Structural Isomers6 as defined in
+
+the appendix, have the same chemical formula but different structural formulas. The
+
+arrangement of the position of the hydroxyl group, in this case (OH) is different. As
+
+mentioned before, the position of the hydroxyl group affects the enthalpy of combustion
+
+values.
+
+
+
+Propanol has 2 isomers:
+
+       -   1-propanol and Iso-propanol which are both primary alcohols
+
+Butanol has 4 isomers, them being:
+
+       -   (n) butanol and Iso butanol are primary alcohols.
+
+       -   Sec-butanol is a secondary alcohol
+
+       -    Tert-butanol is a tertiary alcohol.
+
+
+Although Pentanol has 8 isomers, I will be considering the enthalpy of heat data for only the
+
+first 7 below due to insufficient data about the 8th isomer of Pentanol (neopentanol):
+
+       -   Pentan-1-ol, 2-methylbutan-1-ol and 3-methylbutan-1-ol are primary alcohols.
+
+           Pentan-2-ol, Pentan-3-ol, 3-methylbutan-2-ol are secondary alcohols.
+
+       -   2-methylbutan-2-ol is a tertiary alcohol
+
+       -   2,2-dimethylpropan-1-ol/neopentanol, a primary alcohol (data not considered below)
+
+Raw Data:
+
+
+
+
+6
+    Refer to Appendix 2 – Important definitions
+
+5|Page
+             All values of raw data are at 25 degrees Celsius and all compounds are in the liquid state, also
+
+             units are in kJ/mol. Additionally, all values are in negative because combustion of heat is an
+
+             exothermic process.
+
+
+
+                1. For the position of the hydroxyl group:
+
+
+
+                                                     NIST Web Book             MIT Research Paper       NVL Pubs –
+
+                                                                                                        Research Paper
+
+Compound               Isomer of     Position of   Enthalpy     Uncertai   Enthalpy       Uncertainty   Enthalpy values
+
+                       which         Hydroxyl      values       nty        values                       kJ/mol
+
+                       compound      Group         kJ/mol                  kJ/mol
+
+1- propanol            Propanol      Primary       -2021.31     ± 0.25     -2028.19       0.005-0.05          -2000.40
+
+Iso-propyl             Propanol      Secondary     -2006.90     ± 0.20     -2005.98       0.005-0.05          -1985.60
+
+n-butanol              Butanol       Primary       -2670.00     ± 0.20     -2673.58       0.005-0.05          -2674.40
+
+Iso-butanol            Butanol       Primary       -2669.60     ± 0.59     -              0.005-0.05          -2668.90
+
+Sec-butanol            Butanol       Secondary     -2660.60     ± 0.54     -2660.61       0.005-0.05             -
+
+Tert-butanol           Butanol       Tertiary      -2644.00     ± 0.79     -              0.005-0.05          -2631.70
+
+Pentan-1-ol            Pentanol      Primary       -3330.91     ± 0.28     -3324.61       0.005-0.05          -2393.30
+
+Pentan-2-ol            Pentanol      Secondary     -3315.40     ± 0.67     -3315.57       0.005-0.05             -
+
+Pentan-3-ol            Pentanol      Secondary     -3312.30     ± 0.46     -3312.39       0.005-0.05             -
+
+2-methylbutan-1-ol     Pentanol      Primary       -3325.9      ± 0.54     -3326.11       0.005-0.05             -
+
+2-methylbutan-2-ol     Pentanol      Tertiary      -3303.10     ± 0.46     -3303.18       0.005-0.05             -
+
+
+3-methylbutan-1-ol     Pentanol      Primary       -3326.20     ± 0.50     -3326.32       0.005-0.05             -
+
+3-methylbutan-2-ol     Pentanol      Secondary     -3315.10     ± 0.63     -3216.11       0.005-0.05             -
+
+
+
+
+             6|Page
+                2. For the number of carbon atoms:
+
+
+                                                      UCDSB            NIST Web Book            MIT Research Paper
+
+Compound        The no of           Formula        Enthalpy of      Enthalpy of     Uncertain        Enthalpy of
+
+                  carbon                           Combustion       Combustion         ty       Combustion values/ Hcø
+
+                  atoms                              values/ Hcø    values/ Hcø                          kJ/mol
+
+                                                       kJ/mol         kJ/mol
+
+ Methanol            1             CH3OH(l)            -726.0         -725.7          ± 0.1              -726.13
+
+ Ethanol             2          CH3CH2OH(l)           -1367.3         -1367.6         ± 0.3              -1367.54
+
+1-Propanol           3         CH3CH2CH2OH(l)         -2021.0        -2021.31        ± 0.25              -2028.19
+
+1-Butanol            4       CH3(CH2)2CH2OH(l)        -2675.6         -2670.0        ± 0.20              -2673.58
+
+1-Pentanol           5       CH3(CH2)3CH2OH(l)        -3328.7        -3330.91        ± 0.28              -3324.61
+
+1-Hexanol            6       CH3(CH2)4CH2OH(l)        -3983.8        -3984.37        ± 0.44              -3982.33
+
+
+
+            Uncertainty in raw data:
+
+            The raw data values have an average uncertainty ranging from about ± 0.20 to ± 0.8, and the
+
+            values are accurate to two decimal places. Wherever there were a range of values mentioned I
+
+            used the values with the lowest uncertainty values. For the calculation of values from the
+
+            MIT research paper, the units were in kcal/mol, to make comparison easier the values have
+
+            been converted to kJ/mol using an online converting tool, thereby bringing room for a few
+
+            more uncertainties in these values.
+
+
+
+            Evaluation of data sources:
+
+            The data sources used for this research are evaluated by comparing a smaller sample size of
+
+            the data and eliminating the values that deviate largely from the other sources and the ones
+
+            that don’t fit the trend.
+
+            7|Page
+                                           Table 1
+
+
+
+
+                                           Table 2
+
+
+
+
+As seen in the data for the number of carbon atoms (Table 1) from the sources above,
+
+UCDSB, NIST Web Book and the Research paper, the values for a sample size of 3
+
+alcohols(Methanol, Ethanol, and 1-propanol) are very similar and follow the same trend. In
+
+the same compound the enthalpy of combustion value between the 3 data sources is quite
+
+minuscule. These changes could be caused due to a few human errors while recording the
+
+values or they can also be caused by the usage of different methods to conduct the experiment
+
+by each source.
+
+Moreover, looking at the data for the changes in the position of the hydroxyl group (Table 2),
+
+it can be observed that the data values from the MIT research paper and the NIST Web Book
+
+follow the trend with slight deviations of maximum 7 kJ/mol between them and this
+
+difference could be due to the use of different methods for finding the values of the enthalpy
+
+of combustion. Slight changes could also be caused by human errors. However, the values
+
+8|Page
+from the NVL pubs data have large variations if compared to the other 2 sources. It is
+
+approximately differing by 20 kJ/mol and due to this inconsistency in the values, I have
+
+eliminated this data source for the analysis below.
+
+Analysis: Part (i) The effect that changes in the position of the hydroxyl group have in
+
+enthalpy of combustion values.
+
+Primary Alcohols:
+
+
+
+
+Secondary Alcohols:
+
+
+
+
+9|Page
+Tertiary Alcohols:
+
+
+
+
+If we compare the data between the 3 charts of primary, secondary and tertiary alcohols
+
+respectively, it can be inferred that the enthalpy of combustion value increases as we move
+
+down the homologous series. Starting off at about 2000 kJ/mol for a primary alcohol, the
+
+value increases to approximately 3000 kJ/mol for a tertiary alcohol. This increase in enthalpy
+
+is due to the increased bond strength of compounds as we move down the homologous series.
+
+As we move from primary to secondary and lastly tertiary alcohols, the number of bonds
+
+formed also increases and hence the value of enthalpy of combustion increases because more
+
+energy is required to break these new bonds. For instance, to break one additional C-H bond,
+
+the heat energy required is 414 kJ/mol. Therefore, because tertiary alcohols have a greater
+
+number of C-H bonds than primary alcohols, the enthalpy of combustion value increases
+
+down the series.
+
+However, the data does not clearly show a significant or rising increase as we move through
+
+the three types of alcohols and the data chart plotted against the number of carbon atoms
+
+below is a much clearer interpretation of the data. Thus, this could be an area for further
+
+study.
+
+
+
+
+10 | P a g e
+Part (ii) Effect of the number of carbon atoms on the enthalpy of combustion values:
+
+
+
+
+In graph 2, we can see the relationship between the enthalpy of combustion values and the
+
+number of carbon atoms, and it is evident that an increase in carbon atoms increases the heat
+
+of combustion values. The values in all the three databases that were plotted have more or
+
+less overlapped each other due to slight differences in between them. The line graph depicts a
+
+linear relationship with little anomaly from a few data values, thereby ensuring the accuracy
+
+of this analysis.
+
+As mentioned in the hypothesis, as the number of carbon atoms increase in an organic
+
+compound, the heat energy required to break and form bonds increases and hence the heat of
+
+combustion also increases. It will take more heat energy to break the extra bonds as you add
+
+one more carbon atom to each consecutive compound. The positive sloping graph shows the
+
+relation between the number of carbon atoms and the heat of combustion of the organic
+
+compounds. Right from methanol to hexanol, the Hcø values rise from 725 kJ/mol to 3984
+
+kJ/mol, which is approximately a percentage increase of 450%.
+
+
+
+Part (iii) Graph for uncertainties
+
+11 | P a g e
+                                                                                     7
+
+
+The graph above shows the uncertainty in the values taken from the NIST Web book, since I
+
+was only able to find uncertainties for this particular database, I could not include the other
+
+databases in this graph. It can be inferred from the graph above that the heat of combustion
+
+values used from the NIST web book, especially for the values of the compound, n-butanol
+
+range in accuracy from ± 0.2 to 0.79. This tells us that the values are precise and thus
+
+improves the results and analysis done in this investigation.
+
+
+
+Conclusion:
+
+The result obtained helps us provide evidence to support the hypothesis as both the changes
+
+in the position of the hydroxyl group and the number of carbon atoms effect the enthalpy of
+
+heat values. To be able to answer both the parts of the research question stated above –
+
+       1. Changes in the position of the hydroxyl group by changing the number and position of
+
+           carbon atoms from primary alcohols to secondary and tertiary has shown an increase
+
+           in the enthalpy values.
+
+       2. There is a positive sloping relationship between the number of carbon atoms and the
+
+           enthalpy of combustion. As the number of carbon atoms increase from 1 to 6, the
+
+           enthalpy of heat rises significantly from 700 kJ/mol to 4000 kJ/mol. This is because
+
+
+
+
+7
+    (Afeefy, Liebman and Stein)
+
+12 | P a g e
+        an increase in carbon atoms means that the number of bonds broken or formed also
+
+        increases.
+
+    Hence, these conclusions form a basis to thereby answer the research question for this
+
+    investigation.
+
+
+
+Further Investigation:
+
+These two questions have not been answered in this research and hence can be the basis for
+
+further study.
+
+    1. Investigating the effect of bond chain length on the enthalpy of combustion
+
+        values.
+
+    2. Investigating the effect of boiling and melting points of homologous series on the
+
+        enthalpy of combustion values.
+
+
+Bibliography
+Afeefy, Hussein Y., Joel F. Liebman and and Stephen E. Stein. Neutral Thermochemical
+        Data. 2018. Eds. P.J. Linstrom and W.G. Mallard. WebBook. October 2020.
+Boudreaux. Alcohols - Organic Chemistry. n.d. October 2020.
+        <https://www.angelo.edu/faculty/kboudrea/molecule_gallery/05_alcohols/00_alcohol
+        s.htm>.
+Derry, Lanna, et al. Chemistry for use with the IB Diploma Programme - Standard Level.
+        Melbourne: Pearson Education Australia, 2008. Document.
+Education, Owlcation -. Butanol Isomer Structure. 17th December 2016. November 2020. <
+        https://owlcation.com/stem/Heat-Energy-produced-by-Fuel-Butanol-and-its-
+        Isomers>.
+EndMemo. n.d. 23 October 2020.
+GCSE Science - Products of oil. 2015. Html page. 17 October 2020.
+H. A. Skinner, A. Snelson. "The heats of combustion of the four isomeric butyl alcohols."
+        Transactions of the Faraday Society (1960): 1776-1783. Paper.
+Owen, Steve. Chemistry for the IB Diploma. 2nd. Cambridge University Press, 2014.
+        Document.
+Rossini, Frederick D. "HEATS OF COMBUSTION AND OF FORMATION OF THE
+        NORMAL ALIPHATIC ALCOHOLS IN THE GASEOUS AND LIQUID STATES,
+        AND THE ENERGIES OF THEIR ATOMIC LINKAGES." Journal of Research of
+        the National Bureau of Standards 13 (1934): 190-201. Research Paper. October 2020.
+        <https://nvlpubs.nist.gov/nistpubs/jres/13/jresv13n2p189_A2b.pdf>.
+Stretton, Tom. Organic Compounds: Physical and Thermochemical Data. October 2004. 18
+        October 2020.
+
+13 | P a g e
+Vedantu. Structural Isomers of Pentanol. n.d. November 2020. <
+      https://www.vedantu.com/question-answer/alcohols-are-structural-isomers-of-
+      c5h11oh-class-12-chemistry-cbse-5f853c454dddb9022398bb0c>.
+
+
+
+
+Appendix 1: Propanol, Butanol and Pentanol Isomers
+
+
+
+
+                               8                                  9
+
+
+
+    1-propanol (n-propanol)                    2-propanol (iso-propanol)
+
+
+
+
+                                     10
+
+
+
+
+                                                      11
+
+
+
+
+Appendix 2
+
+
+
+
+8
+  (Derry, Connor and Jordan)
+9
+  (Derry, Connor and Jordan)
+10
+   (Education)
+11
+   (Vedantu)
+
+14 | P a g e
+Important Definitions of terminology:12
+
+      1. Standard enthalpy change of combustion (ΔHc) is the enthalpy change when one mole of
+
+          a substance is completely burnt in oxygen under standard conditions.
+
+      2. Structural isomers are two or more compounds that have the same molecular
+
+          formula but different structural formulas – the atoms are joined together in different
+
+          ways.
+
+      3. A homologous series is a series of compounds that have the same functional group.
+
+          Each member differs from the next by a common structural unit (usually –CH2–).
+
+      4. A functional group is the atom or group of atoms in a molecule that gives it its
+
+          characteristic chemical properties – this is the reactive part of a molecule.
+
+      5. Primary, Secondary and Tertiary Alcohols: Alcohols are described as primary,
+
+          secondary or tertiary depending on the number of carbon atoms attached to the
+
+          carbon with the –OH group.
+
+               a. Ethanol is a primary alcohol because it has one carbon atom attached to the C
+
+                  with the –OH group. Hence, a primary alcohol contains the –CH2OH group.
+
+               b. Propan-2-ol is a secondary alcohol because it has two carbon atoms attached
+
+                  to the C with the –OH group. Hence, secondary alcohols contain the –CHOH
+
+                  group.
+
+
+
+
+12
+     (Owen)
+
+15 | P a g e
+                  c. 2-methylpropan-2-ol is a tertiary alcohol because it has three C atoms
+
+                       attached to the C with the –OH group.
+
+
+
+
+   13
+
+
+
+   Appendix 3:
+
+                                           n-butanol table values14
+SR No.             Enthalpy Values – Heat of Combustion, ΔHc,liq (kJ/mol) of: n-       Uncertainty
+                                             butanol
+   1.                                        -2676.18                                     ± 0.24
+   2.                                        -2640.00                                    ± 0.120
+   3.                                        -2675.61                                     ± 0.45
+   4.                                        -2676.01                                     ± 0.24
+   5.                                        -2677.40                                     ± 0.63
+   6.                                        -2674.90                                     ± 0.84
+   7.                                        -2670.40                                     ± 0.42
+   8.                                        -2670.44                                         -
+   9.                                        -2676.00                                         -
+
+  10.                                        -2670.77                                         -
+Average:                                     -2670.00                                     ± 0.20
+
+
+
+
+   13
+        (Owen)
+   14
+        (Afeefy, Liebman and Stein)
+
+   16 | P a g e
+

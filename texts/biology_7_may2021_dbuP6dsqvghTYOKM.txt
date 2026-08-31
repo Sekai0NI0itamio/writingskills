@@ -1,0 +1,662 @@
+Research Question: How does the soaking time (0,4,6 hours) and Temperature (25°C and 80°C)
+of Kombu (Laminaria japonica) affect the amount of iodine remaining in the Kombu before
+consumption using colorimetric determination with 1.0% starch indicator?
+
+Introduction and Background Information
+Seaweed has been increasingly lauded worldwide as a food with various health benefits, providing “a rich
+and sustainable source of macronutrients and micronutrients to the human diet” and helping “the alleviation
+of risk factors associated with noncommunicable diseases such as obesity, type 2 diabetes and
+cardiovascular disease” (Cherry et al. 1). As such, edible seaweed has been readily consumed by many in
+the form of snacks, salads, soups and more.
+
+Iodine is a micronutrient that helps to ensure normal thyroid function, growth and development. According to
+the World Health Organization, the recommended daily iodine intake ranges from 90-250µg for people in
+different age groups and conditions: 90 µg for preschool children (0 to 59 months); 120 µg for schoolchildren
+(6 to 12 years); 150 µg for adolescents (above 12 years) and adults; 250 µg for pregnant and lactating women
+(World Health Organization). Food and water are major sources of iodine - seaweeds, seafood and dairy
+products all contribute to the daily intake of iodine for the average person.
+
+Over the past decades, iodine deficiency disorder (IDD) has been categorised as a serious problem
+worldwide, it being “a significant health problem in 118 countries” (Kapil). Iodine is essential for producing
+hormones that the thyroid gland uses; excess or deficiency in iodine intake may be detrimental to one’s health,
+“lead[ing] to a great number of symptoms” (Institute for Quality and Efficiency in Health Care [IQWiG]) such
+as goitre and hypothyroidism. The most severe cases of IDD may lead to “Brain damage and irreversible
+mental retardation” (Kapil 267). Furthermore, thyroid cancer has been linked to both under and
+overconsumption of iodine - “the prevalence of anaplastic thyroid cancer (ATC)... decreased in many
+countries with the introduction of iodized salt”, however “papillary thyroid cancer (PTC) increased” (Lund and
+Wu). To combat the prevalent problem of iodine deficiency worldwide, “universally effective… salt iodization
+programmes” (Micronutrient Deficiencies) have been implemented to supplement citizens’ diets. However,
+excessive intake of salt may itself lead to adverse effects, such as hypertension - hence, seaweed may be
+seen as a viable alternative to iodized salt, acting as a healthier option whilst providing a source of iodine.
+However, excessive intake of iodine may also have negative effects, such as “iodine-induced goitre due to
+persistent stimulation by thyroid-stimulating antibodies that… propagate lymphocytic infiltration” (Farebrother
+et al. 53).
+
+In marine algae, “iodine exists as a combination of organic and inorganic forms”, with “more than 60% of total
+soluble iodine [being] I-” (Hou et. al 218) and low IO⁻ ₃ values. However, in Kombu (Laminaria japonica),
+iodine is present in both inorganic and organic forms, with iodine “accumulated… in its reduced form, iodide”
+(Küpper et. al 6954). Furthermore, it was found that “Ninety-nine percent of total iodine is soluble in Laminaria
+japonica”, with “more than 94%” (Hou et. al 218) of the water-soluble inorganic iodine being I- coupled with
+low IO⁻ ₃ values. The remaining insoluble residue would be considered as organic iodine. The very high
+percentage of water-soluble iodine present in Kombu signifies that when soaked in a liquid, such as in soup
+broth or hot pot, much of its iodine content would diffuse into the liquid. Therefore, unless the liquid is
+consumed, the benefits of the iodine would be largely lost, as it would have dissolved into the water.
+
+In the metabolism of iodine in the body, “a series of stages involving the hypothalamus, pituitary, thyroid
+gland and blood” (Farhana and Ganie 13) are followed. The most important reactions from the metabolic
+process is the production of thyroxine (T4) and triiodothyronine (T3) thyroid hormones, which then “diffuse…
+into the blood stream” (Farhana and Ganie 14). Both T3 and T4 hormones are responsible for increasing the
+basal metabolic rate; this relies on a feedback mechanism. A fall in the levels of T3 or T4 would stimulate the
+pituitary gland’s secretion of TSH, leading to the release of additional thyroid hormones from the thyroid gland
+into circulation.
+
+Personal Engagement/ Significance
+According to a study conducted by Hong Kong’s Centre of Food Safety, “most seaweed and seaweed
+products contained very high iodine levels” (Dietary). Furthermore, “the mean level of dried kelp was 2 600
+000 µg/kg” (Dietary), which translates to 26 grams/kg, a very high amount - even a small amount of kombu
+consumed per day would meet or exceed the recommended daily limits of iodine intake by the WHO. However,
+                                                 Page 1 of 13
+it was found that “around 59% of the population [in Hong Kong] intakes below 50µg [of iodine]/day”, which
+falls under the recommended daily intake of the WHO. This means that there is “the existence of mild iodine
+deficiency [in Hong Kong], which can result in clinical IDD” (Kung et. al 419).
+Many people in Hong Kong eat hot pot regularly, and I noticed that they would often order seaweeds, in
+particular Kombu (Laminaria japonica) to put into the soup to enhance the flavour. However, it is a common
+conception that drinking hotpot soup may be unhealthy due to the high amounts of sodium, fats and oils
+involved, therefore many people would opt not to consume the hotpot soup. As a result, much of the iodine
+content from the kombu would be left in the soup. I am interested in finding how much iodine is left in Kombu
+after soaking in a liquid, and whether the amount left would be enough to sustain a healthy diet with sufficient
+iodine content.
+
+Hypothesis
+Null Hypothesis - (H0): There is no significant difference in
+the means of values obtained as Iodine concentration after
+different soaking times of seaweed.
+Alternate Hypothesis - (HA): There is a significant difference
+in the means of values obtained as Iodine concentration after
+different soaking times of seaweed.
+
+To test the veracity of these claims and to find whether the
+hypothesis should be accepted, multiple T-tests will be
+conducted to verify significant differences in iodine after
+different soaking conditions (time and temperature).
+                                                                                Graph 1: Hypothesis for experiment
+
+Trends Expected
+As the soaking time increases, a greater amount of iodine within the sample (solubles) will leave the seaweed,
+therefore resulting in a lower amount within the seaweed extract, resulting in a decreased value of
+absorbance measured using the colorimeter. The increase in temperature of the soaking water from 25°C
+to 80°C will increase the particle kinetic energy within the sample resulting in a larger amount of iodine leaving
+the sample. The expected results are demonstrated in Graph 1.
+
+Pre-testing
+To test the methodology, pre-testing was conducted to check its validity. Based on a study regarding Iodide
+Determination using spectroscopy, “the maximum absorption band… to identify iodide based on the formation
+of an insoluble blue iodine-starch complex… is obtained at 615 nm” (Sulistyarti et al. 45). Therefore, this
+investigation will aim to be based on the 615nm wavelength (orange region).
+
+However, it was found that the Vernier colorimeter used for the experiments was unable to be set directly to
+615nm. Hence, the 635nm wavelength (red region) was chosen to conduct testing, as it was the closest
+alternative to the optimal value; the slightly altered wavelength would not significantly disrupt or skew the
+results gained from the experiment (assumption).
+
+The original mixture of chemicals - potassium iodide and starch solution, did not produce the desired product
+iodine, signalled by the lack of a blue-black colour appearing in the mixture with the addition of starch indicator.
+Furthermore, the viscosity of the solution was low, suggesting that the chemicals had not produced a reaction
+together. Therefore, accurate results could not be obtained. Consequently, a new method was derived where
+the chemicals sulfuric acid and hydrogen peroxide were added to the original mixture - this proved to be
+successful, as then the solutions turned a blue-black colour with a high viscosity, indicating that the presence
+of iodine by the starch indicator had been detected.
+
+The sheets of kombu did not have a consistent shape and size, as multiple batches of kombu were used over
+the course of the experimentation. To minimize the variances between sizes and shape, the samples were
+sorted and cut into identical squares using scissors and rulers, weighed so they were 20 grams each utilising
+an electronic scale with 3 d.p, then cut into 5 separate pieces using a scissor. This ensured that the size and
+shape of the tested kombu are more or less the same.
+
+
+                                                  Page 2 of 13
+Independent Variables:
+
+ Independent      Method of monitoring                           Purpose
+ Variable
+
+ Temperature      Water baths will be set to 25℃ and 80℃, A      Simulating room temperature and hotpot
+ of samples       thermometer will be put into each water-       simmering conditions respectively,
+ (25℃ and         bath to accurately measure the temperature     testing if different amounts of iodine are
+ 80℃)             of the water and ensure consistency            released at different temperatures.
+                  between multiple trials. Ample time will be
+                  given for the water bath to reach the
+                  specified temperature.
+
+                  A stopwatch will be used to keep records of    To measure whether different amounts of
+ Amount of        how long the samples have been left in the     iodine are released by the Kombu into
+ time soaked      water baths. For the “0 hrs” samples, the      the liquid in different time conditions.
+ (0 hrs, 4 hrs,   samples were placed into the water-bath for
+ 6 hrs)           5 minutes measured by a stopwatch to
+                  simulate a short time of soaking.
+
+
+
+
+Dependent variables:
+
+ Dependent Variable Method of monitoring             Purpose
+
+                         A colorimeter will be       A lower absorbance reading (measured using A.U)
+ Iodine dissolved by     used to measure light       indicates that there is lower iodine content in the
+ the seaweed             absorbance readings         kombu liquid after treatment. This can be observed
+ samples over a          following the 635nm red-    by an increase in the intensity of the blue-black
+ certain period,         colour wavelength           colour of the solution when the kombu liquid is in the
+ measured by the         averaging the results       cuvette, ready to be tested.
+ concentration of        over 10 seconds to
+ iodine (mol dm-3) in    increase reliability.
+ the kombu water
+
+
+
+Controlled Variables:
+ Controlled        How is it controlled?             Purpose
+ Variables
+
+ Amount of         Multiple tools that allow for     The amounts of solutions used in each trial should
+ chemical          precise liquid collection (such   be kept consistent to ensure that any change in
+ solutions used    as measuring cylinders,           absorbance readings is only caused by a change in
+ Concentration     pipettes and syringes) will be    iodine concentration.
+ and Volume of     used to measure amounts of
+ solutions used    solutions required.
+ (KI and H2SO4)
+
+                   For each trial, 20 grams of       By keeping the amount of seaweed used in each trial
+ Weight            kombu are cut into squares        consistent, it would ensure that any variances in
+ (amount) of       and weighed using an              iodine concentration are caused by one of the
+ seaweed used      electronic scale (3 d.p,          independent variables (temperature or amount of
+ in each trial     ±0.005g)                          time soaked)
+
+
+                                                 Page 3 of 13
+                     Throughout all trials, the same     The 615nm wavelength (orange) was chosen
+ Colorimeter         colorimeter unit, computer and      because of its complementary nature to blue.
+ settings            software will be used to            However, due to constrictions, 615nm was not
+                     measure results. The                possible. Hence, 635nm wavelength (red) was
+                     absorbance wavelength will be       chosen instead.
+                     kept at 635nm.
+
+                     Throughout all trials, 200mL of     The amount of water is kept constant to ensure that
+ Amount of           distilled water will be added to    any changes in iodine concentration are caused by
+ water added to      each trial (100mL before            the independent variables, not by dilution.
+ each sample         inserting into the water bath,
+                     and an additional 100mL after
+                     the crushing and blending
+                     process).
+
+Uncontrollable Variables:
+ Uncontrollable         Why?                                   How are they rectified?
+ Variables
+
+ Iodine content of      Between different batches of           A control trial will be performed to measure
+ different kombu        kombu utilised in trials, the iodine   iodine content released into a liquid for each new
+ sheets                 content cannot be guaranteed to        batch of kombu. Any outliers will be replaced.
+                        be equal in each sheet of kombu.
+
+Apparatus table
+                                Materials                                                Reagents
+
+ Colorimeter (±0.0005 A.U.)              Syringes (1mL, 5mL, 10mL)         0.001M KI solution
+
+ Mortar and Pestle                       Pipettes                          2.0% H2O2 solution
+
+ Electronic blender                      Cuvettes                          1.0M H2SO4 solution
+
+ Electronic scale                        Stopwatch(±0.05s)                 1.0% Starch Solution
+
+ 2 Water baths (25°C, 80°C)              Scissors                          Distilled Water
+
+ Beakers (10mL, 50mL, 100mL,             Ruler
+ 500mL ±0.1mL)
+
+ Test tubes                              Laptop (for logging/graphing
+                                         software)
+
+ Kombu sheets                            Glass rod
+
+ Measuring cylinder (10mL, 50mL,         Strainer
+ 100mL ±0.1mL)
+Method
+
+Segment One: Calibration Curve
+   1. Obtain 100.0 mL of stock 0.001M KI (aq) (potassium iodide) and observe the following:
+      a. Observe colour of solution (take photos)
+      b. Observe the viscosity of the solution
+   2. Perform dilution of the stock solution to produce the different concentrations required for the
+      calibration curve using the following dilution table:
+                                                     Page 4 of 13
+       a. Use a series of measuring cylinders to obtain the intended concentration (100mL
+          combined volume)
+ Intended Concentration      Volume of Stock Solution      Volume of deionized water
+ (M)                         (mL)                          (mL)
+
+          0.0010                        20.00                          80.00
+
+          0.0020                        40.00                          60.00
+
+          0.0030                        60.00                          40.00
+
+          0.0040                        80.00                           20.0
+
+          0.0050                       100.00                           0.00
+   3. Obtain a colorimeter and cuvette.
+       a. Connect the colorimeter to the laptop and initiate the data logging software
+       b. Set the wavelength: 635 nm (red colour)
+   4. Transfer distilled water into a cuvette; use it to calibrate the colorimeter.
+   5. Transfer 0.5 mL 1.0M H2SO4(aq) + 0.5 mL H2O2 into a beaker
+   6. Transfer 1.0 mL of the 0.0002 M KI solution from Step 2b using a dropping pipette
+   7. Transfer 1.0 mL of Starch solution into the mixture using another dropping pipette
+   8. Insert the cuvette into the colorimeter and initiate data collection at 635 nm
+   9. Repeat Steps 5 - 8 two more times to get three trials of absorbance recording
+   10. Repeat Steps 3 - 8 , whilst changing the concentration of KI solution (0.0004, 0.0006,
+       0.0008 and 0.0010M)
+
+Segment Two : Preparation and Experimentation of Seaweed
+   1. Measure 20.0g of dry seaweed using an electronic balance and weighing boat
+       a. Make qualitative observations regarding the colour and distribution of the sample
+   2. Measure and transfer 100.0 mL of distilled water into the sample using a 100.0 mL
+       measuring cylinder beaker.
+   3. Measure the amounts of seaweed (20g) and cut into 5 equal strips.
+       a. Place seaweed samples inside the beaker with water.
+   4. Place the beaker in the pre-setup water bath at 25° C (Room Temperature; Control Setup)
+       and allow it to calibrate for a period of 30s controlled using a stopwatch (±0.05s)
+   5. Leave the sample in the water bath for a period of 0 hours controlled using a stopwatch
+       (IV1)
+   6. Repeat Steps 1 – 4 9 more times to obtain a total of 10 trials per conditions
+   7. Repeat Steps 1 – 5 for the remaining independent variable conditions (4, 6 hours)
+   8. Repeat Steps 1 – 6 whilst altering the temperature of the water bath to the different
+       temperature condition of 80°C (simulate hotpot conditions)
+   9. Obtain the different samples and discard any liquid remaining within each sample.
+   10. Place the kombu sample into a mortar and crush the sample using a pestle (10 times) to
+       ease the breakdown of cellular components and release the remaining iodine.
+       a. Transfer the crushed sample into the blender
+       b. Add a further 100 mL of water into the mixture
+   11. Blend the samples for a period 15 seconds controlled using a stopwatch.
+       a. Transfer blended samples into separate beaker and label “Blended Seaweed”
+   12. Repeat Steps 9-12 for each sample
+
+Segment Three: Data Collection
+   1. Obtain the blended sample from Part Two, labelled “Blended Seaweed”
+   2. Extract the liquid from the blended sample, using a strainer to separate the seaweed and liquid.
+   3. Obtain a dry cuvette and:
+                                              Page 5 of 13
+      a. Transfer 0.5mL H2SO4 + 0.5mL H2O2
+      b. Transfer 2.0 mL of the liquid from the blended sample using a dropping pipette
+      c. Transfer 0.5 mL of the starch indicator into the sample using a dropping pipette
+   4. Insert the cuvette in the colorimeter and measure the absorbance at the wavelength of
+      635nm (red wavelength)
+         a. Record the values found into the graphing software
+   5. Repeat Steps 1 - 4 for the water samples containing extracted iodine of 0 hours, 25°C
+      sample (9 trials)
+   6. Repeat Steps 1 - 5 for the other soaking times under 25°C sample (4, 6 hours)
+   7. Repeat Steps 1 - 6 for the other temperature condition (80°C)
+
+Safety and Environmental Concerns / Risk assessment
+ Concern      Prevention
+
+ Wasting      To achieve identical sizes and weights of seaweed samples, many irregularly shaped
+ seaweed      sheets of seaweed were trimmed. As a result, a lot of waste trimming and residue
+              were created, which may be harmful to the environment as it may be considered as
+              litter. Therefore, to minimize the potential environmental impacts caused by waste
+              trimmings, any waste or extra seaweed would be collected and used to make soup
+              stock.
+
+ Blender      There are multiple sharp blades in the blender, which may injure the user if
+              inadvertently touched. Furthermore, sharp objects could be expelled from the blender
+              when blending, which may cause injury to the eye. Therefore, protective goggles will
+              be worn at all times when conducting experiments, and multiple checks will be
+              performed to ensure that the blender is used under safe conditions.
+
+ Glassware    Various glassware will be used during the experimentation process, which poses the
+ and          risk of injury if equipment is damaged and broken. Furthermore, corrosive chemicals
+ chemicals    would be handled, such as H2SO4, which may cause injury if in contact with skin or
+              eyes. Therefore, protective goggles would be worn at all times when conducting
+              experiments, and all experiments would be performed standing up to ensure ample
+              time to react if equipment is accidentally broken or chemicals spilt.
+
+Data Collection and Analysis
+
+Qualitative Observations
+
+
+
+
+ When discarding the            A sample iodine-starch test    Different colour intensities of the blue-
+ existing Kombu liquid after    done with the Kombu liquid     black colour present in different
+ taking samples out of the      shows light blue-black         samples, demonstrating different iodine
+ water bath, the liquid was a   colour, indicating light       concentrations are exhibited here. The
+ dark green colour, had high    presence of iodine. This is    left two samples were from 0 hrs, 25°C
+ viscosity and had a distinct   from 4hrs, 25°C sample.        samples, and the right two are from 6
+ seaweed smell.                                                hrs, 25°C.
+
+
+                                                Page 6 of 13
+Quantitative Data
+Table 1: Raw Data Table showing the values obtained for the calibration curve (Absorbance ±0.0005 A.U.)
+
+
+
+
+Data Processing: Calculating Mean and Standard Deviation
+ Table 2: Processed Calibration Curve Data                Graph 2: Calibration Curve
+ table (Absorbance ±0.0005 A.U.)
+
+
+
+
+ Calibration Curve Equation:
+ Y = 39.868x + 1.929
+
+The mean and standard deviation of the absorbance is plotted against the concentration of potassium iodide
+(KI) to create the calibration curve.
+
+Table 3: Raw Data of Absorbance at 635nm for the Kombu samples under different temperature and soaking time stress
+
+
+
+
+Data Processing
+ Conversion of absorbance values to concentration of I2 (M)
+ Calibration Curve:
+ Y = 39.868x + 1.929
+ Sample Calculation: 25°C 0 Hours Soaking Time (Trial One)
+ Absorbance = 2.0674
+ 2.0674 - 1.929 = 39.868X (Concentration of Iodine; M)
+ X = 0.00347M
+
+                                                  Page 7 of 13
+Table 4: Processed Data Table (Concentration of I- Values)
+
+
+
+
+Data Processing
+ Mean Concentration of Iodine
+
+ 0.00347+0.00898+0.00649+0.01162+0.01067+0.01240+0.00314+0.00898+0.00639+0.01038
+                                        10
+                                                                                 = 0.00825 mol dm-3
+
+                                                       ∑|𝑥𝑥−𝑥𝑥̅ |2
+ Standard Deviation Formula: 𝑆𝑆 = �
+                                                         𝑛𝑛−1
+                                                   |0.00347 − 0.00825|2 + |0.00898 − 0.00825|2 + |0.00649 − 0.00825|2 +
+      �|0.01162 − 0.00825|2 + |0.0167 − 0.00825|2 + |0.01240 − 0.00825|2 + |0.00314 − 0.00825|2 + |0.00898 − 0.00825|2 + |0.00639 − 0.00825|2 + |0.01038 − 0.00825|2
+ 𝑆𝑆 =
+                                                                                  10 − 1
+
+                                                                         𝑆𝑆 = 0.00326
+
+Table 5: Final Processed Data Table
+
+
+
+
+Graphical Representation
+Graph 3: Graphical Representation of results from spectroscopic determination
+
+
+
+
+                                                                      Page 8 of 13
+Data Interpretation
+Graph 3 shows the relationship between the soaking time of seaweed and the concentration of iodine
+calculated after spectroscopic determination. It is evident that there is a negative correlation between the
+independent and dependent variable irrespective of the temperature of the soaking water. As the soaking
+time increases the concentration of Iodine within the seaweed decreases under both temperature
+conditions. The linear trends lines used to model the data can be taken with a significant degree of confidence
+due to the high r-squared values obtained (0.999 and 0.9606) for each of the temperature conditions. (°C)
+An r-squared value closer to 1 indicates a high goodness of fit, which is the linear trend line that passes
+through the data points at different soaking times closely and evenly.
+
+The gradients of the two lines verify the negative correlation with negative values of (-0.001 and -0.0012)
+respectively. The highest concentration of Iodine is obtained for the non-soaking conditions with values of
+0.00825 and 0.00844 mol dm-3 respectively whilst the lowest values of iodine concentration was obtained for
+the 6 hours soaking time with values of 0.00203 and 0.00129 mol dm-3. However, one of the marked
+observations is to understand the influence of temperature on the cleavage of iodine from the Kombu. The
+data points for each soaking time at the two respective temperatures are quite similar, which decreases the
+confidence of comparison and the influence of temperature in changing the iodine concentrations.
+The primary observation of the data points indicates that with respect to temperature that is a significant
+decrease in the Iodine content between 0 to 4 hours in the 80°C (0.00844 to 0.00232M) sample in comparison
+to the sample at 25°C (0.00825 to 0.00428M).
+
+Errors and Uncertainties
+The investigation was planned and executed in a manner to decrease the overall percentage uncertainty of
+the investigation. The use of spectroscopic analysis to determine iodine concentration decreases the overall
+% uncertainty of the investigation with accuracy of the absorbance reading at ±0.0005 A.U.. Additionally, the
+use of pipettes and droppers with high accuracy contribute to the overall decreased % uncertainty of the
+investigation.
+
+The error bars in Graph 3 are plotted using Microsoft Excel and represent the variance of the data plotted as
+Mean Concentration of Iodine (mol dm-3). The error bars represent 1 SD, meaning that 68% of the data points
+collected for that combination lies within the boundaries of the error bars. Furthermore, the error bars are
+quite large in magnitude which was expected due to the biological uncertainty brought about by the testing
+of a real-world species such as Kombu.
+
+The highest standard deviation is obtained for the 0 hours soaking conditions (0.00326 and 0.0030 mol dm-
+3
+ ) indicating that the initial amount of iodine present prior to treatment also varies significantly.
+
+Overlap Analysis
+
+
+
+
+25°C Condition
+0 Hours: 0.00825 ± 0.00326 (Range: 0.00499 - 0.01151)
+4 Hours: 0.00428 ± 0.00168 (Range: 0.0026 - 0.00596)
+6 Hours: 0.00203 ± 0.00112 (Range: 0.00091 - 0.00315)
+
+Overlap between the two conditions indicated in bold necessitates the use of statistical tests such as a two-
+way t-test to verify if the data points are significantly different from each other, demonstrating that a
+combination of temperature and soaking time results in different amounts of iodine leaving the seaweed.
+
+80°C Condition
+0 Hours: 0.00844 ± 0.003 (Range: 0.00544 - 0.01144)
+4 Hours: 0.00232 ± 0.00142 (Range: 0.0009 - 0.00374)
+6 Hours: 0.00129 ± 0.0012 (Range: 0.00009 - 0.00249)
+
+
+                                                Page 9 of 13
+Significant overlap in all the data points collected for the particular soaking conditions indicates that multiple
+t-tests will be required to verify if there is a significant difference in the iodine concentrations obtained for the
+different soaking time conditions.
+
+T-test
+A student's t-test (statistical test) tests if two experiment groups (soaking time) differ in their concentration of
+iodine, achieved by comparing the two samples drawn from the two groups. The significance behind this
+statistical test is that if two soaking times of Kombu differ, we can conclude that the two populations from
+which the samples are drawn differ from each other. On the contrary, the two samples tested in this
+investigation are rather similar. Therefore, the Null Hypothesis (H0) cannot be rejected, as the evidence in
+the collected data is insufficient to conclude that the two populations where the samples are drawn from differ
+from one another. Multiple t-tests are performed to determine significance for the variables mentioned in the
+overlap analysis.
+
+Null Hypothesis - (H0): There is no significant difference in the means of values obtained as Iodine
+concentration after different soaking times of seaweed.
+Alternate Hypothesis - (HA): There is a significant difference in the means of values obtained as Iodine
+concentration after different soaking times of seaweed.
+Alpha: 0.05 (95% Significance)
+Degrees of Freedom: N1 + N2 - 2 = 10 + 10 - 2 = 18
+T-critical Value (Read from T-distribution table – 18 & v = 0.95): 1.734 (NIST/SEMATECH).
+
+T-test Results
+Table 6: T-test results
+
+
+
+
+Three of the 4 t-tests performed with the actual data returned values in which the t-calculated value was
+greater than the t-critical value at 95% confidence, providing the basis for rejecting the Null Hypothesis.
+Therefore, the Alternate Hypothesis is accepted. There is a significant difference in the means of data
+collected as iodine concentration for different soaking hours except for the soaking time comparison of 4 and
+6 hours in which the Null Hypothesis is accepted (T-calculated value < T-critical Value).
+
+Conclusion and Scientific Reasoning
+The experiment was conducted to evaluate the use of seaweed in cooking methods such as hot pot and how
+it will affect the availability of Iodine within the diet. It was hypothesised in the exploration section that
+increasing soaking time and temperature of seaweed samples in water will cause a decrease in the amount
+of iodine present within the sample. The data obtained in the investigation supports the hypothesis that
+increasing soaking time decreases the amount of iodine present within the sample (Independent variable
+One), however is not able to accurately verify if the changes in temperature can affect the amount of iodine
+present within the sample (overlapping data, temperature not significant).
+
+Evaluation
+Absorbance readings of the seaweed solutions are collected with 4 d.p. (decimal places), ensuring that
+results are collected with a high degree of accuracy. Furthermore, the Vernier colorimeter utilised throughout
+the investigation had a high degree of accuracy (±0.0005 A.U), increasing the reliability of results as they are
+utilised when analysing and interpreting the results. Additionally, the percentage uncertainty of the
+absorbance readings is 0.025%, which is quite a low value. This is derived by dividing the uncertainty of the
+device by the lowest mean absorbance and multiplying by 100 (0.0005/1.9828) x 100 = 0.025%.
+
+                                                  Page 10 of 13
+A calibration curve was used to convert absorbance values to concentrations, therefore the change in
+concentration in the standardized units of mol dm-3 is facilitated. As a result, the results of the investigation
+are able to be translated to more real-world applications. Moreover, by performing 10 trials per condition
+throughout the investigation, the reliability of the data can be improved, and it allows the opportunity to
+perform multiple statistical tests as an additional way to prove the veracity of the collected data.
+
+Limitations in Approach
+The vernier colorimeter has an absorbance range of 0 to 3.0 A.U. which falls within the range of data collected
+in the investigation (Lowest: 1.9323 and Highest: 2.4612), the online specification listed indicates that the
+useful range of recording is between 0 to 1 A.U. (Colorimeter Specifications). which means that the data
+collected contains a high degree of inaccuracy. This is a systemic issue with the device used for data
+collection, therefore in order to minimize errors; the concentrations of solutions used for the calibration curve
+can be diluted by a significant factor to reduce the absorbance readings. Additionally, the seaweed juice
+extracted from the different independent variable conditions can be diluted by a significant factor to produce
+more dilute solutions which will give absorbance readings in the range of 0 to 1.0 A.U.
+
+
+
+Weaknesses
+ Weakness          Significance                               Improvements
+
+ One:              Transferring the crushed seaweed to        Utilise a blender to blend and break apart each
+ Inconsistency     the beakers to be put into the water       seaweed sample. This would minimize the
+ and loss of       baths, there would be a lot of seaweed     procedural steps where the crushing process
+ sample            lost through the transferring process.     using the Mortar and pestle will be eliminated
+ content           This may influence the veracity of         from the experimental procedure.
+                   results, as less amount of seaweed
+                   may artificially reduce the amount of
+                   iodine present in the seaweed juice.
+
+ Two:              The blender could only blend one           Using multiple blenders to prepare more
+ Variance in       sample of seaweed at a time, which         seaweed samples along with using multiple
+ times             meant that when taking trials of a         colorimeters to test absorbance
+ between           condition out from the water bath,         simultaneously.
+ sample            some samples would have a greater          Streamline the process of preparing samples
+ testing           delay than the others. This may have       and inserting them into the cuvette.
+                   allowed more iodine to be released         Increase the speed setting of the blender which
+                   into the seaweed juice,                    will decrease the time needed to blend the
+                   disproportionately affecting the results   samples for the different independent variable
+                   of the experiment.                         conditions.
+                                                              Additionally, a time limit for the preparation
+                                                              time between two samples can be introduced,
+                                                              to decrease any added variances between
+                                                              different samples.
+
+ Three:            Between different batches of seaweed       Use a variety of different seaweed batches
+ Difference in     used in the investigation, their iodine    when testing each scenario (for example,
+ iodine            content would differ slightly due to       mixing different seaweed batches when testing
+ content           genetic and metabolic differences. It      a scenario for 10 trials). This way all trials
+ between           was assumed that the differences in        would be affected by the same magnitude in all
+ batches of        iodine content would be marginal.          trials and conditions.
+ seaweed                                                      On the contrary, an iodine concentration test
+                                                              can be performed prior to experimentation
+                                                              (different soaking time and temperature).
+                                                              These values as iodine concentration can be
+                                                              listed and therefore the percentage decrease in
+                                                              Iodine concentration can be calculated.
+
+                                                 Page 11 of 13
+ Four:            When placing the seaweed samples          Place a cover over the water bath to reduce
+ Evaporation      into the water baths, there was no        the rate of evaporation for the seaweed
+ of water         cover applied to decrease the impact      samples.
+ content from     of evaporation. Especially with a high    Place cling film over the openings of each
+ seaweed          temperature (e.g 80°C), then the rate     beaker to stop any water from evaporating
+ samples          of evaporation (loss of water) would be   when put in the water baths. Any amount of
+                  higher increasing the concentration of    water evaporated will recondense back into the
+                  iodine within the testing sample.         beaker.
+
+
+Extension
+Regarding the extensibility of this investigation, the water temperature of the water baths could be raised to
+better simulate hot pot conditions (90-100°C); it was unable to be done due to school safety restrictions.
+Furthermore, more types of seaweed could be tested, as Kombu is a very specific type of seaweed, and
+there often are many different types of seaweed used when eating hot pot. Additionally, the same test could
+be conducted on different foodstuffs high in iodine content, such as cod, where their iodine content “ranged
+from 29.8 µg to 512.8 µg” (Dahl et al. 5), with different cooking conditions such as pan-frying, baking and
+steaming to determine the differences in iodine content lost.
+
+Furthermore, a wider range of temperatures may be tested, and the amount of iodine lost compared, to tell
+me how best to cook seaweed to maintain its taste and iodine content at the same time, creating healthier
+food while eating hot pot.
+
+
+
+
+                                               Page 12 of 13
+Works Cited
+Ahad, Farhana, and Shaiq A Ganie. “Iodine, Iodine metabolism and Iodine deficiency disorders revisited.”
+Indian journal of endocrinology and metabolism vol. 14,1 (2010): 13-7.
+
+Cherry, Paul et al. “Risks and benefits of consuming edible seaweeds.” Nutrition reviews vol. 77,5 (2019):
+307-329. doi:10.1093/nutrit/nuy066
+
+“Colorimeter Specifications.” Vernier, www.vernier.com/product/colorimeter/. Date Accessed: 28 Feb 2021.
+
+Dahl, Lisbeth et al. “Iodine and Mercury Content in Raw, Boiled, Pan-Fried, and Oven-Baked Atlantic Cod
+(Gadus Morhua).” Foods 9.11 (2020): 1652. Crossref. Web.
+
+Dietary Iodine Intake in Hong Kong Adults, Centre for Food Safety, Food and Environmental Hygiene
+Department, The Government of the Hong Kong Special Administrative Region, July 2011,
+www.cfs.gov.hk/english/programme/programme_rafs/programme_rafs_n_01_12_Dietary_Iodine_Intake_H
+K.html#13. Accessed 26 Feb 2021.
+
+Farebrother, Jessica et al. “Excess iodine intake: sources, assessment, and effects on thyroid function.”
+Annals of the New York Academy of Sciences vol. 1446,1 (2019): 44-65. doi:10.1111/nyas.14041
+
+Hou, Xiaolin, et al. “Determination of Chemical Species of Iodine in Some Seaweeds (I).” Science of The
+Total Environment, vol. 204, no. 3, Oct. 1997, pp. 215–221., doi:10.1016/s0048-9697(97)00182-4.
+
+Institute for Quality and Efficiency in Health Care (IQWiG, Germany). “How Does the Thyroid Gland Work?”
+Informedhealth.org, www.informedhealth.org/how-does-the-thyroid-gland-work.html.
+
+Kapil, Umesh. “Health consequences of iodine deficiency.” Sultan Qaboos University medical journal vol.
+7,3 (2007): 267-72.
+
+Kung, J W et al. “Mild iodine deficiency and thyroid disorders in Hong Kong.” Hong Kong medical journal =
+Xianggang yi xue za zhi vol. 7,4 (2001): 414-20.
+
+Küpper, Frithjof C et al. “Iodide accumulation provides kelp with an inorganic antioxidant impacting
+atmospheric chemistry.” Proceedings of the National Academy of Sciences of the United States of America
+vol. 105,19 (2008): 6954-8. doi:10.1073/pnas.0709959105
+
+Lund, Heather M, and Jenny Wu. The Relationship between Iodine and Thyroid Function/Dysfunction. 9
+Jan. 2019, www.rgare.com/knowledge-center/media/articles/the-relationship-between-iodine-and-thyroid-
+function-dysfunction.
+
+“Micronutrient Deficiencies.” World Health Organization, World Health Organization, 8 Oct. 2013,
+www.who.int/nutrition/topics/idd/en/.
+
+NIST/SEMATECH. "e-Handbook of Statistical Methods",
+https://www.itl.nist.gov/div898/handbook/eda/section3/eda3672.htm, 2003. "1.3.6.7.2. Critical Values of the
+Student's t Distribution". Accessed 27 Feb 2021.
+
+Sulistyarti, Hermin, et al. “A Simple and Safe Spectrophotometric Method for Iodide Determination.” Makara
+Journal of Science, vol. 19, no. 2, 31 July 2015, doi:10.7454/mss.v19i2.4736.
+
+World Health Organization. “Assessment of Iodine Deficiency Disorders and Monitoring Their Elimination.”
+World Health Organization, 2007,
+https://apps.who.int/iris/bitstream/handle/10665/43781/9789241595827_eng.pdf?sequence=1. PDF File.
+
+
+
+
+                                               Page 13 of 13
+

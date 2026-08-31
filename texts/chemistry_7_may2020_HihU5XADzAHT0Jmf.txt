@@ -1,0 +1,633 @@
+Submitted by: hxp707
+                           CHEMISTRY IA: Kinetics of the hydrolysis of ethyl ethanoate
+
+
+                                                  1. INTRODUCTION
+Sodium ethanoate is an inexpensive chemical which has a variety of important uses and applications in real life. For
+example, it is added to food to preserve it and enhance its flavour, and unlike other food additives, it has no known
+harmful effects (Wasserman, n.d.). Moreover, it can be used as a reagent in molecular biology, where it is used to extract
+DNA (Wasserman, n.d.). As such, given its industrial significance, it is worth investigating the chemistry behind it. One
+common way of producing sodium ethanoate is through the hydrolysis reaction of ethyl ethanoate using aqueous sodium
+hydroxide, where ethyl ethanoate (an ester) reacts with sodium hydroxide to form sodium ethanoate (a salt) and ethanol
+(an alcohol), as follows (Babalola, 2019):
+                        CH3 COOC2 H5 (aq) + NaOH (aq) ⟶ CH3 COONa (aq) + C2 H5 OH (aq)                                   (1)
+After reaction completion, the ethanol can easily be distilled, leaving sodium ethanoate. This investigation is based upon
+the research question: “How does the rate constant of the hydrolysis reaction of ethyl ethanoate using sodium
+hydroxide vary with absolute temperature?” The accuracy of the experimentally determined relationship can be
+evaluated by calculating the activation energy (𝐸 𝑎 ) of the reaction from the data gathered and comparing it to a literature
+value. The activation energy (in kJmol−1 ) of a reaction is a measure of the minimum energy that must be provided to
+two reactant particles undergoing collision to result in a successful chemical reaction, i.e. form products (Brown and
+Ford, 2014, pgs. 280–281). This means that a higher activation energy indicates that there are less frequent successful
+collisions taking place. The relationship between absolute temperature, 𝑇, and rate constant, 𝑘, is given by the Arrhenius
+equation as follows (Brown and Ford, 2014, pgs. 300-302):
+                                                                  −𝐸𝑎
+                                                        𝑘 = 𝐴𝑒 𝑅𝑇 ,                                                      (2)
+where 𝑅 is the gas constant (= 8.31JK −1 mol−1 ) and 𝐴 is the frequency factor—indicative of the frequency of collisions
+with the correct orientation for the reaction to occur. Alternatively, (2) is often better expressed in its logarithmic form:
+                                                              𝐸𝑎
+                                                    ln𝑘 = −      + ln𝐴                                                   (3)
+                                                              𝑅𝑇
+                                    1
+As such, we can see that a plot of 𝑇 on the 𝑥-axis against ln𝑘 on the 𝑦-axis should result in a straight line of negative
+         𝐸
+gradient 𝑅𝑎 , from which the activation energy could be found out. However, a method of determining the rate constants
+
+for different temperatures is needed. Reaction (1) is second order (Das et al., 2011), and we know that for a second-
+order bimolecular reaction, the rate expression is (Brown and Ford, 2014, pgs. 291–292):
+                                                      rate = 𝑘𝑐𝐴 𝑐𝐵 ,
+where 𝑐𝐴 and 𝑐𝐵 are the concentrations of two different reactants. Considering the case in which 𝑐 = 𝑐𝐴 = 𝑐𝐵 , our rate
+expression becomes:
+                                                        rate = 𝑘𝑐 2                                                      (4)
+Mathematically, (4) can be expressed as a differential equation as follows:
+                                                            d𝑐
+                                                        −      = 𝑘𝑐 2
+                                                            d𝑡
+Separating and integrating both sides, we get:
+
+
+
+
+                                                              1
+                                                       𝑐            𝑡
+                                                          1
+                                                      ∫ − 2 d𝑐 = ∫ 𝑘d𝑡
+                                                         𝑐
+                                                      𝑐0           0
+
+                                                          1𝑐
+                                                       ⟹ [ ] = [𝑘𝑡]𝑡0
+                                                          𝑐 𝑐0
+                                                           1 1
+                                                       ⟹    − = 𝑘𝑡,                                                          (5)
+                                                           𝑐 𝑐0
+where 𝑐0 is the initial concentration and 𝑐 is the concentration of the reactants at time 𝑡. This is known as the integrated
+rate law, which is a convenient way of determining the rate constant of a reaction at a given temperature (OpenStax,
+                                                           1
+2014). From (5), we can see that plotting time against will result in a straight line of positive gradient 𝑘 and 𝑦-intercept
+                                                           𝑐
+1
+   .
+𝑐0
+
+
+
+Finally, in order to determine the concentration of the reactants in (1) at a certain time, titrations using the titrant sodium
+hydroxide in the presence of excess HCl could be employed. In this case, a titration would indicate the volume of a
+known concentration of NaOH solution required to neutralise the titrand HCl mixed with a sample of the reaction in (1).
+The volume and concentration of HCl, alongside the sample volume of the reaction mixture must be known. The purpose
+of the HCl is to serve as a quenching reagent, i.e. to stop the reaction from proceeding and for the remainder of it to react
+with the sodium hydroxide until the endpoint of titration is reached. From the measured volume of NaOH, the
+concentration of the reactants could be calculated as follows:
+
+       The concentration of the reactants ethyl ethanoate and sodium hydroxide at time 𝑡 is simply expressed as:
+                                                                 𝑛
+                                                             𝑐= ,
+                                                                 𝑉
+       where 𝑛 is the number of moles and 𝑉 is the volume of the sample. Based on the purpose of HCl, it can be deduced
+       that:
+                                                     𝑛HCl = 𝑛 + 𝑛NaOH
+                                                          𝑛HCl − 𝑛NaOH
+                                                     ∴𝑐=
+                                                                𝑉
+
+                                                       𝑉HCl 𝑐HCl − 𝑉NaOH 𝑐NaOH
+                                                ∴𝑐=
+                                                                  𝑉
+
+                                                   1            𝑉
+                                               ∴     =                                                                  (6)
+                                                   𝑐 𝑉HCl 𝑐HCl − 𝑉NaOH 𝑐NaOH
+
+
+
+                                              2. EXPERIMENTAL DESIGN
+        2.1 Variables
+Independent Variable: The absolute temperature at which the reaction was carried out in Kelvin. Five conditions were
+chosen at intervals of 10: 293K, 303K, 313K, 323K and 333K (20, 30, 40, 50 and 60 ℃). These intervals were chosen
+as to allow for significant variability in the temperatures (a difference of 10K is a lot), and hence noticeable changes in
+                                                                                                                         1
+the rate constants, which would potentially allow for the construction of a graph with a clear linear trend between 𝑇 and
+
+ln𝑘.
+
+
+                                                               2
+Dependent Variable: The rate constant of the second-order reaction in mol−1 dm3 min−1. The units of the rate constant
+can be worked out by rearranging (4) for 𝑘 and dividing moldm−3 min−1 (units of rate) by mol2 dm−6 (units of 𝑐 2 ).
+The rate constant is not directly measurable and therefore had to be mathematically determined by conducting a series
+of experiments on how the concentration of the reactants changes with time at equal intervals of 5, 10, 15, 20, 25 and
+             1                                                                                                     1
+30 minutes. 𝑐 values were calculated using the measured volume added during titration. The gradients of the 𝑐 -time
+                                                                 1
+graphs were calculated to find the values of 𝑘. A final graph of 𝑇 against ln𝑘 showed the linear relationship and allowed
+
+the activation energy to be determined.
+
+
+There were also a number of other factors which might have affected the accuracy of the experiment in determining the
+rate constants, and therefore had to be controlled. The table below summarises these variables.
+
+                                   Table 1: Identifying and analysing control variables.
+       Control                                                       Explanation
+                          The same initial concentrations were used for the reactants ethyl ethanoate and sodium
+                          hydroxide to act as a control and also for (4) to apply, since it is assumed that the initial
+ Volumes and initial
+                          concentrations are equal. The concentration and volume of hydrochloric acid used in titration
+  concentrations of
+                          were also kept constant throughout the experiments as changing it could have potentially had
+      chemicals
+                          an effect on the volume of sodium hydroxide used in titration. Finally, the volume of the
+                          reaction sample taken at time intervals also remained constant at 10cm3 .
+                          When taking readings from the burette, the volume was measured at eye level to prevent
+   Reading volume         parallax error—that is, the misreading caused due to the distortion when viewing from different
+appropriately from the    angles. Furthermore, all readings were taken from the bottom of the meniscus—a curve caused
+       burette            as a result of surface tension in the liquid—which is the true volume of a concave meniscus.
+                          This minimised random error from the volume readings.
+                          Since the base of the burette is blue, and the indicator phenolphthalein generates a pink/purple
+  White background        colour, there would be subjectivity in deciding when the endpoint of titration was reached. As
+under the conical flask   such, placing a white paper under the conical flask reduced this subjectivity and made it easier
+                          to observe colour changes, preventing systematic error.
+                          During titrations, sodium hydroxide was made to flow at the same constant rate (dropwise)
+                          throughout all trials by adjusting the stopcock. This helped minimise random error in the
+Volumetric drop rate
+                          volume recorded. Additionally, allowing the sodium hydroxide to flow slowly drop by drop
+      of burette
+                          made it easier to observe indicator change and ensured that any extra volume that was possibly
+                          added after the endpoint of titration was minimal.
+                          Swirling the conical flask during the titration allowed the sodium hydroxide to quickly react
+                          with the solution so that any parts of the solution which temporarily turned pink/purple from
+Swirling conical flask    the titrant would turn back to colourless immediately, making it easier to determine when the
+                          endpoint of titration was reached; in other words, it was done to ensure that the titrant was
+                          evenly combined with the titrand.
+
+
+
+
+                                                             3
+                          After each titration trial, the contents in the conical flask were disposed of and then it was
+                          cleaned using distilled water and dried to ensure that nothing remained in there that would have
+Use of distilled water
+                          had an effect on the subsequent titrations. Similarly, this was also done for the measuring
+                          cylinders.
+                          The reaction mixture in the water bath was stirred upon mixing the reactants in order to ensure
+                          that they were reacting together and that the reaction was proceeding such that products were
+       Stirring
+                          formed. Furthermore, the solutions were stirred for the same duration (30 seconds) across all
+                          temperatures, serving as a control.
+
+
+    2.2 Apparatus and Chemicals
+ Burette (±0.05cm3 )                                    Clamp                          Thermometer (±0.1℃)
+ 100cm3 measuring cylinders (±1.0cm3 )                  200cm3 test tube               Stopwatch (±0.01s)
+ 500cm3 of 0.04moldm−3 ethyl ethanoate                  Two 100cm3 test tubes          25 ml pipette (±0.06cm3 )
+ 2000cm3 of 0.04moldm−3 sodium hydroxide                Test tube holder               Stirrer
+ 1000cm3 of 0.04moldm−3 hydrochloric acid               Water bath                     Funnel
+ Phenolphthalein                                        Conical flask
+    2.3 Procedure
+100cm3 of ethyl ethanoate and 100cm3 sodium hydroxide of equal concentration (0.04moldm−3 ) were measured using
+100cm3 measuring cylinders and then poured into separate test tubes which were placed in a test tube holder in a water
+bath set at 20℃. The temperature of the water in the water bath was measured using a thermometer. After about 10
+minutes, such that the heat from the water was transferred to the content of the test tubes, the ethyl ethanoate and sodium
+hydroxide were mixed and placed in a 200cm3 test tube that remained in the water bath. A timer on the stopwatch was
+started and the solution was stirred using a stirrer for 30 seconds. At equal time intervals of five minutes, three 10cm3
+samples of the reaction mixture were measured using a 25cm3 pipette. More than one sample was taken in order to
+increase the reliability of the measurements and minimise random error. Each sample was then added to 10cm3 of
+0.04moldm−3 hydrochloric acid—also measured using the pipette—in a conical flask. After adding one drop of
+phenolphthalein, the sample was titrated using sodium hydroxide. The burette was stopped when the endpoint of titration
+was reached—that is, when the colour of the entire sample turned pink/purple. The burette was held in place using a
+clamp and sodium hydroxide was poured in through a funnel. The initial and final volumes of the NaOH in the burette
+were recorded and the difference found. The mean volume was then calculated from the three samples, which was used
+                  1
+to calculate the values according to (6). Titrations were carried out for the other time intervals until 30 minutes into
+                  𝑐
+
+the reaction taking place. Finally, the experiment was repeated for the remaining four temperatures.
+
+
+    2.4 Safety Considerations
+Ethyl ethanoate is highly flammable therefore it was important to make sure that there was no source of ignition near
+the experiment site. When disposing of it, small amounts of ethyl ethanoate were flushed down a sink, but with a large
+quantity of water. Due to its flammability, care was needed to avoid any build-up of vapour in the sink. Sodium
+hydroxide is corrosive, so care was needed in order to prevent eye or skin contact. As such, safety glasses and gloves
+had to be worn at all times. Furthermore, some of the temperature intervals were very hot, e.g. 60℃, therefore it was
+
+                                                            4
+important not to directly touch the test tubes in the water bath. There were no notable ethical or environmental issues
+All remaining chemicals from the experiment were returned to the technician rather than being disposed of.
+
+
+                                                   3. RESULTS & ANALYSIS
+Table 2: Relationship between time, volume of sodium hydroxide used in titration, and inverse concentration for 𝑇 = 293K (20℃)
+
+                                           Volume required to reach endpoint                              Inverse
+                  Time
+                                                     𝑽𝐍𝐚𝐎𝐇 / 𝐜𝐦𝟑                                      concentration
+              𝒕/ 𝐦𝐢𝐧𝐮𝐭𝐞𝐬
+                                                 ∆𝑽𝐍𝐚𝐎𝐇 = ±𝟎. 𝟏𝟎𝐜𝐦𝟑                                   𝟏
+              ∆𝒕 = ±𝟎. 𝟐𝟓                                                                               / 𝐝𝐦𝟑 𝐦𝐨𝐥−𝟏
+                                     Trial 1        Trial 2            Trial 3        Mean            𝒄
+                   5.0                 2.95            2.95             2.90      2.93 ± 0.03            35 ± 0.78
+                   10.0                3.40            3.30             3.40      3.37 ± 0.05             38 ± 1.0
+                   15.0                3.50            3.60             3.50      3.53 ± 0.05             39 ± 1.0
+                   20.0                3.90            3.90             3.95      3.92 ± 0.03            41 ± 0.81
+                   25.0                4.20            4.20             4.15      4.18 ± 0.03            43 ± 0.72
+                   30.0                4.35            4.25             4.30      4.30 ± 0.05             44 ± 1.0
+
+Table 2 shows data for the first condition (𝑇 = 293K). The data in red represents processed data while the rest is raw
+data1. The time uncertainty was recorded as ±0.25 minutes (±15 seconds), since time was needed while transferring
+the mixture from the test tube to the pipette. This required approximately 30 seconds, therefore the sample was
+withdrawn 15 seconds before the time of the interval, and finishing 15 seconds after, hence the uncertainty. Although
+the uncertainty of the burette is ±0.05, the uncertainty in the volume column header is recorded as ±0.10 because the
+volume was calculated as 𝑉NaOH = 𝑉final − 𝑉initial . It therefore follows that:
+                                     ∆𝑉NaOH = ∆𝑉final + ∆𝑉initial = 0.05 + 0.05 = 0.10
+Calculation examples are demonstrated below using values from the first row of the table:
+                                                                                 𝟏                                              𝟏
+ Calculation of mean:         Uncertainty in mean:               Calculation of 𝒄 :                   Uncertainty in 𝒄 :
+        𝑉1 + 𝑉2 + 𝑉3                 𝑉max − 𝑉min              1
+                                                                = 𝑉 𝑐 −𝑉
+                                                                           𝑉                ∆(1/𝑐)   ∆𝑉  ∆𝑉     ∆𝑉
+                                                                                                   = 𝑉 + 𝑉 HCl + 𝑉 NaOH
+ 𝑉̅ =                        ∆𝑉̅ = ±                          𝑐    HCl HCl  NaOH 𝑐NaOH       1/𝑐
+             3                            2                                                                HCl    NaOH
+                                                                           10                  1        1 ∆𝑉        ∆𝑉               ̅
+                                                                                                                                    ∆𝑉
+    =
+        2.95+2.95+2.90
+                                  =±
+                                       2.95−2.90               = 10×0.04−2.93×0.04          ∆ ( 𝑐 ) = ± 𝑐 ( 𝑉 + 𝑉 HCl + 𝑉̅ NaOH )
+              3                            2                                                                         HCl             NaOH
+
+    = 2.933...                    = ±0.025                     = 35.3...                                     0.06        0.06       0.03
+                                                                                                   = ±35 (          +           +          )
+                                                                                                             10          10         2.93
+    ≈ 2.93 (3 𝑠. 𝑓. )             ≈ ±0.03 (1 𝑠. 𝑓. )           ≈ 35 (2 𝑠. 𝑓. )
+                                                                                                   ±0.778...≈ ±0.78 (2 𝑠. 𝑓. )
+
+
+                              1
+Note that in calculating ∆ ( 𝑐 ), the uncertainties of 𝑐NaOH and 𝑐HCl were not accounted for as the solutions were prepared
+
+by the technician and as such, it had to be assumed that these uncertainties were negligible. The values of the mean
+volume were formatted to three significant figures as the precision of the burette allowed for such. While it would have
+                                      1
+also been appropriate to quote the values to three significant figures, they were formatted to two due to the uncertainty
+                                      𝑐
+
+
+
+1 Strictly speaking, the NaOH volumes is not raw data, as the difference between final and initial volume was found, making it
+
+processed data. However, considering the vast amount of data that had to be collected, this is the closest to raw data and had to be
+considered as such in order to avoid excessive tables and numbers.
+
+                                                                   5
+                                                                                            1
+in the volumes of the solution and of the HCl, which limited the precision of ∆ ( 𝑐 ) to two significant figures and hence
+     1
+the 𝑐 values too.
+
+
+For purposes of conciseness, Table 7 only shows time and inverse concentration for the other four temperatures. Tables
+3 to 6 in the Appendix however show the remaining data (the sodium hydroxide volumes). It can be seen from the table
+below that the concentrations are increasing at a faster rate as temperature increases, implying higher rate constants,
+however graphing this data allows us to determine their values, as in Figure 1.
+
+               Table 7: Processed data showing the relationship between time and inverse concentration from 𝑇 = 303K to 𝑇 = 333K
+                                                                   Inverse concentration
+                        Time                                           𝟏
+                     𝒕/ 𝐦𝐢𝐧𝐮𝐭𝐞𝐬                                          / 𝐝𝐦𝟑 𝐦𝐨𝐥−𝟏
+                                                                       𝒄
+                     ∆𝒕 = ±𝟎. 𝟐𝟓
+                                          𝑇 = 303K              𝑇 = 313K             𝑇 = 323K              𝑇 = 333K
+                         5.0              35 ± 0.78              36 ± 1.4             37 ± 1.6              39 ± 1.3
+                        10.0               37 ± 1.3              38 ± 1.5             43 ± 1.0              45 ± 1.1
+                        15.0               41 ± 1.0              42 ± 1.2             49 ± 1.4              52 ± 1.6
+                        20.0               44 ± 1.5              47 ± 1.1             60 ± 1.8              61 ± 1.6
+                        25.0               48 ± 1.1              53 ± 1.6             67 ± 1.0              69 ± 1.7
+                        30.0               52 ± 1.1              57 ± 1.7             74 ± 1.5              78 ± 1.7
+
+
+
+                               𝑇 = 293K (20℃)
+                                                        𝑦 = 0.37027𝑥 + 33.3649
+                               𝑇 = 303K (30℃)           𝑦 = 0.69143𝑥 + 30.7333
+                               𝑇 = 313K (40℃)
+                                                        𝑦 = 0.85571𝑥 + 30.000
+                               𝑇 = 323K (50℃)
+                                                       𝑦 = 1.53143𝑥 + 28.2000
+                               𝑇 = 333K (60℃)
+                                                       𝑦 = 1.57714𝑥 + 27.3333
+
+
+
+
+   1/𝑐 (dm3 mol−1)
+
+
+
+
+                                                                  𝑡 (minutes)
+
+ Figure 1: A graph (created using Desmos) showing a linear trend between time and inverse concentration for all temperatures.
+
+
+
+
+                                                                     6
+ The gradients (𝑥-coefficients) in the line equations represent the rate constants. We can see that they are increasing with
+ temperature, which is in agreement with (2). Constructing a detailed graph for each individual temperature with error
+ bars will allow us to calculate the uncertainties in the rate constants. Figure 2 is an example.
+
+
+
+
+            1/𝑐 (dm3 mol−1)                                                     𝑦 = 0.37027𝑥 + 33.3649
+                                                                                𝑦 = 0.42240𝑥 + 32.2980
+
+                                                                                𝑦 = 0.32640𝑥 + 34.0480
+
+
+
+
+                                                         𝑡 (minutes)
+Figure 2: A graph (created using Desmos) showing a linear relationship between time and inverse concentration for 𝑇 = 293K. The
+line of best fit is indicated with the red line, while the blue and green lines represent the maximum and minimum slopes respectively.
+
+ Note that the data point in purple (10, 38) was identified as an anomaly as it did not seem to fit within the general trend,
+ and therefore is not accounted for by the line of best fit. The error bars for the time seem small and negligible in
+                                           1
+ comparison to the error bars for the 𝑐 values, which have percentage uncertainties no greater than 3%, which is not
+
+ negligible, but sensible and moderate. The uncertainty in the rate constant was calculated using,
+                                                     𝑚max − 𝑚min
+                                                                     ,
+                                                            2
+ Where 𝑚max is the gradient of the maximum line and 𝑚min is the gradient of the minimum line. For example:
+                                                   0.42240 − 0.32640
+                                      ∆𝑘293 = ±                      ≈ ±0.048 (2 𝑠. 𝑓. )
+                                                           2
+ This was done for the other four temperatures by constructing appropriate graphs with error bars in order to determine
+ the gradient uncertainties. Table 8 summarises the rate constants and their uncertainties at different temperatures, as
+ well as other information needed for an Arrhenius plot.
+
+                   Table 8: Processed data showing the relationship between inverse temperature and ln𝑘.
+             Temperature
+                   .              Inverse temperature
+                                                                         Rate constant
+                    𝑻/ 𝐊                    𝟏                                                                  𝐥𝐧𝒌
+                                              / 𝟏𝟎−𝟑 𝐊 −𝟏             𝒌/ 𝐦𝐨𝐥−𝟏 𝐝𝐦𝟑 𝐦𝐢𝐧−𝟏
+                 ∆𝑻 = ±𝟎. 𝟏𝐊                𝑻
+                    293.0                       3.41                       0.37 ± 0.048                  −0.99 ± 0.13
+                              303.0              3.30                      0.69 ± 0.064                  −0.37 ± 0.09
+                              313.0              3.19                      0.89 ± 0.11                   −0.12 ± 0.12
+                              323.0              3.10                       1.5 ± 0.11                    0.41 ± 0.07
+                              333.0              3.00                       1.6 ± 0.12                    0.47 ± 0.08
+
+
+
+                                                                  7
+The uncertainty in temperature was simply recorded as the uncertainty of the thermometer (±0.1℃ = ±0.1K). The
+values of the rate constants and their uncertainties were calculated using the graphs, as established previously. From
+that, the ln𝑘 values were calculated, as well as their uncertainties. The uncertainty of a function can be expressed as its
+partial derivative multiplied by the absolute uncertainty of its input, i.e. the variable (Farrance and Frenkel, 2012). Since
+                                 1
+the partial derivative of ln𝑘 is 𝑘, it follows that:
+                                                                   ∆𝑘
+                                                        ∆(ln𝑘) =
+                                                                    𝑘
+For example, using the first row of the table:
+                                                        0.048
+                                             ∆(ln𝑘) =         ≈ ±0.13 (2 𝑠. 𝑓. )
+                                                         0.37
+While some of these uncertainties seem very high in comparison to the ln𝑘 values themselves, it does not matter since
+ln𝑘 is not a measured variable, and as such, its uncertainty is not necessarily suggesting a lack of accuracy in the
+calculated values, but they were calculated in order to help in determining the uncertainty of the activation energy. On
+                     1
+the other hand, the values were simply calculated by taking the reciprocal of 𝑇. For example:
+                     𝑇
+                                          1   1
+                                            =   ≈ 0.00341 = 3.41 × 10−3 K −1
+                                          𝑇 293
+                          1
+The uncertainties in the 𝑇 values were regarded as negligible and not recorded due to the following reasoning:
+                                                ∆(1/𝑇) ∆𝑇     1   ∆𝑇
+                                                      =   ⟹ ∆( ) = 2
+                                                 1/𝑇    𝑇     𝑇   𝑇
+Due to the 𝑇 2 in the denominator, the uncertainty becomes miniscule. For example:
+                                                   1     0.1
+                                                 ∆( ) =      ≈ 0.0000012
+                                                   𝑇    2932
+This results in a percentage uncertainty of about 0.034%, which, again, is negligible.
+
+
+                                                                                𝑦 = −3.744𝑥 + 11.812
+                                                                               𝑦 = −4.028𝑥 + 12.629
+
+                                                                                𝑦 = −3.098𝑥 + 9.690
+                                                                                       𝑟 2 = 0.9502
+
+
+
+     ln𝑘
+
+
+
+
+                                                           1
+                                                             (10−3 K −1 )
+                                                           𝑇
+                                                                                      1
+     Figure 7: A graph (created using Desmos) showing a linear relationship between 𝑇 and ln𝑘. The line of best fit is
+     indicated with the red line, while the blue and green lines represent the maximum and minimum slopes respectively.
+
+                                                              8
+                                                              1
+The graph in Figure 7 shows a strong correlation between 𝑇 and ln𝑘 as the line of best fit is within close proximity to
+
+all the points. This is reinforced and justified by the high mathematically determined 𝑟 2 value of 0.9502. A value of 1
+shows a perfect fit between the trendline and the data, i.e. a very strong linear relationship, whereas a value of 0 shows
+no statistical relationship between the line and the data. This strong linear relationship suggests that there is an
+exponential relationship between temperature and the rate constant, in accordance with (2) and (3). From (3), the
+                            𝐸
+gradient (𝑚) is given as − 𝑅𝑎 , therefore the activation energy is:
+
+                                           𝐸𝑎 = −𝑚𝑅 = 3.744 × 103 × 8.31
+                                             = 31113 Jmol−1 ≈ 31 kJmol−1
+Its uncertainty can be calculated as follows:
+                                                     ∆𝐸𝑎 ∆𝑚 ∆𝑅
+                                                         =    +
+                                                      𝐸𝑎   |𝑚| 𝑅
+But since 𝑅 is a universal constant, its uncertainty can be assumed to be negligible, therefore:
+                                                                    ∆𝑚
+                                                    ∆𝐸𝑎 = 𝐸𝑎 ×
+                                                                    |𝑚|
+                                                                  0.465
+                                                    = ± (31 ×           )
+                                                                  3.744
+                                                      = ±3.85 ≈ 4
+The activation energy for reaction (1) can therefore be quoted as (31 ± 4) kJmol−1 . This translates to a percentage
+uncertainty of about 13%, indicative of the random error in the experiment and the data.
+
+
+                                                   4. CONCLUSION
+In conclusion, the results of this experiment supported the idea that there is an exponential relationship between the
+absolute temperature (𝑇) at which the hydrolysis reaction of ethyl ethanoate is carried out and the rate constant (𝑘) of
+                                                                            1
+the reaction, as evident through the strong linear relationship between 𝑇 and ln𝑘 in Figure 7. These results could be
+
+explained qualitatively as follows: as the temperature increases, the average kinetic energy of the reactant molecules
+increases, and hence their average velocity increases, causing them not only to collide more frequently with each other,
+but also collide with greater force. This, on average, increases the frequency of successful collisions, i.e. collisions
+which possess sufficient energy (activation energy or higher) to form products, and therefore this results in a greater
+rate of reaction.
+
+
+The strength and validity of our experimentally determined relationship however needs to be considered. The activation
+energy of the reaction was found to be 31 kJmol−1 , which allows for comparisons to be made with a literature value.
+Das et al. (2011) determined the activation energy of the reaction to be 41.4 kJmol−1 . This value is likely to be valid
+and a true representation of the actual value because the researchers used a different procedure in which they employed
+a pulsating sensor-based conductivity monitoring instrument to track the progress of the reaction. The use of such precise
+advanced equipment minimised uncertainties and ensured that the data is accurate. The experimental percentage error
+could therefore be calculated to determine the reliability of our experimental data relative to a more accurate secondary
+source:
+                                                          41.4 − 31
+                                    Percentage error =              × 100% ≈ 25%
+                                                            41.4
+
+                                                             9
+This shows that our value is 25% less than the ‘true’ value. This percentage seems high, however considering the
+limitations and weaknesses of the experiment (see Evaluation), this is somewhat sensible. The systematic error may be
+calculated as the difference between total experimental error and random error, i.e. 25% − 13% = 12%. This possibly
+shows that both random and systematic errors in the experiment were great (both higher than 10%), which leads us to
+identifying and evaluating potential sources which may have caused such large errors.
+
+
+                                                    5. EVALUATION
+While the large errors were caused by limitations and weaknesses of the experiment, it is still important to acknowledge
+the strengths which it had. Firstly, the control variables were controlled successfully. The same initial volumes and
+concentrations were used throughout all trials, and good experimental technique was employed while doing the
+titrations, from reading off the burette appropriately, to swirling the conical flask. These control variables and procedural
+elements ensured consistency and potentially helped prevent random error from being even larger than it currently is.
+The range of temperatures (IV) was also appropriate and could be considered a strength due to the wide range and the
+spacious increments which allowed for noticeable effects on the rate constants to be detected. The use of the water bath
+was also a strength as it allowed for the desired temperatures to be reached with almost negligible uncertainties, and for
+the thermal energy to be spread evenly throughout the water bath. Furthermore, the use of the integrated-rate law, (5),
+allowed for a viable method of determining the rate constants. This was arguably more effective than using other
+methods—such as investigating the relationship between time and concentration to find the initial rate of reaction and
+then using the rate expression to calculate the rate constants—because the integrated-rate law is not susceptible to the
+subjectivity of determining when the ‘initial’ rate is, and is therefore less biased. While this method involved more
+mathematics and analysis, it probably led to greater accuracy and objectivity.
+
+
+However, despite the effectiveness of this method, the way in which the reaction was tracked could be a limitation. To
+determine the rate constants, repeated titrations were carried out at time intervals. Not only was this method of
+monitoring the reaction easily susceptible to systematic errors, but could have also led to large cumulative random
+errors, due to uncertainties resulting from titration equipment, as well as (potential) subjectivity in determining the
+endpoint of titration and errors due to reaction time. A better alternative could have been to monitor the reaction using
+different methods, for example, by measuring the conductivity of the reaction as a function of time, as that could also
+indicative of the reaction rate. However, due to school lacking such equipment (e.g. conductivity probes), this was not
+possible, and the lengthy method of titrations had to be resorted to.
+
+
+A weakness of the experiment lies within the values of the NaOH volumes used during the titrations. As can be seen
+from Tables 2 to 6, the volumes were relatively low (usually ranging from 3 to 7cm3 ) for the purposes of a titration.
+This is considered a weakness as it made it difficult to have a certain level of confidence in the validity of volume
+differences across time intervals or between different temperatures, since, as aforementioned, titrations are vulnerable
+to random error. This means that although the graphical analysis suggested strong linear relationships between the
+variables, it is—to some extent—likely that these results may have occurred by chance, due to the tiny differences in
+the volumes; differences which are possibly comparable to the potentially erroneous titrant volumes as a result of
+random error, subjectivity, and reaction time. In order to mitigate these effects, it would have been beneficial to decrease
+the concentration of the sodium hydroxide (by diluting it), which would have consequently led to needing more volume
+
+                                                             10
+in the titration (since volume and concentration are inversely proportional). Although, this would have had a knock-on
+effect on needing to adjust the concentration of the ethyl ethanoate, since the concentrations need to be equal for the
+mathematics to work, as aforementioned.
+
+
+Another weakness of the experiment, although minor and unnecessary, was the setup of the thermometer. Instead of
+being placed inside the test tube where the reaction was held, it was placed in the water bath. This means that the
+temperature of the water bath may not have necessarily reflected the temperature of the contents of the test tube. That
+being said, enough time was given (around 10 minutes) for the heat to reach the contents of the test tube, however this
+may still have not guaranteed equal temperatures and as such, it is important to have the thermometer inside to ensure
+the temperature the water bath is set to is in effect.
+
+
+Finally, for future investigations, a possible extension would be to investigate the role of catalysts in the reaction and
+how they decrease the activation energy, possibly comparing different catalysts and identifying the most useful one. It
+would also be intriguing to look into the factors which have an effect on the yield of the reaction, considering the
+industrial significance of ethyl ethanoate.
+
+
+                                                         REFERENCES
+
+Babalola, O., A. (2019). Reaction rate and rate constant of the hydrolysis of ethyl acetate with sodium hydroxide.
+American Journal of Scientific and Industrial Research, 6(1), pgs. 1–4. doi:10.5251/ajsir.2015.6.1.1.4
+
+Brown, C. and Ford, M. (2014). Pearson Higher Level Chemistry. 2nd ed. Edinburgh Gate, Harlow, Essex: Pearson
+Education Limited.
+
+Das, K., Sahoo, P., Sai Baba, M., Murali, N. and Swaminathan, P. (2011). Kinetic Studies on Saponification of Ethyl
+Acetate Using an Innovative Conductivity-Monitoring Instrument with a Pulsating Sensor. International Journal of
+Chemical Kinetics. 43(19), pgs. 648–656.
+
+Desmos Graphing Calculator. (n.d.). Desmos Graphing Calculator. Available at: https://www.desmos.com/calculator
+(Accessed: 3 April 2020).
+
+Farrance, I. and Frenkel, R. (2012). Uncertainty of Measurement: A Review of the Rules for Calculating Uncertainty
+Components through Functional Relationships. The Clinical Biochemist. Reviews, 33(2), pgs. 49–75.
+
+OpenStax. (2016). ‘Integrated rate laws’. Available at: https://opentextbc.ca/chemistry/chapter/12-4-integrated-rate-
+laws/ (Accessed: 7 April 2020)
+
+Wasserman, R. (n.d.) ‘Uses for Sodium Acetate’. Available at: https://www.livestrong.com/article/137973-uses-sodium-
+acetate/ (Accessed: 5 April 2020)
+
+
+
+
+                                                             11
+                                                        APPENDIX
+
+
+
+     Table 3: Relationship between time and volume of                 Table 4: Relationship between time and volume of
+           NaOH used in titration for 𝑇 = 303K                              NaOH used in titration for 𝑇 = 313K
+                Volume required to reach endpoint                                 Volume required to reach endpoint
+   Time                                                             Time
+                              𝑽𝐍𝐚𝐎𝐇 / 𝒄𝒎𝟑                                                       𝑽𝐍𝐚𝐎𝐇 / 𝒄𝒎𝟑
+𝒕/ 𝐦𝐢𝐧𝐮𝐭𝐞𝐬                                                       𝒕/ 𝐦𝐢𝐧𝐮𝐭𝐞𝐬
+                         ∆𝑽𝐍𝐚𝐎𝐇 = ±𝟎. 𝟏𝟎𝒄𝒎𝟑                                                ∆𝑽𝐍𝐚𝐎𝐇 = ±𝟎. 𝟏𝟎𝒄𝒎𝟑
+∆𝒕 = ±𝟎. 𝟐𝟓                                                      ∆𝒕 = ±𝟎. 𝟐𝟓
+               Trial 1   Trial 2   Trial 3       Mean                            Trial 1   Trial 2   Trial 3      Mean
+   5.00         2.95      2.95      2.90      2.93 ± 0.03           5.00          3.05      3.10      3.20     3.12 ± 0.08
+   10.0         3.30      3.15      3.15      3.20 ± 0.08           10.0          3.40      3.60      3.50     3.50 ± 0.10
+   15.0         3.80      3.80      3.90      3.83 ± 0.05           15.0          4.10      4.05      3.95     4.03 ± 0.08
+   20.0         4.30      4.45      4.25      4.33 ± 0.10           20.0          4.75      4.70      4.65     4.70 ± 0.05
+   25.0         4.80      4.80      4.90      4.83 ± 0.05           25.0          5.30      5.15      5.35     5.27 ± 0.10
+   30.0         5.25      5.15      5.20      5.20 ± 0.05           30.0          5.70      5.50      5.55     5.58 ± 0.10
+
+
+
+
+    Table 5: Relationship between time and volume of                  Table 6: Relationship between time and volume of
+          NaOH used in titration for 𝑇 = 323K                               NaOH used in titration for 𝑇 = 333K
+                Volume required to reach endpoint                                Volume required to reach endpoint
+   Time                                                             Time
+                              𝑽𝐍𝐚𝐎𝐇 / 𝒄𝒎𝟑                                                      𝑽𝐍𝐚𝐎𝐇 / 𝒄𝒎𝟑
+𝒕/ 𝐦𝐢𝐧𝐮𝐭𝐞𝐬                                                       𝒕/ 𝐦𝐢𝐧𝐮𝐭𝐞𝐬
+                         ∆𝑽𝐍𝐚𝐎𝐇 = ±𝟎. 𝟏𝟎𝒄𝒎𝟑                                                ∆𝑽𝐍𝐚𝐎𝐇 = ±𝟎. 𝟏𝟎𝒄𝒎𝟑
+∆𝒕 = ±𝟎. 𝟐𝟓                                                      ∆𝒕 = ±𝟎. 𝟐𝟓
+               Trial 1   Trial 2   Trial 3       Mean                           Trial 1    Trial 2   Trial 3      Mean
+   5.00          3.40      3.20      3.35     3.32 ± 0.10           5.00          3.65      3.70      3.55     3.63 ± 0.08
+   10.0          4.15      4.20      4.25     4.20 ± 0.05           10.0          4.50      4.40      4.45     4.45 ± 0.05
+   15.0          4.85      5.00      4.90     4.92 ± 0.08           15.0          5.05      5.20      5.25     5.17 ± 0.10
+   20.0          5.75      5.95      5.85     5.85 ± 0.10           20.0          5.80      5.90      5.95     5.88 ± 0.08
+   25.0          6.30      6.25      6.30     6.28 ± 0.03           25.0          6.35      6.30      6.45     6.37 ± 0.08
+   30.0          6.60      6.55      6.65     6.60 ± 0.05           30.0          6.70      6.85      6.80     6.78 ± 0.08
+
+
+
+
+                                                            12
+

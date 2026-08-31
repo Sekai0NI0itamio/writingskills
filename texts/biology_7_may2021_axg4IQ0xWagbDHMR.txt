@@ -1,0 +1,655 @@
+                                                                                                      1
+
+
+ What is the effect of Nickel (II) Chloride concentration on the germination rate
+                         (%) of Triticum aestivum seeds?
+Introduction
+
+With the ongoing industrialization of the word, abiotic stress factors due to urbanization have
+led to the incorporation of pollutants such as pesticides, household chemical waste products,
+and heavy metals in natural resources such as soil and water, degrading not only the
+environmental quality but entire ecosystems as a whole. Soil is a valuable and non-renewable
+resource essential for the growth of plants, thus supporting the majority of ecosystems in the
+world. Agriculture is something all human life is dependent upon. Early cities were built around
+rivers, as they provided the most fertile soil that would lead to an increase in crop yield. The
+presence of various by-products of human activity, such as mining, can have detrimental
+impacts on organic life through bioaccumulation. Growing up surrounded by the effects of the
+growing climate crisis, the implications of human activities on the environment has been a field
+of investigation that I have been interested in for quite a while. Researching the effect of
+pollution on crops came to me when my mother told me about how she read an article that said
+that the food we eat today is nearly ten times less nutrient-dense than the food that people ate
+a decade ago. These figures aren’t very scientifically accurate but reading about how different
+factors such as the distance between the crops and the nearest urban region can impact the
+nutrient quality and growth of plants inspired me to conduct this experiment.
+
+Investigation
+
+    1. Background information:
+Bioaccumulation can be defined as the net accumulation of contaminants in organisms, relative
+to that in the environment. It is resultant of all uptake and loss processes, including respiration
+and dietary uptake, egestion, and metabolism1. The presence of heavy metals, such as nickel,
+mercury, and copper in air, soil and water result in bioaccumulation, which ends up affecting
+the entire ecosystem, as plants act as primary producers. The ecological impacts that the
+bioaccumulation of toxins present include damage to vegetation, soils composition, the
+inhibition of revegetation, and the disruption of aquatic ecosystems.
+
+The major sources of heavy metal ion pollution are the overburdening of mines, and the usage
+of industrial effluent, fertilizers and pesticides. Metal ions are toxic to the metabolic processes
+of plants, mainly through their interaction with the functional groups of molecules in the cell,
+especially proteins and polynucleotides. A high concentration of metal ions in soil has been
+attributed to reduced shoot and root elongation, oxidative damage, membrane alterations, and
+nutrient loss. Germination is the resumption of active growth of the embryonic axis in a seed.
+
+
+
+1
+  Borgå, K. “Ecotoxicology: Bioaccumulation.” Reference Module in Earth Systems and Environmental
+Sciences, 2013, doi:10.1016/b978-0-12-409548-9.00765-x. Accessed 15th May 2020.
+.
+                                                                                                              2
+
+
+This is indicated by the rupture of the encasing and a visible plant root and is essential to the
+propagation of a plant.
+
+Nickel has been shown to be highly toxic to most plant species, as it affects the enzymatic
+activity of various essential enzymes, such as amylase, protease, and ribonuclease thus has
+been shown to cause retardation of seed germination and growth of many crops2. Furthermore,
+the presence of nickel ions has been attributed to reducing plant height, root length, chlorophyll
+content3. Nickel stress has also been reported to cause the accumulation of electrolyte ions in
+plant stores and impact photosynthetic machinery.4 Triticum aestivum or common wheat is the
+most widely grown of all crops and is the cereal with the greatest monetary yield. It has been
+widely used in clinal phytotoxicity studies as it is rapidly growing and is relatively easy to
+analyse.
+
+   2. Aim:
+To investigate the effects of varying concentrations of Nickel (II) Chloride (0, 30, 60, 90, 120
+mg/L) on the germination rate of Triticum aestivum by observing the number of seeds
+germinated over a period of 5 days in solutions of 0-5 days.
+
+    3. Hypothesis:
+Alternate hypothesis (H1): As nickel ion concentration increases, the germination rate of
+Triticum aestivum decreases. This is as a higher nickel ion concentration leads to a greater
+interference in the activity of essential ribonuclease and protease enzymes, primarily due to an
+accumulation of electrolyte ions in seed stores. Additionally, the bioaccumulation of nickel is
+associated with a decline in membrane stability and the mobilisation and digestion of food
+reserves in germinating seeds.
+
+Null hypothesis (H0): As nickel ion concentration increases, there is no change in the
+germination rate of Triticum aestivum.
+
+   4. Experimental variables:
+Independent variable: Nickel (Ni+) ion concentration (ppm) (± 0.01ppm)
+                      Solutions of 0, 30, 60, 90, 120 mg/L were used.
+
+Hydrous nickel (II) chloride was used, as this is the most common soluble form of nickel. These
+values were chosen in accordance with the nickel ion concentration found in Indian rivers, from
+
+2
+  Baruah, Nijara, et al. “Influence of Heavy Metals on Seed Germination and Seedling Growth of Wheat, Pea,
+and Tomato.” Water, Air, & Soil Pollution, vol. 230, no. 12, 2019, doi:10.1007/s11270-019-4329-0. Accessed
+15th May 2020.
+3
+  Chen, Cuiyun, et al. “Functions and Toxicity of Nickel in Plants: Recent Advances and Future Prospects.”
+CLEAN - Soil, Air, Water, vol. 37, no. 4-5, 2009, pp. 304–313., doi:10.1002/clen.200800199. Accessed 20th
+May 2020.
+4
+  Ghosh, Shyamasree, and Sunilkumar Sethy. “Effect of Heavy Metals on Germination of Seeds.” Journal of
+Natural Science, Biology and Medicine, vol. 4, no. 2, 2013, p. 272., doi:10.4103/0976-9668.116964. Accessed
+16th May 2020.
+                                                                                                                     3
+
+
+   a report published by the Central Water Commission5. Concentrations from 0 to 120 mg/L
+   further allowed for the investigation to explore the effect of varying levels of nickel ion
+   presence. A concentration of 0 mg/L provides a control group, which can be used as a point of
+   comparison for the other groups. The control group values were also used in the calculation of
+   the germination rate.
+
+   Dependent variable: The number of seeds successfully germinating over a period of 5 days.
+
+   This was used to calculate the germination rate of the Triticum aestivum samples. This was
+   chosen as the germination rate is used as a measure of the time course of seed germination and
+   allows us to effectively compare the rates of each batch of seeds. This was calculated using the
+   following germination rate formula
+
+                                 % 𝐶𝑜𝑛𝑡𝑟𝑜𝑙 𝑔𝑟𝑜𝑢𝑝 𝑔𝑒𝑟𝑚𝑖𝑛𝑎𝑡𝑖𝑜𝑛 − % 𝑇𝑒𝑠𝑡𝑒𝑑 𝑔𝑟𝑜𝑢𝑝 𝑔𝑒𝑟𝑚𝑖𝑛𝑎𝑡𝑖𝑜𝑛
+           𝐺𝑒𝑟𝑚𝑖𝑛𝑎𝑡𝑖𝑜𝑛 𝑟𝑎𝑡𝑒 =
+                                               % 𝐶𝑜𝑛𝑡𝑟𝑜𝑙 𝑔𝑟𝑜𝑢𝑝 𝑔𝑒𝑟𝑚𝑖𝑛𝑎𝑡𝑖𝑜𝑛
+
+   Controlled variables:
+Variable             Reasoning                                        Method of control
+                                                                  100ml of water was measured and provided
+                     The germination of seeds is dependent on the to the initial seed set-up. The same amount
+Amount of water
+                     availability of ample amounts of water.      (10 ml) of water was additionally added
+                                                                  every day.
+                     Waters from differing sources have different
+                                                                      Distilled water was used from a singular
+                     electrolyte ion concentration and will differ
+                                                                      source to prevent disparity. In addition to
+                     in their hardness, which has been shown to
+Source of water                                                       this, the same distilled water used for the
+                     impact seed germination.6 Distilled water
+                                                                      control was used to make the NiCl2
+                     lacks additional minerals and electrolytes
+                                                                      solutions.
+                     that could interfere with nickel activity.
+                     The temperature can impact seed
+                     germination by affecting metabolic enzyme        Seeds were kept at a constant temperature of
+Temperature          activities. 25o C was chosen as it has been      25o C by conducting the experiment in a
+                     shown to be the ideal temperature for T.         closed room with an air conditioner.
+                     aestivum germination7.
+                     The amount of available light can impact the All seedlings were kept in the same area,
+Light available
+                     germination of seeds                         resulting in no variation between groups.
+
+
+
+
+   5
+     River Data Directorate, Ministry of Water Resources, Government of India, 2014, Status of Trace and Toxic
+   Metals in Indian Rivers - 2014. Accessed 12th August 2020.
+   6
+     Maity, Moumita, et al. “Water Quality Demonstrates Detrimental Effects on Two Different Seeds during
+   Germination.” Current Agriculture Research Journal, vol. 7, no. 3, 2019, pp. 377–389.,
+   doi:10.12944/carj.7.3.14. Accessed 12th August 2020.
+   7
+     Ceccaroni, Dayana, et al. “Effect of the Time and Temperature of Germination on the Phenolic Compounds of
+   Triticum Aestivum, L. and Panicum Miliaceum, L.” LWT, vol. 127, 2020, p. 109396.,
+   doi:10.1016/j.lwt.2020.109396. Accessed 12th August 2020.
+                                                                                                             4
+
+
+                    Different sources of T. aestivum seeds will
+                                                                All seeds were sourced from the same plant
+Source of seeds     possess differing genetic characteristics
+                                                                supply store, minimizing this disparity.
+                    which may impact the rate of germination.
+                                                              The seeds were visually examined, and any
+                    Some seeds may be damaged or have a lower
+                                                              seeds that appeared to be discoloured,
+Quality of seeds    mass, which may impact their germination
+                                                              damaged, or abnormally small were
+                    rate.
+                                                              removed.
+
+
+
+       5. Pilot study: Before conducting the final experiment, a pilot study was conducted with
+          Nickel (II) chloride solutions of 80 mg/L, 120 mg/L, 160mg/L, and 210 mg/L in order
+          to ascertain the value at which germination activity was entirely inhibited. This was
+          found to be the solution at 160 mg/L; thus 120 mg/L was chosen as the maximum
+          solution concentration.
+
+
+
+
+                           A self-taken image showing the setup for the pilot study
+
+   Methodology
+
+       1. Materials:
+          - Glassware:
+                                                                Uncertainties
+                                           Least count                                   Number used in
+Name of apparatus        Volume (ml)                             (if used for
+                                              (ml)                                         one trial
+                                                              measurement) (ml)
+   Petri dishes                -                -                       -                       10
+250ml graduated
+                             250                2                   ±0.400                      5
+   cylinder
+
+    1l beaker                1000               -                       -                       5
+
+ 50ml graduated
+                              50                5                   ±0.100                      5
+    cylinder
+                                                                                                   5
+
+
+-   Apparatus:
+          × Graduated pipette (1)
+          × 10.0 cm ruler (±0.050 mm)
+          × Filter paper
+          × Electric mass balance (±0.001g)
+          × Stirring rod (1)
+
+-   Chemical and biological materials:
+          × Triticum aestivum seeds (360 seeds)
+          × Nickel (II) Chloride (840 mg)
+          × Distilled water (15 litres)
+
+2. Procedure:
+    Preparation of seeds and beakers
+    a) Using the ruler, measure the length of the Triticum aestivum seeds and pick 10 seeds
+       around 0.7cm in width.
+    b) Leave all seeds in a petri dish filled with distilled water overnight.
+    c) Fill 6 1l beakers with distilled water up to the 1l marked line
+    d) Label the beakers for each of the concentrations required (0, 30, 60, 90, 120 mg/L)
+
+    Preparation of solutions
+       The following steps e) to g) were repeated for each NiCl2 solution.
+    e) Weigh 30 mg of anhydrous NiCl2 using the mass balance.
+    f) Transfer the weighed powder to its cognate 1l beaker.
+    g) Using a stirring rod, stir the solution until no visible sediment can be seen.
+
+    Preparation of Petri dishes
+    h) Label 5 Petri dishes from A to E, corresponding to all 5 concentrations.
+    i) Measure 25ml of each NiCl2 solution. Pour these into labelled 50ml beakers
+       numbered from 1-5.
+    j) In a petri dish, cut filter paper to size and layer 4 sheets of filter paper to provide a
+       base for seed germination.
+    k) Pour the corresponding solution into each petri dish. Using a stirring rod, press
+       down the sheets so that the entire surface is saturated with the NiCl2 solution.
+    l) Place 10 Triticum aestivum seeds on the surface of each petri dish.
+    m) Place the 5 dishes in a sunny area close to each other.
+
+    Data collection
+    n) Wait for 5 days. Each day add 10ml of the corresponding solution to each petri dish.
+    o) Count the number of seeds with a visible shoot longer than 10mm in length.
+    p) Repeat the experiment thrice with each concentration to improve the reliability of
+       data.
+                                                                                                6
+
+
+The seeds were observed for a period of a week, to allow for sufficient time to gauge the
+effectiveness of each solution of varying Ni+ ion concentration on the growth rate of the
+seedlings. Since the Petri dishes were placed next to each other, and trials were conducted
+simultaneously, they are assumed to be receiving equal amounts of light. One method of data
+collection for this experiment was to count the number of seeds that germinated successfully.
+This was done by observing whether the seed coat of each seed was broken and whether the
+seedling had emerged. The statistical significance between Ni+ ion concentration and seed
+germination were found using the χ2 test.
+
+
+    3. Risk assessment:
+Safety considerations: Nickel (II) chloride is toxic if ingested and can be a
+respiratory/dermatological irritant, thus the experiment was conducted using latex gloves and
+a lab coat to ensure safety.
+
+Environmental considerations: Nickel (II) chloride has long term adverse impacts on aquatic
+ecosystems; thus, it was not emptied down a sink and was disposed of following hazardous
+waste protocols.
+
+Ethical considerations: There were no ethical considerations to take into account.
+
+Raw Data
+
+   1) Qualitative Data:
+      • The solutions with a higher concentration of nickel (II) chloride had a slight blue
+         tint.
+      • The seed coats of seeds in the 0 and 30 mg/L solutions showing signs of germination
+         as soon as the second day.
+      • The seeds in the 0 mg/L solution were already showing steady shoot growth at the
+         end of the week.
+      • The shoots of the seeds in the 90 and 120mg/L groups showed minor irregularities
+         in form compared to those in the 0 mg/L groups.
+      • The seeds in the higher concentration groups appeared to take on the blue tint of the
+           nickel (II) chloride solutions by day 4.
+                                                                                                          7
+
+
+     2) Quantitative Data:
+
+   Data Table 1: A raw data table containing the number of seeds germinated in each trial
+Concentration of                               Number of seeds germinated (/20)
+  Nickel ions
+                      Trial 1       Trial 2          Trial 3         Trial 4       Trial 5      Trial 6
+    (mg/L)
+       0                19            20               20              21              19         20
+      30                16            19               17              16              18         16
+
+      60                14            16               14              15              13         14
+
+      90                13            11               10              12              11         12
+
+      120               9             12               10              10              8          9
+
+
+ Data Processing
+
+ Table 1 shows an inverse correlation between the concentration of the NiCl2 solution and the
+ number of germinated seeds. In order to better understand this relationship and coherently
+ display the collected data, the mean of the values from each trial will be determined.
+ Furthermore, the standard deviation of these values will be determined in order to ascertain
+ the dispersion within the dataset.
+
+
+ The average number of seeds germinated was calculated using the following formula:
+
+            𝑆𝑢𝑚 𝑜𝑓𝑠𝑒𝑒𝑑𝑠 𝑔𝑒𝑟𝑚𝑖𝑛𝑎𝑡𝑒𝑑 𝑖𝑛 𝑒𝑎𝑐ℎ 𝑡𝑟𝑖𝑎𝑙
+                                                 = 𝐴𝑣𝑒𝑟𝑎𝑔𝑒 𝑛𝑢𝑚𝑏𝑒𝑟 𝑜𝑓 𝑠𝑒𝑒𝑑𝑠 𝑔𝑒𝑟𝑚𝑖𝑛𝑎𝑡𝑒𝑑
+                           120
+
+ The standard deviation of values was calculated using the following formula:
+                                                    ∑!"# ($ %&')"
+                                              𝜎 = # $%! )*+$
+
+
+  Data Table 2: A processed data table containing the averages and standard deviation of the
+                 number of seeds germinated at each nickel ion concentration.
+                Concentration of Nickel      Average number of          Standard deviation of
+                     ions (mg/L)           seeds germinated (0/20)             values
+                             0                      19.83                      0.687
+                            30                      17.33                      1.105
+                            60                      14.34                      0.942
+
+                            90                      10.23                      1.061
+
+                         120                         9.01                      0.816
+                                                                                                                                       8
+
+
+    Graph 1: A graph showing the average number of seeds germinated at each nickel ion
+              concentration showing the standard deviation through error bars
+                                            25
+
+
+
+                                            20
+
+
+
+
+        Mean number of seeds germinated
+                                                                                                        y = -0.0959x + 19.898
+                                                                                                             R² = 0.9812
+                                            15
+
+
+
+                                            10
+
+
+
+                                                5
+
+
+
+                                                0
+                           -20                      0          20         40         60         80        100          120       140
+                                                         Concentration of Nickel (II) Chloride solution added (mg/L)
+
+
+
+This graph, in addition to the data depicted in Table 2, supports the alternative hypothesis, as
+they showcase a negative correlation with the concentration of Nickel ions. To better
+represent the effects of Nickel ion concentration on seed germination, the germination rate
+will be calculated.
+                                                                                𝑁𝑢𝑚𝑏𝑒𝑟 𝑜𝑓 𝑠𝑒𝑒𝑑𝑠 𝑔𝑒𝑟𝑚𝑖𝑛𝑎𝑡𝑒𝑑
+                                                        𝐺𝑒𝑟𝑚𝑖𝑛𝑎𝑡𝑖𝑜𝑛 𝑟𝑎𝑡𝑒 =
+                                                                                       𝑇𝑜𝑡𝑎𝑙 𝑠𝑒𝑒𝑑𝑠
+
+
+Data Table 3: A processed data table containing the calculated germination rate of Triticum
+                     aestivum seeds at each nickel ion concentration
+  Concentration of Nickel ions                                         Average number of seeds
+                                                                                                                Germination rate (%)
+            (mg/L)                                                           germinated
+               0                                                                19.83                                    99.15
+                                          30                                      17.33                                  86.65
+                                          60                                      14.34                                  71.70
+                                          90                                      10.23                                  51.15
+                                          120                                      9.00                                  45.00
+
+
+The calculated germination rates further support the alternative hypothesis, in order to better
+depict the relationship between nickel ion concentration and germination rate, a scatter graph
+is plotted, with error bars at a standard value of 5%.
+                                                                                                                   9
+
+
+   Graph 2: A graph of the germination rate of Triticum aestivum seeds at each nickel ion
+                                      concentration
+                               120
+
+
+                               100
+                                                                                      y = -0.4793x + 99.49
+                                                                                           R² = 0.9812
+
+
+
+
+          Germination rate %
+                               80
+
+
+                               60
+
+
+                               40
+
+
+                               20
+
+
+                                0
+                                     0     20       40        60       80       100      120      140        160
+                                           Concentration of Nickel (II) Chloride solution added (mg/L)
+
+
+
+To ascertain the variability of the data collected, the percentage error derived from the
+equipment utilized will be calculated.
+
+                                          Margin of error in the mass balance: ±0.001g
+                                     Margin of error in the 250 ml graduated cylinder: ±0.5ml
+                                     Margin of error in the 50 ml graduated cylinder: ±0.4ml
+
+25ml of each NiCl2 was measured using the 50ml graduated cylinder, thus the percentage
+uncertainty for the same would be the following:
+
+                                                          0.4
+                                                              × 100 = 1.60 %
+                                                          25
+
+The mass balance used to weigh the NiCl2 required to make each solution had a margin of
+error of ±0.001g. The smaller the measured value, the higher the uncertainty. Substituting the
+minimum measured mass (30mg) into the same we get the following:
+
+                                                         0.001
+                                                               × 100 = 3.33%
+                                                         0.03
+
+The 250ml graduated cylinder was used to adjust the NiCl2 solutions to the final volume of 1
+litre. The 250ml graduated cylinder has a margin of error of ±0.5ml.
+
+                                                          0.5
+                                                              × 100 = 0.2 %
+                                                          250
+Adding together all the uncertainties, we get the maximum percentage uncertainty (%) of
+5.12%
+                                                                                                        10
+
+
+Data Analysis
+
+A maximum percentage uncertainty of 5.12%, as well as the standard deviation values, suggest
+an acceptable level of variance and uncertainty within the dataset. The R2 value of both Graph
+1 and 2 is 0.981. The R2 value is a measure of how well a linear regression model fits a dataset.
+These values range from 0 to 1. A value of 0.98 indicates a strong relationship between the
+model and the dependant variable. Graph 2, as well as the difference in percentage germination,
+falls in line with the alternative hypothesis, showing a negative correlation between nickel (II)
+chloride concentration and percentage germination, however, to test the statistical significance
+of this relationship, the ANOVA test was conducted.
+
+The following working hypotheses were used in the conduction of the ANOVA test:
+          H0: There is no difference in the means of the five concentration groups.
+     H1: There is a significant difference in the means of the five concentration groups.
+
+Table 10 (From Microsoft Excel): A table displaying the input and results of the ANOVA test.
+
+
+
+
+The p-value was found to be below the accepted significance limit of 0.05, which shows that
+the differences in the averages of the five sets of values are similar, further, a significance level
+below <0.001 suggests that the relationship between the variables are highly statistically
+significant. Thus, the null hypothesis can be rejected and the alternative hypothesis, stating that
+there is a significant difference between the means of NiCl2 concentration and the germination
+of Triticum aestivum seeds.
+                                                                                                                         11
+
+
+     Evaluation
+
+                    Table 11: A table displaying possible sources of errors and improvements
+Error           Type     of Significance                                       Method of Improvement
+                error
+Process used                                                                   Germination could have also been
+                           The criteria of a visible shoot longer than
+to determine    Systematic                                                     monitored through enzyme activity as
+                           10mm in length were used as a standard in
+germination     error                                                          a more accurate means of determining
+                           order to ensure accurate data.
+of seeds                                                                       germination activity.
+                           Cotton was used as a substrate for the
+Substrate       Systematic germinating seeds. Soil and treated potting         Usage of a treated potting mixture for
+utilised        error      mixtures contain essential nutrients that           germinating seeds.
+                           assist in seed germination.
+                           The NiCl2 solutions were created using
+                           distilled water, which lacks essential
+Usage of                                                                       Bottled drinking water could have
+                           minerals which play a role in regulating
+distilled       Systematic                                                     been used in order to have a source of
+                           hydrolytic enzyme activity8. However, the
+water in the    error                                                          essential minerals at a controlled
+                           usage of tap water may have impacted the
+solution                                                                       concentration.
+                           activity of nickel ions and would have been
+                           difficult to standardise.
+Measurement                The approximate diameter of the seeds was
+of the                     measured with a ruler prior to usage in the         The mass of the seeds could have been
+                Systematic
+Triticum                   study, which is not a very accurate method          measured in order to reduce any
+                error
+aestivum                   of determining the viability of the seeds           disparity between the seeds.
+seed size                  utilised.
+                           Germination is reliant on light availability        The experiment could have been
+                           and enzyme activity, which is sensitive to          conducted in a room with more
+Control of                 temperature. All samples were placed in an          ventilation and a better temperature
+                Random
+external                   area receiving the same amount of natural           control system. Furthermore, lamps
+                error
+variables                  light and ventilation at a controlled               could have been used as a light source
+                           temperature, the experimental conditions            in order to reduce any disparity due to
+                           could have been further controlled.                 light availability.
+                           This paper only utilised primary data as a          Secondary data taken from databases
+                           source of evaluation. Although the data             showcasing regional germination rates
+                           acquired is proved to be of statistical value,      or crop yields could have been
+Sources of
+                Limitation the usage of secondary data could have              compared with soil data gathered from
+data
+                           assisted in understanding the relationship          agricultural surveys in order to
+                           between nickel ion concentration and seed           ascertain whether the same correlation
+                           germination.                                        is present in an in-vivo setting.
+                           As discussed in the Background Research
+                           section, nickel stress has been attributed to
+                           the reduction of plant height, root length,
+                                                                               Studying the growth of the seeds over
+Frame of                   and chlorophyll content. Studying these
+                Limitation                                                     the period of 2-3 weeks instead of a
+observation                variables would also allow us to gain a
+                                                                               singular week.
+                           deeper understanding of the impact of
+                           nickel stress on long-term plant welfare,
+                           instead of just seed germination.
+
+
+
+     8
+      Ali, Awatif S., and Alaaeldin A. Elozeiri. “Metabolic Processes During Seed Germination.” Advances in Seed
+     Biology, 2017, doi:10.5772/intechopen.70653. Accessed 16th August 2020.
+                                                                                                                      12
+
+
+Conclusion
+
+The experiment shows that nickel stress can dramatically impact Triticum aestivum seed
+germination rates. The germination rate observed for the control was 99.15%, whereas the rate
+observed for the highest nickel concentration used (120mg/L) was 45.00%. Although some
+improvements could have been made to improve the quality of the data obtained, an assessment
+of the measures of uncertainty and variance, as well as the ANOVA test show that the data is
+of statistical significance, allowing us to reject the null hypothesis and accept the alternative
+hypothesis. As illustrated in graph 2, the relationship follows an inverse correlation, with an
+increase in NiCl2 concentration resulting in a decreased germination rate, in line with the
+alternative hypothesis presented. The standard deviation values are shown in Table 2 suggest
+a low level of random error in the experiment, which evidences the accuracy of the data
+collected. The maximum percentage uncertainty was found to be 5.12%, which is just over the
+value of 5% typically accepted within scientific research. This can be attributed to the low level
+of precision of the mass balance used. The high R2 value of graph 2 indicates a strong inverse
+correlation between the concentration of NiCl2 in solution and the germination of Triticum
+aestivum seeds. This can be attributed to the toxicological effects that that nickel ions have on
+the enzyme activity and photosynthetic machinery required for seed germination. Nickel stress
+has also been found to affect the digestion and mobilisation of energy reserves in germinating
+seeds, and the membrane stability of growing plants. Furthermore, the bioaccumulation of
+nickel ions has been known to impact the activity of ribonuclease and protease enzymes,
+retarding seed germination and causing a decline in growth, membrane stability, and lipid
+peroxidation4. This can be seen in the data collected since the rate of germination of seeds in
+the 0 mg/L groups was 54.15% higher than that of seeds in the 120 mg/L group. This
+additionally explains why the shoots emerging from the seeds in the 60-120 mg/L groups
+showed slight irregularities in form.
+
+Further Scope: Nickel is an essential nutrient for plants, as it plays a role in regulating tissue
+urea levels and antioxidant metabolism9, however understanding its impact as a phytotoxin as
+a side effect of mine exhaustion and industrial pollution is important to consider in a time of
+great ecological strain, where many countries are facing devastation due to agricultural issues
+and a lack of nutrients. Broadening the scope of the experiment, studying the impact of various
+heavy metal salts on seed germination, would be a means of delving deeper into the interactions
+of these ions with seeds, allowing us to better understand how researchers can manipulate
+pathways to prevent impact on agricultural produce as well as human health in the long-term
+in order to combat the strain put on agricultural sectors by the reduction in soil quality.
+
+
+
+
+9
+ Fabiano, Caio C., et al. “Essentiality of Nickel in Plants: a Role in Plant Stresses.” Frontiers in Plant Science,
+vol. 6, 2015, doi:10.3389/fpls.2015.00754. Accessed 16th August 2020.
+                                                                                                            13
+
+
+  Works Cited
+Ali, Awatif S., and Alaaeldin A. Elozeiri. “Metabolic Processes During Seed Germination.” Advances
+      in Seed Biology, 2017, doi:10.5772/intechopen.70653. Accessed 16th August 2020.
+
+Baruah, Nijara, et al. “Influence of Heavy Metals on Seed Germination and Seedling Growth of Wheat,
+     Pea, and Tomato.” Water, Air, & Soil Pollution, vol. 230, no. 12, 2019, doi:10.1007/s11270-019-
+     4329-0. Accessed 15th May 2020.
+
+Borgå, K. “Ecotoxicology: Bioaccumulation.” Reference Module in Earth Systems and Environmental
+     Sciences, 2013, doi:10.1016/b978-0-12-409548-9.00765-x. Accessed 15th May 2020.
+
+Ceccaroni, Dayana, et al. “Effect of the Time and Temperature of Germination on the Phenolic
+     Compounds of Triticum Aestivum, L. and Panicum Miliaceum, L.” LWT, vol. 127, 2020, p.
+     109396., doi:10.1016/j.lwt.2020.109396. Accessed 12th August 2020
+
+Chen, Cuiyun, et al. “Functions and Toxicity of Nickel in Plants: Recent Advances and Future
+      Prospects.” CLEAN - Soil, Air, Water, vol. 37, no. 4-5, 2009, pp. 304–313.,
+      doi:10.1002/clen.200800199. Accessed 20th May 2020.
+
+Fabiano, Caio C., et al. “Essentiality of Nickel in Plants: a Role in Plant Stresses.” Frontiers in Plant
+      Science, vol. 6, 2015, doi:10.3389/fpls.2015.00754. Accessed 16th August 2020.
+
+Ghosh, Shyamasree, and Sunilkumar Sethy. “Effect of Heavy Metals on Germination of Seeds.” Journal
+     of Natural Science, Biology and Medicine, vol. 4, no. 2, 2013, p. 272., doi:10.4103/0976-
+     9668.116964. Accessed 16th May 2020.
+
+Maity, Moumita, et al. “Water Quality Demonstrates Detrimental Effects on Two Different Seeds
+      during Germination.” Current Agriculture Research Journal, vol. 7, no. 3, 2019, pp. 377–389.,
+      doi:10.12944/carj.7.3.14. Accessed 12th August 2020.
+
+Parlak, Kadiriye Uruç. “Effect of Nickel on Growth and Biochemical Characteristics of Wheat
+      (Triticum Aestivum L.) Seedlings.” NJAS - Wageningen Journal of Life Sciences, vol. 76, 2016,
+      pp. 1–5., DOI: 10.1016/j.njas.2012.07.001. Accessed 24th July 2020.
+
+Pokorska-Niewiada, Kamila, et al. “Acute Lethal Toxicity of Heavy Metals to the Seeds of Plants of
+     High Importance to Humans.” Bulletin of Environmental Contamination and Toxicology, vol.
+     101, no. 2, 2018, pp. 222–228., doi:10.1007/s00128-018-2382-9. Accessed 24th July 2020.
+
+River Data Directorate, Ministry of Water Resources, Government of India, 2014, Status of Trace and
+      Toxic Metals in Indian Rivers - 2014. Accessed 12th August 2020.
+

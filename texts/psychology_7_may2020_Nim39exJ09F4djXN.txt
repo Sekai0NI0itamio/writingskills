@@ -1,0 +1,616 @@
+                  PSYCHOLOGY IA
+
+An investigation into the theory of reconstructive memory
+
+
+
+
+                 Submitted by: hxp707
+
+       Other group members: hxp677 and hxp726
+
+            Date of submission: March 2020
+
+            Examination Session: May 2020
+
+                   Word count: 2196
+                                                   TABLE OF CONTENTS
+
+Introduction ...............................................................................................................................1
+
+Exploration ................................................................................................................................3
+
+           Design ...........................................................................................................................3
+
+           Sampling .......................................................................................................................3
+
+           Procedure and Materials ................................................................................................4
+
+           Control Variables ..........................................................................................................4
+
+Analysis .....................................................................................................................................5
+
+           Descriptive Statistics .....................................................................................................5
+
+           Inferential Statistics .......................................................................................................6
+
+Evaluation ..................................................................................................................................7
+
+References .................................................................................................................................9
+
+Appendices ..............................................................................................................................10
+
+           Appendix A: Standardised instructions .......................................................................10
+
+           Appendix B: Informed consent ...................................................................................11
+
+           Appendix C: Debriefing ..............................................................................................12
+
+           Appendix D: Car crash video ......................................................................................12
+
+           Appendix E: Questionnaire A .....................................................................................13
+
+           Appendix F: Questionnaire B ......................................................................................14
+
+           Appendix G: Raw data and descriptive statistics calculation .....................................15
+
+           Appendix H: Inferential statistics calculation .............................................................16
+                                      INTRODUCTION
+
+Cognitive psychologists believe that memory is a crucial cognitive process. It refers to how we
+
+encode, store and retrieve information. However, are these memories accurate records of the
+
+past, or can they become contaminated? Bartlett (1932) uses the theory of Reconstructive
+
+Memory to argue that memory is influenced by external, or post-event information, such that
+
+it is reconstructed i.e. it is recreated through past events as opposed to simply being retrieved
+
+when needed. In other words, remembering is considered to be an active process in which we
+
+try to make sense of our surroundings through the use of pre-existing information, perhaps
+
+leading to distorted memories. This pre-existing information could be stored in ‘schemas’:
+
+stable, deeply rooted mental representations that influence our beliefs and expectations (Popov,
+
+2018). We rely on schemas in order to simplify the world and create heuristics (mental
+
+shortcuts) which aid our thinking.
+
+
+
+Loftus and Palmer (1974) conducted a lab experiment to investigate the extent to which such
+
+post-event information could affect participants’ memory, and whether these memories had
+
+been reconstructed or not. 45 students from the University of Washington were asked to watch
+
+videos of traffic accidents followed by a questionnaire about the events. The post-event
+
+information was disguised as a change of wording in a “leading” question which asked the
+
+participants “About how fast were the cars going when they hit each other?”. Four other
+
+conditions were used where the verb “hit” was replaced with either “smashed”, “collided”,
+
+“bumped” or “contacted”. The sample followed an independent measures design such that each
+
+of the five groups contained only 9 participants. The findings showed that participants provided
+
+higher speed estimates when more ‘emotionally intense’ verbs were used. For instance, those
+
+who read the verb “smashed” reported a mean estimate of 40.5 mph, whereas those who read
+
+the verb “hit” reported a lower mean estimate of 34.0 mph. This is due to the belief that the
+
+
+                                               1
+impact perceived of an accident is gentler for ‘hit’ than for ‘smashed’. As such, we could see
+
+that participants’ memory (measured through speed estimates) of the car crash had been
+
+reconstructed as a result of a set of pre-existing schemas that certain verbs infer greater
+
+emotional intensities than others. This allows us to conclude that reconstructed memories lack
+
+accuracy, thus raising concerns regarding the reliability of memory.
+
+
+
+This present investigation seeks to investigate the theory of reconstructive memory by partially
+
+replicating Loftus and Palmer’s experiment. Instead of five conditions, two independent groups
+
+of participants will be used and given the leading question using the verbs ‘hit’ and ‘smashed’.
+
+Our experiment aims to investigate how post-event information affects memory recall of a car
+
+crash. This aim is relevant because it sheds light upon current, topical psychological and legal
+
+issues such as the reliability of eyewitness testimonies. In Loftus and Palmer’s experiment, the
+
+results indicated that participants in an eyewitness situation provided inaccurate and
+
+contradictory speed estimates, thus suggesting the possibility of unreliable reconstructed
+
+memories. As such, by conducting this experiment, we are hoping to gain a better
+
+understanding regarding the reliability of memory in such situations. Our prediction is that
+
+post-event information will indeed influence the memories of a car crash, causing them to be
+
+reconstructed, possibly through the reliance upon schemas.
+
+
+
+IV: The emotional intensity of the verb (‘hit’ or ‘smashed’) used in the leading question.
+
+DV: Speed estimates (km/h) provided by participants.
+
+
+
+Research Hypothesis (one-tailed): Participants who are asked the leading question with the
+
+verb ‘smashed’ will report higher speed estimates than participants who are asked the question
+
+with the verb ‘hit’.
+
+
+
+                                               2
+Null Hypothesis: There will be no significant difference between the speed estimates in both
+
+groups.
+
+
+                                      EXPLORATION
+
+Design
+
+The experiment used an independent measures design, such that different participants were in
+
+each condition, preventing their responses from being susceptible to order effects. This means
+
+that since each group only answered one questionnaire, the participants did not get tired and
+
+were not able to practice answering the questions, preventing demand characteristics i.e. it was
+
+unlikely to guess the aim of the experiment and provide speed estimates which the researchers
+
+were expecting. Furthermore, the participants were randomly allocated into each condition;
+
+upon entering the classroom, they were asked to sit anywhere they want. The different
+
+questionnaires were randomly placed on the desks such that neither the researchers nor
+
+participants knew which table had which questionnaire, hence random allocation.
+
+
+
+Sampling
+
+Participants were selected using opportunity sampling, as this was easy and convenient to do
+
+in a school setting, however there was an exclusion criterion of psychology students as this
+
+could have resulted in demand characteristics; it is more likely that psychology students have
+
+learned about Loftus and Palmer’s experiment, in which case they would have provided biased
+
+speed estimates. The sampling resulted in 24 (13 males, 11 females) 16-year old non-
+
+psychology IGCSE students. Our school is international therefore the participants were
+
+ethnically mixed from different cultural backgrounds and had a high level of proficiency in
+
+English. Their age allowed them to sign their informed consent while their English proficiency
+
+prevented language from being an extraneous variable.
+
+
+
+
+                                               3
+Procedure and Materials
+
+The participants were asked to be at a specified classroom during afternoon registration. The
+
+classroom was chosen such that it was large enough to accommodate 24 participants. The desks
+
+were arranged in exam conditions with each having a questionnaire and a pen. After the
+
+participants were seated, the standardized instructions were read (Appendix A), asking them to
+
+read and sign their informed consent (Appendix B). As the instructions were being read, the
+
+other researchers collected the consent forms. Participants were asked not to write their names
+
+on the questionnaires, reserving their confidentiality and ensuring ethical considerations were
+
+met. After the car crash video was played (Appendix D), the participants turned over the
+
+questionnaires (Appendices E and F) and started answering in silence. This particular video
+
+was chosen as it was short (10 seconds) and the crash displayed an appropriate level of violence
+
+such that the emotional intensity of the verbs ‘smashed’ and ‘hit’ would have (potentially) had
+
+a contextually appropriate effect on the speed estimates provided. Upon completion of their
+
+questionnaires, participants were debriefed (Appendix C) and then they left.
+
+
+
+Control Variables
+
+Both questionnaires used the same font (Times New Roman pt.12), had an identical format and
+
+asked the same questions (except the change in the verb), thus negating the impact of these
+
+extraneous variables and making the two conditions controlled. The standardised instructions
+
+and debrief were read by the same person, therefore clarity of speech was not affected, and the
+
+video was displayed on a large board such that all participants could clearly see the car crash
+
+with ease. Furthermore, the participants were the same age and presumably had no driving
+
+experience, mitigating the effects of individual differences that could have potentially affected
+
+the speed estimates.
+
+
+
+
+                                               4
+                                          ANALYSIS
+
+Descriptive Statistics
+
+The data obtained was at least ordinal. As such, the means and standard deviations (SD) were
+
+calculated from the raw data (Appendix G), since they are appropriate measures for the analysis
+
+of interval data. Group A (‘hit’) estimated a mean speed of 60.7 km/h, with a SD of 11.7 km/h;
+
+whereas group B (‘smashed’) estimated a mean speed of 73.2 km/h, with a SD of 18.1 km/h.
+
+This data is summarised in the figure below. It is important to note that in calculating these
+
+statistics, two values have been identified as outliers and excluded from the calculations, since
+
+they did not fit within the general trend and were contextually inappropriate, and thus could
+
+have impacted the interpretation of the statistics. These values are ‘5’ from group A and ‘6’
+
+from group B. Therefore, only 11 participants from each condition have been analysed.
+
+
+
+
+                              VERB USED IN LEADING QUESTION
+
+                         Created using: https://www.meta-chart.com/bar
+
+
+
+
+                                               5
+The mean speed of Group B was 12.5 km/h higher than that of group A. The SDs showed
+
+moderate spread around the mean for both groups, although the SD for group B was 55% higher
+
+than group A, suggesting that there was greater variability in the data and greater disagreement
+
+amongst participants about the car speed. In the original experiment, the difference in speed
+
+estimates between ‘hit’ and ‘smashed’ was 10.5 km/h (Loftus and Palmer, 1974), which is
+
+similar to our difference of 12.5 km/h. As such, our results agree quantitatively. At first glance,
+
+this descriptive data seems to support the research hypothesis that there is causality between
+
+the emotional intensity of the verb and the mean speed estimates; however, inferential statistics
+
+are required to confirm this.
+
+
+
+Inferential Statistics
+
+The Mann-Whitney U-test of statistical significance was applied for the inferential analysis, as
+
+our experiment employed an independent measures design. Furthermore, the data acquired
+
+deviated from normality and the sample size was quite small, therefore a parametric test would
+
+have not been appropriate. The test indicated that the speed estimates in group B (mean rank =
+
+13.95) were significantly higher than the speed estimates in group A (mean rank = 9.05); U(11,
+
+11) = 33.5, p < 0.05, one-tailed (see Appendix H). The calculated U-value was less than the
+
+critical value of 34, thus making the results statistically significant. That is to say that post-
+
+event information, through the use of different emotional intensity verbs in the leading
+
+questions, did indeed affect memory recall. In other words, the null hypothesis is rejected, and
+
+the research hypothesis is accepted, due to the results being of statistical significance, i.e. the
+
+probability of this being a coincidence is less than 5%.
+
+
+
+
+                                                6
+                                       EVALUATION
+
+The theory of Reconstructive Memory could be used to explain our findings. According to the
+
+theory, the participants initially perceived the car crash similarly; however, upon receiving new
+
+information in the questionnaires, their memories of the car crash were reconstructed based on
+
+the implications associated with the verbs in the leading question. This misinformation effect
+
+is a source of problematic discussion amongst psychologists, as it alludes to the idea that our
+
+memories are unreliable, and hence, as aforementioned, raises concerns about events like
+
+eyewitness testimonies, where people are unwittingly being deceived by their memories.
+
+
+
+A strength of our opportunity sample is that it contained 13 males and 11 females,
+
+representative of the gender proportion in our schools’ IGCSE students, ensuring high
+
+population validity. However, due to the participants’ age, they were not eligible for a driving
+
+license (legal age is 18), which is problematic because the questionnaires required them to
+
+answer a question associated with driving; something which they (probably) did not have much
+
+experience with. This means that they would have not been strongly familiar with certain
+
+speeds; they could have had a lack of schema regarding what 60km/h would visually look like
+
+in a real-life crash. Using 18-year old IB students as part of our sample would be a good
+
+modification because they are likely to have had some experience with driving, thus mitigating
+
+this limitation.
+
+
+
+A strength of our procedure is that many extraneous variables were controlled. The fact that
+
+the classroom, questionnaires and video length were kept the same ensured that participants
+
+were treated equally. As such, their speed estimates were unlikely to be biased as a result of
+
+confounding variables such as environmental setting. However, a limitation of the procedure
+
+is that the questionnaires failed to explicitly request a unit to be accompanied with the speed
+
+
+
+                                               7
+estimate. Some participants gave their answer in km/h while one gave it in mph, however, the
+
+majority did not provide any unit. This meant that their intentions were unknown, and therefore
+
+had to be interpreted as km/h, since that is the conventional unit. Originally, we planned not to
+
+request a specific unit due to the different backgrounds of the participants and thus did not want
+
+to restrict their choice so that they could provide the speed using a unit they’re familiar with.
+
+Simply adding a note at the end of the question such as “please specify your unit” would be a
+
+useful modification as it would ensure that there is no confusion for the participants when
+
+answering and for the researchers when analysing.
+
+
+
+Finally, a strength of the independent measures design is that it prevented participants from
+
+guessing the aim and consequently from displaying demand characteristics. If the design was
+
+repeated measures, participants would have been familiar with the questions and could have
+
+noticed the change in verbs, thus introducing a confounding variable. As a limitation of the
+
+design, randomly allocating participants to groups meant that participants’ variability was not
+
+accounted for. Although none of the participants had their driving licenses, some could have
+
+been more familiar with car speeds than others, perhaps as a result of playing racing video
+
+games or watching car races, therefore they could have provided more realistic estimates due
+
+to their increased exposure to cars and their (presumably) greater understanding of speeds. A
+
+modification would be to allocate participants to groups as matched pairs based on video game
+
+experience, ensuring that this potentially confounding variable would be equally distributed
+
+amongst the two groups, reducing individual differences between participants.
+
+
+
+In conclusion, our experiment was shown to be of statistical significance at the p<0.05 level,
+
+supporting the theory of reconstructive memory. However, applying the modifications
+
+aforementioned may enhance the degree of causation and increase our certainty in the results.
+
+
+
+                                                8
+                                     REFERENCES
+
+
+
+Bartlett, F. C., & Burt, C. (1933). Remembering: A study in experimental and social
+
+psychology. British Journal of Educational Psychology, 3(2).
+
+
+
+Loftus, E. F., & Palmer, J. C. (1974). Reconstruction of Automobile Destruction: An Example
+
+of the Interaction Between Language and Memory. Journal of Verbal Learning and Verbal
+
+Behavior, 13, pp. 585–589.
+
+
+
+Popov, A. (2018). Psychology for the IB Diploma. Oxford, United Kingdom: Oxford
+
+University Press.
+
+
+
+
+                                             9
+                                  APPENDICES
+
+
+Appendix A: Standardised instructions
+
+
+
+
+                                        10
+Appendix B: Informed consent
+
+
+
+
+                               11
+Appendix C: Debrief
+
+
+
+
+Appendix D: Car Crash Video
+
+Available at: https://www.youtube.com/watch?v=Rg5bBJQOL74
+
+
+
+
+                                       12
+Appendix E: Questionnaire A
+
+
+
+
+                              13
+Appendix F: Questionnaire B
+
+
+
+
+                              14
+Appendix G: Raw data and descriptive statistics calculation
+
+
+
+Table 1: Speed estimates (km/h) given by participants in two different experimental conditions
+ ‘hit’ and ‘smashed’. Bold values have been identified as outliers. *value was originally given
+                            as 50mph, and got converted to km/h.
+
+                          Group A (‘hit’)       Group B (‘smashed’)
+                                 55                       6
+                                 40                      80*
+                                 75                       95
+                                 63                       60
+                                 50                       40
+                                 60                      100
+                                 80                       70
+                                 5                        80
+                                 70                       65
+                                 65                       90
+                                 50                       55
+                                 60                       70
+                             ∑ = 668                  ∑ = 805
+
+
+
+               ∑                                                        ∑𝑛 𝑥 2
+           μ=𝑛                                                 𝑆𝐷 = √ 𝑖=1 𝑖 − 𝜇 2
+                                                                            𝑛
+
+
+
+
+                   668
+           μ𝐴 =                                                𝑆𝐷𝐴 = 11.7 (3 𝑠. 𝑓. )
+                   11
+
+
+              ≈ 60.7
+
+                                                               𝑆𝐷𝐵 = 18.1 (3 𝑠. 𝑓. )
+
+                   805
+           μ𝐵 = 11
+
+              ≈ 73.2
+
+
+
+
+                                             15
+ Appendix H: Inferential statistics calculation
+
+
+
+Table 2: Speed estimates (km/h) given by participants in two different experimental conditions
+‘hit’ and ‘smashed’ and their respective ranks according to the Mann-Whitney U-test. ‘5’ and
+                                   ‘6’ have been excluded.
+                                                       Group B
+     Group A (‘hit’)             Rank                                           Rank
+                                                     (‘smashed’)
+            55                    5.5                      80                   18.0
+           40                     1.5                     95                    21.0
+           75                    16.0                     60                     8.0
+           63                    10.0                     40                     1.5
+           50                     3.5                     100                   22.0
+           60                     8.0                     70                    14.0
+           80                    18.0                     80                    18.0
+           70                    14.0                     65                    11.5
+           65                    11.5                     90                    20.0
+           50                     3.5                     55                     5.5
+           60                     8.0                     70                    14.0
+
+
+
+
+                                             𝑛𝐴 (𝑛𝐴 + 1)
+                               U = 𝑛𝐴 𝑛𝐵 +               − 𝑅𝐵
+                                                  2
+
+                                           where:
+
+                                 𝑛 = number of participants
+
+                                    R = sum of rankings
+
+                                             11(11 + 1)
+                           ∴ U = 11 × 11 +              − 153.5
+                                                 2
+
+                                          U = 33.5
+
+
+
+
+                                              16
+

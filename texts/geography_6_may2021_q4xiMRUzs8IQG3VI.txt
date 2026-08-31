@@ -1,0 +1,1057 @@
+  Does the degree of environmental impact differ with
+distance from the CBD, and type of CBD, in Singapore?
+
+
+
+
+                                      Word Count: 2475
+                                                                         Contents
+
+Table of Figures .................................................................................................................................2
+Acronyms (21 words) .........................................................................................................................3
+Introduction (211 words) ...................................................................................................................4
+   Research Question .................................................................................................................................... 4
+   Hypotheses................................................................................................................................................ 4
+   Spatial Context ........................................................................................................................................ 10
+Methods of Investigation (220 words) .............................................................................................. 15
+   Data Collection Methods ........................................................................................................................ 15
+   Data Collection Procedure ...................................................................................................................... 15
+   Method 1................................................................................................................................................. 16
+   Method 2................................................................................................................................................. 17
+   Method 3................................................................................................................................................. 18
+   Method 4................................................................................................................................................. 19
+   Method 5................................................................................................................................................. 20
+Quality and Presentation of Data (1405 words)................................................................................. 21
+   Example Mann Whitney Calculation ....................................................................................................... 21
+   Example Spearman’s Rank Calculation ................................................................................................... 22
+   Questionnaires (Adjective Survey) .......................................................................................................... 23
+   Environmental Impact Assessment ......................................................................................................... 26
+   Decibel Readings ..................................................................................................................................... 31
+   Urban Greenery Percentage ................................................................................................................... 34
+   Footfall and Traffic Surveys..................................................................................................................... 35
+Conclusion (195 words) .................................................................................................................... 37
+Evaluation (444 words) .................................................................................................................... 38
+   Strengths of Methodology ...................................................................................................................... 38
+   Limitations and Weaknesses ................................................................................................................... 38
+   Respective Improvements ...................................................................................................................... 38
+   Extension ................................................................................................................................................. 39
+Works Cited ..................................................................................................................................... 40
+
+
+
+
+                                                                                                                                                               1
+                                                                    Table of Figures
+
+Figure 1 – Criteria for low and high EI by candidate ..................................................................................... 4
+Figure 2 – Bid-Rent on modified Burgess model (Pun‐Cheng)...................................................................... 5
+Figure 3 – Key for figs. 4 to 7......................................................................................................................... 5
+Figure 4 – URA map of JE and surroundings (URA) ....................................................................................... 6
+Figure 5 - URA map of OR and surrounding area (URA) ............................................................................... 7
+Figure 6 - conventions of fig.2 applied to JE (URA) ....................................................................................... 8
+Figure 7 - conventions of fig.2 applied to OR (URA) ..................................................................................... 8
+Figure 8 - Map of South-East Asia, pinning Singapore (Google) ................................................................. 10
+Figure 9 – Hand drawn map of Singapore by candidate ............................................................................. 10
+Figure 10 - Data Transect for JE (Google) ................................................................................................... 11
+Figure 11 - Data Transect for OR (Google) .................................................................................................. 12
+Figure 12 - Photograph of Somerset at OR (Roberts) ................................................................................. 13
+Figure 13 - Photograph at BigBox, JE (Palaniappan) ................................................................................... 14
+Figure 14 - Collage showing questionnaire data collection and equipment required (Palaniappan)
+(Roberts) ..................................................................................................................................................... 16
+Figure 15 - Collage showing EIA data collection and equipment required (Roberts) (Palaniappan).......... 17
+Figure 16 - Collage showing decibel reading data collection and equipment required (Roberts)
+(Palaniappan) .............................................................................................................................................. 18
+Figure 17 - Collage showing footfall and traffic count data collection and equipment required
+(Palaniappan) .............................................................................................................................................. 19
+Figure 18 – Collage showing urban greenery percentage estimation method and equipment required
+(Palaniappan) .............................................................................................................................................. 20
+Figure 19 - Handwritten Mann-Whitney calculation .................................................................................. 21
+Figure 20 - Critical Values Table (Zaiontz) ................................................................................................... 21
+Figure 21 - Handwritten Spearman’s Rank calculation ............................................................................... 22
+Figure 22 - Wordle of frequent adjectives at OR ........................................................................................ 23
+Figure 23 - Wordle of frequent adjectives at JE.......................................................................................... 23
+Figure 24 - Pie chart of adjectives frequency by category at OR ................................................................ 24
+Figure 25 - Pie chart of adjectives frequency by category at OR ................................................................ 24
+Figure 26 - Photograph of ION orchard at OR (Roberts) ............................................................................. 25
+Figure 27 - Average EIA survey for both sites in bipolar presentation ....................................................... 26
+Figure 28 - randomly selected photo at JE (Roberts).................................................................................. 27
+Figure 29 – photograph at OR (Roberts) .................................................................................................... 28
+Figure 30 - located bar chart for EIA score against distance for OR (Google) ............................................ 29
+Figure 31 – located bar chart for EIA score against distance for JE (Google) ............................................. 30
+Figure 32 - Radar Map of OR and JE for Decibel readings (Db) .................................................................. 31
+Figure 33 - Proportional symbol distribution for decibel readings at OR (Google) .................................... 32
+Figure 34 - Proportional symbol distribution for decibel readings at JE (Google) ...................................... 33
+Figure 35 – Line graph showing Urban Greenery (%) by distance from CBD ............................................. 34
+Figure 38 – Compound bar graph showing Footfall and Traffic Count along OR and JE transect .............. 35
+
+
+
+
+                                                                                                                                                                2
+       Acronyms (21 words):
+
+Environmental Impact Assessment EIA
+
+      Environmental Impact EI
+
+    Central Business District CBD
+         Orchard Road OR
+           Jurong East JE
+
+ Coronavirus Disease 2019 COVID-19
+
+
+
+
+                                      3
+                                              Introduction (211 words):
+
+From the syllabus, this investigation links to Option G, subtopic 4. Building sustainable urban systems for
+the future. Singapore aims to become a more resilient city to tackle urban problems like climate change
+by becoming a biophilic1 city. To target urban regeneration, environmental impact (EI) is investigated.
+
+
+Research Question: Does the degree of environmental impact differ with distance from the CBD2, and
+type of CBD, in Singapore?
+
+
+Hypotheses:
+
+
+H1: The EI is lower at JE than OR
+
+
+H2: The EI decreases with distance from the CBD
+
+
+Justification of Hypotheses and Theory:
+
+
+
+
+    Figure 1 – Criteria for low and high EI
+
+
+
+
+1
+    To love living things (Lim)
+2
+    Central Business District
+
+
+                                                                                                          4
+                                                                           Graph showing ‘Bid-Rent’ theory
+                                                                           over modified burgess model.
+
+
+
+
+                                                                                JE secondary CBD.
+
+
+
+
+                                                            OR primary CBD.
+
+Figure 2 – Bid-Rent on modified Burgess model (Pun‐Cheng)
+
+
+
+
+                                                                                                    5
+                                                              Figure 3 – Key for figs. 4 to 7
+                                                  Referred to as JE
+
+
+
+
+Figure 4 – URA map of JE and surroundings (URA)
+
+
+
+
+                                                                      6
+                                                      Referred to as OR
+
+
+
+
+Figure 5 - URA map of OR and surrounding area (URA)
+
+
+
+
+                                                                          7
+                                                High density of “Business 2”, which is industry.
+
+
+
+
+                                                                                                             JE secondary CBD.
+
+
+
+
+                                   Concentric circles contents align
+                                   with Burgess model.
+
+
+                                                                       High density “Residential” area.
+Figure 6 - conventions of fig.2 applied to JE (URA)
+
+
+
+
+                                                                                                          Mixed
+                                                                                                          commercial/business.
+                                                                                                          residential area
+
+
+
+
+                                                                                                             OR primary CBD.
+
+
+
+
+                            Concentric circles contents align
+                            with Burgess model.
+
+
+Figure 7 - conventions of fig.2 applied to OR (URA)
+
+
+
+
+                                                                                                                 8
+A higher bid-rent theory in the CBDs suggests that only high-order goods businesses can afford to be
+situated there, shown by point ‘A’ in respect to ‘B’ and ‘C’, and point ‘D’ in respect to ‘E’ (fig.2). What
+this means is that CBD land will be more frequently used by people in immediate and far areas.
+Therefore, towards the CBD, the EI will be greater, and thus away from the CBD the EI will decrease.
+With ‘A’ representing OR, and ‘D’ representing JE, it can be seen with that JE has a lower rent value
+(fig.2). This suggests that low-order goods and services can be found, consequently less use of the area
+and lower EI in JE than OR.
+
+
+
+
+                                                                                                              9
+               Spatial Context:
+
+
+
+
+Singapore sits                                                                           Singapore is
+South of                                                                                 the only City-
+Malaysia and                                                                             State in South-
+West of Brunei.                                                                          East Asia
+                                                                                         (Longley).
+Singapore has the highest
+GDP per Capita in South-
+East Asia (Ding).
+
+
+
+                                                                                               Figure 8 - Map of
+                                                                                               South-East Asia,
+                                                                                               pinning Singapore
+                                                                                               (Google)
+
+
+
+
+                                                                                        In literature, CBD is
+                                                                                        referred to as the
+                                                                                        ‘Central Area’.
+
+                                                                                         Orchard Road
+                                                                                         largely makes up
+    Figure 3                                                                             the ‘Central Area’.
+
+
+    Figure 4                                                                             Singapore’s
+                                                                                         Main
+                                                                                         Commercial
+                                  Figure 9 – Hand drawn map of Singapore by candidate    Hub.
+                                                                                             10
+Figure 10 - Data Transect for JE (Google)
+
+
+
+
+                                       11
+  The transect is
+  4.62km long                  Botanic
+                               Gardens
+
+
+
+
+                                                                                                           2.2km is the total
+                                                                                                           length of OR
+OR started to gain
+                                                                                                           (Orchard Road).
+traction in the
+1960s (Orchard       Botanic
+Road).               Gardens
+
+
+
+
+                                                                                         Tangs
+
+
+
+
+                                         Figure 11 - Data Transect for OR (Google)
+                                                                                                                      Figure 5
+
+
+                                                                             This goods store lead other
+                                                                             businesses to settle in OR
+                                                                             (Orchard Road).
+
+
+
+
+                                                                                                                 12
+                                                                  Tall buildings (malls like Orchard Gateway) with large base areas.
+
+
+
+
+                                                                                                            Ground surfaces are largely
+                                                                                                            impermeable (concrete or
+                                     Traffic and pedestrians                                                marble).
+                                     (footfall) can be observed
+
+
+
+
+Few
+permeable
+surfaces
+such as
+soil.
+
+
+
+
+            Figure 12 - Photograph of Somerset at OR (Roberts)
+
+
+
+
+                                                                                                                        13
+                                                              Tall buildings (malls like BigBox) with large
+                                                              base areas.
+
+
+
+
+                                   Plentiful use of Angsana
+                                   trees
+
+
+
+
+                               Traffic and pedestrians
+                               (footfall) can be observed
+
+
+
+
+Figure 13 - Photograph at BigBox, JE (Palaniappan)
+
+
+
+
+                                                                                                  14
+                                   Methods of Investigation (220 words):
+
+21st and 22nd August (both on the weekend) were chosen so EI didn’t differ significantly by day.
+
+Data Collection Methods:
+
+
+1. Urban Questionnaires at 4 popular places for JE (Westgate, JEM, JCube and Jurong Lake Gardens) and
+OR (Somerset, ION orchard, Tanglin, Cluny Court): asking for 3 adjectives (H1)
+
+
+2. Environmental Impact Assessment (EIA)* (H1 and H2)
+
+3. Decibel Readings* (H1 and H2)
+
+4. Footfall and Traffic Surveys* (H1 and H2)
+
+5. Urban Greenery Quadrats* (H1 and H2)
+
+* Note: to be taken across transects in OR (Somerset to Cluny Court) (fig.11) and JE (Westgate to Jurong
+Lake Gardens) (fig.10), where transects were decided based on accessible travel and intended direction
+
+Data Collection Procedure:
+
+Systematic sampling is used for all methods. This is advantageous as it is easy to carry out and ensured
+reduced sampling bias. For the questionnaire, it meant approaching every third person. 0.4km and
+0.35km intervals were attempted to some extent but due to variation in place of data collection, this did
+not happen entirely. Recent understanding of the CBD is needed to make interval decisions, a
+disadvantage of this sampling.
+
+Safety considerations
+
+      ➢ maintaining social distancing to reduce transmission of COVID-193.
+      ➢ not using large quadrats or indicating poles for method 4 to avoid injury to pedestrians.
+
+Ethical considerations
+
+      ➢ informing questionnaire participants on use of their responses.
+
+
+
+
+3
+    Coronavirus Disease 2019
+
+
+                                                                                                       15
+                                                                                  Adjective survey of questionnaire is
+                                                                                  specifically used in the analysis.
+Method 1
+
+
+
+
+       Figure 14 - Collage showing questionnaire data collection and equipment required (Palaniappan) (Roberts)
+
+
+                                                                                                 Adjective survey asks
+                                                                                                 participant for 3 different
+                                                                                                 adjectives about location.
+
+
+
+
+                                                                                                                   16
+Method 2
+
+
+
+
+           Figure 15 - Collage showing EIA data collection and equipment required (Roberts) (Palaniappan)
+
+
+
+
+                                                                                                            17
+Method 3
+
+Figure 16 - Collage showing decibel
+   reading data collection and
+  equipment required (Roberts)
+          (Palaniappan)
+
+
+
+
+                                      18
+Method 4
+
+Figure 17 - Collage showing footfall
+and traffic count data collection and
+equipment required (Palaniappan)
+
+
+
+
+                                  19
+Method 5
+
+
+
+
+Figure 18 – Collage showing urban greenery percentage estimation method and equipment required (Palaniappan)
+
+
+
+
+                                                                                                               20
+Quality and Presentation of Data (1405 words):
+
+Data for Methods 1 to 5 are found in the appendix in the respective value i.e. method 1’s data is in A1
+
+Example Mann
+Whitney Calculation
+Mann-Whitney U
+test finds if two sets
+of data have
+significance or not.
+The example takes
+the EIA values of JE
+and OR. (fig. 19) No
+statistical
+significance is
+present between
+the two sets of data;
+difference may have
+occurred by chance.
+                         Figure 19 - Handwritten Mann-Whitney calculation
+
+
+
+
+Figure 20 - Critical
+Values Table (Zaiontz)
+                                                                                                               ‘.05’ is the
+                                                                                                               probability
+                                                                                                               of rejecting
+                                                                                                               null
+                                                                                                               hypothesis
+                                                                                                               when true
+
+
+
+
+                                                                                                               ‘.05’ is the
+                                                                                                               standard
+                                                                                                               significance
+                                                                                                               level used
+                                                                                                               in this test.
+   Both sets of data have 12 values, hence 12 chosen.
+                                                                                                          21
+Example Spearman’s Rank Calculation
+Spearman’s Rank measures the strength of correlation between two variables. Here data is taken for
+distance and EIA score from OR.
+
+
+
+
+                             Figure 21 - Handwritten Spearman’s Rank calculation
+
+
+
+
+                                                                                                     22
+Questionnaires (Adjective Survey)
+
+
+
+
+                               Figure 22 - Wordle of frequent adjectives at OR
+
+
+
+
+                               Figure 23 - Wordle of frequent adjectives at JE
+
+
+
+                                                                                 23
+                                   Adjective Survey at OR
+                                              8%
+                                                                                        Nature
+                                  10%
+                                         3%                                             City
+                                                                                        Expensive
+                                                       19%                              Cheap
+                            17%
+                                                                                        Convenience
+                                                                                        Likeability
+                                  13%                 20%                               Congestion (all types)
+                                        9%                                              Variety
+                                                                                        Lack of Variety
+                                              1%
+
+
+
+                           Figure 24 - Pie chart of adjectives frequency by category at OR
+
+
+
+                                    ADJECTIVE SURVEY AT JE
+                            Lack of Variety                            Nature
+                                 14%                                    14%
+
+
+                         Variety
+                                                                                    City
+                           7%
+                                                                                    9%
+
+                                                                                      Expensive
+                                                                                         3%
+
+                Congestion (all                                                       Cheap
+                   types)                                                              5%
+                    18%
+
+
+                                                                            Convenience
+                                        Likeability                            16%
+                                           14%
+
+                           Figure 25 - Pie chart of adjectives frequency by category at OR
+
+
+To support H1 the data for adjectives must show JE having greater attribution to being green and clean.
+The wordles (figs. 22, 23) display the adjectives that questionnaire participants said frequently however
+
+
+
+                                                                                                                 24
+this does not group the words into categories. ‘Green’ is larger in JE than OR, and ‘Clean’ seems to be
+the same in both. The limitation being it doesn’t consider synonymous phrasing, only exact words. This
+presentation of data does not accurately conclude, so pie charts (figs. 24, 25) will be used. A category for
+‘clean’ is not seen as there was not enough frequency to constitute as a category, it is a part of
+‘likeability’. ‘green’ is present in ‘nature’. At JE, ‘likeability’ and ‘nature’ are greater by 1% and 6% than
+OR, respectively. Therefore, adjective surveys from questionnaires support H1. Because JE has a lower
+bid-rent, there should be fewer users of the area and lower necessity for office or mall buildings hence
+more integration of greenery. This is the case when popular places like ION at OR look like fig.26. After
+discussion of these results with peers, it was found that some participants were asked twice by different
+groups, thereby invalidating this evidence to some extent. Nonetheless, the support for H1 by adjective
+surveys still stands.
+
+
+
+
+                                                                                                   No signs of
+                                                                                                   greenery
+                                                                                                   whatsoever
+
+
+
+
+Figure 26 - Photograph of ION orchard at OR (Roberts)
+
+
+
+
+                                                                                                                 25
+Environmental Impact Assessment
+
+
+
+
+Figure 27 - Average EIA survey for both sites in bipolar presentation
+
+
+
+
+                                                                        26
+The bipolar survey shows the discrepancies present on an individual level, because the EIA comprises of
+multiple factors, a bar graph would not show individual discrepancies. Fig.22 shows that OR has a
+greater EIA than JE. A higher EIA score means less environmental impact. Although there may have been
+multiple smaller discrepancies, opportunities for waste disposal is the main difference. This factor was
+included to provide an understanding of the potential for litter. Because less waste disposal
+opportunities lead to littering, effectively increasing the EI. Theory suggests that because of JE’s lower
+rent, there will be less littering as fewer people will travel to low-order good shops. This data disproves
+that. There is photographic evidence to support this data. Randomly selected photos (using a random
+number generator) show that opportunities for waste are present in OR and not JE. This has visually
+shown that the EIA for OR is greater than JE, which does not support H1, as greater EIA shows lower EI.
+However, a Mann-Whitney test (fig.21) conducted suggests that there is statistical insignificance
+present. Meaning this discrepancy in value may have happened by chance. Because 32 and 33 are
+similar (fig.22), it seems possible that their difference can be attributed to chance.
+
+
+
+
+                                                            No waste bin
+                                                            present
+
+
+
+
+Figure 28 - photograph at JE (Roberts)
+
+
+
+                                                                                                             27
+                                         Waste bin
+                                         present
+
+
+
+
+Figure 29 – photograph at OR (Roberts)
+
+
+
+
+                                                     28
+Figure 30 - located bar chart for EIA score against distance for OR (Google)
+
+
+
+
+                                                                               29
+Figure 31 – located bar chart for EIA score against distance for JE (Google)
+
+
+Figures 30 and 31 show increasing EIA score with distance from point 1, which in this instance is the
+center of the CBD. This is because of the overall positive trend of both charts. However, the bars in the
+red box (fig.31) show values different from the rest, anomalous results that don’t fit with the general
+increasing trend. To see the strength of the trends Spearman’s Rank was conducted for both. It was
+found that the R-values for OR and JE were 0.85 and 0.61, respectively. Because these values are
+positive, the correlations are positive. Furthermore, values above 0.7 are generally considered strong,
+showing that the correlation was strong positive for OR and weak positive for JE. Had the anomalous
+result not been included for JE, R = 0.75, therefore a strong correlation. Reflecting, the EIA scores for
+those 4 points had been collected whilst inside due to rain, therefore lower perceptions of the EIA
+factors, leading to an overall lower score. With or without anomalous points, the EIA score increases
+with distance from the CBD in both OR and JE and hence H2 is supported by this evidence, as EI
+decreases with distance from the CBD.
+
+
+
+
+                                                                                                            30
+Decibel Readings
+
+                         Radar Map of OR and JE for Decibel readings (Db)
+                                                               OR   JE
+                                                                1
+                                                                             Y-value on
+                                                          80                 graph: Db -
+                                            12            70             2   decibels
+                                                          60
+                                                          50
+                                11                        40                    3                 X-value on
+                                                          30                                      graph: Points on
+                                                          20                                      the transect
+                                                          10
+                           10                              0                        4
+
+
+
+
+                                 9                                              5
+
+
+
+                                             8                           6
+
+                                                                7
+
+
+Figure 32 - Radar Map of OR and JE for Decibel readings (Db)
+
+
+Radar map is used as it allows one to see where overlap between values take place (in this case none).
+
+Figure 32 clearly shows OR is greater than JE in terms of decibel readings at each point on the transect.
+JE’s entire radar is encompassed by OR’s radar. This evidences H1 which suggests the EI is lower at JE
+than OR because lower decibel reading contributes to a lower environmental impact. If the land value is
+lower in Jurong east, fewer people/vehicles will be prompted to journey to that land, as its contents are
+more low-order. No major anomalies, or dips in radar, are noted as the patterns are seemingly uniformly
+circular.
+
+
+
+
+                                                                                                         31
+Figure 33 - Proportional symbol distribution for decibel readings at OR (Google)
+
+
+
+
+                                                                                   32
+Figure 34 - Proportional symbol distribution for decibel readings at JE (Google)
+
+
+
+
+Figure 33 and 34 employ proportion symbols, using colour, to show the levels of sound pollution. This
+was used because of the accessibility of drawing conclusive patterns using spatial context. The decibel
+readings are classed into 3 groups. Figure 33 shows as distance increases the decibel reading generally
+falls, this is because the frequency of red symbols diminishes whilst the yellow and green symbols
+increases. On figure 34 however, for JE, a clear trend cannot be distinguished because of the presence of
+anomalies toward the end of the transect (point 9, 10) and at the very start (point 9, 12). Anomalous
+results may simply be due to the hypersensitive nature of the equipment. To identify a trend
+statistically, spearman’s rank will be used. After calculation it was found that R = -0.35. This suggests
+that as distance from the CBD increases, the decibel reading falls. The negative sign shows a negative
+correlation, and because the modulus value is less than 0.7 it can be considered weak. Conclusively this
+is a weak negative correlation. For example, the reading may spike if a single car passes the student
+during data collection. Considering H2, this data supports it due to negative correlation observed in both
+figs. 33 and 34.
+
+
+
+
+                                                                                                            33
+Urban Greenery Percentage
+
+                                          Urban Greenery (%) by distance from CBD
+                        100
+                        90
+                        80
+
+
+
+
+   Urban greenery (%)
+                        70
+                        60
+                        50
+                        40
+                        30
+                        20
+                        10
+                         0
+                              1   2   3       4         5         6           7    8          9   10   11        12
+                                                  Increasing distance from CBD (data point)
+
+                                                                OR       JE
+
+
+Figure 35 – Line graph showing Urban Greenery (%) by distance from CBD
+
+
+Line graph is used to compare the trends without losing clarity on the individual points, to spot
+anomalies during analysis.
+
+H1 and H2 can be evidenced by figure 35. For H1 urban greenery at JE is always greater than OR, the line
+graph clearly shows this as the orange line is always above the blue. The degree at which there is a
+difference in urban greenery percentage varies throughout but the data still supports H1.
+
+Although as distance increases from the CBD there seems to be a positive trend overall, at point 9 for
+both transects a negative correlation can be seen. From theory, this may be linked to the Burgess model.
+After the CBD, a ring of a mix of industry, commercial and residential land can be seen, perhaps this dip
+decrease can be attributed to industrial action along both transects. However, when looking at the
+respective maps, points 9 and onwards are near gardens for both transects. These anomalies may be
+because of the fact 3 different groups collected data, the threshold for urban greenery percentage may
+be different for some, suggesting that more data is not necessarily beneficial if it is dependent on
+opinion. Because JE both trends support urban greenery percentage increasing with distance from the
+CBD, H2 is supported.
+
+
+
+
+                                                                                                            34
+Footfall and Traffic Surveys
+
+
+                                                     Footfall and Traffic Count along OR and JE
+                                                                       transect
+                                           300
+
+
+
+                                           250
+
+
+
+
+   Traffic and footfall cumulative count
+                                           200
+
+
+
+                                           150
+
+
+
+                                           100
+
+
+
+                                           50
+
+
+
+                                            0
+                                                 1      2   3          4       5           6       7        8          9      10   11   12
+                                                                      Increasing distance from CBD (data point)
+
+                                                                Traffic JE   Footfall JE       Traffic OR       Footfall OR
+
+
+
+Figure 36 – Compound bar graph showing Footfall and Traffic Count along OR and JE transect
+
+
+Compound bar graph was chosen to represent both hypotheses whilst being able to make a distinction
+between the constituents of the final values.
+
+Figure 38 shows the cumulative values for the footfall and traffic count at both transects. The overall
+trend is downwards showing that with increased distanced there is decreased traffic and footfall. With
+greater distance from the CBD, there will be fewer people present as the area is less “exclusive”. In the
+sense that people will travel from far away using vehicles to mostly visit the CBD rather than the
+surrounding areas, thereby having a lesser environmental impact on the surrounding areas. Footfall and
+traffic surveys are in support of H2 due to the general decreasing trend. Proportionally speaking it is also
+clear to see that with the blue and orange columns (JE traffic and footfall) marginally make up the
+cumulative values in fig.38. This suggests that the footfall and traffic on average is lower in JE than OR,
+
+
+                                                                                                                                             35
+supporting H1. This data may reflect the fact that because OR is the primary CBD and has a higher rent,
+according to the Bid-Rent theory, more vehicles and people are seen.
+
+
+
+
+                                                                                                      36
+                                        Conclusion (195 words):
+
+
+
+          Does the degree of environmental impact differ with distance from the CBD, and type
+                                      of CBD, in Singapore? Yes.
+
+
+H1: The EI is lower at JE than OR
+
+
+All factors of a lower EI were attributed to JE rather than OR when a comparison was made, except for
+EIA. Urban greenery percentage was greater in JE than OR, furthermore, the adjective survey showed
+JE was more attributed to ‘Green’ and ‘Clean’. The traffic, footfall, and decibel readings were lower in
+JE than OR, possibly attributed to lower rent values from the Bid-Rent theory. EIA was the only factor
+which did not support this hypothesis, the overwhelming support from other areas causes this
+hypothesis to be accepted.
+
+
+H2: The EI decreases with distance from the CBD
+
+
+With increasing distance, factors of the EI changed accordingly with the theory outlined in the
+introduction. Though the strength of some of the trends was not the highest (0.61 for EIA) and showed
+weak correlations, they supported the hypothesis nevertheless based on if the correlation was positive
+or negative. Overwhelming support from all factors for this hypothesis causes its acceptance.
+
+
+Since the hypotheses are accepted, the research question is answered.
+
+
+
+
+                                                                                                      37
+                                        Evaluation (469 words)
+
+Strengths of Methodology
+   ➢ Reliable as 3 “repeats” of data collection
+   ➢ Accurate data as appropriate use of digital equipment like decibel meter
+   ➢ Sites on transect chosen to reflect both hypotheses
+   ➢ Sites were all outside, making them suitable for looking at environmental impacts
+
+Limitations and Weaknesses
+   1. Weather disallowed perception of factors in the EIA, for example having to make a judgement
+       from afar due to thundery showers.
+   2. Not using quadrats, this may have caused significant human error due to poorly estimated 5m2
+       area.
+   3. 2 transects didn’t provide sufficient variability of population, causing the same people to be
+       questioned.
+   4. Sampling method could not be carried out.
+   5. Lack of expected data for analysis.
+   6. No analysis of error.
+
+Respective Improvements
+   1. Collecting data on 4 to 5 days, rather than 2, so that data with similar weather conditions can be
+       used for comparison.
+   2. Instead of imagining quadrats, 4 brightly coloured poles can be used to indicate the area of data
+       collection whilst maintaining safety.
+   3. 6 transects should be carried out, with each of the 3 groups taking on 2 of them.
+   4. Stratified sampling could not be carried out in the questionnaire due to the worry of COVID-19,
+       to improve this a QR code may be shown, so people can answer the questionnaire from afar.
+       Furthermore, this would automatically transfer data online, so less human error would be
+       involved.
+   5. Comparing results with published data may have provided an insight into the nature of the data
+       collected. Consequently, expected data could have been used in the Chi-squared test to
+       quantitatively show the differences in published and collected data.
+
+
+
+
+                                                                                                       38
+    6. Error only could have been measured for the decibel readings; it would have been useful to
+        analyze this as the potential for variability of data could have been seen. Overlap in error bars
+        could have been discussed, potentially invalidating some claims.
+
+Extension
+I found that wind and temperature was changing along both transects, imploring the research question
+to change to ‘Do climatic conditions differ with distance from the CBD, and type of CBD, in Singapore?’.
+
+
+
+
+                                                                                                            39
+                                              Works Cited
+
+Ding, Shine. “Forget About China” - How Chinese Companies Can Succeed in Southeast Asia. 23 July
+        2018. Website. 1 October 2020. <https://www.egonzehnder.com/functions/human-
+        resources/insights/forget-about-china-how-chinese-companies-can-succeed-in-southeast-asia>.
+
+Google. “GoogleMyMaps.” n.d. Website. <https://www.google.com.sg/maps/d/u/0/>.
+
+IMM. n.d. Website. 1 October 2020. <http://www.jurong.sg/imm1.html>.
+
+JRTC. With a vibrant five-year masterplan, Jurong Central pushes for better facilities. 19 June 2020.
+       Website. 1 October 2020.
+       <https://ranusualago11.live/0028442013/?utm_campaign=QPF8euu28II5lw7O2iHhCidoSOXmw
+       5oLxD6bwphw43U1&t=main9&f=1&sid=t4~ujs4xy2v1hcv3vdm3bmvaaef&fp=F5O5zR0ar%2Fdzn
+       J6V%2Fa9MGHyqzjtphBvJxeG6zH3Dlrx3%2BOBWWGMGsOQ9OYiHJBaOAWOJu0aFCKYo4WMd9
+       FYGGLuhu9PN4GHtHaDAVzfrA>.
+
+Lim, Dawn. “Moving goods.” 2019. Skyline. Ed. Serene Tng. URA. 1 October 2020.
+       <https://dcsg.fireflycloud.asia/Resources/UPPER%20SCHOOL%20%5BFn1w%5D/IB%20Geograp
+       hy%20%5BF1uoc%5D/IA%20FW%20URBAN%202020%20%5BF4lme%5D/2%20The%20Research
+       %20%5BF4lmh%5D/Skyline%2010.pdf>.
+
+Longley, Robert. What Is a City State? Definition and Modern Examples. 4 June 2019. Website. 1 October
+        2020. <https://www.thoughtco.com/what-is-a-city-state-
+        4689289#:~:text=Most%20geographers%20and%20political%20scientists,%2C%20Singapore%2
+        C%20and%20Vatican%20City.>.
+
+National Parks. Your Guide to civicdistrict treetrail. Singapore, n.d. PDF. 15 August 2020.
+       <https://www.nparks.gov.sg/~/media/nparks-real-content/gardens-parks-and-nature/diy-
+       walk/civic-district-tree-trail/civic-district-tree-trail_eguide.pdf>.
+
+Orchard Road. n.d. Singapore Tourism Board. 15 August 2020. <https://www.visitsingapore.com/see-do-
+       singapore/places-to-see/orchard/>.
+
+Palaniappan, Kailash. “Fieldwork Pictures.” Singapore, August 2020. 1 October 2020.
+
+Pun‐Cheng, Lilian S.C. “Contemporary modifications of the bid rent theory. CBD = central business
+       district.” Distance Decay. John Wiley & Sons, Ltd., 2016 February 2016. Diagram .
+       <https://onlinelibrary.wiley.com/doi/full/10.1002/9781118786352.wbieg0179>.
+
+Roberts, Thomas. “Fieldwork Pictures.” Singapore, 21 - 22 August 2020. 1 October 2020.
+
+URA. “URA SPACE.” 2019. ura.gov.sg. Map. 1 October 2020.
+       <https://www.ura.gov.sg/maps/?service=MP#>.
+
+Zaiontz, Charles. “Mann-Whitney Table.” 2020. Real Statistics Using Excel. Table . 6 October 2020.
+        <https://www.real-statistics.com/statistics-tables/mann-whitney-table/>.
+
+
+
+
+                                                                                                     40
+     Appendix
+
+A1
+
+
+
+
+A2
+
+
+
+
+A3
+
+
+
+
+                41
+A4
+
+
+
+
+A5
+
+
+
+
+     42
+43
+

@@ -1,0 +1,1133 @@
+          Business Management
+
+                   Internal Assessment
+
+                          Higher Level
+
+
+                            Research Question:
+ Should Kreme De la Kreme switch to online sales completely, shutting down
+      on-counter sales to improve cash flow and increase profitability?
+
+
+
+
+Intended Audience: Kreme De La Kreme
+
+Candidate code: hwg944
+
+Word count
+
+    Research Proposal: 500 words
+
+    Executive Summary: 200 words
+
+    Written Report: 1853 words
+                                       Business Management HL IA                              May 2020
+Acknowledgement
+
+I would like to acknowledge and express my gratitude towards:
+
+   •   The Business Management faculty at my school, for her guidance and support throughout this
+
+       process
+
+   •   Ms. Aditi Nayak, Proprietor of Kreme De La Kreme, and Mr. Tejas Chaudhary, Co-owner of
+
+       Kreme De La Kreme for their contribution towards this report in terms of the interview and data
+
+   •   The various Kreme De La Kreme Customers who filled out the data-collection forms which
+
+       helped in the primary data collection process.
+
+
+
+
+                                                                                             1|Page
+                                                           Business Management HL IA                                                         May 2020
+Table of Contents
+
+Research Proposal ............................................................................................................................... 3
+   Research Question ............................................................................................................................ 3
+   Rationale ........................................................................................................................................... 3
+   Theoretical Framework ...................................................................................................................... 3
+   Methodology ...................................................................................................................................... 3
+   Anticipated Difficulties........................................................................................................................ 4
+   Action Plan ........................................................................................................................................ 4
+   Changes Made .................................................................................................................................. 5
+   Executive Summary ........................................................................................................................... 6
+Introduction ........................................................................................................................................... 7
+Main results and Findings ..................................................................................................................... 8
+Analysis and Discussion ....................................................................................................................... 9
+   Cashflow Forecast ............................................................................................................................. 9
+   Profitability Ratio .............................................................................................................................. 12
+   Decision Tree .................................................................................................................................. 14
+   Force Field Analysis ........................................................................................................................ 16
+Conclusion .......................................................................................................................................... 18
+Recommendation ................................................................................................................................ 18
+Bibliography ........................................................................................................................................ 20
+Appendix ............................................................................................................................................. 21
+   Appendix 1: Interview with the Co-owner, Mr. Tejas Choudhary .................................................... 21
+      Location: His Work place. ............................................................................................................. 21
+   Appendix 2: A cash-flow forecast made by me based on the data provided by the owner for the
+   year 2019-2020 ............................................................................................................................... 24
+   Appendix 3: A cash-flow forecast made based on the economic changes data regarding inflation
+   and predicted change is online sales revenue for the year 2020-21. ............................................... 25
+   Appendix 4: A cash-flow forecast made by me based on the economic changes data regarding
+   inflation and predicted change is online sales revenue for the year 2021-22. ................................. 26
+   Appendix 5: Results of a survey conducted amongst the customers of Kreme de la Kreme ......... 28
+
+
+
+
+                                                                                                                                            2|Page
+                                        Business Management HL IA                                May 2020
+Research Proposal
+
+Research Question
+
+Should Kreme De la Kreme switch to online sales completely, shutting down on-counter sales to
+
+increase profitability?
+
+Rationale
+
+Kreme De La Kreme, a Gelateria in suburban India, has a Unique Selling Point of serving low-fat
+
+gelato, waffles and cookies in a residential area, with little to no competition in a 2 km radius. Started
+
+in October of 2018, the business has not been able to reach breakeven owing to the high expenses
+
+that their location demands. A significant proportion of their revenue is through online sales - food
+
+delivery Apps such as Swiggy and Zomato. Though the gelateria is situated in a prominent location
+
+and has moderate seating space, the occupancy stays largely under-utilized. High overheads (e.g.
+
+rental charges) and under-utilized resources (occupancy rate) is impacting the overall costs, thus
+
+impacting the profitability. The proprietor hence wishes to evaluate the business feasibility of moving
+
+completely to an online mode of business and its possible impact on business profitability. This report
+
+will use different qualitative and quantitative tools to help the proprietor understand not only the
+
+financial viability but also restraining factors to work on to make the decision successful.
+
+Theoretical Framework
+
+To derive an answer for the Research Question, Chapters 1.7 (Organizational Tools: Decision Tree,
+
+Force Field Analysis) and 3.5 (Profitability Ratio and Analysis: Profitability Ratio) were referred to.
+
+Decision Tree allowed a forecast of the future finances for both of the choices: Moving to delivery only
+
+or not changing. Force field Analysis allows one to examine the pros and cons of both the choices
+
+side by side to make a well-informed decision. Using Profitability Ratio, one can compare the sales to
+
+the expenses that the switch would require.
+
+
+
+                                                                                                3|Page
+                                        Business Management HL IA                               May 2020
+Methodology
+
+The following people will be interviewed as a part of this research:
+
+ 1. Mr. Tejas Chaudhary, Co-owner of Kreme De La Kreme.
+
+           a. To understand the working of the business, Financial data and help rate FFA
+
+ 2. The accounts manager to get financial data for business analysis
+
+ 3. A few of his customers.
+
+           a. People who have had products from Kreme De La Kreme existing customers will be
+
+              interviewed via a Google Forms Survey.
+
+ 4. Online sources for Secondary Research as and when required.
+
+Anticipated Difficulties
+
+Difficulties with access to information are anticipated. Even if the required information is acquired, it
+
+might not be reliable as it could be an estimate, as not everyone is open to disclosing their financial
+
+details to others. Secondly, all secondary data referred to could be out of date and thus unreliable. To
+
+reduce the impact of these difficulties, multiple different sources would be referred to, thus making the
+
+data valid by redundancy.
+
+Action Plan
+
+
+
+
+                                                                                               4|Page
+                                       Business Management HL IA                              May 2020
+Changes Made
+  1. In the process of interviewing the proprietor, it was realized that the business also suffers from
+
+      cash flow issues hence the Research Question was modified to
+
+      “Should Kreme De la Kreme switch to online sales completely, shutting down on-
+
+      counter sales to improve cash flow and increase profitability?” from
+
+      “Should Kreme De la Kreme switch to online sales completely, shutting down on-counter sales
+
+      to increase profitability?”
+
+   2. Added Cashflow Forecast and its comparison as a tool.
+
+Word Count: 500
+
+
+
+
+                                                                                             5|Page
+                                      Business Management HL IA                             May 2020
+Executive Summary
+
+Kreme De La Kreme, an ice-cream brand of Scoops and Smiles, specializes in low-fat desserts.
+
+While hunting for possible businesses project, one of the proprietors was contacted. Despite a
+
+seating area, they fail to attract adequate walk-ins. Therefore, this research was based on whether
+
+they should switch to online sales completely, shutting down on-counter sales to reduce operational
+
+cost thus increasing profitability. This was done using Profitability Ratio, Decision Tree, and Force
+
+Field Analysis. Primary sources of data included interviews with proprietors and surveys with
+
+customers. Secondary sources included web searches of prices and procedures of this change, and
+
+rates of economic change. The findings indicated that moving locations for a manufacturing unit was
+
+resource-intensive (time-consuming and process-oriented), considering the legal and labor
+
+framework. It would be a matter of added investments and time. However, these findings are limited
+
+in the way that the data referred to, has a lag period and hence could be inaccurate in the current
+
+context. Secondly, there could also be some legal implications regarding such a procedure that were
+
+overlooked or misinterpreted. There could have been a misinterpretation of words during the
+
+interviews. The survey was exercised to over 50 people, however, only 12 responded.
+
+Word count: 200
+
+
+
+
+                                                                                           6|Page
+                                       Business Management HL IA                               May 2020
+Introduction
+
+Kreme De La Kreme is a dessert joint in Mumbai, Maharashtra. Being located in a predominant
+
+residential area, most of its customers live within a 2 KM radius. Kreme De La Kreme specializes in
+
+gelato, cookies, and brownies that they manufacture themselves. They stand out from other dessert
+
+joints in the area due to their unique offerings- low fat gelato, as most centers in the area serve
+
+medium fat ice-cream. Started in October 2018, with a considerable investment, the proprietors wish
+
+to break even by mid-2019. Since the start of the business, the proprietor has noticed over 80% of
+
+their sales being via online food delivery apps. They are currently occupying a space, which has
+
+enough room for their manufacturing unit and seating space for their customers. With sales not being
+
+enough for a timely break-even, the proprietor wishes to switch to online sales completely, shutting
+
+down on-counter sales. This would allow them to maximize their space.
+
+Hence gave rise to Research Question:
+
+Should Kreme De la Kreme switch to online sales completely, shutting down on-counter sales
+
+to improve cash flow and increase profitability?
+
+Currently, they are facing cash flow problems, with high outflow without commensurate returns due to
+
+low sales and high operational cost. . I would refer to Unit 1.7 and 3.5 during this Assessment.
+
+
+
+
+                                                                                              7|Page
+                                                                Business Management HL IA           May 2020
+Main results and Findings
+
+
+                                             Sales Summary for Krem De La Kreme
+                                       66
+                                                                                      63.59
+                                       64
+
+
+
+
+   Sales (All Values in 100,000 INR)
+                                       62
+
+                                       60
+
+                                       58
+
+                                       56        55.27
+
+                                       54
+
+                                       52
+
+                                       50
+                                            Oct 2018-Dec 2018                   Jan 2019-Mar 2019
+                                                                  Period
+
+
+
+Figure 1: Sales of Kreme De la Kreme
+
+Based on the graph, we see that there has been an increase in their sales over time. As per the
+
+proprietor, a significant proportion of their sales (80%) come from online delivery orders from food
+
+delivery apps such as Swiggy and Zomato. They also have seating area for walk in customers.
+
+However, since it draws only 20% of their sales, the operational cost for procuring this 20% of the
+
+sales is significantly higher for the revenue generated. . They are located in a residential area with
+
+multiple educational institutes around, however they have not been able to attract customers as walk-
+
+ins They incur significant recurring cost for the amenities they offer in the seating area such as the
+
+tables and chairs (fixed cost), electricity and maintenance cost (recurring cost) in the seating area
+
+itself. If the seating area is removed, Kreme De La Kreme could be able to reduce operational costs
+
+without significantly impacting their sales (considering walk-in contributing to only 20% of their sales),
+
+utilize the seating space to increase manufacturing capacity, or shift manufacturing to a low cost yet
+
+accessible geography and ramp-up online delivery services and increase profitability. If they move to
+
+a delivery only model, with no seating area, they can cut down on costs, and improve their profits.
+
+                                                                                                    8|Page
+                                       Business Management HL IA                             May 2020
+According to the survey conducted through convenient sampling method and the results from Fig 2 it
+
+was found that the demand for ordering ice-cream is increasing which assures that the business can
+
+move to online flat form completely.
+
+
+
+
+Analysis and Discussion
+
+Cashflow Forecast
+The proprietors wish to move to a smaller space, and move to a delivery only model, they can reduce
+
+on the rent they pay as they would be paying for a smaller area this will have a major impact on their
+
+Cashflow hence Cashflow comparison before and after the move is used for analysis considering that
+
+they will move from March 2020
+
+
+
+
+                                                                                            9|Page
+                                     Business Management HL IA                           May 2020
+       Month        Oct-19     Nov-19       Dec-19       Jan-20    Feb-20    Mar-20    Apr-20
+
+                               Cash Inflow (All amounts in INR)
+
+       Sales        184,237   184,237      184,237       211,972   211,972   211,972   215,361
+
+   Cash Payouts     100,000      0         100,000          0        0       100,000   100,000
+
+    Total Inflow    284,237   184,237      284,237       211,972   211,972   311,972   315,361
+
+                                          Cash Outflow
+
+      Wages         35,700     34,000       43,840       38,540    44,500    43,500    43,500
+
+    Office Lease    75,000     75,000       75,000       75,000    75,000    125,000   50,000
+
+     Electricity    23,600     27,130       23,970       24,290    27,140    25,300    25,300
+
+  Internet Access     400       400           400         400       400       400       400
+
+       Office
+
+   Supplies/Raw     62,720     52,940      132,282       62,228    85,257    45,614    45,614
+
+      Material
+
+  Loan Repayment    32,500     32,500       32,500       32,500    32,500    32,500    32,500
+
+   Miscellaneous    19,550     5,950           0         14,828     4,950      0          0
+
+   New Licensing       0         0             0            0        0         0        2,000
+
+      Logistics        0         0             0            0        0         0       12,000
+
+   Total Outflow    249,470   227,920      307,992       247,786   269,747   272,314   211,314
+
+   Net Cash flow    34,767    -43,683       -23,755      -35,814   -57,775   39,658    104,047
+
+  Opening Balance   350000    384,767      341,084       317,329   281,515   223,740   263,398
+
+  Closing Balance   384,767   341,084      317,329       281,515   223,740   263,398   367,445
+
+Table 1: A cash-flow forecast made by me based on the data provided by the owner for the year
+
+2019-20.
+
+
+
+                                                                                       10 | P a g e
+                                       Business Management HL IA                               May 2020
+       Month           Oct-20     Nov-20      Dec-20       Jan-21      Feb-21     Mar-21     Apr-21
+
+                                   Cash Inflow (All amounts in INR)
+
+        Sales         211,136    211,136     211,136      242,920     242,920    242,920    246,804
+
+     Total Inflow     211,136    211,136     211,136      242,920     242,920    242,920    246,804
+
+                                  Cash Outflow (All amounts in INR)
+
+       Wages           38,000     38,000      38,000       38,000      38,000     38,000     38,000
+
+    Office Lease       50,000     50,000      50,000       50,000      50,000     50,000     50,000
+
+      Electricity      20,000     27,130      23,970       24,290      27,140     25,300     25,300
+
+   Internet Access      600         600         600         600         600        600        600
+
+        Office
+
+    Supplies/Raw       22,654     22,140      22,500       11,254      11,674     23,445     11,870
+
+       Material
+
+   Miscellaneous       12,500     21,435      50,000       14,828      4,950      45600       6640
+
+    Total Outflow     143,754    159,305     185,070      138,972     132,364    182,945    132,410
+
+   Net Cash flow       67,382     51,831      26,066      103,948     110,556     59,975    114,394
+
+
+  Opening Balance     367,445    434,827     486,658      512,724     616,672    727,228    787,203
+
+
+  Closing Balance     434,827    486,658     512,724      616,672     727,228    787,203    901,597
+
+Table 2: A cash-flow forecast made based on the economic changes data regarding inflation and
+
+predicted change is online sales revenue for the year 2020-21.
+
+The Rent of 75000/- is brought down to 50000/- which has a huge improvement in the Cashflow of
+
+the business and so will be with the profitability too. The net cash flow moved from negative figures to
+
+positive which surely will allow business to be stress free to take major decisions. However, the time
+
+
+                                                                                             11 | P a g e
+                                                    Business Management HL IA               May 2020
+taken to implement this change could affect their sales. Thus, the process of changing locations must
+
+be planned well. Along with that, the new location must also have a rent low enough to make a
+
+difference, while also fulfilling all of the business’s needs. High foot traffic could also help in
+
+promotion. However, moving itself would have its own costs involved. To understand the impact on
+
+the profits profitability ratio is calculated.
+
+Profitability Ratio1
+
+Net Profit margin until the end of Financial Year 2019-20:
+
+                                                  Sales Revenue            1,192,016
+
+                                       -          Variable Costs           118,036
+
+                                      =            Gross Profit            1,073,980
+
+                                       -           Fixed Costs             722,663
+
+                                      =        Net Profit before Tax       351,317
+
+                                               Net Profit after Tax        288,080
+
+                                     𝑁𝑒𝑡 𝑃𝑟𝑜𝑓𝑖𝑡                   288080
+Net Profit Margin (NPM) = 𝑆𝑎𝑙𝑒𝑠 𝑟𝑒𝑣𝑒𝑛𝑢𝑒 × 100% = 1192016 × 100% = 24.18%
+
+
+Net Profit Margin until the end of Financial Year 2020-21
+
+
+                                                    Sales Revenue          1,608,972
+
+                                           -        Variable Costs         454,620
+
+                                           =         Gross Profit          1,154,352
+
+                                           -         Fixed Costs           620,200
+
+                                           =     Net Profit before Tax     534,152
+
+                                                  Net Profit after Tax     438004.6
+
+
+
+1
+    Data taken from Appendices 2-4
+                                                                                          12 | P a g e
+                                             Business Management HL IA                           May 2020
+                              𝑁𝑒𝑡 𝑃𝑟𝑜𝑓𝑖𝑡                438004.6
+Net Profit Margin (NPM) = 𝑆𝑎𝑙𝑒𝑠 𝑟𝑒𝑣𝑒𝑛𝑢𝑒 × 100% = 1608972 × 100% = 27.22%
+
+
+Net Profit Margin until the end of Financial Year 2021-22
+
+
+                                            Sales Revenue          1,769,869
+
+                                  -          Variable Costs         130,213
+
+                                  =           Gross Profit         1,639,656
+
+                                  -           Fixed Costs           634,900
+
+                                  =    Net Profit before Tax       1,004,756
+
+                                           Net Profit after Tax     823900
+
+
+
+                              𝑁𝑒𝑡 𝑃𝑟𝑜𝑓𝑖𝑡                 823900
+Net Profit Margin (NPM) = 𝑆𝑎𝑙𝑒𝑠 𝑟𝑒𝑣𝑒𝑛𝑢𝑒 × 100% = 1769869 × 100% = 46.55%
+
+
+As we see in the above few equations and tables, the company’s profits are going to rise
+
+exponentially in the next few years after they move to a new location and only offering online sales.
+
+Here, I have used the ratio Net Profit margin as it compares the sales of a business to its profits
+
+directly. Here, to explain, the NPM for FY2020 is 27.22%. This means that for every instance of sales
+
+worth 100 INR, the business makes a profit of 27.22 INR. This skyrockets in the next year to 46.55
+
+INR, almost 47 INR per 100 INR of sales. Moving to a new location and change their model of sales,
+
+they end up reducing their fixed costs of maintaining a seating area that they have right now, and they
+
+would have to pay less in terms of utility bills such as electricity. Due to a decrease in expenditure,
+
+their net profit would increase, thus increasing their profitability
+
+The figures from the equations show that if everything goes as planned, Kreme De La Kreme would
+
+be very profitable, breaking-even in a few years. However, a limitation of this would be the fact that all
+
+
+
+
+                                                                                               13 | P a g e
+                                      Business Management HL IA                             May 2020
+figures about future performance are based on predictions, which may or may not be true. It also
+
+doesn’t consider external factors much hence decision tree is constructed.
+
+
+
+
+                                                       Profitability
+                                                      Increases(0.8)
+
+                                                      750,000 INR
+                                  Option 1:
+                             Change the Model of                          0.8*750,000 +
+                              Sales, any change        Profitability      0.1*670,000 +
+                                   location           Decreases(0.1)       0.1*700,000=
+                                                                             737,000 -
+                                                       670,000 INR        10000=727000
+
+                                                      No change in
+                                                     Profitability(0.1)
+            1                                          700,000 INR
+
+                         Option 2: Make
+                          no changes               700,000 INR
+
+
+
+
+Decision Tree
+With an 80% predicted chance of success on the basis of increasing demand, Option 1 has an
+
+expected value of 727,000 INR every quarter, while Option 2 has just 700,000 INR. Even with an
+
+initial investment of 10,000 INR, Kreme De La Kreme can break even in just the first quarter. So, it
+
+would be a good decision to undertake Option1. However, with changing trends, these predictions
+
+and calculations can be misleading, and inaccurate. To reduce the chances, I referred to secondary
+
+resources with predictions of the market for the next few years made by reputed economists and
+
+Market Analysts. This definitely does not make it totally accurate, but it makes it as accurate as
+
+possible.
+
+
+
+
+                                                                                          14 | P a g e
+                                     Business Management HL IA                           May 2020
+Also, if there is too much opposition to the change, moving might do more harm than good. This
+
+generates the need for a side by side analysis of the incentives and possible deterrents that the
+
+company might have about this change, or a Force Field Analysis.
+
+
+
+
+                                                                                       15 | P a g e
+                                        Business Management HL IA                             May 2020
+Force Field Analysis
+
+                           Driving forces                   Restraining Forces
+
+                                                           Time
+                   Increased
+                                            8          consuming              5
+                  Profitability
+                                                         process
+
+                                                      Loss of sales
+
+                Reduced Cash                            during the
+                                            7                                 4
+                    Outflow                          implementation
+
+                                                      of the process
+
+                Reduced Fixed                        Possible loss of
+                                            7                                 8
+                       costs                           Customers
+
+                                                         Cost of
+
+                                                      new/updated             1
+
+                                                     permits/licenses
+
+                                                         Costs of
+                                                                              1
+                                                         logistics
+
+                       Total                22             Total             19
+
+
+
+
+I have used the above Force Field Analysis to compare the driving and restraining forces of moving to
+
+a new location and adopting a Business-to-Business model of sales. The driving forces are higher
+
+than restraining forces which with future brainstorming can be reduced. The change in location is
+
+relatively time consuming, and could reduce their sales in the days that are required for the change to
+
+happen. This can be managed by forecasting their sales for the days they plan on implementing the
+
+changes, and making and storing enough products to last those days, and maybe even a day or two
+
+                                                                                            16 | P a g e
+                                         Business Management HL IA                                May 2020
+more, as a contingency plan. There is a possibility they the product will not be sold in those days, but
+
+the ice cream can be moved to the new location, refrozen, and sold. As per the survey conducted2,
+
+most of the customers may or may not want to continue buying from Kreme De La Kreme if they
+
+moved to a new structure. This poses a justified threat of a loss of customers as people might not
+
+want to wait for the delivery service to get them their ice cream or might not want to travel to pick it up
+
+themselves. Since most of their current customers live in a 2KM radius around their outlet, going to
+
+the outlet and picking up their deserts themselves does not take more than 20-30 minutes, while the
+
+delivery apps take the same time, if not more, while adding an additional delivery charge. Moving to a
+
+different location could mean moving far enough away to affect the delivery times of the online apps,
+
+from 20-30 minutes to 30-60 minutes. Customers might not want to wait this long, or travel a further
+
+distance to bypass the wait time and delivery costs. However, moving could open more and better
+
+opportunities for the business to grow. Moving to a new, possibly a more commercial, or industrial
+
+location could expand their customer base, as they would move to new market space. Furthermore,
+
+they also get another mode of promoting their products as Food delivery apps generally advertise
+
+brands and products for a small fee, which would not be too much seeing the increased profitability.
+
+There is a cost of updating their licenses, permits, contracts, etc. and physically moving their
+
+equipment, however, these costs are one-time payments, and are relatively small when compared to
+
+their potential increase in profits. Considering all these factors, I feel that the Driving Forces outweigh
+
+the Restraining Forces.
+
+With the Driving Forces majorly outweighing the Restraining Forces, it would be prudent to opt with
+
+undertaking the change. However, the other major factor is the cost. If there are not enough returns,
+
+opting for any change, no matter how small, is useless. This brings us to the next tool, Decision Tree.
+
+
+
+
+2
+    Appendix 5
+                                                                                                17 | P a g e
+                                        Business Management HL IA                               May 2020
+Conclusion
+
+Analysis of the data and application of appropriate business management tools to arrive at a suitable
+
+approach to address the business problem of high cost, low productivity leading to lower profitability.
+
+The decision tree analysis indicated that a transition to a delivery-only business model would help
+
+cut-down on non-productive costs (e.g. higher than normal rental charges of operations in an elite
+
+area), utilize resources to capacity (e.g. free up / do away with non-productive resources like seating
+
+area or build productive capacity) and thus improve efficiency in the overall business operation.
+
+Though this approach may demand some short-term expense and also impact revenue negatively in
+
+the interim period. Transition to an online delivery business model would jeopardize around 20% of
+
+the revenue that is currently generated through walk-in customers. In addition to the cost optimization
+
+measures undertaken, the proprietors would also need to undertake innovative steps to ramp-up their
+
+online orders and encourage “take-away” by offering introductory freebies or discounts.
+
+
+Recommendation
+
+I would recommend Kreme De La Kreme to go ahead with the above-mentioned change. It would
+
+include moving to a new place and switching to a delivery-only model, to increase profitability.
+
+They should consider the changing behavior of the customers to get a better insight on the decision
+
+taken.
+
+However they may even consider promotion to improve sales instead of moving to online completely
+
+allowing to look into question “Should Kreme De La Kreme improve is promotion mix to increase
+
+profitability? considering Being in a residential area with multiple educational institutes around,
+
+Students can be one of their main targets while promoting their outlets.
+
+Additionally, they can also modify their existing outlet to make it more student friendly, and advertise
+
+the outlet as a student’s hangout during exam and project seasons. This change would include
+
+                                                                                             18 | P a g e
+                                       Business Management HL IA                             May 2020
+offering free Wi-Fi with at least a passable speed and bandwidth, a larger seating place, and
+
+discounts for students. If advertised as a hangout, their outlet can attract students or the younger
+
+generation there to use the Wi-Fi for research during project seasons, or to just sit and study during
+
+an exam season.
+
+
+
+
+                                                                                           19 | P a g e
+                                             Business Management HL IA                                         May 2020
+  Bibliography
+
+Notice of Change Application for Shop & Establishment | The Bombay Shops & Establishment Act, 1948
+
+  |    Services   |     Commissioner   of    Labor     |   Government       of   Maharashtra,      1    Oct.     2015,
+
+  mahakamgar.maharashtra.gov.in/lc-notice-of-change-application-for-shop-establishment.htm.
+
+Welcome      to       Municipal   Corporation     of       Greater     Mumbai,      India,     8       June      2019,
+
+  portal.mcgm.gov.in/irj/portal/anonymous?NavigationTarget=navurl://02530c87767f0e0773fd252b080
+
+  1aa68&guest_user=english.
+
+“GST     Registration     Amendment      -   Change        GST       Data.” India   Filings,    19      Apr.     2019,
+
+  www.indiafilings.com/learn/gst-registration-amendment/.
+
+“Welcome to Food Licensing & Registration System.” Welcome to Food Licensing & Registration
+
+  System, foodlicensing.fssai.gov.in/.
+
+“This Is How Restaurants Can Boost Revenue by 30%.” Business Insider, 15 Oct. 2015,
+
+  www.businessinsider.in/This-is-how-restaurants-can-boost-revenue-by-
+
+  30/articleshow/49390435.cms.
+
+“Ecommerce Growth Statistics - UK, US and Worldwide Forecasts.” Smart Insights, 7 May 2018,
+
+  www.smartinsights.com/digital-marketing-strategy/online-retail-sales-growth/.
+
+
+
+
+                                                                                                          20 | P a g e
+                                          Business Management HL IA                                          May 2020
+Appendix
+
+Appendix 1: Interview with the Co-owner, Mr. Tejas Choudhary
+
+Location: His Work place.
+
+Me: Good Afternoon Mr. Tejas. Thanks for giving time for this meeting. This meeting is regarding my
+
+Business Management Research Paper. First off, lest start with your business, Kreme De La Kreme.
+
+How did you come up with the idea to start a business?
+
+Him: My Wife and I are fanatics of Gelato ourselves. So, we wanted to bring quality Gelato to people
+
+in      Mumbai.      So,    we      started         this   business,           Kreme      De      La             Kreme.
+
+Me: So, when did Kreme De La Kreme start?
+
+Him: We started with the planning and the working around October 2017, and opened the outlet in
+
+July 2018.
+
+Me:        What       method(s)       did        you          use         to      fund         this              project?
+
+Him: Apart from our personal savings, we took a loan, which we are yet to repay. We expect that we
+
+would     need    monthly   sales    of     about      300,000      INR    per    month    to     break            even.
+
+Me:     So,   what   were    your   sales     like     when      you   started,    and    how         is    it     now?
+
+Him: We started with 80,000 INR per month, and are at about 180,000 to 200,000 INR per month
+
+now.
+
+Me: What kind of products do you offer at Kreme De La Kreme?
+
+Him: We mainly offer different flavors of gelato, which is made in-house. We have a professional chef
+
+who develops all the flavors and recipes. We also sell sundaes, shakes, cookies, waffles, and
+
+brownies. We sell the brownies in bulk to another local café who sell it at their outlets. We started with
+
+14 flavors of gelato, but soon expanded the menu by another six flavors. These are divided into
+
+Premium and Exotic flavors. Along with that, we also have seasonal flavors coming out, such a
+
+                                                                                                           21 | P a g e
+                                            Business Management HL IA                             May 2020
+Thandai Gelato during Holi. We have found that our customers are always in search of new flavors.
+
+Therefore, we have had to keep such a large menu to cater to their expectations.
+
+Me: As someone who lives in the neighborhood where your outlet is located, I feel that the people
+
+there are not as interested in gelato as a dessert as they are about ice creams or frozen desserts.
+
+There are also several other places around which offer ice creams and frozen desserts, and have
+
+been around for longer, and have a larger loyal customer base. What do you think such a tough
+
+competition can do to your budding business?
+
+Him: First off, we are selling gelato, while the other outlets are selling ice creams. We consider them
+
+both very different. Therefore, there is not point of considering them as our competitors.
+
+Me: However, your customers may not think so. For a lot of them, anything that is cold, frozen, and
+
+sweet is ice cream. These other outlets offer traditional ice creams, and have a loyal customer base
+
+for quite some time. There have also been other dessert joints around which closed due to the tough
+
+competition by the existing outlets. So, what makes your products unique from theirs?
+
+Him: We advertise our gelato to be a low-fat product, where-as the other outlets have mid-fat options.
+
+We would still not consider them as our competitors as our products totally differ from theirs. As far as
+
+competition goes, we consider Copetto Gelateria as our main competitor. The reason for this being
+
+that we have more or less a menu similar to theirs, and we use similar equipment as them.
+
+Me:     What      would        you         consider    as      your     main   priority   right     now?
+
+Him:        Breaking           even          is       very        important     for       me         now.
+
+Me:       What         forms          of      promotion        have      you     used       so        far?
+
+Him: Apart from putting up banners outside out shop, and using social media, we have collaborated
+
+with an Instagram influencer, who made a video at our outlet, and posted it online. That did attract
+
+some customers for a while. Apart from that, we have sponsored a college fest, which got us
+
+
+                                                                                               22 | P a g e
+                                            Business Management HL IA                            May 2020
+considerable returns. We are also in talks with Catering Services and Wedding Organizers to opt for
+
+our                                                                                              products.
+
+Me: Lastly, would it be possible for you to share with me the financial details of your business? I can
+
+assure that they will remain confidential and will only be used for this paper.
+
+Him: Is it fine if I mail it to you in a few days?
+
+Me: Sure. That would be great. That should be it for now. Thanks for your time Mr. Tejas. Let us stay
+
+in touch if I need any more details.
+
+This cash flow is made by me after talking to him and his accountant.
+
+
+Month                Oct-19       Nov-19       Dec-19      Jan-20       Feb-20    Mar-20   Apr-20
+
+Cash Inflow (All amounts in INR)
+
+Sales                184,237      184,237      184,237     211,972      211,972   211,972 215,361
+
+Cash Payouts         100,000      0            100,000     0            0         100,000 100,000
+
+Total Inflow         284,237      184,237      284,237     211,972      211,972   311,972 315,361
+
+Cash Outflow
+
+Wages                35,700       34,000       43,840      38,540       44,500    43,500   43,500
+
+Office Lease         75,000       75,000       75,000      75,000       75,000    125,000 50,000
+
+Electricity          23,600       27,130       23,970      24,290       27,140    25,300   25,300
+
+Internet Access      400          400          400         400          400       400      400
+
+Office               62,720       52,940       132,282     62,228       85,257    45,614   45,614
+
+Supplies/Raw
+
+Material
+
+Loan Repayment 32,500             32,500       32,500      32,500       32,500    32,500   32,500
+
+Miscellaneous        19,550       5,950        0           14,828       4,950     0        0
+
+                                                                                               23 | P a g e
+                                       Business Management HL IA                               May 2020
+New Licensing      0         0            0           0             0          0           2,000
+
+Logistics          0         0            0           0             0          0           12,000
+
+Total Outflow      249,470   227,920      307,992     247,786       269,747    272,314 211,314
+
+Net Cash flow      34,767    -43,683      -23,755     -35,814       -57,775    39,658      104,047
+
+Opening Balance 350000       384,767      341,084     317,329       281,515    223,740 263,398
+
+Closing Balance    384,767   341,084      317,329     281,515       223,740    263,398 367,445
+
+Appendix 2: A cash-flow forecast made by me based on the data provided by the owner for the year
+
+2019-2020
+
+Month           Oct-20       Nov-20      Dec-20           Jan-21     Feb-21        Mar-21           Apr-21
+
+Cash Inflow (All amounts in INR)
+
+Sales           211,136      211,136     211,136          242,920    242,920       242,920          246,804
+
+Total Inflow    211,136      211,136     211,136          242,920    242,920       242,920          246,804
+
+Cash Outflow (All amounts in INR)
+
+Wages           38,000       38,000      38,000           38,000     38,000        38,000           38,000
+
+Office Lease    50,000       50,000      50,000           50,000     50,000        50,000           50,000
+
+Electricity     20,000       27,130      23,970           24,290     27,140        25,300           25,300
+
+Internet
+                600          600         600              600        600           600              600
+Access
+
+Office
+
+Supplies/Raw    22,654       22,140      22,500           11,254     11,674        23,445           11,870
+
+Material
+
+Miscellaneous 12,500         21,435      50,000           14,828     4,950         45600            6640
+
+Total Outflow   143,754      159,305     185,070          138,972    132,364       182,945          132,410
+
+
+                                                                                             24 | P a g e
+                                       Business Management HL IA                                    May 2020
+Net Cash flow   67,382       51,831      26,066           103,948     110,556       59,975            114,394
+
+Opening
+                367,445      434,827     486,658          512,724     616,672       727,228           787,203
+Balance
+
+Closing
+                434,827      486,658     512,724          616,672     727,228       787,203           901,597
+Balance
+
+Appendix 3: A cash-flow forecast made based on the economic changes data regarding inflation and
+
+predicted change is online sales revenue for the year 2020-21.
+
+Month           Oct-21      Nov-21       Dec-21       Jan-22        Feb-22      Mar-22        Apr-22
+
+Cash Inflow (All amounts in INR)
+
+Sales           232,250     232,250      232,250      267,212       267,212     267,212       271,484
+
+Total Inflow    232,250     232,250      232,250      267,212       267,212     267,212       271,484
+
+Cash Outflow (All amounts in INR)
+
+Wages           40,000      40,000       40,000       40,000        40,000      40,000        40,000
+
+Office Lease    50,000      50,000       50,000       50,000        50,000      50,000        50,000
+
+Electricity     5,871       2,354        2,234        2,146         8,741       6,674         6,654
+
+Internet
+                700         700          700          700           700         700           700
+Access
+
+Office
+
+Supplies/Raw    5,000       5,548        7,850        11,540        26,554      12,445        15,540
+
+Material
+
+Miscellaneous   2,000       0            6658         0             2,404       0             0
+
+Total Outflow   103,571     98,602       107,442      104,386       128,399     109,819       112,894
+
+Net Cash flow   128,679     133,648      124,808      162,826       138,813     157,393       158,590
+
+                                                                                                  25 | P a g e
+                                       Business Management HL IA                               May 2020
+Opening
+                901,597      1,030,276 1,163,923 1,288,731 1,451,557 1,590,370 1,747,763
+Balance
+
+Closing
+                1,030,276    1,163,923 1,288,731 1,451,557 1,590,370 1,747,763 1,906,353
+Balance
+
+Appendix 4: A cash-flow forecast made by me based on the economic changes data regarding
+
+inflation and predicted change is online sales revenue for the year 2021-22.
+
+Month           Oct-21       Nov-21      Dec-21       Jan-22       Feb-22      Mar-22    Apr-22
+
+Cash Inflow (All amounts in INR)
+
+Sales           232,250      232,250     232,250      267,212      267,212     267,212   271,484
+
+Total Inflow    232,250      232,250     232,250      267,212      267,212     267,212   271,484
+
+Cash Outflow (All amounts in INR)
+
+Wages           40,000       40,000      40,000       40,000       40,000      40,000    40,000
+
+Office Lease    50,000       50,000      50,000       50,000       50,000      50,000    50,000
+
+Electricity     5,871        2,354       2,234        2,146        8,741       6,674     6,654
+
+Internet
+                700          700         700          700          700         700       700
+Access
+
+Office
+
+Supplies/Raw    5,000        5,548       7,850        11,540       26,554      12,445    15,540
+
+Material
+
+Miscellaneous   2,000        0           6658         0            2,404       0         0
+
+Total Outflow   103,571      98,602      107,442      104,386      128,399     109,819   112,894
+
+Net Cash flow   128,679      133,648     124,808      162,826      138,813     157,393   158,590
+
+
+
+
+                                                                                             26 | P a g e
+                              Business Management HL IA                    May 2020
+Opening
+          901,597     1,030,276 1,163,923 1,288,731 1,451,557 1,590,370 1,747,763
+Balance
+
+Closing
+          1,030,276   1,163,923 1,288,731 1,451,557 1,590,370 1,747,763 1,906,353
+Balance
+
+
+
+
+                                                                         27 | P a g e
+                                    Business Management HL IA                            May 2020
+Appendix 5: Results of a survey conducted amongst the customers of Kreme de la Kreme
+
+
+
+
+                                                                            0
+
+
+
+
+                                                                                       28 | P a g e
+

@@ -1,0 +1,546 @@
+                                                                                                                                      1
+
+                                     Effect of pH of a Water Sample on its BOD
+
+Research Question
+How does pH of a water sample affect its biological oxygen demand over a course of 5 days, as found using
+the Winkler method?
+
+Introduction
+The knowledge area of applications of redox reactions in environmental sciences has always piqued my
+interest, encouraging me to undertake my investigation on something related to concept of redox reactions.
+During a classroom lecture, while studying Winkler’s method and Biological Oxygen Demand (BOD), I was
+intrigued to know water quality and level of pollution in the pond near my home. This motivated me in
+choosing to study the BOD for a water sample from the pond (Figure 1) as well as investigate how, if at all,
+the pH of the water sample would affect its BOD value. I have also studied in class that most of fish species
+cannot survive if dissolved oxygen concentration is below 5.00ppm (Talbot et al. 283–321), hence lack of
+aquatic life in the pond as seen in Figures 2 and 3, has made me hypothesise that dissolved oxygen
+concentration for water sample from this pond at day 1 must be less than 5.00ppm.
+
+
+
+
+           Figure 1 – Pond nearby my home               Figure 2 – Water in pond is clear   Figure 3 – No sign of aquatic life like fishes
+
+Background Information
+
+Understanding Biological Oxygen Demand (BOD)
+Biological oxygen demand relates to amount of oxygen needed to oxidise any organic material present in
+water. A water sample is collected from water bodies to find its BOD, measured in parts per million (ppm), at
+a particular temperature over a measured time period, typically 5 days (Bylikin et al. 209–226).
+
+BOD is found by subtracting the final dissolved oxygen concentration, measured at day 5 from the initial
+dissolved oxygen concentration recorded at day 1 (Kognity). Generally, a higher BOD value relates to
+higher pollution level in the water sample. This is because when BOD is high, amount of organic matter
+like sewage or wastewater, present in water sample, would also be high since organic matter would require
+dissolved oxygen to break down, thereby increasing demand of oxygen, hence a higher BOD value (The
+Editors of Encyclopaedia Britannica). Untreated wastewater typically is between a pH range of 6.0 to 8.0
+(Trygar), hence suggesting that higher pH water would have higher BOD.
+                                                                                                              2
+
+The dissolved oxygen in water bodies is used by various types of bacteria and green algae, aerobically, to
+oxidise the organic matter and break it down such as by oxidising carbon to CO2 and hydrogen to H2O. This
+process results in bacteria and algae multiplying, leading to an algal bloom or eutrophication (Bylikin et al.
+209–226). A high BOD value indicates a decline in water quality to nurture aquatic life. This occurs since
+dissolved oxygen is principally utilised by algae and bacteria in oxidising organic matter and aquatic life has
+lower levels of dissolved oxygen to rely on for survival, thus endangering their lives. Normally, majority of
+fish species require a minimum of 5.00ppm of dissolved oxygen to survive in water bodies (Talbot et al. 283–
+321).
+
+Understanding the Winkler Method
+Dissolved oxygen concentration of a water sample is determined using the Winkler method, by utilising redox
+reactions in titration. The water sample’s chemical environment is fixed by adding certain chemical
+substances. Firstly, Manganese (IV) ions are oxidised from Manganese (II) ions in presence of dissolved
+oxygen under alkaline conditions, observed by formation of brown precipitate. Next, under acidic conditions,
+Potassium Iodide is added to be oxidised to form Iodine. Finally, the mixture is titrated with Sodium
+Thiosulfate, using starch as an indicator for end-point, to determine amount of Iodine, thereby concentration
+of dissolved oxygen according to the molar ratios shown: (Kognity)
+
+                                1 mol of O2 → 2 mol of I2 → 4 mol of S2O32−
+
+The various redox reactions can be highlighted as below: (Kognity)
+                                 Oxidation of Mn (II) ions to Mn (IV) ions
+                          2Mn2+ (aq) + 4OH− (aq) + O2 (aq) → 2MnO2 (s) + 2H2O (l)
+
+                                          Oxidation of I− ions to I2
+
+                       MnO2 (s) + 2I− (aq) + 4H+ (aq) → Mn2+ (aq) + I2 (aq) + 2H2O (l)
+
+                                   Reduction of I2 to I− through titration
+
+                                2S2O32− (aq) + I2 (aq) → S4O62− (aq) + 2I− (aq)
+
+Aim of Investigation
+This investigation focuses on studying whether pH of water bodies affects its quality in terms of
+concentration of dissolved oxygen, thereby the biological oxygen demand over a set period, in this case 5
+days.
+
+This research will be done by utilising a water sample with its original pH, a typical low pH for water bodies
+affected by acid rain and, a typical high pH. The pH will be altered by adding acids and alkalis of a particular
+pH to the water sample.
+                                                                                                                 3
+
+   Hypothesis
+   The more alkaline a water sample is, the higher is its pH, perhaps from presence of untreated sewage or
+   wastewater (Trygar), hence the higher is its BOD, resulting from greater effects of eutrophication in presence
+   of organic matter in wastewater or untreated sewage (Jones and Jones 303–304).
+
+   Variables
+   Independent Variable
+
+   The independent variable in this study is the pH of water sample whose BOD is being measured, by
+   calculating the concentration of dissolved oxygen at day 1 and day 5. Three variations of pH are utilised in
+   this investigation:
+
+1. The sample of water with its natural pH.
+2. Altering the pH of water sample to an acidic pH of 3.0 – 4.0, achieved by adding Hydrochloric acid.
+3. Altering the pH of water sample to an alkaline pH of 9.0 – 10.0, achieved by adding Sodium Hydroxide.
+
+   Dependent Variable
+
+   The concentration of dissolved oxygen as found on day 1 and day 5, thereby BOD of the water sample at
+   different pH values, is the dependent variable for this study. The concentration of dissolved oxygen would
+   be determined by the average titre/volume of Na2S2O3 used in redox titration.
+
+   Controlled Variables
+
+          Controlled Variables             How is it used in the study?         How is it being controlled?
+             Water sample                    To calculate its BOD            Using the same water sample for
+                                                                                   all three pH variations
+        Concentration of Na2S2O3                  Redox titration               Using 0.0393 mol/dm3 for all
+                                                                                     three pH variations
+       Concentration and number of       To provide acidic conditions for         Using 6 drops of 80.0%
+            drops of H2SO4                  Iodide ions to be oxidised       concentrated H2SO4 for all three
+                                                                                        pH variations
+       Concentration and number of        To provide alkaline conditions            Using 6 drops of 1%
+            drops of MnSO4                  for Manganese ions to be         concentrated MnSO4 for all three
+                                                    oxidised                            pH variations
+       Concentration and number of         To provide iodide ions to be             Using 6 drops of 1%
+               drops of KI                          oxidised                  concentrated KI for all three pH
+                                                                                          variations
+      Room Temperature over 5-day       Providing a constant environment      Storing water samples in a cool
+               period                      during incubation of water          dark cupboard area away from
+                                                     samples                               sunlight
+                                                                                                                  4
+
+   Chemicals and Apparatus
+  Chemicals Required       Purpose of requirement            Potential Dangers/Risks          Precautions Taken
+                3
+ 0.0393 mol/dm solution         Redox titration               Skin and eye irritation     Hair was tied back, and
+        of Na2S2O3                                                 (Harper College)       safety goggles, lab coat
+    Solution of MnSO4         To provide alkaline             Skin and eye irritation     and gloves were worn
+                           conditions for Manganese          and respiratory irritation   throughout the
+                              ions to be oxidised              if inhaled (Numinor)       experimental procedure.
+80% concentrated solution      Providing acidic               Severe skin burns and       This helped minimise
+         of H2SO4           environment to oxidise             respiratory irritations    exposure to chemicals.
+                                  Iodide ions.               (The Martin Companies)       Laboratory room was kept
+      Solution of KI      To provide iodide ions to be       Skin, eye and respiratory    ventilated efficiently to
+                                    oxidised                      irritations (Pestell    reduce chances of direct
+                                                             Minerals & Ingredients)      inhalation of chemicals.
+      Starch indicator         To determine end-point in            No dangers (G-
+                                    redox titration                  Biosciences)
+      NaOH and HCl               To alter pH of water          Corrosive to skin and
+                                 samples where pH is            eyes, irritation from
+                                 independent variable            inhalation (Merck)
+                                                                  (Sciencelab.com)
+
+
+                    Apparatus Required                                  Purpose of Requirement
+                Six 250cm3 Volumetric flasks                   To prepare and store water samples with all
+                                                                            chemical reagents
+                    2 Dropping Pipettes                        To add drops of reagents to volumetric flask
+                 50cm3 Burette (±0.05cm3)                    To contain solution of Na2S2O3 for redox titration
+          Three 250cm3 Conical Flasks (±10.0cm3)               To contain water samples for redox titration
+                   pH meter (±0.02pH)                          To measure pH variations of water samples
+
+   Methodology of Conducting Investigation
+1. 3 bottles of same water sample were collected from a nearby pond shown in Figure 1.
+2. Bottles were left in open air overnight for oxygen saturation to ensure initial dissolved oxygen concentration
+   would be known (Kognity).
+3. The lids were replaced, and water samples were stored in air-tight bottles to prevent any air bubbles from
+   being formed.
+4. The following day, marked as day 1, water samples were carefully poured into 6 separate 250cm3 volumetric
+   flasks – A, A1, B, B1, C, C1, ensuring no formation of air bubbles. pH in Flask A and A1 was kept unaltered,
+   pH in Flask B and B1 was lowered by adding 6 drops of HCl and pH in Flask C and C1 was raised by adding
+   6 drops of NaOH. The resulting pH for each flask was recorded using pH meter.
+5. Next, after few hours, redox titration was performed using the Winkler method, on Flasks A, B, and C to
+   record concentration of dissolved oxygen in each Flask:
+                                                                                                                                 5
+
+i.        Using a dropping pipette, 6 drops of 1% concentrated MnSO4 solution was added to Flask A, which was
+          inverted and shaken in multiple attempts and left to settle for 10 minutes until brown precipitate of MnO2
+          sedimented at the bottom.
+ii.       6 drops of concentrated 80.0% concentrated H2SO4 was carefully added to Flask A using a dropping
+          pipette. Then, 6 drops of 1% concentrated KI was added and left until settled precipitate solubilised to
+          give a brownish solution.
+iii.      This brownish water sample was then transferred to a 250cm3 conical flask. A 50cm3 burette was filled
+          with solution of 0.0393 mol/dm3 of Na2S2O3. Titration was performed by rotating stopcock to run Na2S2O3
+          solution slowly using left hand and simultaneously swirling the conical flask using right hand, until a pale-
+          yellow colour was noticed.
+
+
+
+
+                        Figure 4 – Experimental Setup for Titration    Figure 5 – pH Meter reading for Flasks A and A1
+
+iv.       Lastly, 6 drops of starch indicator were added to conical flask, giving its contents a blue colour, and
+          titration was continued until the water sample in conical flask turned colourless, indicating end-point.
+v.        The volume of Na2S2O3 used in titration was noted and titration was repeated four more times. The five
+          titration readings were used to get an average titre for Flask A.
+6. Steps i-v were repeated for Flasks B and C.
+7. Flasks A1, B1, and C1, were incubated in a dark cupboard in laboratory for 5 days, at a constant room
+       temperature.
+8. At Day 5, Winkler method was used to record dissolved oxygen concentration of incubated water samples,
+       thus steps i-v were repeated for each water sample contained in Flasks A1, B1, and C1.
+9. Each time reactions were completed, contents of apparatus were carefully cleansed and disposed off in basin
+       of school laboratory, hence abiding by environmental considerations of disposal.
+
+       Raw Data Collection
+                                                       Table 1 – pH of Water Samples
+                       Flask                                  Chemical Added                                pH (±0.02pH)
+                      A and A1                                     None                                         7.10
+                      B and B1                               Hydrochloric Acid                                  4.10
+                      C and C1                               Sodium Hydroxide                                   9.90
+
+
+       Day 1
+
+                                          Table 2 - Titration results for Flask A – pH 7.10
+                                                Trial 1         Trial 2         Trial 3                        Trial 4     Trial 5
+                                                                                                        6
+
+ Initial Na2S2O3 volume/cm3          50.0           50.0            50.0            50.0         50.0
+          (±0.05cm3)
+  Final Na2S2O3 volume/cm3           46.8           47.1            46.8            46.9         46.8
+          (±0.05cm3)
+  Na2S2O3 volume used/cm3            3.20           2.90            3.20            3.10         3.20
+          (±0.10cm3)
+   Colour change observed          Blue to         Blue to        Blue to          Blue to      Blue to
+                                  colourless      colourless     colourless       colourless   colourless
+Average Titre/cm3 (±0.10cm3)                                        3.12
+         (±3.21%)
+
+
+                              Table 3 - Titration results for Flask B – pH 4.10
+                                    Trial 1         Trial 2         Trial 3        Trial 4      Trial 5
+                           3
+ Initial Na2S2O3 volume/cm           50.0             50.0            50.0          50.0         50.0
+                   3
+          (±0.05cm )
+  Final Na2S2O3 volume/cm3           48.8             49.0            48.9          49.0         49.0
+                   3
+          (±0.05cm )
+  Na2S2O3 volume used/cm3            1.20             1.00            1.10          1.00         1.00
+                   3
+          (±0.10cm )
+   Colour change observed          Blue to          Blue to         Blue to        Blue to      Blue to
+                                  colourless       colourless      colourless     colourless   colourless
+                 3          3
+Average Titre/cm (±0.10cm )                                           1.06
+           (±9.43%)
+
+
+                              Table 4 - Titration results for Flask C – pH 9.90
+                                    Trial 1         Trial 2         Trial 3        Trial 4      Trial 5
+                           3
+ Initial Na2S2O3 volume/cm           50.0             50.0            50.0          50.0         50.0
+                   3
+          (±0.05cm )
+  Final Na2S2O3 volume/cm3           43.5             43.9            44.0          43.9         43.8
+                   3
+          (±0.05cm )
+  Na2S2O3 volume used/cm3            6.50             6.10            6.00          6.10         6.20
+                   3
+          (±0.10cm )
+   Colour change observed          Blue to          Blue to         Blue to        Blue to      Blue to
+                                  colourless       colourless      colourless     colourless   colourless
+                 3          3
+Average Titre/cm (±0.10cm )                                           6.18
+           (±1.62%)
+
+
+ Day 5
+
+                             Table 5 - Titration results for Flask A1 – pH 7.10
+                                   Trial 1          Trial 2         Trial 3        Trial 4      Trial 5
+                           3
+ Initial Na2S2O3 volume/cm          50.0             50.0            50.0           50.0         50.0
+                   3
+          (±0.05cm )
+  Final Na2S2O3 volume/cm3          48.0             48.0            47.9           48.0         47.8
+                                                                                                                   7
+
+        (±0.05cm3)
+  Na2S2O3 volume used/cm3            2.00               2.00           2.10              2.00               2.20
+        (±0.10cm3)
+   Colour change observed           Blue to          Blue to         Blue to           Blue to             Blue to
+                                   colourless       colourless      colourless        colourless          colourless
+Average Titre/cm3 (±0.10cm3)                                           2.06
+         (±4.85%)
+
+
+                              Table 6 - Titration results for Flask B1 – pH 4.10
+                                    Trial 1          Trial 2         Trial 3            Trial 4            Trial 5
+                           3
+ Initial Na2S2O3 volume/cm           50.0             50.0            50.0               50.0               50.0
+                   3
+          (±0.05cm )
+  Final Na2S2O3 volume/cm3           49.2             49.3            49.2               49.2               49.2
+                   3
+          (±0.05cm )
+  Na2S2O3 volume used/cm3            0.80             0.70            0.80               0.80               0.80
+                   3
+          (±0.10cm )
+   Colour change observed           Blue to         Blue to         Blue to            Blue to             Blue to
+                                  colourless       colourless      colourless         colourless          colourless
+                 3          3
+Average Titre/cm (±0.10cm )                                           0.78
+           (±12.8%)
+
+
+                              Table 7 - Titration results for Flask C1 – pH 9.90
+                                    Trial 1          Trial 2         Trial 3            Trial 4            Trial 5
+                           3
+ Initial Na2S2O3 volume/cm           50.0             50.0            50.0               50.0               50.0
+                   3
+          (±0.05cm )
+  Final Na2S2O3 volume/cm3           45.9             46.0            45.8               46.0               46.0
+                   3
+          (±0.05cm )
+  Na2S2O3 volume used/cm3            4.10             4.00            4.20               4.00               4.00
+                   3
+          (±0.10cm )
+   Colour change observed           Blue to         Blue to         Blue to            Blue to             Blue to
+                                  colourless       colourless      colourless         colourless          colourless
+                 3          3
+Average Titre/cm (±0.10cm )                                           4.06
+           (±2.46%)
+
+
+ Analysis
+
+ Analysing and Processing Raw Data
+
+ Preparing a solution of Na2S2O3                                           Uncertainty Calculations
+                                                                                   𝑎𝑏𝑠𝑜𝑙𝑢𝑡𝑒 𝑢𝑛𝑐𝑒𝑟𝑡𝑎𝑖𝑛𝑡𝑦
+ Mass of Na2S2O3 used = 3.1025g                                  % Uncertainty =                          × 100
+                                                                                     𝑚𝑒𝑎𝑠𝑢𝑟𝑒𝑑 𝑣𝑎𝑙𝑢𝑒
+ Molar mass of Na2S2O3 = 158g/mol                                                           0.01
+                                                                 Mass of Na2S2O3 used = 3.1025 × 100 =
+                        𝑚𝑎𝑠𝑠       3.1025
+ Number of moles = 𝑚𝑜𝑙𝑎𝑟 𝑚𝑎𝑠𝑠 =             = 0.01963            ±0.322%
+                                    158
+ moles of Na2S2O3 used in preparing solution                                               0.15
+                                                                 Volume of water used = 500 × 100 =
+ Volume of water used = 500cm3 = 0.5dm3                          ±0.030%
+                                                                                                                          8
+
+
+                                         𝑛𝑢𝑚𝑏𝑒𝑟 𝑜𝑓 𝑚𝑜𝑙𝑒𝑠
+    Concentration of Na2S2O3 = 𝑣𝑜𝑙𝑢𝑚𝑒 𝑜𝑓 𝑠𝑜𝑙𝑢𝑡𝑖𝑜𝑛 =                             Concentration of Na2S2O3 = 0.322 +
+    0.01963
+              = 0.0393mol/dm3                                                   0.030 = ±0.352%
+      0.5
+
+
+                                    ∴ Concentration of Na2S2O3 = 0.0393mol/dm3 (±0.352%)
+
+ Dissolved Oxygen Concentration for Flask A                                                Uncertainty Calculations
+  Day 1 – Titration                                                                Day 1 – Titration
+  Concentration of Na2S2O3 = 0.0393mol/dm3                                         Concentration of Na2S2O3 = ±0.352%
+  Average Titre/Volume of Na2S2O3 = 3.12cm3                                        Average Titre/Volume of Na2S2O3 =
+                                                                         3.12      ±3.21%
+  Number of moles = Concentration × Volume = 0.0393× 1000
+  = 1.23 × 10-4 moles of Na2S2O3 are used in titration                             Number of moles of Na2S2O3 used in
+                                                                                   titration = 0.352 + 3.21 = ±3.56%
+                         4 mol of S2O32- → 1 mol of O2
+                                                                                   Number of moles of O2 in water
+  ∴ Number of moles of O2 in water sample =                                        sample = ±3.56%
+  𝑛𝑢𝑚𝑏𝑒𝑟 𝑜𝑓𝑚𝑜𝑙𝑒𝑠 𝑜𝑓 𝑡ℎ𝑖𝑜𝑠𝑢𝑙𝑓𝑎𝑡𝑒 𝑖𝑜𝑛        1.23 × 10−4
+                                       =                 = 3.07 × 10-5
+                     4                             4                               Mass of O2 in water sample = ±3.56%
+  Mass of O2 in water sample = Number of moles × Molar Mass                                                   10
+                                                                                   Volume of water sample = 250 × 100
+  = 3.07 × 10-5 × 32 = 9.81 × 10-4g = 0.981mg
+                                                                                   = ±4.00%
+                                           3              3
+  Volume of water sample = 250cm = 0.25dm
+                                                                                   Concentration of dissolved O2 = 4.00
+                                           𝑚𝑎𝑠𝑠 𝑜𝑓 𝑂𝑥𝑦𝑔𝑒𝑛      0.981
+  Concentration of dissolved O2 = 𝑣𝑜𝑙𝑢𝑚𝑒 𝑜𝑓 𝑤𝑎𝑡𝑒𝑟 = 0.25 =                         + 3.56 = ±7.56%
+  3.92mg/dm3 = 3.92ppm
+                          ∴ Concentration of dissolved O2 in Flask A at day 1 = 3.92ppm (±7.56%)
+
+Dissolved Oxygen Concentration for Flask A1                                                 Uncertainty Calculations
+Day 5 – Titration                                                                      Day 5 – Titration
+Concentration of Na2S2O3 = 0.0393mol/dm3                                               Concentration of Na2S2O3 = ±0.352%
+Average Titre/Volume of Na2S2O3 = 2.06cm3                                              Average Titre/Volume of Na2S2O3 =
+                                                                       2.06
+Number of moles = Concentration × Volume = 0.0393× 1000 = 8.10                         ± 4.85%
+× 10-5 moles of Na2S2O3 are used in titration                                          Number of moles of Na2S2O3 used in
+                           4 mol of S2O32- → 1 mol of O2                               titration = 0.352 + 4.85 = ±5.20%
+
+∴ Number of moles of O2 in water sample =                                              Number of moles of O2 in water sample
+𝑛𝑢𝑚𝑏𝑒𝑟 𝑜𝑓𝑚𝑜𝑙𝑒𝑠 𝑜𝑓 𝑡ℎ𝑖𝑜𝑠𝑢𝑙𝑓𝑎𝑡𝑒 𝑖𝑜𝑛        8.10 × 10−5                                   = ±5.20%
+                                     =                 = 2.02 × 10-5
+                 4                             4
+                                                                                       Mass of O2 in water sample = ±5.20%
+Mass of O2 in water sample = Number of moles × Molar Mass = 2.02                                                    10
+× 10-5 × 32 = 6.48 × 10-4g = 0.648mg                                                   Volume of water sample = 250 × 100
+                                                                                       = ±4.00%
+Volume of water sample = 250cm3 = 0.25dm3
+                                         𝑚𝑎𝑠𝑠 𝑜𝑓 𝑂𝑥𝑦𝑔𝑒𝑛       0.648                    Concentration of dissolved O2 = 4.00
+Concentration of dissolved O2 = 𝑣𝑜𝑙𝑢𝑚𝑒 𝑜𝑓 𝑤𝑎𝑡𝑒𝑟 = 0.25 = 2.59mg/dm3                    + 5.20 = ±9.20%
+= 2.59ppm
+                         ∴ Concentration of dissolved O2 in Flask A1 at day 5 = 2.59ppm (±9.20%)
+                                                                                                           9
+
+
+ BOD for Flask A – pH 7.10                                            Uncertainty Calculations
+                                                                                                 7.56
+  BOD = Day 1 dissolved O2 conc. in Flask A              Day 1 dissolved O2 conc. in Flask A = 100 ×3.92
+  − Day 5 dissolved O2 conc. in Flask A1                 = ±0.296ppm
+  ∴ BOD = 3.92 − 2.59 = 1.33ppm                                                                     9.20
+                                                         Day 5 dissolved O2 conc. in Flask A1 = 100 ×
+                                                          2.59 = ±0.238ppm
+                                                         BOD = 0.296 + 0.238 = ±0.534ppm
+
+                 ∴ BOD for water sample in Flask A at pH 7.10 = 1.33ppm (±0.534ppm)
+
+Similar calculations were carried out to determine BOD values for Flasks B and B1, C and C1.
+
+Analysing Results
+                                        Table 8 – Processed Results
+     Flask          pH (±0.02pH)       Day 1 Dissolved O2      Day 5 Dissolved O2              BOD/ppm
+                                       concentration/ppm       concentration/ppm
+      A                 7.10            3.92 (±0.296ppm)                                1.33 (±0.534ppm)
+      A1                7.10                                    2.59 (±0.238ppm)
+      B                 4.10            1.33 (±0.184ppm)                               0.349 (±0.353ppm)
+      B1                4.10                                   0.981 (±0.169ppm)
+      C                 9.90            7.77 (±0.464ppm)                                2.65 (±0.813ppm)
+      C1                9.90                                    5.12 (±0.349ppm)
+
+
+Dissolved oxygen concentration value at day 1 for neutral water sample in Flask A is 3.92ppm (±0.296ppm).
+Value of dissolved oxygen concentration being lower than 5.00ppm, despite adding positive uncertainty of
+0.296ppm, explains absence of aquatic life in this pond as I had observed, showcased in Figure 3.
+
+Figure 6 below portrays graphical relationship obtained between the independent variable – pH of water
+sample and dependent variable – BOD of water sample measured in parts per million, summarising my
+processed results shown in Table 8.
+                                                                                                              10
+
+A positive linear relationship is observed with pH of water sample being directly related to BOD, hence
+increasing the pH raises BOD value. The data points are roughly consistent with best-fit line, as confirmed
+by the R2 value of 98.9% or 0.9891. This consistency continues even when considering measurement
+uncertainties. At higher pH values, the uncertainties for BOD are higher as reflected through larger vertical
+error bars, also depicted in Table 8. Uncertainty of pH meter was consistent at (±0.02pH) but is not visible
+as horizontal error bars being a minute value. At pH 4.10, BOD value is calculated as 0.349ppm with
+uncertainty (±0.353ppm), however, since negative uncertainty is larger than BOD value itself, i.e.,
+0.353>0.349, graph illustrates a possible negative value for BOD at pH 4.10. Nevertheless, BOD values
+cannot be negative, hence only positive uncertainty of +0.353ppm must be considered for pH 4.10.
+
+Conclusion and Evaluation
+Alkaline water with higher pH has greater BOD value because of presence of substances like sewage or
+wastewater (Trygar), making water alkaline. Water bacteria break down organic matter present in sewage or
+wastewater, for which dissolved oxygen is utilised, hence depleting oxygen levels and raising BOD.
+Conversely, since microbial growth is normally favoured in pH range of 6.5 to 8.5, majority of bacteria and
+other microorganisms would barely survive in low pH water, hence decreasing BOD since rate of
+decomposition of organic matter would be lowered (Environmental Business Specialists). This supports
+positive direct relationship between pH and BOD of water sample, as illustrated in Figure 6.
+
+Moreover, for typical domestic wastewater, as alkalinity in terms of CaCO3 concentration rises from 50ppm
+to 200ppm, BOD5 increases from 100ppm to 300ppm (Pescod). Higher alkalinity relates to harder water,
+containing greater amounts of dissolved minerals like calcium and magnesium, hence making it alkaline and
+raising pH (BCcampus). This additionally expresses positive direct relationship between pH and BOD of a
+water sample.
+
+Therefore, my research question, “How does pH of a water sample affect its biological oxygen demand
+over a course of 5 days, as found using the Winkler method?”, is answered by positive linear and direct
+relationship between pH of a water sample and its BOD, as demonstrated in Figure 6. When pH of water
+sample (±0.02pH) rises from an acidic 4.10, to a neutral 7.10, and finally to an alkaline 9.90, BOD
+correspondingly increases from 0.349ppm (±0.353ppm) to 1.33ppm (±0.534ppm) and finally to 2.65ppm
+(±0.813ppm). BOD increases at higher pH because microbial growth is encouraged within a pH range of 6.5
+to 8.5 and organic matter present in water is more at higher pH due to substances like wastewater raising pH.
+Hence, my data and results analysis confirm with my hypothesis.
+
+This investigation helps to understand how pH of water bodies could possibly be controlled to create an
+environment where aquatic life thrives and survive well and bacteria are prevented from decomposing
+organic matter, thus avoiding oxygen depletion, and keeping dissolved oxygen concentration optimum and
+BOD minimum.
+                                                                                                           11
+
+Nonetheless, the reliability of my findings through this investigation are limited by occurrence of random
+and systematic errors in the experimental procedure. The major random error would have arisen from
+measurement uncertainty of (±0.05cm3) in burette readings, hence increasing random uncertainty in
+average titre value. These random errors went on accumulating throughout calculations. Random errors in
+measurement uncertainty could be reduced by appropriately reading lower meniscus of burette by keeping
+line of sight perpendicular to burette, thereby improving accuracy of readings. A random error was also
+present in pH meter, however this measurement uncertainty was quite minimal at (±0.02pH). Furthermore,
+pH readings were more reliable by using an electronic equipment of digital pH meter. The principal
+systematic error would have resulted from room temperature not being constant over the course of 5 days.
+Despite water samples in volumetric flasks, being stored in a dark cupboard away from sunlight, temperature
+fluctuations could have altered microbial activity, thus giving rise to possibly misleading results for BOD.
+The investigation could be improvised to reduce this systematic error by using a digital thermometer to record
+temperature fluctuations each day and accordingly create artificial conditions to ensure temperature is
+kept constant.
+
+There can be possible extensions to this investigation by enhancing the methodology used, hence give a
+more accurate understanding on actual relationship between pH of water sample and its BOD. For example,
+reliable electronic equipment like a dissolved oxygen sensor could be used to measure accurate oxygen
+concentration levels and compare these measurements with results found through redox titration, hence
+calculate percentage error. Secondly, Winkler solutions (Flinn Scientific, Inc) could be used instead of its
+alternatives like MnSO4 and KI as used in my procedure. This should provide more reliable results because
+chemicals specifically tailored towards study of BOD would be used. Lastly, different water samples of
+varying pH could be collected to understand effect of pH on BOD of water samples over a wide spectrum,
+such as by collecting water samples from different ponds in the same city. Impact of domestic wastewater of
+a particular city on BOD of ponds in the city can also be investigated by examining chemical composition of
+domestic wastewater. Overall, I am satisfied that cleanliness is being maintained in my city with proper
+wastewater disposal since BOD obtained for natural pH water sample from the pond near my home was
+moderate at 1.33ppm (±0.534ppm).
+
+Bibliography
+BCcampus. “Water Hardness and PH.” BCcampus, opentextbc.ca/ingredients/chapter/water-hardness-and-
+       ph/. Accessed 11 Feb. 2021.
+Bylikin, Sergey, et al. Chemistry Course Companion. Great Clarendon Street, Oxford, United Kingdom,
+       Oxford University Press, 2014, pp. 209–226.
+Environmental Business Specialists. “PH Testing in Wastewater Treatment.” EBS, 16 Dec. 2010,
+       www.ebsbiowizard.com/ph-testing-in-wastewater-treatment-964/. Accessed 11 Feb. 2021.
+                                                                                                        12
+
+Flinn Scientific, Inc. “The Winkler Titration Measurement of Dissolved Oxygen in Water.” The Winkler
+       Titration - Flinn Scientific, 2017,
+       www.flinnsci.com/api/library/Download/e3a5604c6d564b9fb6aa900bb28cac2e. Accessed 11 Feb.
+       2021.
+G-Biosciences. Safety Data Sheet. , 2 Nov. 2016, www.gbiosciences.com/image/pdfs/msds/BTNM-
+       0071_msds.pdf. Accessed 10 Feb. 2021.
+Harper College. Material Safety Data Sheet Sodium Thiosulfate Pentahydrate. , 10 Nov. 2005,
+       dept.harpercollege.edu/chemistry/msds1/Sodium%20thiosulfate%20pentahydrate%20ScienceLab.pd
+       f. Accessed 10 Feb. 2021.
+Jones, Mary, and Geoff Jones. Cambridge IGCSE Biology. 2002. Third ed., University Printing House,
+       Cambridge, United Kingdom, Cambridge University Press, 2014, pp. 303–304.
+Kognity. “App | Kognity.” App.kognity.com, app.kognity.com/study/app/chemistry-sl-fe-
+       2016/redox/oxidation-reduction/redox-reactions/. Accessed 5 Jan. 2021.
+Merck. Sodium Hydroxide SDS. 31 July 2017,
+       www.merckmillipore.com/IN/en/product/msds/MDA_CHEM-106498. Accessed 10 Feb. 2021.
+Numinor. MATERIAL SAFETY DATA SHEET (MSDS) MANGANESE SULFATE. , Dec. 2000,
+       www.numinor.com/files/MSDSManganeseSulphate2010.pdf. Accessed 10 Feb. 2021.
+Pescod, M.B. Wastewater Treatment and Use in Agriculture - FAO Irrigation and Drainage Paper 47.
+       Fao.org, Rome, Italy, Food and Agriculture Organization of the United Nations, 1992,
+       www.fao.org/3/T0551E/t0551e00.htm#Contents. Accessed 11 Feb. 2021.
+Pestell Minerals & Ingredients. Safety Data Sheet Potassium Iodide. , 2016, www.pestellminerals.com/wp-
+       content/uploads/2015/05/Potassium-Iodide-68-SDS-Pestell.pdf. Accessed 10 Feb. 2021.
+Sciencelab.com. Material Safety Data Sheet Hydrochloric Acid MSDS. , 10 Sept. 2009,
+       www.cen.iitb.ac.in/inventory/Chemical-MSDS/21_Hydrochloric_acid-9924285.pdf. Accessed 10
+       Feb. 2021.
+Talbot, Christopher, et al. Chemistry for the IB Diploma. 2010. Second ed., London, Hodder Education,
+       2015, pp. 283–321.
+The Editors of Encyclopaedia Britannica. “Biochemical Oxygen Demand | Biology.” Encyclopædia
+       Britannica, 2019, www.britannica.com/science/biochemical-oxygen-demand. Accessed 6 Jan. 2021.
+The Martin Companies. MATERIAL SAFETY DATA SHEET - MSDS Sulfuric Acid. 2009,
+       www.northeastern.edu/wanunu/WebsiteMSDSandSOPs/MSDS/Msds_Sulfuric_Acid.pdf. Accessed
+       10 Feb. 2021.
+Trygar, Ron. “What Exactly Is PH?” Treatment Plant Operator, Dec. 2013,
+       www.tpomag.com/editorial/2013/12/what_exactly_is_ph#:~:text=Raw%20wastewater%20generally
+       %20has%20a. Accessed 10 Feb. 2021.
+

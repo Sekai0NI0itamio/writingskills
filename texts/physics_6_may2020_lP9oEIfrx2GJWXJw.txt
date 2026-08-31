@@ -1,0 +1,777 @@
+           MODELLING THE EXPONENTIAL DAMPING OF A PENDULUM
+
+    1. INTRODUCTION:
+
+The idea of exponential relationships being so abundant in nature is one I find quite
+intriguing. The main cause for the commonality of exponential relationships is the
+ability of systems to be modelled using second order differential equations, as is the
+case in the damping of a pendulum. In exploring the theory for this investigation, I was
+fascinated by the involvement of complex numbers in the solution of a system that was
+real, and the whole aspect of it leading to this relationship. I was also interested in the
+modelling of oscillatory phenomena which find applications in a wide range of physical
+systems; pendulums are a model used to understand Josephson Junctions between
+superconductors, for instance. My interest in both these coincided and led me to
+decide to investigate damping in pendula. The damping of a pendulum can be defined
+as an effect that results in a reduction of the amplitude of oscillation in a system.
+
+RESEARCH QUESTION: How does the amplitude of an oscillating pendulum vary
+with the number of oscillations that have taken place?
+
+    2. BACKGROUND INFORMATION:
+         a. Exponential Decay in Damping – Justification
+
+In the case of pendula, this is preliminarily a result of viscous drag – a resistant force
+provided by the medium fluid, as a result of an object moving through it. For spherical
+objects moving at relatively low speeds, where air flow is laminar, this force is
+proportional to the velocity of the object, in the opposite direction. This is modelled by
+Stokes’ law1, which is as follows:
+
+                                          𝐹"#$% = −6𝜋𝜂𝑅𝑣                               (1)
+
+Where 𝜂 is the viscosity of the fluid, 𝑅 is the radius of the sphere, and 𝑣 is the velocity
+of the moving object. The negative sign indicates that the drag is in opposite in
+direction to the velocity of the object. For the purposes of solving for the damping
+relationship, the 6𝜋𝜂𝑅 term can be said to be a constant c. In order to model this
+oscillating system, a differential equation can be created:
+
+                                            𝑚𝑎 = 𝑘𝑥 − 𝑐𝑣                               (2)
+
+Here, k refers to the proportionality constant between the restoring force and
+displacement from equilibrium position (x), that is characteristic of simple harmonic
+motion. The acceleration of the bob is represented by a. This equation can be rewritten
+as follows:
+
+                                            𝑚𝑥̈ = 𝑘𝑥 − 𝑐𝑥̇                             (3)
+
+
+
+
+1
+ “Dropping the Ball (Slowly).” Stokes' Law,
+galileo.phys.virginia.edu/classes/152.mf1i.spring02/Stokes_Law.htm
+
+
+
+                                                                                         1
+The derivatives here are functions of time t. Solving the equation for x is an interesting
+process that involves the use of complex numbers in a trial exponential function. The
+real part of the final solution of the differential equation is an exponential function of
+time can be written as follows:
+
+                                 𝑥 = 𝐴𝑒 <=> cos(𝜔𝑡 + 𝛼 )                               (4)
+
+A refers to the initial amplitude of oscillation, b is a damping constant, and the cosine
+function is indicative of the variation of amplitude with time, where 𝜔 refers to the
+angular frequency of oscillation. In reality, 𝜔 is a function of the damping coefficient as
+well, but this investigation will be ignoring this effect since it measures amplitude as a
+function of the oscillation number (N). A full proof of this solution satisfying the given
+differential equation is provided in Appendix 1. Thus, the exponential relation can be
+written as:
+
+                                            𝑥 = 𝐴𝑒 <=G                                 (5)
+
+Clearly, b is not equal to that in the equation 4 – however this is only a dimensionless
+constant, and is here reattributed.
+
+        b. Calculations Involved
+
+The decay in amplitude be calculated using measurements of the maximum velocity
+attained by an oscillating bob, which occurs at the equilibrium position of the
+pendulum. This relation is a consequence of the conservation of energy in a pendulum.
+The total energy of a pendulum can be expressed as follows:
+                                                  L
+                                         𝐸>J>$K = M 𝑚𝜔M 𝑥NM                            (6)
+
+Here, m is the mass of the bob, 𝜔 the angular frequency, and x0 the maximum
+displacement (amplitude). At the equilibrium position, the bob has no potential energy
+in context of the pendulum, and all energy exists as kinetic energy – hence velocity is
+maximum. Thus, the following relation arises:
+                                     L                L
+                                     M
+                                           M
+                                         𝑚𝑣O$P = M 𝑚𝜔M 𝑥NM                             (8)
+
+Therefore, it can be derived that:
+                                                  R
+                                            𝑥N = STU                                   (9)
+                                                 V
+
+
+This investigation measures the time blocked by the bob as it moves through the
+equilibrium position. If t is this time (seconds), and d (meters) the diameter of the bob,
+                         "
+then based on 𝑣O$P = > :
+
+                                                      𝑑
+                                             𝑥N =                                     (10)
+                                                      𝜔𝑡
+
+
+
+
+                                                                                         2
+Hence 𝑥N can be calculated from d, t, and 𝜔. The formula for the following is developed
+below:
+
+As explained in Appendix 1, the decrease in angular frequency is negligible as
+opposed to the decay in amplitude. Hence, this value is assumed to be constant. Given
+the small angle used (5°), it is acceptable to use define 𝜔 on the basis of the small
+angle approximation. Although there is a very small discrepancy with the true value of
+𝜔, this can be ignored due to this only producing a systematic displacement of values,
+which does not affect the confirmation of an exponential decay.
+
+                                                  %
+                                         𝜔 = \K                                         (11)
+
+
+
+Substituting equation (10) into equation (9) results in:
+
+                                              "       K
+                                        𝑥N = > \%                                       (12)
+
+Where t is measured, and d, l, and g are constants. The value of g will be considered
+9.81ms-2 for the purposes of this investigation.
+
+
+    3. EXPERIMENTAL CONSIDERATIONS:
+         a. Variables Involved:
+
+Independent:
+
+In this investigation, this is the oscillation number (N). This is relatively straightforward
+to measure, considering the index appropriated by the datalogger used.
+
+Dependent:
+
+The dependent variable examined is the amplitude of oscillation (𝑥N ), measured in m.
+
+This is calculated from the directly measured time taken for the bob to move past the
+equilibrium position (t/s). This is recorded using a photogate timer measuring how long
+a beam is blocked, correct to 0.000001s (6 decimal places). This data is logged using
+a Pasco GLX.
+
+Controlled:
+
+-    Initial Amplitude of Release:
+         While the exponential equation does not have inclusions for the effect of
+         amplitude on the decay rate, this is still controlled.
+            o The velocity of the bob is dependent on the amplitude – at higher
+               velocities, however, the linear proportionality between Fdrag and v ceases
+               to be valid, as a consequence of fluid flow becoming increasingly
+               turbulent – citation needed. Hence, this impacts the validity of the
+
+
+
+                                                                                           3
+             exponential relationship. Data supporting this can be found in the
+             appendix.
+       This was selected to be a small amplitude - 5° - for the reason that this ensures
+       a low velocity, as well as the difficulty faced in ensuring strictly 2-dimensional
+       motion at higher amplitudes – as decay occurred, small lateral displacements
+       caused significant circular motion.
+
+-   Shape of bob used: This impacts the drag force experienced by the bob – for
+    instance, a more aerodynamic bob would experience lesser. A spherical bob was
+    chosen to maximize the applicability of Stokes’ Law.
+
+-   Length of string: Maintaining this is important due to its effects on the angular
+    frequency, which in turn impacts the calculated value of 𝑥N .
+
+-   Mass of bob used: This is a consequence of the assumption that viscous drag is
+    the dominant force. Variation of the bob mass would mean that at heavier masses,
+    the amount of drag force due to dry friction at the point of suspension would be
+    increased. Friction is directly proportional to the normal force between two
+    surfaces, and increased mass would result in the string exerting greater force on
+    the suspending rod, thereby increasing the frictional force. While it is uncertain that
+    these variations would be detectable, controlling it improves the experiment
+    nevertheless.
+
+-   Manner of release: Variation in this would result in different degrees of rotational
+    motion of the bob, and a changing amount of potential energy converted to
+    rotational kinetic energy. This would impact the precision of the experiment in
+    calculating the value of x0. The manner chosen was using a scale to position the
+    bob carefully at the required displacement, aligning it with the axis of oscillation,
+    and dropping the scale to facilitate release.
+
+         b. Key Assumptions:
+
+       1. The drag force does not vary with amplitude. As mentioned above, this
+          effect is considerable at larger amplitudes, and would result in significant
+          deviation from the exponential model being considered as oscillations
+          progressed. However, this is negligible at the amplitudes being considered
+          (citation).
+       2. The time period can be considered constant. From an analytical
+          perspective,
+       3. The rotational energy is insignificant compared to the kinetic energy.
+          The energy comes both from the potential energy of the bob at initial
+          release, as well as torsion in the string. The portion of the effect due to the
+          potential energy would affect the validity of equation (6), and hence is
+          minimized. Minimal rotation still exists, but this is considered negligible.
+       4. Exponential decay is the trend followed by the energy, and hence
+          amplitude of the pendulum. While theory does support this, it is impossible
+          to prove that this is the case by experiment. It can only be demonstrated
+          with some uncertainty – as a consequence, this is an important assumption
+          when linearization is being performed.
+
+
+
+                                                                                         4
+                    a. Experimental Design:
+
+A simple pendulum was constructed as depicted in the figures below:
+
+
+
+
+                         Fig. 1 – A side view of the apparatus
+
+
+
+
+ Fig. 2 – An image depicting the vertically calibrated bob (against the photogate). It
+                was horizontally shifted for conducting oscillations.
+
+Experimental Values:
+
+                              l = 0.739m ± 0.0005m
+             d = 0.0248m ± 0.00005m (measured using Vernier Caliper)
+
+The value of length l is arbitrary due to the fact that adjustments were required in order
+to position the bob precisely at the center-point of the photogate in order to ensure
+reliable readings. This was done using pencil marks on the photogate level and
+through the lateral diameter of the bob, and evaluation of the alignment by eye (Fig
+2.).
+
+In order to accurately determine that the angle of release, in addition to the protractor,
+the lateral displacement was calculated using the angle and the length l, and marked
+on a scale on the ground. However, this was difficult to accurately perform, and
+resulted in systematic error from set to set. Nevertheless, considering the assumption
+
+
+                                                                                         5
+that the damping constant does not change with the amplitude of oscillation, this can
+be ignored.
+
+Due to software incompatibility of the datalogger, a video was taken of readings being
+generated as the oscillations occurred, and this was manually entered into the
+Microsoft Excel software used for analysis. The time blocked was measured for 100
+oscillations [200 values generated as movement in both directions is examined]. This
+was done because the uncertainty in the time recorded by the photogate is 0.000001s,
+which does not account for the significant variations in the data observed (see Fig. 4).
+As a consequence, multiple values, assuming no change in b, reduce the effect of
+random error. This is increased by 5 repetitions performed. The totality of 1000
+readings generated was considered sufficient for the experiment.
+
+       5. DATA & ANALYSIS:
+                a. Raw Data:
+
+Due to the overwhelming amount of data, the raw and processed data that will be
+presented is only for N = 1, 10, 25, 50, 75, and 100. However, all entered into a
+spreadsheet, and all relevant analysis was performed directly using it. Hence,
+extended analysis involving trendlines and damping constants is performed with data
+not entirely shown.
+
+Table 1 presents the directly observed dependent variable, t/s, for above mentioned
+values of N, for all 5 trials.
+
+   Oscillation                           Time in Gate (t)/s
+     #(N)              T1           T2           T3             T4             T5
+        1           0.091362     0.086746     0.086830      0.085148        0.098339
+       10           0.094112     0.092281     0.091354      0.088772        0.103210
+       25           0.101707     0.099140     0.098259      0.095863        0.110321
+       50           0.115021     0.112030     0.111267      0.109016        0.123528
+       75           0.129883     0.126236     0.126785      0.124023        0.137192
+       100          0.146271     0.141541     0.145782      0.141434        0.154465
+                      Table 1 – Raw Data for select values of N
+
+When different trials were done, each differed systematically due to difficulty in
+precisely determining the angle of release, which had to be controlled. The expected
+initial blocked time can be determined using equation 7 – the analytical formula for this
+is the following (full derivation in Appendix 2):
+                                               "
+                                         𝑡=                                         (13)
+                                             ^%K_`
+
+
+Where 𝜃N is in radians. When l = 0.739m, d = 0.0248m, and 𝜃N = 5°:
+
+                                    0.0248
+                      𝑡N =                       𝜋 = 0.105547𝑠
+                             √9.81 × 0.739 × 5 e180f
+
+
+
+
+                                                                                       6
+The initial values for the trials are in row 1 of Table 1. Their difference from 𝑡N does
+not present enough data to argue that there is clear systematic bias in one direction
+in due to the experiment, or to quantify this bias, but clearly this is a source of error. In
+order to correct for this, the closest value to 0.105547𝑠 was found for each trial and
+the numbering of oscillations was adjusted for N = 0 to begin with these. This reduced
+the total number of shared oscillations between trials to 58.5.
+
+Consequently, the data presented is at the arbitrary points N = 0, 10, 20, 30, 40, 50,
+58.5. This also enables the average t ( 𝑡$Rh /𝑠) to be presented, as phase shift is
+corrected. Here,
+
+ Oscillation                              Time in Gate (t)/s
+    (N)            T1           T2          T3          T4             T5          𝒕𝒂𝒗𝒆 /𝒔
+       1        0.105499     0.105644 0.105446 0.105453             0.105385     0.105485
+      10        0.110352     0.111084 0.110916 0.110947             0.110321     0.110724
+      20        0.116623     0.116501 0.116699 0.116287             0.115425     0.116307
+      30        0.122787     0.121704 0.123001 0.122589             0.120743     0.122165
+      40        0.128372     0.127701 0.129425 0.129608             0.126350     0.128291
+      50        0.135010     0.133911 0.135803 0.136475             0.132309     0.134702
+     59.5       0.139847     0.139160 0.142715 0.141434             0.137192     0.140070
+                             Table 2 – Corrected values of t.
+
+                     b. Processed Data
+
+Using equation (11), values of 𝑥N were calculated for all values of N. 3 significant
+figures are used due to the multiplication of d and √𝑙 involved, which are of 3 significant
+figures each. Average values of t are used in processing.
+
+                                       0.739 1 0.00681
+                           𝑥N = 0.0248p     × =        𝑚
+                                        9.81 𝑡    𝑡
+
+                                                 𝟏 <𝟏             Amplitude
+               Oscillation (N)       𝒕𝒂𝒗𝒆 /𝒔        /𝒔
+                                                  𝒕                (𝒙𝟎 )/m
+                      1           0.105485         9.48            0.0646
+                     10           0.110724         9.03            0.0615
+                     20           0.116307         8.60            0.0586
+                     30           0.122165         8.19            0.0557
+                     40           0.128291         7.79            0.0531
+                     50           0.134702         7.42            0.0506
+                    58.5          0.140070         7.14            0.0486
+                             Table 3 – Processing of t to 𝒙𝟎
+
+                     c. Propagation of Uncertainties
+
+Since the independent variable is discrete, no error results there.
+
+
+                                                                                             7
+In the case of the dependent variable, based on equation (12), fractional uncertainties
+are added as follows:
+
+                                    ∆𝑥N ∆𝑡 ∆𝑑 ∆𝑙
+                                        =   +   +                                    (14)
+                                     𝑥N   𝑡   𝑑   2𝑙
+
+                                                                ∆>
+Given that t is measured correct to 0.000001s, the values of > are on the order of 10-
+5
+ , which is negligible compared to uncertainty from other measurements.
+
+                           ∆𝑑 0.00005
+                             =        = 0.002016 … ≈ 0.00202
+                           𝑑   0.0248
+
+                            ∆𝑙 0.0005
+                               =       = 0.006765 … ≈ 0.00077
+                            2𝑙   0.739
+                                                                                    ∆>
+In the case of ∆𝑡, given that t is measured correct to 0.000001s, the values of > are
+on the comparatively negligible order of 10-5. Instead, the method used is taking the
+standard deviation of values of t from all 5 trials, for each N to 58.5, and finding the
+average of all these values. Hence:
+
+                          Σ(𝑆𝑡𝑎𝑛𝑑𝑎𝑟𝑑 𝐷𝑒𝑣𝑖𝑎𝑡𝑖𝑜𝑛)
+                  ∆𝑡 =                          = 0.0090514 ≈ 0.00905                (15)
+                                  117
+∆>
+>
+     is then dependent on each value of 𝑡$Rh . Hence:
+
+               ∆𝑥N                       0.00905             0.00905
+                   = 0.00077 + 0.00202 +         = 0.00279 +                         (16)
+                𝑥N                          𝑡                   𝑡
+                     ∆P
+The calculation of P ` and ∆𝑥N for N = 0, 10, 20, 30, 40, 50, and 58.5 are below:
+                      `
+
+
+
+                                  Amplitude            ∆𝒙𝟎
+             Oscillation (N)                                         ∆𝒙𝟎 /𝒎
+                                    (𝒙𝟎 )/m            𝒙𝟎
+                    1               0.0646           0.0886          0.0057
+                   10               0.0615           0.0845          0.0052
+                   20               0.0586           0.0806          0.0047
+                   30               0.0557           0.0769          0.0043
+                   40               0.0531           0.0733          0.0039
+                   50               0.0506           0.0700          0.0035
+                  58.5              0.0486           0.0674          0.0033
+                                Table 4 – Uncertainties in 𝒙𝟎
+
+                     d. Analysis
+
+The graph of Amplitude (𝑥N /𝑚), derived from 𝑡$Rh /𝑠, against Oscillation Number (N),
+for all measured values, is shown below:
+
+
+                                                                                         8
+                          0.0800
+
+                          0.0700
+
+                          0.0600
+
+
+
+
+      Amplitude (!_0/")
+                          0.0500
+
+                          0.0400
+
+                          0.0300
+
+                          0.0200
+
+                          0.0100
+
+                          0.0000
+                                   0.0          10.0       20.0            30.0            40.0     50.0       60.0
+                                                                  Oscillation Number (N)
+                                          Graph 1 – Amplitude against Oscillation Number
+
+The exponential decay trendline in red passes through all error bars of a relatively low
+uncertainty ranging from approximately 4.86% to 6.46%, and has a high R2 value of
+0.9996, indicating a strong decay fit. The equation is:
+
+                                                         𝑥N = 0.0647𝑒 <N.NN•€•G                                       (17)
+                                                              𝑏 = 0.00489
+
+However, the R2 alone is insufficient to validate an exponential fit. When a linear fit is
+applied to the same data set, it too appears to pass through all error bars and has a
+lower, but still very high R2 value of 0.9984. This discrepancy is addressed in the
+evaluation. In order to address it more reliably, under the assumption of exponential
+decay, the graph is linearized and standard error is calculated and compared to that
+of a linear fit of 𝑥N against N.
+
+                                           e. Extended Analysis
+
+Linearization is carried out by taking the logarithm of both sides of equation (5). Hence:
+
+                                                          ln(𝑥N ) = ln(𝐴) − 𝑏𝑁
+
+                                                        Amplitude
+                             Oscillation (N)                              𝒍𝒏(𝒙𝟎 )                 ∆(𝒍𝒏(𝒙𝟎 ))
+                                                          (𝒙𝟎 )/m
+                                           1              0.0646           -2.74                    0.089
+                                          10              0.0615           -2.79                    0.085
+                                          20              0.0586           -2.84                    0.081
+                                          30              0.0557           -2.89                    0.077
+                                          40              0.0531           -2.94                    0.073
+                                          50              0.0506           -2.98                    0.070
+                                         58.5             0.0486           -3.02                    0.067
+                                                       Table 5 – Logarithm Table
+
+
+                                                                                                                        9
+To avoid a clutter of results, only points in Table 5 are graphed below:
+
+                     -2.5000
+                        -5      5       15          25        35        45     55
+                     -2.6000
+
+                     -2.7000
+
+                     -2.8000
+
+           !"(#_$)   -2.9000
+
+                     -3.0000
+
+                     -3.1000
+
+                     -3.2000
+                                             Oscillation Number (N)
+                                    Graph 2 – 𝒍𝒏(𝒙𝟎 ) against N
+
+As seen here, the linear trendline passes almost perfectly through the points, and well
+within the error bars. The equation of the line for the entirety of the dataset, as
+expected from the exponential fit, is:
+
+                                    ln(𝑥N ) = −0.00489𝑁 − 2.74                              (18)
+
+                           f. Standard Error Comparison
+
+The standard error for an arbitrary variable y is calculated as follows:
+
+                                          Σ(𝑦‰#h"Š‹>h" − 𝑦#h$K )M
+                                    𝑆𝐸 = p
+                                                    𝑛
+
+This was carried out for the expected linear fit of 𝑙𝑛(𝑥N ) against N (exponential model),
+as well as the unexpectedly high R2 carrying fit of 𝑥N /𝑚 against N (linear model). The
+predicted values were calculated according to the fit parameters provided by Excel.
+Here, n in both cases equals 117.
+
+Percentage standard error is used for valid comparison. For %SE, the value of
+^(𝑦‰#h"Š‹>h" − 𝑦#h$K )M was computed for each value of N, and the corresponding values
+of 𝑥N and 𝑙𝑛(𝑥N ) were used.
+
+
+                                                                      Percentage Standard
+                Model                     Standard Error
+                                                                           Error (%)
+
+       Exponential Model                       0.000149                      0.609
+
+          Linear Model                        0.0000147                      3.099
+                               Table 6 – Standard Error Comparisons
+
+
+                                                                                             10
+The percentage standard error for the linear model is 5.09 times greater than that for
+the exponential model, which provides evidence for the fact that the exponential model
+is a far better fit for damping as a whole.
+
+        6. CONCLUSION & EVALUATION OF RESULTS
+
+In answering the question “how does the amplitude of an oscillating pendulum vary
+with the number of oscillations that have taken place?”, the conclusion drawn from
+this investigation is that a decay of the exponential nature is observed.
+
+The observed competitiveness of the R2 in a linear model is likely caused by the low
+damping ratio. As a result, the exponential decay in the first step is rather small. In
+order to validate this further, it would be advisable to conduct this same experiment
+with either of the following, in order to increase the value of b:
+
+-   A more viscous fluid – this increases resistant force per oscillation, of which b is
+    a function
+-   A larger ball – a greater radius would also result in a more significant drag force,
+    as per Stokes’ law.
+
+As indicated in Section 3d, the uncertainties calculated are dependent more on
+statistical deviation among samples and those arising from constants rather than the
+direct uncertainty in the dependent variable. This signifies that there exist other
+sources of error, that may include:
+
+-   Lateral motion of the bob – potential energy is converted to this kinetic energy
+    too
+-   Rotational Energy – this might be more significant than assumed
+-   Varying amplitudes – the effect this has might be correctly neglected as per the
+    assumption – however, this might have effects on the other sources of error,
+    impacting the validity of the assumptions made.
+-   Drag due to string – this is not necessarily compliant with the Stokes’ law model,
+    and hence cannot be included in the exponential decay. As shown by Mohazzabi
+    (et al)2, this is a non-negligible effect.
+-   Dry, Structural Damping – these effects are less impactful since the string is tied
+    below the rod – due to heating effects in the string itself, there might be additional
+    non-negligible damping produced or general distortion of the oscillations.
+
+A significant limitation in this experiment was that imposed by the lack of compatibility
+between the computer software for the Pasco GLX, and the operating system. As a
+consequence, the 1000 readings were manually recorded, each to 6 decimal places.
+This was an incredibly time-consuming process, as was the calibration procedures in
+aligning the photogate with the bob as closely as possible, to ensure no significant
+bias in the experiment that might impact the validity of the readings. If this was not the
+case, more readings could have taken with a greater reliability in the use of statistical
+processes used in determining how accurate the exponential decay model is.
+
+
+2
+ Mohazzabi, Pirooz, and Siva P. Shankar. "Damping of a simple pendulum due to drag on its string." Journal of
+Applied Mathematics and Physics 5.01 (2016): 122.
+
+
+                                                                                                          11
+Further studies would include the isolation of the individual variables affecting the
+quality of the experiment, and examining this effect. This would allow the development
+of a quantitative correction formula that can be applied to the readings obtained, in
+order to get a set of data that is more reliable for the assessment of the validity of the
+exponential decay model. In addition, the effect of the initial amplitude on the damping
+constant was demonstrated by Aggarwal (et al)3 can be further explored and
+mathematically quantified – this is an interesting function due to the fact that the
+assumption of an exponential rise in b as amplitude is changed would mean that the
+drag force varies with the velocity raised to a function of velocity itself, which is an
+interesting mathematical problem.
+
+Applications of a comprehensive understanding of damping in a pendulum extend not
+only to situations where a pendulum is in use, such as tuned mass dampers in
+buildings, but to a variety of harmonic oscillators in general. Damping is of concern in
+particle physics, Josephson Junctions (coupling device for 2 superconductors),
+resonant circuits and much more. The system of the pendulum, arguably more
+complex than the rest when the multitude of variables that might result in damping are
+concerned, is a strong basis for the analysis of these effects in other harmonic
+oscillators in general, and an exploration of this might lead to engineering relevance
+that is as of yet undiscovered.
+
+        7. BIBLIOGRAPHY:
+
+    1. Aggarwal, Neha, Nitin Verma, and P. Arun. "Simple pendulum
+       revisited." European journal of physics 26.3 (2005): 517.
+
+    2. “Dropping the Ball (Slowly).” Stokes' Law,
+       galileo.phys.virginia.edu/classes/152.mf1i.spring02/Stokes_Law.htm
+
+    3. Mohazzabi, Pirooz, and Siva P. Shankar. "Damping of a simple pendulum due
+       to drag on its string." Journal of Applied Mathematics and Physics 5.01
+       (2016): 122.
+
+
+
+
+3
+  Aggarwal, Neha, Nitin Verma, and P. Arun. "Simple pendulum revisited." European journal of physics 26.3
+(2005): 517.
+
+
+                                                                                                            12
+                                       APPENDIX
+
+   1. Proof of solution to differential equation
+
+The differential equation is as follows:
+
+                             𝑚𝑥̈ = 𝑘𝑥 − 𝑐𝑥̇                         (1)
+
+This can be re-expressed using different terms, using the following substitutions:
+                                               Œ
+                                     𝜔NM = O            (2)
+
+𝜔NM , here, represents the square of the initial angular frequency.
+                                           ‹
+                                     𝛾= O               (3)
+
+Considering this, equation (1) is rewritten as:
+
+                                 𝑥̈ + 𝛾𝑥̇ + 𝜔NM 𝑥 = 0         (4)
+
+Assuming a complex solution, z, equation is then expressed as:
+
+                                 𝑧̈ + 𝛾𝑧̇ + 𝜔NM 𝑧 = 0         (5)
+
+The complex solution is expressed as:
+
+                              𝑧 = 𝐴𝑒 Š(‰>••)             (6)
+
+This is because this the exponential part of this function represents the equivalent of
+a trigonometric function with an imaginary sine and a real cosine.
+
+When the derivatives of z, with respect to t, are taken and substituted into equation
+(5), it can be expressed as:
+
+                             (−𝑝M + 𝑖𝛾𝑝 + 𝜔NM )𝑧 = 0                (7)
+
+Given this, either of (−𝑝M + 𝑖𝛾𝑝 + 𝜔NM ) or 𝑧 must equal 0. 𝑧, however, cannot equal 0
+since it represents the solution to the displacement over time, and this changes in an
+oscillating system. Hence:
+
+                         (−𝑝M + 𝑖𝛾𝑝 + 𝜔NM ) = 0.                          (8)
+
+In this case, the real and imaginary parts of the equation are required to
+independently add up to 0. However, 𝑖𝛾𝑝 ≠ 0, for the following reasons. Due to the
+definition of 𝛾 in equation (3), if it were to equal 0, c, the drag coefficient, would be
+equal to 0 too. However, given that this would imply no damping at all, this isn’t
+possible. Given that in equation (6), p is part of the oscillatory component of the
+solution for z, this cannot equal 0 either. Hence, it can be deductively reasoned that
+
+
+
+                                                                                        13
+p must be complex in order for equation (9) to be satisfied. Therefore, p is defined as
+follows:
+
+                                 𝑝 = 𝑛 + 𝑖𝑠              (10)
+
+And:
+
+                             𝑝M = 𝑛M − 𝑠 M + 2𝑖𝑛𝑠           (11)
+
+When these are now substituted into equation (9), the following equation forms:
+
+                  −𝑛M + 𝑠 M − 2𝑖𝑛𝑠 + 𝑖𝛾𝑛 − 𝛾𝑠 + 𝜔NM = 0                (12)
+
+The imaginary part of this equation is:
+
+                                 −2𝑖𝑛𝑠 + 𝑖𝛾𝑛 = 0         (13)
+            ”
+Hence, 𝑠 = M. This, when substituted into the real part of equation (12), yields the
+following:
+
+                                      ”•   ”•
+                             −𝑛M + • − M + 𝜔NM = 0          (14)
+
+This means n can be expressed as:
+
+                                                ”•
+                                 𝑛M = 𝜔NM − •            (15)
+
+Reverting to the proof of solution, first, equation (10) is substituted into equation (6):
+
+                                 𝑧 = 𝐴𝑒 Š(–>•Š—>••)      (16)
+
+                                 𝑧 = 𝐴𝑒 <—> 𝑒 Š(–>••)    (17)
+                                           ˜
+                                 𝑧 = 𝐴𝑒 < •> 𝑒 Š(–>••)   (17)
+
+Clearly, n is representative now of the angular frequency of oscillation 𝜔. This means
+the relation between the damped frequency of oscillation and the initial frequency of
+oscillation is as follows:
+
+                                                ”•
+                                 𝜔M = 𝜔NM − •            (18)
+
+Finally, the real part of the solution in equation (17) is the following:
+                                  ˜
+                         𝑥 = 𝐴𝑒 < •> cos (𝜔𝑡 + 𝛼)               (19)
+
+
+
+
+                                                                                        14
+                                                                             ”
+For the sake of simplicity, this study considers the constant M as b. It is also worth
+                                               ”
+noting that relative to the multiplied -M in the case of the reduction of amplitude, the
+reduction in equation (18) is negligible, and hence unaccounted for.
+
+   2. Derivation of Equation (9) – Section 3(a)
+
+
+
+
+Deducing based on the above figure:
+
+                                         𝑥N = 𝑙 sin 𝜃      (1)
+
+Based on the small angle approximation:
+
+                                   𝑥N = 𝑙 sin 𝜃 ≈ 𝑙𝜃             (2)
+
+It is known from Section 3(b):
+                              L                    L
+                              M
+                                  𝑚𝑣max2 = M 𝑚𝜔2𝑥02                    (3)
+
+                                                           "
+This is rearranged, and the substitution 𝑣O$P = > is made. Hence:
+
+                                         "•
+                                         >•
+                                              = 𝜔2𝑥02      (4)
+
+                                           %
+Substituting equation (2), and 𝜔M = K :
+
+                                   "•         %
+                                    >•
+                                         = K × 𝑙M × 𝜃M           (5)
+
+Re-arranging the following:
+                                                       "
+                                         𝑡=                (6)
+                                                  ^%K_`
+
+
+
+
+                                                                                     15
+

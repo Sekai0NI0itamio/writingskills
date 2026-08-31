@@ -1,0 +1,674 @@
+gsx197
+                                   Exploring the Fourier Series by Drawing Figures with Circles
+Introduction
+         One of the most famous works that Joseph Fourier was his discovery of the Fourier series and transformation,
+which expresses the idea that that any function could be represented with a combination of its constituent frequencies.
+Although Fourier analysis was discovered in the early 19th century, early ideas of decomposing functions to simple
+oscillating functions can be dated back to 3rd century B.C., when ancient astronomers proposed mathematical models
+based on the concepts of deferent and epicycles to describe planetary motions (Sargent, 1917). In addition, Fourier
+analysis, the study of decomposing periodic waveforms into their corresponding composite trigonometric functions, has
+a wide array of applications in image and music compression, optics, cryptography, signal processing, and many more
+areas that are highly pertinent to our daily life (Niu, 2006). Having learned about the ancient astronomical models in
+physics and the importance of Fourier analysis, I decided to combine, understand, and explore these concepts in a
+creative way by drawing images with combinations of circles. Since there has been relatively less research done on
+drawing images with combinations of circles using Fourier series, it was really exciting for me to investigate this topic.
+
+Background
+          In Ptolemy’s (an ancient Greek astronomer) model, each planet
+moves in an epicycle (a small circle) centered on the path of a deferent (a
+larger circle), as shown in Fig. 1; both of these terms will be used when
+describing the circles for clarification (The Ptolemaic Model, n.d.).
+         Some of the common image compression techniques that we
+currently have are JPEG and PNG files. Although both are common for
+digital images, JPEG images use the discrete cosine transform, a variant of
+the Fourier series, to convert an image into a series of frequencies, whereas
+PNG images store the value of all pixels in a 2-dimensional array (Mathis,
+2015). The distinctions in these methods of compression result in a
+difference in the quality and size of the compressed images, with the PNG
+images normally having a larger size but better quality (Mathis, 2015).           Fig. 1 A Diagram of an Epicycle and
+Some properties of compression through Fourier series will be explored in         Deferent (The Ptolemaic Model, n.d.)
+more depth in further sections.
+
+Orthogonality
+       The orthogonality relation states that the integral of the product of two functions 𝑢(𝑡) and 𝑣(𝑡), where 𝑢(𝑡)
+and 𝑣(𝑡) represent either a cosine or sine function, integrated over a period is equal to 0, as long as 𝑢(𝑡) ≠ 𝑣(𝑡)
+(Orthogonality Relations, 2011). The proof is not shown as it is just a straightforward calculation.
+                                                       !
+                                                      ' 𝑢(𝑡)𝑣(𝑡)𝑑𝑡 = 0
+                                                      "!
+The orthogonality could be broken down into a few cases as shown below, where 𝑚 ϵ N and 𝑛 ϵ N.
+                               !                  !                !
+                           ' sin (𝑚𝑡) 𝑑𝑡 = ' cos (𝑚𝑡)𝑑𝑡 = ' sin (𝑚𝑡)cos (𝑛𝑡) 𝑑𝑡 = 0
+                               "!                "!               "!
+                           !                           !
+                                                                         𝜋,             if 𝑚 = 𝑛
+                         ' cos(𝑚𝑡) cos(𝑛𝑡) 𝑑𝑡 = ' sin (𝑚𝑡)sin (𝑛𝑡) 𝑑𝑡 = 5
+                          "!                     "!                       0,            if 𝑚 ≠ 𝑛
+
+Theorem
+        The Fourier series starts out with the idea that all periodic functions can be made up of sine and cosine functions,
+which was then defined as a periodic function made up of an infinite series (or linear combination) of weighted harmonic
+sinusoids (Cheever, n.d.).
+gsx197
+        Given 𝑓(𝑡) with a period of 2𝜋, where 𝑘 and 𝑛 represent arbitrary integers and 𝑎# and 𝑏# represent the “weight”
+of each sinusoidal function, the Fourier series of 𝑓(𝑡) can be expressed as the following equation (Cheever, n.d.).
+                                                                                &
+
+                    𝑓(𝑡) = 𝑐$ + ⋯ + 𝑎% cos(𝑘𝑡) + ⋯ + 𝑎# cos(𝑛𝑡) + ⋯ = 𝑐$ + A 𝑎# cos(𝑛𝑡) + 𝑏# sin(𝑛𝑡)
+                                                                               #'(
+         This equation is the Fourier synthesis equation, as it shows how an equation is synthesized by adding up sine and
+cosine functions. Since the functions must be harmonics of one another, 𝑘 and 𝑛 must be integers in order to complete an
+integer number of oscillations in a period. 𝑎# , 𝑏# , and 𝑐$ are constants that are called the Fourier coefficients, and they
+will be further discussed in the following section.
+
+Finding the Fourier Coefficients an and bn and the Constant Term cn
+         Using the orthogonality relation, 𝑎# could be found by multiplying 𝑓(𝑡) with cos(𝑘𝑡) and taking the integral of
+𝑓(𝑡) over a period of 2𝜋 (from −𝜋 to 𝜋) (Cheever, n.d.). By convention, the constant of integration is not included in the
+calculations since the constant term for the Fourier series (𝑐$ ) is calculated separately.
+                        𝑓(𝑡)cos(𝑛𝑡) = 𝑐$ cos (𝑛𝑡) … + 𝑎% cos(kt)cos(𝑛𝑡) + ⋯ + 𝑎# cos ) (𝑛𝑡) + ⋯
+Taking the integral of 𝑓(𝑡)cos(𝑛𝑡):
+               !                          !                   !                                  !
+           ' 𝑓(𝑡) cos(𝑛𝑡) 𝑑𝑡 = 𝑐$ ' cos(𝑛𝑡) 𝑑𝑡 + ⋯ + ' 𝑎% cos(𝑘𝑡) cos(𝑛𝑡) 𝑑𝑡 + ⋯ + ' 𝑎# cos ) (𝑛𝑡) 𝑑𝑡
+               "!                         "!                 "!                                 "!
+                                                         !
+                                       𝑡 sin(2𝑛𝑡)            𝜋 sin(2𝑛𝜋)    −𝜋 sin(−2𝑛𝜋)
+         = 𝑐$ ∙ 0 + ⋯ + 𝑎% ∙ 0 + 𝑎# ∙ G +        IJ = 𝑎# ∙ {( +         )−(   +         )} = 𝑎# ∙ 𝜋
+                                       2    4𝑛     "!
+                                                             2    4𝑛        2     4𝑛
+        𝑏# can also be found in a similar manner by multiplying 𝑓(𝑡) with sin (𝑛𝑡) and taking the integral over its period.
+Through inspection of the Fourier synthesis equation, it can be found out that 𝑐$ can be determined by multiplying the
+function 𝑓(𝑡) with cos(0 ∙ 𝑡) = 1 and integrating the function over its period.
+    !                  !              !                      !
+  ' 𝑓(𝑡)𝑑𝑡 = 𝑐$ ' 𝑑𝑡 + ⋯ + ' 𝑎% cos(𝑘𝑡) 𝑑𝑡 + ⋯ + ' 𝑎# cos(𝑛𝑡) 𝑑𝑡 = 𝑐$ ∙ 𝑥|!"! + ⋯ + 𝑎% ∙ 0 + 𝑎# ∙ 0 = 𝑐$ ∙ 2𝜋
+   "!               "!             "!                     "!
+                     ( !
+        Since 𝑐$ = * ∫"! 𝑓(𝑡)𝑑𝑡, where 𝑇 represents the period of the function, 𝑐$ also represents the average value of the
+                                                 ( !                         ( !                                        +
+function. Substituting 0 for 𝑛 in 𝑎# , where 𝑎$ = ∫"! 𝑓(𝑡) cos(0 ∗ 𝑑𝑡) 𝑑𝑡 = ∫"! 𝑓(𝑡)𝑑𝑡, 𝑐$ can also be expressed as ! .
+                                                 !                           !                                           )
+This is verified since an odd function, which has a Fourier series that is composed of only sine functions, would have an
+average of 0, whereas an even function may have a non-zero average.
+The following relation, which is called the Fourier analysis equation, can be established:
+                    1 !                               1 !                                      1 !
+             𝑎# = ' 𝑓(𝑡) cos(𝑛𝑡) 𝑑𝑡             𝑏# = ' 𝑓(𝑡) sin(𝑛𝑡) 𝑑𝑡                  𝑐$ =      ' 𝑓(𝑡)d𝑡
+                    𝜋 "!                              𝜋 "!                                    2𝜋 "!
+
+Generalizing to Different Periods
+       The orthogonality relation could be expanded to any arbitrary period, as 𝑓(𝑥) with period 2𝜋 and domain
+𝑥 𝜖 [−𝜋, 𝜋] could be viewed as a special case of a function with period 2L, where L 𝜖 𝑅.
+                                                                  #!,          #!,
+         Let the period of a periodic function be 2𝐿, where cos ( - ) and sin ( - ) represent cos (𝑛𝑡) and sin (𝑛𝑡) when
+                                               +
+2𝐿 = 2𝜋. Thus, the Fourier series 𝑓(𝑡) = )! + ∑&
+                                               #'( 𝑎# cos(𝑛𝑡) + 𝑏# sin (𝑛𝑡) with a period of 2𝜋 can then be generalized
+           +                    #!,                #!,
+as 𝑓(𝑡) = )! + ∑&
+                #'( 𝑎# cos Z - [ + 𝑏# sin ( - ) with a period of 2𝐿 for L 𝜖 𝑅. Since the orthogonality relation for the
+
+sine and cosine functions holds for any function integrated over its period, the Fourier analysis equation can then be
+expressed in terms of the following relation.
+                 1 -             𝑛𝜋𝑡                 1 -              𝑛𝜋𝑡                       1 -
+           𝑎# = ' 𝑓(𝑡) cos \         ] 𝑑𝑡      𝑏# = ' 𝑓(𝑡) sin \          ] 𝑑𝑡            𝑐$ =     ' 𝑓(𝑡)d𝑡
+                 𝐿 "-             𝐿                  𝐿 "-              𝐿                       2𝐿 "-
+gsx197
+Euler’s Equation and the Exponential Form of the Fourier series
+                                                                                                +             #!,             #!,
+         Euler’s formula 𝑒 ./ = cos(𝜃) + 𝑖 ∙ sin (𝜃) simplifies the equation 𝑓(𝑡) = )! + ∑&
+                                                                                          #'( 𝑎# cos Z - [ + 𝑏# sin ( - )
+
+by converting the equation to its exponential form. A complex number in the form of 𝑧 = 𝑎 + 𝑏𝑖 can be viewed as a
+cartesian coordinate at point (𝑎, 𝑏) in the complex plane, which could be converted into the polar coordinates (𝑟, 𝜃) in the
+form 𝑎 = 𝑟cos (𝜃) and 𝑏 = 𝑟sin(𝜃), where 𝑟 represents the radius. The complex number 𝑧 can then be expressed in its
+polar form as 𝑧 = 𝑟(cos(𝜃) + 𝑖 ∙ sin(𝜃)) = 𝑟𝑐𝑖𝑠(𝜃) = 𝑟𝑒 ./ , where 𝑟 = |𝑧| = √𝑎) + 𝑏) .
+         In order for the circle to rotate with a change in time, 𝑡 is substituted with the angle 𝜃, which gives the equation
+       .,
+𝑧 = 𝑟𝑒 . As 𝜃 moves from 0 to 2𝜋, 𝑧 traces out a circle with radius 𝑟. The angular frequency of the rotation can also be
+                                                                                             1/     )!
+described in terms of by 𝜔, expressed in terms of radians per second, where 𝜔 = 1, = * (Gupta, 2019). The formula
+𝑟𝑒 .2, then represents a circle of radius r that rotates at an angular frequency of 𝜔. Similarly, by and plugging 2L into T, 𝜔
+                           !                                               +
+could be substituted with and 𝑓(𝑡) can also be simplified to 𝑓(𝑡) = ! + ∑&       #'( 𝑎# cos(𝑛𝜔𝑡) + 𝑏# sin (𝑛𝜔𝑡).
+                            -                                                    )
+          It can be known that 𝑐𝑖𝑠(−𝜔𝑡) = cos(−𝜔𝑡) + 𝑖 ∙ sin(−𝜔𝑡) = cos(𝜔𝑡) − 𝑖 ∙ sin (𝜔𝑡) since cosine is an even
+function and sine is an odd function. Using De Moivre’s theorem, 𝑐𝑖𝑠(−𝜔𝑡) = 𝑐𝑖𝑠(𝜔𝑡)"( , and since 𝑐𝑖𝑠(𝜔𝑡) = 𝑒 .2, ,
+𝑐𝑖𝑠(−𝜔𝑡) = 𝑒 ".2, (Demenet, Nirjhor, & Khan, n.d.). Using this notation, the following relation can be established.
+                                                     𝑒 .2, +𝑒 ".2,
+                                                   ⎧               = cos(𝜔𝑡 )
+                                                           2
+                                                   ⎨ 𝑒 .2, −𝑒 ".2,
+                                                   ⎩               = sin(𝜔𝑡)
+                                                           2𝑖
+          This allows the Fourier synthesis equation to be converted to its exponential form 𝑓(𝑥) = ∑&   "& 𝑐# 𝑒
+                                                                                                                 .#2,
+                                                                                                                      . Let the
+                                                                      .#2,
+constant term 𝑐$ represent the average value of a function. Since 𝑒        rotates at a frequency of 𝜔 radians per second, it
+completes a 𝑛 cycles in a second and has a frequency of 𝑛 Hz. Therefore, 𝑐"# 𝑒 ".#2, + 𝑐# 𝑒 .#2, represents the portion of
+𝑓(𝑡) that makes a 𝑛 oscillations in a second, which is also equal to 𝑎# cos(𝑛𝜔𝑡) + 𝑏# sin(𝑛𝜔𝑡) in the synthesis equation
+of the Fourier series of 𝑓(𝑡) (Cheever, n.d.).
+          By equating the equations of 𝑎# cos(𝑛𝜔𝑡) + 𝑏# sin(𝑛𝜔𝑡) and 𝑐"# 𝑒 ".#2, + 𝑐# 𝑒 .#2, , the Fourier coefficients 𝑐#
+can be calculated and expressed in terms of 𝑎# and 𝑏# . Using the relation of expressing cosine and sine functions in terms
+of the addition and subtraction of Euler’s formulas as defined above, the equation can be written as follows.
+       𝑒 .#2, + 𝑒 ".#2,         𝑒 .#2, + 𝑒 ".#2,      𝑎# .#2, 𝑏# .#2, 𝑎# ".#2, 𝑏# .#2,
+  𝑎# G                  I + 𝑏# G                 I=      𝑒      + 𝑒         + 𝑒           − 𝑒        = 𝑐"# 𝑒 ".#2, + 𝑐# 𝑒 .#2,
+                2                      2𝑖              2           2𝑖          2             2𝑖
+               3                          3                      3         3             3
+         Since )." can also be written as )" ∙ 𝑖 "( 451 6 = )" ∙ 𝑖 7 = )" ∙ 𝑖 ) ∙ 𝑖 = − )" ∙ 𝑖, by grouping the equations in terms of
+the terms 𝑒 .#2, and 𝑒 ".#2, , the following expression could be established.
+                                                      +"    3
+                                               𝑐# =        − "𝑖
+                                                      )      )
+                                           i          +"     3       for 𝑛 ≠ 0 with 𝑐#∗ = 𝑐"#
+                                               𝑐"# = ) + )" 𝑖
+          Assuming that 𝑓(𝑡) is a real function, the imaginary parts of 𝑐# and 𝑐"# must cancel out to become 0. As a result,
+𝑐# and 𝑐"# are complex conjugates, which is shown in the expression established above. However, a real function
+expressed in terms of time 𝑡 is not sufficient to plot a 2-dimensional closed-loop figure on a plane as it fails the vertical
+line test (unless it is a parametric equation), which implies that the function should be plotted on a complex plane in order
+for the function to be plotted without using parametric equations. When graphed on a complex plane, a real function also
+traces out a line in the real number axis, meaning that the functions that is used to plot the figure should not be a real
+function. This also signifies that 𝑐# and 𝑐"# should not be complex conjugates or else the imaginary numbers would
+cancel each other out.
+          The exponential form of the Fourier series also provides a convenient way to apply a phase shift to a term in the
+Fourier series. By multiplying a term 𝑐# 𝑒 .#2, with 𝑒 9" , the term then becomes 𝑐# 𝑒 .#2,:9" , which could be viewed as a
+function with a phase shift by 𝜙# radians.
+gsx197
+         Revisiting the idea of viewing complex exponential functions as rotations in the complex plane takes us a step
+further to plot a two-dimensional figure with circles. The sum of the terms in the Fourier series in the exponential form
+can be represented as having an epicycle (a term in the series) rotate about another deferent (another term in the series). It
+should be noted that the commutative representation of the sum of the Fourier series is not unique since the terms of the
+Fourier series can be organized in any order following the commutative property of addition.
+
+Example of a Calculation for the Fourier Series
+         Let us take these concepts and apply it to a real-life example. Below (Fig. 2) is an image of a maple leaf, which is
+a suitable image for Fourier epicycles to trace out as the figure has a clear outline. Before plotting the whole leaf, let us
+zoom into a corner of the figure (as shown in Fig. 3) and derive the trigonometric Fourier series of the curve.
+
+
+
+
+                 Fig. 2 Figure of a Maple Leaf                                  Fig. 3 Section of a Maple Leaf
+                          (National flag of Canada (outdoor use) .: P29-098-001-2018E-PDF, 2013)
+         The zoomed in portion of the figure is a triangle with a height-to-width ratio of roughly 1:1. The outline of the
+triangle is then plotted onto a plane with an arbitrary unit axis, as shown in Fig. 4.
+
+
+
+
+                                      Fig. 4 A Plot of the Maple Leaf Section on a Plane
+                                                                                 2𝑡 + 2, −1 < 𝑥 ≤ 0
+        This curve represents a piecewise function with the formula 𝑓(𝑡) = k                          . The Fourier series
+                                                                                 −2𝑡 + 2, 0 < 𝑥 ≤ 1
+would trace out a similar function that is repeated periodically and infinitely along the x-axis. Since the function 𝑓(𝑡) is an
+even function, the Fourier series is a Fourier cosine series, in which the terms 𝑏# are all equal to 0, and a proof will be
+shown in the next section. 𝑓(𝑡) is piecewise continuous as both 𝑓(𝑡) = 2𝑡 + 2 and 𝑓(𝑡) = −2𝑡 + 2 are continuous, and
+the Fourier coefficients can be calculated because the definite integrals in a Fourier series for a piecewise continuous
+function will always converge (Tseng, 2012).
+        The following steps shown the calculation of the Fourier coefficients.
+gsx197
+       Since the period equals to 2 = 2𝐿 (from -1 to 1), 𝐿 equals to 1 for the following calculations.
+      1 (             1    $               (                   $               (
+                                                                                              𝑡)         𝑡)
+  𝑐$ = ' 𝑓(𝑡) 𝑑𝑡 = G' 2𝑡 + 2 𝑑𝑡 + ' −2𝑡 + 2 𝑑𝑡I = ' 𝑡 + 1 𝑑𝑡 + ' −𝑡 + 1 𝑑𝑡 = ( +𝑡)|"( + (− + 𝑡)|($     $
+      2 "(            2 "(                $                   "(              $                2         2
+                          1               1               1 1
+                 = G0 − \ − 1]I + G\− + 1] − 0I = + = 1
+                          2               2               2 2
+                          1 (                     $                          (
+                      𝑎# = ' 𝑓(𝑡) cos(𝑛𝜋𝑡) 𝑑𝑡 = ' (2𝑡 + 2) ∙ cos(𝑛𝜋𝑡) 𝑑𝑡 + ' (−2𝑡 + 2) ∙ cos(nπt) dt
+                          1 "(                   "(                         $
+                                                $                         (                     (
+                                          = ' 2𝑡 ∙ cos(𝑛𝜋𝑡) 𝑑𝑡 − ' 2𝑡 ∙ cos(𝑛𝜋𝑡) 𝑑𝑡 + 2 ' cos(𝑛𝜋𝑡) 𝑑𝑡
+                                               "(                         $                    "(
+Breaking down the equation,
+                 (
+                                               1                      sin(𝜋𝑛) sin(−𝜋𝑛)     sin(𝜋𝑛)
+            2 ' cos(𝑛𝜋𝑡) 𝑑𝑡 = 2 ∙                sin(𝑛𝜋𝑡) |("( = 2 ∙ G       −        I=4∙G       I=4∙0=0
+                 "(                           𝜋𝑛                         𝜋𝑛      𝜋𝑛           𝜋𝑛
+Using integration by parts,
+                                                     1               1                   2𝑡            −2
+              ' 2𝑡 ∙ cos(𝑛𝜋𝑡) 𝑑𝑡 = 2𝑡 ∙                sin(𝑛𝜋𝑡) − '    sin(𝑛𝜋𝑡) ∙ 2 𝑑𝑡 =    sin(𝑛𝜋𝑡) − ) ) cos(𝑛𝜋𝑡)
+                                                    𝑛𝜋              𝑛𝜋                   𝑛𝜋           𝑛 𝜋
+                                          2
+                                  =            (𝜋𝑛𝑡 ∙ sin(𝑛𝜋𝑡) + cos (𝑛𝜋𝑡))
+                                      𝑛) 𝜋 )
+𝑎# can then be calculated by substituting the integral with a definite integral as shown below.
+             (
+                                    2                                            2
+    𝑎# = ' 2𝑡 ∙ cos(𝑛𝜋𝑡) 𝑑𝑡 = ) ) (𝜋𝑛𝑡 ∙ sin(𝑛𝜋𝑡) + cos (𝑛𝜋𝑡))|$"( − ) ) (𝜋𝑛𝑡 ∙ sin(𝑛𝜋𝑡) + cos(𝑛𝜋𝑡))|($ + 0
+            "(                    𝑛 𝜋                                          𝑛 𝜋
+                         2
+                     = ) ) {[(0 + 1) − (𝜋𝑛 ∙ sin(𝜋𝑛) + cos(−𝑛𝜋))] − [(𝜋𝑛 ∙ sin(𝜋𝑛) + cos(𝑛𝜋)) − (0 + 1)]}
+                        𝑛 𝜋
+                         2
+                     = ) ) ∙ o(1 − 𝜋𝑛 ∙ sin(𝜋𝑛) − cos(𝑛𝜋)) − (𝜋𝑛 ∙ sin(𝜋𝑛) + cos(𝑛𝜋) − 1)p
+                        𝑛 𝜋
+                         2                                         4      4(−1)# 4 − 4(−1)#
+                     = ) ) {[1 − (−1)# ] − [(−1)# − 1]} = ) ) − ) ) =
+                        𝑛 𝜋                                      𝑛 𝜋        𝑛 𝜋          𝑛) 𝜋 )
+                    +!
+Verifying that 𝑐$ = ) using the equation of 𝑎# :
+             $                        (                              (
+    𝑎$ = ' 2𝑡 ∙ cos(0) 𝑑𝑡 − ' 2𝑡 ∙ cos(0) 𝑑𝑡 + 2 ' cos(0) 𝑑𝑡 = 𝑡 ) |$"( − 𝑡 ) |($ + 2𝑥|("( = −1 − 1 + 2 − (−2) = 2
+            "(                        $                              "(
+                                                                     𝑎$ 2
+                                                                 ∴     = = 1 = 𝑐$
+                                                                     2  2
+
+Proof that the Fourier Series is a Cosine Series (𝒃𝒏 = 𝟎)
+Assuming that 𝑏# ≠ 0 for a Fourier series of 𝑓(𝑡), where 𝑓(𝑡) is an even function in the real-number domain,
+                 &           &                  &                                    &
+                                            𝑛𝜋𝑡             𝑛𝜋𝑡                𝑛𝜋𝑡             −𝑛𝜋𝑡
+              A 𝑓(𝑡) = A 𝑓(−𝑡) = A 𝑎# cos \     ] + 𝑏# sin \    ] = A 𝑎# cos \     ] + 𝑏# sin \     ]
+                                             𝐿               𝐿                  𝐿               𝐿
+              #'(           #'(                 #'(                                  #'(
+                                                           #!,                      "#!,              #!,
+          This creates a contradiction as 𝑏# sin Z - [ should equal 𝑏# sin Z         -
+                                                                                         [ = −𝑏# sin Z - [ unless 𝑛𝑡 = 𝐿 so that
+    #!,
+sin ( - ) = 0. Since 𝑛 changes as the Fourier coefficients are summed up and 𝑡 changes with the function, the only way
+for the Fourier series to satisfy all terms for any given 𝑡 is for 𝑏# = 0.
+         A quick calculation helps us to verify this statement.
+                         1 (                           $                    (
+                  𝑏# = ' 𝑓(𝑡) sin(𝑛𝜋𝑡) 𝑑𝑡 = ' (2𝑡 + 2) ∙ sin(𝑛𝜋𝑡) 𝑑𝑡 + ' (−2𝑡 + 2) ∙ sin(nπt) dt
+                         1 "(                         "(                   $
+                                                $                             (                 (
+                                          = ' 2𝑡 ∙ sin(𝑛𝜋𝑡) 𝑑𝑡 − ' 2𝑡 ∙ sin(𝑛𝜋𝑡) 𝑑𝑡 + 2 ' sin(𝑛𝜋𝑡) 𝑑𝑡
+                                               "(                         $                    "(
+gsx197
+Breaking down the equation,
+                      (
+                                                  1                       cos(𝜋𝑛) cos(−𝜋𝑛)
+                  2 ' sin(𝑛𝜋𝑡) 𝑑𝑡 = −2 ∙            cos(𝑛𝜋𝑡) |("( = −2 ∙ G       −        I=2∙0=0
+                     "(                          𝜋𝑛                         𝜋𝑛       𝜋𝑛
+Using integration by parts,
+                                              −1                2 cos(𝑛𝜋𝑡)      −2𝑡             2
+              ' 2𝑡 ∙ sin(𝑛𝜋𝑡) 𝑑𝑡 = 2𝑡 ∙          cos(𝑛𝜋𝑡) − ' −            𝑑𝑡 =     cos(𝑛𝜋𝑡) + ) ) sin(𝑛𝜋𝑡)
+                                              𝑛𝜋                    𝑛𝜋          𝑛𝜋            𝑛 𝜋
+                                      2
+                               =             (−𝜋𝑛𝑡 ∙ cos(𝑛𝜋𝑡) + sin(𝑛𝜋𝑡))
+                                    𝑛) 𝜋 )
+Substituting the integral with a definite integral,
+             (
+                                     2
+    𝑏# = ' 2𝑡 ∙ sin(𝑛𝜋𝑡) 𝑑𝑡 = ) ) ([−𝜋𝑛𝑡 ∙ cos(𝑛𝜋𝑡) + sin(𝑛𝜋𝑡)]$"( − [−𝜋𝑛𝑡 ∙ cos(𝑛𝜋𝑡) + sin(𝑛𝜋𝑡)]($ ) + 0
+            "(                     𝑛 𝜋
+                           2
+                      = ) ) {[(0 + 0) − (𝜋𝑛 ∙ cos(−𝜋𝑛) + sin(−𝑛𝜋))] − [(−𝜋𝑛 ∙ cos(𝜋𝑛) + sin(𝑛𝜋)) − (0 + 0)]}
+                        𝑛 𝜋
+                           2                                                                2
+                      = ) ) (−𝜋𝑛 ∙ cos(𝜋𝑛) + sin(𝜋𝑛) + 𝜋𝑛 ∙ cos(𝜋𝑛) − sin(𝜋𝑛)) = ) ) ∙ 0 = 0
+                        𝑛 𝜋                                                              𝑛 𝜋
+Using the relation aforementioned, the Fourier coefficients 𝑐# of the exponential Fourier series can also be calculated.
+                                                       4 − 4(−1)#
+                                           𝑎# 𝑏#           𝑛) 𝜋 )     0     2 − 2(−1)#
+                                     𝑐# =     − 𝑖=                  − 𝑖=
+                                            2    2           2        2        𝑛) 𝜋 )
+                                                                      2𝑡 + 2, −1 < 𝑡 ≤ 0
+        Therefore, the Fourier series of a periodic function 𝑓(𝑥) = k                     , 𝑡 ϵ R with a period of 2 is
+                                                                      −2𝑡 + 2, 0 < 𝑡 ≤ 1
+                 6"6("()"                                )")("()"
+𝑓(𝑡) = 1 + ∑&
+            (               cos (𝑛𝜋𝑡), or 𝑓(𝑡) = ∑&
+                                                  "&                𝑒 .#!, in its exponential form.
+                   ## !#                                   ## !#
+
+
+Calculating the Error of the Fourier Series Approximation
+
+
+
+
+           Fig. 5 Fourier Series Approximation of the                     Fig. 6 Zoomed in Portion of Fourier Series
+                        Original Function                                        Approximation at the Vertex
+
+         Fig. 5 shows the plot of this Fourier series along with its original function, where the purple line is the Fourier
+                                +
+series with only the 0th term Z ![, red with 1 term, blue 3, green 5, and black the original function. It should be noted that
+                                )
+the Fourier series with even number of terms are not plotted because 4 − 4(−1)# cancel to 0, which makes the Fourier
+series with 2𝑚 − 1 terms the same as that with 2𝑚 terms where 𝑚 𝜖 𝑁. Therefore, the Fourier series with 𝑛 = 2𝑚 − 1
+has 𝑚 terms (not counting the constant term), and this convention will be used throughout this example. As shown in the
+graph, as the number of terms in the Fourier series increases, the Fourier series approximates the given function better.
+        In order to determine how well the Fourier series approximates the original function, the error of the two curves
+should be calculated. For a regression line, the root mean square error (RMSE) helps to measure how spread out a data is
+gsx197
+by calculating the square root of the sum of the squared error of each sample point from the regression line, where 𝑦.
+represents the ith sample of the data and 𝑦w. represents its corresponding sample of the regression line (Holmes, 2000).
+                                                                            #
+                                                                                  (𝑦w. − 𝑦. ))
+                                                             𝑅𝑀𝑆𝐸 = {A
+                                                                                       𝑛
+                                                                            .'(
+
+         The Riemann sum, which represents an approximation of an integral with a finite sum, helps to approximate the
+area of a function by taking sample points of the graph with a fixed sample rate. A Riemann sum is defined as the
+following function, where S represents the sum, 𝑛 the number of partitions, Δ𝑥. = 𝑥. − 𝑥."( , and 𝑥.∗ 𝜖[𝑥."( , 𝑥. ]. 𝑥.∗ can be
+any point between 𝑥."( and 𝑥. as the difference between 𝑥. and 𝑥."( approaches 0 as Δ𝑥. approaches 0 (Weisstein, n.d.).
+                                                                        #
+
+                                                             𝑆 = A 𝑓(𝑥.∗ )Δ𝑥.
+                                                                    .'(
+        As 𝑛 approaches infinity and Δ𝑥. approaches 0, the Riemann sum approaches the true sum of the function, which
+can also be written as the integral of the function from a to b.
+                                                              #                      3
+                                               𝑆 = lim A 𝑓(𝑥.∗ )Δ𝑥. = ' 𝑓(𝑥) 𝑑𝑥
+                                                       #→&                          +
+                                                             .'(
+                                                             (
+         For a function of n partitions, Δ𝑥. equals to # of the length of the defined domain, which would also equal to the
+period of a periodic function. The mean integrated squared error (MISE), or the error difference between two curves, of a
+function can then be calculated by replacing the summation in the RMSE formula with a definite integral, integrated from
+−𝐿 to 𝐿 for a function with a period of 2𝐿. The absolute value was included in the equation to help us calculate the
+difference between complex functions (Bevelacqua, n.d.).
+                                                 #                                          -
+                                                                            )
+                               •|f − g|• = { lim A Z𝑓o𝑥.∗ p − 𝑔o𝑥.∗ p[ Δ𝑥. = ‚' |𝑓(𝑥) − 𝑔(𝑥)|) 𝑑𝑥
+                                           #→&                                             "-
+                                                 .'(
+
+        The MISE of two functions has the same definition in the time domain. Let us do a calculation for the MISE for
+                                                                                          2𝑡 + 2, −1 < 𝑡 ≤ 0
+the Fourier series with one term (𝑛 = 1) (compared to the original function). Let 𝑓(𝑡) = k                    and
+                                                                                          −2𝑡 + 2, 0 < 𝑡 ≤ 1
+                 6"6("()"
+𝑔(𝑡) = 1 + ∑((    ## !#
+                              cos (𝑛𝜋𝑡), the MISE is then calculated as follows. Since both 𝑓(𝑡) and 𝑔(𝑡) are both even
+functions, the integration of the difference between 𝑓(𝑡) and 𝑔(𝑡) is also equal to two times the integral of either side of
+the function relative to the y-axis.
+                                                                    (                            )
+                          (
+                       2𝑡 + 2, −1 < 𝑡 ≤ 0          4 − 4(−1)#
+•|𝑓(𝑡) − 𝑔(𝑡)|• = {' •k                   − Ž1 + A            cos(𝑛𝜋𝑡)•• 𝑑𝑡
+                    "(
+                       −2𝑡 + 2, 0 < 𝑡 ≤ 1             𝑛) 𝜋 )
+                                                                   #'(
+
+                          $                                                 ()                                             )
+                                                 4 − 4(−1)                                      4 − 4(−1)
+                  = ‚' J(2𝑡 + 2) − G1 +                )
+                                                           cos(𝜋𝑡)IJ 𝑑𝑡 + '   J(−2𝑡 + 2) − G1 +           cos(𝜋𝑡)IJ 𝑑𝑡
+                          "(                         𝜋                     $                        𝜋)
+                               $                     )
+                                          8
+                  = ‚2 ' •2𝑡 + 1 −           cos(𝜋𝑡)•  𝑑𝑡
+                              "(          𝜋)
+        In order to calculate this integral, the intersections of the functions with the x-axis should be found. Since
+2𝑡 + 1 − 𝑐𝑜𝑠(𝜋𝑡) = 0 is a non-linear function, the result is hard to determine using an analytical method. Using Wolfram
+Alpha, an online calculator, the roots that were calculated were 𝑡 ≈ −0.874, 𝑡 = −0.5, and 𝑡 ≈ −1.26 (WolframAlpha,
+2009).
+gsx197
+                                                                                   ?                             ?
+         Since 2(−1) + 1 −                                                              cos(−𝜋) = −1 +                = −0.189 is negative, substituting the values into the integral gives:
+                                                                                   !#                            !#
+           $                                                                          )           "$.?A6                            "$.B
+                                                                           8                                       8                               8
+     ‚2 ' •2𝑡 + 1 −                                                           cos(𝜋𝑡)• 𝑑𝑡 = ‚4 G'        −2𝑡 − 1 + ) cos(𝜋𝑡) 𝑑𝑡 + '       2𝑡 + 1 − ) cos(𝜋𝑡) 𝑑𝑡I
+          "(                                                               𝜋)                    "(               𝜋                "$.?A6         𝜋
+
+                                                                                                   8                                  8
+                                                            = 2‚\−𝑡 ) − 𝑡 +                          7
+                                                                                                       sin (𝜋𝑡)] |"$.?A6
+                                                                                                                  "(     + \𝑡 ) + 𝑡 − 7 sin (𝜋𝑡)] |"$.B
+                                                                                                                                                   "$.?A6 = 0.0982
+                                                                                                   𝜋                                 𝜋
+         A computer program was used to help calculate the MISE of the function with a larger number of different
+Fourier coefficients. Only 15 samples for the MISE (excluding the Fourier series with only the 0th term) were plotted for
+clarity of the graph shown below. As shown, the MISE decreases quickly at first and gradually approaches 0 as the
+number of terms in the Fourier cosine series increases, meaning that Fourier series can achieve compression of sound or
+images while preserving a high quality by replacing the function with a Fourier series that has a limited number of terms.
+
+                                                                                  Mean Integrated Squared Error of the Fourier Cosine Series vs
+                                                                                             Number of Terms in the Fourier Series
+                                                                           0.12
+
+
+
+
+                                           Mean Integrated Squared Error
+                                                                            0.1
+                                                                           0.08
+                                                                           0.06
+                                                                           0.04
+                                                                           0.02
+                                                                              0
+                                                                                  0            2             4           6        8         10            12     14     16
+                                                                                                       Number of Terms in the Fourier (Cosine) Series
+
+         While plotting the graph, I discovered that when the data was plotted onto a log-log plot (as shown below), a
+linear trendline fitted the data points to a high degree, which means that the MISE of this function is in a power
+relationship with the number of terms in the Fourier cosine series; the R2 value is “a statistical measure of how close the
+data are to the fitted regression line”, and an R2 value of 0.9995 signifies that there is a strong correlation (Minitab Blog
+Editor, 2013). However, I have not been able to understand why there is such a relation, so an extension of this
+exploration could be to investigate the rationale behind the power trend and determine whether this trend can be
+generalized to every function. If the trend can be generalized to other functions, then it can be applied to the field of signal
+processing to estimate and predict things such as the quality of sound compression in relation the size of the audio file.
+
+                                                                                   Log of Mean Integrated Squared Error of the Fourier Cosine
+                                                                                     Series vs Log of Number of Terms in the Fourier Series
+                                                        -0.5
+
+
+
+
+                  Log of Mean Integrated Squared Error
+                                                     -0.1                                0.1           0.3               0.5          0.7         0.9          1.1      1.3
+                                                                            -1
+
+                                                                           -1.5
+
+                                                                            -2
+
+                                                                           -2.5
+                                                                                                                               MISE = -1.452*N - 0.9796
+                                                                                                                                     R² = 0.9995
+                                                                            -3
+                                                                                               Log of Number of Terms in the Fourier (Cosine) Series
+gsx197
+         In Fig. 9 and Fig. 10, three lines are plotted, wherein black represents the original function, red the Fourier cosine
+series with 1 and 3 terms respectively, and their respective absolute difference with the original function at each data
+point. Since the difference is always maximized when the function meets a vertex, it can be known that although a Fourier
+series does not approximate sharp edges (the vertex) well, it performs well on smooth edges (anywhere else on the
+function). As a result, compression methods such as JPEG for images can generally help to decrease the size of a file
+without being noticed because it eliminates a considerable amount of information that cannot be easily detected by the
+human eye, whereas PNG files are generally used by animators to preserve the details of the edges (Mathis, 2015).
+
+
+
+
+      Fig. 9 Absolute Error of Fourier Series with 1 Term        Fig. 10 Absolute Error of Fourier Series with 3 Terms
+
+       This example gives a perspective of some properties of the Fourier series, but it does not provide a rationale for
+                                                        2𝑡 + 2, −1 < 𝑥 ≤ 0
+why Fourier series are used since the function 𝑓(𝑡) = k                    appears to be much simpler than the function
+                                                        −2𝑡 + 2, 0 < 𝑥 ≤ 1
+                 6"6("()"
+𝑓(𝑡) = 1 + ∑((              cos (𝑛𝜋𝑡). It also does not achieve the aim to trace a figure with combinations of epicycles.
+                  ## !#
+
+
+Plotting a Maple Leaf
+         To plot the maple leaf, a computer program was used to trace out the boundaries of the figure and take sample
+points due to the complexity of the figure. Since we now have discrete sample points as our input, a variant of the Fourier
+series, the discrete Fourier transform (DFT), was used. The DFT converts an input sequence into its frequency domain
+representation in discrete integer frequencies, and the terms that are calculated can then be used to plot the maple leaf
+figure. Although the proof is not shown, online sources do show that the DFT of 𝑛 samples of a sampled signal is equal to
+𝑛 times the Fourier series coefficients of the same signal, meaning that the DFT of 𝑛 samples produces the same output as
+the Fourier series for a continuous periodic function when divided
+by 𝑛 (Smith, 2019). It should be noted that the maple leaf figure is
+periodic in the sense that it forms a closed loop when it’s the base
+frequency traverses over a period. Although there exists the discrete-
+time Fourier transform (DTFT), which converts an input sequence
+into a continuous function of frequency, the DFT was used since
+discrete integer frequencies allows us to plot an image using circles
+with discrete radii and frequencies.
+         I wrote a computer program in MATLAB to trace out the
+maple leaf figure and perform the DFT, as shown in Fig. 11. In order
+to trace out the 2-dimensional figure using circles, the exponential
+form of the Fourier series with complex Fourier coefficients were
+used. The figure was also centered by setting the 0th constant term in
+the Fourier series to 0.                                                   Fig. 11 Epicycle Representation of Maple Leaf
+gsx197
+         Note that the commutative property of addition allows us to organize the terms in the Fourier series in any order.
+For a clear visual representation, the terms in the Fourier series were sorted in terms of decreasing amplitude, which is
+shown on the graph as circles with decreasing radius. This example shows how the Fourier series achieves compression
+visually; by only retaining the terms with a relatively large amplitude (large radius), a similar graph that may be visually
+indistinguishable can still be drawn.
+         While I was trying to plot the maple leaf, I also thought that it would be interesting to calculate the perimeter of
+the figure that is traced out with the combination of circles. Through previous learning, I have learned that the arc length
+of a parametric curve given by 𝑥 = 𝑓(𝑡) and 𝑦 = 𝑔(𝑡), where 𝑓(𝑡) and 𝑔(𝑡) represent two functions with the parameter 𝑡,
+can be calculated. Since complex numbers have both an 𝑥 (real) and 𝑦 (imaginary) component, I thought that the complex
+number series can also be used to calculate its arc length in a similar manner.
+         Given that we have a parametric curve given by 𝑥 = 𝑓(𝑡) and 𝑦 = 𝑔(𝑡), with 𝑎 ≤ 𝑡 ≤ 𝑏. Let us assume that there
+is an infinitesimal curve 𝑑𝑠. Using Pythagoras’s theorem, it can be seen that such a curve can be expressed in terms of 𝑑𝑥
+and 𝑑𝑦, infinitesimal sections of the 𝑥 and 𝑦 axis through the following relation.
+                                                       𝑑𝑠 ) = 𝑑𝑥 ) + 𝑑𝑦 )
+                                                    ∴ 𝑑𝑠 = ˜𝑑𝑥 ) + 𝑑𝑦 )
+Using integration and the chain rule, the arc length of a parametric curve can be calculated as follows (Dawkins, 2018).
+                                              3
+                                                  𝑑𝑥 )    𝑑𝑦 )      3
+                               𝐿 = ' 𝑑𝑠 = ' ‚\       ] + \ ] 𝑑𝑡 = ' ˜(𝑓′(𝑡))) + (𝑔′(𝑡))) 𝑑𝑡
+                                             +    𝑑𝑡      𝑑𝑡       +
+                                                                                                                           1C
+           A complex number allows the real and imaginary component of a function to be calculated separately, where
+                                                                                                                           1,
+      1D
+and        correspond to the derivatives of the real and imaginary components. Since the derivative of 𝑓(𝑡) calculates both
+      1,
+the derivative of the real and imaginary components of the function, and the absolute value (or modulus) of a complex
+number and can also be calculated by taking the square root of the sum of both the square of its real and imaginary
+                                                                                  3
+components, the arc length of 𝑓(𝑡) = ∑&
+                                      "& 𝑐# 𝑒
+                                              .#2,
+                                                   can be calculated as 𝐿 = ∫+ |𝑓′(𝑡)|𝑑𝑡.
+         A simple example can be used to verify this result. Let us take a system with two rotating circles, one with a
+radius of 4 and a counterclockwise rotation with an angular frequency of 1 rotation per second, and the other with a radius
+of 1 and a counterclockwise rotation with an angular frequency of 4 rotations per second (Fig. 12). As the epicycle
+(smaller circle) traces out its path, it traces out an epicycloid, a path traced out by a point on the circumference of a circle
+rolled on the outside of a fixed circle without slipping (Weisstein, Epicycloid., 2004). Therefore, this system can also be
+viewed as a cycloid, a point on the rim of a circle rolled along a straight line, that is curved around a circle (Fig. 13)
+(Cycloid, 2008). Note that only three curves are shown in the graph since the cycloid that is traced out is not on a flat line.
+
+
+
+
+                 Fig. 12 A system with an epicycle of radius 1       Fig. 13 A circle with a radius of 1 rolled
+                            and deferent of radius 4                    around a circle with a radius of 3
+gsx197
+        It is known that a cycloid can be expressed in terms of a parametric equation with 𝑥 = 𝑟(𝑡 − sin(𝑡)) and 𝑦 =
+𝑟(1 − cos(𝑡)) (Gilbert & Schmidt, 2017). The arc length of the cycloid S can then be calculated using the formula to
+calculate the arc length of a parametric equation.
+          )!
+                    𝑑𝑥 )  𝑑𝑦 )      )!
+   𝑆='            ‚\ ] + \ ] 𝑑𝑡 = ' ˜𝑟 ) (1 − cos(𝑡))) + 𝑟 ) (− sin(𝑡))) 𝑑𝑡
+         $          𝑑𝑡    𝑑𝑡       $
+
+                              )!                                             )!                             )!
+                                                                                                                          𝑡
+                         = 𝑟 ' ˜1 − 2cos (𝑡) + cos ) (𝑡) + sin) (𝑡)𝑑𝑡 = 𝑟 ' √2˜1 − cos (𝑡)𝑑𝑡 = 2𝑟 '                ‚sin) \ ] 𝑑𝑡
+                             $                                               $                             $              2
+                                  )!
+                                    𝑡                       𝑡
+                         = 2𝑟 'sin \ ] 𝑑𝑡 = 2𝑟 G−2cos \ ]I |)E   $ = −4𝑟(−1) − o−4𝑟(1)p = 8𝑟
+                           $        2                       2
+         As shown above, the arc length of a cycloid is equal to eight times its radius, so the total length of the cycloid that
+is traced out from an epicycle of radius 1 that rotates 4 times is 8 ∙ 1 ∙ 4 = 32. The arc length of the epicycle system is
+calculated as follows.
+           (                                       (
+              𝑑
+     𝑆 = ' • o4𝑒 .)!, + 𝑒 6∙(.)!,)p• 𝑑𝑡 = 8𝑖𝜋 ' |𝑒 .)!, + 𝑒 .?!, |𝑑𝑡
+          $ 𝑑𝑡                                    $
+             (
+   = 8𝜋 ' | − (sin(2𝜋𝑡) +sin(8𝜋𝑡)) + 𝑖(cos(2𝜋𝑡) + cos(8𝜋𝑡))| 𝑑𝑡
+             $
+              (
+   = 8𝜋 ' ˜(− (sin(2𝜋𝑡) +sin(8𝜋𝑡)))) + (cos(2𝜋𝑡) + cos(8𝜋𝑡))) 𝑑𝑡
+             $
+              (
+   = 8𝜋 ' ˜sin) (2𝜋𝑡) − 2 sin(2𝜋𝑡) sin(8𝜋𝑡) + sin) (8𝜋𝑡) + cos ) (2𝜋𝑡) + 2 cos(2𝜋𝑡) cos(8𝜋𝑡) + cos ) (8𝜋𝑡) 𝑑𝑡
+             $
+              (                                                                  (
+   = 8𝜋 ' ˜2 − 2 sin(2𝜋𝑡) sin(8𝜋𝑡) + 2 cos(2𝜋𝑡) cos(8𝜋𝑡) 𝑑𝑡 = 8𝜋 ' ˜2 + 2 cos(2𝜋𝑡 − 8𝜋𝑡) 𝑑𝑡
+             $                                                                   $
+                   (                            (                                    (                         (
+   = 8√2𝜋 ' ˜1 + cos(2𝜋𝑡) 𝑑𝑡 = 8√2𝜋 ' ˜1 + cos(2𝜋𝑡) 𝑑𝑡 = 8√2𝜋 ' ˜2 cos ) (𝜋𝑡) 𝑑𝑡 = 16𝜋 ' |cos (𝜋𝑡)|𝑑𝑡
+                  $                            $                                     $                      $
+                   $.B                 (
+                                                      16𝜋
+   = 16𝜋 G' cos(𝜋𝑡) 𝑑𝑡 − ' cos(𝜋𝑡) 𝑑𝑡I =                   osin(𝜋𝑡) |$.B          (
+                                                                     $ − sin(𝜋𝑡) |$.B p = 16((1 − 0) − o0 − (−1)p = 32
+             $                    $.B                  𝜋
+       Both calculations produced the same arc length, so this method is verified. Using Wolfram Alpha, I have also
+checked that the result of this definite integral is correct (WolframAlpha, 2009). With this result, we can also calculate the
+                                                                        7)
+arc length of each curve traced out in the system, which is 32 ÷ 3 = 7 .
+        To calculate the perimeter of the maple leaf Fourier series, I tried doing the computation by plugging in all the
+terms calculated using the DFT. However, the queries didn’t work well since there were so many terms, so I wrote a
+program using WolframScript to calculate the perimeter of the maple leaf. The perimeter of the maple leaf was calculated
+to be 5404.17 ≈ 5400. Although this result does not have any units, for a reference, the largest circle in Fig. 11 had a
+radius of 939.34 ≈ 900 and a circumference of 5902.06 ≈ 5900. This result means that maple leaf has a perimeter with
+          B6$6.(A
+a ratio of BG$).$H ≈ 91.6% relative to the largest circle in its Fourier series. As aforementioned, the more terms that are
+calculated in the Fourier series, the better the Fourier series represents the original function. Such a result provides a
+perspective that relatively fewer terms in the Fourier series may be used to plot the maple leaf figure (while preserving its
+outline) for ease of computation (including the calculation for its perimeter) and more efficient storage of data.
+
+Conclusion and Extensions
+         I started out seeking to understand the Fourier series through drawing figures with circles. Throughout the
+exploration, I have discovered many properties of the Fourier series, including an increasing similarity compared to the
+original function as the number of terms in the Fourier series increases and the fact that Fourier series do not approximate
+gsx197
+edges well. Both of these properties show why applications of Fourier analysis, such as image and audio compression, are
+used for data compression when much information can be excluded.
+         In the exploration, I have also learned about the two forms of the Fourier series – trigonometric and exponential.
+The exponential Fourier series allows complex and parametric functions to be plotted. With many properties similar to
+those of parametric equations, the exponential Fourier series can also be used to estimate the length (perimeter) of the
+function, as well as the area of the function. In addition, the exponential Fourier series provides a way to apply a phase
+shift to each Fourier coefficient and a way to visualize the series using the concept of deferent and epicycles. Therefore,
+the exponential Fourier series is also a more compact representation of the Fourier series.
+         As an extension, I would like to learn about the Fourier transform, since Fourier series have the limitation that a
+function must be periodic and infinitely repeating throughout the defined domain. Since most signals in real life are not
+periodic, applications including image compression, filtering, and analysis require the use of the Fourier transform
+(Cheever, n.d.). In addition, the wavelet transform also decomposes functions into different frequency components, and
+they provide much better compared to the Fourier transform when there are discontinuities are sharp spikes present in a
+signal, although both methods require a more rigorous mathematical background for further study (Graps). Such
+investigations may help us answer the question of how visual and auditory signals could be further compressed while
+preserving their quality, and they may have a large global impact, especially in the current technological era.
+
+Works Cited
+Bevelacqua, P. (n.d.). Fourier Series - Mean Squared Error (MSE). Retrieved from The Fourier Transform:
+         http://www.thefouriertransform.com/series/mse.php
+Cheever, E. (n.d.). Derivation of Fourier Series. Retrieved from Swarthmore College:
+         https://lpsa.swarthmore.edu/Fourier/Series/DerFS.html#Trig
+Cycloid. (2008, June 14). Retrieved from Mathworks: http://mathworld.wolfram.com/Cycloid.html
+Dawkins, P. (2018, May 31). Section 3-4 : Arc Length With Parametric Equations. Retrieved from Paul's Online Notes:
+         http://tutorial.math.lamar.edu/Classes/CalcII/ParaArcLength.aspx
+Demenet, A., Nirjhor, J., & Khan, S. (n.d.). De Moivre's Theorem . Retrieved from Brilliant: https://brilliant.org/wiki/de-
+         moivres-theorem/
+Gilbert, G., & Schmidt, G. (2017, October 15). Parametric Equations for a Cycloid. Retrieved from The University of Georgia:
+         http://jwilson.coe.uga.edu/EMAT6680Fa07/Gilbert/Assignment%2010/Gayle&Greg-10.htm
+Graps, A. (n.d.). An Introduction to Wavelets.
+Gupta, L. (2019, July 22). How to Calculate an Angular Frequency . Retrieved from Sciencing: https://sciencing.com/calculate-
+         angular-frequency-6929625.html
+Holmes, S. (2000, November 28). RMS Error. Retrieved from http://statweb.stanford.edu/~susan/courses/s60/split/node60.html
+Mathis, T. (2015, May 19). JPEG or PNG? - Increasing Page Speed with Proper Image Formatting. Retrieved from Interactive
+         Search Marketing: https://www.interactivesearchmarketing.com/jpeg-png-proper-image-formatting/
+Minitab Blog Editor. (2013, May 30). Regression Analysis: How Do I Interpret R-squared and Assess the Goodness-of-Fit?
+         Retrieved from The Minitab Blog: https://blog.minitab.com/blog/adventures-in-statistics-2/regression-analysis-how-do-
+         i-interpret-r-squared-and-assess-the-goodness-of-fit
+National flag of Canada (outdoor use) .: P29-098-001-2018E-PDF. (2013, April 3). Retrieved from Government of Canada
+         Publications - Canada.ca: http://www.publications.gc.ca/site/eng/9.859032/publication.html
+Niu, R. (2006, May 12). Fourier Series and Their Applications.
+Orthogonality Relations. (2011). Retrieved from 18.03SC Differential Equations: https://ocw.mit.edu/courses/mathematics/18-
+         03sc-differential-equations-fall-2011/unit-iii-fourier-series-and-laplace-transform/fourier-series-
+         basics/MIT18_03SCF11_s21_7text.pdf
+Sargent, N. (1917, November 3). The early history of the theory of eccentrics and epicycles. Popular Astronomy, 25, 285.
+Smith, J. O. (2019, January 9). Relation of the DFT to Fourier Series. Retrieved from Stanford University CCRMA:
+         https://ccrma.stanford.edu/~jos/mdft/Relation_DFT_Fourier_Series.html
+The Ptolemaic Model. (n.d.). (I. S. University, Producer) Retrieved from Polaris Project Evening Star:
+         http://www.polaris.iastate.edu/EveningStar/Unit2/unit2_sub1.htm
+Tseng, Z. S. (2012). Second Order Linear Partial Differential Equations.
+Weisstein, E. W. (2004, May 25). Epicycloid. Retrieved from MathWorld: http://mathworld.wolfram.com/Epicycloid.html
+Weisstein, E. W. (n.d.). Riemann Sum. Retrieved from MathWorld: http://mathworld.wolfram.com/RiemannSum.html
+WolframAlpha. (2009). Retrieved from Wolfram Alpha LLC: https://www.wolframalpha.com
+

@@ -1,0 +1,369 @@
+                    Business Management- Standard Level
+
+
+
+
+                             Research Question:
+ ‘Will Tesla be able to increase its market share in the Chinese electric car
+                market by opening a Gigafactory in china?’
+
+
+
+
+Session- May 2020
+Word count: 1484
+Table of Contents
+Introduction                 2
+Main research and findings   3
+  SWOT Analysis              4
+    Strength                 4
+    Weaknesses               4
+    Opportunity              5
+    Threats                  5
+  Ansoff Matrix              6
+Force Field Analysis         7
+    Driving forces           7
+    Restraining forces       7
+Conclusion                   8
+Bibliography                 9
+
+
+
+
+1 | Page
+Introduction
+China is by far the largest electric vehicle market in the world due to its government support in
+the form of subsidies. As it reduces the purchases price for the consumers1. Tesla, Inc ,US
+electric vehicle manufacturer, is keen to invest in the Chinese market through its Gigafactory
+in order to reduce production cost and begin production of locally build models.2 The
+Gigafactory will be the source to manufacture 10,000 model 3 electric sedans per week and It
+cannot be possible without the baseline Shanghai factory ( Gigafactory 3). One of the world's
+biggest consumers of EV's is China, therefore building one of its giga factories in China and
+investing $2 billion could be beneficial for Tesla. Gigafactory typically means Giant Factory,
+as they are the world's largest lithium-ion factory. The Giga plant not only constructs electric
+vehicles, but it also works with batteries, solar panels and home storage solutions- all under
+one roof.
+China has produced half of the global electric vehicles during 2018 while the US has just
+produced 20%3. The intense competition in China comprises comparators who offer cheaper
+solutions in comparison to Tesla. Not only this, non-Chinese automakers such as BMW, Audi,
+Mercedes and Toyota have strong presence and already established manufacturing and sales
+units through partnership and agreement with local entities. While it cannot be denied that
+Tesla has enjoyed special treatment by the Chinese government, Tesla still has to sell this
+product at profit considering its price tag. Subsequently there exists immense competition from
+companies like NIO who are cash rich and possess local knowledge of culture and related
+things4.
+Therefore, the question arises- Will Tesla be able to increase its market share in the Chinese
+electric car market by opening a Gigafactory in china?
+
+
+
+
+1
+  Appendix 1
+2
+  Appendix 2
+3
+  Appendix 3
+4
+  Appendix 3
+
+2 | Page
+Main research and findings
+
+
+
+
+                   Figure 1: Sales growth of China's auto market (EV)
+
+
+
+
+3 | Page
+SWOT Analysis
+
+
+    Strength                                     Weaknesses
+
+       ● Technology enthusiasts in china            ● Unaware of local Chinese culture and
+         agree with Tesla’s Vision and                practices11.
+         mission statement5                         ● Tesla model 3 will cost $50,000
+       ● Network of more than 2,100 regular           approximately despite subsidies
+         EV chargers and pos1,200 super               offered by government12.
+         chargers across china6.                    ● Tesla needs to secure funding that
+       ● Mobile applications in China                 will allow them to complete and
+         positions Tesla through a significant        operate a factory in Shanghai13.
+         competitive advantage7.                    ● Tesla is unable to produce 10,000
+       ● Tesla has Strong and dependable              model 3 sedans per week without
+         relationship      with       Chinese         manufacturing in china14.
+         government . 8
+                                                    ● Tesla wouldn't be able to manufacture
+       ● Elon Musk is the face of Tesla and a         model      3    at    $35,000    with
+         renowned leader9.                            manufacturing in china .15
+
+       ● Made in China vehicles allow Tesla         ● Tesla is yet to publish an 8k filing
+         to encash subsidy10.                         with SEC thereby declaring secure
+                                                      funding and material partnership to
+                                                      build future capacity16
+
+
+
+
+5
+  Appendix 1
+6
+  Appendix 5
+7
+  Appendix 5
+8
+  Appendix 3
+9
+  Appendix 3
+10
+   Appendix 1
+11
+   Appendix 3
+12
+   Appendix 2
+13
+   Appendix 3
+14
+   Appendix 3
+15
+   Appendix 3
+16
+   Appendix 3
+
+4 | Page
+ Opportunity                                     Threats
+
+     ● Tesla cars are not in subsidies cut as       ● Unclear business and economic
+       their range is less than 250 km17.             scenarios force many competitors to
+     ● China’s government relations with              layoff many workers and cut back
+       Tesla’s may effect and deteriorate             wages. This may unprecedentedly
+       competitor NIO18.                              create pressure on Tesla to be careful
+     ● Tesla can achieve economy of scale             and vigilant.26
+       because investment in small                  ● Competition from established local
+       businesses is depleting19.                     and global contenders like NIO,
+     ● Potential sales growth of EV’s in              Xpeng, BMW, Daimler27, SAIC
+       China and combustion vehicles sales            Motor, BYD, Volvo and BAIC
+       reduce from $26.82 (2018)-$24.56               group.28
+       million (2019)20.                            ● Increase of EV’s new start-ups in
+     ● Demand to grow overall without                 china29.
+       government support21.                        ● Cutback on subsidies30.
+     ● If Tesla reflect positive social impact      ● More than 500 manufacturers were
+       it can create a successful image and           registered to produce EV’s in
+       can penetrate in consumer market22.            China31.
+     ● If Tesla focuses on fair compensation        ● Heavy investment from competitors
+       (i.e. training and education) then it          like NIO32.
+       can easily capture the market23.             ● China overall auto market decline in
+     ● Tesla model 3 to get subsidy of                201933
+       $350024.                                     ● Low speed development in china as
+     ● China is inclined towards the green            per the CAAM34.
+       economy with its new energy vehicle
+       policy25.
+
+
+17
+   Appendix 1
+18
+   Appendix 1
+19
+   Appendix 1
+20
+   Appendix 1
+21
+   Appendix 1
+22
+   Appendix 1
+23
+   Appendix 1
+24
+   Appendix 2
+25
+   Appendix 4
+26
+   Appendix 1
+27
+   Appendix 2
+28
+   Appendix 3
+29
+   Appendix 3
+30
+   Appendix 1
+31
+   Appendix 1
+32
+   Appendix 3
+33
+   Appendix 4
+34
+   Appendix 4
+
+5 | Page
+Ansoff Matrix
+
+
+
+
+Tesla is market capturing in Chinese automobile market, especially in the electric vehicle car
+market, it can be referred to as a product development strategy which exposes Tesla to medium
+risk. This is because Tesla need to offer new products, research and develop them. Tesla has
+a wide range of product portfolio, from regular charging stations to super chargers 35, Lithium
+ion battery and solar roof. The American automobile giant must improvise on product features
+to attract the likes of Chinese consumers. This means significant and robust product
+development involving incremental investment and radical changes in order to beat home
+grown competitors like NIO. Moreover, Tesla can match and strategy its product to fulfil the
+vision of Chinese government of making china less polluted or maybe pollution free36.
+Additionally, Tesla unique features like auto pilot mode on highways can position them well
+above competitors. However, investment in Gig factory requires considerable funding which
+Tesla lacks. The stimulus material also confirms registration of a new 50037 electric vehicle
+manufacturer in china which might take away a larger share of the pie.
+Subsequently one might review Tesla’s position as market development strategy which exposes
+them to medium risk. While Tesla may be a strong brand in American market and may have
+established earlier roots in the Chinese market however, the firm still needs to constantly
+remind Chinese consumers about their new products and in what capacity they are better than
+the competitors. It is estimated that Tesla requires constant above the line promotion to develop
+its market. The newly developed and added features must be introduced as a unique preposition
+to enjoy first mover advantage. There is a possibility of some environment friendly
+enthusiasts38 appreciating Tesla’s product acting as earlier adopters however, it is cognizant to
+identify and appreciate those consumers who may help Tesla in attracting a significant share
+of the Market. The forecast39 confirms that China EV’s market is growing and fuel based is no
+longer the choice of the masses. Overall, Tesla needs a sizable funding to keep itself alive in
+the promotion game thereby developing its market constantly.
+
+
+35
+   Appendix 5
+36
+   Appendix 4
+37
+   Appendix 1
+38
+   Appendix 1
+39
+   Appendix 4
+
+6 | Page
+Force Field Analysis
+                Driving forces                  Restraining forces
+
+     ● Gigafactory in china can add       ● Tesla still has an expensive car
+       10,000        vehicle     per        despite subsidy47. (4)
+            40
+       week .(4)                          ● Competition       from    native
+     ● Recharge              network        companies like NIO and Xpeng
+       available41. (4)                     motors48. (4)
+     ● Tesla can contribute to            ● Huge investment on Shanghai
+       vision       of       Chinese        Gigafactory49. (3)
+       government       to    reduce      ● Model S will cost around
+       pollution and add positive           $140,000 after taxes in the US
+       social impact42. (4)                 it only costs around $80,00050.
+     ● China EV’s market increases          (5)
+       from 4.5% to 4.7% in
+       201943. (4)
+     ● China has cut-off its subsidy
+       on vehicles which have a
+       range less than 250 km44 (4)
+     ● Special dispensation by
+       Chinese government45. (4)
+     ● China's electric market is
+       growing46. (3)
+
+           Total (27)                  Total (16)
+
+
+
+
+40
+   Appendix 3
+41
+   Appendix 5
+42
+   Appendix 4
+43
+   Appendix 4
+44
+   Appendix 1
+45
+   Appendix 3
+46
+   Appendix 4
+47
+   Appendix 2
+48
+   Appendix 2
+49
+   Appendix 3
+50
+   Appendix 3
+
+7 | Page
+Conclusion
+
+Undeniably Tesla is one of the strongest electric vehicle manufacturers in the world and its
+decision to target Chinese electric vehicle market through its Gigafactory in Shanghai looks
+achievable. This is so because the world is changing, and consumers look forward to products
+that support such changes. The investment in the Research and Development in electric
+vehicles is appreciated and Tesla with its sizable brand can make it happen.
+The Swot analysis that Tesla has Strong strength as it continues to live range resources to gain
+competitive advantage and other EV manufacturers. May take a longer time to create
+significant threats. Further Tesla does have weaknesses to deal with Chinese EV market
+however, this can be tamed with concrete strategy and some operational objective alteration.
+The chosen 5 stimulus materials provide a range of opportunities for Tesla which can assist in
+achieving significant market share in the EV passenger car market. These opportunities are
+well within Tesla’s ability to exploit them as directly or indirectly they contribute in the
+objective. However, Tesla has less control on the threats identified some of them are common
+for its competitors while most threats comprises the competitors who may equally strategies
+move to gain a significant portion of the EV market. Overall, the strength and opportunity are
+higher than weaknesses and threats. The Ansoff matrix confirms the risk of expansion as a
+medium for Tesla in the Chinese Ev market. Whether Tesla adopts a market orientated or a
+product-oriented approach or combination of both Tesla needs significant investment and
+therefore it may take Tesla a while, short to medium time period to gain a considerable market
+share of the EV market. However, the risks are in much control and Tesla needs to constantly
+pump in funds in product and market development.
+Finally, the driving force weighs more than the restraining forces and therefore it can finally
+be concluded that tesla can increase its market share in the Chinese electric car market by
+opening a Gigafactory in china.
+
+
+
+
+8 | Page
+Bibliography
+
+   ● Research, Navigant. “Chinese EV Subsidy Elimination Could Mean Trouble for Some
+     EV     Companies.”      Forbes,    Forbes     Magazine,     17      Oct.     2019,
+     www.forbes.com/sites/pikeresearch/2019/10/17/chinese-ev-subsidy-elimination-
+     could-mean-trouble-for-some-ev-companies/#54ad80843005. Accessed 21 Feb 2020.
+
+
+
+   ● Bloomberg.com, Bloomberg, www.bloomberg.com/news/articles/2019-12-06/tesla-s-
+     locally-built-cars-to-qualify-for-subsidies-in-china. Accessed 18 Feb 2020.
+
+
+
+   ● Lora Kolodny, Andrew Evers. “Tesla Is Staking Its Future on China - Here's What It's
+     Up Against.” CNBC, CNBC, 12 Feb. 2019, www.cnbc.com/2019/02/11/tesla-faces-
+     steep-competition-in-china.html. Accessed 19 Feb 2020.
+
+
+
+   ● About the Author Dr. Maximilian Holland Max is an anthropologist. “China 2019
+     Electric Vehicle Market Share Grows To 4.7% Despite Tighter Incentives.”
+     CleanTechnica, 14 Jan. 2020, cleantechnica.com/2020/01/13/china-2019-electric-
+     vehicle-market-share-grows-to-4-7-despite-tighter-incentives/. Accessed 20 Feb 2020.
+
+
+
+   ● 张洁 . “Tesla Builds 1,700 Super Chargers in China.” Tesla Builds 1,700 Super
+       Chargers          in            China         -          Chinadaily.com.cn,
+       www.chinadaily.com.cn/a/201907/04/WS5d1d6f1fa3105895c2e7ba9f.html. Accessed
+       19 Feb 2020.
+
+
+
+
+9 | Page
+

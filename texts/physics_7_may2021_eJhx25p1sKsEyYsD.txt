@@ -1,0 +1,574 @@
+                    IBDP PHYSICS HL INTERNAL ASSESSMENT
+
+                  Resonance of a Wire in a Magnetic Field with Varying Tension
+
+1. INTRODUCTION
+
+1.1 Aim of Investigation
+
+The aim of this investigation is to find the mass per unit length of a wire by measuring the
+frequency at which the wire resonates at the first harmonic by varying tension, with the
+equation:
+
+                                                  𝑇
+                                               √
+                                                 𝑚/𝐿
+                                          𝑓=
+                                                 2𝐿
+
+Where 𝑓 = frequency, 𝑇 = wire tension, 𝑚 = mass of wire, 𝐿 = length of wire (Oxford University
+Press, 2020).
+
+1.2 Background
+
+While there are better ways of finding the mass per unit length of a wire, such as using a ruler
+and a sensitive measuring scale, this method serves to assess the theory of resonance and
+to prove the above formula, as well as demonstrating the advantages and disadvantages of
+using an oscilloscope versus relying on possibly faulty equipment.
+
+                              𝑚
+The equation linking 𝑓 and 𝑇, 𝐿 , 𝐿 comes from a definition of the frequency of sound produced
+
+by an oscillating string, but can be applied for the induced resonance of a wire as well.
+
+1.3 Methodology
+
+Firstly, the mass per unit length of the wire will be measured using a ruler and sensitive
+weighing scale to find a exact reference value to assess the results of the investigation.
+
+The experiment will be conducted on a table, with the wire clamped down at one end and
+attached to 100g, 50g, or 20g weights hanging over the end of the table at the other end,
+running over a pulley to reduce friction as much as possible. The wire will be stretched over
+two wedges to anchor the wire down, in between which it will oscillate during the experiment.
+An alternating current (AC) signal generator will be connected to the wire at either end, and
+an oscilloscope will be connected to the signal generator output if necessary, from which the
+frequency 𝑓 of the current can be read to corroborate the value displayed by the signal
+generator. A horseshoe-style magnet will be placed in between the two wedges with the wire
+running in between the poles to induce the oscillation.
+
+
+                                                                                              1
+        Figure 1 - Diagram Showing Setup for Experiment
+
+The experiment will be conducted with a constant length 𝐿 as the control variable, and varied
+tension 𝑇 as the independent variable. Mass will be added to one end of the wire in constant
+increments to increase tension, and the frequency – the dependent variable – will be adjusted
+from the signal generator until the wire oscillates at the first harmonic. Judgement as to
+whether the wire is at the first harmonic or not will be made by eye, as to when the
+displacement of the oscillating wire is greatest. Mass will be added to the wire until the tension
+overcomes the wire’s tensile strength and it snaps.
+
+The data will be recorded in Microsoft Excel to simplify calculations, and from there graphs
+will be plotted to find mass per unit length.
+
+1.4 Limitations
+
+There are, of course, limitations to this method. The biggest is the measurement of the first
+harmonic: it is not possible to use instrumentation to measure this, and so it must be done by
+eye, which is inherently imprecise. It is therefore likely that the exact position of the first
+harmonic will be unknown.
+
+There is also an issue with the signal generator and the question of the accuracy of the
+displayed frequency: it is entirely possible that this value is wrong, and so it may be necessary
+to use an oscilloscope to corroborate the reported frequency.
+
+The oscilloscope itself is not infallible however, since it may be hard to read and imprecise,
+with the displayed image slightly shifting about.
+
+There are also intrinsic inaccuracies in instruments such as the ruler and masses, which also
+feed the uncertainty of the final values.
+
+                                                                                                2
+There also may be a small amount of wasted energy at the ends of the wire, with the wedges
+deforming as the wire oscillates, skewing results; compared to the other limitations, however,
+this seems negligible.
+
+1.5 Risk Assessment
+
+It is important to account for the risks of the experiment before starting the practical element
+of the investigation.
+
+The most obvious risk is that of the electricity, with the possibility of fault or mishandling of
+equipment such as the signal generator leading to electric shock. This can be mitigated by
+following correct procedure for the safe handling of such equipment, such as ensuring the
+casing is earthed and not allowing overheating, and following instructions for use.
+
+Another risk is that of the snapping of the wire if tension is too great. If the wire snaps, the
+elastic potential energy given to it by the tension will cause it to rebound back, possible striking
+an eye. This is exacerbated by the oscillations putting additional strain on the wire. For this
+reason, it is prudent to wear eye protection and wear sleeves down to protect yourself.
+
+Another, perhaps overlooked, risk is that of the masses falling and striking a toe or foot. With
+the mass planned to exceed half a kilogramme, it is possible that, on the wire snapping, the
+masses may fall from the edge of the table and hit a foot or a toe – this has the potential to be
+somewhat painful. It is therefore necessary to ensure the area below the masses is clear.
+
+2. PRELIMINARY EXPERIMENT
+
+A preliminary experiment was conducted to find any issues in the pre-planned experimental
+process.
+
+2.1 Adjustments Made
+
+I started with length 𝐿 at 0.2m and mass 𝑚 at 50g, with no oscilloscope. I found that the wire
+oscillated too much, meaning that it was jumping off the wedge at one end, disturbing the
+pattern of oscillation, and so the frequency at the first harmonic changed as the wire jumped
+between different positions. The reported frequency from the signal generator display also
+seemed implausible.
+
+To correct these issues, I adjusted the experiment, adding an oscilloscope to read the
+frequency of the signal generator, and increased the mass to 500g in an attempt to put enough
+tension on the wire to prevent it jumping out of position. After this, the oscillations became so
+small that they were impossible to see, so I increased the length of the wire to 0.5m.
+
+
+
+
+                                                                                                  3
+After this, an adjustment had to be made to the position of the magnet, since the wire would
+hit the magnet on oscillating – it was moved closer to one of the wedges, where displacement
+of the wire from centre is lesser, to avoid this. I also laid a ruler underneath the central maxima
+of the wire to more accurately judge when the wire had the greatest displacement from the
+centre, and therefore it was easier to assess when the wire was resonating at the first
+harmonic.
+
+3. DATA COLLECTION
+
+3.1 Preparation
+
+The mass per unit length was taken before the experiment to act as a reference for later
+comparison.
+
+𝑚
+  = 0.000960 ± 0.00000480 𝑘𝑔 ∗ 𝑚−1
+𝐿
+
+
+This was found by weighing a 1m length of the wire on a sensitive electronic scale. For the
+uncertainty, the limiting factor here is the resolution of the ruler, so it is calculated as follows,
+where 𝑢𝐿 = absolute uncertainty for length, 𝑢𝑚/𝐿 = absolute uncertainty for the mass per unit
+length, and 𝐿 = the length, 1 metre, used to measure the mass per unit length.
+
+                                           𝑢𝐿 = 0.005 𝑚
+
+Since this is half the resolution of the ruler, as is standard for analogue equipment, and so,
+
+                                                  𝑢𝐿
+                                          %𝑢𝐿 =      ∗ 100
+                                                  𝐿
+
+                                           0.005
+                                   %𝑢𝐿 =         ∗ 100 = 5.00%
+                                            1.00
+
+From here we can calculate the uncertainty for mass per unit length,
+
+                                                  %𝑢𝐿 𝑚
+                                         𝑢𝑚/𝐿 =      ∗
+                                                  100 𝐿
+
+                                𝑢𝑚/𝐿 = 0.005 ∗ 0.000960 𝑘𝑔 ∗ 𝑚−1
+
+                                  𝑢𝑚/𝐿 = 0.00000480 𝑘𝑔 ∗ 𝑚−1
+
+3.2.1 Varying Tension for Frequency – Data
+
+The experiment was laid out such that 𝐿 = 0.490 ± 0.005 𝑚.
+
+As mass was added in 20g intervals from 500g, tension increased, according to the
+relationship 𝑇 = 𝑚𝑔, where 𝑚 = total mass and 𝑔 = 9.81 𝑚 ∗ 𝑠 −1 (gravitational field strength).
+
+
+                                                                                                   4
+When reading from the oscilloscope, the following equation was used to find the frequency for
+each level of tension:
+
+                                                    1
+                                    𝑓𝑜𝑠𝑐𝑖𝑙 = 𝑛
+                                              𝑔𝑟𝑖𝑑𝑠   𝑡𝐷𝑖𝑣
+                                             𝑛𝑝𝑒𝑎𝑘𝑠 ∗ 1000
+
+Where 𝑛𝑔𝑟𝑖𝑑𝑠 = number of grids from first to last peak, 𝑛𝑝𝑒𝑎𝑘𝑠 = number of peaks being counted,
+𝑡𝐷𝑖𝑣 = oscilloscope time division per grid square in milliseconds.
+
+The following data were thus collected.
+
+Firstly, for the frequency measured from the signal generator display:
+
+                                                                      Frequency /Hz
+           Mass /g                        Tension /N
+                                                                     (sig. gen. display)
+             500                             4.91                           72.4
+             520                             5.10                           73.7
+             540                             5.30                           75.1
+             560                             5.49                           76.5
+             580                             5.69                           77.7
+             600                             5.89                           79.3
+             620                             6.08                           80.7
+             640                             6.28                           81.8
+             660                             6.48                           83.2
+             680                             6.67                           84.5
+             700                             6.87                           85.7
+             720                             7.06                           86.7
+             740                             7.26                           87.8
+             760                             7.46                           89.6
+
+
+
+
+                                                                                             5
+Secondly, for the data measured simultaneously from the oscilloscope display:
+
+                                                              Calculated    Frequency
+ Tension /N        𝑛𝑝𝑒𝑎𝑘𝑠        𝑡𝐷𝑖𝑣 /ms        𝑛𝑔𝑟𝑖𝑑𝑠      Time Period        /Hz
+                                                                  /s       (oscilloscope)
+     4.91           3.00            10.0         4.10            0.0137         73.2
+     5.10           3.00            10.0         4.00            0.0133         75.0
+     5.30           3.00            10.0         3.95            0.0132         75.9
+     5.49           3.00            10.0         3.90            0.0130         76.9
+     5.69           3.00            10.0         3.80            0.0127         78.9
+     5.89           3.00            10.0         3.75            0.0125         80.0
+     6.08           3.00            10.0         3.65            0.0122         82.2
+     6.28           3.00            10.0         3.60            0.0120         83.3
+     6.48           4.00            10.0         4.65            0.0116         86.0
+     6.67           4.00            10.0         4.60            0.0115         87.0
+     6.87           4.00            10.0         4.55            0.0114         87.9
+     7.06           4.00            10.0         4.50            0.0113         88.9
+     7.26           4.00            10.0         4.35            0.0109         92.0
+     7.46           4.00            10.0         4.30            0.0108         93.0
+
+
+
+In order to obtain a linear graph, it is necessary to find the square of the frequency, in
+accordance with the original equation.
+
+                   Frequency Squared /Hz2      Frequency Squared /Hz2
+                       (sig. gen. display)           (oscilloscope)
+                             5240                         5350
+                             5430                         5630
+                             5640                         5770
+                             5850                         5920
+                             6040                         6230
+                             6290                         6400
+                             6510                         6760
+                             6690                         6940
+                             6920                         7400
+                             7140                         7560
+                             7340                         7730
+                             7520                         7900
+                             7710                         8460
+                             8030                         8650
+
+
+                                                                                            6
+3.2.2 Varying Tension for Frequency – Uncertainties
+
+It is first necessary to find the uncertainty for each value to plot error bars on the graph. There
+are several initial uncertainties to account for here:
+
+𝑢𝑚𝑎𝑠𝑠 = 1%
+
+This uncertainty is as standard with mass blocks.
+
+𝑢𝑓,𝑠𝑖𝑔𝑛𝑎𝑙 𝑔𝑒𝑛𝑒𝑟𝑎𝑡𝑜𝑟 = 0.01 𝐻𝑧
+
+This uncertainty corresponds to the resolution of the signal generator display, as is standard
+for digital displays.
+
+𝑢𝑛 𝑜𝑓 𝑔𝑟𝑖𝑑𝑠,𝑜𝑠𝑐𝑖𝑙𝑙𝑜𝑠𝑐𝑜𝑝𝑒 = 0.025
+
+This uncertainty is derived from half of the resolution of the grids on the oscilloscope display,
+as is standard for analogue equipment.
+
+From these, the following can be calculated:
+
+                                            %𝑢𝑡𝑒𝑛𝑠𝑖𝑜𝑛 = %𝑢𝑚𝑎𝑠𝑠
+
+                                                       𝑢𝑓,𝑠𝑖𝑔𝑛𝑎𝑙 𝑔𝑒𝑛𝑒𝑟𝑎𝑡𝑜𝑟
+                           %𝑢𝑓,𝑠𝑖𝑔𝑛𝑎𝑙 𝑔𝑒𝑛𝑒𝑟𝑎𝑡𝑜𝑟 =                          ∗ 100
+                                                        𝑓𝑠𝑖𝑔𝑛𝑎𝑙 𝑔𝑒𝑛𝑒𝑟𝑎𝑡𝑜𝑟
+
+                           %𝑢𝑓2 ,𝑠𝑖𝑔𝑛𝑎𝑙 𝑔𝑒𝑛𝑒𝑟𝑎𝑡𝑜𝑟 = 2 ∗ %𝑢𝑓,𝑠𝑖𝑔𝑛𝑎𝑙 𝑔𝑒𝑛𝑒𝑟𝑎𝑡𝑜𝑟
+
+                                                  𝑢𝑛 𝑜𝑓 𝑔𝑟𝑖𝑑𝑠,𝑜𝑠𝑐𝑖𝑙𝑙𝑜𝑠𝑐𝑜𝑝𝑒
+                            %𝑢𝑓,𝑜𝑠𝑐𝑖𝑙𝑙𝑜𝑠𝑐𝑜𝑝𝑒 =                             ∗ 100
+                                                          𝑛𝑔𝑟𝑖𝑑𝑠
+
+                                   %𝑢𝑓2 ,𝑜𝑠𝑐𝑖𝑙𝑙𝑜𝑠𝑐𝑜𝑝𝑒 = 2 ∗ %𝑢𝑓,𝑜𝑠𝑐𝑖𝑙𝑙𝑜𝑠𝑐𝑜𝑝𝑒
+
+Where 𝑢𝑡𝑒𝑛𝑠𝑖𝑜𝑛 = uncertainty of tension, 𝑢𝑓2 ,𝑠𝑖𝑔𝑛𝑎𝑙 𝑔𝑒𝑛𝑒𝑟𝑎𝑡𝑜𝑟 = uncertainty of the frequency
+squared from the signal generator display, 𝑢𝑓2,𝑜𝑠𝑐𝑖𝑙𝑙𝑜𝑠𝑐𝑜𝑝𝑒 = uncertainty of the frequency
+squared from the oscilloscope, and 𝑓𝑠𝑖𝑔𝑛𝑎𝑙 𝑔𝑒𝑛𝑒𝑟𝑎𝑡𝑜𝑟 = uncertainty of the frequency displayed
+by the signal generator.
+
+Therefore, the uncertainties are as follows. See Table 2 in the Appendix for the full table of
+data. Note that the order is the same as in the previous table (i.e. row 1 corresponds to 500g,
+row 2 corresponds to 520g, etc.).
+
+
+
+
+                                                                                                 7
+                                         Frequency                              Frequency
+   Tension          Frequency                                 Frequency
+                                          Squared                                Squared
+ Uncertainty     Uncertainty / %                            Uncertainty / %
+                                      Uncertainty / %                         Uncertainty / %
+      /%        (sig. gen. display)                          (oscilloscope)
+                                      (sig. gen. display)                      (oscilloscope)
+     1.00            0.0138                0.0276                0.610             1.21
+     1.00            0.0136                0.0271                0.625             1.25
+     1.00            0.0133                0.0266                0.633             1.27
+     1.00            0.0131                0.0261                0.641             1.28
+     1.00            0.0129                0.0257                0.658             1.32
+     1.00            0.0126                0.0252                0.667             1.33
+     1.00            0.0124                0.0248                0.685             1.37
+     1.00            0.0122                0.0244                0.694             1.39
+     1.00            0.0120                0.0240                0.538             1.08
+     1.00            0.0118                0.0237                0.543             1.09
+     1.00            0.0117                0.0233                0.549             1.10
+     1.00            0.0115                0.0231                0.556             1.11
+     1.00            0.0114                0.0227                0.575             1.15
+     1.00            0.0112                0.0223                0.581             1.16
+
+
+
+3.2.3 Varying Tension for Frequency – Graphs
+
+With this data, the graph for the relationship between tension and the square of frequency
+(according to the signal generator display), can be drawn thus:
+
+
+
+
+                                                                                            8
+The data forms a line with equation 𝑓 2 = 1070𝑇, accounting for a rounding of 3 significant
+figures as throughout the investigation, with gradient 1070. The line crosses through the origin
+as expected, verifying the validity of the data.
+
+While the error bars here are too small to be visible, the maximum gradient line 𝑓 2 = 1100𝑇 −
+188 has been formed from the points 𝑇 = 4.91 and 𝑇 = 7.46, which are the points which looked
+best suited to form the maximum gradient, plus or minus their uncertainties.
+
+The minimum gradient line 𝑓 2 = 1040𝑇 + 175 has been formed from the points 𝑇 = 4.905 and
+𝑇 = 7.26, which, similar to the process for the maximum gradient line, are the points which
+looked best suited to form the minimum gradient, plus or minus their uncertainties.
+
+For the frequencies from the oscilloscope:
+
+
+
+
+                                                                                              9
+Immediately, the less precise and less accurate nature of the data can be seen. The graph is
+imprecise, as the points do not fit the straight line well; the graph is also inaccurate, displaying
+undesirable behaviour by not intersecting the origin, as would be expected. Additionally, the
+size of the uncertainties shows the ambiguity of this result, further framing it as the less suitable
+data set to use for analysis, and the uncertainties themselves seem to be incorrect, since the
+line of best fit misses several of the error bars. For this reason, maximum and minimum graphs
+have not been drawn, since this graph will not be used for further calculation – the graph taking
+frequencies from the signal generator is much more desirable.
+
+4. DATA ANALYSIS
+
+4.1 Comparison between the Signal Generator Display and the Oscilloscope for Frequency
+
+When observing the graphs, it is clear that the signal generator display gives a more accurate
+and more precise value for frequency, and so these are the values that should be trusted as
+reliable enough to find mass per unit length. It seems that the digital process used by the
+signal generator to find frequency is better than the analogue process of reading the
+oscilloscope display, despite the measures I took to maximise the accuracy of the oscilloscope
+values, such as reading the distance between the peaks of multiple waves.
+
+However, that is not to say that the use of the oscilloscope added no value to the investigation.
+It served to corroborate the signal generator display to some extent, ensuring that there was
+not a catastrophic error.
+
+
+                                                                                                  10
+It also served to demonstrate the limits of the oscilloscope as a measuring device, proving that
+digital solutions are often more accurate and more precise.
+
+4.2.1 Finding m/L for Varying Tension for Frequency
+
+The graph shows the following relationship between the square of the frequency and tension:
+
+                                          𝑓 2 = 1070𝑇
+
+It is also possible to derive an equation for mass per unit length 𝑚/𝐿 from the equation relating
+frequency, tension, mass, and length.
+
+                                                   𝑇
+                                                √
+                                                  𝑚/𝐿
+                                           𝑓=
+                                                  2𝐿
+
+                                                 𝑇   1
+                                         𝑓2 =      ∗ 2
+                                                𝑚/𝐿 4𝐿
+
+                                                          𝑇
+                                        (𝑓 2 )(4𝐿2 ) =
+                                                         𝑚/𝐿
+
+                                                     𝑇
+                                        𝑚/𝐿 =
+                                                (𝑓 2 )(4𝐿2 )
+
+Since 𝑓 2 = 1070𝑇 and 𝐿 = 0.490,
+
+                                                  𝑇
+                                  𝑚/𝐿 =
+                                          (1070𝑇)(4)(0.490)2
+
+From here, 𝑇 can be cancelled out, so,
+
+                                                  1
+                                   𝑚/𝐿 =
+                                           (1070)(4)(0.240)
+
+                                    𝑚
+                                      = 0.000980 𝑘𝑔 ∗ 𝑚−1
+                                    𝐿
+
+4.2.2 Uncertainty
+
+With 𝑢 = final absolute uncertainty, and 𝑢𝐿 = absolute uncertainty for length,
+𝑢𝑚,𝑚𝑎𝑥 = uncertainty of gradient to maximum, 𝑢𝑚,𝑚𝑖𝑛 = uncertainty of gradient to minimum,
+
+                                            1070 − 1040
+                               %𝑢𝑚,𝑚𝑖𝑛 =                ∗ 100%
+                                               1070
+
+                                       %𝑢𝑚,𝑚𝑖𝑛 = 2.98%
+
+                                            1100 − 1070
+                               %𝑢𝑚,𝑚𝑎𝑥 =                ∗ 100%
+                                               1070
+
+                                                                                              11
+                                       %𝑢𝑚,𝑚𝑎𝑥 = 3.42%
+
+The uncertainty of the gradient to the maximum slope is greater, so that will be used for the
+total uncertainty 𝑢. For this calculation, recall that %𝑢𝐿 = 5.00%,
+
+                                   %𝑢 = 2(%𝑢𝐿 ) + %𝑢𝑚,𝑚𝑎𝑥
+
+                                    %𝑢 = 2(5.00) + 3.42%
+
+                                          %𝑢 = 13.4%
+                                      13.4
+                                 𝑢=        ∗ 0.000980 𝑘𝑔 ∗ 𝑚−1
+                                      100
+
+                                   𝑢 = ±0.000131 𝑘𝑔 ∗ 𝑚−1
+
+4.2.3 Final Calculated Value for m/L
+
+                           𝑚/𝐿𝑐𝑎𝑙𝑐 = 0.000980 ± 0.000131 𝑘𝑔 ∗ 𝑚−1
+
+And again, for easier reference, the measured value for mass per unit length:
+
+                       𝑚/𝐿𝑚𝑒𝑎𝑠𝑢𝑟𝑒𝑑 = 0.000960 ± 0.00000480 𝑘𝑔 ∗ 𝑚−1
+
+5. EVALUATION
+
+5.1 Conclusion
+
+In accordance with the aim, the investigation was a success. An accurate value for mass per
+unit length was found, with the measured value falling within the uncertainty for the calculated
+value. It has proved the usefulness of this equation and verified this method, proving that
+theory of resonance can be applied practically to find usable data.
+
+There are some limitations to this, however. The most important is that of the uncertainty,
+which leaves open a broad range of values – if I did not have the measured value available, I
+would still be left with a relatively vague idea of the mass per unit length, not precise beyond
+two significant figures.
+
+This limitation is not the fault of the theory, but the fault of the way the experiment was
+conducted. More precise equipment could have been used to reduce the uncertainty with
+respect to frequency, using dedicated digital instruments, designed to measure frequency, but
+also with respect to the length of the wire, using more precise equipment to find the distance
+between the wedges. If the investigation was conducted thus, the error of the gradient of the
+relationship between frequency squared and tension would have been lower, alongside a
+lower error for length, leaving a lesser uncertainty for the final calculated value of mass per
+unit length.
+
+                                                                                             12
+However, the manual method for judging when the first harmonic is achieved did not prove to
+be as problematic as first predicted, since it was insignificant comparted to other uncertainties.
+This could, however, still be improved, perhaps using a slow motion camera to better judge
+this.
+
+5.2 Possible Extension
+
+Other methods to find mass per unit length could be evaluated to improve this calculated value
+– looking into other methods involving the equation linking frequency, tension, wire mass, and
+wire length would be useful. While I also took data with constant tension and varying length
+during this investigation, analysis of this data was not within the scope of this investigation:
+these data and graphs are available in the Appendix in Tables 3 and 4, and Figures 1, 2, 3,
+and 4. A full analysis of this would be very useful to understanding the theoretical and practical
+elements of electricity and magnetism.
+
+
+
+
+                                                                                               13
+BIBLIOGRAPHY
+
+Oxford University Press (2020) ‘Sonometer’, Oxford Reference. Available at:
+https://www.oxfordreference.com/view/10.1093/oi/authority.20110803100518553b
+(Accessed 1 October 2020)
+
+
+
+
+                                                                               14
+APPENDIX
+
+Table 1 – Varying tension for frequency: data collection
+
+
+
+
+Table 2 – Varying tension for frequency: uncertainties
+
+
+
+
+Table 3 – Varying length for frequency: data collection
+
+
+
+
+                                                           15
+Table 4 – Varying length for frequency: uncertainties
+
+
+
+
+Figure 1 – Varying length for frequency: graph using signal generator frequency
+
+
+
+
+                                                                                  16
+Figure 2 – Varying length for frequency: linearised graph using signal generator frequency
+
+
+
+
+Figure 3 – Varying length for frequency: graph using oscilloscope frequency
+
+
+
+
+                                                                                             17
+Figure 4 – Varying length for frequency: linearised graph using oscilloscope frequency
+
+
+
+
+                                                                                         18
+

@@ -1,0 +1,618 @@
+Introduction
+       During my journey from Paris on a TGV train, I was intrigued as to how and why the
+train was able to brake silently. Through research, I was able to determine that this was
+because of magnetic damping/braking. I became interested in exploring whether a larger
+exposed area would have a stronger effect as opposed to a smaller area.
+
+Magnetic damping is a form of drag that occurs when an electrical conductor travels past a
+magnetic field. This process concerning a pendulum with a copper bob will see the bob’s
+motion become dampened as it exits and enters the magnetic field produced by two magnets.
+This document strives to compose and propose the correlation between the area of a copper
+oscillator how that affects the rate of change of amplitudes of the oscillations. Thus, one
+arrives at the following research question:
+
+How does varying the area of a copper oscillator affect the rate of change of amplitude
+due to magnetic damping?
+                                       RQ clear and focused
+
+Theory
+       Lenz’s Law states that the induced current always flows in the direction that opposes
+the change in magnetic flux.
+The said motion induces an eddy current in the conductor as a magnetic field is present. As per
+Lenz’s law the movement of electrons in the conductor instantly produce an opposing magnetic
+field which results in the damping of the oscillation ultimately ‘slowing’ down the metal bob.
+When the metal plate is completely inside the field thus at rest, there is no eddy current. When
+the plate leaves the field on the right, it causes an eddy current in the clockwise direction that,
+again, experiences a force to the left, further slowing the bobs motion.1 This produces a
+exponentially damped harmonic which can be expressed with the following equation:
+
+                                        𝑥 (t) = Ae−bt 𝑐𝑜𝑠(ω′ t + ø)                                         [1] 2
+Where:
+x is the displacement
+t is the time of release
+A is the amplitude
+ω′ is the angular frequency of damped simple harmonic motion.
+b is the damping coefficient
+ø is the Angular frequency
+
+
+
+
+1 https://courses.lumenlearn“Eddy Currents and Magnetic Damping | Physics.” Lumenlearning.Com, 2020,
+
+courses.lumenlearning.com/physics/chapter/23-4-eddy-currents-and-magnetic-damping/. Accessed 6 Mar. 2020
+2 “Toppr.” Toppr-Guides, 27 Feb. 2018, www.toppr.com/guides/physics/oscillations/damped-simple-harmonic-motion/.
+
+Accessed 6 Mar. 2020.
+
+
+                                                                                                                    1
+  This equation and information attained can then be applied in order to evaluate the
+  following factors:
+  The logarithmic decrement is defined as the natural log of the ratio of the amplitudes of any
+  two successive peaks: (The logarithmic decrement represents the rate at which the amplitude
+  of a damped harmonic decreases.3)
+                                                          𝐴𝑖
+                                              𝜑 = 𝑙𝑛 (        )                                [2] 4
+                                                         𝐴𝑖+1
+  Where:
+  𝐴𝑖 is a peak amplitude
+  𝐴𝑖+1 is the following peak amplitude
+
+  The damping ratio is then found from the logarithmic decrement by: (The damping ratio is a
+  measure that expresses the decay of oscillations)
+                                                         𝜑
+                                            𝜁=
+                                                    √(2π)2 + φ 2                               [3] 5
+
+  Where:
+  𝜑 is the logarithmic decrement
+  𝜁 is the damping ratio.
+          The experiment consists of 8 different oscillator areas (and one control with no copper
+  plate) that will be oscillating on a pivot. The displacement of the oscillator will be recorded
+  using a camera. Then, video analysis will be used to extract data, that will be processed to find
+  the peak amplitudes which are integral to the aforementioned equations.
+Background info relevant to the following actions
+  Design of Experiment
+          The design below is the front and side view of the setup that was created for this
+  investigation. How this apparatus is used and controlled is discussed in later sections.
+
+
+
+
+                                                                                      2
+                                                                                    Figure 1 ,
+                                                                                    experiment
+  4 Ibid                                                                            setup
+  5 Ibid
+
+
+
+
+                                                                                                       2
+                                                                                          Figure 2,
+                                                                                          Experiment setup
+
+
+
+               The variables for the experiment can be seen in the table below:
+               Table 1: Variables for explanation
+                Independent variable                            Area of the copper oscillator
+                How was it measured?                            With a ruler. Limit of reading?
+                Dependent variable                              Rate of change of amplitude
+                How was it measured?                            Video analysis. and then what?
+
+               Table 2: Control Variables
+
+                     Controlled                                                       How is it controlled
+                                                 Why significant?
+                      variable                                                             practically?
+                The starting angle     To have a controlled experiment, the      To ensure that the oscillation
+                of the pendulum is     angle from which the oscillator will      starts at a 90° angle, a small
+          eV    perpendicular
+                      ry nice, in      start oscillating is significant as the   marking is drawn. The
+detailed and    every run.             initial position of the marked point      markings are made to match
+rigorous                               would be different in each run            before the oscillator is
+                                       therefore hindering the integrity of      released. The angle was
+procedure to
+ensure                                 the data collected. The initial           checked using a spirit level.
+quality data                           deflection will also be my first data     As seen in Figure 2.
+                                       point. (16 cm)
+                Height used for the    Since I would be changing area, I         Engravings were made on
+                oscillator of plate.   made sure that the height stayed the      the sheet of metal; this was
+                                       same each time and I would only be        done to make the area
+                                       cutting the width of 1.5 cm each time     cutting method more
+                                       starting from the maximum width of        comfortable. It was made
+                                       20 cm. The controlled height was          sure that the height stays
+                                       5.2cm.                                    uniform.
+
+
+                                                                                                                  3
+Table 2: Experimental precautions
+ Experimental                                                    How is it controlled
+                       Why significant?
+ precautions                                                     practically?
+ The camera is the     Since the use of a camera has the         I set down a meter stick and
+ same distance from    effect of a parallax error. To maintain   made sure that the camera
+ the pendulum          consistency, the arrangement and          ‘stand’ was 0.73m away
+ between takes.        location of the camera must be the        from the oscillating body
+                       same throughout.                          using post-it notes to ensure
+                                                                 the location of the phone
+                                                                 holder is the same.
+ The magnets do not In order to have a fair experiment the       Using a set square, I was
+ move location or   separation between the magnets and           able to mark where the
+ angle.             the copper oscillator must be the            wood frame should be
+                    same, so that the magnetic field will        located. Also, the magnet
+                    be uniform throughout all runs of the        holding slits are screwed
+                    experiment. I made a mark of their           down into the wooden
+                    location, so it would be very easy for       platform to ensure the
+                    me to check if the location stayed           uniform separation between
+                    consistent.                                  the two magnets.
+ The same frame     If the frame rate differs in the videos,     The video is taken every
+ rate will be used  then the integrity of the results will       time at 240 FPS, then it is
+ for each run.      not be upheld. As when the data is           refactored using ffmpeg into
+                    being collected through video                120FPS for acceleration of
+                    analysis, the time intervals for each        the data collection process.
+                    frame would be different.
+
+
+ Same location for     The same height of the copper             A line is drawn onto the
+ the clips that hold   oscillator should be exposed to the       sheet of copper to ensure
+ the copper plate.     magnetic field. To experience the         that the ends of the pegs
+                       same force/damping.                       have the same alignment for
+                                                                 each run/area.
+
+Area selection: The results had to vary enough to state and evaluate whether a correlation is
+present between area and magnetic damping. This meant that the area that was used could not
+be too large as then the results would not vary. Therefore, many trail runs were conducted to
+determine the fit range of areas. I found that areas that exceeded 100cm2 would not oscillate
+at all. The wooden base did not allow for plates that exceeded 80cm2.
+
+Tracking point location: The tracking point location was selected, as the magnets would hide
+the point if it were to be placed at the bottom of the oscillator.
+
+
+
+
+                                                                                                 4
+Table 3: Oscillator area table
+
+
+
+
+The table above is of the areas of the oscillators that are used for the experiment. The height
+is controlled at 5.2 ±0.05 cm.
+
+The uncertainty for area was found using the following equation:
+
+                                ((𝐻 + 0.05) × (𝑊 + 0.05)) − ((𝐻 − 0.05) × (𝑊 − 0.05))                              [4]
+                   𝛥𝐴𝑟𝑒𝑎 =
+                                                          2
+    C: Correct data processing
+
+Data Collection:
+          First, due to the time constraints, the frame rate of the video had to be changed.
+Therefore, each one of the videos was refactored from 240FPS to 120FPS. This was done
+using a free command-based video and audio manipulating library called ffmpeg6. This
+process was done using the following command:
+
+ffmpeg -i ‘input file path’ -filter:v "setpts=PTS/2" ‘output file path’ 3
+
+
+The videos were then analysed using the free program Tracker47. For each video, I set the
+axis (0,0) at where the tracking point was at rest. This is because to graph the oscillation, the
+displacement in x is needed. Then the boundaries of the video were set, where the starting
+frame would be the frame that the body began to oscillate. Then the video had to be
+calibrated to counteract the parallax that was caused by the camera. This was done with the
+inbuilt filter called ‘perspective’. Then to allow the program to understand distances that are
+represented in the video, the ‘calibration tape’ tool was used to set the calibrate distances
+within the video. And the scale was set from the pivot point to the tracking point and was
+measured as 16cm.
+                               A: New software learnt
+
+
+
+
+6 “Ffmpeg Documentation.” Ffmpeg.Org, 2020, ffmpeg.org/ffmpeg.html. Accessed 11 Feb. 2020.
+7 “Tracker Video Analysis and Modeling Tool for Physics Education.” Physlets.Org, 2019, physlets.org/tracker/. Accessed
+
+14 Feb. 2020.
+
+
+                                                                                                                          5
+                                                                                                     Figure 3,
+                                                                                                     Tracker
+                                                                                                     software
+Then for the tracking procedure another inbuilt feature was used to cut down on the vigorous
+process of hand tracking. This feature is called ‘Auto tracker’ and as the name suggests this a
+process where the software itself uses an image matching algorithm to scrub and track a
+selected point. This was based on the concept of the user setting a template for a point, and
+the software would find and plot a point that matches set template and then increments the
+frames until the last point is plotted. As shown in Figure 4.
+
+
+
+
+                                               Figure 4, Auto­tracking feature
+
+This process was continued for all nine of the areas, and the following table is a snippet of the
+output.
+Table 4: Raw data sample table                                    You
+                                                                  should have stated that the raw data is in the
+                                                                  appendix.
+
+
+
+
+                                                                                                 6
+The graph below is the displacement placed against time for each one of the areas, the
+damping in relation to the area used is clear as seen the varying time it takes for the systems
+to become at rest.
+
+
+
+
+                                                                                     Figure 5, graphed
+                                                                                     data
+The graph below the same visual as below however the two data sets shown are of the
+undamped system and the smallest area, where the no matter how small still makes a
+significant difference in the damping.
+
+
+
+
+                                          Good consideration of non.magnetic damping that is used later to
+                                          evaluate the impact of area
+
+
+
+                                                                                     Figure 6,
+                                                                                     Graphed data
+
+
+
+
+                                                                                                  7
+Data Processing:
+        Due to the inherent implications of magnetic damping, the data attained will be used
+to evaluate the aforementioned concepts that were discussed in the Theory section.
+As suggested by the formula for Logarithmic Decrement (φ), in order to evaluate the
+damping, the ratio of two successive peaks must be attained. This was done using MagicPlot8
+software, due to its ease of use and simple extraction of selected data points.
+
+
+
+
+                                                                                 Figure 7, Magic plot
+
+These peaks were then noted down with their corresponding times which are needed for
+further analysis.
+Table 4: Sample processed data table (15.6 cm2):
+
+
+
+
+                                                  consistent s.f.
+ COnsistent d.p.
+   •     The Time and coordinate of peaks were imported from MagicPlot.
+   •     The ratio was then attained by dividing one peak coordinate by its successor.
+   •     The relative uncertainty for the ratio was attained as such:
+                                                  x + 𝛥x1     x − 𝛥x1                                   [5]
+                                                 ( 1       )−( 1       )
+                                                  x2 − 𝛥x2    x2 + 𝛥x2
+                                        𝛥𝑅𝑎𝑡𝑖𝑜 =
+                                                            2                  correct error processing
+         Where:
+         𝑥1 is the set peak, 𝑥2 is the following peak, and the equation represents the smallest
+         minus the largest difference.
+
+   •     The uncertainty for the Logarithmic Decrement was attained as such:
+                                                 x + 𝛥x1          x − 𝛥x1
+                                             𝑙𝑛 ( 1       ) − 𝑙𝑛 ( 1       )                            [6]
+                                                 x2 − 𝛥x2         x2 + 𝛥x2
+                                        𝛥𝜑 =
+                                                            2
+   •     The uncertainty for the damping factor was attained as such:
+                                                              2𝛥𝜑
+                                                   𝛥𝜁 = 𝜁 (       )                                     [7]
+                                                               𝜑
+
+
+       There is a variety of error calulations, all relevant to the techniques used.
+         The remainder of the processed data can be found in the appendix.
+
+
+
+                                                                                                              8
+Analysis
+The principal effect of damping is to reduce the amplitude of an oscillation, not to change its
+frequency. So, the graph of the amplitude of a normal damped oscillation would look like the
+following:
+
+
+
+
+                                                                                                 Figure 8 : SHM damping decay
+
+                                                                                            58
+
+
+This means that a graph of all my peaks should too follow a pattern of an exponential curve,
+this however is not the case. As when all the peaks are graphed for each area, they follow a
+linear pattern as shown in Figure 9 rather than one of exponential decay shown in Figure 8.
+This is due to the inherent systematic error that was prominent throughout the data collection
+process which will be commented and explained further in the evaluation section.
+This is a model based on statistical patterns of the data, but the explanation would require a
+very complex mathematics since the magnetic field of the magnets is not uniform. (A
+systematic error that is explored in the Evaluation).           Good critical thinking displayed
+
+
+
+
+                                                                                                  Figure 9 Amplitudes over
+                                                                                                  time graph
+
+8 P. Onorato, and Anna De Ambrosis. “Magnetic Damping: Integrating Experimental and Theoretical Analysis.”
+
+ResearchGate, 21 Dec. 2011, Accessed 5 Feb. 2020.
+
+
+                                                                                                                  9
+           This inherent issue with my experiment is that it does not allow me to evaluate the pattern
+           using a conventional method, which was outlined in the theory section. This is due to the
+           general linearity of my data, which instantaneously dismisses the processed data in Table 4,
+           as the methods discussed apply to systems that stop oscillating exponentially. This meant that
+           I had to find a way to explore the relationship in an unconventional method. Also, due to the
+           nature of the data, It is impossible to evaluate the Q (Quality) factor, as the data does not
+           meet the necesary requirements. Engineers use the Q factor to evaluate the dimensionless
+           parameter that describes how underdamped an oscillator is, which can also be applied to
+           magnetic damping.
+Nice. Data does not follow theoretical pattern, so there is a new method to quantify the damping.
+           The gradients for each of these are attained inorder to evaluate how each area affected the
+           oscillation. I attained the error by establishing error bars then attaining the maximum,
+           minimum and average gradients as shown by Figure 10 which is an example of a 64.2cm2
+           area.
+           This process was repeated for each one of the areas, as it will be needed for later evaluation
+           of the errors in search of assessing the relationship between area and damping.(See appendix)
+
+
+
+
+                                                                                   Figure 10, Amplitude graphing
+           The graidnets attained are shown by table 5:                            example for which area is it?
+
+
+
+
+             Again, another error analysis, this time for the graidents.
+
+
+
+                                                                                                             10
+  The ΔGradient was attained using the following equation:
+                                                      𝐺𝑟𝑎𝑑𝑀𝐴𝑋 − 𝐺𝑟𝑎𝑑𝑀𝐼𝑁                                            [8]
+                                        𝛥𝐺𝑟𝑎𝑑 =
+                                                              2
+  This table allows us to then graph the different gradient with their accompanying error bars,
+  As shown in figure 11. While we are not able to fit any one regression, the relationship is
+  shown by the data points. We are able to see the relationship that the area has on the time it
+  takes for an oscillating system to stop due to magnetic damping. Gradient is put against Area.
+  It can be seen that with the larger areas the steeper the gradient is (As signified by the
+  decreasing values). This means that the larger the area of the copper oscillator is, the faster it
+  will come to a halt.
+
+
+
+
+                                                                                                               Figure 11
+                                                                                                               Gradient
+                                                                                                               vs Area
+
+
+
+  Conclusion:
+         This internal assessment has successfully underlined and explored how the area of a
+  copper oscillator affects the rate of damping experienced by an oscillating pendulum. It can
+  be concluded that with a higher area that is exposed to a magnetic field, the stronger the
+  damping effect will be. The applied magnetic field and the copper sheet produce eddy SOme explanation
+  currents that are a force that opposes the motion of the bob. This is due to the internal
+  resistance of the conductor, the said eddy currents will dissipate into heat, causing a removal
+  of energy from the system. This dissipation of energy allows the magnet and conductor to
+  form a damper that may be used to suppress the oscillation69.
+  As with the larger area, more eddy currents can be induced across, meaning a larger force is
+  created. Some of the damping is due to the friction of the pully. The experiment has a lot of
+  sources of uncertainty.
+D: To gain full marks, more interpretations of the last graph are expected.
+          The experiment, however, was not perfect and therefore it did not yield data that
+  follow the Logarithmic decrement requirements and thus yielding results that could not be
+  used and evaluated using a standard method. This motivated me to propose an alternative and
+  unique method to present and evaluate the relationship. The corresponding gradients of the
+
+  9 Sodano, Henry, et al. Improved Eddy Current Damping Model for Transverse Vibrations. , Accessed 5 Feb. 2020.
+
+
+
+
+                                                                                                                     11
+amplitudes were graphed against area to determine whether a relationship exists. The graph
+suggested that with the larger the area, more energy was dissipated, which brought the system
+to a stop oscillating at a quicker pace. Thus, enforcing the presence of a relationship.
+
+Evaluation:
+Experimental issues and suggested improvements:
+Inactive damping force:
+        In an ideal linear damped oscillating system, the damping force is always "active" and
+is proportional to velocity. That's not the case for this setup because the damping happens
+when the plate is passing between the magnets at other times, when it is at the end of its
+swing and far away from the magnets, the only damping is from friction. When the amplitude
+of the swing gets smaller, the plate spends more of its time close to the magnets so the
+effective amount of damping increases. Therefore, you would expect the initial rate of
+damping to be small for the amplitude decreases, and the plate is affected more.
+Non-uniformity of magnets:
+        Another source of nonideality comes from the fact that the magnetic field produced
+by a real magnet is not uniform, So the damping is strongest near the centre of the magnet
+where the field is strongest. As shown by figure 12. The larger amount of lines means that in
+the direct centre between of magnets, would result in a stronger effect.
+
+
+
+
+                                                                                       Figure 12, Magnetic field
+                                                                               710
+                                                                                       lines
+Further sources of nonideality:
+       Mechanical friction of the pully caused the oscillator to dissipate energy. Another
+source of nonideality would be the random error caused by the auto tracking software, as the
+points would start deviating over time, if it was done manually it could potentially improve
+accuracy.
+Improvements:
+A number of improvements can be made to fix the aforementioned errors:
+   • Conduct trails to find a suitable starting angle to make sure oscillator is always
+     affected by the magnetic field. Such as a smaller angle and a larger field area.
+   • Rather than use displacement as a way of data collection, the use of the angle could
+     more adhere to the equation for damping.
+   • As most of the data collection was done using a computer algorithm, errors in plotting
+     may have occurred. Thus, many runs of the data collection/analysis could be done
+     and then the average of the runs would be used.
+   • To reduce friction, a pully with lubricated bearings would be used.
+
+
+10 “Magnetic Field Lines   | Brilliant Math & Science Wiki.” Brilliant.Org, 2020, brilliant.org/wiki/magnetic-field-lines/.
+Accessed 6 Mar. 2020.
+
+
+                                                                                                                              12
+Bibliography:
+
+https://courses.lumenlearn“Eddy Currents and Magnetic Damping | Physics.” Lumenlearning.Com, 2020,
+courses.lumenlearning.com/physics/chapter/23-4-eddy-currents-and-magnetic-damping/. Accessed 6 Mar. 2020
+
+
+./Toppr.” Toppr-Guides, 27 Feb. 2018, www.toppr.com/guides/physics/oscillations/damped -simple-harmonic-motion“
+.Accessed 6 Mar. 2020
+
+
+.Ffmpeg Documentation.” Ffmpeg.Org, 2020, ffmpeg.org/ffmpeg.html. Accessed 11 Feb. 2020 “
+
+
+“Tracker Video Analysis and Modeling Tool for Physics Education.” Physlets.Org, 2019, physlets.org/tracker/. Accesse d 14
+.Feb. 2020
+
+
+P. Onorato, and Anna De Ambrosis. “Magnetic Damping: Integrating Experimental and Theoretical Analysis.”
+ResearchGate, 21 Dec. 2011, Accessed 5 Feb. 2020.
+
+
+Sodano, Henry, et al. Improved Eddy Current Damping Model for Transverse Vibrations. , Accessed 5 Feb. 2020.
+
+
+“Magnetic Field Lines | Brilliant Math & Science Wiki ./Brilliant.Org, 2020, brilliant.org/wiki/magnetic -field-lines ”.
+.Accessed 6 Mar. 2020
+
+
+
+
+                                                                                                                           13
+Appendix
+1 : Amplitude of areas graphed. (in cm2)
+
+0
+
+
+
+
+7.8cm
+
+
+
+
+                                           14
+15.6
+
+
+
+
+23.4
+
+
+
+
+       15
+31.2
+
+
+
+
+       39
+
+
+
+
+46.8
+
+
+
+
+            16
+54.6
+
+
+
+
+       17
+62.4
+
+
+
+
+       18
+2:
+0
+
+
+
+
+7.8
+
+
+
+
+      19
+15.6
+
+
+
+
+23.4
+
+
+
+
+31.2
+
+
+
+
+39
+
+
+
+
+46.8
+
+
+
+
+54.6
+
+
+
+
+       20
+62.4
+
+
+
+
+       21
+

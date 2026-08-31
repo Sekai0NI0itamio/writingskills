@@ -1,0 +1,647 @@
+        Physics IA: How does the temperature affect the viscosity of glycerol?
+
+1    Introduction
+Living in the North required its own precautions: I wore minimum 3 layers of clothing every day when commuting
+to school to protect against the cold in the mountainous areas. However, I have always wondered, what dangers
+does the cold really pose in our body? I have always noticed that my heart beats faster in order to keep my body
+warm. Indeed, the function of the heart is to transport blood around the body, however, what would happen if
+this blood got too cold? Quick research leads me a link to the viscosity of the blood causing a clot within veins,
+causing direct health concerns and facts such as that for each 1.8°F or 1°C reduction in temperature on a single
+day is associated with around 200 additional heart attacks; that there are 53% more heart attacks in winter; and the
+highest cold-induced cardiovascular risk exists just hours/days after exposure to cold (Omega, 2016).
+
+Unfortunately finding the effects of cold on blood in veins requires an immeasurable amount of equipment and
+variables to count, therefore for convenience, I have decided that I will investigate the effect of cold in one of the
+materials that are moderately present in blood: glycerol which effectively represents the oil in our blood. The
+dynamic viscosity of a fluid such as blood measures its resistance to flow and is measured in Pascals second
+(P a · s), otherwise kgm−1 s−1 as we know that Pascal is pressure defined as force (kgms−2 ) over area (m2 )
+=⇒ 1P a = kgm−1 s−2 . As a result of this research, I do believe that a higher viscosity would be very dangerous
+to a human’s well-being. This results in asking myself “How does the temperature affect the viscosity of glycerol?”
+
+To measure the viscosity of glycerol I will be utilising Stokes’ Law.
+
+
+
+
+                         Figure 1: Sphere inside a fluid and its forces (Tsokos, 2014, p.44)
+
+From Newton’s second law we know that when a force is applied to a body of mass m it accelerates. In this case,
+our acceleration is g for our mass ms of the sphere. We will denote this as Fg . However, when the sphere touches
+the liquid, from Newton’s third law, there is a force opposing the gravitation force of the sphere, the buoyant force
+Fb . This way, I can create a new equation for the net downward force FD .
+
+                                                 FD = Fg − Fb
+                                                     = ms g − mg g
+
+where mg is the mass of glycerol acting against the sphere. I will rewrite the masses using the fact that mass =
+volume × density. I know that the volume of the sphere can be given as Vs = 34 πr3 . I will denote the densities
+of sphere and glycerol as ρs and ρg respectively. Since the buoyant force acts against the sphere, its volume can be
+written as the volume of the sphere as well. Therefore we can write the net downward force as
+
+                                               FD = Vs ρs g − Vs ρg g                                              (1)
+                                                    = Vs g(ρs − ρg )                                               (2)
+
+However, from this we can see that ρs − ρg > 0. This implies that FD > 0. However, by Stokes’ Law, there is
+another force called the dragging force Fd that is proportional to its velocity acting against FD . This force is given
+
+                                                          1
+by
+
+                                                      Fd = 6πηrv
+
+therefore we get the final net force Fnet as
+
+                                                   Fnet =FD − Fd
+                                                       =FD − 6πηrv
+
+For convenience I will let k = 6πηr. Therefore our equation for net force is
+
+                                                    Fnet = FD − kv                                                 (3)
+
+                                        dt = a) with a stable equilibrium point at v = vc . When v > vc , it will
+This is a differential equation (since dv
+converge to vc due to the drag force’s proportionality to velocity. That is, as the speed increases so does the drag
+force, but since drag force is described by speed and the force is proportional to acceleration from F = ma acting
+in the opposite direction, converging to constant speed vc . Similarly, when v < vc , the drag force is less than the
+weight therefore it accelerates and converges to vc . No matter the scenario, it will eventually reach a net force of 0
+as it converges to the constant speed vc from Newton’s first law. Using this, we can now solve for η to obtain:
+
+                                               0 = Vs g(ρs − ρg ) − 6πηrvc
+                                                   Vs g(ρs − ρg )
+                                               η=
+                                                       6πrvc
+Dimensionally we do indeed obtain P a · s
+
+                             m3 · ms−2 · kgm−3                                       kgms−2
+                           η=                                                =⇒ η =
+                                  ms−1 · m                                            m2 s−1
+                                 −1 −1
+                      =⇒ η = kgm s                                              =⇒ η = P a · s
+
+Thus it is possible to see that η is directly proportional to ρs − ρg and inversely proportional to vc .
+
+
+2    Hypothesis
+I believe that lower temperatures of glycerol will result in higher viscosity, and higher temperatures will result in
+lower viscosity.
+As the temperature is defined to be the average kinetic energy of a particle in a material, the lower the temperature,
+the lower the average kinetic energy in a particle. As a result, less space is occupied by particles as they come
+closer together implying higher density. Consequently, a larger number for the density of glycerol ρg (from a
+lower temperature) means that ρb − ρg is a smaller number. Knowing that velocity vc is a constant, if we achieve a
+smaller number for ρb −ρg in the numerator, the viscosity η must be a smaller value due to its direct proportionality.
+Whilst the direct proportionality between the density difference and viscosity suggests the idea that the viscosity
+decreases, I do believe that there will be a substantial change in viscosity independent of the density which will
+outweigh the density change as the temperature varies. When I introduce the variable T as temperature into the
+equation, I believe that the change in density will be minimal. If we consider equation 3 during terminal velocity:
+
+                                                     0 = FD − kvc
+
+Since my velocity is a constant, and since I hypothesise that the density difference is minimal, we can assume
+that FD is also a constant. This means that my temperature must affect k. However, k = 6πηr and r and 6π are
+constants, therefore temperature will directly affect η. The relationship between T and η, however, is described to
+be ”no comprehensive theory on the viscosity of liquids so far because of its complex nature.” (Association, 1963),
+therefore there also does not exist an equation that perfectly describes the relationship of η and T . However, I do
+
+
+                                                           2
+believe that as the the temperature will increase, the viscosity will decrease which will also result in the decrease
+of the drag force. This means that there is less energy required to break the bonds between the ball and glycerol.
+This energy is provided by gravitational energy mgh, and since less energy is provided into the system to break
+these bonds, it is naturally transferred into kinetic energy, implying an increase in the constant velocity. Therefore,
+with this hypothesis, I must also observe an increase in my value of constant velocity.
+
+
+3     Experiment
+3.1     Variables
+3.1.1    Independent Variable
+The independent variable is the temperature of glycerol. The intervals that are measured are 0, 5, 10, 15, 20, 25, 30 ◦ C.
+
+3.1.2    Dependent Variable
+The dependent variable is the measured viscosity of the liquid with its respective temperature.
+
+3.1.3    Controlled Variables
+    1. The method at which the ball is dropped - in order to ensure that the ball does not gain any extra acceler-
+       ation from the throw of my hand, the ball has to be ”dropped” by letting gravity accelerate the ball from the
+       same place.
+
+    2. The mass and the size of the ball - The volume of the mass of the ball cannot change as it would directly
+       affect the velocity observed, thus this has to be kept constant.
+
+    3. Volume of Glycerol - The volume of the glycerol would also affect the velocity of the ball in the fluid as a
+       result of pressure, hence this must also be kept constant at 250ml
+
+    4. Distance between measuring cylinder and camera - In order to ensure that any possible parallax errors are
+       systematic rather than random between each experiment if any, the distance between camera for observation
+       and cylinder is kept the same.
+
+3.2     Apparatus
+
+      • Micrometer of uncertainty ±5 × 10−6 m                    • Thermometer of uncertainty ±0.05◦ C
+      • Digital scale of uncertainty ±5 × 10−6 kg                • iPhone Camera
+      • ×2 long measuring cylinders of 250ml of uncer-
+                                                                 • Glycerol
+        tainty ±1ml
+      • ×2 beakers                                               • Styrofoam
+
+      • Meter ruler of uncertainty ±5 × 10−4 m                   • A sphere more dense than glycerol
+
+3.3     Procedure
+    1. The beaker’s height is measured using a meter ruler. This value is then halved and then marked in the beaker
+       with a red marker. Furthermore, the beaker is also covered is surrounded with heat-insulating material in
+       order to minimise energy transfer between surroundings and glycerol. The beaker is then placed on top of
+       the digital scale.
+
+    2. A thermometer is placed inside a bowl filled with glycerol which is placed in a bath of water. This bath is
+       then heated until the desired temperature. If the glycerol is overheated, it is then left at room temperature
+       until it reaches desired temperatures.
+
+                                                           3
+  3. For glycerol that requires lower temperatures, the glycerol is placed inside a refrigerator and cooled until
+     required with a thermometer. If overcooled, the glycerol is then left at room temperature until it reaches
+     desired temperatures. It is ensured that before measuring the temperature the glycerol is stirred for uniform
+     distribution of heat.
+
+  4. Glycerol is then poured into the measuring cylinder until it reaches the 250ml mark. The beaker is then
+     quickly covered with a lid to mitigate energy transfers and evaporation.
+
+  5. The weight is then recorded to calculate the density of the glycerol at that temperature.
+
+  6. The ball is then dropped lightly into the beaker and the falling is recorded using a camera.
+
+  7. The result is then analysed by recording the average velocity by measuring the time to reach the bottom of
+     the beaker after the ’half-mark’ indicated. This is to ensure that the ball is closer to the terminal velocity.
+
+  8. The glycerol is then re-used for further heating or cooling. This experiment is repeated for each temperature
+     interval 2 more times, in order to obtain 3 sets of data to ensure higher accuracy of the data by then taking
+     the average.
+
+3.4    Setup
+
+
+
+
+                 (a) Photo of the procedure                            (b) Illustrated diagram of the setup
+
+                          Figure 2: Diagram of the procedure using illustration and a photo
+
+3.5    Environmental, Ethical and Safety Concerns
+      • No living beings were harmed in the making of this experiment
+
+      • No environmental concerns and harm was done in the making of this experiment
+
+      • Glycerol is poured carefully to also ensure that it does not splash into any equipment such as camera or
+        surroundings, whilst ensuring conservation of the material for future use
+
+
+3.6    Data results and Numerical Analysis
+
+                             Diameter              Mass                 Volume             Density
+                               ds /m              ms /kg                Vs /m3            ρs /kgm−3
+                           ∆ds = 5 × 10−6      ∆ms = 5 × 10−6       ∆Vs = 3 × 10−9         ∆ρs = 8
+                 Sphere       0.01946             0.03268            3.859 × 10−6             8469
+
+                           Table 1: Table of results of measured properties of the sphere
+
+
+                                                         4
+   Answers were rounded off to 4 significant figures. The uncertainty of the density is rather small, thanks to the
+   accuracy of apparatus used e.g. micro meter and high sensitivity digital scale. These uncertainties were calculated
+   using:
+                                                                                                              
+                     ∆ds                                                                        ∆ms ∆Vs
+        ∆Vs = Vs 3                                                                  ∆ρs = ρs           +
+                      ds                                                                          ms       Vs
+                                        −6                                           −6              −9
+                                                                                                         
+                                 5 × 10                                        5 × 10        3 × 10
+        ∆Vs = 3.859 × 10−6 3               = 3 × 10−9        ∆ρs = 8469                  +                   =8
+                                  0.01946                                      0.03268     3.859 × 10−6
+
+               Mass of Glycerol + Measuring
+                      Cylinder + Lid
+                          m/kg
+                     ∆m = 5 × 10−6
+                                                     Average Mass of Glycerol + Measuring
+                                                                Cylinder + Lid                            Measuring
+Temperature
+               Attempt     Attempt     Attempt                     mavg /kg                              Cylinder + Lid
+   T /◦ C
+                  I           II         III      Measurement Uncertainty: ∆mavg = 5 × 10−6                  mb /kg
+ ∆T = 0.05
+                                                      Random Uncertainties are placed in                ∆mb = 5 × 10−6
+                                                       each respective individual values.
+    0          0.56121     0.56218     0.56220               0.56186 ± 5.0 × 10−4                            0.24585
+    5          0.56031     0.56163     0.56270               0.56155 ± 1.2 × 10−3                            0.24585
+    10         0.56132     0.56030     0.55951               0.56034 ± 9.1 × 10−4                            0.24585
+    15         0.52168     0.52310     0.52225               0.52234 ± 7.1 × 10−4                            0.20848
+    20         0.52088     0.52282     0.52107               0.52159 ± 9.7 × 10−4                            0.20848
+    25         0.52132     0.52201     0.52030               0.52121 ± 8.6 × 10−4                            0.20848
+    30         0.52100     0.52154     0.51910               0.52055 ± 1.2 × 10−3                            0.20848
+
+              Table 2: Table of results of measured properties of each measuring cylinder with Glycerol
+
+
+
+   Both of the measurement uncertainty and the random uncertainties were calculated. However, for future calcula-
+   tions, the random error will be used as is a significantly higher value. The random uncertainty was calculated by
+   subtracting the smallest Attempt value from the largest, then dividing by 2. For the example calculation, data for
+   T = 0◦ C was used:
+                                             0.56220 − 0.56121
+                                 ∆mavg =                          = 5.0 × 10−4 to 1 s.f.
+                                                       2
+
+                   Temperature                                    Volume of Glycerol
+                                     Average mass of Glycerol                              Density
+                      T /◦ C                                           Vg /m3
+                                           mg avg /kg                                     ρg /kgm−3
+                    ∆T = 0.05                                        ∆Vg = 10−6
+                         0            0.31601 ± 5.0 × 10−4             0.00025            1264 ± 7
+                         5            0.31570 ± 1.2 × 10−3             0.00025            1263 ± 10
+                        10            0.31453 ± 9.1 × 10−4             0.00025            1258 ± 9
+                        15            0.31386 ± 7.1 × 10−4             0.00025            1255 ± 8
+                        20            0.31311 ± 9.7 × 10−4             0.00025            1252 ± 9
+                        25            0.31273 ± 8.6 × 10−4             0.00025            1251 ± 8
+                        30            0.31207 ± 1.2 × 10−3             0.00025            1248 ± 10
+
+                           Table 3: Density of glycerol calculations at different temperatures
+
+   Because the measurement uncertainty of the mass of the beaker is insignificant in comparison to the random
+
+
+                                                           5
+uncertainty of the masses recorded for the mass of glycerol + beaker, the random error was directly carried on for
+future calculations. The average mass of glycerol was calculated by subtracting the beaker mass from the average
+mass. The uncertainty of the density was calculated by the formula below, and an for the following example
+calculation row 1 was used and answers kept to 1 s.f. for consistency.
+
+                                                                         10−6      5 × 10−4
+                                                                                         
+                    ∆Vg    ∆mg avg
+       ∆ρg = ρg          +                              ∆ρg = 1264              +              = 7 to 1 s.f.
+                     Vg      mg avg                                     0.00025    0.31601
+
+
+                       Time from 125 to 0ml
+                               t/s
+ Temperature                                                              Distance from 125 to 0ml
+                   Attempt     Attempt     Attempt      Average time                                          Speed
+    T /◦ C                                                                          db /m
+                      I           II         III           tavg /s                                           s/ms−1
+  ∆T = 0.05                                                                  ∆db = 5 × 10−4 m
+       0            1.687        1.645       1.548      1.627 ± 0.070              0.1085                0.067 ± 0.003
+       5            0.783        0.733       0.723      0.746 ± 0.030              0.1085                0.145 ± 0.007
+      10            0.395        0.393       0.402      0.397 ± 0.005              0.1085                0.273 ± 0.005
+      15            0.391        0.386       0.378      0.385 ± 0.007              0.1085                0.282 ± 0.006
+      20            0.306        0.302       0.303      0.304 ± 0.002              0.1085                0.357 ± 0.004
+      25            0.219        0.237       0.238      0.231 ± 0.010              0.1085                0.470 ± 0.022
+      30            0.157        0.160       0.167      0.161 ± 0.005              0.1085                0.674 ± 0.024
+
+                       Table 4: Speed of falling sphere calculations at different temperatures
+
+The uncertainty of the time was calculated by taking finding the difference between the minimum and the maximum
+and dividing by two and rounding the answer off to 3 d.p.. Finding instrumental and measurement uncertainty of
+the camera proved to be difficult due to multiple possibilities and variables. Furthermore, it is likely that the random
+uncertainty is also greater, hence this decision should theoretically not create a big difference. A higher amount of
+trials would also enable me to be able to do the error using standard deviation, which would be more accurate.
+Indeed, in lower temperatures a gradual time decrease can be seen for the ball to reach the bottom, expected as a
+result of absorption of heat from the surroundings. Similar effect can be seen within higher temperatures where
+the heat is lost to the surroundings instead, leading to decreased temperatures as time passes. This is somewhat
+suggestive of my hypothesis being true.
+However, the difference in values between recorded low temperatures also follow an interesting pattern, given
+that the difference of speed between each temperature is more significant. Therefore, the effect of increasing and
+decreasing temperature on the viscosity may perhaps be more clearly seen when testing with lower temperatures
+but also lower intervals, as the gaps are observed to be larger than the rest. This would also, however, require more
+sensitive devices which I do not have a hold of.
+Lastly, while a great difference of speed can be seen between each temperature interval, the speed of 0.282ms−1
+for T = 15◦ C seems to be an anomaly. The increase in speed between each interval is usually large, however, the
+speed difference for T = 10◦ C and T = 15◦ C is only 0.009. This will be taken into consideration when doing
+future analysis and interpretation of results. The equations and example calculations for row 1 are below
+                                      
+                        ∆tavg     ∆db
+             ∆s = s            +
+                         tavg      db
+                                                                               5 × 10−4
+                                                                                        
+                     1.687 − 1.548                                    0.07
+          ∆tavg =                   = 0.07           ∆s = 0.067             +               = 0.003 to 3 d.p.
+                            2                                        1.627      0.1085
+
+
+
+
+                                                           6
+ Temperature                                                  Radius of Sphere     Volume of Sphere
+                       Speed         Density Difference                                                    Viscosity
+    T /◦ C                                                          r/m                 Vs /m3
+                      s/ms−1          ρs − ρg /kgm−3                                                       η/P a · s
+  ∆T = 0.05                                                   ∆r = 2.5 × 10−6       ∆Vs = 3 × 10−9
+       0           0.067 ± 0.003          7205 ± 15               0.00973            3.859 × 10−6         22.2 ± 1.1
+       5           0.145 ± 0.007          7206 ± 18               0.00973            3.859 × 10−6         10.3 ± 0.5
+      10           0.273 ± 0.005          7211 ± 17               0.00973            3.859 × 10−6        5.45 ± 0.12
+      15           0.282 ± 0.006          7214 ± 16               0.00973            3.859 × 10−6        5.28 ± 0.13
+      20           0.357 ± 0.004          7217 ± 17               0.00973            3.859 × 10−6        4.17 ± 0.06
+      25           0.470 ± 0.022          7218 ± 16               0.00973            3.859 × 10−6        3.22 ± 0.16
+      30           0.674 ± 0.024          7221 ± 18               0.00973            3.859 × 10−6        2.21 ± 0.09
+
+                        Table 5: Calculation of glycerol viscosity at different temperatures
+
+From an observation of the results, a negative exponential relationship can be seen, as the viscosity rapidly increases
+as the temperature decreases. The uncertainty of the viscosity was calculated by defining α = ρs − ρg and its
+uncertainty ∆α for simplicity. Thus my uncertainty equations with example calculations from Row 1 are below:
+                                                                        
+                                              ∆s ∆r ∆Vs ∆α
+  ∆α = ∆ρs + ∆ρg                   ∆η = η          +     +        +
+                                                s     r       Vs      α
+                                                                    −6       3 × 10−9
+                                                                                                  
+                                                  0.003 2.5 × 10                               15
+   ∆α = 7 + 8 = 15                 ∆η = 22.2            +               +                  +          = 1.1 to 2 s.f.
+                                                  0.067      0.00973      3.859 × 10−6 7205
+
+3.7     Graphical Analysis
+However, graphing our results is trickier than my initial thought. There is no comparable theoretical basis for the
+estimation of liquid viscosities. Thus, it is particularly desirable to determine liquid viscosities from experimental
+data when such data exists (Robert C. Reid, 1987, p.517). Many models exist to explain the behaviour of viscosity
+against temperature, however, for the purpose of this Internal Assessment, I will consider a widely used empirical
+equation using my own and literature discrete values. I then will compare these constants found between my values,
+literature discrete values and literature valaues of constants found by the same scientist who used this equation.
+The discrete literature values I will use for the analysis of separate equations are the following (Association, 1963)
+
+                                             Temperature       Viscosity
+                                                T /◦ C         η/P a · s
+                                                   0           12.0700
+                                                  10            3.9000
+                                                  20            1.4100
+                                                  30            0.6120
+                                                  40            0.2840
+                                                  50            0.1420
+                                                  60            0.0813
+                                                  70            0.0506
+                                                  80            0.0319
+                                                  90            0.0213
+                                                 100            0.0148
+
+                              Table 6: Literature discrete values of glycerol viscosity
+
+
+3.7.1    Two Constant Equation
+One equation used by scientists (Robert C. Reid, 1987) (DABIR S. VISWANATH, 2007) is of the form
+
+                                                      η = AT B
+
+                                                          7
+where η is viscosity in cP , T is the temperature in Kelvin and A and B are constants to be found.
+The equation found by Robert C. Reid (Robert C. Reid, 1987) and others where T is in Kelvin (K) and η is in
+centipoises (cP ) is the following:
+                                           η = (3.4263 × 1073 )T −28.52
+In particular the literature graph values are A = 3.4263 × 1073 and B = −28.52. To be able to compare, I
+have converted the discrete literature values and my values into Kelvin and centipoises. In particular, for some
+temperature x in ◦ C, its temperature in Kelvin K can be found using x + 273.15. Poises, on the other hand,
+is defined as 1P = 1gcm−1 s−1 whereas Pascal second is 1P as = 1kgm−1 s−1 . We know 1kg = 1000g and
+1cm = 0.01m, hence 1P as = 10gcm−1 s−1 = 10P . The converted values are found in the tables below and
+these values were plotted in a graph with best curves of fit to compare coefficients A and B:
+
+            Temperature     Viscosity
+               T /K          η/cP
+                                                                       Temperature
+              273.15         12070                                                          Viscosity
+                                                                          T /K
+              283.15          3900                                                           η/cP
+                                                                        ∆T = 0.05
+              293.15          1410
+                                                                         273.15         22200 ± 1100
+              303.15          612
+                                                                         278.15         10300 ± 500
+              313.15          284
+                                                                         283.15          5450 ± 120
+              323.15          142
+                                                                         288.15          5280 ± 130
+              333.15          81.3
+                                                                         293.15           4170 ± 60
+              343.15          50.6
+                                                                         298.15          3220 ± 160
+              353.15          31.9
+                                                                         303.15           2210 ± 90
+              363.15          21.3
+              373.15          14.8                                      Table 8: My values converted
+       Table 7: Literature values converted
+
+
+
+
+                       Figure 3: 3 Autofit curves and data sets for two constant equation
+
+A great difference can be seen between my values and literature values. The red graph which represents a curve
+
+                                                       8
+of best fit using discrete literature values is very similar to that of the literature graph suggested in another source.
+The difference in the values of coefficients of their graphs could be explained by the fact that the graph generated
+by the discrete values (Association, 1963) is done taking into account values of 0, 10, · · · , 100◦ C, whereas the
+graph literature coefficients presented by Robert C. Reid takes into account values in the range 0 − 30◦ C inclusive.
+My discrete values for viscosity are significantly higher than literature discrete values. For example, at 273.15K,
+the discrete literature value is 12070cP whereas my recorded value is 22200 ± 1100cP . This resulted in the graph
+of best fit to also increase at an earlier temperature, causing relatively large coefficients for A and B.
+Unfortunately, the graph of best fit for the two constant model has a very large root mean square error (RMSE) of
+1802, and does not pass through any of my points or error bars except the point at T = 273.15K. In comparison,
+the best fit curve for literature discrete values has a low RMSE of 72.11cP suggesting its accurateness and precision
+as the model is suitable for use in another scientist’s literature values. This is further supported by the similarity
+between the graph generated using literature values and the graph coefficients found by another scientist.
+The deviations of points from my curve of best fit are caused by random errors that occurred when during the
+experiment despite many precautions. Furthermore, as all values of my experiment go over consistently that of
+literature values, it is likely that a systematic error occurred too. However, this model is sufficient to show and
+supports the idea that there is an exponential increase in the values of viscosity, which can be seen from my
+individual values and high correlation values for both curves of best fit. In particular, where the number 1 shows
+a strong correlation and is the highest number that one could theoretically achieve, my values and literature values
+achieved a correlation of 0.9716 and 0.9998 respectively. This implies that my values were still able to show a
+general exponential trend when compared with this model, despite the high presence of anomalies and errors.
+
+3.7.2   Linearising The Two Constant Equation
+In addition to comparing the curve of best fit, I have decided to linearise all discrete values to obtain linear graphs
+to conduct further analysis. We know that our model is η = AT B , therefore we can logarithmate both sides:
+
+                                                    ln η = ln AT B                                                   (4)
+                                              =⇒ ln η = B ln T + ln A                                                (5)
+
+which is comparable to our linear equation
+
+                                                     y = mx + b
+
+where y = ln η, x = ln T , b = ln A and m = B, therefore we must plot ln η against ln T . To calculate the
+uncertainties, I will consider all min and max values from uncertainties for each individual discrete temperature
+and viscosity and linearise them. I will then find the uncertainty by considering the difference between min and
+max values and dividing it by 2:
+
+                                                                                                         Uncertainty of
+ Temperature Min        Temperature Max         Log Temperature Min          Log Temperature Max
+                                                                                                         Temperature
+    Tmin /K                Tmax /K                  ln(Tmin )/K                   ln(Tmax )/K
+                                                                                                          ∆ ln(T )/K
+        273.10                 273.20                    5.6098                       5.6102                0.0002
+        278.10                 278.20                    5.6280                       5.6283                0.0002
+        283.10                 283.20                    5.6458                       5.6462                0.0002
+        288.10                 288.10                    5.6633                       5.6637                0.0002
+        293.10                 293.20                    5.6805                       5.6809                0.0002
+        298.10                 298.20                    5.6974                       5.6978                0.0002
+        303.10                 303.20                    5.7141                       5.7144                0.0002
+
+                                        Table 9: Linear temperature uncertainty
+
+
+
+
+                                                           9
+Temperature                                                                                        Uncertainty of
+                Viscosity Min    Viscosity Max     Log Viscosity Min        Log Viscosity Max
+   η/cP                                                                                              Viscosity
+                  ηmin /cP         ηmax /cP          ln(ηmin )/cP             ln(ηmax )/cP
+ ∆T = 0.05                                                                                          ∆ ln(η)/cP
+  273.15            21100              23300              9.957                   10.06                 0.05
+  278.15             9800              10800              9.190                   9.287                0.053
+  283.15             5330               5570              8.581                   8.625                0.022
+  288.15             5150               5410              8.547                   8.596                0.025
+  293.15             4110               4230              8.321                   8.350                0.015
+  298.15             3060               3380              8.026                   8.126                0.050
+  303.15             2120               2300              7.659                   7.741                0.041
+
+                                   Table 10: Linear viscosity uncertainty
+
+ Thus my discrete literature values and my values are after logarithming and plotting in a graph are found below:
+
+Temperature     Linearised Viscosity
+  ln T /K             ln η/cP
+                                                               Temperature
+   5.6100              9.398                                                      Linearised Viscosity
+                                                                  ln T /K
+   5.6460              8.269                                                            ln η/cP
+                                                              ∆ ln T = 0.0002
+   5.6807              7.251
+                                                                   5.6100                10.008 ± 0.05
+   5.7142              6.417
+                                                                   5.6282                9.239 ± 0.053
+   5.7467              5.649
+                                                                   5.6460                8.603 ± 0.022
+   5.7781              4.956
+                                                                   5.6635                8.572 ± 0.025
+   5.8086              4.398
+                                                                   5.6807                8.336 ± 0.015
+   5.8382              3.924
+                                                                   5.6976                8.077 ± 0.050
+   5.8669              3.463
+                                                                   5.7142                7.701 ± 0.041
+   5.8948              3.059
+   5.9220              2.695                                      Table 12: My linearised discrete values
+Table 11: Literature linearised discrete values
+
+
+
+
+                        Figure 4: Linearised equations and lines of best and worst fit
+
+
+                                                     10
+Because the model I’ve used is only an empiricist equation which is used to describe an unknown relation, it could
+be seen that even after linearisation the points for my literature values are not perfectly linear and is slightly curved
+like an another exponential relationship, with the same applying to my own points.
+
+The Pearson correlation test that of −0.9602 suggests that our line of best fit shows a very strong negative correlation
+as expected from my hypothesis. Furthermore, I attempted to draw the lines of worst fit by considering as many
+error bars and points as possible. For the lines of worst fit, the anomaly that was originally found at T = 283.15K
+was ignored. Ideally from these lines, the gradient m must fall between −17.33 ≤ m ≤ −21.87, for which indeed
+the literature value gradient is −21.15. Our line of the best fit’s gradient for my points is −19.63, which is a −7.2%
+relative error. This means that despite having higher values for each of the points, the general change in viscosity
+with respect to temperature was captured well.
+
+
+4     Conclusion
+My question ”How does the temperature affect the viscosity of glycerol?” with my hypothesis that lower temper-
+atures of glycerol will result in higher viscosity and higher temperatures will result in lower viscosity seems to
+be supported by my data. Although a fixed equation is not known for the relationship between temperature and
+viscosity, one of the models that is widely used seems to well support a negative correlation when linearised as
+seen in Figure 4, in particular with my results that
+
+                                             ln η = −19.63 ln T + 119.8
+
+with a strong correlation of −0.9602. When contrasted the linearised relationship with the full equation line of best
+fit, the linearised relationship allows for more a detailed analysis and makes this relationship stand out. Unfortu-
+nately, however, the line of best fit does not pass through all the points and their error bars due to a high prevalence
+of errors that occurred in the experiment.
+
+My findings link back to my initial statistics of how the cold can negatively affect human health. Indeed, even
+though glycerol is a substance that is found in moderate amounts in the blood, it does show that a general decrease
+in temperature within a liquid will cause its viscosity to be higher and thus it will be harder to flow through the
+body. In order to compensate for this, the heart works at a faster rate which I believe can be the cause of heart
+attacks and more deaths in winter and colder temperatures. One thing, however, did not change: I will still require
+to wear at least 3 layers of clothing in the winter where I live.
+
+
+5     Evaluation
+5.1   Evaluation
+A lot of heat was absorbed by the surroundings from the glycerol, otherwise, surrounding heat was also absorbed
+by the glycerol. This made it especially difficult to ensure that the data is for the temperature intervals as planned
+causing systematic errors. Although precautions were taken such as surrounding the measuring cylinder with heat-
+insulating materials, in order to minimise energy transfer, a more accurate way to achieve desired temperatures
+would be to in fact take into account Newton’s law of cooling equation in order to predict what initial temperature
+the glycerol has to be poured in order to make measurements more accurate depending on time t after pouring.
+
+One source of random error that I have noticed during the experiment is that during heating and cooling and pour-
+ing, air can be entrapped inside glycerol forming bubbles which in result decreased the viscosity as the resistance
+of air on a ball is minimal in comparison to that of glycerol. This would explain the value of viscosity found at
+T = 283.15K. One way of avoiding this is by placing the liquid in a vacuum to ensure that all air is sucked out.
+
+Furthermore, the great difference in the viscosity is also staggering, as my recorded points are well over when
+contrasted the viscosities at temperature values of 0, 10, 20 and 30◦ C. The consistency of this difference suggests
+
+
+                                                           11
+a systematic error. A comparison of data for the density of glycerol using literature values from (Association,
+1963) suggests that densities are measured to sufficient accuracy, implying that it is not the cause of the error. This
+leaves the measured velocity as the culprit for this uncertainty. In order to reduce this systematic error, it is very
+much possible that the velocity is affected by the fact that the sphere is big in comparison to the hole it travels
+through. This hinders the effect of Stokes’ Law, as it is assumed that there is enough space for the particles to be
+pushed away in a laminar manner, where the streamlines dissipate and straighten as they move further away from
+the sphere. Unfortunately, it is likely that the lack of space did not allow a laminar stream, meaning that the fluid
+was acting more against the sphere as a result of the disturbance of streamlines causing turbulence. In order to
+improve the proportions of free space in comparison to the sphere size, one way to reduce the error would be to
+have a smaller sphere to drop through, or find a measuring cylinder with a larger radius. Utilising both effectively
+would likely minimise my systematic error for the velocity. Moreover, another change that can aid reduce the error
+for my velocity is to introduce light gates. The limitation of using a camera to measure the time taken is that it is
+limited to its frames per second. In comparison, the iPhone camera was only 60 FPS, meaning that it skips small
+intervals of time in slow motion as I was analysing. The use of light gates to measure the time to pass between two
+points of light would make it more accurate as such limitations are very minimal when utilising the speed of light.
+
+Another limitation is that the model used for this internal assessment is not necessarily correct in explaining the
+behaviour of viscosity in relation to temperature. Since the relationship is described as very complex, one way to
+come closer to this complexity is to use models which can explain the behaviour more accurately by considering
+more constants. For example, one such model (Robert C. Reid, 1987) is
+                                                                B  C
+                                                 ln η = A +       + 2
+                                                                T  T
+where η is viscosity in cP , T is temperature in K and A, B, C are constants to be found.
+
+This, however, would not describe the behaviour perfectly until a formulaic relationship between temperature and
+viscosity is found. This limitation explains why even the literature values in Figure 4 are not perfectly linear where
+even the best fit line for literature values does not pass or go close to all points. Nevertheless, this is currently the
+best method that we can utilise to achieve and interpret results.
+
+Despite the high presence of systematic and random errors which affected the accuracy and precision of my results,
+after linearising a strong negative correlation is still evident implying the validity of my hypothesis.
+
+
+References
+Association, G. P. (1963). Physical properties of glycerine and its solutions [Book]. NY Glycerine Producers’
+     Association.
+DABIR S. VISWANATH, D. H. L. P. N. V. K. D. K. Y. R., TUSHAR K. GHOSH.                                   (2007).
+     [Book]. Springer. Retrieved from https://www.researchgate.net/file.PostFileLoader.html
+     ?id=576b60dc3d7f4b3e0b1acf84&assetKey=AS%3A375993815584769%401466655319665
+Omega, F. (2016). How cold weather can affect blood circulation and cardiovascular health – the chill-
+     ing facts [Online]. Retrieved 2021-4-11, from https://www.fruitflowplus.com/how-cold-weather
+     -can-affect-blood-circulation-and-cardiovascular-health-the-chilling-facts/
+Robert C. Reid, B. E. P., John Michael Prausnitz. (1987). The properties of gases and liquids (4th ed.) [Book].
+     NY McGraw-Hill.
+Tsokos, A. (2014). Physics for the IB Diploma OPTIONS (6th ed.) [Book]. Cambridge University Press.
+
+
+
+
+                                                           12
+

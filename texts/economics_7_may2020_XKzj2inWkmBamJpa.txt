@@ -1,0 +1,94 @@
+Link to the article:
+https://www.reuters.com/article/us-china-sugar-imports-exclusive/exclusive-china-sugar-industry-to
+-lobby-government-for-extension-of-hefty-tariffs-on-imports-sources-idUSKCN1VR1N4
+This article talks about China’s government considering to extend the tariffs on sugar imports to
+“protect China’s struggling domestic sector.” “A tariff is a tax placed on imports.1” Tariffs are a
+form of trade protection, used by the government to help local producers develop, however, a
+welfare loss arises in the process (Figure 1).
+
+
+
+
+                                                                                                                Figure 1
+After the tariff, the world producers want to pass tariff costs to the consumers, therefore the supply
+curve shifts upwards from Sworld to Stariff and the equilibrium price increases from Pworld to Ptariff.
+After the price increase consumers buy less — the equilibrium quantity falls from Q4 to Q3. Due to
+the increased price domestic suppliers now supply more, thus their share of the market increases
+from Q1 to Q2. After the tariff quantity imported has fallen from Q4-Q1 to Q3-Q2. They must pay a
+fixed tax to the government for each unit they sell, thus area B+C represent the government revenue
+(green area).
+
+The minimum amount of revenue for international producers to produce Q2 is E+F, however, after
+the tariff, quantity Q2 is produced by local producers who need a minimum revenue E+F+A, thus
+from society’s standpoint the revenue from area A is lost. Area D is lost as well, because consumer
+surplus is lost as they now purchase less at a higher price, and this doesn’t become producer surplus.
+Thus the area A+D is the welfare loss associated with the tariff (red area).
+1
+  Finamore, David. ”International trade: Restrictions on free trade: Trade protection” in Economics: Supporting Every Learner across the IB
+Continuum, edited by Christian Bryan, page 202. Harlow, Essex: Pearson Education Limited, 2014.
+The domestic producers benefit in this situation as they now face less competition and don’t need to
+engage in price wars, but can rather keep “promoting healthy and stable development of the
+sector.” This development means, that producers expand their businesses and open new factories,
+which benefits the domestic labour force as now there is a bigger demand for workers and
+unemployment decreases.
+
+In addition, less competition means, that domestic firms can invest some money into research and
+development, which would shift the potential LRAS curve outwards, thus promoting long-term
+growth for the whole country. (Figure 2)
+
+
+
+
+                                                                           Figure 2
+
+After investing in research and development, manufacturers can now produce more using the same
+resources, thus LRAS curve shifts outwards from LRAS0 to LRAS1. There is a movement alongside
+the AD curve and the market clearing point changes from (Y0;P0) to (Y1;P1) , thus China’s Real
+GDP has increased (Y1>Y0) and deflation has happened (P1<P0).
+
+Additionally, research and development would improve China’s international competitiveness,
+which is crucial as currently “amid a global supply surplus” the local producers cannot “compete
+with foreign rivals due to higher production costs.” Improving international competitiveness would
+improve the balance of trade, which would lead to an increase in real GDP once again promoting
+economic development in the country — If real GDP increases, then firms in the country grow
+bigger, which allows them to experience economies of scale — Reduction of production costs and
+increased efficiency which leads to outwards LRAS shift.
+
+Furthermore, government benefits from tariffs in the form of tariff revenue it gets from the foreign
+producers. This money could then be spent on public goods or other underdeveloped sectors to
+further promote economic growth.
+
+However, there are also disadvantages to this tariff, with one of the concerns being cost-push
+inflation. Local manufacturers requiring sugar for their products, such as candy makers would get
+hurt from this as their costs of production increase. Additionally, regular consumers lose out from
+tariffs, because now the market provides less sugar at a higher price, thus reducing their purchasing
+power.
+
+Another concern regarding the tariff is the associated welfare loss. In the long-run, tariffs might
+prove detrimental to the society as a whole due to the inefficient manufacturers producing more
+than the efficient ones, however, this effect might be offset if the local producers don’t stay
+inefficient due to decreased competition but rather finally develop and become competitive after not
+being damaged by some regions who in the past “have exported sugar products at below cost
+prices.”
+
+To conclude, the tariff could greatly benefit the domestic sugar sector, which would be able to
+develop due to decreased competition. This development paired together with the extra government
+revenue from tariffs could play a substantial role in promoting China’s long-term economic growth,
+however, if this policy will work depends on whether domestic producers will become more
+efficient due to economies of scale or rather will stay less efficient due to decreased competition.
+Additionally, it still remains to be seen how badly will domestic consumers and sugar-related
+manufacturers be hurt from cost-push inflation.
+
+Word count: 749
+
+Bibliography
+
+1) Finamore, David. ”International trade: Restrictions on free trade: Trade protection” in
+Economics: Supporting Every Learner across the IB Continuum, edited by Christian Bryan, page
+202. Harlow, Essex: Pearson Education Limited, 2014.
+2) Gu, Hallie, and Dominique Patton. “Exclusive: China Sugar Industry to Lobby Government for
+Extension of Hefty Tariffs on Imports - Sources.” Edited by Hogue, Tom and Louise Heavens.
+Reuters. Thomson Reuters, September 6, 2019.
+https://www.reuters.com/article/us-china-sugar-imports-exclusive/exclusive-china-sugar-industry-to
+-lobby-government-for-extension-of-hefty-tariffs-on-imports-sources-idUSKCN1VR1N4
+

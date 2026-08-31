@@ -1,0 +1,1285 @@
+IB Diploma Mathematics AA HL Exploration
+
+         May 2021 exam session
+
+
+
+  Maximizing the Spinning Time of a Top
+Contents
+
+Section 1 : Introduction                                              P. 3
+
+Section 2 : Background Physics                                        P. 4
+
+       2.1 Forces on a Spinning Top                                   P. 4
+
+       2.2 Dot and Cross Product                                      P. 6
+
+Section 3 : Moment of Inertia                                         P. 7
+
+       3.1 Torque and Angular Momentum of a Point Mass                P. 7
+
+       3.2 From Angular Momentum to Angular Acceleration              P. 8
+
+       3.3 Moment of Inertia of a Circular Disc                       P. 9
+
+       3.4 Moment of Inertia of a Top                                 P. 12
+
+Section 4 : Optimization                                              P. 13
+
+       4.1 Varying the Shape of a Top                                 P. 13
+
+       4.2 Optimising the Shape of a Top                              P. 16
+
+Section 5 : Conclusion                                                P. 23
+
+       5.1 Conclusion                                                 P. 23
+
+       5.2 Evaluation of Findings : Assumptions and Limitations       P. 24
+
+Bibliography                                                          P. 26
+
+
+
+
+                                                                  2
+Section 1 : Introduction
+
+In the movie Inception, a spinning top is used by the
+
+protagonist to determine the reality they are in. As an avid
+
+fan of the movie, I bought myself a spinning top. The way
+
+the top stays upright for an extended period fascinated me.
+
+Whilst spinning the top, I noticed the shape of this top were
+                                                                  Figure 1 – Spinning top from the
+different from the ones encountered in my childhood, which
+                                                                         movie Inception [1]
+often have a circular base. It made me wonder – how does its
+
+shape affect the duration it spins for? What is the most
+
+efficient shape to maximize its spinning time ?
+
+
+
+When the opportunity arose, I was determined to satisfy my curiosity. Further background
+
+research has made me realised the complexity, and a lack of available information on this
+
+matter, making it even more exciting for me to carry out this investigation.
+
+
+
+The aim of my exploration is to maximize the spinning time of a top through varying its base
+
+shape. To effectively investigate the influence of shape on spinning time, I will be keeping
+
+other variables, such as volume, density and initial angular velocity fixed. Moreover, to
+
+simplify the problem, I will assume that the torque exerted by air drag is independent of the
+
+shape of the top (but in reality, drag force depends on surface area and shape). This is to keep
+
+the influence of friction and air drag consistent, allowing me to solely focus on angular
+
+momentum. With the following simplifications in mind, I will first determine factors that
+
+affect the spinning time of the top.
+
+
+
+
+                                                                                               3
+Section 2 : Background Physics
+
+2.1 Forces on a Spinning Top
+
+To understand the motions of a spinning
+
+object, I must first understand torque 𝜏 and
+
+angular momentum, 𝐿. Torque, defined as
+
+𝜏 = 𝑟×𝐹      (vectors    quantities    will      be
+
+explained in section 2.2), is the result of
+
+applying a force, 𝐹 to rotate an object around
+
+an axis, where 𝑟 is the distance from the
+
+axisof rotation to the object (Figure 2 ) [2].
+                                                      Figure 2– Forces exerted on a spinning top [2]
+
+On the other hand, angular momentum is the rotational analog of linear momentum 𝑝, defined
+
+as 𝐿 = 𝑟×𝑝. There are 2 special features to angular momentum : it is a conserved quantity,
+
+                                              !!
+and that its rate of change is torque, 𝜏 = !" [3]. This will be explored and discussed in more
+
+detail in section 3.1.
+
+
+
+To determine factors influencing the spinning time of a top, I first examined the forces acting
+
+on it. Figure 3 shows an ideal cone-shaped top rotating about its axis of symmetry on a flat
+
+surface.
+
+
+
+
+                                                                                                 4
+    Figure 3 – Diagram of a spinning top           Figure 4 – Forces exerted on a spinning top
+
+
+
+When a top is spinning, it has got an angular momentum 𝐿 along the axis of the top. The
+
+force of gravity 𝑚𝑔 , where 𝑚 is the mass of the top and 𝑔 is the gravitational acceleration,
+
+creates a torque 𝜏 perpendicular to 𝐿, which in turn changes the direction of the top’s
+
+rotational axis (Figure 4).
+
+
+
+When gravity is the only external force acting on the top, the magnitude of angular
+
+momentum is constant but it’s direction changes. Hence the spinning top precesses in a
+
+constant precession angle 𝜙 provided that the angular speed is above a certain threshold.
+
+Below this threshold, the top starts to wobble and precession of the top becomes complicated
+
+(which will be discussed in section 5.2) [4]. Such complications will be ignored in my
+
+exploration.
+
+
+
+However, in reality, air drag and friction from the ground creates an external torque that
+
+causes a deceleration. This slows the top down and reduces the magnitude of angular
+
+momentum. When the angular momentum drops below a certain threshold, the top no longer
+
+precesses steadily and gravity causes the top to eventually fall over.
+
+
+
+                                                                                             5
+To maximize the spinning time of a top, I would have to minimize the deceleration caused by
+
+air drag and friction. By assuming that the torque exerted by air drag is independent of the
+
+shape of the top (stated in section 1), this allows me to solely focus on the change of angular
+
+momentum. To do so, I first looked into the relationship between angular momentum and
+
+torque of a point mass.
+
+
+
+2.2 Dot and Cross Product
+
+This investigation will be revolved around vector quantities, hence it is important to
+
+understand how to manipulate vectors. As opposed to scalar quantities that only have a
+
+magnitude, vector quantities have both magnitude and direction. Vectors are denoted 𝑎 and
+
+can be multiplied using dot product (e.g. 𝑎 ∙ 𝑏) or cross product (e.g. 𝑎×𝑏).
+
+                                                   Scaler product/ dot product
+
+                                                               𝑎∙𝑏 = 𝑎       𝑏 𝑐𝑜𝑠𝜃
+
+                                                   Vector product/ cross product
+
+                                                                𝑎×𝑏 = 𝑎      𝑏 𝑠𝑖𝑛𝜃
+
+                                                   where the magnitude of vector 𝑎 is denoted
+
+                                                   by 𝑎 [5]
+
+
+           Figure 5 – Cross Product
+
+The resultant vector from the cross product has a direction that is perpendicular to both 𝑎 and
+
+𝑏, and has a magnitude equal to the area of a parallelogram with vectors 𝑎 and 𝑏 as sides [6].
+
+The direction of the resultant vector can be determined by the right hand rule. It is important
+
+to note that the order in which the vector is written in determines the direction of the resultant
+
+vector, where 𝑎×𝑏 = −𝑏×𝑎 (Figure 5)
+
+
+
+                                                                                                6
+Section 3 : Moment of Inertia
+
+3.1 Torque and Angular Momentum of a Point Mass
+
+The angular momentum of an extended object is defined as
+
+the integral sum of its constituent particles [7]. That is, by
+
+adding up the angular momentum of particles that make up
+
+an object, I can find its angular momentum. To do so, I
+
+first considered the case of a point particle.                           Figure 6 – Diagram of Point
+
+                                                                                   Particle
+
+Let 𝑟 be the displacement of the particle from a point 𝑃 and                   𝑝 = 𝑚𝑣 be the linear
+
+momentum of the particle, where 𝑚 is the mass of the particle and 𝑣 is its linear velocity
+
+(Figure 6). As angular momentum is defined as 𝐿 = 𝑟×𝑝 (section 2.1) then the angular
+
+momentum about point 𝑃 is would be
+
+                                       𝐿 = 𝑟×𝑝 = 𝑚𝑟×𝑣 [8]
+
+It is important to note that the magnitude of 𝐿 depends on the choice of reference point 𝑃.
+
+                                                                                                !!
+If there is a force 𝐹 acting on the particle, then according to Newton’s second law 𝐹 = !" ,
+
+there will be a change in momentum, 𝑝. This would result in a torque, τ
+
+                                                      𝑑𝑝
+                                                 𝐹=
+                                                      𝑑𝑡
+
+                                                            𝑑𝑝
+                                         → 𝑟×𝐹 = 𝑟×
+                                                            𝑑𝑡
+
+                                                       𝑑𝑝
+                                            τ = 𝑟×
+                                                       𝑑𝑡
+
+As angular momentum, 𝐿 = 𝑟×𝑝 , I can write torque in terms of angular momentum
+
+                                                           !(!×!)        !!   !!
+To do so, I used the product rule for cross product,         !"
+                                                                    = 𝑟× !" + !" ×𝑝 [9]. Thus
+
+                          𝑑𝑝 𝑑 𝑟×𝑝   𝑑𝑟      𝑑 𝑟×𝑝           𝑑𝐿
+                 τ = 𝑟×      =     −    ×𝑝 =       − 𝑣× 𝑚𝑣 =
+                          𝑑𝑡   𝑑𝑡    𝑑𝑡        𝑑𝑡            𝑑𝑡
+
+
+                                                                                                       7
+Here, I have deduced that torque is proportional to the rate of change of angular momentum.
+
+This shows that without external torque, angular momentum is conserved. However,
+
+understanding this relationship alone is not sufficient to determine how do I minimize
+
+deceleration by external torques (such as air drag and friction). Thus, my next step will be
+
+establishing the relationship between torque, angular momentum and angular acceleration.
+
+
+
+3.2 From Angular Momentum to Angular Acceleration
+
+If the particle is undergoing any sort of circular motion (doesn’t necessarily have to be
+
+uniform), then I can rewrite linear velocity 𝑣 in terms of angular velocity 𝜔, defined via
+
+𝑣 = 𝜔×𝑟
+
+                                   𝐿 = 𝑚𝑟× 𝜔×𝑟 = 𝑚𝑟 ! 𝜔
+
+From this, I have established that 𝐿 ∝ 𝜔. The proportionality constant is called the moment of
+
+inertia of the particle with respect to the point P, which is conventionally denoted by 𝐼, thus
+
+𝐿 = 𝐼𝜔.
+
+In the case of a point particle, 𝐼 = 𝑚𝑟 ! . The moment of inertia will differ depending on the
+
+mass distribution of the object, but 𝐿 ∝ 𝜔 is general [11]. With this, I can rewrite torque
+
+acting on the point particle in terms of its moment of inertia.
+
+                                       𝑑𝐿        𝑑𝜔    𝑑𝜔
+                                  τ=      = 𝑚𝑟 !    =𝐼
+                                       𝑑𝑡        𝑑𝑡    𝑑𝑡
+
+
+
+To simplify the relationship, I rewrote angular velocity in terms of angular acceleration, 𝛼,
+
+            !!
+where 𝛼 = !" . Hence
+
+                                          𝑑𝐿    𝑑𝜔
+                                     τ=      =𝐼    = 𝐼𝛼
+                                          𝑑𝑡    𝑑𝑡
+
+
+
+
+                                                                                                  8
+The relationship τ = 𝐼𝛼 is generally true provided that the moment of inertia remains
+
+constant [12]. From τ = 𝐼𝛼, I realised that the greater the moment of inertia, the smaller the
+
+angular deceleration caused by air drag and friction. This is based on the earlier assumption
+
+that torque exerted by air drag is independent of the shape of the top. By assuming this, the
+
+product of 𝐼𝛼 remains a fixed value. Thus, the spinning time of a top will be maximized when
+
+the moment of inertia is maximized.
+
+
+
+3.3 Moment of Inertia of a Circular Disc
+
+As mentioned in section 3.1, the angular momentum of an extended object is defined as the
+
+integral sum of its constituent particles. Due to keeping the initial angular velocity constant,
+
+the angular momentum of a spinning top is directly proportional to its moment of inertia
+
+(𝐿 = 𝐼𝜔). Hence I can calculate the moment of inertia of an object by adding up the moment
+
+of inertia of its constituent particles.To simplify calculations, I will consider a spinning top as
+
+a stack of circular discs, where its moment of inertia will be the sum of the moment of inertia
+
+of the discs.
+
+Suppose there is a circular disk with
+
+area 𝐴, thickness ∆ℎ, radius 𝑅 and
+
+mass 𝑚. To calculate the moment of
+
+inertia of the disc, I broke it down
+
+into 𝑛 small fragments and treated
+
+each fragment as point particles
+
+(Figure 7). For the 𝑖th fragment, its
+
+moment of inertia would be                     Figure 7 – Diagram of Fragment and Disc
+
+
+
+                                          ∆𝐼! ≅ 𝑟!! ∆𝑚!
+
+
+
+                                                                                                 9
+Where 𝑟! is the distance from the axis of rotation to the 𝑖th fragment. Hence the sum of all
+
+particles would be
+                                          !              !
+
+                                  𝐼! =           ∆𝐼! ≅         𝑟!! ∆𝑚!
+                                         !!!             !!!
+
+
+Where 𝐼! is the moment of inertia of a disc. At this point, I encountered complications in
+
+integrating ∆𝑚! . This is because ∆𝑚! is dependent upon the location of the fragment (which
+
+makes it a function of 𝑟! . To proceed further, I rewrote ∆𝑚! in terms of 𝑟! . To do so, I first
+                                                    !    !
+defined the density of the material as 𝜌 = ! = !! where 𝑉 is its volume [ 13]. Rearranging
+
+and subsituting for ∆𝑚!
+
+                          ∆𝑚! = 𝜌∆𝑉! = 𝜌 ∆ℎ ∆𝐴! = 𝜌∆ℎ ∙ ∆𝑟 ∙ 𝑟! ∆𝜃
+
+Then from Figure 7, I realised that the area of a fragment, ∆𝐴! can be obtained through
+
+multiplying its sides, thus ∆𝐴! = ∆𝑟 ∙ 𝑟! ∆𝜃 . With this, I can rewrite the equation as
+
+                              ∆𝑚! = 𝜌 ∆ℎ ∆𝐴! = 𝜌∆ℎ ∙ ∆𝑟 ∙ 𝑟! ∆𝜃
+
+Subsituting this into the formula for moment of inertia
+                                         !
+
+                                  𝐼! ≅           𝑟!! ∙ 𝜌∆ℎ ∙ ∆𝑟 ∙ 𝑟! ∆𝜃
+                                         !!!
+
+
+By taking the limit 𝑛 → ∞, the summation becomes an integral
+
+
+                                  𝐼! =             𝑟 ! ∙ 𝜌∆ℎ ∙ 𝑑𝑟 𝑑𝜃
+                                          !"#$
+
+
+where   !"#$
+               is an abbreviation for integration over the whole disc. As the disc is circular
+
+with a radius of 𝑅, the r-intergral is from 0 to R and the 𝜃 integral is from 0 to 2𝜋. Therefore
+
+the integral would be
+                                    !!         !
+                                                   𝑟 ! ∙ 𝜌∆ℎ ∙ 𝑑𝑟 𝑑𝜃
+                                   !         !
+
+
+Taking out the constant, 𝜌∆ℎ
+
+
+
+
+                                                                                             10
+                                            !!          !
+                                  = 𝜌∆ℎ                     𝑟 ! 𝑑𝑟 𝑑𝜃
+                                            !           !
+
+                                                             ! !
+Integrating and substituting the boundaries of               !
+                                                               𝑟 𝑑𝑟
+
+                                                 !!           !
+                                                            𝑟!
+                                     = 𝜌𝛥ℎ                      𝑑𝜃
+                                                !           4 !
+
+                                                    !!
+                                                            𝑅!
+                                      = 𝜌∆ℎ                    𝑑𝜃
+                                                    !       4
+
+                                                                    !! ! !
+Finally integrating and subsituting the boundaries of               !  !
+                                                                           𝑑𝜃
+
+                                        1
+                                       = 𝜌𝑅! ∆ℎ 𝜃 !!
+                                                  !
+                                        4
+                                        1
+                                       = 𝜌𝑅! ∆ℎ(2𝜋)
+                                        4
+                                           1
+                                       𝐼! = 𝜌𝜋𝑅! ∆ℎ
+                                           2
+
+With the moment of inertia of a single disc, I can then proceed further by using this to
+
+calculate the moment of inertia of a top.
+
+
+
+
+                                                                                     11
+3.3 Moment of Inertia of a Top
+
+As mentioned earlier, a cylindrically symmetric body, such as a top, can be considered as
+
+stacked discs, where its moment of inertia will be the sum of the moment of inertia of the
+
+discs.
+
+Figure 8 shows such a disc with height 𝐻,
+
+spilt into 𝑁 discs where each of them has a
+
+thickness ∆ℎ. The 𝑖-th disc at height ℎ! has a
+
+radius (as a function of height) 𝑟! = 𝑟(ℎ! ).
+
+From what I have established above, the
+
+moment of inertia for one disc, ∆𝐼! would                         Figure 8 – Stacked Discs
+then be
+
+                                                1
+                                           ∆𝐼! = 𝜌𝜋𝑟!! ∆ℎ
+                                                2
+
+Subsituding 𝑟! = 𝑟(ℎ! )
+
+                                  1          1
+                             ∆𝐼! = 𝜌𝜋𝑟!! ∆ℎ = 𝜌𝜋 ∙ 𝑟(ℎ! )! ∆ℎ
+                                  2          2
+
+
+
+Hence the moment of inertia of the top, as the sum of the moment of inertia of its respective
+
+discs would be
+                                     !             !
+                                                         1
+                            𝐼!!" =         ∆𝐼! =           𝜌𝜋 ∙ 𝑟(ℎ! )! ∆ℎ
+                                                         2
+                                     !!!           !!!
+
+
+Taking the limit 𝑁 → ∞
+                                              !
+                                         1
+                                   𝐼!"# = 𝜌𝜋    𝑟(ℎ)! 𝑑ℎ
+                                         2   !
+
+
+Where the ℎ-integral is from 0 to 𝐻 due to that being the height of the top.
+
+
+
+
+                                                                                             12
+Section 4 : Optimization
+
+4.1 Varying the Shape of a Top
+
+Now that I have the formula for moment of inertia of a spinning top, I wanted to investigate
+
+the effect changing the base shape has on its moment of inertia. To do so, I set the slope of
+
+the top as a function of ℎ and investigated the moment of inertia for various shapes.
+
+                                             I started off by first considering the most basic top
+
+                                             shape – a cone (Figure 9). By substituting 𝑟 ℎ = ℎ
+
+                                             and integrating the function, the moment of inertia
+
+                                             becomes
+
+                                                  1    !
+                                                                1   1 ! !    1
+                                               𝐼 = 𝜌𝜋    ℎ! 𝑑ℎ = 𝜌𝜋   ℎ   =    𝜌𝜋𝐻!
+                                                  2   !         2   5   !   10
+
+
+
+  Figure 9 – top with sides 𝑟 ℎ = ℎ
+                                         !
+Substituting the volume of a cone, 𝑉 = ! 𝜋𝐻! into the moment of inertia of the top
+
+                                         1         3
+                                  𝐼=       𝜌𝜋𝐻! =    𝜌𝑉𝐻!
+                                        10        10
+
+And from 𝑚 = 𝜌𝑉
+
+                                         3         3
+                                   𝐼=      𝜌𝑉𝐻! =    𝑚𝐻!
+                                        10        10
+
+
+
+Afterwards, I investigated the moment of inertia of tops with sides of various power
+
+coefficient of ℎ. To enable a better comparison between the moment of inertia of various
+
+                                                  !! !
+shapes, I fixed the volume of the tops as V=       !
+                                                         (could be any consistent value, this is just
+
+for convenience).
+
+
+
+
+                                                                                                  13
+                                                 The volume of a top with sides 𝑟 ℎ = 𝑘 ℎ
+
+                                                 (Figure 10) can be written as the integral sum
+
+                                                 of its respective discs. As such a disc would
+
+                                                 have a volume of 𝜋𝑟 ℎ! ! , the volume of such
+
+                                                 a top would be
+                                                                    !
+
+                                                              𝑉≅         𝜋𝑟 ℎ! ! ∆ ℎ
+   Figure 10 – top with sides 𝑟 ℎ ∝ ℎ                              !!!
+
+
+
+
+Taking the limit 𝑁 → ∞
+                                          !
+                                    𝑉=        𝜋𝑟 ℎ ! 𝑑ℎ
+                                         !
+
+
+The proportionality constant 𝑘 of a top with volume 𝑉 and sides 𝑟 ℎ = 𝑘 ℎ (Figure 10)
+
+                                                                                  !! !
+could be obtained through substituting 𝑟 ℎ = 𝑘 ℎ into its volume, where V=             !
+
+                                             !
+                                 𝜋𝐻!
+                                     =           𝜋(𝑘 ℎ)! 𝑑ℎ
+                                  3       !
+
+
+Taking out the constant, 𝜋𝑘 !
+                                            !
+                                𝜋𝐻!
+                                    = 𝜋𝑘 !    ( ℎ)! 𝑑ℎ
+                                 3         !
+
+                                                    !
+Integrating and substituting the boundaries of      !
+                                                      (   ℎ)! 𝑑ℎ
+
+                                   𝜋𝐻!        1 ! !
+                                       = 𝜋𝑘 !   ℎ
+                                    3         2   !
+
+
+                                    𝜋𝐻!       1
+                                        = 𝜋𝑘 ! 𝐻!
+                                     3        2
+
+Solving for 𝑘
+
+                                             2
+                                         𝑘! = 𝐻
+                                             3
+
+
+
+
+                                                                                                 14
+                                                      2𝐻
+                                                𝑘=
+                                                       3
+
+Substituting into 𝑟(ℎ)
+
+                                                        !!!
+                                              𝑟 ℎ =      !
+
+
+                                     !!!
+With this, I can subsitute 𝑟 ℎ =      !
+                                              into the formula to obtain its moment of inertia
+
+                                                              !
+                                                  !
+                                      1                 2𝐻ℎ
+                                   𝐼 = 𝜌𝜋                         𝑑ℎ
+                                      2   !              3
+
+                                            !
+                                       1      4 ! !
+                                      = 𝜌𝜋     ℎ 𝐻 𝑑ℎ
+                                       2   ! 9
+
+                                                    !
+                                            4
+                                      =       𝜌𝜋𝐻!    ℎ! 𝑑ℎ
+                                           18      !
+
+
+
+
+Integrating and substituting
+
+                                          4     !
+                                                  1 ! !
+                                       =    𝜌𝜋𝐻     ℎ
+                                         18       3   !
+
+                                               4       1
+                                          =      𝜌𝜋𝐻! ∙ 𝐻!
+                                              18       3
+                  !! !
+Substituting V=    !
+                         and from 𝑚 = 𝜌𝑉
+
+                                        2       2
+                                     𝐼 = 𝜌𝑉 𝐻! = 𝑚 𝐻!
+                                        9       9
+
+From this, I realised that the moment of inertia of a top with sides 𝑟 ℎ ∝ ℎ is smaller than
+
+that of a cone-shaped top with sides 𝑟 ℎ = ℎ. Thus, I hypothesized that the sharper the base
+
+of the top, the larger its moment of inertia.
+
+
+
+
+                                                                                                 15
+                                            To investigate this, I considered the moment of inertia
+
+                                            of a top with sides 𝑟 ℎ ∝ ℎ! , which has a sharper
+
+                                            base than the 2 cases I have examined above
+
+                                                                       !! !
+                                            (Figure 11). With 𝑉 =       !
+                                                                              , the proportionality
+
+                                            constant 𝑘 would be
+                                                                               !
+                                                            𝜋𝐻!
+                                                         𝑉=     =                  𝜋 ∙ 𝑘 ! ℎ! 𝑑ℎ
+Figure 11 – top with sides 𝑟 ℎ ∝ ℎ     !                     3                !
+
+
+                                                                                  5 1
+                                                                  𝑘=
+                                                                                  3 𝐻
+
+Hence its moment of inertia would be
+
+                       1     𝐻         4            1             25                  25
+                   𝐼 = 𝜌𝜋 0
+                       2
+                                 𝑘ℎ2       𝑑ℎ = 𝑘4 ∙ 18 𝜌𝜋 ∙ 𝐻9 = 54 𝜌𝜋𝐻5 = 54 𝑚𝐻2
+
+As the moment of inertia of a top with sides 𝑟 ℎ ∝ ℎ! appears to have the highest moment
+
+of inertia among the cases I have examined so far, this supports my hypothesis that the
+
+sharper the base of the top, the larger its moment of inertia.
+
+
+
+4.2 Optimizing the Shape of a Top
+
+                                            From the cases I examined so far, it appears to be a
+
+                                            general trend where the larger the power coefficient
+
+                                            of ℎ, the larger its moment of inertia. This raises a
+
+                                            couple of questions : is there a power coefficient of ℎ
+
+                                            in which the moment of inertia is maximized ? If so,
+
+                                            what is it ? To find out, I considered a top with sides
+
+                                                                                                   !! !
+                                       !    𝑟 ℎ = 𝑘ℎ ! (Figure 12) and volume 𝑉 =                         .
+Figure 12 – top with sides 𝑟 ℎ ∝ ℎ                                                                  !
+
+
+
+
+                                                                                                              16
+The proportionality constant 𝑘 of such a top would be
+                                                   !
+                                      𝜋𝐻!
+                                   𝑉=     =            𝜋 𝑘ℎ ! ! 𝑑ℎ
+                                       3          !
+
+
+Taking out the constant, 𝜋𝑘 ! and simplifying
+                                                !
+                                       𝐻!
+                                          = 𝑘!    ℎ!! 𝑑ℎ
+                                       3       !
+
+                                                       !
+Integrating and substituting the boundaries of ! ℎ!! 𝑑ℎ
+
+                                                         !
+                                    𝐻!        1
+                                       = 𝑘!        ℎ!!!!
+                                    3       2𝑥 + 1       !
+
+
+                                       𝐻!     𝑘!
+                                          =        𝐻!!!!
+                                       3    2𝑥 + 1
+
+Rearranging and simplifying
+
+                                         𝑘!            1
+                                              𝐻! !!! =
+                                       2𝑥 + 1          3
+
+Solving for 𝑘
+
+                                                  2𝑥 + 1
+                                          𝑘! =
+                                                 3𝐻! !!!
+
+                                                 2𝑥 + 1 1
+                                    𝑘 𝑥 =±
+                                                   3   𝐻 !!!
+
+As the top is cylindrically symmetric, it doesn’t matter whether I take the positive or negative
+
+value of 𝑘(𝑥). Still, I will take the positive value of 𝑘(𝑥) so that r is positive.
+
+
+
+                                                                            !         !
+Substituting 𝑘(𝑥) into formula for the moment of inertia, 𝐼 = ! 𝜌𝜋 ! 𝑟(ℎ)! 𝑑ℎ and
+
+integrating with respect to 𝑑ℎ
+                                           !     !
+                                  𝐼(𝑥) = ! 𝜌𝜋 ! (𝑘 𝑥 ℎ ! )! 𝑑ℎ
+
+                                           !
+                                      1
+                                     = 𝜌𝜋    𝑘 𝑥 ! ℎ!! 𝑑ℎ
+                                      2   !
+
+
+
+
+                                                                                             17
+                                           !                   !
+                                  𝐼(𝑥) = ! 𝜌𝜋 ∙ 𝑘 𝑥 ! !!!! 𝐻!!!!
+
+                                                                                           !! !
+This gives me the moment of inertia for a a top with sides 𝑟 ℎ = 𝑘ℎ ! and volume 𝑉 =        !
+                                                                                                  .
+
+
+
+To find the value of 𝑥 in which the moment of inertia is maximized, I will take the derivative
+
+                                          !"(!)
+of 𝐼(𝑥) and set it to zero, calculating !! = 0 . Afterwards, I will plot the function to
+
+determine whether it is a maximum, minimum or point of inflexion.
+
+                          𝑑𝐼(𝑥) 1     𝑑          1
+                               = 𝜌𝜋 ∙    𝑘 𝑥 !        𝐻!!!!                    =0
+                           𝑑𝑥   2     𝑑𝑥       4𝑥 + 1
+
+Although the derivative seems complicated at first glance, it can be tackled through a series
+                                                                           !
+of chain, product and quotient rules. Let 𝑢! be 𝑘 𝑥 ! and 𝑣! be !!!! 𝐻!!!! , thus
+
+                   𝑑          1                             𝑑             𝑑𝑣!      𝑑𝑢!
+                      𝑘 𝑥 !        𝐻!!!!                =      𝑢! 𝑣! = 𝑢!     + 𝑣!
+                   𝑑𝑥       4𝑥 + 1                          𝑑𝑥            𝑑𝑥       𝑑𝑥
+                                  !!
+First, I used chain rule to find !"!
+
+                               𝑑𝑢!   𝑑                 𝑑𝑘 𝑥
+                                   =    𝑘 𝑥 ! = 4𝑘 𝑥 !
+                               𝑑𝑥    𝑑𝑥                 𝑑𝑥
+                                               !!
+Afterwards, I used product rule to find !!!
+
+         𝑑𝑣!   𝑑    1                4                        4
+             =           𝐻!!!! = −        ∙ 𝐻!!!! ∙ ln 𝐻 −          ∙ 𝐻!!!!
+         𝑑𝑥    𝑑𝑥 4𝑥 + 1           4𝑥 + 1                  4𝑥 + 1 !
+
+                                                    !   !          !
+Here, I used a series of chain rules to find !" !!!! and !" 𝐻!!!!
+
+             !!      !!       !
+Subsituting !"! and !"! into !" 𝑢! 𝑣!
+
+                                       𝑑             𝑑𝑣!      𝑑𝑢!
+                                          𝑢! 𝑣! = 𝑢!     + 𝑣!
+                                       𝑑𝑥            𝑑𝑥       𝑑𝑥
+
+                 4                        4                      𝑑𝑘 𝑥     1
+=𝑘 𝑥 !∙ −             ∙ 𝐻!!!! ∙ ln 𝐻 −        !
+                                                ∙ 𝐻!!!! + 4𝑘 𝑥 !      ∙        𝐻!!!!
+               4𝑥 + 1                  4𝑥 + 1                     𝑑𝑥    4𝑥 + 1
+
+Rearranging and simplifying
+
+
+
+
+                                                                                                18
+   𝑑          1                                    4                                    1      𝑑𝑘 𝑥
+      𝑘 𝑥 !        𝐻!!!!                =𝑘 𝑥 !          𝐻!!!! 𝑘 𝑥            ln 𝐻 −          +
+   𝑑𝑥       4𝑥 + 1                               4𝑥 + 1                               4𝑥 + 1    𝑑𝑥
+
+                        !"(!)
+Subsituting back into !"
+
+            𝑑𝐼(𝑥) 1             4                                              1      𝑑𝑘 𝑥
+                 = 𝜌𝜋 ∙ 𝑘 𝑥 !        𝐻!!!! 𝑘 𝑥                      ln 𝐻 −          +
+             𝑑𝑥   2           4𝑥 + 1                                         4𝑥 + 1    𝑑𝑥
+
+            !"(!)
+Solving for !" = 0
+
+             1              4                                    1          𝑑𝑘 𝑥
+               𝜌𝜋 ∙ 𝑘 𝑥 !        𝐻!!!!            ln 𝐻 −              𝑘 𝑥 +                  =0
+             2            4𝑥 + 1                               4𝑥 + 1       𝑑 𝑥
+
+
+
+                                                                                   !"(!)     !
+To proceed further from this point, I found the derivative of 𝑘 𝑥 via               !"
+                                                                                           = !! 𝑘(𝑥).
+
+                        !!!!      !
+Subtituding 𝑘 𝑥 =           !   ! !!!
+
+
+
+                                      𝑑𝑘(𝑥)   𝑑            2𝑥 + 1   1
+                                            =                       !!!
+                                      𝑑(𝑥)    𝑑𝑥             3    𝐻
+
+
+                                                 !!!!                  !
+Here, I used the product rule. Let 𝑢! be          !
+                                                          and 𝑣! be ! !!! , thus
+
+
+                       𝑑        2𝑥 + 1   1     𝑑             𝑑𝑣!      𝑑𝑢!
+                                         !!!
+                                             =    𝑢! 𝑣! = 𝑢!     + 𝑣!
+                       𝑑𝑥         3    𝐻       𝑑𝑥            𝑑𝑥       𝑑𝑥
+
+
+Using chain rule,
+
+                                                                                         !
+                    𝑑𝑢!   𝑑             2𝑥 + 1                3         1 2𝑥 + 1 !!
+                        =                      =                    ! =
+                    𝑑𝑥    𝑑𝑥              3                             3   3
+                                                           2𝑥 + 1   !
+                                                      4
+                                                             3
+
+Using quotient rule,
+
+                                 𝑑𝑣!   𝑑    1
+                                     =      !!!
+                                                = −𝐻!!!! ∙ ln 𝐻
+                                 𝑑𝑥    𝑑𝑥 𝐻
+            !!         !!        !
+Subsituting !"! and !"! into !" 𝑢! 𝑣!
+
+
+
+
+                                                                                                        19
+                                     𝑑             𝑑𝑣!      𝑑𝑢!
+                                        𝑢! 𝑣! = 𝑢!     + 𝑣!
+                                     𝑑𝑥            𝑑𝑥       𝑑𝑥
+                                         !                              !
+                        2𝑥 + 1 !    1         1 2𝑥 + 1 !!    1
+                     =−          ∙ !!! ln 𝐻 +             ∙ !!!
+                          3       𝐻           3   3        𝐻
+
+Rearranging and simplifying
+                                                       !
+                                     1        2𝑥 + 1 !   1
+                               =                              − ln 𝐻
+                                   𝐻 !!!        3      2𝑥 + 1
+
+                      !!!!     !
+Subtituding 𝑘 𝑥 =       !    ! !!!
+
+
+                                   𝑑𝑘(𝑥)        1
+                                         =𝑘 𝑥        − ln 𝐻
+                                   𝑑(𝑥)       2𝑥 + 1
+
+
+
+            !"(!)            !"(!)
+Subsituding !(!) back into !(!)
+
+ 𝑑𝐼(𝑥) 1             4                                       1            1
+      = 𝜌𝜋 ∙ 𝑘 𝑥 !        𝐻!!!!                  ln 𝐻 −           𝑘 𝑥 +        − ln 𝐻 𝑘(𝑥) = 0
+ 𝑑(𝑥) 2            4𝑥 + 1                                  4𝑥 + 1       2𝑥 + 1
+
+Taking out the constant, 𝑘 𝑥
+
+         1              4                                       1        1
+           𝜌𝜋 ∙ 𝑘 𝑥 !        𝐻!!!! 𝑘 𝑥               ln 𝐻 −          +        − ln 𝐻   =0
+         2            4𝑥 + 1                                  4𝑥 + 1   2𝑥 + 1
+                       !                     !
+Dividing both sides by ! 𝜌𝜋 ∙ 𝑘 𝑥 ! !!!! 𝐻!!!! 𝑘 𝑥
+
+                                           1      1
+                               ln 𝐻 −          +       − ln 𝐻 = 0
+                                         4𝑥 + 1 2𝑥 + 1
+
+                                                    2𝑥
+                                      =                       =0
+                                             (4𝑥 + 1)(2𝑥 + 1)
+
+                                                     𝑥=0
+
+         !"(!)
+However !! = 0 doesn’t indicate the nature of the function – this could be a maximum,
+
+minimum or point of inflexion. As calculating the 2nd derivative would be unefficient, I
+
+                                             !"(!)
+decided to plot the anti-derivative of !! , which is 𝐼(𝑥), on a graph. This will enable me to
+
+examine the nature of this point.
+
+
+                                                                                             20
+                                     1             1
+                               𝐼(𝑥) = 𝜌𝜋 ∙ 𝑘 𝑥 !        𝐻!!!!
+                                     2           4𝑥 + 1
+
+                       !!!!     !
+Subsituding 𝑘 𝑥 =        !     ! !!!
+
+
+                                          1      2𝑥 + 1 !
+                                    𝐼(𝑥) = 𝜌𝜋 ∙           ∙ 𝐻!
+                                          2     9 4𝑥 + 1
+
+In order to ensure that the function does not have a dimension, I divided both sides by 𝜌𝐻!
+
+        ! !    !      !!!! !
+Plotting !! ! = ! 𝜋 ∙ ! !!!!
+
+                                                                                      !"(!)
+                                                 The graph shows that when 𝑥 = 0, !! is a
+
+                                                 minimum. As 𝐼 < 0 is not physically
+
+                                                 possible, values of 𝐼 < 0 will be ignored.
+
+                                                 From its derivative, I know that there is no
+
+                                                 maximum, hence as x tends to infinity,
+
+                                                 moment of inertia I tends to infinity.
+
+
+
+
+          Figure 13 – Graph of !! !
+                                    ! !          This is in accordance with my hypothesis,
+
+                                                 where I proposed that the sharper the base of
+
+                                                 the top, the larger its moment of inertia.
+
+                                                 However, it is physically impractical to have
+
+                                                 a top with sides 𝑟 ℎ ∝ ℎ ! where x is a
+
+                                                 really large number (demonstrated in
+
+                                                 Figure 14). This is because such a top would
+
+                                                 have easily wobble over and could not
+                                          !"
+      Figure 14 – Graph of 𝑟(ℎ) = ℎ
+                                                 maintain a steady state due to the
+
+                                                 fundamental laws of physics.
+
+
+
+
+                                                                                                21
+For instance, the top would easily come into
+
+contact with the ground when precession
+
+occurs, which immediate stops the top from
+
+spinning. A possible alternative solution and
+
+area of further investigation would be to
+
+impose physical constraints to the shape of
+
+the top (Figure 16). By limiting the angle      Figure 16 – Possible physical constrains to
+
+between the base of the top and its maximum                the shape of the top
+
+radius for example, this could decrease the
+
+chances of the top falling over due to the
+
+sides being in contact with the ground. M
+
+
+
+
+                                                                                          22
+Section 5 : Conclusion
+
+5.1 Conclusion
+
+The aim of my exploration is to maximize the spinning time of a top through varying its base
+
+shape. To do so, I first analyzed forces acting on a spinning top. This has enabled me to
+
+identify factors that affect the spinning time of the top. Through my analysis, I realised that to
+
+maximize the spinning time of a top, I would have to minimize the deceleration caused by air
+
+drag and friction. To do so, I first looked into the relationship between angular momentum
+
+and torque of a point mass. Then, I used this knowledge to derive the relationship between
+
+angular acceleration and angular momentum. With this, I established that 𝐿 = 𝐼𝜔. As initial
+
+angular velocity is kept constant in my exploration, the spinning time of a top will be
+
+maximized when the moment of inertia is maximized. This is because the larger the moment
+
+of inertia, the smaller the angular deceleration caused by air drag and friction thus the longer
+
+the duration span.
+
+
+
+With the new focus of my exploration on maximizing the moment of inertia of a top through
+
+varying its base shape, I looked into how could I calculate the moment of inertia of a spinning
+
+top. To do so, I first started by considering the case of a point particle, before moving on to
+
+circular discs. By considering a spinning top as a stack of circular discs, I have successfully
+
+derived an equation for the moment of inertia of a top based on its slope.
+
+
+
+Afterwards, I applied my equation to tops of various shapes, including a cone-shaped top, a
+
+top with a circular base and a top with a thin base. From my calculations, I have realised that
+
+the top with a thin base had the largest moment of inertia. Thus, I hypothesized that the
+
+sharper the base of the top, the larger its moment of inertia.
+
+
+
+
+                                                                                                  23
+                                                                                      !! !
+To test my hypothesis, I considered a top with sides 𝑟 ℎ = 𝑘ℎ ! and volume 𝑉 =         !
+                                                                                             . To
+
+find the value of 𝑥 in which the moment of inertia is maximized, I calculated the value of 𝑥 in
+
+       !"(!)
+which !" = 0 . Through a complex series of algebraic manipulations, I arrived at a
+
+                    !"(!)
+solution. However !(!) = 0 doesn’t indicate the nature of the function – this could be a
+
+maximum, minimum or point of inflexion. As calculating the 2nd derivative would be
+
+                                             !"(!)
+unefficient, I plotted the anti-derivative of !(!) (which is 𝐼(𝑥)) on a graph to examine the
+
+nature of this point. My graph of 𝐼(𝑥) reveals that there is no maximum to the function, thus
+
+as x tends to infinity, moment of inertia I tends to infinity.
+
+
+
+Relating this to the aim of my exploration, I realised that it is physically impartical to have a
+
+top with sides 𝑟 ℎ ∝ ℎ ! where x is a really large number. This is due to a number of
+
+physical limitations, outlined in section 4.2. However, additional criterias could be imposed
+
+to create a spinning top with the maximum moment of inertia. Such areas of further
+
+investigations will be explored in section 5.3.
+
+
+
+5.2 Evaluation of Findings : Assumptions and Limitations
+
+There are multiple assumptions that I made, which would have affected the validity of my
+
+findings. First, I assumed the torque exerted by air drag is independent of the shape of the
+
+top. In reality however, drag force depends on both surface area and shape of the top. This
+
+was done to simplify the problem, which enabled me to focus on how the shape of the top
+
+affects its moment of inertia, hence time span. Moreover, I made an implicit assumption of
+
+the tops having the same maximum height 𝐻 when comparing between tops of different
+
+shapes. This was done to allow effective comparison, but if time allows, the influence of
+
+varying the height 𝐻 of the top should be investigated. Furthermore, I only invested tops with
+
+
+
+                                                                                                    24
+slopes that obey the function, 𝑟 ℎ ∝ ℎ ! . This is mainly to simplify my exploration, and to
+
+allow my exploration to remain focused on a goal. Further areas of research could include
+
+slopes of other functions, such as sinusoidal functions and piecewise functions. Additionally,
+
+I only investigated the base of the top, disregarding the handles. Although this limits how
+
+generalizable my findings are, its effects could be easily calculated by adding the moment of
+
+inertia of the handle into the moment of inertia of the whole top. Lastly, I ignored the
+
+complications in precession when angular speed of a top drops below the threshold required
+
+to remain a steady precession. This is because at that point, the top starts to wobble and the
+
+precession becomes complicated (beyond my understanding of physics). However, it is still a
+
+general case where the lower the deceleration, the longer the top spins for. This is also a
+
+reason why it will be challenging to calculate the exact duration the top spins for. Realising
+
+such complications, I decided to focus my investigation on the relationship between spinning
+
+time of the top and its base shape as opposed to determining an exact duration.
+
+
+
+
+                                                                                                 25
+Bibliography
+
+[1] (image) http://thegadgetflow.com/portfolio/inception-spinning-top-replica-15/
+
+[2] (image) https://www.allaboutcircuits.com/tools/torque-conversion-calculator/
+
+[3] [7] [8] [10] [11] [12] http://hyperphysics.phy-astr.gsu.edu/hbase/amom.html#am
+
+[4] https://aapt.scitation.org/doi/abs/10.1119/1.4776195
+
+[5] https://www.math.ucla.edu/~josephbreen/Understanding_the_Dot_Product_and_the_Cross_Product.pd
+
+[6] https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/1.-vectors-and-
+
+matrices/part-c-parametric-equations-for-curves/session-19-velocity-and-
+
+acceleration/MIT18_02SC_pb_20_comb.pdf
+
+[9] https://www.mathsisfun.com/algebra/vectors-cross-product.html
+
+[13] https://www.thoughtco.com/what-is-density-definition-and-calculation-2698950
+
+
+
+
+                                                                                                       26
+

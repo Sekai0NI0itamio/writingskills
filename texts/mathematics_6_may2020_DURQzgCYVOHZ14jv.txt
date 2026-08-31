@@ -1,0 +1,429 @@
+Mathematics Analysis and
+Approaches HL
+
+
+PROVING FERMAT’S LITTLE
+THEOREM
+
+Page Number:10
+]\
+
+
+
+INTRODUCTION
+The aim of this investigation is to prove Fermat's little theorem. The topic is of significance because
+by making use of Fermat's Little Theorem; it becomes possible to analyze big-digit numbers and
+determine whether they are prime or composite numbers. This topic is important to me because I am
+very interested in learning more about prime numbers. What makes prime numbers so interesting to
+me is because of their usefulness and vast properties in mathematics such as the whole number line
+can be produced using prime numbers. I have read a vast amount of math number theory related to
+prime numbers, such as the Eratosthenes Sieve Algorithm and The Prime Number Theorem. For
+instance Sieve's Algorithm allows anyone to quickly identify prime numbers up to a limit. That is
+possible by crossing out the numbers composite by the prime numbers .On the other hand, the prime
+number theorem discovered by Jacques Hadamard allows mathematicians to determine the amount of
+prime numbers until a specific range. The most unique characteristic of prime numbers is that the
+further away you go, the rarer they become and thus harder for us to identify them. This is why
+Fermat's little theorem is so famous and relevant. We are able to try out numbers and prove whether
+they are prime or composite with a simple expression, and that is why it was even more exciting for
+me to carry out this project.
+
+
+
+FERMAT’S LITTLE THEOREM1
+Fermat’s little theorem states: Let p be a prime number, and a be and integer.
+Then ap-a is always divisible by p.
+
+
+In modular arithmetic notation, this theorem can be written as:
+
+
+
+                                          ap ≡a mod p
+This notation has the meaning that if we take an integer a and set it in power of p (where p is a prime)
+and then ap is divided by p, we would be able to obtain the same remainder as if we divided a by p.
+
+
+For instance; let's take the integer a=4 and the prime number p=3.
+From Fermat’s little theorem we would obtain:
+
+
+
+
+1
+ "Fermat's Little Theorem | Brilliant Math & Science Wiki."
+https://brilliant.org/wiki/fermats-little-theorem/. Accessed 5 Jul. 2020.
+
+
+                                                                                                           1
+]\
+
+
+
+                                          43 ≡4 mod 3
+Now if we write these numbers in the remainder form we would get:
+                                                   43=64
+64= 3×21 + 1
+4= 3×1 + 1
+As it can be clearly seen in the example above, the remainder of 64 and 4 after divided by 3 is 1,
+meaning that for this scenario the theorem works.
+
+
+
+
+The modular arithmetic notation form is going to be used in order to prove the theorem to be true,
+however in order to get into that much detail, we need to first understand what modular arithmetic is
+and what its principles are.
+
+
+
+
+PRIME NUMBERS2
+A prime number p is a natural number greater than 1, that is not a product of two smaller natural
+numbers. A natural number greater than 1 that is not a prime number is called a composite number.
+
+
+For instance, number 7 is a prime number because the only ways of writing it as a product is through ,
+1×7 or 7×1. However 6 is a composite number because despite the fact that it can be written as 6×1;
+and 1×6, it can also be written as 3×2 and 2×3.
+
+
+Prime numbers are central in number theory, because every natural number greater than 1 is either a
+prime itself or can be factorized as a product of primes that is unique up to their order.
+
+
+
+MODULAR ARITHMETIC3
+Modular arithmetic is a system of arithmetic that works with integers and their remainders. In modular
+arithmetic numbers (integres) reach upon a fixed quantity, which is called modulus in order to leave a
+remainder.
+
+
+2
+  "Prime Numbers | Brilliant Math & Science Wiki."
+https://brilliant.org/wiki/prime-numbers/. Accessed 21 Feb. 2021.
+3
+  "Modular Arithmetic | Brilliant Math & Science Wiki."
+https://brilliant.org/wiki/modular-arithmetic/. Accessed 5 Jul. 2020.
+
+
+                                                                                                        2
+]\
+
+
+A famous usage of modular arithmetic is a 12-hour clock. For instance; if the time right now happens
+to be 9 o’clock in the morning , after 4 hours it is going to be 1 o’clock in the evening and not 13:00
+o’clock. In the same way in this example the remainder of 13 modulus 12 is going to be 1.
+In other words: 13= 12×1 + 1.
+
+
+The way how we would right this example in the modular arithmetic expression is going to be :
+
+
+
+                                          13 mod 12
+
+This means that if we take the number 13 and divide it with the number 12 (or modulus 12) we would
+obtain the remainder equal to 1.
+
+
+From this example we can get into a more general expression of modular arithmetic which is:
+
+                                          a mod N                where a;N are integers
+
+
+
+
+CONGRUENT INTEGERS IN MODULAR ARITHMETIC
+Two integers a and b are said to be congruent with each other if a mod N and b mod N have the same
+remainder after they have been divided by N. The word congruent is going to be meant through the
+usage of the symbol ≡ .
+
+
+In this case the we say that:
+
+
+
+                                   a ≡b mod N where a;b;N are integers
+
+For instance let's take again the modulus N as 12 and the inger a = 15 and the integer b= 27.
+
+
+
+
+                                                                                                          3
+]\
+
+
+Then:
+
+                                   15 mod 12 will have a remainder of 3
+and
+
+                                   27 mod 12 will have a remainder of 3
+Since 15 mod 12 and 27 mod 12 have the same reminder we can say that
+
+
+
+                                   27 ≡15 mod 12
+
+
+ADDITION IN MODULAR ARITHMETIC
+
+When the remainder of a mod N is added to the remainder of b mod N, then it becomes possible to say
+that this remainder is equal to the remainder of a+b mod N.
+
+
+Another way to present this principle is:
+
+
+                a mod N + b mod N= a+b mod N
+For instance; let's take the integers a=9 and the integer b=10 and let's take N=8. By this we obtain:
+
+                9 mod 8 + 10 mod 8= 9+10 mod 8
+9 mod 8 has a remainder of 1 (9 = 8×1 + 1)
+10 mod 8 has a remainder of 2 (10 = 8×1 + 2)
+9+10 mod 8 = 19 mod 8 has a remainder of 3 (19= 8×2 + 3)
+So the remainder of 9 mod 8 = 1 plus the remainder of 10 mod 8 = 2 gives us the remainder of 19
+mod 8 which is equal to 3 (2+1).
+
+
+In case that the sum of the remainders of two integers mod N is equal to the modulus or bigger than
+the modulus, then you need to take the mod N of that integer too.
+
+
+
+
+                                                                                                        4
+]\
+
+
+
+MULTIPLICATION IN MODULAR ARITHMETIC
+When the remainder of a mod N is multiplied to the remainder of b mod N, then it becomes possible to
+say that this remainder is equal to the remainder of a×b mod N.
+
+
+Another way to present this principle is:
+
+                a mod N × b mod N= a×b mod N
+
+For instance; let's take the integers a=9 and the integer b=10 and let's take N=8. By this we obtain:
+
+                9 mod 8 × 10 mod 8= 9×10 mod 8
+
+9 mod 8 has a remainder of 1 (9 = 8×1 + 1)
+10 mod 8 has a remainder of 2 (10 = 8×1 + 2)
+9×10 mod 8 = 90 mod 8 has a remainder of 2 (90= 8×11 + 2)
+So the remainder of 9 mod 8 = 1 multiplied to the remainder of 10 mod 8 = 2 gives us the remainder
+of 90 mod 8 which is equal to 2 (2×1).
+
+
+
+
+In case that the multiplication of the remainders of two integers mod N is equal to the modulus or
+bigger than the modulus, then you need to take the mod N of that integer too.
+
+
+Note: The modulus N of a=0 is always going to have a remainder of 0.
+
+
+
+PASCAL’S TRIANGLE4
+Pascal’s triangle is a triangular array of the binomial coefficients constructed by summing adjacent
+elements in preceding rows. It rises in combinatorics, algebra and probability theory. It was named
+after the 17th century French mathematician, Blaise Pascal.
+
+
+
+
+4
+ "Pascal's Triangle | Brilliant Math & Science Wiki."
+https://brilliant.org/wiki/pascals-triangle/. Accessed 27 Dec. 2020.
+
+
+                                                                                                        5
+]\
+
+
+Fig. 1 Representation of the Pascal’s triangle
+
+
+
+
+It begins by placing a 1 at the top center of the triangle as shown in Fig.1. The following row down of
+the triangle is formed by summing adjacent elements in the previous row. Pascal's triangle has an
+infinite number of rows.
+The top row is considered to be the 0th row . The following one is the 1st, and the next one the 2nd and
+so on (infinitely). In each row the leftmost element is the 0th element of the row, and the n to the right
+of that is the 1st element and then the 2nd and so on.
+
+
+In less words each nth (from n=0) row has an n+1 element/s.
+Another way to find the binomial coefficients in the Pascal's Triangle is through nCr formula, where n
+is the row and r is the element of the row.
+
+        𝑛!
+nCr= 𝑟!(𝑛−𝑟)! ; (n,r≥0)
+
+
+Example:
+
+The binomial coefficient in the 2nd row and 2nd element of the row is:
+
+        2!       2×1      2
+2C2= 2!(2−2)! = 2×1(0)! = 2 = 1
+
+
+Now we can use nCr in order to find the binomial coefficient of the expansion terms for every
+binomial in every power.
+
+(x+y)n = xn + nxn-1y + ... +nCr xn-r yr + ... +nxyn-1 + yn (The Pascal’s triangle is going to be used later in
+the proof.)
+
+
+
+
+                                                                                                                 6
+]\
+
+
+
+PROVING FERMAT’S LITTLE THEOREM5
+Lets restate what Fermat’s little theorem says again:
+Fermat’s little theorem states: Let p be a prime number, and a be and integer.
+Then ap-a is always divisible by p.
+
+                                          ap ≡a mod p
+     1) First we are going to deal with {0} or in other words when a=0.
+        a=0 => 0p mod p = (0 × 0 × … × 0) mod p ≡ 0 mod p × … × 0 mod p = 0
+        Thus 0p mod ≡ 0 □
+     2) Now we are going to prove the theorem to be prove for a∈Z+
+        For nonnegative a we give a proof by induction on a
+        Basic step
+        a=1;
+        ap mod p = 1p mod p = (1 × … × 1)p mod p≡1 mod p × … × 1 mod p ≡ 1 mod p
+         1 mod p = a mod p □
+        Assumption
+        For a random but fixed a∈Z+, a≥1 we assume that ap mod p ≡ a mod p is true.
+        Inductive step
+
+
+        Investigate for a+1 : (a+1)p≡ a+1 mod p.
+
+
+        Then using binomial theorem can write (a+1)p as:
+                                                         𝑝
+                                             (a+1)p = ∑ pCr ap-r
+                                                        𝑟=0
+
+                       (a+1)p = pC0 ap + pC1 ap-1 + pC2 ap-2 + … + pCp-1 a + pCp 1
+        Another thing we know is that nCr or in this case pCr can be written as:
+                                                  p          𝑝!
+                                                  Cr= 𝑟!(𝑝−𝑟)!
+
+        This means that all the coefficients in front of a are ≡ 0 mod p except for the first one and the
+        last one.
+                                              p
+                                               C0 ap + ... + pCp 1
+                                      Are the only ones not divisible by p
+
+
+5
+ "Fermat's Little Theorem | Brilliant Math & Science Wiki."
+https://brilliant.org/wiki/fermats-little-theorem/. Accessed 6 Jul. 2020.
+
+
+                                                                                                        7
+]\
+
+
+        The reason why is because pC0 and pCp in Pascals Triangle are always equal to 1.
+                                     p            𝑝!           𝑝!       𝑝!
+                                       C0= 𝑟!(𝑝−𝑟)! = 0!(𝑝−0)! = 𝑝! = 1
+
+                                            p            𝑝!         1
+                                             C9= 𝑝!(𝑝−𝑝)! = 0! = 1
+        So the only part not divisible by p is:
+
+
+                                                       ap + 1 so:
+                                          (a+1)p≡ (ap+1) mod p
+                                (ap+1) mod p≡ ap mod p + 1 mod p
+        However in the beginning of the Theorem proof , we have considered ap mod p as true and
+        equal to a mod p. So:
+                (ap+1) mod p≡ ap mod p + 1 mod p≡ ap mod p + 1 mod p;
+                                                         and
+                                ap mod p + 1 mod p ≡ ap + 1 mod p □
+        Final Statement
+        Since a=1 was shown to be true and it was also shown that if the statement is true for some ap
+        mod p ≡ a mod p, it is also true for (a+1)p≡ a+1 mod p, a∈Z+ , it follows by the principle of
+        mathematical induction that the statement is true for all positive integers.
+     3) Now we are going to prove the theorem to be true for a∈Z-.
+        (-a)p≡ (-a) mod p.
+        Prime numbers can be:
+            -   Even: only the number 2
+            -   Odd: every other prime number like 1, 3, 5 ,7 etc.
+        Even:
+        (-a)2 = a2 ≡ -(a) mod 2; However we have proven that positive integers as a2 are congruent
+        with a mod 2, hence proving that a2 ≡ a mod 2. □
+        Odd:
+        (-a)p ≡ (-a) mod p => -1 × ap ≡ -1 × a mod p (so now we can remove -1) => ap ≡ a mod p. □
+
+
+                             Quod erat demonstrandum (Q.E.D)
+
+
+
+
+                                                                                                        8
+]\
+
+
+
+APPLICATION OF THE THEOREM 6
+Fermat’s little theorem has authentic applications in the world. Similar to other number theory based
+upon prime numbers, this one is likewise used in the RSA-cryptography. RSA is an encryption
+algorithm used from websites and companies to transmit messages over the internet securely. RSA is
+based upon the difficulty of factoring large composite numbers and hence allowing the person who
+knows the factoring numbers to see the message. Because of the difficulty in breaking RSA, it
+becomes usable everywhere encryption is needed, such as online shopping, banking, password
+exchange, etc. RSA strength is based upon the size of the number. For instance, when the number is
+155 digits, it is insecure and simple for someone to factor the number since computers have innovated
+more and more over time. For instance, Israeli researchers were able to extract a 4096-bit number in
+under an hour.
+
+CONCLUSION
+Even though Pierre de Fermat wrote Fermat's little theorem in 1640, it required 96 years for Euler to
+provide the first proof of this theorem. Over the years, the theory has proven to possibly be one of the
+most important theorems in mathematics, making it possible for everyone to determine whether a
+number is prime or composite. Because of the proof of this theorem, Euler was able to come up with
+his phi function or Euler's totient function where it becomes possible to find the number of integers up
+to a given integer n that are relatively prime to n. Fermat's theorem has also led to new ideas and ways
+to improve the theorem itself, such as the AKS 7 - primality test, published in 2002 at the Indian
+Institute and Technology Kanpur. This test allows us to determine whether any given number is prime
+or composite, just as Fermat's theorem. A further extension to the theorem and the IA would be the
+investigation of the Rabin-Miller primality test.8Like Fermat's little theorem, this test allows us to
+determine whether a number is prime. Compared to Fermat, this theorem relies more upon the
+unproven Riemann hypothesis9 instead of the modular arithmetic, thus making Fermat's theorem more
+reliable since the Riemann hypothesis has not been proven yet. The only limitation that Fermat's little
+theorem provides is that it proves to be va1lid only with prime numbers.
+
+
+
+
+6
+  "RSA Encryption | Brilliant Math & Science Wiki." https://brilliant.org/wiki/rsa-encryption/. Accessed
+6 Jul. 2020.
+7
+  "AKS primality test - Wikipedia." https://en.wikipedia.org/wiki/AKS_primality_test. Accessed 27 Dec.
+2020.
+8
+  "Miller–Rabin primality test - Wikipedia."
+https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test. Accessed 27 Dec. 2020.
+9
+  "Riemann hypothesis - Wikipedia." https://en.wikipedia.org/wiki/Riemann_hypothesis. Accessed 27
+Dec. 2020.
+
+
+                                                                                                           9
+

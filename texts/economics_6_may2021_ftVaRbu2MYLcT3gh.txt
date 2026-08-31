@@ -1,0 +1,243 @@
+IBDP HL Economics Internal Assessment
+         Macroeconomics Commentary
+
+              Word Count: 749
+
+
+
+
+                 Page 1 of 7
+Singapore announces new economic stimulus package to tackle pandemic
+
+April 6, 2020 (Mainichi Japan)
+
+SINGAPORE (Kyodo) -- The Singapore government on Monday announced a third
+
+economic stimulus package to help tide over the impact of the coronavirus pandemic
+
+by pumping in S$5.1 billion (US$3.55 billion), raising the total amount committed to
+
+S$59.9 billion, about 12 percent of gross domestic product.
+
+
+
+
+Most of the amount in the third package -- about S$4 billion -- has been earmarked for
+
+providing additional support for businesses and workers.
+
+
+Under the latest package, the government will pay 75 percent on the first S$4,600 of
+
+the monthly wage of every local worker for this month as Singapore will be under a
+
+month-long partial lockdown starting Tuesday.
+
+
+Thereafter, as announced in the earlier package, the percentage of wages the
+
+government pays will vary based on sectors, with the 75 percent level reserved for the
+
+worst-hit airline and tourism industry.
+
+
+The government will also spend S$1.1 billion under this latest package for a one-off
+
+cash payment of S$600 in cash for every Singaporean, in addition to what was
+
+announced earlier.
+
+
+"This is an unprecedented budget, for extraordinary times," Deputy Prime Minister
+
+Heng Swee Keat, who is also finance minister, said in announcing the latest package
+
+in Parliament.
+
+
+
+
+                                          Page 2 of 7
+Under the partial lockdown, nonessential businesses have been ordered closed, while
+
+schools and universities will adopt home-based learning as the government tightens
+
+its precautionary measures due to signs of a community spread, with a jump in the
+
+number of local transmissions.
+
+
+Singapore had earlier imposed border controls, with short-term visitors banned from
+
+the entering or transiting through the city-state.
+
+
+"The situation remains highly fluid and uncertain. The government stands ready to
+
+provide further support, should it become necessary," Heng said.
+
+
+The number of new infections in Singapore jumped by 120 on Sunday -- the highest
+
+for a single day -- to 1,309. Of the new cases, 116 involve local transmissions.
+
+
+The global pandemic has taken a big economic toll on the small and resource-poor
+
+island-state, which depends heavily on trade, tourism, and its position as a regional
+
+headquarters for businesses, a financial hub, an air hub and a popular venue for
+
+conventions.
+
+
+https://mainichi.jp/english/articles/20200406/p2g/00m/0in/087000c
+
+
+
+
+                                        Page 3 of 7
+Commentary
+
+       This article discusses Singapore’s third fiscal spending package amounting
+
+S$5.1 billion targeting the recessionary impacts resulting from COVID-19 to the
+
+economy.
+
+       Government spending - “spending undertaken by the government… to meet
+
+particular economic and social objectives” (Tragakes, 2012) is one of the injection
+
+elements of fiscal policy. It promotes the growth of aggregate demand in fighting a
+
+recession - negative growth of GDP for more than two consecutive quarters. As high
+
+economic growth and employment level are imperative objectives, expansionary fiscal
+
+policy – “an increase in government spending or a decrease in taxes” (Tragakes, 2012)
+
+is effective in fulfilling those objectives by promoting AD for total domestic output and
+
+maintaining high employment. Demand for labour is a derived demand which comes
+
+from demand for output; maintaining AD for output would also maintain job
+
+opportunities and reduce demand deficient unemployment.
+
+
+
+
+                                       Page 4 of 7
+       Shown diagrammatically, expansionary demand-side policy may lead to
+
+multiplier effects. Government injection towards the economy (AD1 → AD2) would lead
+
+to people spending a proportion of their extra incomes based on their marginal
+
+propensity to consume and it will become other peoples’ extra incomes, passing on
+
+the multiplier expansionary effects. Thus, the net expansion and growth on real GDP
+
+(Y1 → Y3) would be multiple of the value of the initial injection (AD2 → AD3), closing the
+
+recessionary gap. However, inflation and price change may occur (P1 → P2) if the AD
+
+shift reaches the upward-sloping part of the Keynesian AS curve and may bring forth
+
+demand-pull inflation if further growth occurs.
+
+       The Singaporean government will also pay up to 75% of monthly wage that will
+
+“vary based on sectors”. This maintains take-home salary for workers and maintains
+
+consumption which may prevent AD from falling rapidly. The policy may help to
+
+maintain standards of living and social stability, ensuring that workers can afford basic
+
+needs and prevent further increases in unemployment levels as firms can afford wage
+
+costs and avoid loss of workforce.
+
+       Moreover, a “one-off cash payment of S$600”, a type of transfer payment, will
+
+be paid to every Singaporean regardless of income. This is essential to maintain
+
+income and to protect lower-income groups as they may not benefit from the 75%
+
+monthly wage due to unemployment. Considering that the marginal propensity to
+
+consume among low-income groups is much higher than higher income groups, such
+
+payments would ensue most of the subsidies are directly injected into the circular flow
+
+of income - this increases effectiveness in boosting AD. More significantly, it would
+
+help to avoid poverty and allow meeting of basic standards of living. The distribution
+
+of income would also improve as most of the spending is drawn from social resources
+
+that are obtained from taxation.
+
+                                        Page 5 of 7
+       The “total amount committed” to the three COVID-19 fiscal policies amounts to
+
+S$50.9 billion, 12% of Singapore’s GDP. To finance the policies, the government
+
+would likely have to borrow from the private sector, engaging in deficit spending.
+
+Therefore, the demand for money would increase in tandem with the rate of interest,
+
+actuating crowding out effects and offsetting the expansionary impact of the fiscal
+
+stimulus policies. Firms may also be disincentivized from investing, potentially leading
+
+to lower investment spending in the economy in the long run, hindering potential
+
+growth. The central bank may use expansionary monetary policy to mitigate the risks
+
+of crowding-out effect. As the economy is producing substantially less than potential
+
+GDP, inflationary impacts on interest rates are minimal due to plenty of unemployed
+
+capital in the financial market. Effects of crowding out may be negated by the lower
+
+interest rates brought by expansionary monetary policy.
+
+
+       Additionally, downward sticky price in labour and other factor markets inhibit an
+
+economy from returning to full employment level amidst a recession - firms will reduce
+
+production and lay-off workers in lieu of reducing pay to cut costs due to sticky wages.
+
+Consumption, investment, and employment level would plunge further down due to
+
+poor confidence and uncertainty in the market. Companies may be hesitant to hire
+
+new workers because of the high short-term cost. Monetary policy may be less
+
+effective than fiscal policies as the private sector would not be incentivized to expand
+
+in fear that interest rates may go up in the future. However, government subsidization
+
+of 75% monthly wages in the short-term could effectively tackle the risks of downward
+
+sticky prices and low confidence.
+
+       In conclusion, expansionary fiscal policy is effective in the short run, but
+
+negative consequences may occur as a result. Implementing expansionary monetary
+
+
+
+                                       Page 6 of 7
+policy may help offset those consequences and promote economic growth and
+
+consumption.
+
+
+
+
+                                Page 7 of 7
+

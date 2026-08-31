@@ -1,0 +1,775 @@
+1. Research Question: How does increasing temperature (298.15±0.50K, 303.15±0.50K, 308.15±0.50K,
+313.15±0.50K, 318.15±0.50K) impact the cell potential (Ecell) (V), and hence equilibrium constant (𝑲𝒄 ), in the iron-
+zinc galvanic cell? The aim is to explore the nature of the relationship between temperature and Ecell, and temperature
+and 𝐾𝑐 in a galvanic cell. The investigative approach involves constructing an iron-zinc galvanic cell from iron and zinc
+half cells. Cell Potential (Ecell) (V) is the “propulsion of electrons” in a cell measured in volts (Barrett, Navarro and
+Koressel) and the equilibrium constant (𝐾𝑐 ) represents the equilibrium ratio of products to reactants. The net reaction
+explored is: Fe2+ (aq) + Zn(s) → Zn2+ (aq) + Fe(s) .
+
+2. Introduction: Lithium-iodide and lithium-ion batteries are galvanic cells storing chemical energy, where lithium is
+oxidised (Zumdahl, Zumdahl and DeCoste). Researchers are exploring replacements for lithium due to natural resources
+like freshwater being exhausted in extraction processes, as well as health and safety risks in usage (Grossman). An IIT
+Madras study illustrated the fruitful nature of utilising iron-based cells instead (Prasad). When the iron alloy steel is present
+under pure carbon, it can be oxidised like lithium, however since iron’s reduction potential is greater than lithium,
+researchers are exploring the use of iron cathodes in galvanic cells (Prasad). Xu and Wang’s study suggests an alternative
+to a lithium reducing agent is zinc; zinc-ion cells are described as having “high safety nature, low cost, and [high]
+environmental friendliness” (Xu and Wang) where zinc is oxidised. The iron-zinc galvanic cell has been researched to an
+extent. Xie, Duan and Xu have proposed a “neutral zinc–iron flow battery” that has “high energy density for stationary
+energy storage” and “low-cost” (Xie, Duan and Xu). These traits make this cell an ideal replacement for lithium-iodide
+batteries in artificial pacemakers, which needs to store and release electrical impulses over intermittently. These are
+electrical devices maintaining the myogenic contractions of the heart by sending out electrical impulses (Markou and
+Theophilidis). The internal conditions of the human body demand that pacemakers withstand a range of temperatures, to
+avoid malfunction. If iron-zinc batteries were to be used in pacemakers, it is important to research the cell potential to see
+the magnitude of the propagation of an electromotive force under different conditions. Furthermore, a galvanic cell
+illustrating a voltage evidences the system is not being in equilibrium. By researching 𝐾𝑐 and temperature, researchers
+can make informed decisions as to the concentrations to use in cells to increase battery life (i.e., keep the reaction quotient
+(𝑄𝑐 ) far from the 𝐾𝑐 initially so a long period of time is taken for 𝑄𝑐 =𝐾𝑐 which is when no voltage is produced). It is
+acknowledged that this is only a small step in the wider research for the replacement of lithium-based batteries, however
+it is contemporarily relevant to carry out this investigation as certain literature point out research in “high temperature is
+still lacking and researchers need to put more efforts to promote its development” (Xu and Wang).
+3. Background – 3.1 Galvanic Cells: Galvanic cells (also known as voltaic cells) generate Ecell from spontaneous
+reduction-oxidation (redox) reactions due to the movement of electrons. Half cells are made by depositing a solid metal
+into a solution of its own metal ions (Brown and Ford). The relationship between the solid metal and the solution of its
+metal ions is represented by standard electrode potentials (V). These values are calculated when the half-cell is attached
+to a standard hydrogen electrode (SHE), which has a half cell potential of 0V at 298K (Brown and Ford). The standard
+electrode potential provides a quantitative measure of the reduction potential of the metal ion in question. The more
+positive a standard electrode potential, the greater the reduction potential. In a galvanic cell, the half-cell with the more
+positive standard electrode potential will be cathode and site of reduction whilst the other half cell will serve as the anode
+and site of oxidation. For these individual half cells to become a galvanic cell, the ‘circuit’ must be completed. A salt
+bridge is therefore required; it is a bent piece of absorptive material soaked in a solution of salt. The salt bridge ions move
+to either half-cell to stop a net charge building up, it should be noted the salt should be chosen as to not interfere with the
+reactions at the anode and cathode. The overall cell potential of the galvanic cell is found by connecting the electrical
+wires to a voltmeter, or in the instance of this investigation, a Multimeter.
+3.2 Iron-Zinc Galvanic Cells: The reversible reactions (right) illustrate the reduction of
+the metals in the half cells, because Fe2+ has a more positive electrode potential value,
+it will be the more readily reduced species and hence this experiment has      Figure 1 - Standard electrode potential values at
+an iron cathode and zinc anode.                                               298K (International Baccalaureate Organization)
+ Half-Reaction at the cathode (Reduction)                                          Fe2+ (aq) + 2e− ⇌ Fe(s)
+ Half-Reaction at the anode (Oxidation)                                            Zn(s) ⇌ Zn2+ (aq) + 2e−
+ Net reaction (Forward)                                                     Fe2+ (aq) + Zn(s) → Zn2+ (aq) + Fe(s)
+ Net reversible reaction                                                    Fe2+ (aq) + Zn(s) ⇌ Zn2+ (aq) + Fe(s)
+ Cell diagram convention                                                      Zn(s) | Zn2+ (aq) || Fe2+ (aq) |Fe(s)
+                           Table 1 – Relevant chemical equations to the investigation, and cell diagram.
+
+
+
+                                                                1
+      The solution at the cathode and anode was 1.0M ferrous (II) sulphate and 1.0M zinc sulphate, respectively. The salt bridge,
+      represented by the double-vertical line on the cell diagram, is 1.0M potassium nitrate solution. Galvanic cells are
+      spontaneous and exothermic (Columbia University).
+      3.3 Reaction Quotient and Equilibrium Constant: 𝐾𝑐 is
+      the equilibrium constant, it represents the equilibrium
+      ratio of products to reactants. Its value can only be
+      affected by temperature. Its magnitude suggests whether
+      the equilibrium lies greater on the product or reactant side
+      (fig.2). To find the 𝐾𝑐 , the reaction quotient (𝑄𝑐 ) is
+      needed, which represents the ratio between products and
+      reactants in a chemical reaction. 𝑄𝑐 has the same Figure 2 - Magnitude of Kc on a number line (Brown and Ford)
+                              [𝐶]𝑐 [𝐷]𝑑
+      equation as 𝐾𝑐 ,                    (LibreTexts). For a
+                              [𝐴]𝑎 [𝐵]𝑏
+      heterogenous mixture like the iron-zinc galvanic cell only reactants or products that are not pure liquids or solids are used
+      in the equation. Equimolar solutions were used, since these solutions were previously made by the technician, the
+      uncertainty had already been propagated and provided for both (table 2). Though it is understood that 𝑄𝑐 is not a constant
+      and the system will change concentrations by favouring the forward or reverse reaction to reach the 𝐾𝑐 value, this
+      experiment does assume it is constant to some extent since it is replaced every set of trials, with each set of trials taking
+      less than 20 seconds. There is potentially a great systematic error, if the figure does not deviate from 1.00 ± 5.9 × 10 −2,
+      however, to adhere to green chemistry principles and lack of chemicals available, this decision was made. Furthermore,
+      it can be categorically stated, that if at 𝑄𝑐 and 𝐾𝑐 = 1.00 ± 5.9 × 10 −2, then Ecell will be 0V.
+                    𝑐
+                 [𝐶] [𝐷]
+                         𝑑       [Zn2+ (aq) ][Fe(s) ]       [Zn2+ (aq) ][Fe(s) ]       [Zn2+ (aq) ]       [1.00±4.78 ×10 −2 moldm−3 ]
+        𝑄𝑐 =        𝑎      𝑏 =                          =                          =                  =
+                [𝐴] [𝐵]        [Zn(s) ][Fe2+ (aq) ]         [Zn(s) ][Fe2+ (aq) ]   [Fe2+ (aq) ]           [1.00±1.01 ×10 −2 moldm−3 ]
+                           [1.0478]                                         [1.00]                                      [0.9522]
+    Maximum value:                    = 1.0590          Measured value:                = 1.00         Minimum value:                  = 0.9427
+                           [0.9899]                                           [1.00]                                       [1.0101]
+                                          Absolute uncertainty: 1.059 − 1.00 = ±5.90 × 10 −2
+                                                       𝑄𝑐 = 1.00 ± 5.90 × 10 −2
+                    Table 2 - Absolute uncertainty of the reaction quotient calculation, reaction quotient formula (LibreTexts)
+
+      3.4 Derivation of the Equilibrium Constant Equation: Gibbs free energy change conveys the spontaneity of a reaction, in
+      an exothermic reaction such as this one. From Gibbs free energy change, the equilibrium constant 𝐾𝑐 can be found. To
+      do this, the Gibbs free energy change must be in its standard state, hence the Nernst equation and the equation for Gibbs
+      free energy and cell potential can be combined. This combined equation can be equated with the standard Gibbs free
+      energy and equilibrium equation and rearranged to illustrate an equation for the equilibrium constant 𝐾𝑐 .
+
+        Name                          Equation                                               Terms of the Equation
+                                                                        ⊖
+                                                                     Δ𝐺 = 𝑐ℎ𝑎𝑛𝑔𝑒 𝑖𝑛 𝐺𝑖𝑏𝑏𝑠 𝑓𝑟𝑒𝑒 𝑒𝑛𝑒𝑟𝑔𝑦 𝑎𝑡 𝑠𝑡𝑎𝑛𝑑𝑎𝑟𝑑 𝑐𝑜𝑛𝑑𝑖𝑡𝑖𝑜𝑛𝑠
+Equation 1 - Change in                                               Δ𝐻 ⊖ = 𝑐ℎ𝑎𝑛𝑔𝑒 𝑖𝑛 𝐸𝑛𝑡ℎ𝑎𝑙𝑝𝑦 𝑎𝑡 𝑠𝑡𝑎𝑛𝑑𝑎𝑟𝑑 𝑐𝑜𝑛𝑑𝑖𝑡𝑖𝑜𝑛𝑠 ∗
+ Gibbs free energy *         Δ𝐺 ⊖ = Δ𝐻 ⊖ − 𝑇Δ𝑆 ⊖                     Δ𝑆 ⊖ = 𝑐ℎ𝑎𝑛𝑔𝑒 𝑖𝑛 𝐸𝑛𝑡𝑟𝑜𝑝𝑦 𝑎𝑡 𝑠𝑡𝑎𝑛𝑑𝑎𝑟𝑑 𝑐𝑜𝑛𝑑𝑖𝑡𝑖𝑜𝑛𝑠 ∗
+                                                                     𝑇 = 𝑇𝑒𝑚𝑝𝑒𝑟𝑎𝑡𝑢𝑟𝑒 𝑖𝑛 𝐾𝑒𝑙𝑣𝑖𝑛
+
+  Equation 2 - Nernst                         𝑅𝑇              𝐸 = 𝐶𝑒𝑙𝑙 𝑝𝑜𝑡𝑒𝑛𝑡𝑖𝑎𝑙
+                              𝐸 = 𝐸⊖ − (         ) ln 𝑄
+     Equation*                                𝑛𝐹              𝐸 ⊖ = 𝐶𝑒𝑙𝑙 𝑝𝑜𝑡𝑒𝑛𝑡𝑖𝑎𝑙 𝑎𝑡 𝑠𝑡𝑎𝑛𝑑𝑎𝑟𝑑 𝑐𝑜𝑛𝑑𝑖𝑡𝑖𝑜𝑛𝑠 ∗
+                                                              𝑛 = 𝑀𝑜𝑙𝑒𝑠 𝑜𝑓 𝑒𝑙𝑒𝑐𝑡𝑟𝑜𝑛𝑠 𝑖𝑛𝑣𝑜𝑙𝑣𝑒𝑑 𝑖𝑛 1 𝑚𝑜𝑙𝑒 𝑜𝑓 𝑟𝑒𝑎𝑐𝑡𝑖𝑜𝑛 (Brown and Ford)
+ Equation 3 – Standard                                        𝐹 = 𝐹𝑎𝑟𝑎𝑑𝑎𝑦 ′ 𝑠 𝑐𝑜𝑛𝑠𝑡𝑎𝑛𝑡 = 9.65 × 104 (Cmol−1 ) ∗∗
+Gibbs free energy and                                         𝑅 = 𝐺𝑎𝑠 𝑐𝑜𝑛𝑠𝑡𝑎𝑛𝑡 = 8.31(JK −1 mol−1 ) ∗∗
+                                  Δ𝐺 ⊖ = −𝑛𝐹𝐸 ⊖               𝑙𝑛 𝑄 = 𝑡ℎ𝑒 𝑛𝑎𝑡𝑢𝑟𝑎𝑙 log 𝑜𝑓 𝑄𝑐
+standard cell potential*
+
+Equation 4 - Standard
+Gibbs free energy and            Δ𝐺 ⊖ = − RTln 𝐾                                          𝑙𝑛 𝐾 = 𝑡ℎ𝑒 𝑛𝑎𝑡𝑢𝑟𝑎𝑙 log 𝑜𝑓 𝐾𝑐
+equilibrium constant*
+
+        Table 3 - equations to be combined in table 3, *Taken from the Chemistry Data Booklet (2014) (International Baccalaureate Organization)
+
+
+
+
+                                                                          2
+             Step Number                  Step Description                           Equation
+                   1                                                                       𝑅𝑇
+                                Make ‘𝐸 ⊖ ’ the subject in equation 2           𝐸 ⊖ = 𝐸 + ( ) ln 𝑄
+                                                                                           𝑛𝐹
+                    2                                                                         𝑅𝑇
+                                Substitute equation 2 into equation 3       Δ𝐺 ⊖ = −𝑛𝐹 [𝐸 + ( ) ln 𝑄]
+                                                                                              𝑛𝐹
+                    3                   Expand the brackets                    Δ𝐺 ⊖ = −𝑛𝐹𝐸 − RT ln 𝑄
+                    4           Equate the simplified equation with
+                                                                            − RTln 𝐾 = −𝑛𝐹𝐸 − RT ln 𝑄
+                                             equation 4
+                    5                                                                        𝑛𝐹𝐸
+                                    Divide both sides by ‘−𝑅𝑇’                     ln 𝐾 =        + ln 𝑄
+                                                                                              RT
+                    6                                                                         𝑛𝐹𝐸
+                                 Take the natural log of both sides             𝐾𝑐 = ln (         ) + 𝑄𝑐
+                                                                                               RT
+                                                              𝑛𝐹𝐸
+                                                 𝐾𝑐 = ln (        ) + 𝑄𝑐
+                                                               RT
+                                         Equation 5 - Equilibrium constant equation
+
+                                     Table 4 – derivation of equilibrium constant equation
+
+3.4 Le Chatelier’s Principle, Temperature and Hypothesis: Le Chatelier’s Principle states at equilibrium, a system will
+respond to changes by minimizing it (Brown and Ford). In an exothermic reaction, a temperature increase will
+theoretically shift the position of equilibrium to the left by favouring the backward reaction, the 𝐾𝑐 reflects this by a
+decrease in value. This shift to the left happens because an increase in temperature (also known as absolute temperature)
+increases the energy within a system, and since the backward reaction is endothermic and can minimise this increase in
+energy, it will be favoured. Since the forward reaction is the movement of electrons from the anode to cathode, an
+electromotive force is created, shown by a positive Ecell (V) value on a voltmeter. The backward reaction is the drawing
+of electrons from the iron electrode to the zinc electrode, in which the electromotive force acts in the opposite direction.
+If the position of equilibrium moves to the left, the relative extent at which electrons is being drawn into the anode
+increases, hence the value of Ecell (V) decreases. It can therefore be hypothesised, increasing temperature (298.15±0.50K,
+303.15±0.50K, 308.15±0.50K, 313.15±0.50K, 318.15±0.50K) will to some extent impact Ecell and 𝐾𝑐 , in the iron-zinc
+galvanic cell, by a decrease in both.
+4. Variables:
+                                                                                   Method of Changing and Measuring
+ Independent                    Possible Impact on investigation
+                                                                                                the Variable
+                                                                                    The cell will be placed in an electric
+                                                                                       water bath, which maintains the
+                                                                                 temperature. Progressively adding boiling
+  Temperature
+                    Increasing temperature causes decrease in both Ecell (V)          water from an kettle increases the
+    (K) of the
+ galvanic cells                      and   𝐾𝑐 (theory in 3.4).                       temperature  from 298.15±0.50K to
+                                                                                       318.15±0.50K in increments of
+                                                                                  5.00±0.50K. Measured using a mercury
+                                                                                           thermometer (±0.50K).
+  Dependent                        Link to Research Question                             Method of Measurement
+                                                                                   DM83D Digital Multimeter (±0.001V)
+                    Ecell is measured in volts and can be further manipulated       attached to the cell in parallel, values
+  Voltage (V)
+                                  mathematically to provide 𝐾𝑐 .                  recorded with pen and paper on a results
+                                                                                                     table.
+  Controlled                    Possible Impact on investigation                             Method of Control
+                  The electrical wires will create resistance to some extent         Using the same electrical wires and
+ Galvanic cell     (opposition to the flow of electrons), which may affect           alligator clips in the entirety of the
+ structure (use   Ecell values, for fairness this resistance must be uniform       experiment, they will be marked using a
+   of wiring)        across all trials. Lack of control potentially leads to        whiteboard pen so that they are used in
+                                         systematic error.                                        every trial.
+                  If the volume of the metal solution in each half cell were
+ Volume and                                                                           Using measuring precise instruments
+                   to be less than 100cm3 then the electrode would not be
+ of solutions                                                                         (measuring cylinder 50cm3±5 cm3) to
+                    submerged completely during each trial. The surface
+
+
+                                                              3
+  Volume and       area available for reduction and oxidation purposes                make and use solutions of intended
+  of solutions would decrease and hence the outputted value would not                    concentration and volume.
+  (continued)         be accurate, thereby potentially contributing to
+                                      systematic error.
+                If the concentration of metal solutions were to be values
+                                                                                      Discussing the precision involved of
+                  other than 1.00M then 𝑄𝑐 could not be assumed to be
+ Concentration                                                                       previously made solutions with the lab
+                     1.00±5.90× 10−2 , increasing systematic error in
+  of solutions                                                                      technician. Marking the concentration of
+               calculation thereby increasing inaccuracy of analysis and
+                                                                                        solutions with a whiteboard pen
+                                        conclusion.
+               If the same electrodes were kept the same, the Ecell
+               readings will not illustrate the true values, as the surface         Replacing electrodes at every increment
+               area of electrodes for redox reactions change over time                  of temperature and cleaning the
+  Electrodes
+               due to material being added and lost. Oxides that have                electrodes with sandpaper to remove
+               formed on the surface prior to being in the cell can also                            oxides.
+               impact the surface area in the same way.
+                                                                                   Using a timer, making sure that data for 5
+                     If the time per trial is too long, then 𝑄𝑐 will change
+                                                                                    trials per temperature take less than 20
+ Time for each    significantly. In the spirit of green chemistry, and due to
+                                                                                    seconds to obtain. After 20 seconds the
+  set of trials     constraints in chemical availability, this investigation
+                                                                                    salt bridge will be removed to stop the
+                  expects to reuse solutions and by doing so assume 𝑄𝑐 =1                        redox reactions.
+ Uncontrolled                 Possible Impact on Investigation                           Method of Reducing Impact
+                                                                                   a timer is used, making sure that data for
+  Changes in        Because 𝑄𝑐 will change concentrations to become the            5 trials per temperature take less than 20
+                  equilibrium constant value, it is entirely possible that this     seconds to obtain. After 20 seconds the
+   reaction
+                   change can happen quickly leading to major systematic            salt bridge will be removed to stop the
+ quotient (𝑄𝑐 )
+                    errors in calculation and thus inaccurate conclusions.             redox reactions and the solution is
+                                                                                                    replaced.
+
+5. Preliminary Testing and Justification: The method used in preliminary testing was obtained from C2507 Intensive
+General Chemistry – E10 Electrochemistry and Thermodynamics (Columbia University) and adapted to suit the needs of
+the investigation. Adaptations include changing the range and increments of temperature. The original method stipulated
+a low temperature range (with the lowest value being 288.15K±0.50K), this was not feasible, because a source of low
+temperature was not available to cool water. It was modified to 298.15±0.50K to 318.15±0.50K, this modification was
+also made in context of the investigative purpose, as this is the temperature at which pacemakers operate and research in
+“high temperature is still lacking” (refer to 1. Introduction) (Xu and Wang). In preliminary testing, the candidate sustained
+injury using the hotplate. A water bath was used instead, a greater sense of caution was adopted during the data collection
+by wearing a lab coat. This improvement reduces systematic errors, as the available hotplate does not have a scale. To
+improve the reliability of the data produced, an effort was made to include 5 repeat readings at each increment of
+independent variable. Furthermore, the decision was made to record qualitative data as well. This would help substantiate
+or disprove claims made in the analysis or conclusion. Lastly, 100cm3 was used for metal solutions in each half cell rather
+than the 400cm3 stipulated in the methodology to adhere to atom economy in green chemistry (Cann) whilst making sure
+at least three-quarters of the electrodes were submerged. The advantage of adapting a method is that it leads to less
+systematic error, as it has perceivably been reproduced and improved by professionals prior to publication due to the
+credibility of the source (Columbia University).
+6. Apparatus: **Since this is a procedural step, rather than the measurement of time, there is no uncertainty.
+  Chemicals and expendable goods              Glassware / Containers                              Lab Equipment
+500cm3 of iron (II) sulfate                2 x Mercury Thermometer                1 x DM83D digital      1 x Electric water bath
+1.00±1.01 × 10 −2 moldm-3                  (±0.5K)                                Multimeter             1 x Kettle
+                                           3 x 50±5cm3 Measuring                  (±0.001V)              1 x Phone (for timer
+500cm3 of zinc sulfate                     cylinder                               1 x Scissors           application)**
+1.00±4.78 × 10 −2 moldm-3                  3 x 100cm3 Beakers                     1 x Ruler (±0.05cm) 1 x Glass food
+                                           1 x 2dm3 Water jug                     1 x Sandpaper sheet container
+300cm3 of potassium nitrate                                                       4 x Filter paper       1 x Tongs
+1.00±1.19 × 10 −2 moldm-3                                                         2 x Crocodile clips    1 x Chemical waste bin
+5 x iron nails                                                                    2 x Electrical wires   1 x Rubber Gloves
+1 x zinc foil sheet                                                               1 x Safety goggles     1 x Mask
+Source of tap water                                                               1 x Lab coat           1 x Pen and Paper
+
+
+
+                                                              4
+       7. Method: Adapted from C2507 Intensive General Chemistry – E10 Electrochemistry and Thermodynamics
+       (Columbia University). The direct objective of the method is to find Ecell (V). Rubber gloves, safety goggles and Lab
+       coat should be worn throughout. N.B. Mercury based thermometer readings, measured in degrees Celsius (℃), were
+       converted to Kelvin (K) by the addition of 273.15K (Lumenlearning).
+                     Part I. Set Up
+       1. Using two 50±5cm3 measuring cylinders,                                    Part II. Data Collection
+           measure out 50cm3 of zinc sulphate and           1. Attach an iron nail to one of the crocodile clips
+           50cm3 of iron sulphate.                          2. Measure 3.00±0.05cm by 5.00±0.05cm using the Ruler (±0.05cm), on
+       2. Add each solution to a separate 100cm3                the zinc foil sheet
+           beaker.                                          3. Use scissors to cut out the zinc foil according to the measurements
+       3. Fill the 2dm3 measuring jug with water            4. Attach this piece of zinc foil to the other crocodile clip
+           from the tap and pour into the electric          5. Clean both pieces of metal (electrodes) with sandpaper
+           water bath .                                     6. Place the zinc electrode into the solution of zinc sulphate.
+       4. Fill the kettle with water until                  7. Place the iron electrode (iron nail) into the solution of iron (II)
+       5. Add the boiled water to the kettle until              sulphate
+           298.15K is reached                                   N.B. at least three quarters of the electrodes should be submerged
+       6. Place an inverted food container on the           8. Measure 10.00±0.05cm by 3.00±0.05cm of filter paper using a ruler
+           floor of the water bath                          9. Cut the strip of filter paper out using scissors.
+       7. Place both metal sulphate solutions side          10. Soak the strip of filter paper in the potassium nitrate using tongs
+           by side on top of the container                  11. Start a timer for 20 seconds on your phone
+       8. Place a thermometer in each solution              12. Place the strip (salt bridge) in between the two half cells in the water
+       N.B at this point, half of the beakers should            baths, making sure both ends are touching the solutions.
+       be submerged in the water                            13. Turn on the DM83D Multimeter and turn the dial to the voltmeter
+       9. Start a stopwatch for 5 minutes for                   setting
+           complete thermal equilibrium to be               14. Record the value of the voltage on a data table on a piece of paper
+           reached at 298.15±0.50K, check the               15. Turn Multimeter dial to original dial and turn off instrument, turn
+           needed value has been reached                        instrument on again, record five values over five repeats
+       10. Behind the water bath, place a DM83D             16. Remove the salt bridge with tongs and dispose in the chemical waste
+           Multimeter                                           bin
+       11. Attach two electrical wires to the D.C.          17. Dispose contents of the half cells in the chemical waste bin and
+           ports of the Multimeter                              replace with the respective solution, using 50±5cm3 for measurement
+       12. Attach crocodile clips to the ends of both       18. Fill the kettle with tap water and boil
+           electrical wires
+                                                            19. Add boiling water to the water bath until the next temperature is
+       13. Using the 50±5cm3 measuring cylinder,
+                                                                reached, allow 5 minutes using a timer for thermal equilibrium to be
+           measure out 100cm3 of potassium
+                                                                reached
+           nitrate.
+       14. Add the potassium nitrate to a 100cm3            20. Repeat steps 1 to 19 for the temperatures: 303.15±0.50K,
+           beaker and place it to one side                      308.15±0.50K, 313.15±0.50K, 318.15±0.50K
+
+                                                           Part III. Post Data Collection
+The contents of the half cells should be disposed of in the chemical waste bin located in the fume cupboard immediately. Turn off power
+source to water bath and empty into the sink. Unused chemicals or uncontaminated solutions should be returned to storage.
+        8. Safety, Ethical and Environmental Concerns:
+           Concern                                                                Note
+   Iron (II) sulfate solution   Iron (II) and zinc sulphate Irritant to the eyes and skin, harmful if swallowed (CLEAPPS), hence a
+                                mask, gloves and safety goggles will be worn. Potassium nitrate causes skin and eye irritation
+     Zinc sulfate solution      (CLEAPPS), irritates the “nasal cavity and thorax” (New Jersey Department of Health and Senior
+  Potassium nitrate solution    Services). Experiment will also be conducted in the fume cupboard.
+   High temperature water-      Safety goggles worn to protect eyes from steam and boiling water, gloves worn and contact actively
+             bath               minimised with the water due to potential of scalding.
+  Ethical and Environmental     Solutions used in the experiment are only used with necessity as to not waste chemicals and to
+           awareness            adhere to green chemistry principles like atom economy (Cann). After a day of experimentation,
+                                on the subsequent day the chemicals can stay the same but must be wrapped in clingfilm and stored
+                                in a secure area. Once the experimentation is completed, chemicals can be thrown away in the
+                                chemical waste bin where they will be disposed of properly. Ethically speaking, animals or other
+                                students were not in immediate danger from apparatus or chemicals used, as the experimental setup
+                                was deconstructed immediately after use and chemicals were stored in a secure area.
+
+
+                                                                   5
+9. Results – 9.1 Raw data:
+           Temperature                                    Ecell (±0.001V)                                  Average
+           (±0.5K)                                        Trial Number                                     Ecell
+                                   1             2               3                  4            5         (±0.001V)
+               298.15          0.420***        0.429          0.429               0.429        0.429          0.429
+               303.15            0.409         0.407          0.406               0.406        0.406          0.407
+               308.15            0.398         0.398          0.398               0.398        0.397          0.398
+               313.15            0.393         0.393          0.393               0.393        0.393          0.393
+               318.15            0.388         0.388          0.388               0.388        0.389          0.389
+                                                   Table 5 - Cell potential (V)
+
+                                ***Outlying piece of data excluded from the average Ecell.
+
+9.2 Qualitative data: After each set of trials, when the iron cathode and zinc cathode were replaced, the smoothness that
+both electrodes previously had, was very slightly diminished, a slightly rougher surface than before was felt. This occurred
+at all temperatures apart from 318.15±0.50K. Differences in roughness between sets of data was not found, but perhaps
+this could have been seen to a greater extent had the cell ran for a longer period. The smoothness of the electrodes had
+diminished because of material build-up on the sides of the electrodes. On the iron electrode, electrons are being gained,
+hence Fe2+ ions in the ferrous (II) sulphate solution move toward the electron dense cathode and attaches. The zinc
+electrode loses mass as electrons are being lost, hence Zn2+ ions will be formed and move to nitrate ions from the
+potassium nitrate solution (salt bridge).
+9.3 Calculation Examples:
+
+                                                                     0.429 + 0.429 + 0.429 + 0.429
+ Average Ecell (V)                                                                                 = 0.429
+                                                                                   4
+                                                                 𝑀𝑎𝑥𝑖𝑚𝑢𝑚 − 𝑀𝑖𝑛𝑖𝑚𝑢𝑚 0.429 − 0.429
+ Average Ecell (V) uncertainty                                                    =              = ±0
+                                                                         2               2
+                                                         𝐻𝑎𝑙𝑓 𝑅𝑎𝑛𝑔𝑒 𝑈𝑛𝑐𝑒𝑟𝑡𝑎𝑖𝑛𝑡𝑦 + 𝑀𝑒𝑎𝑠𝑢𝑟𝑒𝑚𝑒𝑛𝑡 𝑢𝑛𝑐𝑒𝑟𝑡𝑎𝑖𝑛𝑡𝑦
+ Absolute Uncertainty for Average Ecell (V)
+                                                                      = 0 + 1.00 × 10 −3 = ±1.00 × 10 −3
+                          Table 6 - Average Ecell (V) values and Uncertainty Using Half-Range Method
+
+                           Equation 6                                                                     𝑛𝐹𝐸
+                  Average 𝑲𝒄 Combined Equation                                                𝐾𝑐 = ln (       ) + 𝑄𝑐
+                                                                                                           RT
+              Substitute the value for Faraday’s constant                                             𝑛 × 96500 × 𝐸
+                           F = 96500 C mol-1                                              𝐾𝑐 = ln (                 ) + 𝑄𝑐
+              (International Baccalaureate Organization)                                                   RT
+
+                Substitute the value for the gas constant
+                           R = 8.314 JK-1mol                                                          𝑛 × 96500 × 𝐸
+              (International Baccalaureate Organization)                                  𝐾𝑐 = ln (                 ) + 𝑄𝑐
+                                                                                                        8.314 × T
+
+  Substitute the number of moles of electrons in transfer, 2 electrons                           2.00 × 96500 × 𝐸
+          are transferred in this reaction, therefore, n = 2.00                       𝐾𝑐 = ln (                     ) + 𝑄𝑐
+                                                                                                      8.314 × T
+         Substitute the value for the reaction quotient, 𝑄𝑐 = 1                                 2.00 × 96500 × 𝐸
+                         (Refer to section 3.3)                                      𝐾𝑐 = ln (                     ) + 1.00
+                                                                                                     8.314 × T
+                                                                                                2.00 × 96500 × 𝐸
+                  Substitute the value 298.15K for T                                 𝐾𝑐 = ln (                     ) + 1.00
+                                                                                                 8.314 × 298.15
+                                                                                              2.00 × 96500 × 0.429
+             Substitute the value for average Ecell 0.427V                          𝐾𝑐 = ln (                        ) + 1.00
+                                                                                                 8.314 × 298.15
+                                                                                                = ln (32.3) + 1.00
+                     Natural Log of terms in brackets
+                                                                                                  = 3.48 + 1.00
+                                  Sum                                                                 = 4.48
+                        Equilibrium Constant, 𝐾𝑐                                                    𝐾𝑐 = 4.48
+                                   Table 7 - Equilibrium constant combined equation example
+
+
+
+                                                                6
+                Value                       Maximum Value                                                 Minimum Value
+Equilibrium                      2.00 × 96500 × 0.433                                        2.00 × 96500 × 0.422
+ Constant,       4.48     ln (                        ) + (1.059) = 4.54              ln (                       ) + (0.9427) = 4.43
+    𝐾𝑐                              8.314 × 297.65                                              8.314 × 298.65
+                          Table 8 – Example maximum and minimum value calculation for equilibrium constant
+
+                               Absolute Uncertainty (Maximum –
+                 Value      Recorded Value) (as suggested by Brown                                 Percentage uncertainty (%)
+                                          and Ford)
+Equilibrium                                                                                    6.30 × 10 −2        100
+                  4.48               4.54 − 4.48 = 6.30 × 10            −2                 (                  )×       = 1.41 × 100 %
+Constant, 𝐾𝑐                                                                                      4.48              1
+                                   Table 9 - Absolute Uncertainty and Percentage Uncertainty Calculation
+
+    9.4 Processed data:
+                   Temperature Average                    Average Ecell       Average Ecell          Percentage
+                   (±0.5K)     Ecell                      uncertainty         Total                  uncertainty (%)
+                               (±0.001V)                  (V)                 uncertainty (V)
+                   298.15      0.429                      -                   ±1.00 × 10 −3              2.31 × 10−1
+                   303.15      0.407                      ±1.50 × 10 −3        ±2.50 × 10 −3             6.14 × 10−1
+                   308.15      0.398                      ±5.00 × 10 −4        ±1.50 × 10 −3             3.77 × 10−1
+                   313.15      0.393                      -                    ±1.00 × 10 −3             2.54 × 10−1
+                   318.15      0.389                      ±5.00 × 10 −4        ±1.50 × 10 −3             3.85 × 10−1
+                                                     Table 10 – Processed data for Ecell
+            Temperature        Average 𝑲𝒄      Absolute uncertainty (Maximum – Recorded Value)                    Percentage
+              (±0.5K)                                                                                           uncertainty (%)
+               298.15       4.51 × 10 0                              6.30 × 10 −2                                 1.41 × 100
+               303.15       4.43 × 10 0                              6.68 × 10 −2                                 2.01 × 100
+               308.15       4.40 × 10 0                              6.43 × 10 −2                                 1.46 × 100
+               313.15       4.37 × 10 0                              6.31 × 10 −2                                 1.44 × 100
+               318.15       4.35 × 10 0                              6.44 × 10 −2                                 1.48 × 100
+                                                     Table 11 - Processed data for Kc
+
+               10. Data
+               Presentation:
+    Graph 1 – line of best
+    fit of Average 𝐾𝑐
+    results in table 10, with
+    horizontal bars
+    representing
+    temperature
+    uncertainty, vertical
+    bars represent
+    absolute uncertainty of
+    Ecell
+
+
+
+
+                                                                    7
+Graph 2 – line of
+best fit of Average
+𝐾𝑐 results in table
+10 without the
+298.15±0.50K
+data point, with
+horizontal bars
+representing
+temperature
+uncertainty,
+vertical bars
+represent absolute
+uncertainty of Ecell
+
+
+
+
+      Graph 3 – Line of best fit of results of Table 11, with vertical bars representing individual absolute
+                  uncertainty of 𝐾𝑐 , horizontal bars representing temperature uncertainty.
+
+
+
+
+Z
+
+
+
+
+     Graph 4 – Line of best fit of results of Table 11 without the 298.15±0.50K data point, with vertical bars
+    representing individual absolute uncertainty of 𝐾𝑐 , horizontal bars representing temperature uncertainty.
+                                                         8
+Graph 5 - Line graph and line of best fit of results of Table 10 and 11, with vertical bars representing individual absolute
+                      uncertainty of 𝐾𝑐 , horizontal bars representing absolute uncertainty of Ecell
+
+    11. Analysis - 11.1 Trends and Supporting Theory: Graph 1 illustrates a negative correlation between increasing
+    temperature and Average Ecell. A polynomial trend or linear trend could be applied to the data. When referring to literature,
+    studies on Ecell values conducted in similar temperature ranges (293.15 – 313.15K) (Jakubowska) and conducted in
+    different ranges (400 – 600K) (Kuterbekov, Balapanov and Ishembetov) suggest that a negative linear correlation exists
+    between average Ecell and temperature. A linear line of best fit is thereby applied to the data on in table 10 represented by
+    the red line on graph 1, the equation is 𝑦 = −0.001880𝑥 + 0.982522. The negative coefficient of the 𝑥 suggests, with
+    increasing ‘x’ value, the ‘y’ value will become numerically smaller. Pearson’s Correlation Coefficient can be used to find
+    out the strength of the relationship represented by this equation. The closer an R2 value is to 1, the stronger the correlation.
+    The R2 value of trendline is 0.872, suggesting that when represented as a linear relationship, the correlation is strong.
+    Strong correlations are illustrated by R2 values greater than 0.750 (Francis). Alternatively, a curve of best fit could be
+    applied. This curve would be represented by the polynomial (quadratic) equation 𝑦 = 0.0001𝑥 2 − 0.0723𝑥 + 11.829
+    and may represent correlation better as the R2 value is 0.986, representing a stronger correlation between the independent
+    and dependent variable. A curve suggests that the rate of change, or the extent at which temperature affects average Ecell
+    is not constant and decreases with more cumulative temperature increase – this is seen mathematically, as the equation
+    contains a variable with an exponent, 𝑥 2 . However, the problem with taking a quadratic equation as a curve of best fit, is
+    that it suggests at if this relationship was continued, at some point the cell potential will increase after having decreased
+    over increased temperature – since no literature was found to support this idea, this curve is not a good representation of
+    the relationship, therefore the linear equation will be used for further analysis. Graph 3 shows a negative correlation
+    between increasing temperature and 𝐾𝑐 because its equation has a negative coefficient on 𝑥. The trendline suggests that
+    a negative linear correlation exists between 𝐾𝑐 and temperature has an R2 value of 0.9909 the correlation is strong. For
+    the same reasons as graph 1, the linear line of best fit will be taken for further analysis instead of a curve of best fit.
+    Both negative correlation trends in graphs 1 and 3 are supported by scientific theory. A galvanic cell is always exothermic
+    and spontaneous, therefore when applying an increase in temperature, according to Le Chatelier’s Principle, equilibrium
+    shifts to the left favouring endothermic reaction to a greater extent. By doing so the changes in heat to the system are
+    minimized however the reactants are favoured, this is reflected in the average Ecell and 𝐾𝑐 . The voltage created in the
+    endothermic reaction moves opposite to the exothermic reaction, the flow of electrons is from the iron to the zinc electrode
+    instead. This opposes the flow of electrons from the anode to cathode, the voltage propagating in both directions cancel
+    out, thereby decreasing the overall value of the Ecell. For the 𝐾𝑐 , since equilibrium shifts to the left, a greater proportion of
+    reactants will be present to products. In the sense that the concentration of reacts will become larger and the concentration
+                                                                                                                             [𝐶]𝑐 [𝐷]𝑑
+    of products will become smaller at equilibrium. Thinking about this in the context of the equation, 𝐾𝑐 = [𝐴]𝑎[𝐵]𝑏
+    (LibreTexts), the denominator becomes greater and the numerator becomes lesser. Therefore, the value of 𝐾𝑐 decreases
+    with an increase in temperature.
+    Seeing that both graph 1 and graph 3 display similar trends with temperature, it is important to look at the extent at which
+    their data can be correlated. Graph 5 illustrates a linear and positive correlation between 𝐾𝑐 and average Ecell in the
+
+
+                                                                    9
+equation 𝑦 = 3.1536𝑥 + 3.1345. The R2 is 0.958, a very strong display of correlation, therefore both relationships with
+temperature should be negative. Furthermore, 𝐾𝑐 in the context of this investigation is calculated with the input of Ecell
+values, therefore the fact that the relationships are similar is expected.
+11.2 Anomalous Results and Error Bars: Anomalous data can be detrimental to the interpretation of the results produced;
+therefore, it becomes important to identify its presence. In graph 1, looking at the data point at 298.15±0.50K compared
+to the rest of the data, it is much higher than expected due to its deviation from the trendline. Though it could be thought
+that perhaps there may be a changing gradient because of an exponential or polynomial relationship causing a sharp
+decrease in subsequent values from 298.15±0.50K, this is not the case as the established relationship is linear. Since only
+5 data points exist on the graph, the linear correlation is heavily affected by even one data point. The trendline may be
+adhering to the 298.15±0.50K data point, shown by the lack of intersection with the error bars of 4 out of 5 points. The
+trendline can be seen without the 298.15±0.50K data point in graph 2. This trendline is a better representation of the
+relationship having removed the anomalous result, as at least one error bar on each data point intersects. Removing the
+anomalous piece of data has not yielded any significant change to the nature of the relationship between the variables,
+there is still a strongly negative trendline (equation, 𝑦 = −0.00118𝑥 + 0.76332). The R2 value is now 0.963, a 10.4%
+increase from before, suggesting the trendline has become a better representation of the correlation between average Ecell
+and temperature. Since the anomalous piece of data was the average of the 4 trials (1 anomalous trial), the random error
+was actively decreased through repeats, this anomalous result is likely the product of systematic error for this set of trials.
+Reflecting on the data collection, whilst measuring the temperature of the solutions, there was parallax error to some
+degree. In the sense that the value of the temperature was not taken at eye level for this set of data, it may have been
+thought that the value was at 298.15K but may have been lower due to thermal equilibrium not being reached. A
+temperature lower than 298.15K was most likely achieved but not noticed, thereby causing an elevated Ecell value.
+For graph 3, representing 𝐾𝑐 against temperature, the error bars are very large vertically and are small horizontally, there
+is significant overlap between error bars suggesting that the difference between values may have occurred by chance. Due
+to this large degree of overlap between multiple points, maximum and minimum trendlines are shown on graph 3 to
+illustrate the potential effect of this error on the entire relationship between temperature and 𝐾𝑐 . The maximum and
+minimum trendline equations are 𝑦 = −0.01437𝑥 + 8.85742 and 𝑦 = −0.00163𝑥 + 4.93298 respectively.
+Although the coefficient of 𝑥 differs in the two equations by close to a factor of 10, the negative coefficient still stands,
+suggesting that regardless of the extent of error in this data, the negative correlation between temperature and 𝐾𝑐 exists.
+Having previously looked at the relationship between 𝐾𝑐 and average Ecell, the 298.15±0.50K was removed. In graph 3,
+representing 𝐾𝑐 against temperature, although the 298.15±0.50K data point does not seem anomalous regarding the
+overall trend, since it was calculated using the previous anomalous result of 298.15±0.50K in graph 1, the effect of its
+removal is seen on graph 4. Graph 4’s R2 value of 0.99 suggests that the new regression line (equation, 𝑦 =
+−0.00540𝑥 + 6.06501) almost fits the data perfectly, the relationship is less ambiguous as every line intersects the
+regression line. However, the removal of the anomalous result has uncovered that the overall trend could be reversed, and
+that increasing temperature may increase 𝐾𝑐 . The minimum trendline (green) has an equation of 𝑦 = 0.00341𝑥 +
+3.32845, since the coefficient of 𝑥 is positive, the correlation is positive as well.
+11.5 Uncertainty in Trendlines: Analysis has shown that increasing temperature decreases both average Ecell and 𝐾𝑐 ; both
+have negative linear correlations with the equations 𝑦 = −0.00118𝑥 + 0.76332 and 𝑦 = −0.00540𝑥 + 6.06501
+respectively, having removed the anomalous data point at 298.15±0.50K. The error bars for temperature and average Ecell
+are small, therefore using maximum and minimum lines are not feasible to obtain error. Instead, the line estimate function
+on MS Excel can be employed which uses the uncertainty of the slope itself. The coefficient of 𝑥 in the average Ecell
+against temperature is −0.00118 ±1.64 × 10 −4. For 𝐾𝑐 against temperature, since the error bars are larger,
+maximum and minimum lines (graph 4) can be used to find the uncertainty in gradient. The half range method
+(table 6) can be used:
+ (Maximum Gradient – Minimum Gradient)   (−0.01408 – 0.00341)
+                                       =                      = ±0.008745 = ±8.75 × 10 −3
+                   2                              2
+The coefficient of 𝑥 in 𝐾𝑐 against temperature is −0.00540 ± 8.75 × 10 −3 . Percentage uncertainty is calculated
+using the formula below for the gradients of average Ecell and temperature, and 𝐾𝑐 and temperature, respectively:
+                             Uncertainty           1.64 × 10 −4
+                                           × 100 =              × 100 = ±13.9%
+                            Measured Value          −0.001182
+
+
+
+                                                              10
+                                      Uncertainty           8.75 × 10 −3
+                                                    × 100 =              × 100 = ±162%
+                                     Measured Value          −0.00540
+        11.6 Analysis summary: Having removed the anomalous data point at 298.15±0.50K, it has been found that increasing
+        temperature decreases both average Ecell and 𝐾𝑐 ; both linear correlations are negative with the equations 𝑦 =
+        −0.00118 ± 13.9%𝑥 + 0.76332 and 𝑦 = −0.00540 ± 162%𝑥 + 6.06501 respectively. On the latter equation, for
+        𝐾𝑐 against temperature, the percentage error was extremely high (over 100%), suggesting that the true value’s deviation
+        from the measured value is not unexpected. As a result, the minimum line propagated suggested that the relationship
+        between 𝐾𝑐 against temperature could be positive. Though percentage error shows that this could be the case, there is no
+        scientific theory to corroborate this trend (refer to section 11.1) and in fact it contradicts scientific theory. Average Ecell
+        against temperature saw a 13.9% uncertainty in its gradient. Regardless of the extent of uncertainty, the negative
+        relationship seemingly remains the same in any situation, it is only magnitude of the gradient that changes. From the
+        percentage uncertainties in table 11 (for 𝐾𝑐 ), although there is no piece of data which had greater than 2%, the analysis
+        shows that the cumulative effect of multiple small uncertainties can impact the overall gradient significantly if the
+        difference between values on the y-axis are small.
+
+        12. Evaluation – 12.1 Comparison with Literature: The average Ecell value at 298.15±0.50K (0.429±1.00 × 10 −3 ) can
+        be compared with Ecell calculated from standard electrode potentials. This is because the reading was at 298.15±0.50K
+        and cells involved had 1 moldm-3 solutions. Pressure is not taken into consideration as no gaseous substances are involved.
+                                                               Percentage Error
+
+             The standard Ecell value is calculated from:
+                                                                                           𝐸 ⊖ cell = (-0.45) − (-0.76)
+           𝐸 ⊖ cell = 𝐸 ⊖ reduction − 𝐸 ⊖ oxidation
+                                                                                                  𝐸 ⊖ cell = 0.31V
+                        (Brown and Ford)
+                                                                                (Literature Value – Experimental Value)
+                      Percentage Error formula                                                                          × 100
+                                                                                          Experimental Value
+
+ Maximum                                       Measured                                         Minimum
+    (0.31 – 0.430)                                   (0.31 – 0.429)                                   (0.31 – 0.428)
+                   × 100 = 38.7%                                    × 100 = 38.4%                                    × 100 = 38.1%
+        0.31                                             0.31                                             0.31
+
+                                      Absolute Uncertainty: Maximum – Measured = 38.7 – 38.4 = 0.3
+                                                                   38.4±0.3%
+        Table 12 – calculation of percentage error between experimental and literature value
+
+        Though it could be argued that this comparison is invalidated due to the 298.15±0.50K experimental value being
+        disregarded in analysis as an anomaly, the percentage error can still be discussed having understood that
+        additional systematic errors were present for this data point alone (refer to 11.2). A large percentage error may
+        exist because Qc may have not been exactly 1 (hence its previously stated uncertainty of ±5.90 × 10 −2 ) or
+        likely due to the fact the experimental value was not taken at 298.15K (hence removed as an anomaly during analysis).
+        Systematic errors relevant to the entire methodology are likely to have contributed to this as well, which will be
+        explored further in the following sections.
+        12.2 Uncertainties:
+
+                              Smallest
+                                       Percentage uncertainty                              Effect on data in
+Apparatus         Uncertainty value                                                                                   Improvements
+                                                                                           context of error
+                              measured
+                                                  0.001                   −1                                          No improvements
+Multimeter        ±0.001V          0.389V               × 100 = ±2.57 × 10 %               Percentage uncertainties   are necessary, to
+                                                  0.389
+                                                   0.05
+                                                                                           of less than 5% are        decrease systematic
+                                                                          0
+Ruler             ±0.05cm          3cm                  × 100 = ±1.67 × 10 %               negligible. These          error there is not a
+                                                    3
+                                                                                           instruments are highly     need to increase the
+                                                    0.5                     0              precise.                   precision of the
+Thermometer ±0.5K                  298.15K               × 100 = ± 1.67 × 10 %
+                                                  298.15                                                              instruments
+
+
+
+                                                                       11
+                                                                                                                   A measuring
+                                                                                      This error is greater than   cylinder with
+                                                                                      5%, therefore it is          increments of 1 cm3
+                                                                                      significant, it can cause    rather than 10cm3
+                                                                                      the solutions to not be      should be used to
+ Measuring                                         5                    1
+                 50±5cm3         50cm3               × 100 = ±1.00 × 10               equimolar, which affects     decrease the
+ Cylinder                                         50
+                                                                                      the cell potential due       uncertainty to
+                                                                                      varying moles of ions in     ±0.5cm3 ultimately
+                                                                                      Ecell. This is a source of   decreasing the
+                                                                                      random error.                percentage
+                                                                                                                   uncertainty to 0.01%
+        12.3 Systematic Evaluation
+      Strength                                                      Benefit to investigation
+ Replacement and           By replacing the salt bridge every set of data, the potassium and nitrate ions were replenished. This was
+removal of the salt    advantageous because these ions were used to reduce positive or negative charges formed in the half cells after
+       bridge                                                           redox reactions.
+  Replacement of      Replacing the electrodes allowed for fair testing to take place. It means that every set of trials will have the same
+     electrodes          surface area for reduction and oxidation to take place, reducing the systematic error for cell potential results
+  Controlling the     The independent variable of temperature was controlled accurately using an electric water bath. This water bath
+    independent       possessed the necessary insulation properties to effectively control the temperature. Furthermore, it decreases the
+      variable                    health and safety risk by displaying when the water should not be in contact with the user
+     Weakness                            Detriment to investigation                                        Improvement
+ Continuous use        By using the same metal sulphate solution, the likelihood            Using a smaller volume of metal sulphate
+of the same metal     of non-equimolar solutions increases due to the transfer of               solution at the same concentration,
+sulphate solution                       ions during the experiment                                     replaced at every trial
+                                                                                              With the use of a magnifying tool, the
+                                                                                               discrepancies between electrodes at
+Poor approach to                                                                             different temperatures can be seen and
+                        Qualitative data was recorded based on touch and was a
+ qualitative data                                                                            recorded. Alternatively, the qualitative
+                         poor substantiation to the claims made in the analysis
+   collection                                                                                   approach could have been taken by
+                                                                                             measuring the mass of electrodes before
+                                                                                                and after being in the galvanic cell
+                        The 𝑄𝑐 is assumed to be constant because trials for each          Chemical concentration monitors can be
+                      temperature took place in a very short time frame, however          made use of to see how the reaction
+ Assumptions of
+                       this directly goes against scientific theory which explicitly      quotient changes over time, this would
+     the 𝑄𝑐
+                       states that 𝑄𝑐 will always tend toward 𝐾𝑐 . This affects the       provide an indication as to the extent in
+                                  calculated equilibrium constant values                  which this assumption can be made.
+                         Electron mobility in electrical wires can be affected by the
+                         temperature. Since the wires often dipped in and out of the
+Varying Electron
+                         water bath, the temperature of the wires themselves would      The electrical wires could be elevated by a
+  mobility in
+                          have changed. This could have caused changes to the cell                 clamp stand in the air.
+electrical wires.
+                          potential as the resistance to the flow of electrons would
+                                                have fluctuated
+       13. Conclusion In conclusion the research question ‘How does increasing temperature (298.15±0.50K,
+       303.15±0.50K, 308.15±0.50K, 313.15±0.50K, 318.15±0.50K) impact cell potential or Ecell (V), and hence
+       equilibrium constant (𝐾𝑐 ), in the iron-zinc galvanic cell?’ has been answered by finding a negative correlation
+       between increasing temperature and equilibrium constant (𝐾𝑐 ), and increasing temperature and cell potential
+       (Ecell). It is recognized that this research is only a glimpse of what is required to replace lithium-based batteries
+       and the effectiveness of iron-zinc galvanic cells for use in pacemakers. Though this investigation was not
+       conducted under industry lab conditions, it is accurate to some extent due to the precision of the equipment.
+       However, this could greatly be improved had the relevant changes mentioned in the evaluation been made. One
+       way this investigation could be extended is by finding the relationship between concentration, as opposed to
+       temperature, on cell potential (Ecell). This would mean changing the reaction quotient and using the Nernst
+       equation yet again due to non-standard conditions. Another approach to this specific investigation would be to
+       use the Van’t Hoff equation, which also looks at the relationship between temperature and equilibrium constant.
+
+
+                                                                   12
+Bibliography
+Barrett, Katherine, et al. The Cell Potential. 16 August 2020. Website. 23 January 2021.
+         <https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Supplemental_Modules_(Analytical_C
+         hemistry)/Electrochemistry/Voltaic_Cells/The_Cell_Potential>.
+Brown, Catrin and Mike Ford. Higher Level Chemistry. Ed. Tim Jackson. 2nd. Essex: Pearson Education
+       Limited, Edinburgh Gate, Harlow, Essex, CM20 2JE, 2014. Textbook. 1-31 January 2021.
+Cann, Michael. 12 Principles of Green Chemistry. n.d. Website. 16 January 2021.
+       <https://www.acs.org/content/acs/en/greenchemistry/principles/12-principles-of-green-
+       chemistry.html>.
+CLEAPPS. CLEAPSS HazCards. 2016. Website. 24 January 2021.
+     <http://science.cleapss.org.uk/Resources/HazCards/>.
+Columbia University. C2507 Intensive General Chemistry – E10 Electrochemistry and Thermodynamics. New
+      York, n.d. PDF. <http://www.columbia.edu/itc/chemistry/chem-c2507/navbar/Electrochem_2002.doc>.
+Francis, Adrian. Interpreting the Correlation. n.d. Website. 3 February 2021.
+        <https://sites.google.com/a/concordia.sa.edu.au/exam-prep-mths-apps/7-4-linear-
+        correlation/interpreting-the-correlation>.
+Grossman, David. Could Iron Replace Lithium in Batteries? 14 August 2019. Website. 24 January 2021.
+      <popularmechanics.com/science/environment/a28702497/could-iron-replace-lithium-
+      batteries/#:~:text=Redox%20refers%20to%20"reduction%20potential,rechargeable%20batteries%2C”
+      %20Ramaprabhu%20says>.
+International Baccalaureate Organization. Chemistry Data Booklet . 2. Cardiff : International Baccalaureate
+         Organization (UK) Ltd, 2014. PDF. 1-31 January 2021.
+Jakubowska, Anna. "A Student-Constructed Galvanic Cell for the Measurement of Cell." Journal of Chemical
+       Education (2016): 915-919. Website. 2 February 2021.
+       <https://pubs.acs.org/doi/abs/10.1021/acs.jchemed.5b00124>.
+Kuterbekov, Kairat Atazhanovich, et al. Electron thermal EMF for Na x Cu 2-x S. Gumilyov Eurasian National
+       University, Bashkir State University. Astana, Kazakhstan: E3S Web of Conferences, 2017. PDF. 2
+       February 2021.
+       <https://www.researchgate.net/publication/320912679_Electron_thermal_EMF_for_Na_x_Cu_2-x_S>.
+LibreTexts. The Reaction Quotient. 16 August 2020. Website. 20 January 2021.
+       <https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Suppl
+       emental_Modules_(Physical_and_Theoretical_Chemistry)/Equilibria/Chemical_Equilibria/The_Reactio
+       n_Quotient>.
+Lumenlearning. Standard States and Standard Enthalpy Changes. n.d. Website. 2 February 2021.
+      <https://courses.lumenlearning.com/introchem/chapter/standard-states-and-standard-enthalpy-
+      changes/#:~:text=However%2C%20most%20tables%20of%20thermodynamic,(exactly%200%C2%B0
+      C).>.
+Markou, Thomais and George Theophilidis. "The pacemaker activity generating the intrinsic myogenic
+      contraction of the dorsal vessel of Tenebrio molitor (Coleoptera)." Journal of Experimental Biology
+      (2000): 3471. PDF. 20 January 2021.
+      <https://www.researchgate.net/publication/12280866_The_pacemaker_activity_generating_the_intrinsi
+      c_myogenic_contraction_of_the_dorsal_vessel_of_Tenebrio_molitor_Coleoptera>.
+New Jersey Department of Health and Senior Services. Hazardous Substance Fact Sheets. November 2004.
+       PDF. 25 January 2021. <https://nj.gov/health/eoh/rtkweb/documents/fs/1574.pdf>.
+
+
+
+
+                                                      13
+Prasad, R. IIT Madras registers initial success with iron ion battery. 10 August 2019. Website. 25 January
+        2021. <https://www.thehindu.com/sci-tech/science/iit-madras-registers-initial-success-with-iron-ion-
+        battery/article28976853.ece>.
+Xie, Congxin, et al. "A Low‐Cost Neutral Zinc–Iron Flow Battery with High Energy Density for Stationary
+       Energy Storage." Angewandte Chemie (Angew Chem) (2017). PDF. 24 January 2021.
+       <https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.201708664>.
+Xu, Wangwang and Ying Wang. "Recent Progress on Zinc-Ion Rechargeable Batteries." Nano-Micro Letters
+      (2019). PDF. 24 January 2021. <https://link.springer.com/article/10.1007/s40820-019-0322-9>.
+Zumdahl, Steven, Susan Zumdahl and Donald J. DeCoste. "11.5: Batteries." Chemical Principles. 11 May
+      2019. 5 January 2020.
+      <https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_(Zumdahl_and_De
+      coste)/11%3A_Electrochemistry/11.5%3A_Batteries>.
+
+
+
+
+                                                      14
+

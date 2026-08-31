@@ -1,0 +1,437 @@
+How does the quality of the physical
+environment vary as one move away
+from the centre of Ginza?
+
+Word count: 2412
+Date of submission: October 2018
+                                                                                             1
+
+
+Fieldwork and Geographic Context
+Fieldwork Question: How does the quality of the physical environment vary as one move
+away from the centre of Ginza?
+
+Hypotheses
+Temperature: As the distance from central Ginza to Hibiya Park decreases, the temperature
+will decrease.
+Albedo: The higher the albedo, the less difference between temperature at ground level
+and eye level.
+Green space: As the distance from central Ginza increases, the area allocated for green
+space will increase.
+
+Geographical Context
+Ginza is a central business district located in Tokyo near the Imperial Palace. It has been
+prosperous since Meiji government’s civilization project and currently stands as an iconic
+commercial zone. As of 2018, it has the highest land value in Tokyo1, and is famous for
+having a variety of high-class shops and department stores. From its character, it has long
+been a tourist attraction not only from overseas but also from other regions in Japan.
+Because of its context of being planned as a commercial zone, limited considerations have
+been made toward sufficient green environments, compared to Marunouchi area which has
+been under redevelopment from 1998 to 2007. 2
+
+Given that Ginza has the highest land value in Tokyo, 3the priority of land allocation is
+substantially for commerce, not scenery. As a consequence of urbanisation, urban heat
+island effect is more apparent. For this reason, Ginza area suitable for this investigation to
+collect a variety of data regarding albedo, air temperature, and green space allocation in the
+main area of a city, which bridges to a geographic inquiry of urban stress.
+
+Site E in this investigation takes place at Hibiya Park.
+
+The data for this investigation was collected on Thursday, 26th April 2018 from site A to site
+E, each with 200m interval in between 13:00 to 15:00.
+
+
+
+
+1
+    Tokyo Ginza Official, 2017
+2
+    Mitsubishi Estate, 2018
+                                                                                             2
+
+
+
+
+Methods of investigation
+Temperature measurement
+Temperature of two different heights are measured using a digital thermometer. This is
+because it was estimated that the surface will absorb heat and will show different results
+according to the surface type. For both heights, the thermometer was for 1 minute to
+record the average temperature. At each location, 3 trials were recorded for each height.
+
+Temperature difference would additionally be found by subtracting higher value from lower
+value. This would be used to answer the relationship between albedo and energy absorbed
+in ground.
+
+Albedo measurement
+Raw data for albedo levels were measured using a lux meter (Dr.Meter:LX1010B).
+Ambient light source was measured by placing the meter on the ground, (Figure 1) sensor
+facing upwards towards the sky for about 5 seconds and recorded the stabilised value. The
+reflectivity value of a surface was recorded by pointing the sensor towards the sample, with
+a controlled distance of 15cm above ground using a ruler. At each location, 5 trials were
+conducted in 3-minute interval.
+                                                      !"#$"%&'('&) +# , -./#,%"
+Albedo is to be calculated by the following formula: 012'"3& $'45& -+./%"
+                                                                                                3
+
+
+While site E is a single location, since it is a park it has variety of surfaces. In this
+investigation, it will narrow it down to 1. natural surface (with fallen leaves and soil), 2.
+artificial surface (concrete).
+
+Figure 1
+
+
+
+
+A sample image of using lux meter towards the sky.
+
+
+Green space measurement
+Both qualitative and quantitative data could be gained from series of photographs taken at
+each location. To obtain the quantitative data, photograph will be loaded to analysis
+software ‘ImageJ’. By specifying a specific hue, saturation, and brightness range, the
+software is able to extract an area with certain colours. This would support in finding out
+the relative area allocation for green spaces for different locations.
+
+
+
+
+Figure 2: the measuring procedure using ImageJ.
+
+The second method that is used to determine greenspaces through the satellite view of
+'Bing maps'. First, we would adjust the scale of a map in image J, and then creating a circle
+                                                                                            4
+
+
+of 25m radius from each site(A-E). After areas with trees being measured by 'select'
+function, the proportion would be calculated by dividing it with the area of 25m radius.
+
+Area of trees were specifically chosen, as trees have the most impacts in environment, as
+not only it can absorb carbon dioxide gas but also decease the surrounding temperature,
+while smaller plants such as flowers do not contribute much to the outcome. Additionally,
+trees can provide shade for people, in which makes it ‘feel’ cooler for people, making it
+more comfortable during the hot days, thus yielding a better quality of physical
+environment.
+
+
+
+
+Figure 3. Measuring a tree within 25m radius of site A.
+
+
+
+Analysis
+Surrounding Temperature
+
+Figure 4
+                                                                                                5
+
+
+
+
+ Figure 5.1 – Site A (view towards site B       Figure 5.2 – Site A (view towards the
+ park)                                          opposite side)
+As seen in figure 4, the highest temperature observed was at site A, the city centre and
+marked 38.1°C for 170cm above ground, which is what average height people would
+experience. It is then followed by B with 35.8°C, C with 27.8°C, D with 27.8°C, and E with
+26.5°C. Through the visual representation of trend line A, we are able to see that the
+surrounding temperature decreases as the distance from site A increases. Additionally,
+starting from site C, the temperature values are below 30°C.
+
+One of the possible reasons for site A scoring the highest temperature would be the amount
+of congestion. As seen in Figure 5.1/5.2, we could see 2a significant amount of people
+crowding in one area, disrupting the flow of air, as well as people releasing energy, which
+adds on more heat to the environment, causing the overall temperature to rise. On the
+other hand, site E was surrounded by trees, so that consequently would remove heat
+energy from the air (Evans, n.d.).
+
+For the temperature at 15cm above ground datasets, the values were consistently greater
+than datasets of 170cm at same site, with an exception of site C. Site C gave an anomalous
+result of temperature at different heights being the same as other. A factor that made this
+change would be because the data measured in site C was under a bridge, it was covered
+from sunlight the whole day. For this reason, the surface at site C did not absorb energy
+unlike other surfaces and remains steady throughout the day. Therefore, since sunlight was
+not reflected, the temperature at different heights did not differ.
+
+Overall, we could accept the hypothesis I proposed and say that the temperature decreases
+as the distance from CBD (site A) increases.
+
+Albedo
+Figure 4 also displays the average albedo for different sites. Site D marked the highest with
+55%, followed by A with 33%, C with 35%, D with 25%, E with 7%, and E2 with 8%. Site E/E2
+had the lowest value due to the black pavement and natural soil, which from its nature are
+more absorbent than grey, white-ish pavements used in site A-D. Overall, the urban stress
+has been reduced due to low albedo compared to black concrete surface, and its effect on
+temperature difference.
+                                                                                                       6
+
+
+
+
+                                 Figure 6 – Pavement sample
+                                 from site A-D.
+
+  Figure 7
+
+
+
+
+                                                                                       Correlation
+                                                                                       Coefficient =
+                                                                                       0.985929751
+
+                                                                                       y = 0.97x +
+                                                                                       2.9033
+
+
+
+
+In order to determine if there is an actual relationship between the temperature difference and albedo
+levels, Pearson's correlation coefficient would be used. This coefficient is used to measure the
+association between two different variables and is expressed from the scale of -1 to 1. the closer it is
+to 1 or -1, the stronger the correlation is. Figure 7 omits site C, as there was no difference between
+temperatures at two heights, as the location was under shade and ground did not absorb heat.
+
+The result, 0.986 gives that there is a strong correlation between the decrease in albedo levels and
+temperature difference increasing. Since temperature difference would essentially be a measure of
+temperature that is retained/absorbed inside the ground, thus the bigger this value is, more heat
+would be released overnight, which would keep the area warmer than the area that has less
+temperature difference, thus is suggested to be a cause for urban heat island effect.
+
+Also using figure 6, we were able to figure out a statistical relationship between two variables two
+determine the validity of the hypothesis. From the data, it is deducted that every 15% of albedo
+increase will decrease the temperature difference —energy stored— by 1°C and vice versa. This
+relationship allows us to lead to an answer for my hypothesis, that the hypothesis was correct, and
+higher the albedo the lower.
+Green spaces
+Figure 8
+                                                                                                       7
+
+
+
+
+          The area of green spaces allocated did not increase as the distance from site A increased.
+          The highest value recorded was site E with 53%, followed by A with 31%, D with 24%, C with
+22%, and B with 17%. The CBD area (siteA-D) had a consistent result with the average of 24%, and a
+range of ±7%, indicating that these areas are likely to be planned to qualify certain regulations for
+trees. 4According to Ginza Machidukuri council, the trees must not exceed 4m width, and should be
+planted 8-10m apart.
+          Site E could be considered as an anomaly, as the general environment is different from other
+locations. While the majority of the objects we can observe are artificial in the CBD area, site E
+emulates the nature to provide a relaxing location, an oasis to the cluttered business area. As a matter
+of fact, it was observed that female office workers were having lunch sitting outside, which would be
+an indication of how it is contributing to reducing urban stress.
+          Additionally, since Ginza was traditionally a shopping district even before cars began running,
+they had to sacrifice the sidewalk for a road. Even so, the width of the road itself is not wide enough
+compared to today’s standards. For this reason, it is fair to assume that the government had allocated
+more sidewalk area than for trees in order to cope with increasing number of tourists.
+          According to the “Ministry of Land, Infrastructure, Transport and Tourism”, Ginza has
+allocated 6.25m of the sidewalk, compared to 8.1m at Omotesando. Additionally, while Ginza area
+would have to reduce this 6.25m to add planting space if they would have to, Omotesando area –
+which is already known as a street with trees planted – already has 2.65m of trees allocated within
+8.1m. 5Thus, the sidewalk width could be a possible obstacle for Ginza to have improved green space
+allocation.
+Figure 9
+
+
+
+
+4
+ National Institute for Land and Infrastructure Management:
+5
+ National Institute for Land and Infrastructure Management: Research Center for Infrastructure
+Management Landscape and Ecology Division, 2004
+                                                                                                        8
+
+
+
+Figure 9 also displays a similar pattern as photo analysis. Sites A-D remained low, having an average
+of 5.5%, while site E exceeded 50%, and as it was explained above, site E is aimed to have a different
+function, therefore this result is as expected. Overall, the area of green spaces did not increase as the
+distance increased from site A, which makes my hypothesis invalid, along with the analysis on Figure
+8. As stated above, this could be because the same green construction planning would apply to the
+same street.
+
+
+Conclusion
+        This investigation provided significant statistical information to answer the field work
+question exploring the impacts of distance to the quality of physical environment. Three relevant sub-
+hypotheses were derived to explore this in detail.
+        The first sub-hypothesis aimed to find a relationship of distance from siteA (center) and
+temperature. The result has displayed a statistical relationship of temperature decreasing as distance
+increasing, hence accepting the hypothesis. Overall, we have observed a 30% decrease in temperature
+from site A to site E.
+        The second sub-hypothesis stated that higher the albedo, there is less difference between
+temperature at two heights. The results have shown that the hypothesis is valid as well, giving a strong
+negative correlation, supported by the mathematical calculations of correlation coefficient.
+        The third sub-hypothesis stated that as you move further from site A, the area allocated for
+green spaces would increase. This hypothesis was concluded as being invalid, as there was no
+difference across the street throughout site A to D, except for site E in which it was inside a park. This
+result was further supported from government document source.
+        Overall, the data obtained from this investigation revealed that a quality of physical
+environment changed significantly by two levels (temperature and albedo) as the distance increased
+from the city centre, but does not apply for green space allocation.
+                                                                                                9
+
+
+Evaluation
+        One of the critical, an unexpected issue that I came across was the quality of the lux
+meter. The light intensity the meter could measure were 30000lx, and occasionally the
+measurement reached this value, which means that anything higher is not recorded. As a
+workaround, I waited until the sun moves under the clouds so that the light is less intense.
+This would still give an appropriate albedo value, as it is a relative value for
+!"#$"%&'('&) +# , -./#,%"
+                          . For future investigations, the use of higher quality lux meter must be
+ 012'"3& $'45& -+./%"
+used to avoid such issues and for more efficiencies.
+        Time constraints were one of the challenges we faced. Since we were in location for
+merely 2.5 hours, only three indicators were studied to explore urban stress and physical
+environment. Additionally, it was only conducted on a single day in May, making it difficult to
+suggest if the same trend we concluded can apply on other days.
+        Despite the time constraints, I have managed to maintain 5 trials per data, which gives
+more reliability than only three trials. By having this, it gives more consistency in data
+representation, especially for the temperature that changes accordingly to the environment.
+        Other indicators could have been examined to understand urban stress in addition.
+For example, indicator ‘traffic congestion’ could have been added to investigate the
+relationship between temperature, because more cars would mean more CO2 gasses are
+emitted at the area, which traps heat thus increasing the overall temperature.
+        Overall, the conclusion that was drawn from only three indicators may not be an
+accurate representation of urban stress.
+        Further investigations, such as changing the location may be considered for a better
+study on urban stress. Locations such as Shinjuku and Omotesando, just like Ginza has a huge
+park located nearby and thus makes it appropriate to compare with the same fieldwork
+question.
+                                                                                              10
+
+                                              References
+
+Evans, E. (2002). Benefits of Trees. Retrieved from
+
+       https://projects.ncsu.edu/project/treesofstrength/benefits.htm
+
+                        (2017).                  . Retrieved from http://www.ginza.jp/history/2
+
+
+                                  . (2004).           . Retrieved from:
+
+       http://www.ktr.mlit.go.jp/yokohama/06data/plan/keikan/pdf/dourokeikan06.pdf
+
+
+            . (2018).                                      . Retrieved from
+
+                                  Council website:
+
+       http://www.ktr.mlit.go.jp/toukoku/kankyo/ginza/20170216iinkai.pdf
+
+
+
+                   (2007). Trees in city planning. Retrieved from
+
+       http://www.nilim.go.jp/lab/ddg/seika/ks/ks043312.pdf
+
+         . (n.d.). Making Marunouchi area resillient and eco friednly. Retrieved from
+
+       http://office.mec.co.jp/info/pdf/marunouchi_area.pdf
+
+PCE. (n.d.). Люксметр PCE-174 [A sample of how to use lux meter]. Retrieved from
+
+       https://www.pce-instruments.com/russia/slot/13/artimg/large/pce-
+
+       instruments-%D0%BB%D1%8E%D0%BA%D1%81%D0%BC%D0%B5%D1%82%
+
+       D1%80-pce-174-5857141_1132370.jpg
+                                                                                     11
+
+
+Appendix A – Raw Data
+Temperature
+                         temp at                   temp at
+                                     Average                        Average
+                          170cm                     15 cm
+              Trial 1      38.4                      42.9
+   Site A     Trial 2      37.5       38.1           42.6            42.5
+              Trial 3      38.3                      41.9
+              Trial 1       37                       41.5
+   Site B     Trial 2      34.5       35.8           41.6            41.8
+              Trial 3      35.9                      42.2
+              Trial 1      27.8                      27.8
+   Site C     Trial 2      27.8       27.8           27.7            27.8
+              Trial 3      27.9                      27.8
+              Trial 1      27.2                      31.4
+   Site D     Trial 2      27.5       27.4           31.5            31.4
+              Trial 3      27.4                      31.3
+              Trial 1      26.6                      33.3
+   Site E1    Trial 2      26.5       26.5           33.6            33.5
+              Trial 3      26.4                      33.5
+              Trial 1      26.6                      34.5
+   Site E2    Trial 2      26.5       26.5           34.2            34.1
+              Trial 3      26.4                      33.7
+
+Difference
+              Average temperature at 170cm     Average temperature at 15cm    differe
+                      above ground                    above ground             nce
+    Site A                38.1                            42.5                  4.4
+    Site B                35.8                            41.8                  6.0
+    Site C                27.8                            27.8                  0.0
+    Site D                27.4                            31.4                  4.0
+    Site E                26.5                            33.5                  7.0
+   Site E2
+                          26.5                               34.1              7.6
+ (pavement)
+                                                                                                     12
+
+
+Albedo Calculation
+                                             Lx (x10)
+                              Trial    Ambient     Reflected      Albedo           Average Albedo
+                               1        2298          1270         55%
+                               2        2231          1170         52%
+          Site A               3        2219          1187         53%                  53%
+                               4        2234          1200         54%
+                               5        2321          1196         52%
+                               1         503           141         28%
+                               2         492           113         23%
+          Site B               3         487           102         21%                  25%
+                               4         506           103         20%
+                               5         450           137         30%
+                               1         104            35         34%
+                               2         107            37         35%
+          Site C               3         111            38         34%                  35%
+                               4         109            39         36%
+                               5         111            40         36%
+                               1        2784          1431         51%
+                               2        2749          1526         56%
+          Site D               3        2731          1530         56%                  55%
+                               4        2786          1623         58%
+                               5        2783          1534         55%
+                               1         784            57          7%
+                               2         960            59          6%
+    Site E1 (Natural)          3        1020            68          7%                   7%
+                               4        1040            75          7%
+                               5        1032            74           
+                               1         700            56          8%
+                               2         758            60          8%
+   Site E2 (Concrete)          3         780            62          8%                   8%
+                               4         827            67          8%
+                               5         795            50          6%
+
+Area of Green spaces
+Photo Analysis                                         Map Analysis
+          Area of   Area of                                          Area of       Area of    percent
+          Green     Image             proportion                     Greenery      Circle     age
+          spaces                                         Site A          98.78                     5%
+ Site A   132573         429872             31%          Site B            92.34                    5%
+          398552        24000000            17%          Site C        63.048      1975.726         3%
+ Site B
+               3
+                                                         Site D       168.338                       9%
+          528957        24000000            22%
+ Site C                                                  Site E       1,204.75                      61%
+               4
+          298590        12192768            24%
+ Site D
+               8
+ Site E   650643        12192768            53%
+               0
+

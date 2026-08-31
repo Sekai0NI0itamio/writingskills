@@ -1,0 +1,746 @@
+      MATHEMATICS IA
+Mathematical investigation of an egg
+
+
+
+
+  Date of submission: March 2020
+
+     Exam Session: May 2020
+
+       Submitted by: hxp707
+                                     1. INTRODUCTION
+
+Using knowledge and theories from the sciences and applying it to real-life situations in order
+
+to help with problem solving has always been intriguing to me; this is an important aspect of
+
+being an inquirer, one of the IB learner profile traits. For example, in HL Chemistry, we carried
+
+out a lab experiment involving titrations in order to calculate the mass of calcium carbonate
+
+present in a sample of eggshell. I was able to use my existing knowledge of reactions and mole
+
+calculations in order to acquire new information which is of potential significance to the
+
+industry; studies have suggested that calcium carbonate extracted from eggshell is a good
+
+pharmaceutical excipient that can be used in a variety of products (Murakami et al., 2007).
+
+Similarly, I wanted to employ my mathematical knowledge to do something which I found
+
+interesting and provides useful information in contextual real-life situations.
+
+
+
+As a child, when I was living in Egypt, I remember helping my grandmother in taking care of
+
+the farm animals. She would always ask me to go count how many eggs the chicken have laid
+
+and bring some to her. While doing so, I would observe the eggs and ponder over their elegant
+
+shape, and then talk about it with her. I was fascinated by how myriad complex shapes were
+
+present in nature, sparking an interest within me. As I developed a passion for mathematics, I
+
+started thinking about such phenomena from a mathematical point of view, and so I decided to
+
+model a chicken egg in this exploration, viewing the problem from different perspectives and
+
+using different approaches. This investigation aims to find suitable mathematical models for a
+
+chicken egg and comparing them, and further, to calculate the volume and surface area of the
+
+egg from those models. This topic is relevant and has wider implications; the volume is
+
+indicative of the amount of yolk in the egg, while the surface area is indicative of the amount
+
+of eggshell present. The egg I modelled was randomly taken from the kitchen and is shown in
+
+Figure 1.
+
+
+
+                                                1
+                                  2. MODELLING THE EGG
+
+In order to assist in finding a good model which serves as a good fit for the egg, it was cropped
+
+from Figure 1 using Abode Photoshop and then superimposed onto the graphing software
+
+Desmos, as illustrated in Figure 2. Furthermore, I needed a way to determine how the egg
+
+should be scaled, as that would have resulted in an accurate calculation for the volume and
+
+surface area, rather than providing values which are only proportional to the true values. As
+
+such, one dimension of the egg had to be measured. Deciding to measure the length, the egg
+
+was boiled and cut in half along its vertical axis of symmetry, i.e. the middle. I then used a
+
+15cm ruler to find the distance between the top and the bottom and that was found to be 5.4cm,
+
+represented by the red line in Figure 2. It is important to note however that the axis of symmetry
+
+was judged subjectively; in other words, I was not able to accurately specify at which point to
+
+cut such that this would result in the greatest length. Furthermore, the precision of the ruler
+
+was 0.1cm, which means that there was an uncertainty of ±0.1𝑐𝑚 in the measurement.
+
+
+
+
+    Figure 1: Chicken egg that is being modelled.       Figure 2: Superimposing a cropped version
+                                                        of the egg (length = 5.4𝑐𝑚) into Desmos.
+
+
+
+
+                                                    2
+2.1 Method A: Modifying the Ellipse Equation
+
+The shape of an egg is somewhat similar to that of an ellipse, therefore it could be used as a
+
+good starting point. An ellipse has two different “radii”, defined as the major axis and the minor
+
+axis. The equation of a general ellipse is as follows:
+
+                                          𝑥2 𝑦2
+                                             +    =1,                                            (1)
+                                          𝑟𝑥2 𝑟𝑦2
+
+where ±𝑟𝑥 and ±𝑟𝑦 represent the 𝑥 and 𝑦 axes-intercepts respectively. They could also be
+
+thought of as the horizontal and vertical radii. The one with the greater magnitude represents
+
+the major axis, while the other is the minor axis. The magnitude of either of the axes is simply
+
+twice the value of 𝑟𝑥 or 𝑟𝑦 , i.e. the distance between the two vertical or horizontal intercepts. In
+
+order to simplify upcoming calculations, the denominators in (1) will be replaced with 𝑎 and
+
+𝑏, as follows:
+
+                                           𝑥2 𝑦2
+                                             +   =1                                              (2)
+                                           𝑎   𝑏
+
+By composing (2) with a function, either in terms of 𝑥 or 𝑦, the ellipse could be modified to
+
+further resemble the shape of an egg. This function could take any form, but let us consider the
+
+simple, judicious case in which we add a term ‘𝑐𝑦’ to the denominator:
+
+                                 𝑥2   𝑦2
+                                    +     = 1, where c > 0                                       (3)
+                                 𝑎 𝑏 + 𝑐𝑦
+
+Here, 𝑐 is another parameter which—in colloquial terms—‘controls’ the shape of the ellipse
+
+above and below the 𝑥-axis, such that it stops looking like an ellipse and more like an egg.
+
+Figure 3 highlights this difference and shows how (3) resembles an egg much better than (2)
+
+does. We can understand why this works by considering the symmetry of the ellipse. The
+
+denominator is a constant value, 𝑏, giving the same vertical radius above and below the 𝑥-axis;
+
+however, upon adding another term to the denominator which is dependent on 𝑦, the symmetry
+
+changes, altering the shape. Below the 𝑥-axis, since the 𝑦 values are negative, the magnitude
+
+
+
+                                                 3
+of the term ‘𝑏 + 𝑐𝑦’ would decrease (when 𝑐 is positive). In contrast, the magnitude would
+
+increase above the 𝑥-axis because the 𝑦 values are positive. As such, this asymmetry results in
+
+different distances from the origin for different points on the curve. The larger the value of 𝑐,
+
+the more drastic this asymmetry is above and below the 𝑥-axis. Negative values of 𝑐 would
+
+simply rotate the curve by 180°, and therefore the restriction on 𝑐 was applied since the egg
+
+being modelled in Figure 2 contains the “smaller radius” below the 𝑥-axis.
+
+
+
+
+              Figure 3: Graphical representation of (3) in blue, and (2) in red.
+
+
+
+Now, we can try applying this general model to our egg, in which case we will need to find
+
+appropriate values for our three parameters 𝑎, 𝑏 and 𝑐. In order to do this, a system of at least
+
+three linear equations will be needed, and hence at least three co-ordinates. The axes intercepts
+
+can be used as co-ordinates as that would simplify the calculation process, as these co-ordinates
+
+will help eliminate the 𝑥 or 𝑦 part of the equation. Looking back at Figure 2, we can see that
+
+the egg intercepts the 𝑦-axis at (0, 3.2) and (0, –2.2), and the 𝑥-axis at (±2.1, 0). Substituting
+
+these values into (3) yields the following system of equations:
+
+                                        𝑏 + 3.2𝑐 = 3.22                                       (4)
+
+                                        𝑏 − 2.2𝑐 = 2.22                                       (5)
+
+                                            2.12
+                                                 =1                                           (6)
+                                             𝑎
+
+We can subtract (5) from (4) to give us:
+
+
+                                                4
+                                               5.4𝑐 = 5.4
+
+                                                ∴𝑐=1
+
+     Substituting this value back into (4) or (5) gives us 𝑏 = 7.04; and from (6), 𝑎 = 4.41.
+
+     Therefore, according to this model, the equation of this specific egg can be quoted as:
+
+                                           𝑥2     𝑦2
+                                              +         =1                                        (7)
+                                          4.41 7.04 + 𝑦
+
+
+
+                                                            As can be seen from Figure 4, the
+
+                                                            modified ellipse equation does a good
+
+                                                            job at representing the general shape of
+
+                                                            the egg and, as expected, the equation
+
+                                                            passes through all the axes intercepts. It
+
+                                                            also seems to have similar curvature to
+
+                                                            that of the egg above the 𝑥-axis;
+
+                                                            however, upon closer observation, this
+
+                                                            fails to be the case below the 𝑥-axis, as
+
+                                                            the curve seems to ‘extend’ wider
+
+                                                            beyond the curvature of the egg. Of
+
+Figure 4: Graphical representation of (7) showing how it course, different co-ordinates on the egg
+models the egg.
+                                                         could have been used to calculate the
+
+     coefficients, which could have resulted in a slightly different shape, but that still would have
+
+     not overlapped perfectly with the egg. This means that the flaw is likely to be within the model
+
+     itself. Perhaps instead of adding the term ‘c𝑦’ in the denominator, composing (2) with a
+
+     different function may have given rise to a more accurate fit, for example, 𝑒 −𝑐𝑦 . As such, an
+
+     investigation into which function should be composed to provide the best fit could be worth
+
+
+
+
+                                                    5
+doing, although that is not vital, since the current function is a decent representation that only
+
+minimally strays away from the ‘perfect’ shape.
+
+
+
+2.2 Method B: Using Polynomials
+
+Note that in this section, to help with modelling, the egg in Figure 2 will be rotated 90°
+
+clockwise such that it is placed horizontally along the 𝑥-axis. This method involves analytically
+
+finding polynomial equations that can model one half of the egg, and then reflecting them in
+
+the 𝑥-axis to obtain the equations for the other half, assuming that the egg is symmetrical on
+
+both sides. These polynomial functions can be found using the Lagrange interpolation formula,
+
+which states that for a unique polynomial of degree 𝑛, (𝑛 + 1) data points are required to find
+
+a ‘best’ fit. The formula is given as follows for a polynomial 𝑃(𝑥):
+                         𝑛+1
+                                (𝑥 − 𝑥1 ). . . (𝑥 − 𝑥𝑖−1 )(𝑥 − 𝑥𝑖+1 ). . . (𝑥 − 𝑥𝑛+1 )
+               𝑃(𝑥) = ∑                                                                  𝑦
+                               (𝑥𝑖 − 𝑥1 ). . . (𝑥𝑖 − 𝑥𝑖−1 )(𝑥𝑖 − 𝑥𝑖+1 ). . . (𝑥𝑖 − 𝑥𝑛+1 ) 𝑖
+                         𝑖=1
+
+
+                      where 1 ≤ 𝑖 ≤ 𝑛 + 1 𝑎𝑛𝑑 𝑃(𝑥𝑖 ) = 𝑦𝑖 (Brilliant, 2019)
+
+Needless to say, the higher the degree of the polynomial chosen, the more accurately the egg
+
+can be modelled. However, some preliminary testing showed that only one second, third, or
+
+fourth degree polynomial is not a decent fit for the egg (top half) in its entirety. This makes
+
+sense as the curvature of the egg is different from that of the nature of a quadratic or cubic or
+
+a quartic. We could, of course, try using higher degrees such as fifth or sixth degrees, although
+
+that would result in complicated polynomials that are unnecessarily long and would be time
+
+consuming to expand and simplify. As such, it could be helpful to divide the egg into three
+
+sections: left, middle and right, where each section can be modelled using a separate
+
+polynomial. I have chosen to simply use quadratic equations; in which case I will need three
+
+data points for each section. The Lagrange interpolation formula for a quadratic (𝑛 = 2, 𝑖 = 3)
+
+is then written as:
+
+
+
+                                                     6
+                (𝑥 − 𝑥2)(𝑥 − 𝑥3 )        (𝑥 − 𝑥1)(𝑥 − 𝑥3 )        (𝑥 − 𝑥1 )(𝑥 − 𝑥2)
+    𝑄(𝑥) =                         𝑦1 +                     𝑦2 +                     𝑦              (8)
+               (𝑥1 − 𝑥2)(𝑥1 − 𝑥3 )      (𝑥2 − 𝑥1)(𝑥2 − 𝑥3 )      (𝑥3 − 𝑥1 )(𝑥3 − 𝑥2 ) 3
+
+
+
+Using three randomly chosen co-ordinates from the ‘left’ section of the egg (given in Table 1),
+
+we can therefore find the quadratic equation, 𝑄𝑙 (𝑥), to be:
+
+            (𝑥 − 0.25)(𝑥 − 0.512)              𝑥(𝑥 − 0.512)                    𝑥(𝑥 − 0.25)
+ 𝑄𝑙 (𝑥) =                         (0.01) +                      (0.886) +                       (1.283)
+            (0 − 0.25)(0 − 0.512)          (0.25)(0.25 − 0.512)           (0.512)(0.512 − 0.25)
+
+                              ≈ −3.884244𝑥 2 + 4.475061𝑥 + 0.01 (6 𝑑. 𝑝. )
+
+Note that the equation above was not simplified by expanding the linear expressions and
+
+summing them, as that would have been tedious and time consuming; rather, I inputted (8) into
+
+WolframAlpha to simplify the equation to a quadratic in the form 𝑎𝑥 2 + 𝑏𝑥 + 𝑐, where:
+
+                            𝑦1                   𝑦2                  𝑦3
+               𝑎=                       +                   +
+                    (𝑥1 − 𝑥2 )(𝑥1 − 𝑥3 ) (𝑥2 − 𝑥1)(𝑥2 − 𝑥3 ) (𝑥3 − 𝑥1)(𝑥3 − 𝑥2 )
+
+                             𝑥3𝑦1                 𝑥2𝑦1                 𝑥3 𝑦2
+              𝑏=−                         −                    −
+                      (𝑥1 − 𝑥2 )(𝑥1 − 𝑥3 ) (𝑥1 − 𝑥2 )(𝑥1 − 𝑥3 ) (𝑥2 − 𝑥1)(𝑥2 − 𝑥3 )
+
+                             𝑥1 𝑦2                𝑥2 𝑦3               𝑥1 𝑦3
+                  −                       −                   −
+                      (𝑥2 − 𝑥1 )(𝑥2 − 𝑥3 ) (𝑥3 − 𝑥1)(𝑥3 − 𝑥2 ) (𝑥3 − 𝑥1)(𝑥3 − 𝑥2 )
+
+                             𝑥2 𝑥3𝑦1            𝑥1𝑥3𝑦2            𝑥2 𝑥3 𝑦1
+                  𝑐=                      +                 +
+                        (𝑥1 −𝑥2 )(𝑥1 −𝑥3 ) (𝑥2 −𝑥1 )(𝑥2 −𝑥3) (𝑥3 −𝑥1 )(𝑥3 −𝑥2 )
+
+I then simply inputted the expressions above and the co-ordinates’ values from the tables to
+
+calculate the quadratic coefficients using Desmos.
+
+
+
+
+                                                    7
+Repeating this procedure, I obtained the equations for the middle section, 𝑄𝑚 (𝑥), and the right
+
+section, 𝑄𝑟 (𝑥), using the data from Tables 2 and 3 respectively. To six decimal places, the
+
+functions are given as follows:
+
+                       𝑄𝑚 (𝑥) = −0.190278𝑥 2 + 0.981862𝑥 + 0.835266
+
+                     𝑄𝑟 (𝑥) = −3.431960𝑥 2 + 32.799862𝑥 − 77.237990
+
+The three functions were then graphed using Desmos, as follows:
+
+                              𝑄𝑚 (𝑥) = −0.190278𝑥 2 + 0.981862𝑥 + 0.835266
+
+
+  𝑄𝑙 (𝑥) = −3.884244𝑥 2 + 4.475061𝑥 + 0.01                𝑄𝑟 (𝑥) = −3.431960𝑥 2 + 32.799862𝑥 − 77.237990
+
+
+
+
+  Figure 5: Three quadratic functions modelling the left, middle and right sections of the
+  egg, and the data points used to obtain these functions.
+
+Finally, we can restrict the domains of each function and reflect them in the 𝑥-axis to obtain a
+
+final piecewise relation modelling the egg:
+
+               ±(−3.884244𝑥 2 + 4.475061𝑥 + 0.01)     0 ≤ 𝑥 ≤ 0.512
+                         2
+    𝑓(𝑥 ) = {±(−0.190278𝑥 + 0.981862𝑥 + 0.835266)                                                   (9 )
+                                                    0.512 ≤ 𝑥 ≤ 4.856
+                          2
+             ±(−3.431960𝑥 + 32.799862𝑥 − 77.237990) 4.856 ≤ 𝑥 ≤ 5.35
+
+Note: (9) is considered a relation and not a function since there are two different outputs for
+
+each input, and therefore does not agree with the definition of a function, which requires only
+
+
+
+                                                   8
+one output for each input. Looking at Figure 6, the piecewise relation seems to be an almost
+
+excellent model for the egg as it nearly overlaps with the outline of the egg perfectly; although
+
+the curvature seems to be one aspect which is lacking as the transitions between the quadratic
+
+functions at the different sections seem to be ‘awkward’ rather than smooth, i.e. it can easily
+
+be deduced that (9) is a piecewise relation solely from looking at the graph. Furthermore, the
+
+assumption that the egg is symmetrical about the x-axis seems to be true through observing the
+
+graph below and above the 𝑥-axis, although it cannot be asserted that the egg is perfectly
+
+symmetrical. In order to achieve better accuracy, the Lagrange interpolation formula could
+
+have been applied for the bottom half too, but that would be unnecessary and time consuming
+
+merely for a minute increase in the level of accuracy.
+
+
+
+
+               Figure 6: Graphical representation of the piecewise relation (9).
+
+
+Reflecting upon this method, it might have seemed somewhat unnecessary using the Lagrange
+
+interpolation formula to merely find the coefficients of quadratic equations. Perhaps, it could
+
+have been more efficient to construct three simultaneous equations with the unknown
+
+
+
+                                               9
+coefficients 𝑎, 𝑏, and 𝑐, and then perform Gaussian elimination to find their values, which
+
+would have resulted in the same values obtained from the Lagrange formula. Originally, this
+
+formula was introduced with the aim of finding one higher-order polynomial that would model
+
+the whole egg (which would have been difficult to do using other methods); however, the
+
+inability to do so alluded to dividing the egg into three quadratic sections, in which case the
+
+Lagrange formula would have not been necessary to do so. Although this method is unique and
+
+accurate, other methods could have been used to simplify the calculation process.
+
+
+
+2.3 Comparing the Methods
+
+Perhaps the most notable difference between the two methods is that method A is more general
+
+than method B, as it can be easily applied to any unique egg possessing the same general shape,
+
+given the axes-intercepts of the egg. Method B on the other hand is more specific in the sense
+
+that many separate, different polynomial functions will be needed to model the egg. Although
+
+the second model seems to be a more accurate fit than the first (through comparing Figure 4
+
+with Figure 6), the first model could be considered superior due to its higher generalizability;
+
+not to mention that its graph is continuous and appears to be smoother. As such, the model
+
+obtained from the first method, (7), will be used in upcoming calculations for the volume and
+
+surface area. That being said, each model is unique and has its own pros and cons.
+
+
+
+                            3. CALCULATING THE VOLUME
+
+In HL math, we learnt that the volume of the solid generated by revolving a 2D function, 𝑓(𝑦),
+
+rotated 2𝜋 degrees about the 𝑦-axis is given by evaluating the following integral between two
+
+desired limits:
+
+                                          𝑏
+
+                                       𝜋 ∫[𝑓(𝑦)]2 𝑑𝑦 ,                                     (10)
+                                         𝑎
+
+
+
+
+                                              10
+where 𝑎 and 𝑏 are the lower and upper limits respectively. Re-arranging (7) to make 𝑥 2 the
+
+subject, we obtain:
+
+                                     2
+                                                   𝑦2
+                                  𝑥 = 4.41 (1 −          )                                  (11)
+                                                7.04 + 𝑦
+
+We can therefore find the volume of the egg by applying (10), with the limits as the 𝑦-intercepts
+
+given in Figure 4:
+                                                  3.2
+                                                  𝑦2
+                               𝑉 = 4.41𝜋 ∫ 1 −          𝑑𝑦                                  (12)
+                                               7.04 + 𝑦
+                                                 −2.2
+
+In order to help evaluating this integral, we can use a substitution as follows:
+
+                                            𝑢 = 7.04 + 𝑦                                    (13)
+
+                                                ∴ 𝑑𝑢 = 𝑑𝑦
+
+This allows us to re-write (12) as follows:
+                                                𝑦=3.2
+                                                             (𝑢 − 7.04)2
+                            𝑉 = 4.41𝜋           ∫ 1−                     𝑑𝑢
+                                                                  𝑢
+                                           𝑦=−2.2
+
+
+Expressing the 𝑦 limits as 𝑢 limits using (13) and simplifying the integrand, we get:
+
+                                          10.24
+                                                                 49.5616
+                          𝑉 = 4.41𝜋 ∫ 15.08 − 𝑢 −                        𝑑𝑢
+                                                                    𝑢
+                                         4.84
+
+Applying the rules of integration:
+                                                              10.24
+                                         1
+                      𝑉 = 4.41𝜋 [15.08𝑢 − 𝑢 2 − 49.5616 ln|𝑢|]
+                                         2                    4.84
+
+
+                      = 4.41𝜋(−13.3048303505 + 16.8800166229)
+
+                                         ≈ 49.5𝑐𝑚3 (3 𝑠. 𝑓. )
+
+
+
+
+                                                        11
+                          4. CALCULATING THE SURFACE AREA
+
+As with the volume, it is possible to calculate the surface area of the solid generated by rotating
+
+the function 𝑓(𝑦) about the 𝑦-axis, according to the following formula:
+
+                                         𝑏
+
+                               𝐴 = 2𝜋 ∫ 𝑓(𝑦)√1 + [𝑓 ′ (𝑦)]2 𝑑𝑦                                 (14)
+                                        𝑎
+
+                                        (Weisstein, 2019)
+
+Solving for the positive solution of 𝑥 in (11):
+
+                                                          𝑦2
+                                     𝑥 = 2.1√1 −                                               (15)
+                                                       7.04 + 𝑦
+
+                                             𝑑𝑥
+We can therefore compute the derivative 𝑑𝑦 by using the chain rule for the square root function
+
+                                                       𝑦2
+followed by using the quotient rule for the term 7.04+𝑦:
+
+
+                 𝑑𝑥                          1                 2𝑦(7.04 + 𝑦) − 𝑦 2
+                    = 2.1 × 0.5                             (−                    )
+                 𝑑𝑦                        𝑦2                     (7.04 + 𝑦)2
+                                   √1 −
+                                  (     7.04 + 𝑦)
+
+                                       −1.05(𝑦 2 + 14.08𝑦)
+                                 =                                                             (16)
+                                                               𝑦2
+                                     (7.04 + 𝑦)2 √1 −
+                                                            7.04 + 𝑦
+
+We can now use (14) to find the formula for the surface area, where 𝑓(𝑦) is given by (15), and
+
+𝑓′(𝑦) is given by (16):
+
+                                                                                      2
+                      3.2
+                                   𝑦2                       −1.05(𝑦 2 + 14.08𝑦)
+          𝐴 = 4.2𝜋 ∫ √1 −                ⋅ √1 +                                           𝑑𝑦
+                                7.04 + 𝑦                                     𝑦2
+                     −2.2                              (7.04 + 𝑦)2 √1 −
+                                                   (                      7.04 + 𝑦)
+
+A GDC was used to find the value of this integral, giving:
+
+                                   𝐴 = 4.2𝜋 × 5.014879127
+
+                                      ≈ 66.2 𝑐𝑚2 (3 𝑠. 𝑓. )
+
+
+
+
+                                                  12
+                                      5. DISCUSSION
+
+Since these calculated values of volume and surface area are likely to be overestimates (because
+
+the calculations were based on the model from Figure 4, which contained minor flaws as
+
+aforementioned), it may be worth finding a method to validate these values. This would also
+
+help in ensuring that the mathematics was correct. Conducting a displacement test would not
+
+have been a good solution as that would only provide a value for the volume, not to mention
+
+that it lacks precision. Upon researching, I found a seemingly highly accurate model by Nobuo
+
+Yamamoto (2007) which has a rigorous proof beyond the scope of this paper, as follows:
+
+                              (𝑥 2 + 𝑦 2 )2 = 𝑎𝑥 3 + (𝑎 − 𝑏)𝑥𝑦 2,                          (17)
+                                       𝑤ℎ𝑒𝑟𝑒 𝑎 ≥ 𝑏 ≥ 0
+
+𝑎 and 𝑏 being parameters which change the shape of the egg curve. Using Desmos, I found
+
+their values which best fit my egg, as shown in the figure below:
+
+
+
+
+                             (𝑥 2 + 𝑦 2 )2 = 5.33𝑥 3 + 2.62𝑥𝑦 2
+
+
+
+
+          Figure 7: Nobuo Yamamoto equation for my egg; 𝑎 = 5.33, 𝑏 = 2.71
+
+It can be seen that the equation is a very accurate model of the egg and therefore we can be
+
+certain in the values obtained from the calculations. According to Yamamoto, the volume of
+
+revolution using this model can be calculated as:
+
+
+                                              13
+                 𝜋 𝑎       3
+                               1           5         5
+                                                         𝑎3 𝑎2 𝑏
+              𝑉 = ( (𝑎 + 𝑏) +      ((𝑎 − 𝑏) − (𝑎 + 𝑏) ) − −      )
+                 2 6𝑏         60𝑏2                       6   2
+
+Substituting the values of 𝑎 and 𝑏, we get 𝑉 = 48.2 𝑐𝑚3 (3 𝑠. 𝑓. ). This is close to my
+
+calculated value of 49.5𝑐𝑚3, which is reassuring. Similarly, the surface area could be
+
+calculated using (14), where the functions 𝑓(𝑥) and 𝑓′(𝑥) are given by Yamamoto in his paper
+
+and not included here for conciseness:
+                                     5.33
+
+                             𝐴 = 2𝜋 ∫ 𝑓(𝑥) + √1 + [𝑓 ′ (𝑥)]2 𝑑𝑥
+                                     0
+
+
+                                            𝐴 = 64.7𝑐𝑚2
+
+Again, my value, 66.2𝑐𝑚2 , is faithful to the ‘true’ value calculated above. As expected, my
+
+values for the volume and surface area were slightly higher than the true ones, highlighting the
+
+flaw within my model. The percentage errors for the volume and surface area were calculated
+
+as 2.7% and 2.3% (1 𝑑. 𝑝. ) respectively, which are negligible. Therefore, we can conclude that
+
+these values are quite accurate.
+
+
+
+                                      6. CONCLUSION
+
+I was gratified to be able to tie in different areas of mathematics such as algebra, functions and
+
+calculus and use them in conjunction to achieve the aim of my exploration; modelling an egg
+
+and finding its volume and surface area. To three significant figures, the volume and surface
+
+area were calculated to be 49.5𝑐𝑚3 and 66.2 𝑐𝑚2 respectively, and those only strayed
+
+minimally from the true values; the reason for this mostly being the flaw within the model
+
+itself. Perhaps, the accuracy of my models could have been statistically calculated by
+
+comparing the model values with precise points on the egg, which could have resulted in a
+
+more mathematical comparison between the two models. It is also important to be mindful of
+
+the fact that the exploration was subject to human error, for example, there was an uncertainty
+
+
+
+                                                14
+when measuring the length of the egg, which could have altered the values obtained from the
+
+calculations. For further investigations, it could be intriguing to use a number of different eggs
+
+and model them to determine a more generic and accurate model. Additionally, it could be
+
+worth investigating if there is a mathematical relationship between the length of an egg and its
+
+volume and/or surface area, possibly leading to some interesting mathematics involving
+
+statistical analyses of correlation coefficients.
+
+
+
+                                         REFERENCES
+
+
+
+Brilliant (2019). Lagrange Interpolation. Available at: https://brilliant.org/wiki/lagrange-
+interpolation/ (Accessed: 5 December 2019)
+
+
+Desmos Graphing Calculator. (n.d.). Desmos Graphing Calculator. Available at:
+https://www.desmos.com/calculator (Accessed: 1 December 2019)
+
+
+Murakami, F.S., Rodrigues, P.O., Campos, C.M.T., Silva, M.A.S. (2007). Physiochemical
+study         of        CaCO3           from             eggshells.    SciELO          Analytics.
+http://dx.doi.org/10.1590/S010120612007000300035
+
+
+Weisstein, E.W. (2019). Surface of Revolution. From MathWorld--A Wolfram Web
+Resource. Available at: http://mathworld.wolfram.com/SurfaceofRevolution.html (Accessed:
+7 December 2019)
+
+
+WolframAlpha. (n.d.) Available at: https://www.wolframalpha.com (Accessed: 6 December
+2019)
+
+
+Yamamoto, N. (2007). Equation of Egg Shaped Curve of the Actual Egg is Found. Available
+at: http://nyjp07.com/index_egg_E.html (Accessed 8 December 2019)
+
+
+
+
+                                                    15
+

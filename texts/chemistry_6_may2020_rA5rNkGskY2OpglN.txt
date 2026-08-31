@@ -1,0 +1,267 @@
+                     Investigating the Enthalpy     of Different       nic Fuels
+
+
+Introduction
+Fuels are an integral part of our life as many functions rely on some sort of energy source. Without
+any type of fuels, the majority of operations will cease to exist. The most prevalent are fossil fuels,
+but they are also environmentally damaging sources of energy. Fossil fuels are vital in our daily
+lives due to their versatile nature and usage such as feedstock for chemicals, heating, cooking and
+as fuel for all kinds of vehicles. However, what makes fossil fuels so harmful and the fact that they
+are a non-renewable source of energy and is depleting at a rapid rate. Over time, there have been
+many substitutes considered for fossil fuels such as geothermal, tidal, wind, and solar energy.
+However, these substitutes did not provide the same amount of energy and other limitations.
+
+As an aspiring chemical engineer, the topics of energetics and organic chemistry have been of my
+primary interests. Both topics are consisting of basic fundamentals and delve deeper into complex
+sub-topics which churn my brain all night. However, what excites me the most about organic
+chemistry and energetics is their relationship with each other and their practical applications in the
+petrochemical sector and towards sustainable and renewable energy. The internal assessment gives
+me the opportunity to investigate different organic compounds (based on physical and chemical
+properties) and then calculate the enthalpy change of combustion. Finally, I can then observe and
+state whether they contribute towards improving the environment.
+Research Question
+As the current energy sources such as fossil fuels (coal, natural gas, and petroleum) are depleting
+ata very rapid rate, it is necessary to look for alternative sources of energy which can be substituted
+for fossil fuels.
+
+Thus, the following research question: Out of all methanol, ethanol, and hexane, which organic
+chemical compound releases the most energy in a non-controlled (practical) environment?
+
+Background
+In this section, I will discuss the various characteristics of each fuel. The characteristics include
+their constituents, the energy output, the cost of the fuel, the environmental effects. I have chosen
+to investigate ethanol, methanol, and hexane because these compounds are easily found in a lab
+environment and so can be investigated accordingly to determine whether they can replace the
+current fossil fuels. Also, all three organic compounds are liquid at room temperature so
+comparisons can appropriately be made.
+
+Methanol
+Methanol is also an alcohol with a hydrogen atom replaced by a hydroxyl group (-OH) in methane.
+Methanol can be produced from natural gas, coal and renewable sources such as municipal waste,
+biomass and recycled carbon dioxide. Methanol is a non-pollutant because there are no nitrogen
+and sulphur oxide impurities present which means that the combustion of methanol does not
+ameliorate the formation of acid rain or greenhouse gases. Methanol has low production costs
+compared to other alternative fuels. Methanol also has a lower risk of flammability compared to
+gasoline which improves its safety and usage. Methanol can be manufactured from a variety of
+carbon-based feedstocks, such as natural gas and coal. Its use could help reduce fuel use while
+advancing domestic fuels.
+Ethanol
+Like methanol, ethanol is a renewable, transportation fuel. Ethanol is a grain alcohol, which means
+it is produced from the fermentation of carbohydrates that have been converted into simple sugars.
+Ethanol can also be obtained from sugar, root crops and the hydration of ethene. Ethanol is part of
+the chemical compounds which contain a hydroxyl group (~OH). Ethanol does not conduct
+electricity because no mobile ions are present. Ethanol is a very volatile liquid and burns
+immediately when ignited. Compared to gasoline, ethanol is slightly more expensive as it requires
+more energy to produce for consumer usage. However, ethanol’s octane rating is greater than
+which prevents knocking in a vehicle’s engine and provides increased power and performance.
+Lastly, ethanol has a lower emission rate of greenhouse gases and nitrogen oxides in the
+atmosphere.
+
+Hexane
+Hexane is an alkane hydrocarbon with the chemical formula C¢Hs. Hexane's five isomers are
+predominantly unreactive in organic reactions, so hexane commonly behaves as an inert solvent
+because it is non-polar and thus does not dissolve in water: for example, it is frequently used in
+chromatography. Hexane is widely used in glues to manufacture shoes and leather products, as
+well as in gasoline. Moreover, it is added to cleansing agents in shoes, solvents for extracting all
+types of cooking oil, and found in textile and furniture manufacturing. Although hexane is a mild
+anacsthetic, its level of toxicity is regarded as fairly low. The production cost hexane is relatively
+expensive due to the fact that it is obtained from refining crude oil.
+Hypothesis
+For each fuel, I hypothesize the following:
+
+For ethanol, it is expected to burn quickly without creating pollutants. It is also expected to raise
+the temperature of the water the most due to its high enthalpy of combustion.
+
+For methanol, it also expected to burn quickly and without creating any pollutants just like ethanol.
+However, it should not raise the temperature of the water by the same amount as it has a lower
+enthalpy of combustion due to its shorter carbon chain.
+
+For hexane, it is expected to burn not as quickly as methanol and ethanol, but it is expected to
+produce relatively highest energy because of its long and straight carbon chains. The combustion
+of hexane will also produce smog due to the presence of impurities such as nitrogen and Sulphur
+oxides.
+
+Materials
+   «   Ethanol — 30ml
+   «   Methanol — 30ml
+   «   Paraffin — 30ml
+   +   Hexane — 30ml
+   «   Distilled water — 200 ml
+Aianms and Uncertainties                                                                          Variables
+
+
+                                                                                                   Independent | The fuel being used:         By conducting the investigation with cach fuel
+   Thermometer                 +0.1°C                     —                                                        Ethanol, Methanol, | mentioned and taking equal trials of cach fuel. The
+       p—er       e                     N                                                                          and Hexane                chosen fuels depend on the environment and
+ Stopwatch (Digital)           +0.01s                     -                                                                                  :mpmmm of where the investigation s taking
+                      -                                                                                                                        ace.
+ Graduated Cylinder |         £0.25ml                    50ml                                      Dependent | The enthalpy change, | By measuring the temperature change and then using
+    Tripod Stand                  -                       -                                                        AH, of water when it | the formula © = meAT
+                                                                                                                                                             to calculate the enthalpy of
+                                                                                                                   is heated by the          each fuel to determine which fuel releases the most
+    Spirit Burner                 —                       —                                                        burning fuel. (kJ) | amount of energy.
+                                                                                                   Controlled | Volume of fuel used | By measuring out the same amount of each fuel per
+   Safety Goggles                 —                       —                                                        (mi)                      trial v?‘hm ambenkc‘;;‘llfequnl vnlum_sII :‘r‘(ﬁ;u are m:l
+                                                                                                                                              used, then the enthalpy changes wil            accurate.
+     Wire Gauze           l      =                        =                                                        The distance between | By maintaining the same experimental setup with the
+                                                                                                                   the crucible and the | same apparatus so that the spirit burner is the same
+   Bunsen Burner                  —                       —                                                       beaker.                    distance below the beaker. Thus, approximately the
+              -                                                                                                                               same amount of heat will escape every time.
+     Gas Lighter                  —                       —                                                        Dimensions of the | By using the same type of wick of constant length and
+          e                                                     ]                                                 wick.                      thickness.
+       Beaker                     -                     100m                                                       Quality of water           In this investigation, distilled water from the same
+                  =                                                                                                being used.                source was used. Different qualities of water can have
+  Graduated Pipette             £0.05                    10ml                                                                                diffcrent types ofimpuritics and thus may require more
+                                                                                                                                             or less energy to heat.
+
+Procedure                                                                                                     )
+        Sct up the tripod stand, spirit burner, and the wire gauze the way shown in diagram 1.                fthical and Safety Considerations
+    2. Using a measuring cylinder, measure out 50ml of water and transfer the water into a beaker.     Harard                               Harm                          Precaution
+       Place that beaker on the tripod stand.                                                      eoholsare                          ponycanes firc or { Make surohat eplit bumes has the [ i place.
+    3. Measure Sml of ethanol by using a graduated pipette and pour it in the spirit burner.                                                                        D          e Ay
+    4. Place the spirit bumer under the tripod stand.                                               Beaker will get hot | May cause bums.                 | Let apparatus cool down before dismantling.
+    5. Measure the temperature of the water in the beaker and record the value.
+    6. Take a wooden splint, and light it from the Bunsen burner and then light the ethanol in the
+       spirit burner. Note that the ethanol will immediately catch fire so take safety precautions.
+    7. Take the stopwatch and start it. Record the temperature of water every 30 second intervals.
+    8. Record the temperature until all the ethanol has burned.
+    9. Repeat steps 1-9 four more times.
+    10. Repeat steps 1-10 for methanol and hexane.
+                                                                                                            __unum_mmmmmmﬁmmﬁmmm:mzmmT
+
+
+
+                                                                                                                                         MLETﬁmunuummmumﬂzmmmmu_ﬁmmm:m Sl
+                                          mw.—:_;:_m.m.   nmunTmmmmmmm
+
+
+
+
+                                                                         nu:_mmmmumwmn_mmmmmym:mm_ﬁmmm:mm
+                         20.1°C)                                                                                                                                                n           14
+                                                                                                                                                                                BLx]
+                           T4
+                          266                                                                                                                                                   251     o
+                                                                                                                                                                                pEA)
+                          266
+                267|267|_-_’L_!'_
+                                                                                                                                                                            ;
+                                                                                                                                                                            i   33
+                                                                                                                                                                                            30
+                                                                                                                                                                                            252
+                FiL} 59                                                                                                                                                         pLT])       piN}
+                313  305  30                                                                                                                                                    312         313
+                356  49   7                                                                                                                                                     47          349
+                308  390  S                                                                                                                                                     38
+[0 [           |7 [ o8 | 26 | &4 | sl |
+                     a1
+                                                                                                                                                                                Ik}     LT
+        %0      361                                                                                                                                                             450         451    49
+        50      492  83                                                                                                                                                         489         90     n9
+          .
+        Kkl       [
+                51T  £33                                                                                                                                                        533         34     513
+        sas     546  556                                                                                                                                                        519         S50    519
+        512     573  363                                                                                                                                                        633         634    (3%}
+        595     594  605                                                                                                                                                        6.7         2      6.7
+        618     6L6    627                                                                                                                                                      096         [kl    213
+        643     [N     653                                                                                                                                                      08          709    08
+        59      57     53                                                                                                                                                       ik}         TJ19   T8
+        678     617    %9                                                                                                                                                       7S          6      ik
+        w6      09     X}                                                                                                                                                       Ny          40     ik}
+        712     73     78                                                                                                                                                       T4l         42     Al
+        729     s      BT                                                                                                                                                       745         T8     S
+        742     741    T4                 _.              T                                                                                                                 T   48          150    b1
+        754     53|                                                                                                                                                         :
+        765     77     767                                                                                                                                                      T48         750    4K
+        bkl     3      76                                                                                                                                                       J48         750    48
+        T       Y      502
+        98      795    795
+        04      803    w03
+                       L)
+
+
+
+                                          25 ____m        22 [aglEl
+        812     (]}
+        21      821    (1K)
+        029     28     28
+        ikl     (k)    (i8]
+        (1%l    (i)    13
+        a2      (5]    L5}
+        344     (75}   75}                                               3
+        16      (8]    (18]
+ 1080   349     851    850
+ 1110   LA      853    (15
+ 1130   w53     855    854
+ 1170   1]      857    56
+        [1kd    (1)    (15}
+                861    859
+                %]     (1)
+                864    861
+                [X]    (%]
+                6.5    %62
+                865    863
+Analysis
+Combustion of Ethanol
+
+        H                             C,H,OH(ag) + 30,(g) - 2CO,(g) + 3H,0(g)
+ H—C—C—0—H                            AH = -143 kJmol”
+
+
+
+
+There was complete combustion, and no soot was produced, nor pollutants were observed. There
+was a high flame, but it was lower than that of methanol. At the end when the temperature became
+constant, the flame was dim, but present because the wick was still wet with ethanol. The average
+temperature rise of water was 59.5°C. After doing the necessary calculations (shown below), the
+enthalpy of combustion for cthanol was 142.81 kJmol™. This is was surprising because it is
+significantly lower than the literature value (found from the IB chemistry data booklet). The
+increase in temperature was initially the fastest but at around 400 seconds, it started to slow down.
+Despite a decrease in its rate of temperature, ethanol burnt very steadily throughout its time and
+consistent temperature increases were observed at the 30 second intervals.
+1. Calculating the Enthalpy change           2. Calculating the mass of water:     5. Propagating uncertainties
+                                             density = mass /volume                  (a) For mass ofwater:
+Q = mcAT                                     Density of water: 1000kg/m*                                                   Am _Ap Av
+                                                                                                                           — =t
+©: energy (Joules)                           Volume of water: 50mL or 5x10-°m*                                               m     p     v
+m: mass ofwater (kg)                                                                                                  Am            25x%1077
+¢: specific heat capacity (4,200 J/kg°C)     Mass of water = (density)(volume)                                        0.05           3x10°°
+AT  = change in temperature (°C)                              1000) (0.00005)
+                                                                                                                                  X 0.05 = +£0.0004 kg
+                                             Mass of water = 0.05 kg
+                                                                                   (b) For Enthalpy change
+3. Plugging in all the values and
+calculating
+                                             4. Calculating the moles of ethanol
+                                             Calculating the mass of ethanol:
+                                                                                          AQ Am Ac AT
+                                                                                          4Q_am
+                                                                                          ety                                           W= T,—-T, 59.8-593
+                                                                                                                                       par            -    - 03]
+m=0.05kg                                     ‘mass = (density)(volume)
+©=4200 J/kg°C                                mass = (789 kg/m’) (0.000005m")                                    2Q 00004               . 03
+AT =86.2 - 26.7 = 59.5°C (Calculated by      Mass = 3.9450 + 0.0004 kg                                        12495~ 005 ' *t595 = ¥02M
+using average temperature from data table)
+                                                                                   Now calculating the enthalpy change           |Efficiency: (142.81/1367) (100) = 10.4%
+                                             Finding the moles of ethanol:
+                                                                                                                                 [Percentage Error: (1367 — 142.81)/1367 = 89.6 %
+Plugging the values in the equation:         Moles = mass/molecular mass
+Q=mecAT                                      Moles = 3.945g/45.07gmol!
+Q = (0.05kg) (4200 J/kg°C) (86.2°C —         Moles: 0.08753                        Literature value for enthalpy of
+26.7°C)                                                                            ccombustion for ethanol = -1367kJmol"
+Q=12495J= 12,5+ 0.2 kJ
+Combustion of Methanol
+      H
+       |                            2CH,0H(aq) + 30,(g) — 2CO (g) + 4H,0(g)
+H—(ll—O— H                          AH = -95.5 kJmol"
+        H
+Like ethanol, methanol also burned very easily and quickly. Methanol’s flame was stronger than
+of ethanol’s but due to methanol being combusted very easily, it may have run out much faster
+than ethanol. Methanol had a lower enthalpy of combustion due to its shorter chain. From 150
+seconds to 480 seconds on the graph above, a constant increase in temperature can be noted, which
+is supported by the data because it initially takes time for the heat to be absorbed from the glass
+beaker to the water. Once a steady flow is in place, then heat flows at a constant rate till all the
+fuel is depleted in the spirit burner. From the data, the average change in temperature was 56.3°C.
+A fter calenlating the enthalnu chanae the camhnctian af mathanal calenlated wae 08 S LT mal-l
+

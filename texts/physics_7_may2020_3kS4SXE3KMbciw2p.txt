@@ -1,0 +1,391 @@
+     The effect of wing surface area on the
+ horizontal displacement of a paper aeroplane.
+                                Physics.
+                            May 2020 Session.
+
+
+1     Introduction
+When I was small I would always construct small aeroplanes with my friends.
+Some models worked better than others, and the most curious wing designs
+actually worked, whilst others surprisingly did not. Now that I am older and
+interested in studying aerospace engineering, I wanted to explore the impact
+wing surface area has on the aeronautical performance of an aeroplane. In
+order to keep everything as simple as possible, I decided to use a paper aero-
+plane, and build my own miniature catapult to include aspects of mechanical
+engineering.
+
+1.1    Background Information
+The flight of a paper aeroplane depends on four factors, lift, downforce, drag,
+thrust [3]. The thrust is provided by the catapult in this experiment, and
+drag occurs because air resistance exists. Downforce is simply the weight of
+the aeroplane, while lift is generated due to air moving under the wings while
+in flight [3]. Keeping everything else constant, the higher the surface area,
+the higher the lift will be [1]. This is because of the direct proportionality
+which can be expressed as:
+                                    L=c·A
+Where L is the lift generated, c is a constant, and A is the area of the wing
+[1]. In an optimum scenario, this increase in lift will be proportionally greater
+than the increase in drag [5]. The ratio between lift and drag is referred to as
+the L/D ratio [5]. This is equivalent to the glide ratio in gliding aircraft, the
+ratio of horizontal displacement to vertical displacement at constant speed
+[5]. As such, when the L/D decreases, the horizontal displacement will also
+increase.
+
+
+                                       1
+1.2     Research Question
+How does the horizontal displacement (in m) of the paper aeroplane depend
+on the surface area of its wings (234, 230, 228, 226, 224, 222 cm2 ±1.00 cm2 )
+when it is launched from a catapult at a height of 179 ± 1cm?
+
+1.3     Variables
+1.3.1   Independent and Dependent Variables
+As an independent variable, I was changing the surface area of the paper
+aeroplane, with the following values: 234, 230, 228, 226, 224 and 222 cm2 ±
+1.00 cm2 .
+    As the dependent variable, I measured the horizontal displacement of the
+paper aeroplane; how far it flew. This quantity is given in cm, and accurate
+to 3 cm.
+
+1.3.2   Control Variables
+The temperature of the room was kept constant (25 ± 1 °C). The windows
+and doors were closed whenever possible, such that no air of significantly
+different temperature could enter or exit. This is because an increase in air
+temperature decreases the air density reducing the lift [4], which ultimately
+grounds the aeroplane faster.
+    The catapult was kept constant, and the same rubber bands were used
+throughout the experiment. The experiment is an example of projectile mo-
+tion, and the aim was to find how the horizontal component (displacement)
+changed when the vertical component was altered (lift due to surface area).
+This means that launching the aeroplane at different initial velocities or with
+different techniques also impacts the horizontal component, which is not fair
+testing.
+    The launch height was kept constant by placing the catapult at the same
+height in each trial. If the catapult height was variable, the horizontal dis-
+placement would vary, also resulting in unfair testing.
+    The mass of the aeroplane was kept constant (2.0 g ± 0.1 g). Because the
+launcher was always at the same height, the gravitational acceleration was
+kept constant at approximately 9.81ms2 [6]. This means that a variation in
+mass will cause a different magnitude downward/graviational force, resulting
+in the net downward force being higher or lower.
+    The measuring equiptment was also kept constant by using the same
+tape for all trials. No tapes are identical and therefore give slightly deviating
+measurements.
+
+                                       2
+1.4    Hypothesis
+I hypothesise that the smaller the surface area of the wings, the smaller
+the displacement. This is because a smaller surface area implies less lift
+[1]. As the gravitational force remains constant, less lift results in a higher
+magnitude downwards net force, grounding the aeroplane faster. Because
+the displacement is measured at the point where the aeroplane first touches
+down, a quicker decline will decrease its horizontal displacement.
+
+
+2     Materials and Methodology
+2.1    Setup
+
+
+
+
+               Figure 1: Diagram showing experiment setup
+
+
+
+
+         (a) Primed catapult on desk        (b) Stacked desk setup
+
+               Figure 2: Pictures of setup used in experiment
+
+                                       3
+Figure 1 shows the overall setup of the experiment. Important here is the
+height, which was 179±1 cm. Notice that the catapult markings on the table
+are not visible in 2a due to the low quality quality of the picture. Observe
+the markings on the floor for the origin of the tape in figure 2b. Not in the
+picture is the heavy weight that fixed the tape origin to the right position.
+
+2.2     Materials
+   • ”Arrowhead” paper aeroplane, folded from blank, recycled A4 paper
+
+   • High platform (such as tables safely stacked on top of eachother)
+
+   • Paper aeroplane catapult, self built out of LEGO technic beams
+
+   • Profissimo pack of 100 rubber bands
+
+        – 2x ”green” rubber bands
+        – 1x ”yellow” rubber band
+        – 1x ”blue” rubber band
+
+   • Chalk
+
+   • Measuring tape, RSL Tools, 15 m, uncertainty unknown
+
+   • Ruler and set square, both Herlitz, (16 cm, 14 cm respectively), uncer-
+     tainty unknown
+
+   • Balance, Kern Emb, ± 0.1 g, maximum 400 g.
+
+   • Heavy object to hold tape origin in place, in this case an alternator
+
+2.3     Method
+2.3.1   Reducing the Surface Area
+In order to reduce the surface area by a certain amount (a), it was required
+of me to derive a formula to find the correct width at which I need to fold.
+This width is the only unknown variable, and must be solved for.
+
+
+
+
+                                     4
+            Figure 3: Diagram of the left wing of the aeroplane
+
+   In figure 3 the dotted line represents the line that needs to be folded to
+reduce the surface area by a. θ is the angle between the line normal to the
+height and the hypotenuse of the triangle. Therefore, in order to figure out
+what value w needs to be, solve for the positive solution of the following
+equation:
+
+                         w2 tan(θ) + 2wh − 2a = 0
+    Two key things are important here. Firstly, there are two wings on a
+paper aeroplane, so the value of a must be equal to half of the total desired
+surface area reduction. Secondly, it is recommended to solve this equation
+graphically using a GDC.
+
+2.4    Execution of Experiment
+  1. Set up the experiment.
+
+  2. Prime the catapult and place the aeroplane inside.
+
+  3. Launch the catapult, and measure the horizontal displacement to the
+     point of first touchdown. Write this down.
+
+  4. Repeat steps 2 to 3 five more times, such that 6 trials can be achieved.
+
+  5. Reduce surface area of the aeroplane by 4, 6, 8, 10, 12 cm2 and for each
+     repeat steps 2 to 4.
+
+
+                                     5
+2.5    Example Calculations
+This is an example calculation for calculating how to reduce the surface area
+by 6.0 cm. Measuring the dimensions and angle of one of the wings yielded
+the following results: a = 3, h = 4.2, θ = 67◦
+
+
+      w tan(67◦ ) + (2 · 4.2 · w) − (2 · 3) = 0 → w1 ≈ −4.18, w2 ≈ 0.61
+
+   Rejecting w1 as it is negative, the width would have to be ≈ 0.61 cm.
+
+2.6    Environmental, Safety and Ethical Concerns
+Environmental, safety and ethical concerns were incorporated into the plan-
+ning of this experiment.
+    The catapult was built out of LEGO and can be re-used after the ex-
+periment. The paper from which the aeroplane was folded is recycled and
+can be recycled again, in order to prevent demand for further deforestation.
+Minimal paper was used to ensure a reduction of waste.
+    The catapult launched the aeroplane down an empty corridor, ensuring
+that nobody was in its flight path. The plane itself had minimal sharp edges,
+with only one point being noticeably sharp. This poing did not pose a danger
+as it faced the flight path, which was always clear during the experiment. It
+was handled in a manner such that no paper cuts were possible. The rubber
+bands of the catapult were tense, but not strong enough to significantly injure
+its operator in the unlikely case of a malfunction. The table was firmly held
+in place by a sturdy block of wood, such that it could not move, let alone
+fall down and hurt anybody.
+    No humans, animals or other living beings were hurt physically or emo-
+tionally by this experiment.
+
+
+
+
+                                      6
+ Surface Area (cm2              Horizontal Displacement (± 3 cm)
+ ± 1 cm2 )
+                      Trial 1   Trial 2   Trial 3   Trial 4   Trial 5    Trial 6
+ 234                   244       296       317       270       280        294
+ 230                   239       250       262       252       240        253
+ 228                   239       298       297       290       296        277
+ 226                   285       250       286       270       286        272
+ 224                   317       329       301       323       283        291
+ 222                   319       338       315       350       298        247
+
+  Table 1: Surface area of wings vs horizontal displacement of aeroplane
+
+
+
+
+       Surface Area (cm2 ± Avg. Horiz. Displ. (± 3 cm)           St. Dev.
+       1 cm2 )
+       234                             284                         23*
+       230                             249                          8
+       228                             283                         20*
+       226                             275                         13*
+       224                             307                         17*
+       222                             311                         33*
+
+Table 2: Surface area vs. average horizontal displacement
+* An extra digit was added to account for a larger standard deviation
+
+
+
+
+                                     7
+3     Results
+
+
+
+
+    Figure 4: Surface area of wings vs horizontal displacement (enlarged)
+
+
+3.1    Interpretation
+The graph’s trendline shows a negative relationship between the surface area
+and the displacement. As the surface area increases, the displacement de-
+creases. There is a strong deviation from the trendline at 230 cm2 .
+    Additionally, the point at 234 cm2 appears to be higher than expected.
+Unfortunately the difference between it and the rest of the data points is
+4 cm2 , rather than the usual 2 cm2 . This makes it very hard to estimate
+what the data inbetween 230 and 234 cm2 could be. However, due to at least
+one statistical difference between these, it could be that this point is also
+statistically different. The larger difference exists due to the nature of the
+paper aeroplane, 234 cm2 is the original surface area, and a removal of 1 cm2
+per wing is not possible factoring in inaccuracies.
+
+3.2    Statistics
+Running a Student t-test on the data using mode 1 and type 2 yields results
+mapped to figure 5. Moreover, result groups are shown in red in figure 4.
+The headers in bold show the independent variables that were compared, the
+numbers below the p-value of the dependent variables. A p-value of ≤ 0.05
+indicates there is no significant difference between the values.
+
+
+
+                                      8
+                    Figure 5: Student’s t-test on the data
+
+    This shows that whilst the points at 222 cm2 and 234 cm2 are not signif-
+icantly different, there are significant differences between points lying in this
+rage. As an example, 226 cm2 and 228 cm2 are significantly different to each
+other, as indicated by the different groups.
+
+
+4     Evaluation
+4.1    Conclusion
+As the surface area of the aeroplane’s wings decreased, the displacement, for
+the majority, increased. This does not hold true for some areas as there was
+no statistically significant difference, due to the small range. This is presum-
+ably due to a decrease in drag for the areas in between, the aeroplane being
+more streamline in shape. This decrease in drag resulted in a greater net force
+in the direction of travel. Concurrently, the lower surface area decreased the
+lift, increasing the net downward force. Due to the increase in net thrust be-
+ing larger than the increase in net downforce, the aeroplane travelled further
+horizontally. This occurred to the point where the plane displaced the most,
+but towards the end of the trials the lack of surface area caused a decrease in
+displacement. Referring to the background research, it appears that the L/D
+or glide ratio decreased, rather than the expected increase. This is unusual
+for gliders that have their wing surface area increased.
+
+4.2    Evaluating the Hypothesis
+The hypothesis does not hold true. I had hypothesised that as the surface
+area decreases, the displacement decreases. In the experiment, there was a
+
+
+                                       9
+significant increase, followed by a decrease insignificant to the initial value.
+Nonetheless, at an unknown point, the lack of surface area and thus lift will
+negatively impact the displacement. This was presumably just before the
+last value.
+
+4.3    Literature Comparison
+As aforementioned, assuming that the L/D ratio decreased, the experiment
+complies with the literature results: the plane’s horizontal displacement will
+be decreased. Drag plays a role (as stated in 4.1), and experiments have
+found that alternating the winglets of a paper aeroplane influences its drag
+[3]. It is also mentioned that drag increases with the surface area [2], which
+corrolates with my data.
+
+4.4    Strengths
+The main strength was the constant mass throughout the experiment. Be-
+cause the wings were folded rather than cut off, the mass remained constant.
+This ensured that the weight was constant, allowing the horizontal displace-
+ment to be tested fairly. Moreover, the plane itself was also kept constant,
+such that all aerodynamic properties were the same throughout all the trials.
+   The launching of the plane was a strength, as every launch executed the
+same. The catapult’s location was marked on the table, so that in the case it
+got moved it could be put back into the correct position. The same rubber
+bands were used throughout the experiment, so the force delivered to push
+the plane did not differ. On top of that, the angle of attack (the angle
+between the plane and the horizontal) was also kept constant.
+
+4.5    Limitations
+Primarily the limitation is the small range of the independent variable. The
+range is too small to draw any definite conclusions and to characterize the
+behaviour of paper aeroplanes when the wing surface area is changed. The
+first and last values for the independent variable are not statistically signifi-
+cant, as such an extension of range would be required to see if there are any
+changes in behaviour beyond the current range.
+    Measuring the point of first impact precisely was difficult, and a small
+bit of estimation was involved (± 3 cm). This of course increased the error
+margin significantly. To combat this, a sandpit can be used, where the point
+of first impact is clearly visible.
+
+
+                                       10
+    The aeroplane’s path was also often not normal to the table where it was
+launched. This did not impact measurement, but the factor that made the
+aeroplane turn, such as air currents, is something that should be in control.
+This can be done by conducting the experiment in a room with tight seals
+so no outside draft could come in.
+    The rubber band may have loosened slightly during trials. This then
+impacts the initial velocity of when the plane starts gliding. To mitigate
+this, regular testing with a Newton meter can be done (i.e. at a force of x N
+the stretch should be y centimetres).
+    An unknown weakness is what caused the deviation from the trend
+line/random error for one of the points. Because the cause is unknown, it
+is difficult to pinpoint improvements. As a general thought, ensuring that
+the trials are conducted in the same manner and triple checking equiptment
+alignment may contribute towards elminating this.
+
+4.6    Extension
+Firstly, it can be experimented as to how the horizontal displacement changes
+when the angle of attack is changed. An example research question for this
+could be: How does the horizontal displacement (in cm) of a paper aeroplane
+depend on the angle of the aeroplane to the horizontal (0°, 15°, 30°, 45°, 60°,
+75°)?
+     Secondly, the lift depends on the temperature of the air [4]. It could be
+experimented as to how that has an effect on the horizontal displacement.
+An example research question for this could be: How does the horizontal
+displacement (in cm) of a paper aeroplane depend on the temperature of the
+air (10°, 15°, 20°, 25°, 30°, 35°)?
+     Thirdly, it would be interesting to find the point where the increased
+streamline due to reduced surface area no longer compensates for the lack of
+lift. This would be the vertex of the surface area to displacement graph.
+
+
+
+
+                                      11
+References
+[1] 2019. url: https://www.grc.nasa.gov/WWW/K-12/airplane/size.
+    html.
+[2] Aerodynamic Drag. 2019. url: https://physics.info/drag/.
+[3] Science Buddies. Soaring Science: Test Paper Planes with Different
+    Drag. 2019. url: https://www.scientificamerican.com/article/
+    bring-science-home-paper-planes-drag/.
+[4] Ethan Coffel and Radley Horton. How hot weather – and climate change
+    – affect airline flights. 2019. url: http://theconversation.com/how-
+    hot - weather - and - climate - change - affect - airline - flights -
+    80795.
+[5] Lift-to-Drag Ratio. Sept. 22, 2019. url: https://en.wikipedia.org/
+    wiki/Lift-to-drag_ratio (visited on 10/17/2019).
+[6] Ambler Thompson and Barry N. Taylor. Guide for the Use of the In-
+    ternational System of Units (SI). National Institute of Standards and
+    Technology Special Publication 811 (2008 Edition). National Institute of
+    Standards and Technology / U.S. Department of Commerce, 2008.
+
+
+
+
+                                    12
+

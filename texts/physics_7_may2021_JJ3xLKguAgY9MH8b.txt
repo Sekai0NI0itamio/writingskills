@@ -1,0 +1,462 @@
+1     Introduction
+The range equation for projectile motion is relatively easy to solve if you assume that the
+initial vertical position of the projectile equals the final vertical position i.e. the vertical
+displacement after the projectile has landed is zero. When I saw the derivation (1: p.49-50)
+for the first time in class, I thought the assumption was rather restrictive which is why I
+wanted to investigate projectile motion where the final vertical position doesn’t equal the
+initial vertical position. I chose to investigate this setting with the research question:
+
+How does the range of a projectile on an incline line depend on the angle of
+incline?
+
+
+2     Theoretical background
+2.1    Angles, forces and motion equations
+The variables are represented in Figure 1. The range is defined as the distance travelled on
+the incline line after the projectile has landed. The angle of incline is defined as the angle
+between the incline line and the horizontal line.
+
+
+
+                                          xα
+                                                    α
+        Figure 1: Incline angle α, range xα and projectile trajectory in dashed line.
+
+To solve for the range along the incline line, new axes are defined based on the angle α. θ,
+the launch angle, is the angle between the initial velocity vector and horizontal. Therefore
+the new launch angle is θ − α. Figure 2 illustrates the coordinate system, all relevant angles
+and the initial velocity and its components.
+
+                                   y
+                        yα
+                                                             ~u y α
+                                          ~u    α
+                                               θ−                     xα
+                                                        ~u x α
+                                          θ                      α
+                                  (0,0)                                x
+
+                             Figure 2: Angles and initial velocity.
+
+                                                    1
+Figure 3 shows the forces acting on the projectile while its traveling in the air. The only
+force acting on the projectile is its weight assuming that all other forces are negligible. In
+this context, the assumption is that air resistance is negligible (evaluated in Section 6).
+
+
+                                  y
+                     yα
+                                                   α    ~ yα
+                                                        W
+                                             ~
+                                             W
+
+                                                                         xα
+                                                       ~ xα
+                                                       W
+
+                                                          α
+                                 (0,0)                                        x
+
+                            Figure 3: Weight and its components.
+
+To solve for range in projectile motion, the motion is examined in two dimensions separately
+(1: p.46). The accelerations, based on Figure 3, in the xα -direction and yα -direction are:
+
+          X                                             X
+              Fxα = maxα = Wxα                                 Fyα = mayα = Wyα
+                         = W sin (α)                                     = W cos (α)
+                         = −mg sin (α)                                   = −mg cos (α)
+                  =⇒ axα = −g sin (α)                             =⇒ ayα = −g cos (α)
+
+
+From Figure 2 the components of the initial velocity are:
+
+                  uxα = u cos (θ − α)                          uyα = u sin (θ − α)
+
+The initial position of the projectile is (0,0). Since the acceleration is constant when looking
+at the direction separately, the Uniformly Accelerated Motion equations (3) can be used.
+                                                 1
+                                         s = ut + at2
+                                                 2
+Plugging in the accelerations and initial velocities gives the position equations in the xα -
+and yα -direction:
+                                                   1
+                           xα = u cos (θ − α) × t − g sin (α) × t2
+                                                   2
+                                                   1
+                           yα = u sin (θ − α) × t − g cos (α) × t2
+                                                   2
+                                               2
+2.2    Deriving the range equation
+Solving for the range in the xα -direction is the same method Tsokos uses to solve for the
+range in normal projectile motion on horizontal ground (1: p.49-50). The final time is solved
+from the yα -equation since when the projectile has landed, its yα -position is zero. Then this
+final time is substituted into the xα -equation. The math is a bit more complicated compared
+to projectile motion on flat ground as the xα -equation is a quadratic equation of time and
+not a linear equation.
+
+                                           1
+                  yα = u sin (θ − α) × t − g cos (α) × t2 = 0
+                                           2
+                                          1
+                     t × u sin (θ − α) − g cos (α) × t = 0
+                                          2
+                                                   tinitial = 0
+                                                              2u sin (θ − α)
+                                                     t nal =
+                                                                g cos (α)
+Substituting t nal into the xα -equation
+                                                                                    2
+                                   2u sin (θ − α) 1                2u sin (θ − α)
+            xα = u cos (θ − α) ×                  − g sin (α) ×
+                                     g cos (α)       2                g cos (α)
+                    2                               2          2
+                 2u cos (θ − α) sin (θ − α) 2u sin (α) sin (θ − α)
+               =                               −
+                           g cos (α)                   g cos2 (α)
+                    2
+                 2u sin (θ − α)
+               =                  × [cos (α) cos (θ − α) − sin (α) sin (θ − α)]
+                    g cos2 (α)
+Substituting in the cosine rule cos A cos B − sin A sin B = cos (A + B)
+                                2u2 sin (θ − α)
+                          xα =                  × cos (α + (θ − α))
+                                  g cos2 (α)
+                                2u2 sin (θ − α)
+                              =                 × cos (θ)
+                                  g cos2 (α)
+The range of the projectile is
+
+                                        2u2 cos (θ) sin (θ − α)
+                                 xα =
+                                              g cos2 (α)
+
+
+When α = 0 , sin (θ − α) = sin (θ) and cos2 (α) = 1. The equation reverts back to the
+normal projectile range equation on horizontal ground.
+                                2u2 cos (θ) sin (θ)   u2 sin (2θ)
+                             x=                     =
+                                      g×1                  g
+It can be shown that the range equation also applies to decline angles, in which case the
+angle α would be negative. But to keep the theory and research question concise, I only
+considered the incline angle.
+
+                                               3
+3     Setting
+3.1    Variables
+Independent variable
+The independent variable is the incline angle. It was measured with an angle meter app on
+my phone by placing the phone on the incline plank. The angle meter had an instrumental
+uncertainty of ±1 .
+
+The Vernier Projectile Launcher gives ”repeatability at angles between 0 and 70” (2: p.3).
+I chose launch angle of 65 to be safe which restricts the incline angle to be less than the
+launch angle. This gives a range of values of [0,65].
+
+The experiment was repeated every 5 degrees so there were 14 incline angle measures in total.
+
+Dependent variable
+The dependent variable is the range. A measuring tape was put on the incline plank and a
+phone was set up on a tripod to slow-motion record the projectile falling on the plank. The
+range was recorded later from the videos (Data processing showed more in Section 4).
+
+The Vernier Projectile Launcher gives repeatability ”up to a distance of 2.5 m” (2: p.3). The
+Launcher was set up so that the range would not go over this limit but also be over 2 meters
+at α = 0 so that the fractional uncertainties in the range would be as small as possible.
+
+The experiment was repeated 8 times for every incline angle to reduce effects from random
+uncertainties. This means there were total of 112 data points.
+
+Controlled variables
+Mass of projectile
+The same metal ball with mass m = 21 g was used every time.
+
+Initial velocity
+The initial velocity of the projectile depends on the pressure built up in the chamber. The
+Launcher allows to set a constant pressure. When the pressure from the hand pump goes
+over this limit, a valve releases the extra pressure. This is how the pressure was controlled
+around 100 kPa and thus the initial velocity was controlled.
+
+Launch angle
+The launch angle was set at 65 to ensure reliable results with the Launcher. This limited
+the range of the incline angle values but reliable results were priority.
+
+Wind speed
+The experiment was performed indoors so that there would be no effect from wind. Effect
+of air resistance is evaluated separately in Section 6.
+
+
+
+                                             4
+3.2    Setting
+List of apparatus
+   • Vernier Projectile Launcher                     • Plank
+
+   • Metal ball                                      • Tripod
+
+   • Hand pump                                       • Phone
+
+   • Measuring tape                                  • Safety goggles
+
+
+
+
+Figure 4:    Projectile                        Figure 5: Full experimental setting.
+Launcher and a hand
+pump.
+
+
+In Figure 5, the start of the plank is not on the ground because the Launcher Manual says
+that the launch point is ”0.146 m above the base and 0.082 m from the side” (2: p.2) so I
+tried to get the plank as close to the actual initial position of the metal ball as possible (this
+is evaluated closer in Section 6).
+
+Method
+
+  1. Set up the pressure limit and launch angle of the Launcher
+
+  2. Put the ball inside the chamber
+
+  3. Start recording the slow-motion video
+
+  4. Pump pressure into the chamber until the limit is reached
+
+  5. Shoot the projectile (care was taken to ensure that I was never in front of the Launcher
+     when it was pressurized)
+
+  6. Stop the slow-motion recording
+
+  7. Repeats steps 2 to 6 seven more times for that incline angle
+
+
+                                                5
+    8. Increase incline angle by 5 degrees
+
+    9. Repeat steps 2 to 8 thirteen more times
+
+
+4     Data
+
+The measuring tape used in the experiment
+had millimiter markings, however, with many
+of the slow-motion videos it was impossible
+to record the ball’s range with that level of
+precision. Therefore the range of the ball was
+taken between centimeter markings illustrated
+in Figure 6.
+
+The mean range was calculated for each incline
+angle and the standard deviation was used to
+get the absolute uncertainty in the mean.                Figure 6: The middle of the ball
+                                                         is between 2.04 m and 2.05 m. This
+                                                         gives the value: 2.045 m ± 0.005 m.
+
+
+Incline angle                               Range xα /m ± 0.005 m
+   α/ ± 1           xα,1     xα,2      xα,3    xα,4     xα,5      xα,6      xα,7     xα,8
+        0          2.105    2.135     2.125      2.135    2.125   2.115    2.105    2.115
+        5          2.045    2.025     2.055      2.045    2.065   2.055    2.055    2.045
+        10         2.005    1.995     1.985      1.985    2.005   2.005    1.985    1.995
+        15         1.945    1.945     1.955      1.945    1.955   1.955    1.955    1.945
+        20         1.915    1.925     1.915      1.915    1.935   1.915    1.925    1.905
+        25         1.875    1.875     1.885      1.885    1.885   1.895    1.875    1.885
+        30         1.805    1.825     1.815      1.805    1.825   1.815    1.815    1.825
+        35         1.785    1.805     1.805      1.805    1.805   1.795    1.795    1.775
+        40         1.775    1.755     1.765      1.765    1.765   1.755    1.775    1.775
+        45         1.705    1.705     1.715      1.705    1.715   1.705    1.695    1.695
+        50         1.615    1.605     1.615      1.605    1.605   1.615    1.605    1.625
+        55         1.445    1.465     1.455      1.455    1.455   1.445    1.445    1.425
+        60         1.165    1.165     1.175      1.175    1.175   1.175    1.165    1.175
+        65         0.775    0.765     0.785      0.775    0.775   0.775    0.785    0.765
+
+                                     Table 1: Raw data.
+
+
+
+
+                                              6
+                    8
+                    P                             v
+                         (xα,n )                  u
+                                                  u 1      8
+                                                           X
+              xα = n=1                      ∆xα = t      ×    (xα,n − xα )2
+                         8                          8 − 1 n=1
+                                                   (Standard deviation formula)
+
+
+
+                                                             Uncertainty in
+                 Incline angle          Mean range
+                                                              mean range
+                    α/ ± 1                  xα /m                ∆xα /m
+
+                         0                  2.12                   0.01
+                         5                  2.05                   0.01
+                        10                  1.995                 0.009
+                        15                  1.950                 0.005
+                        20                  1.919                 0.009
+                        25                  1.882                 0.007
+                        30                  1.816                 0.008
+                        35                  1.80                   0.01
+                        40                  1.766                 0.008
+                        45                  1.705                 0.008
+                        50                  1.611                 0.007
+                        55                  1.45                   0.01
+                        60                  1.171                 0.005
+                        65                  0.775                 0.008
+
+Table 2: Final data set. Absolute uncertainties rounded to one significant figure and mean
+ranges rounded to the same decimal place as corresponding uncertainty.
+
+Linearizing the data could show systematic uncertainties better in the xα -axis. However, the
+relationship can’t be linearized which means that the data has to be used as is.
+
+The only unknown variable in the range equation is the initial velocity u. The Projectile
+Launcher allows to measure the initial velocity by measuring the time it takes for the projec-
+tile to travel a very short distance in the chamber (2: p.3). The initial velocity was measured
+five times:
+
+                                              7
+                                   (5.284 + 5.321 + 5.328 + 5.309 + 5.317) m s 1
+                              u=                                                 = 5.3118 m s 1
+                                                         5
+
+Therefore, based on the theoretical background in Section 3, the data points should fall on
+the line:
+                                                            2
+                                          2 × (5.3118 m s 1 ) × cos (65 ) × sin (65 − α)
+                                     xα =
+                                                       9.81 m s 2 × cos2 (α)
+                             Mean range along the incline line over incline angle
+                   2.5
+
+
+
+
+                    2
+
+
+
+
+Mean range xα /m
+                   1.5
+
+
+
+
+                    1
+
+                                    2×(5.3118 m s 1 )2 ×cos (65 )×sin (65 −α)
+                               xα =           9.81 m s 2 ×cos2 (α)
+                   0.5
+
+
+
+
+                    0
+                         0         10        20        30           40     50        60           70
+                                                   Incline angle α/◦
+
+
+5                  Analysis
+5.1                 Random uncertainties
+The absolute uncertainties in Table 2 are small compared to the range values. The percentage
+uncertainty can be calculated with:
+                                                         ∆xα
+                                                             × 100
+                                                          xα
+
+                                                                8
+  Incline angle α       0    5     10    15    20       25   30   35   40    45   50   55   60   65
+Mean range %-unc. 0.5 0.5 0.5 0.3 0.5 0.4 0.4 0.6 0.5 0.5 0.4 0.7 0.4                            1
+
+                    Table 3: Percentage uncertainty of mean range values.
+
+Table 3 shows that the percentage uncertainties are less than one. This means that the
+experimental setting was precise and random uncertainties didn’t have a big effect on the
+results.
+
+5.2    Conclusion
+The data points follow some of the same characteristics as the model-line. The range in
+the data points is constantly decreasing as the incline angle increases. The rate of range
+decrease is largest at the extreme incline angle values α = 0 and α = 65 and the range in
+the data points seems to approach zero between α = 65 and α = 70 just like the model does.
+
+However, the data points do deviate from the model significantly at times. In fact most of
+the points (11/14) don’t touch the line with the error bars. The points less than 35 are
+lower than the model and the deviation seems to increase as the angle approaches 0 . The
+data points more than 35 are higher than the model and the deviation seems to increase as
+the angle approaches 65 . The percentage difference between the data points and the model
+can be calculated with:
+
+                                 xα,experimental − xα,theoretical
+                                                                  × 100                          (1)
+                                          xα,theoretical
+
+
+  Incline angle α       0    5     10    15   20        25   30   35   40    45   50   55   60   65
+Mean range %-diff.      4    4     3     3     2        1    3    1    0.6   2    6    10   40   *
+
+                    Table 4: Percentage difference to the theoretical model.
+
+From Table 4 it’s clear that the difference gets exceptionally large when the incline angle
+gets closer to the launch angle. There isn’t value for α = 65 because the theoretical range
+is 0 m so there would be division by zero in Equation 1. The model makes physical sense
+since if the incline angle equals, or is more then the launch angle, the projectile obviously
+shouldn’t go anywhere. But in the experiment the range at this angle was xα = 0.775 m.
+
+Despite the similar characteristics of the data points and the model-line the deviation is
+large at times and since this deviation is not constant it warrants a closer look. The reason
+for it and the trend it creates is explained next.
+
+
+
+
+                                                    9
+6       Evaluation
+6.1     Initial position
+6.1.1    Small angles
+Most of the deviation from the model can be explained with the initial position of the
+projectile. As said in Section 3, the projectile is ”0.416 m above the base and 0.082 m from
+the side” and I tried to compensate for this by raising the plank off the ground (Figure 5).
+However the horizontal difference meant that, with small incline angles, the measured ranges
+were smaller than what they were in reality. Figure 7 shows how the initial position affected
+the range measurement.
+
+
+
+
+                                         xα,theoretical
+
+
+
+                                         xα,measured
+
+Figure 7: The measured range is smaller compared to if the initial position was right at the
+start of the plank.
+
+The difference between the measured range and the model range at α = 0 is:
+                               2
+             2 × (5.3188 m s 1 ) × cos (65 ) × sin (65 − 0 )
+                                                             − 2.12 m ≈ 0.089 m
+                         (9.81 m s 2 ) × cos2 (0 )
+This value is very close to the actual distance the projectile was left of the edge of the
+Launcher (0.082 m). This implies that the initial position accounts for vast majority of the
+deviation from the model.
+
+6.1.2    Large angles
+Already during the experiment it became clear that the initial position would have a large
+effect when the incline angle approached the launch angle. The effect reverses from small
+angles and the measured range values are larger than they are supposed to be. Figure 8
+shows how the initial position affects the range with a large incline angle. Figure 9 shows
+how the setting in real life looked when the incline angle was α = 65 : the projectile travels
+almost parallel to the plank until finally hitting it.
+
+6.2     Other factors
+The derivation of the range equation in Section 2 assumes that air resistance is negligible
+so that the motion equations would be simpler. However, air resistance has a real effect in
+
+                                               10
+

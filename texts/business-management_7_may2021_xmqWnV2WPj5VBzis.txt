@@ -1,0 +1,1716 @@
+Business Management Research Proposal –
+
+Higher Level
+
+
+How can Visume reduce its
+
+employee attrition rate?
+
+
+
+
+                                                                      (Visume)
+
+                          Word count:
+Research Proposal: 466 (including information in Gantt Chart image)
+                                                Research Proposal
+
+Research Question
+
+How can Visume reduce its employee attrition rate?
+
+Rationale
+
+Visume is a cloud-based start-up company that provides HR solutions to enterprises to
+
+enhance the recruitment process by using Robotic Process Automation (RPA) and Artificial
+
+Intelligence (AI). Being a start-up, Visume faces challenges of employee attrition (Grover,
+
+Introductory Interview). The aim of this proposed study is to analyse, evaluate and
+
+recommend the methods Visume can adopt to reduce its employee attrition, hereby
+
+contributing towards its growth and well-motivated employees.
+
+Theoretical Framework
+
+The analysis will be supported using non-financial business tools like Fishbone Diagram to
+
+identify the root causes behind employee attrition, and potential methods that can be used to
+
+reduce attrition will be analsyed from the perspective of certain Motivational Theories. A
+
+SWOT Analysis of Visume will be included in the Appendix to give an overview of Visume’s
+
+internal and external environment.
+
+Syllabus Content1
+
+
+    •    Introduction to Business Management
+
+    •    Organisational Objectives
+
+    •    Organisational Planning Tools
+
+    •    Functions and Evolution of Human Resource Management
+
+
+1 Hoang, Paul. Business Management 3rd Edition. 3rd ed., Victoria, Australia, IBID Press, 2014, pp. 1–191.
+
+
+
+
+                                                                                                             1
+   •    Organisational Culture
+
+   •    Leadership and Management
+
+   •    Motivation
+
+Methodology
+
+Primary Research
+
+
+    •   Series of interviews with CEO of Visume, Mr Parag Grover, to understand
+
+        background of the company and the problem of employee attrition it faces.
+
+    •   Online surveys with employees of Visume to identify their perspectives on the
+
+        company, its policies, leadership, and motivation at the workplace.
+
+Secondary Research
+
+
+   •    Statistical information relating to employee attrition such as attrition rates.
+
+   •    Visume’s website to get an overview of the company.
+
+   •    Visume’s organisational charts.
+
+Difficulties likely to be encountered & Possible Solutions
+
+
+                     Difficulties                                Possible Solutions
+
+ Research question was too generalised             Consulted with supervisor for feedback and
+
+                                                   guidance on framing research question
+
+ Small size of sample for conducting online        Ensured regular communication with CEO
+
+ surveys of employees                              requesting to help in encouraging
+
+                                                   employees to participate in survey
+
+ Biased opinions and perspectives in online        Ensured to keep surveyed employees
+
+ surveys                                           anonymous. Used a balance of open and
+
+
+
+
+                                                                                                2
+                                                                                                    close ended questions for comfortable
+
+                                                                                                    responses
+
+               Incorrect analysis using business tools                                              Sought guidance and support of supervisor
+
+
+
+             Action Plan
+
+                                                                                                                                 2020                                                2021
+Month                                                                                 Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec     Jan
+Week                                                                                1 2 3 4 1 2 3 4 1 2 3 4 1 2 3 4 1 2 3 4 1 2 3 4 1 2 3 4 1 2 3 4 1 2 3 4 1 2 3 4 1 2 3 4 1 2 3 4 1 2 3 4
+Permission from CEO to work on company
+Create Introductory Interview Questionnaire
+Introductory Telephonic Interview with CEO
+Research question formulation
+Discuss questions with supervisor
+Create Questionnaire 1 on employee attrition
+Conduct Questionnaire 1 CEO Interview
+Finalising research question with supervisor
+Begin writing research proposal
+Create Questionnaire 2 for online survey
+Writing Introduction, methodology and interpreting survey for fishbone diagram
+Complete Research Project with Analysis, Discussion, Conclusion & Recommendations
+Submission and feedback on first draft
+Incorporating feedback, plagiarism check and submitting final draft
+
+
+
+
+                                                                                                                                                                          3
+Business Management Internal Assessment –
+
+Higher Level
+
+
+How can Visume reduce its
+
+employee attrition rate?
+
+Internal Assessment
+
+
+
+
+                                                              (Visume)
+
+
+
+
+                        Word Count:
+                   Executive Summary: 199
+    Written Report: 1,995 (including explanatory footnotes)
+                                     Acknowledgements
+
+In order to make this research-based project possible, I would like to firstly thank Mr Parag
+
+Grover, CEO of Visume. I am grateful for him providing all forms of required data for this
+
+project, giving sufficient time to conduct a series of interviews to understand the business and
+
+the issue of employee attrition it faces, and helping with getting maximum responses for the
+
+employees survey by giving constant reminders to employees.
+
+I would also like to thank employees of Visume for actively taking part in the survey and
+
+providing useful statistics, my teacher for constantly guiding me to undertake the research
+
+appropriately and last but not the least my father for always supporting me by providing
+
+thoughtful insights.
+
+
+
+
+                                                                                                1
+                                                        Table of Contents
+
+
+
+
+Executive Summary .................................................................................................................... 3
+
+Written Report ............................................................................................................................ 4
+
+    Introduction ........................................................................................................................... 4
+
+   Methodology ........................................................................................................................... 5
+
+   Main Results and Findings ..................................................................................................... 6
+
+                •     Information from Interviews with CEO: ............................................................ 6
+
+                •     Information from Employees Survey:................................................................. 8
+
+   Analysis and Discussion ...................................................................................................... 12
+
+                •     Understanding root causes of Employee Attrition at Visume: ......................... 12
+
+                •     Possible Solutions to reduce Employee Attrition at Visume: ........................... 14
+
+   Conclusions .......................................................................................................................... 19
+
+   Recommendations ................................................................................................................. 19
+
+   Bibliography ......................................................................................................................... 21
+
+   Appendices ........................................................................................................................... 22
+
+                •     Appendix 1: Visume’s SWOT Analysis ............................................................. 22
+
+                •     Appendix 2: Introductory Interview with CEO - Questionnaire ...................... 23
+
+                •     Appendix 3: Questionnaire 1 – CEO ............................................................... 27
+
+                •     Appendix 4: Questionnaire 2 – Employees Survey .......................................... 33
+
+                •     Appendix 5: Employees Survey Responses ...................................................... 36
+
+
+
+
+                                                                                                                                            2
+                                     Executive Summary
+
+Visume offers HR solutions to enterprises, helping with recruitment processes using its
+
+cloud-based business model. As a start-up, formed in July 2018, it faces issues of employee
+
+attrition, specifically in technology function. Therefore, the aim of this study is to answer the
+
+research question, “How can Visume reduce its employee attrition rate?”
+
+Information for this study was essentially collected through primary research involving
+
+interviews with CEO and survey of 15 employees. Secondary data was gathered from online
+
+sources including Visume’s website, range of business management textbooks, statistics and
+
+documents directly obtained from company.
+
+Information obtained was analysed using fishbone diagram to reveal root causes of employee
+
+attrition as ineffective training, lack of recognition and unattractive pays. Through
+
+comprehensive analysis of methods of employee retention, using various motivational
+
+theories, Visume is recommended to employ online training for employees to enhance
+
+competency, offer employees ESOP for financial motivation, utilise combination of
+
+democratic and laissez-faire leadership and improve employee recognition using employee
+
+awards and family recognition occasions, thus boosting morale.
+
+Nonetheless, management must investigate further for possible causes of employee attrition
+
+in technology function in addition to reviewing methods of retaining employees considering
+
+small sample size for employees’ survey conducted.
+
+
+
+
+                                                                                                3
+                                        Written Report
+
+
+                                         Introduction
+
+Visume is a start-up providing HR solutions using cloud-based platform to ease recruitment
+
+processes for enterprises by enabling “smart hiring”, involving evaluating candidates with
+
+required skills.
+
+Incorporated in U.S, Visume’s vision is growing globally1, with current office in Delhi. It has
+
+customers from India, UK, Europe and U.S. Achieving such growth necessitates excellent
+
+customer service by offering an enticing product, highlighted in its mission, “Visume is
+
+committed to delight and empower Human Capital Management teams with the next-
+
+generation of data-driven digital transformation tools.” (Visume) Employees are critical
+
+in driving customer experience, making it crucial for Visume to retain its performing
+
+employees, thus achieve growth.
+
+Visume currently experiences annual attrition of 4-5 employees over 60 employees, giving an
+
+attrition rate of approximately 8%2. Despite being lower than industry’s benchmark, it is
+
+essential to further minimise attrition being a start-up, so that well motivated and retained
+
+workforce can support Visume’s objectives (Grover, Questionnaire 1 Telephonic Interview).
+
+Therefore, this study will be based on the research question, “How can Visume reduce its
+
+employee attrition rate?”.
+
+
+
+
+1 Refer Appendix 2
+2 Refer Appendix 3
+
+
+
+
+                                                                                                4
+                                         Methodology
+
+Primary research was conducted through series of interviews with Mr. Grover, comprising
+
+face-to-face and telephonic interviews3 to understand about Visume and its problem of
+
+employee attrition.
+
+Second face-to-face meeting was performed as telephonic-interview due to lockdown from
+
+Covid19 Pandemic.
+
+Online survey of employees4 complemented primary research by recognising employee’s
+
+viewpoints in areas like training, job-satisfaction, work environment, facilities, leadership
+
+styles and pay at Visume.
+
+Collecting data directly from CEO provided reliable and accurate information, however
+
+financial data was not available due to confidentiality issues.
+
+Online survey of employees provided easy access to employee’s perspectives, considering
+
+Visume’s location in a different city. Being a small company, sample size of employees was
+
+limited to 15 people, thus prone to biases, especially because Mr. Grover helped in
+
+distributing the survey.
+
+Secondary data obtained comprised, statistical information like attrition rates and workforce
+
+size, Visume’s website for rudimentary details and, Visume’s organisational chart to
+
+understand organisational hierarchy.
+
+Information collected via field and desk-research supported construction of fishbone diagram
+
+to analyse root cause of attrition. Relevant information also assisted in Visume’s SWOT
+
+analysis5.
+
+
+3 Refer Appendices 2 & 3
+4 Refer Appendix 4
+5 Refer Appendix 1
+
+
+
+
+                                                                                                5
+                              Main Results and Findings
+
+Information from Interviews with CEO:
+
+ Commercial launch of Visume               July 2018
+
+ Total number of employees                 60
+
+ Customer base                             India, UK, USA, Europe.
+
+                                           Aims expansion into Australia and New
+
+                                           Zealand.
+
+ Attrition rate                            Roughly 8.0 %
+
+ Function with highest attrition           Technology function, including project
+
+                                           managers, developers.
+
+ Hierarchy level experiencing highest      Junior to mid-level
+
+ attrition
+
+ Attrition rates comparison                Industry’ attrition – 10-15% on global level,
+
+                                           15% on national level.
+
+                                           Start-ups attrition – 25%.
+
+ Reasons behind attrition                  Pay/salary
+
+                                           Incompetent employees unable to cope with
+
+                                           challenges, causing demotivation.
+
+ Training methods                          Coaching, mentoring
+
+ Motivational and employee retention       Transparent and open environment – no
+
+ techniques                                bureaucracy
+
+                                           Open communication platform
+
+
+
+
+                                                                                           6
+                                                    Recognition with accolades, gratifications
+
+                                                    like lunch/dinner vouchers, paid vacation by
+
+                                                    company, flexi-timings, work from home
+
+                                                    Annual Bonus
+
+Exit interview feedbacks                            Better salary
+
+CEO’s view on offering roles to new                 Immediately given challenging roles based
+
+recruits                                            on interest areas.
+
+                                                    Develops skills of employees in early years,
+
+                                                    encouraging enthusiasm in work.
+
+Retention plan                                      Open house for feedback from employees
+
+
+
+
+                           Figure 1 – Visume’s Flat Organisational Structure
+
+
+
+
+                                                                                                   7
+Information from Employees Survey:6
+
+
+
+
+6 Refer Appendices 4 and 5
+
+
+
+
+                                      8
+Employees satisfaction with training:
+
+Respondent Number        Rating/10       Respondent Number   Rating/10
+        1                    7                   9                8
+        2                    6                   10               8
+        3                    9                   11               7
+        4                    3                   12               8
+        5                    6                   13               9
+        6                    8                   14               8
+        7                    8                   15               7
+        8                    8                Average           7.33
+                                     Table 1
+
+
+
+
+                                                                         9
+Employees satisfaction with salary:
+
+Respondent Number        Rating/10        Respondent Number   Rating/10
+        1                    8                    9                7
+        2                    7                    10               8
+        3                    9                    11               8
+        4                    6                    12               7
+        5                    5                    13               8
+        6                    7                    14               8
+        7                    7                    15               8
+        8                    7                 Average           7.33
+                                      Table 2
+
+
+
+
+                                                                          10
+Degree of encouraging employees’ retention with above improvements:
+
+Respondent Number      Rating/10        Respondent Number             Rating/10
+        1                  5                    9                          8
+        2                  7                    10                         8
+        3                 10                    11                         8
+        4                  8                    12                         9
+        5                  9                    13                         9
+        6                  8                    14                         9
+        7                  9                    15                         9
+        8                  9                 Average                     8.33
+                                    Table 3
+
+
+
+ Respondent Number         Response       Respondent Number                    Response
+         1           Technology                    9                           Marketing
+         2           Software Development         10                           Technical
+         3           Sales                        11                           Technical
+         4           Business                     12                      Business development
+         5           Developer                    13                            Technical
+         6           Revenue enhancement          14                             Sales
+         7           Technical                    15                               HR
+         8           Technical
+                           Table 4 – Respondent’s Business Function
+
+
+
+
+                                                                                                 11
+                                        Analysis and Discussion
+
+
+Understanding root causes of Employee Attrition at Visume:
+
+
+
+
+                                               Figure 2
+
+
+
+Using information from CEO interviews7 and employees survey8, above fishbone diagram
+
+was created to analyse root causes behind attrition. A fishbone diagram recognises causes
+
+behind certain effects/problems.
+
+As determined by Mr Grover, two key reasons for employee attrition include salary and
+
+junior level employee’s incompetency thus inability to cope with challenges. Furthermore
+
+Chart 6 reveals majority of employees wish for increase in salary, better recognition, and
+
+training, leading to an average rating of 8.33/10. This defines the extent to which these
+
+improvements would encourage employees’ retention. In conclusion, employees’ attrition
+
+occurs due to ineffective training, lack of recognition, and salary.
+
+
+
+
+7
+    Refer Appendices 2 & 3 and pages 9-10
+8
+    Refer Appendices 4 & 5 and pages 11-14
+
+
+                                                                                             12
+Figure 2 shows employees’ satisfaction for pay is 7.33/10, indicating scope of improvement.
+
+Being a start-up, Visume cannot provide higher salaries. Its revenues are low and most of
+
+profits are reinvested for growth, hence pay increments cannot be given.
+
+Junior employees face incompetency issues since training is limited to coaching with less
+
+focus on technical training in technology function, leading to a satisfaction score of 7.33/10
+
+displayed in Table 1. Visume’s training budget is restricted.
+
+While employees are content with democratic leadership style, maximum employees prefer
+
+combinations of democratic and laissez-faire leadership styles. Visume uses stereotypical
+
+recognition techniques for employees’ achievements like accolades and lunch/dinner
+
+vouchers, whilst employees’ expectations are higher for further motivation.
+
+
+
+
+                                                                                                 13
+Possible Solutions to reduce Employee Attrition at Visume:
+
+Online Training
+
+Online training could improve employees’ competency at junior level. Chart 4 indicates
+
+80.0% employees prefer online training, which will improve skills in technical knowledge
+
+which many employees lack. Improvised skills allow employees to manage challenging
+
+situations, keeping them motivated. Mandating regular online training for new recruits will
+
+ensure their effective performance.
+
+Cost of online training will be affordable for Visume, having only 60 employees, thus
+
+supporting its start-up model. Online training also provides flexibility of location and time to
+
+employees. As per Daniel H Pink’s motivation theory, Visume’s employees can be
+
+intrinsically motivated by possessing accurate skills, giving them satisfaction with their work,
+
+and developing confidence for managing challenges further. This can be implemented within
+
+aspect of “Mastery”, allowing employees to hone their skills through training.
+
+
+
+
+Nonetheless, online training may have limitations for functions like sales and customer
+
+relations due to inability to demonstrate and practise skills. There is no personal contact
+
+
+
+
+                                                                                              14
+because trainees cannot interact within themselves unlike classroom training. Lastly, online
+
+modules are rigid in nature and have fixed content.
+
+These limitations can be avoided through regular coaching by team leaders in combination
+
+with online training. Team leaders can share self-experiences to improve performance, build
+
+relations with juniors, and provide knowledge beyond defined theories. Mentoring
+
+complements non-bureaucratic, transparent environment at Visume along with its flat
+
+organisational structure, enabling easy communication between juniors and team leaders
+
+through reduced hierarchy.
+
+Pay
+
+Secondly, Visume can introduce Employee Stock Ownership Plan (ESOP) providing
+
+employees with ownership interests in the company (Ganti). This makes compensation more
+
+attractive by allocating stocks to performing employees based on predefined achievements.
+
+53.3% of employees hope for improvements in pay, and stocks allocation can encourage
+
+performing employees’ long-term retention by acting as monetary rewards.
+
+Rewarding employees with stock ownerships prevents immediate increases in short-term cash
+
+flow for Visume, unlike other financial incentives/salary increments, thereby suiting its
+
+abilities as a start-up. Employees’ shares in company stocks, owned as possessions, can be
+
+sold in future once Visume’s stocks are valuated. If Visume performs well over long-term,
+
+employees can maximise earnings through sale of stocks. Providing ownership interest at
+
+Visume can meet employees esteem needs, based on individuals’ status, mastery,
+
+recognition, and reputation (Mcleod). Esteem needs are illustrated in Abraham Maslow’s
+
+Hierarchy of Needs, defining different levels of individuals’ needs.
+
+
+
+
+                                                                                               15
+                                 Figure 4 – Maslow’s Needs Hierarchy
+
+
+
+
+Employees owning stocks can be motivated when recognised by peers for efforts, also giving
+
+them satisfaction of mastery in projects. This could increase willingness of employees to
+
+continue accepting challenges, especially for juniors because it gives them growth
+
+opportunities. ESOP can be combined in use with Visume’s Performance Linked Incentives
+
+for bonuses, given annually for remarkable performance.
+
+Nonetheless, employees who are part of ESOP can only sell stocks at higher prices if Visume
+
+performs well in future. If it underperforms, stocks cannot be sold to make high money.
+
+Recognition
+
+Thirdly, Visume can improve employee recognition methods by introducing concepts like
+
+“family days” and employee awards since 33.3% of employees anticipate enhancements in
+
+recognition. Events can be organised quarterly, inviting families to felicitation ceremonies for
+
+employees’ notable performances like achieving targets. Company heads can also felicitate
+
+families for support given to employees. Such forms of combined employee-family
+
+recognitions synchronise with Visume’s open culture and transparent environment.
+
+
+
+
+                                                                                             16
+Similarly, employees’ accomplishments can be recognised monthly by placing congratulating
+
+notes for “employee of the month” on staff notice boards. Visible to everyone, this fosters
+
+better relations amongst employees as they are congratulated, moreover motivating other
+
+employees to be next employee of the month. This would ensure employees aim at
+
+continuously improving their performance.
+
+Frederick Herzberg’s Two-Factor Theory determines employees’ motivation on two
+
+factors; hygiene-factors like salary, social relations and working conditions, preventing job
+
+dissatisfaction, and motivators like recognition, achievements, responsibility, and
+
+advancement, motivating workers to increase efforts.
+
+
+
+
+Based on this motivational theory, Visume’s management can motivate employees through
+
+improved recognition as explained above, while continuing utilisation of lunch/dinner
+
+vouchers and accolades.
+
+
+
+
+                                                                                                17
+Leadership
+
+Lastly, Chart 3 shows 73.0% employees saying democratic leadership is used at Visume
+
+while 53.0% of employees prefer laissez-faire leadership and remaining 47.0% prefer
+
+democratic, as per Chart 2.
+
+Democratic leadership involves employees input in decision making process, while Laissez-
+
+Faire leadership entails employees having freedom to work using their creativity, while
+
+leaders seldom offer opinions (Carlin).
+
+Since 47.0% employees prefer democratic style, Visume should leverage current practice,
+
+suiting its open culture environment allowing employees to freely connect with team leaders.
+
+However, considering 53.0% employees preferring laissez-faire approach, Visume could
+
+offer laissez-faire to employees wanting more space to themselves9.
+
+Laissez-faire suits job roles in technology function where developers can use their creativity
+
+in proposing effective solutions. Laissez-faire also matches Visume’s flat organisational
+
+structure, which creates wide span of control with several subordinates reporting to one
+
+supervisor. This encourages employees to work independently because leaders cannot
+
+provide significant individual supervision.
+
+Pink’s Drive motivational theory suggests intrinsic motivation can also be brought through
+
+autonomy – granting employees freedom to create work environments where they prosper
+
+best; allowing employees to choose whom to work with or how to perform tasks. Laissez-
+
+faire leadership motivates employees by giving autonomy, making work more interesting and
+
+retaining them, especially juniors who can adjust challenging tasks as per their skill levels.
+
+
+
+
+9
+    Refer Appendix 5, question 3.
+
+
+                                                                                                 18
+                                         Conclusions
+
+Thorough examination of fishbone diagram and employees’ survey responses concludes that
+
+root causes of employee attrition at Visume are insufficient training, lower pay/less financial
+
+motivation, and lastly ineffective measures for recognising employee performances.
+
+Potential methods to reduce employee attrition, as discussed in analysis, are directly linked to
+
+employees’ motivation at Visume, drawing connections to motivational theories like Pink’s
+
+Drive Theory, Two-Factor Theory and Maslow’s Hierarchy of Needs.
+
+
+                                      Recommendations
+
+Based on an in-depth evaluation of potential employee retention techniques using
+
+motivational theories, the research question can be answered by recommending Visume’s
+
+management to implement online training modules, introduce ESOP, and improve
+
+recognition of employees.
+
+It is strongly recommended that Visume integrates online training modules with its current
+
+use of coaching by team leaders because 80.0% of employees desire online training and its
+
+cost effectiveness blends with Visume’s start-up nature. Increasing employee competency
+
+with effective training, together with mentoring, must boost their morale and encourage
+
+retention.
+
+It is also highly recommended that Visume uses ESOP, offering ownership interests, or
+
+similar plans presenting financial rewards to employees on long-term basis. This can help
+
+Visume retain employees but also avoid incurring immediate costs for financial rewards.
+
+To keep employees well motivated and increase chances of retention, Visume’s management
+
+must redesign recognition methods using employee awards, inviting families to felicitation
+
+ceremonies, and offering both democratic and laissez-faire leadership. These methods should
+
+
+
+                                                                                              19
+improve employee performance, simultaneously motivating them to continue working with
+
+Visume.
+
+Nevertheless, analysis conducted was based on responses representing only 25.0% of total
+
+employees at Visume, hence it is particularly recommended for management to research
+
+further on causes for employee attrition.
+
+Secondly, employees’ attrition majorly occurs in technology function at Visume, however,
+
+not all responses collected pertained to individuals from technology function, thus results
+
+might be misleading, and management is advised to undertake comprehensive research
+
+specifically catered towards technology function employees, to understand their requirements
+
+and reasons behind employee attrition.
+
+
+
+
+                                                                                              20
+Bibliography
+
+Carlin, David. “Democratic, Authoritarian, Laissez-Faire: What Type Of Leader Are
+
+       You?” Forbes, 18 Oct. 2019,
+
+       www.forbes.com/sites/davidcarlin/2019/10/18/democratic-authoritarian-laissez-faire-
+
+       what-type-of-leader-are-you/#57371d492a6b. Accessed 10 July 2020.
+
+Fisher, Mark, et al. Cambridge IGCSE Business Studies Coursebook. Cambridge, United
+
+       Kingdom, Cambridge University Press, 2014.
+
+Ganti, Akhilesh. “Employee Stock Ownership Plan (ESOP).” Investopedia, 30 Apr. 2020,
+
+       www.investopedia.com/terms/e/esop.asp#:~:text=An%20employee%20stock%20own
+
+       ership%20plan%20(ESOP)%20is%20an%20employee%20benefit. Accessed 9 July
+
+       2020.
+
+Grover, Parag. Introductory Interview. 18 Feb. 2020.
+
+Grover, Parag. Questionnaire 1 Telephonic Interview. 22 Mar. 2020.
+
+Hoang, Paul. Business Management 3rd Edition. 3rd ed., Victoria, Australia, IBID Press,
+
+       2014, pp. 1–191.
+
+Kognity. “App | Kognity IBDP Business Management HL.” App.Kognity.com,
+
+       app.kognity.com/study/app/business-management-hl-2016/. Accessed 9 July 2020.
+
+Mcleod, Saul. “Maslow’s Hierarchy of Needs.” Simply Psychology, 5 Feb. 2007,
+
+       www.simplypsychology.org/maslow.html. Accessed 9 July 2020.
+
+Mohanty, Ipsa, and Pranab Sharma. Business Management Internal Assessment: Guide to 7
+
+       Points. Notion Press, 2019.
+
+Visume. “Visume | Smart Recruitment Process Transformation and Automation.” Visume,
+
+       2019, visume.online/. Accessed 26 Mar. 2020.
+
+
+
+
+                                                                                          21
+                                 Appendices
+Appendix 1: Visume’s SWOT Analysis
+
+
+
+
+                                              22
+Appendix 2: Introductory Interview with CEO – Questionnaire and Transcript
+   1. What type of business organisation is Visume?
+
+   Visume is an HR tech software solution company.
+
+   Follow up question – Is it a limited company or a partnership or sole
+   proprietorship?
+
+   It’s an incorporated company based out of U.S. The company’s name is Visume.online
+   inc.
+
+   2. What inspired you to develop this business idea?
+
+   The previous company that I started and currently run is called Lumata Digital whose
+   primary activity is to do digital transformations solutions, and Visume is a digital
+   transformations and solutions for the HR function.
+
+   Follow up question – So you basically took the idea from your previous business and
+   used it to launch a similar product?
+
+   The company Lumata does digital transformations solutions in other functions like sales,
+   marketing, manufacturing but HR function was not touched upon which is an important
+   function for any company and so we launched the digital transformations solutions for
+   HR as a separate company called Visume.
+
+   3. How long did it take to implement the business plan? When did it start?
+
+   Right from conceptualising the idea to making a viable platform, it took roughly about
+   two years.
+
+   Follow up question – So it started recently right? It started last year?
+
+   We started in 2017 beginning and launched commercially in July 2018.
+
+   4. Was this business idea market orientated or product orientated? Why?
+
+   Both actually, because there are many digital transformations solutions available in the
+   HR domain but those solutions were not meeting the market needs so we did a market
+   research to find the gaps in the market as to why the needs were not being met and
+   accordingly developed the product.
+
+
+
+
+                                                                                            23
+5. How many employees do you currently employ?
+
+About 60 people.
+
+Follow up question – So is it capital intensive or labour intensive?
+
+The initial investment in the form of financial investment can be seen as capital however
+going ahead since it is in the service industry, it has become more of labour intensive.
+
+6. Which regions of India does your customer base currently exist in?
+
+We have customers in more or less all Indian regions like north, west and south but
+nothing in the east, i.e Kolkata side. We do have customers in Bombay, Bangalore and
+Delhi, so major regions and cities have been covered.
+
+7. Which regions in India/overseas do you wish to target and expand into?
+
+Yes, basically we want to target the overseas market and that is the reason why it was
+incorporated in U.S. We have customers in UK, Europe and US and we are also looking
+at customers coming in from Australia and New Zealand.
+
+8. Has your company made any profits since its inception?
+
+Actually, whatever profits are made are put back into the business as a reinvestment, so
+we haven’t made any profits for the distribution of dividends per se but yes the company
+is earning and doing well and whatever is being earned is being reinvested.
+
+Follow up question – So you basically do not have any retained profits for other
+purposes right?
+
+Yes.
+
+9. Which stage of the product life cycle does your HR solutions service exist in?
+
+The specific solution that we are talking about is in the maturity stage because it is a full-
+fledged solution. As far as the business is concerned, it is in a growth stage because it has
+been recently launched in 2018.
+
+10. What marketing strategies do you currently use to promote your product?
+
+
+
+
+                                                                                            24
+So we participate in industry related events, we do close user group conferences, we use
+social media to promote our HR service, we do emailing campaigns to the prospective
+users and face to face meetings with customers.
+
+11. Who are your competitors and how do you plan to tackle them?
+
+There are many competitors like SAP, Oracle, Italio and ICMF. And I call these
+companies as competitors because the module and services they offer do not make their
+customers happy, so we plug in our solution along with their solution so that even if
+customers have invested in the competitors solution their investment is protected when we
+plug in our minimal cost solution. So instead of replacing our competitors we work with
+them to complement them.
+
+12. What are the different functional departments in your company? Which
+   department do you think must have the most focus and attention currently?
+
+We have all the functions that normal companies have like administration, HR,
+marketing, sales, product development, customer services and finance. And its about all
+the functions coming together and addressing the nuances of the market.
+
+Follow up question – But, as you said, your business as a whole is in the growth stage
+so the marketing department must get more attention so that the business can be
+promoted and become recognisable?
+
+Yes, focus on the marketing department is very high and plays an important role in terms
+of spreading awareness to the target customers.
+
+13. Were any problems encountered initially when setting up this startup?
+
+Yes, there are always challenges when setting up, firstly you have to isolate one idea from
+a variety of ideas and do a research and see how the market is responding to that
+research. Then there are logistical challenges because you have registered a company in
+the U.S sitting in India so you must find out be familiar with the country laws and similar
+administrative challenges.
+
+14. Does your company currently face a problem to be solved?
+
+There are always some problems that you have to face for example when the key people
+of your company leave and you have to quickly find a replacement, and being in the IT
+
+
+
+                                                                                          25
+industry there is a lot of churn that happens. Finding the right customers and following
+them up sometimes can be time consuming.
+
+Follow up question – Are any of these problems a major focus for example you as
+you mentioned many people leave the company, is it quite frequent or only once in a
+while?
+
+It’s a continuous process and not once in a while because in the IT industry the churn
+level is very high so you must keep you pipeline ready for a replacement and is especially
+more frequent for small companies. So we keep our employees well motivated through
+methods like flexibility by working from home and flexi timings and giving decent bonuses
+and salaries.
+
+15. Is your company in the process of/planning to make a new major decision? For
+   eg – expansion into new markets, launching a new service, employing more staff,
+   introducing and investing in new technology?
+
+We are planning to make some major decisions like expanding into new markets by trying
+to attract investors for funds to expand.
+
+Follow up question – So the area you are looking to expand into is the overseas
+market right?
+
+As we are an overseas company, expansion into those markets is a major decision. Since
+it is a cloud based solution we can expand into new regions overseas virtually but we do
+have to visit the customers in person.
+
+
+
+
+                                                                                           26
+Appendix 3: Questionnaire 1 – CEO
+   1. How many employees leave your company on an average in a month/year?
+
+   On an average, 4-5 people leave our company in a year. It is difficult to give for a month
+   because it is very less comparing to 4-5 people in one year.
+
+   2. Is it that a greater proportion of employees leave from a particular business
+       function in your company or is employee attrition more or less similar in all
+       business functions?
+
+   Maximum attrition is from the technical side because we are a technology company.
+
+   Follow-up question – So which business function do these technical people fall
+   under?
+
+   The technology function where technical people like developers and project managers
+   contribute to the success of the company.
+
+   3. Do you conduct exit interviews with the employees leaving the company to get a
+       feedback on reason for their resignation?
+
+   Yes, we do.
+
+   4. Do you see more of high performing employees leaving your company or bottom
+       performing employees?
+
+   It’s a mix of both, when bottom performing employees are challenged, they tend to leave
+   because they don’t like to take challenges, however it is mostly a mix of both types of
+   employees leaving.
+
+   5. Does employee attrition happen at the senior or junior level?
+
+   Most of the time, its on the junior to mid-level, senior level is very less.
+
+   6. Does the employee attrition rate of your company match the attrition rate of the
+       industry in which you operate or the attrition rate of start-ups?
+
+   Our attrition rate is very less compared to the industry which has attrition rate of 10-15%
+   at a global level. For the IT industry in India, attrition rate is somewhere around 15%,
+   and as far as start-ups are concerned, it is around 25%.
+
+
+
+
+                                                                                              27
+       Follow-up question - How do you make sure your company’s attrition is lower than
+       that of the industry?
+
+       Basically, when we hire people, we try giving them realistic challenges as compared to
+       other companies. Big companies usually give entry level employees support functions, but
+       we directly assign them challenging roles depending on their interests because young
+       employees, coming directly from college have the hunger to prove themselves by taking
+       challenging roles. This helps them learn and develop skills during the early years, hence
+       making our attrition lower.
+
+       7. What do you think are the reasons for employee attrition in your company?
+
+       Most of the time, the reasons are two-fold. One is the salary, monetary part. Specifically,
+       for the junior level, if any other company offers them a small increment, they tend to
+       leave. For example, for an increment from Rs 30,000 monthly to Rs 35,000 monthly, so
+       that is an interesting proposition for them.
+
+       Second kind of attrition happens when you challenge people and people who are not able
+       to cope with challenges tend to leave. Mostly it is money but secondly incompetence also
+       comes into the picture.
+
+       Follow-up question – Can one of the reasons for employee attrition also be a lack of
+       motivation or is it just these two reasons?
+
+       In our company, we haven’t seen motivation as a challenge unless the people are
+       incompetent and not geared up to take challenges. Most of the time it is money.
+
+       Follow-up question – If the employees find themselves incompetent, so how do you
+       motivate them? Do you provide some type of training?
+
+       We keep on giving them regular coaching and mentoring through their team leaders,
+       because these employees usually tend to be junior level, and still if they are incompetent,
+       they are taught how to address the challenging scenarios.
+
+       They are given KPI’s10 to be met every month and their scoring happens based on the
+       KPI’s. Even after coaching and mentoring, their skills do not improve, they start getting
+
+
+
+10
+     Key Performance Indicator
+
+
+                                                                                                 28
+frustrated and their motivation levels fall, which one cannot help because it is a two-way
+treat, you can’t keep motivating people, they have to get motivated as well.
+
+Follow-up question – Do you think the size/brand of your company impact employee
+attrition?
+
+Yes, that is one of the reasons as well. If someone is working for our company, which is
+fairly a new brand and a start-up more or less, and they get an offer from some big
+company like Google or Amazon, they will definitely look towards going for a big brand.
+
+8. Are you able to retain your employees post their resignation and if yes how so?
+
+If someone resigns, we normally do not tend to retain them because if they have resigned,
+they have made up their mind to leave, unless the reason is from the behavioural side of
+the organisation.
+
+If it is mostly from the salary or position point of view, we let them go.
+
+Follow-up question – What if the employees who leave are high performing and
+highly skilled? What if you lose them to your competitors?
+
+As I said if the employees have made their mind and unless the reason is that some
+injustice was done to them because of which they plan to resign, we try to sort it out. But
+if it's purely a money reason we let them go because skills are not static, they keep on
+improvising and new people who are hired, if they have the right temperament they can
+build up the skills very quickly.
+
+9. What employee retention techniques does your company currently utilise to
+   prevent employee attrition?
+
+We keep the environment very open, there is no bureaucracy in the environment. If
+someone has to talk to anyone they don't need to seek appointments, so there is no fear in
+terms of talking to your superiors or your peers, it’s a very open communication platform
+that we have created in our company.
+
+We believe when you are transparent to your team members, it helps in building trust in
+them and vice-versa.
+
+10. Are there any specific motivation strategies utilised by your company to motivate
+   employees?
+
+
+                                                                                           29
+We review employees regularly on a monthly basis. If they are doing good, we normally
+give them a pat on the back with some accolades and at time small gratification in terms
+of offering them a lunch/dinner voucher or sending them out for a paid vacation from the
+company.
+
+If they are not doing the work properly, we continue coaching them so that they learn
+from their mistakes.
+
+11. Is there any structured program for this?
+
+No, there is no structural program. In a way, our performance management system says it
+all because it is a very objective based performance management system where every
+month employees are rated on the kind of work they do.
+
+This could be the guidelines for measuring the performance of the employees on monthly
+basis and give them a figure for their performance, which could be a 70%, 80%, 100% or
+120% in that particular month. This can be one of the structural programs.
+
+Follow-up question – Do you give bonuses to the high-performing employees?
+
+Basically, we have two ways. One is a performance linked incentive, which we call a PLI.
+It is given on an annual basis but if it is a very special project performance that they have
+done then we do it during the project as well in terms of giving them a bonus or some
+kind of gratification.
+
+Follow-up question – So is a performance linked incentive given only to the highly
+performing employees to recognise their work or is it given to all the employees in
+terms of what they have done or how they have performed?
+
+For every employee in the company, they have two components; one is a fixed component
+and one is a variable component.
+
+The variable component comes from performance, for example, your salary is Rs 100, out
+of which Rs 80 is fixed and Rs 20 is performance linked. If in the whole year your
+performance is 80% then you get 80% of 20 rupees and this is applicable to all depending
+on what kind of performance they are displaying and this is measured/reviewed monthly
+but is sort of calculated on a yearly basis.
+
+
+
+
+                                                                                           30
+12. Do the motivational strategies help in boosting employee productivity and/or
+   quality of work?
+
+I will not be able to say that for sure because you need to have comparative data but what
+I have seen is that when you provide them a transparent ecosystem where everything is on
+a piece of paper, you can see how you are performing and growing and how your
+increments are linked to your performance, that according to me should give them a very
+clear idea of whether they are performing good and getting increments or whether they
+need to improvise.
+
+It usually works for us because our people who left us, also at times come back to us and
+say that we have done a lot, so that is a very satisfactory response that we get from them
+because at times they want to come back as well.
+
+Follow-up question –What is the usual feedback that you get from your employees
+during exit interviews?
+
+Most of the time, they claim to have gotten a good job in terms of salary, sometimes they
+say that there are some personal reasons and wish to leave. Exit interviews are just a
+formality that you as a company would want to do and identify the reason but everyone
+doesn't give you the real reasons why they are leaving.
+
+Follow-up question – Can you ask your employees to be more honest, perhaps by
+creating a certain comfortable atmosphere?
+
+We try to create such an environment, but usually they consider it as a formality and give
+any random reason for their resignation. Since they have made up their mind to leave,
+getting honest answers from them is something beyond our control.
+
+13. How do you keep improving your hiring and retention plan?
+
+For hiring, whenever we recruit candidates, we not just look into their resume but also
+their attitude and aptitude for the work, because skills can be easily developed if the
+person has the intentions to do it.
+
+As far as retention is concerned, like I said we try to keep our office environment open
+and transparent, to build a trust with them. We conduct regular open-houses where
+
+
+
+
+                                                                                           31
+employees can give feedback and their views which would not only help to improve the
+work-environment for them but also help to grow the company.
+
+14. Do you see a certain type of employee staying longer in your company as
+   compared to others?
+
+No, there is no hard and fast rule around that.
+
+
+
+
+                                                                                       32
+Appendix 4: Questionnaire 2 – Employees Survey
+   1. What encourages you to continue working at Visume? (multiple options)
+      a) Work environment and facilities provided
+      b) The job itself
+      c) Leadership at Visume
+      d) The company’s platform as a start-up which offers growth in your career
+
+
+   2. How would you rate the work environment at Visume? (10-point rating; 1 being least
+      and 10 being highest)
+
+
+   3. What other facilities would you prefer at the workplace? (open-ended)
+
+
+   4. What type of a leadership style do you prefer?
+      a) Autocratic
+      b) Democratic
+      c) Laissez-faire – manager provides flexibility and responsibilities
+      d) Paternalistic
+      e) Other – please specify
+
+
+   5. What leadership style does Visume currently offer you? (open-ended)
+
+
+   6. What type of training opportunities are currently offered to you? (open-ended)
+
+
+   7. What type of training opportunities would you prefer when given a choice? (open-
+      ended)
+
+
+   8. What method of training would you prefer?
+      a) Classroom based
+      b) Online
+      c) Off the job at specific centres
+
+
+   9. How satisfied are you with the training provided to help you meet your work
+      challenges and improve your skills? (10-point rating)
+
+
+                                                                                         33
+10. Do you have the zeal to accept new challenges/tasks given to you?
+   a) Yes
+   b) No
+   c) Depends on the difficulty of challenge/task and my skills
+
+
+11. What type of challenges/tasks do you usually have to perform? (open-ended)
+
+
+12. What type of challenges/tasks would you be willing to undertake if given a choice?
+   (open-ended)
+
+
+13. Does the current level of training and development offered to you help you meet and
+   exceed your current work performance?
+   a) Yes
+   b) No
+
+
+14. How satisfied are you with the pay you receive at Visume? (10-point rating)
+
+
+15. In what areas would you wish to see improvements at Visume? (multiple)
+   a) Pay
+   b) Facilities
+   c) Corporate culture and communication
+   d) Training opportunities
+   e) Organisational structure
+   f) Recognition for achievements
+
+
+16. To what extent would these improvements, if brought about, encourage your retention
+   at Visume? (10-point rating)
+
+
+17. How strongly would you recommend your friends to join Visume? (10-point rating)
+
+
+18. Which business function do you belong to in the company? (open-ended)
+
+
+
+
+                                                                                         34
+       19. Which level of the hierarchy do you operate in?
+a) Junior
+b) Middle management
+c) Senior
+
+
+       20. Since how many years have you been working at Visume?
+            a) 1
+            b) 2
+            c) Other – please specify
+
+
+
+
+                                                                   35
+Appendix 5: Employees Survey Responses
+Question 1)
+
+
+
+
+Question 2)
+
+ Respondent Number      Rating/10        Respondent Number   Rating/10
+         1                  8                    9               8
+         2                  8                    10              8
+         3                  10                   11              8
+         4                  8                    12              8
+         5                  7                    13              8
+         6                  8                    14              8
+         7                  8                    15              8
+         8                  8                 Average          8.07
+
+Question 3)
+
+
+
+
+                                                                         36
+ Respondent Number            Response       Respondent Number           Response
+
+          1          NA                      9                   Office space
+          2          Canteen and recreation 10                   Office space
+                     room
+          3          Eating facility is      11                  Space
+                     required which should
+                     be separate with
+                     respect to working
+                     space.
+          4          Flexibility to WFH.     12                  Office space
+          5          Facilities wise I am    13                  Canteen
+                     ok.
+          6          More spacious office    14                  Big office
+                     OR more space to
+                     oneself
+          7          Nothing Specific        15                  Canteen
+          8          Office space
+
+
+
+
+Question 4)
+
+
+
+
+Question 5)
+
+
+
+
+                                                                                    37
+Question 6)
+
+ Respondent Number             Response         Respondent Number           Response
+          1          Self-learning                      9           Business
+                                                                    Development
+          2          Learn on your own                 10           Technical
+          3          Product team supports             11           Technical
+                     in any query/feedback.
+          4          Knowledge sharing                 12           Sales
+                     session to keep us and
+                     team updated with latest
+                     topics.
+          5          Internal training has             13           Online technical
+                     been done on some
+                     topics.
+          6          Can avail this if I wish          14           Sales training
+                     to.
+          7          Technical training                15           HR
+          8          Technical
+
+
+
+
+Question 7)
+
+
+
+
+                                                                                       38
+ Respondent Number          Response           Respondent Number         Response
+          1          Self-learning                     9           Product
+          2          Classroom training               10           AI
+          3          Technical training on            11           Technical
+                     aspects of product -
+                     helps when discussing
+                     with clients and leaves
+                     positive effect on
+                     potential customers.
+          4          Agile and AWS                    12           Sales and business
+                                                                   development
+          5          Technical training on            13           AI and robotic
+                     new topic
+          6          Digital marketing and            14           Large deal closure
+                     social media
+                     management with the
+                     help of software tools.
+          7          AI based training                15           HR training
+
+
+          8          AI based technical
+                     training
+
+
+
+
+Question 8)
+
+
+
+
+                                                                                        39
+Question 9)
+
+ Respondent Number   Rating/10   Respondent Number   Rating/10
+         1               7               9                8
+         2               6              10                8
+         3               9              11                7
+         4               3              12                8
+         5               6              13                9
+         6               8              14                8
+         7               8              15                7
+         8               8            Average           7.33
+
+Question 10)
+
+
+
+
+Question 11)
+
+
+
+
+                                                                 40
+Respondent Number            Response        Respondent Number         Response
+        1           Selling                          9           Business
+                                                                 development
+        2           Software development            10           Project based
+                    with very high QA
+                    scores
+        3           Managing whole cycle            11           Project based
+                    from generating leads
+                    to discussion to demo
+                    to commercial
+                    proposal to closing
+                    deal to post-sales
+                    support.
+        4           Managing delivery               12           Closing of orders
+                    quality and time with
+                    limited expertise
+                    available within team
+                    for some domain or
+                    technology. Keeping
+                    team motivated and
+                    effective
+                    communication within
+                    team.
+        5           Visume is an ongoing            13           Project based
+                    project, giving us new
+                    challenges to perform.
+        6           Business Development            14           Sales closure
+                    and sales
+        7           Project based                   15           Recruiting and
+                                                                 motivating employees
+        8           Development
+
+
+
+
+                                                                                     41
+Question 12)
+
+ Respondent Number             Response         Respondent Number           Response
+          1          Any                                9           Sales
+          2          Software development              10           Project based
+                     with relaxed outcomes
+          3          Apart from Visume                 11           Project based
+                     started concentrating on
+                     DiGi Engage, accepting
+                     new challenge with
+                     support is very much
+                     workable.
+          4          Tasks which will help             12           Large business deal
+                     in improving my skills.                        closure
+          5          Anything which comes              13           Project based
+                     in my work profession.
+          6          Any- from R&D to                  14           Large deal closure
+                     collections.
+          7          Development based                 15           HR related
+                     project
+          8          Development
+
+
+
+
+Question 13)
+
+
+
+
+                                                                                          42
+Question 14)
+
+Respondent Number    Rating/10      Respondent Number      Rating/10
+        1                8                  9                   7
+        2                7                 10                   8
+        3                9                 11                   8
+        4                6                 12                   7
+        5                5                 13                   8
+        6                7                 14                   8
+        7                7                 15                   8
+        8                7               Average              7.33
+
+Question 15)
+
+
+
+
+Question 16)
+
+ Respondent Number      Rating/10      Respondent Number        Rating/10
+         1                  5                  9                     8
+         2                  7                  10                    8
+         3                 10                  11                    8
+         4                  8                  12                    9
+         5                  9                  13                    9
+         6                  8                  14                    9
+         7                  9                  15                    9
+         8                  9               Average                8.33
+
+
+
+
+                                                                            43
+Question 17)
+
+ Respondent Number      Rating/10       Respondent Number       Rating/10
+         1                  7                   9                    8
+         2                  7                   10                   8
+         3                 10                   11                   8
+         4                 10                   12                   8
+         5                  8                   13                   9
+         6                  8                   14                   9
+         7                  7                   15                   9
+         8                  8                Average               8.27
+
+Question 18
+ Respondent Number           Response       Respondent Number           Response
+          1          Technology                     9           Marketing
+          2          Software development          10           Technical
+          3          Sales                         11           Technical
+          4          Business                      12           Business development
+          5          Developer                     13           Technical
+          6          Revenue enhancement           14           Sales
+          7          Technical                     15           HR
+          8          Technical
+
+
+
+
+Question 19)
+
+
+
+
+                                                                                   44
+Question 20)
+
+ Respondent Number      Response         Respondent Number   Response
+          1                 2                    9              1
+          2                 2                   10              1
+          3             7 months                11              1
+          4                 2                   12              2
+          5          1 and a half year          13              1
+          6                 2                   14              1
+          7                 2                   15              2
+          8                 2
+
+
+
+
+                                                                        45
+

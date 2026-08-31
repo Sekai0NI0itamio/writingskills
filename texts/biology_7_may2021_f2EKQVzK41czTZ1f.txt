@@ -1,0 +1,514 @@
+A study regarding the effect of the microalgae Chlorella zofingiensis as a potential
+biostimulant on the height and fresh weight of leaf celery (Apium graveolens var.
+secalinum)
+
+Research question:
+how will the use of microalgae extract (Chlorella zofingiensis) affect the height (cm) and fresh
+weight (gr) of leaf celery (Apium graveolens var. secalinum) when given (via Fertigation) at 3
+different concentrations (0.5%, 0.1%, 0.01%) in comparison to positive and negative control?
+
+Aim:
+The aim of this study is to explore the effects of the microalgae Chlorella zofingiensis extracts as
+a potential biostimulant. This was done by evaluating the effects of the microalgae’s extract in
+diffrent concentrations (0.5%, 0.1%, 0.01%) on the fresh weight (gr) and height (cm) of leaf
+celery (Apium graveolens var. secalinum) comparing it to a negative and a positive control
+group.
+
+Background:
+Biostimulants are considered to be any substance or microorganism applied to a plant with the
+purpose of stimulating\natural processes, enhancing or benefiting nutrient uptake, nutrient use
+efficiency, abiotic stress tolerance, crop quality and yield, regardless of its nutrients content (du
+Jardin, 2015). In recent years those have been developed as a possible alternative and a natural
+solution to the environmental impact and harm of fertilizers used in agriculture(Rajabi
+Hamedani, Rouphael, Colla, Colantoni & Cardarelli, 2020). Many of the biostimulants available
+on the market consist of algae and seaweeds extracts. This is due to the fact that many seaweeds
+and algae product exhibit growth-stimulating activities, containing compounds such as macro-
+and micro-element, nutrients, amino acids, vitamins, cytokinins, auxins, abscisic acid (ABA),
+and other growth-stimulating substances which affect cellular metabolism in treated plants
+leading to enhanced growth of crops yield. (Khan et al., 2009). One example for an algae based
+biostimulant which is widely utilized today is the brown algae Undaria pinnatifida (fig 1.).
+U. pinnatifida is a brown algae native to Northeast Asia and Russia but can also be found in
+Europe, North America, South America and on the coast of Australia and New Zealand as an
+invasive species (Ohno & Mizuta, 2005). Extracts of the of the algae have found to contain
+vicarious bioactive compounds and metabolites such as phenolic compounds, terpenoid, nitrogen
+compounds and phlorotannins which are attributed with antioxidant, anti-inflammatory,
+antidiabetic, anti-proliferative, and antibacterial activities as well as the intrinsic ability to
+precipitate proteins (Dong et al., 2019). The extracts of the algae are commercially distributed as
+biostimulants by the company “Waikaitu”; an agriculture and biotech company based in Nelson,
+New Zealand develop and distributes organic fertiliser and biostimulant (Waikaitu, 2019).
+Their product claim to “accompaniment both conventional and organic operations, to increase
+crop quality and production, providing over 70 key nutrients as well as a range of naturally
+
+
+
+                                                                                                   1
+occurring carbon compounds (amino acids, plant hormones, alginates, sugars, etc.) that work
+with soil and plant biology to facilitate nutrient uptake, enhance immune response and help
+reduce leaching losses.”(Waikaitu, 2019).
+  Fig. 1. The brown algae Undaria pinnatifida, retrieved from ("Southland Pest Hub", 2021); no credit was provided
+
+
+
+
+In recent years there has been research into the potential use of microalgae as possible
+biostimulants. This is due to the fact many micro-algaes such as the soil surface green
+microalgae Chlorella zofingiensis (fig.2) which contains various proteins, polysaccharides, oils,
+vitamins, carotenoids, Astaxanthin and other biologically active compound, and is currently
+being researched as a potential biostimulant (Liu et al., 2014; private information, Barak & Levi,
+2020).
+ Fig. 2 green microalgae Chlorella zofingiensis image by the university of texas culture collection of algae (Algae, 2021)
+
+
+
+
+Hypothesis :
+There will be an improvement in the height and fresh weight of the celery treated with the
+microalgae when compared to the negative control group due to the presence of bio active
+compounds and metabolites in the treated plants, the similar result should be observed in the
+positive control group (those treated with the brown algae extracts) when compared to the
+negative control group.
+The experiment was conducted in the ecological greenhouse near the school.
+
+Variables:
+Independent variables: concentrations of microalgae (Chlorella zofingiensis) extract (0.5%,
+0.1%, 0.01%).
+Dependent variable: the height (cm) and the fresh weight (gr) of the treated celery plants.
+
+
+
+                                                                                                                             2
+Controlled Variables:
+    -     Irrigation; amount of water applied to plants via drip irrigation was constant and controlled by an
+          irrigation system.
+    -     Soil: The soil used was provided from the greenhouse.
+    -     Amount of treatment applied to the plants: 10 ml per week over the course of 3 weeks.
+    -     Time: the course of the experiment was identical to all treated groups.
+    -     Sample size: a constant number of 10 repetitions per treatment; overall a population of 50 plants.
+Apparatus:
+    - An irrigation table equipped with an irrigation system.
+    - 55 leaf celery seedlings.
+    - Tap water.
+    - 50 ml of concentrated brown algae extract (U. pinnatifida); provided by Dr. Eran Barak
+       which specializes in Innovative Plant Nutrition.
+    - 50 ml of concentrated microalgae extract (C. zofingiensis); provided by Dr. Eran Barak.
+    - Two 250 ml glass beakers.
+    - Five 200 ml erlenmeyer flasks.
+    - 100 ml graduated cylinder ± 0.5 ml.
+    - Two 1 ml glass pipette ±0.05 ml
+    - 10 ml syringe ± 0.25ml.
+    - A notebook and a pan.
+    - Soil provided by the greenhouse.
+    - 55 pots of about 500 ml in volume.
+    - Plastic cap.
+    - scissors.
+    - 30 cm ruler ± 0.05 cm
+    - The Electric scale used at the green house ± 0.1 gr (no label was provided).
+    - A large basket.
+    - Gardening shovel.
+    - 50 ml graduated cylinder 0.5 ± ml.
+Pictures of the procedure equipment and apparatus can be found in appendix
+Description of treatments
+                                                  Table 1.treatments table
+
+                               Treatment 1         Treatment 2
+    Treatment’s number                                                 Treatment 3       Treatment 4       Treatment 5
+                            (negative control)   (positive control)
+
+            contains              water           U. pinnatifida      C. zofingiensis   C. zofingiensis   C. zofingiensis
+
+        Concentration of
+                                   0%                  0.1%               0.5%              0.1%              0.01%
+          algal extract
+
+    Amount of solution
+                                 5 (ml)               5 (ml)              5 (ml)            5(ml)             5 (ml)
+    applied to plant (ml)
+
+
+
+
+                                                                                                                            3
+Justification for concentrations: the concentration used for the positive control (treatment 1)was
+decided upon based on the recommended amount described in the manufacture website
+(Waikaitu, 2019). The concentration of the microalgae extract (treatments 3, 4 & 5) were
+decided upon concerns over acidic properties of the microalgae extract in high concentrations
+(those of which might be damaging to the plant) and values found in literature regarding the use
+of other similar microalgaes (private information, Barak & Levi, 2020; Mutale-joan et al., 2020).
+Overview of experiment
+The experiment was conducted over the course of 5 weeks starting at 09/07/2020 until
+06/08/2020.The table below outlines the course of the experiment and average temperature over
+the five weeks.
+                           Table 2. Overview of experiment and average temperatures
+
+                         Week 1           week 2             Week 3             Week 4          Week 5
+                      (09/07/2020)     (16/07/2020)       (23/07/2020)        30/07/2020      06/08/2020
+
+    Description       Planting and    First course of   Second course of    Third course of   Harvest and
+                      preparation       treatments         treatment          treatment       measuring
+
+Average temperature      28.6              28.7               29.6                     30        29.8
+  Per week (℃)
+
+Methodology
+Initial preparation and planting
+The first week of the investigation consisted of preparation of equipment, materials, irrigation
+system and the planting and preparation of the celery seedlings.
+Beginning by transferring and planting the 50 celery seedlings into same sized pots using the soil
+provided by the greenhouse. This was done by filling up about two thirds of the pot with soil by
+either using a small gardening shovel or hands, then using a finger to create a small hole in the
+soil. The celery seedling was then put in the pot, before filling up the rest of the pot with soil.
+After all celery plants were prepared, an irrigation table consisting of four rows was cleared and
+connected to the greenhouse automatic irrigation system. A thorough examination of the taps and
+pipes used for the irrigation inorder to avoid leaking and ect. After preparation of the irrigation
+table was made, each celery plant was marked by a serial number (1-50), put on the irrigation
+table and was connected to the drop irrigation system. The newly planted celery seedlings were
+left untouched for a week before beginning the course of treatments. This Was done to let the
+newly planted seedlings to accumulate to their new environments and its abiotic conditions.
+Preparation of treatments
+Treatment 1 (negative control)- no preparations were made; untreated plants.
+Treatment 2 (positive control) - using a pipette 0.1 ml of the concentrated brown algae extract
+(U. pinnatifida) was dissolved in an erlenmeyer flask containing 100 ml of water then stirred for
+30 seconds by hand.
+Treatment 3: using a pipette 0.5 ml of the microalgae concentrated extract C. zofingiensis was
+dissolved in an erlenmeyer flask containing 100 ml of water then stirred for 30 seconds by hand.
+
+
+                                                                                                            4
+Treatment 4: using a 50 ml graduated cylinder 20 ml of the 0.5% solution (treatment 3) were
+taken and poured into an erlenmeyer flask containing 80 ml of water, the solution was then
+stored for 30 seconds by hand resulting in a concentration 0.1%.
+Treatment 5:: using a 10 ml syringe, 10 ml of the 0.1% solution were taken and poured into an
+erlenmeyer flask containing 90 ml of water, the solution was then stored for 30 seconds by hand
+resulting in a concentration 0.01%.An excess amount of the treatments were prepared in order to
+avoid errors; Preparation of treatments was repeated for each course of treatments.
+Application of treatments
+Treatments were applied once a week over the course of 3 weeks. In order to avoid errors
+derived from nuisance factors, those of which might influence the spread of the data in the
+population, the experimental method of randomized complete block design (RCBD) was utilised
+to ensure an equal distribution of conditions throughout all treatments (Rzewnicki,1992).
+following the RCBD method the population of plants were numbered and assigned into blocks
+of five plants (10 blocks in total).Treatments were distributed similar to the following order
+“A-B-C-D, B-C-D-A, C-D-…” as can be observed in the raw data table. treatments were applied
+to plants via the method of fertigation, allowing absorption of the treatments from the roots.
+Using a syringe 5 ml of the desired treatments was applied to the plant. The treatments were
+applied following the order of treatment.
+Description of harvest and measuring
+Height: Using a ruler the height of each plant was measured from the beginning of the stem to
+the end of the system's highest leaf. the measured height was then written next to the plant’s
+serial number.
+Fresh weight: the measuring of the fresh weight was done by cutting the planet using scissors
+and measuring its weight on an electric scale. the measured height was then written next to the
+plant’s serial number. Plants were measured one by one according to their serial number. With
+the measured plants collected in a basket and recycled as animal food (donkeys).
+The data collected was then transferred to the raw data table (table 3) in excel.
+Risks and ethical consideration
+Risks: The experiment performed in this investigation involved prolonged exposure (2 hours at a
+time) to sunlight and hot temperatures. The risk associated with prolonged exposure to sunlight
+and UV radiation are skin damage, sunburns and the increased risk of developing skin cancer
+(Jakuboski, 2015) as well as heatstroke and dehydration due to exposure to high temperature
+(OSH Answers, 2021). In order to avoid the risks mentioned the use of protection measures such
+as hats and sunscreen as well as the repeated drinking of water were utilized.
+Ethical and environmental: no intentional or unintentional harm was imposed on humans,
+animals or the environment during the course of this investigation. The investigation was
+planned according to IB ethical and safety guidelines.
+
+
+
+
+                                                                                             5
+Analysis                  Table 3. Raw data table with outliers marked in yellow
+           Plant number     treatment          height (cm ±0.05 cm)           weight (gr ±0.1 gr)
+                  1             1                        21                           13
+                  2             2                       20.1                          10
+                  3             3                       20.2                          15
+                  4             4                       21.7                          12
+                  5             5                        25                           12
+                  6             2                       21.2                           9
+                  7             3                       20.3                           9
+                  8             4                       19.9                           8
+                  9             5                       22.2                          12
+                 10             1                       18.1                          10
+                 11             3                       21.7                          13
+                 12             5                       22.1                          10
+                 13             2                       21.3                          11
+                 14             3                       20.1                          10
+                 15             4                       22.3                          10
+                 16             5                       19.2                           8
+                 17             1                       21.5                          10
+                 18             2                       20.5                          12
+                 19             4                       19.4                          12
+                 20             5                       20.9                          10
+                 21             1                        23                            9
+                 22             2                       19.6                           7
+                 23             3                       18.6                          12
+                 24             5                       21.6                           7
+                 25             1                        24                           12
+                 26             2                        18                           10
+                 27             3                       24.6                          16
+                 28             4                       21.9                          12
+                 29             1                        21                            7
+                 30             2                       20.1                          10
+                 31             3                       21.8                          11
+                 32             4                       20.4                          10
+                 33             5                       22.2                          15
+                 34             2                       20.2                           8
+                 35             1                       18.8                           8
+                 36             3                       23.8                          10
+                 37             5                       19.5                           7
+                 38             1                       21.4                          10
+                 39             3                       22.7                          12
+                 40             4                       19.6                           9
+                 41             5                        21                            7
+                 42             1                        23                           13
+                 43             2                        23                           13
+                 44             1                       20.5                           8
+                 45             4                        20                            7
+                 46             3                       24.1                          14
+                 47             4                       22.8                          13
+                 48             5                        23                           15
+                 49             2                       20.2                          10
+                 50             4                       21.1                           8
+
+
+
+
+                                                                                                    6
+       Processed data
+                        Table 4. Showcasing the mean, standard deviation, sample variance of the height (cm) measured
+
+                      water      brown algae 0.1%       microalgae 0.5%        microalgae 0.1%        microalgae 0.01%   general population
+
+mean (cm ± 0.05 cm)   21.23             20.42                 21.79                 20.91                   21.67               21.20
+
+Standard Deviation    1.837             1.286                 1.997                 1.213                   1.682               1.644
+
+ Sample Variance      3.376             1.653                 3.988                 1.472                   2.829               2.704
+
+       count            10               10                     10                    10                      10                 50
+                      Table 5. Showcasing the mean, standard deviation, sample variance of fresh weight (gr.) measured
+
+                      water     brown algae 0.1%        microalgae 0.5%       microalgae 0.1%        microalgae 0.01%    general population
+
+ mean (gr ± 0.1 gr)    10               10                    12.2                  10.1                    10.3               10.52
+
+Standard Deviation    2.108            1.764                 2.299                 2.079                   3.129               2.384
+
+ Sample Variance      4.445            3.111                 5.289                 4.322                   9.789               5.683
+
+       count           10               10                     10                    10                      10                 50
+
+                                                    Fig.3 mean height of treatments
+
+
+
+
+                                                 Fig.4 mean fresh weight of treatments
+
+
+
+
+                                                                                                                                  7
+analysis of variability (one way ANOVA)
+Null Hypothesis (H0):Means are equal “H0: μ1 = μ2 = μ3 ... = μk”
+Alternative hypothesis (H1): Means are not all equal.
+Level of significance is α=0.05
+                      Fig.5 the result of the one way anova test performed in excel for height
+
+
+
+
+                   Fig.6 the result of the one way anova test performed in excel for fresh weight
+
+
+
+
+                          Table.6 results and analysis of ANOVA for height and fresh weight
+
+       Perimeter                              Height                                         Fresh weight
+
+   Results of ANOVA                P-VALUE > α (0.33036>α)                           P-VALUE > α (0.175046>α)
+
+      Conclusion           P-value is larger than level of significance.    While the p-value is relatively small, it doesn’t
+                           Therefore the alternative hypothesis (H1is) is   coordinate with the required level of
+                           rejected and the null hypothesis (H0) is         significance there for the null hypothesis (H0)
+                           accepted. There is no significant difference     is accepted. There is no significant difference
+                           between the group’s means.                       between the group’s means.
+
+
+Qualitative observations
+The observed height of the celery seedlings was around 5-7 cm in the first week of the
+experiment. By the second week of the experiment most plants have already doubled in size. By
+the end of the experiment all plants have grown significantly, developing new leafs and stems.
+Around the third week of experiment (second course of treatments) a suspected infestation of a
+pest known as broad mites (Polyphagotarsonemus latus) was observed. Those appeared to have
+caused deformities to plant such as mild distortions to older leaves, severe deformities to newer
+leaves as well as distortion and bumps on the stemms (as can be seen in fig. 7).
+
+
+
+                                                                                                                            8
+   Fig.7 broad mites (left image) and their effect on leaf celery (right image); both images were taken by the author using a portable
+                                        microscope at a magnification of 10x and a smartphone.
+
+
+
+
+The distribution of affected plants appeared throughout all groups with no specific relation to
+blocks or treatments. While hard to determine due to the effects of the mites, some of plants
+treated with treatment 3 and 5 appeared to be slightly higher than those treated with the other
+treatments (highlighted in raw data), it appeared that the plants treated with the positive control
+were relatively smaller compared to both the other groups. Block placement did not appear to
+affect the growth of the plants.
+Calculations
+ In this investigation calculation measures the distribution and speared of the data such as the
+calculation of means, standard deviation and sample variance. Calculations such as mean were
+used to summarize the data gathered for each treatment, while calculations such as standard
+deviation and sample variance were used to showcase and measure the spread and dispersion of
+the data and were used as tools to assess the effect of the mites. Additional statistical tests such
+as an anova test ant were conducted to measure and assess the significance of the data in regards
+to a null hypothesis.             Table 3. Description of calculations.
+
+               name                          formula                                         Description
+
+                                                  𝑛
+                                                  ∑𝑥 𝑖
+               mean                                                average value of a given population; used in analysis.
+                                            𝑥 = 𝑖=1𝑛
+
+
+
+        Standard deviation                                         Measures variation in a set of value; used in analysis.
+
+
+
+                                                                   Used to show how varied a sample is. Used to calculate the
+          Sample variance
+                                                                   depression and variation of the data.
+
+
+
+
+                                                                   The anova function compares the sample means of n groups,
+       analysis of variability
+                                                                   exploring the distribution of the groups and was used in data
+        (one way ANOVA)
+                                                                   analysis.
+
+
+
+
+                                                                                                                                         9
+Results of data analysis and discussion
+Height: according to table 4. The standard deviation and sample variance of the group treated
+with the treatment 1 (water) and treatment 3 (0.5% microalgae) appears the largest out of the rest
+of the groups with treatment 2 (0.1% brown algae) having the lowest standard deviation and
+sample variance.with fig. 3 not showing a significant difference between the heights. Based on
+the ANOVA test results there is no significant difference between the group’s means.
+Fresh weight: according to table 5. The standard deviation and sample variance of the group
+treated with the treatment 5 (microalgae 0.01%) appeared to be the highest out of the groups,
+with the rest having similar standard deviation and sample variance. According to fig.5 the mean
+fresh weight of treatment 3 (0.5% microalgae) appears to be larger than the rest of the groups all
+of which have similar means. While the anova test did not reveal any significance of the data, the
+relatively small P-value does hint on a difference between the means and corresponds with those
+observed in figure 5. According to the data presented there is no observed difference between the
+control groups, with the negative control mean height value being larger than that of treatment 3.
+The range as results described in table 4, fig. 5 as well the relative high p-value when compared
+to those of the fresh can be associated with the deformities caused by the mites affecting the
+height of the plants more severely than those of its fresh weight.
+Conclusion
+Based on the result of this study there is lack of sufficient evidence to either support or reject the
+original hypothesis of this study. While the mean fresh weight of treatment 3 (0.5% microalgae)
+does appear to be higher than the rest of the groups there is no sufficient evidence that the results
+are attributed to the treatment. With the results of anova showcasing a small statistical
+significance to the measured data, but still above the level of significance. while there is no
+sufficient evidence to support the improvement in the height and fresh weight of the treated
+celery. The effects of the broad mites as shown in fig.7 undermine the reliability of the measured
+data. I would argue that therefore no sufficient conclusion can be drawn.
+ Based on the results of this investigation and reliability of the data a repetition of the experiment
+is recommended according to the suggestions made in the evaluation.
+
+Evaluation
+While several strategies were used in order to avoid errors and uncertainties (such as the sample
+size and the use of a random complete blocks design) there are many limitations and errors that
+should be acknowledged.
+Broad mites: broad mites (Polyphagotarsonemus latus) are polyphagous pests which are the most
+active throughout the summer months and are commonly found in the tropical and subtropical
+areas as well as greenhouses of countries with warm climate. The mites are easily spreadable and
+persistent due to their small size (0.2 to 0.3 mm) short life span (13 days producing 30- 70
+offspring). The mites consume soft tissue motley found at the lower parts of the plant and leaves
+causing the deformities shown in fig. 7. The mites probably originated from another plants
+
+
+                                                                                                   10
+greenhouse. The effects of the mites have been completely devastating, affecting the reliability of
+the data measured. An attempt to combat the mites with the use of nim oil was thought of, but
+was abandoned due to a low availability of the extract.
+Uncertainties: uncertainties in the data as well as flaws in the method used to measure the data
+should be addressed, as well as the uncertainties of using a ruler, specifically due to the effects of
+the mites on the plants.
+The effect of the pandemic on the procedure: regulations and limitations of the pandemic have
+influenced and affected this investigation, such as limited equipment and repetitions of the
+experiment due to the lockdown.
+Applications and suggestions
+The following are suggestions and applications regarding the limitations previously described.
+The use of pest resistant plants such as basil: while conducting the experiment in the greenhouse
+I have noticed that while plants such as papers and leaf celery have been severely affected by the
+mites, basil (Ocimum basilicum) did not appear to be affected by the mites. Basil contains certain
+essential oils which repel pests such as the mites, repeating the experiment with basil might
+prevent the possibility of broad mites infestation.
+Diffrent measurement of growth and biomass: biostimulants have diverse range effects in regards
+to plants enzymatic activity, nutrients and more(du Jardin, 2015). Assessing the effects of the
+biostimulant on the plants measuring chlorophyll level, dry weight and protein content will
+allow for a better understanding of the effects the microalgae extract has on the growth of plants,
+and it’s possible use as a biostimulant.
+
+
+
+
+                                                                                                   11
+Bibliography
+
+    Khan, W., Rayirath, U. P., Subramanian, S., Jithesh, M. N., Rayorath, P., Hodges, D. M., . .
+    . Prithiviraj, B. (2009). Seaweed extracts as biostimulants of plant growth and
+    development.     Journal     of   Plant     Growth      Regulation,     28(4),    386-399.
+    doi:10.1007/s00344-009-9103-x
+
+    Du Jardin, P. (2015). Plant biostimulants: Definition, concept, main categories and
+    regulation. Scientia Horticulturae, 196, 3-14. doi:10.1016/j.scienta.2015.09.021
+
+    Dong, X., Bai, Y., Xu, Z., Shi, Y., Sun, Y., Janaswamy, S., . . . Qi, H. (2019). Phlorotannins
+    from undaria pinnatifida Sporophyll: Extraction, Antioxidant, and Anti-inflammatory
+    activities. Marine Drugs, 17(8), 434. doi:10.3390/md1708043
+
+    Ohno, M., & Mizuta, H. (2005, March 31). Undaria pinnatifida (Asian kelp) (1255822762
+    929514740 M. Graham, Ed.). Usa Marine Biological Institute, Kochi University, Usa-cho,
+    Tosa, Kochi 781-1164, Japan, Retrieved from https://www.cabi.org/isc/datasheet/59979
+
+    Waikaitu.com. (2019). Plant care products: Biostimulant: Organic fertiliser: Waikaitu.
+    Retrieved from https://www.waikaitu.com/products#NZBioActive
+
+    Rajabi Hamedani, S., Rouphael, Y., Colla, G., Colantoni, A., & Cardarelli, M. (2020).
+    Biostimulants as a Tool for Improving Environmental Sustainability of Greenhouse
+    Vegetable Crops. Sustainability, 12(12), 5101. doi: 10.3390/su12125101
+
+    Algae, U. (2021). UTEX 343 Chlorella fusca var.                    fusca. Retrieved from
+    https://utex.org/products/utex-0343?variant=30991489368154
+
+    Hot Environments - Health Effects and First Aid : OSH Answers. (2021). Retrieved from
+    https://www.ccohs.ca/oshanswers/phys_agents/heat_health.html
+
+    Jakuboski, S. (2015). Dangers of the Sun | Green Science | Learn Science at Scitable.
+    Retrieved from https://www.nature.com/scitable/blog/green-science/dangers_of_the_sun/
+
+    Phil Rzewnicki, P. Rzewnicki. (1992). EC92-125 On-Farm Trials for Farmers Using the
+    Randomized Complete Block Design
+
+    Mutale-joan, C., Redouane, B., Najib, E., Yassine, K., Lyamlouli, K., & Laila, S. et al.
+    (2020). Screening of microalgae liquid extracts for their bio stimulant properties on plant
+    growth, nutrient uptake and metabolite profile of Solanum lycopersicum L. Scientific
+    Reports, 10(1). doi: 10.1038/s41598-020-59840-
+
+
+
+                                                                                               12
+

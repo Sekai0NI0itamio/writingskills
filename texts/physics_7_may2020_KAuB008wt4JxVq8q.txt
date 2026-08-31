@@ -1,0 +1,590 @@
+       The relationship between magnetic field on a
+            magnet and its levitation distance Simple experiment
+                                                                                      connected to Maglev
+                                                                                      Trains
+                                                                                      Theory well developed
+Introduction
+
+Personal Engagement
+
+Since I was little, I was always fascinated about trains, and one of the things that fascinated
+me the most were their mechanisms and how the trains worked. My interest piqued when I
+saw that there are magnetic high-speed trains that aren’t touching the tracks. I later saw that
+this had to do with the fact that no friction would lead to less resistance and more speed due
+to magnetism, and then I wondered how this was working. What was the main magnetic
+mechanism needed for this to occur? I looked back at this curiosity when I was thinking
+about the topic for my IA, and my passion for physics in general.
+
+Research Question
+
+How does the magnetic field strength placed on a magnet affect its levitation distance, while
+figuring out the n-value in the magnetic field equation?    This is expanded upon later
+
+Background
+
+Magnetism
+
+Magnetism is the force that is created around magnets. It works like this - every magnet, as
+weak or strong it is, has a north and a south pole. There is a very simple principle used with
+magnets - like poles repel, unlike poles attract. When one magnet is close to the other, they
+will attract, if unlike poles are facing each other, and if like poles face each other, then they
+will repel. The magnetic force is not created around only magnets, though.​ ​(Bowen-Jones)
+                                                                                               Relevant
+                                                                                               background
+The basic magnetic properties - like poles repel, unlike poles attract - can be further
+understood when one sees a magnetic field diagram. The field lines will be shown as
+attracting (connecting) and repelling (seeming as there is an asymptote between them) in
+their respective situations and diagrams. ​(Bowen-Jones)
+
+
+
+
+                          Figure 1. The magnetic field lines of a magnet.
+This magnetic field represents the magnetic field of a magnet. The field lines always point
+from north to south. The figure below shows magnetic field lines for like poles facing each
+other and unlike poles facing each other:
+
+
+
+
+            Figure 2. The magnetic field lines when two unlike poles are facing each other.
+
+
+
+
+             Figure 3. The magnetic field lines when two like poles are facing each other.
+                                                                                              PE - going beyond the
+                                                                                              syllabus to find this law
+The Inverse Square Law
+
+The Inverse Square Law says that the magnetic force acting upon an object would be
+inversely proportional to the distance squared between two magnetic field sources. This law
+can be extended to more situations of magnets if we divide the field by the distance squared,
+cubed, etc. In the case of a monopole, or when a magnet has only one pole (a point source),
+then the theorem is modified so that the field is divided by the distance squared. In the case
+of a dipole, or when a magnet has two poles, then the theorem is modified so that the force
+is inversely proportional to the distance between the magnets cubed. The constant by which
+the field is multiplied by is the magnetic field that is applied. If put in an equation, where F​ B​ is
+the magnetic force, A is the area, B is the magnetic field, r is the distance between the
+magnets, and n is a constant, the equation would look like this:
+(WW, How does magnetic)
+
+                                              F B = AB
+                                                    rn
+Levitation
+
+An application of magnetism is magnetic levitation, in which magnetism makes magnets not
+touch the ground. A “levitation” effect happens when there are two magnets, one on top of
+                                                                                                    Explaining the
+the other, and like poles facing each other. This is the way it works: First, if one looks at the experiment
+field lines, one will see that there is no line that is pointing directly from and to the center of
+the magnets. There is one other factor that is important - the gravitational force. Since the
+magnets are almost never going to be able to fall one on top of the other, the magnet will be
+a little bit to the side. The weight of the magnet, which is the force of gravity, can push down
+on the magnetic field lines on that side, so the field lines could be bent. With no outer
+interference, there can’t be a perfect levitation scenario. Because of this, the magnet falling
+may flip, and the magnets will end up attracting like normal. The effect of not being able to
+levitate a magnet with no interference can also be explained using Earnshaw’s theorem,
+which states that a collection of magnets cannot be maintained in an equilibrium
+configuration strictly by the magnetic field. A way to fix this is by using diamagnetic materials
+and rotating magnetic fields.
+
+Since gravity is also a force, there will be a point of translational equilibrium. This point of
+translational equilibrium is when the magnet ends up not falling anymore, but not touching
+the other magnet; in other words, levitation. When more magnets are being placed on top of
+each other, with like poles facing each other, magnetic field strength rises. Because of this,
+the magnetic field strength ends up being greater than the force of gravity, so the magnet
+gets levitated more and more from the center of the cluster of the magnets. This can be
+demonstrated in the diagram below.
+
+
+
+
+                                                                                  Freebody diagram made by student
+                                                                                  that connects to the experiment
+
+
+
+
+      Figure 4. A free body diagram of a magnetic disk in translational equilibrium. (Self-made)
+
+Using summation of forces:
+
+                                            FB − W = 0
+
+Where W is the force of gravity acting on the magnet. Substituting for F​B​ and rearranging
+gives:
+
+                                                B
+                                                rn = W
+                                                B     n
+                                                W =r
+                                                                          Use of logs to find the exponent and to
+                                         log( WB ) = log(rn )             connect to a straight line graph - beyond
+                                 n × log(r) = log(B) − log(W )            Physics syllabus
+
+                                 log(r) = n1 (log(B)) − 1n (log(W ))
+
+
+This can be seen as a linear equation, where x = log(B), the gradient is 1/n, y = log(r), and
+the y-intercept is -(1/n)log(W). Because of this, the hypothesis will be that B increases as r
+increases, and that B is proportional to r to a power which will be determined in this
+investigation.
+Final Hypothesis
+
+The magnetic field strength on a magnet will affect its levitation distance in a way that the
+magnetic field strength will be proportional to levitation distance cubed.
+
+Experiment
+
+Methodology
+
+
+ Variables              Measurement of Variables                   Range of Measurements
+
+
+ Independent:           The Magnetic Field Strength will be        Magnets clustered
+                        measured with a Vernier Lab Pro            together, one on top of the
+ Magnetic Field         Magnetic Field Sensor. This will be        other, unlike poles facing
+ Strength               measured by placing the sensor 2           each other, and these are
+ (milliTeslas (mT))     centimeters away from the cluster of       the total magnetic field
+                        magnets. 2 centimeters can be              strengths:
+ The magnetic field     considered the lowest levitation                                         Use of
+                                                                                                 technology to
+ strength will be       distance for these magnets.                5 magnets: 3.4 mT
+                                                                                                 find B
+ changed with
+ magnets                Uncertainty on scale = +/- 0.0001 mT       4 magnets: 2.8 mT
+
+ Typical error on       Unit for magnetic field strength: Tesla    3 magnets: 2.6 mT
+ magnetic field
+ strength:              There is a background magnetic field    2 magnets: 2.2 mT
+ +/- 0.0001mT or +/-    strength of 0.1368 mT. Because of
+ 10​-8​ Teslas          this, the uncertainty for the measured  1 magnet: 1.1 mT
+                        magnetic field strength is +/- 0.0002mT
+                                                                The aforementioned field
+                        The fields to the right had to be       strengths do not include
+                        measured because only using the         background field.
+                                                                                     Background B is
+                        number of magnets will not result in a                       subtracted off
+                        linear increase.                        These magnetic field
+                                                                strengths are the range for
+                                                                the independent variable.
+
+ Dependent:             The levitation distance will be            Equipment used to
+                        measured using a 30cm ruler.               measure the distance:
+ Levitation distance
+                        Uncertainty on ruler = +/- 0.1 cm          30cm ruler
+
+                        I will be measuring the levitation           Easy DV to measure
+                        distance from the center of the
+                        clustered magnets to the middle of the
+                        magnet being levitated.
+ Control Variables:     Why it needs to be controlled:           How to control:
+
+ 1. Background          1. This variable needs to be             1. The Magnetic Field
+    Magnetic Field         controlled because if it’s not           Strength will be
+ 2. Magnet Tilting         controlled, there could be outer         controlled by keeping
+                           interference acting on the magnet,       the experiment away
+                           and the magnet can change                from other metals and
+                           position based on the outer              electronics.
+                           interference, and this will alter        Background magnetic
+                           results.                                 field strength will be
+                        2. This variable needs to be                measured before the
+                           controlled because if it is not          experiment and it will
+                           controlled, the magnet will be           be subtracted from all
+                           attracted to the other magnets, and      the magnetic field
+                           the experiment will not be               strengths.
+                           conducted well because humans         2. There will be a pole
+                           can’t capture the magnet the exact       that will go through the
+                           moment it is not tilted.                 disks, and this pole will
+                                                                    prevent flipping. If
+                                                                    there is still a degree
+ Simple experiment with few variables to control                    of tiltedness, then I will
+                                                                    measure the distance
+                                                                    to the center of the
+                                                                    magnet in the center of
+                                                                    the pole.
+
+
+Materials Needed
+
+   ●   1 30cm ruler (to measure the levitation distance) (error: +/- 0.1 cm)
+   ●   1 experiment magnetic field mechanism
+          ○ Vernier Lab Pro Software
+          ○ Vernier Lab Pro Magnetic Field Sensor (to measure magnetic field strength
+              (error: +/- 0.0001 mT)
+   ●   6 magnets, with the same brand and size (to use them for the experiment)
+   ●   1 pencil or stick (to keep tilting constant and to a low angle in order to get exact
+       measurements)
+
+Final method used for experiment
+
+   1. Set up the Vernier Lab Pro software and Magnetic Field Sensor
+   2. Check background magnetic field by collecting data for ten seconds and finding the
+      average using steps 3 through
+   3. Measure the magnetic field strength for one magnet by measuring 2 cm from one
+      magnet and measuring the magnetic field strength using the magnetic field strength
+      sensor from there.
+   4. Repeat step 3 for two, three, four, and five magnets, facing each other, clustered
+      together. Keep the same 2cm distance for each number of magnets.
+     5. Set up the experiment by dropping one magnet down the pole, and drop another
+        magnet, like poles facing each other, down the pole. There should be a levitation
+        effect.
+     6. Measure from the center of the magnet(s) below to the center of the magnet above.
+        This is the levitation distance.
+     7. Drop the same magnet the was being levitated down the pole four more times, and
+        measure the same distance.
+     8. After measuring, drop two, then three, then four, then five magnets, unlike poles
+        facing each other, down the pole, and repeat steps 6 and 8. Magnet being levitated
+        should be the same for all trials.
+     9. Average all measurements, for each number of magnets, and begin analysis of data.
+
+Safety: Small magnets are used, so no significant safety constraints.   Suitable method and safety
+                                                                        considered
+
+Analysis
+
+Table #1
+
+These are the experimental distances of the levitation between the top magnet and the
+magnets below, with their respective number of magnets and magnetic field strengths.
+
+
+ Number      Total         Levitation   Levitation   Levitation   Levitation   Levitation
+ of          Magnetic      Distance     Distance     Distance     Distance     Distance
+ magnets     Field         1            2            3            4            5
+             Strength at
+             2cm (in mT)
+
+             +/-0.0001     +/- 0.1 cm   +/- 0.1 cm   +/- 0.1 cm   +/- 0.1 cm   +/- 0.1 cm    Sufficient raw
+             mT                                                                              data
+
+ 1           0.9632        2.2          2.1          2.0          2.0          2.0
+
+ 2           2.0632        2.5          2.6          3.0          2.8          2.8
+
+ 3           2.4632        3.1          3.4          3.6          3.4          3.3
+
+ 4           2.6632        3.7          3.6          3.7          3.5          3.7
+
+ 5           3.2632        4.0          4.1          3.8          4.0          4.0
+             Table #2
+
+             Here are the magnetic field strengths with their average levitation distances and the
+             experimental error on their respective levitation distances.
+
+
+Correct +-      Total Magnetic Field         Average Levitation Distance      Error on average Levitation
+0.0002 in error Strength (mT) (+/-0.0002)    (cm) (+/- 0.1)                   Distance (cm)
+as two values
+subtracted      0.9632                       2.1                              0.1
+
+              2.0632                         2.8                              0.3
+
+              2.4632                         3.3                              0.3
+
+              2.6632                         3.6                              0.1
+
+              3.2632                         4.0                              0.2
+
+
+             Sample Calculations
+
+             Average Levitation Distance for each Magnetic Field Strength comes from:
+
+                            Distance 1 + Distance 2 + Distance 3 + Distance 4 + Distance 5
+                                                           5
+
+             Example (MFS 5):
+                                                   4 + 4.1 + 3.8 + 4 + 4
+                                                             5
+
+                                                          4.0 cm
+
+             Error on average time for each Magnetic Field Strength comes from:
+
+                             max distance for each MFS - min distance for each MFS
+                                                       2
+             Example (MFS 5):
+                                                                              Sample calculations showing appropriate
+                                                    4.1 - 3.8                 data processing
+                                                       2
+
+                                                          0.2 cm
+
+                Despite the error on the ruler being 0.1 cm, a better estimate of the experimental errors
+                            would be averaging the uncertainties. If we do this, we will get
+
+                                             0.1 + 0.25 + 0.25 + 0.1 + 0.15
+                                                           5
+                                 0.2 cm = fixed experimental error
+
+Graph #1
+
+The graph of the average levitation distance against the Magnetic field strength. In this
+graph, the trendline is the blue line, the orange line is the high line, and the gray line is the
+low line. The magnitudes of the vertical error bars depended on what error did every average
+levitation distance have respectively, and the horizontal error bars are dependent on
+magnetic field measuring errors. The horizontal error bars could not be seen because the
+error was too small at +/- 0.0002mT.
+
+
+
+
+                                                                                       Graph showing that linear
+                                                                                       relationship is a possible fit
+                                                                                       but only due to large
+                                                                                       errorbars
+
+
+
+
+Table #3
+
+Here are the logarithms of the levitation distances and magnetic field strengths with their
+respective experimental errors. Logarithms are unitless quantities, so no units shown.
+
+
+ Number of          Log​10​ of            Error on log​10​ of   Log​10​ of       Error on log​10​ of
+ Magnets            Levitation            Levitation            Magnetic Field   Magnetic FIeld
+                    Distance              Distance              Strength         Strength
+                                                                                                       Log
+                                                                                                       measurements
+ 1                  0.31                  0.02                  -0.0163          9.0177x10​-5          with errors
+                                                                                                       suitablt
+ 2                  0.44                  0.02                  0.3145           4.2099x10​-5          considered
+
+ 3                  0.53                  0.01                  0.3915           3.5263x10​-5
+
+ 4                  0.56                  0.01                  0.4254           3.2614x10​-5
+
+ 5                  0.60                  0.01                  0.5136           2.6618x10​-5
+
+
+Errors on log​10​ of distance came from
+                                         log(r+Δr)−log(r−Δr)
+                                                  2
+Errors on log​10​ of MFS came from                             This gives suitable errors for now - the theory of log
+                                                               errors gets very complicated but for IB this is sufficient
+                                         log(b+Δb)−log(b−Δb)
+                                                  2
+
+
+Graph #2
+
+This is a graph of the average levitation distance against the Magnetic field strength. In this
+graph, the trendline is the blue line, the orange line is the high line, and the gray line is the
+low line. The magnitudes of the vertical error bars were the 5th column of Table #3 for each
+data point, and this is because of errors on rounding. This is a really small error, so the error
+bars cannot be seen on the graph. The horizontal errors are the 3rd column of Table #3. The
+errors are also due to rounding errors.
+
+
+
+
+                                                                                              Still not a good fit but a
+                                                                                              linear slope is
+                                                                                              considered and
+                                                                                              analysed further.
+
+
+
+
+Interpretation:
+
+First of all, it is important to notice that the trendline doesn’t pass through all the data, so this
+line might not be a good fit. However, a linear trend was expected, so I will continue with this
+trendline.
+
+(High - low)/2 is the error on the slope. So (0.6003-0.4792)/2 = 0.0606, so the true slope is =
+0.55 +/- 0.06 cm/mT (maintaining two significant figures), then 0.06/0.55=11%. Turns out
+0.06 is almost 3 errors away from 0 so the slope is significant. To figure out how the
+intercept is affected by the errors, the error on the intercept is (high - low)/2. So
+(0.3428-0.3025)/2 = 0.0202, so the true intercept is = 0.31 +/- 0.02 mT (maintaining two
+significant figures), then 0.02/0.31 = 6.5%, so the intercept is very significant. The real
+trendline ends up being y = (0.55 +/- 0.06)x + (0.31 +/- 0.02) cm.
+
+The results of the experiments make sense and were expected, due to the fact that the
+trends in the graphs show that 1 magnet, with a smaller MFS, had less average levitation
+distance than the other ones, and the experiment with 5 magnets had the most average
+levitation distance. Then, in this case, with more MFS, 1 magnet still has gravity as the main
+force. During my experiments, all the magnets had no change in direction, but less distance.
+
+                                                                                              Found a value
+Since “n” in the magnetic force equation is 1/slope on the final graph, n would be equal to fairly close to 2
+1/0.5457 = 1.833, which is not equal to 2, but close to two by 8.35%, so the answer can be but 3 was
+considered to be around 2.                                                                  possibly expected
+
+
+Conclusion
+
+The research question was: How does the magnetic field strength placed on a magnet affect
+its levitation distance? According to the trends observed in graph #2, the results were that
+the distance from the center of the clustered magnets below to the levitated magnet was
+greater when the magnetic field was greater, partially supporting the hypothesis, since this
+was also a trend in which the magnetic field was rising while the distance to the nth power          Suitable
+was rising. This does not mean that the trend was proportional, since there is a straight line, conclusion
+but the line does not pass through the origin, a requirement for proportionality. The equation
+for the trendline was 0.55x + 0.31 with an error on slope of +/- 0.06 and an error on the
+y-intercept of +/- 0.02. This slope led to a value of 1.8 +/- 0.1. The overall error is 8.35%. In
+my original hypothesis, I predicted that there would be a cubed relationship, or that n = 3 Scientific context
+because dipoles should have a cubed relationship, but I got something closer to n = 2,            somewhat
+meaning a squared relationship, closer to what was expected for monopoles.                        considered
+
+
+In general, the data quality was sufficient as the typical error divided by typical value would
+                                                                                                Checking data
+be better than 10% (0.2/2.1). The control variables were controlled well by keeping the         quality
+experiment away from anything else, and when having a background magnetic field
+strength, it was taken into account and subtracted from the entire magnetic field in order to
+only use the magnetic field created by the magnets. The tilting could also be fixed by using
+the stick, but there was still some tilting. There were some anomalies that had to do with this
+tilting - the magnet sometimes flipped. Trials with flipping magnets had to be discounted. Of
+course, because of the pole, the magnet wouldn’t totally flip, but the magnet sometimes had
+a tilt factor. This may have been because of the fact that the pole may have not been so
+stable, slanting to one side; this was another observation. There was also a very limited
+range of the distance due to a limited range of the magnetic field.
+
+
+ Strengths                       How this made the investigation more reliable
+
+    1. Control over                 1. If this wasn’t controlled, not only would the
+                                                                                                 Srengths
+       Background                      magnetic field measurements be less accurate, but
+       Magnetic field                  it could also affect the position of the magnet,
+    2. Same kinds of                   affecting the experiment as a whole. The
+       magnets                         background magnetic field was controlled by
+    3. Same distance from              making all magnetic field sources except the
+       levitating magnet               magnets being used in the experiment stayed in the
+                                       same positions throughout the entire experiment.
+                                    2. This strength made the experiment more reliable
+                                 since using the same kinds of magnets keep the
+                                 magnetic field strength change linearized, so this
+                                 makes it easier to do, and I also do not have to
+                                 account for other factors like material since this is
+                                 not part of the experiment.
+                              3. This strength was useful for the experiment since
+                                 having the same distance from the levitated magnet
+                                 would eliminate some variations in the magnetic
+                                 field strength measurements. These variations
+                                 would arise if there are different distances because
+                                 there is an inverse-square relationship between the
+                                 distance from the magnet and the force.
+
+Weaknesses                 How it affected data             How it will be improved
+
+  1. Inaccuracy of Naked      1. Since the human eye           1. I can use a better,
+     Human Eye                   is always imperfect,             more precise, ruler.
+  2. Destabilization of          there could have                 The ruler used would
+     pencil/stick                been an inaccuracy               measure to                Limitations
+  3. There was a very            with the ruler                   millimeters. If there     and
+     limited range of            measurements. The                was a ruler that          improvements
+     magnetic fields,            ruler also isn’t                 could measure more
+     giving a limited            perfect, so these                than that, it could be
+     range of distances          together makes the               used. Also, a picture
+                                 fact that this may               can be taken of the
+                                 have been what                   experiment and the
+                                 caused the                       ruler in action, so
+                                 uncertainties for                measurements could
+                                 measurement.                     be verified later after
+                              2. The stick sometimes              taking the
+                                 wasn’t stable, and               measurements
+                                 sometimes it would               during the
+                                 slant to one side,               experiment.
+                                 even just a little bit.       2. This can be fixed by
+                                 This slanting to one             using a wider stick,
+                                 side might have                  but not really wide or
+                                 been what caused                 else the magnet
+                                 the magnet to                    can’t move freely. A
+                                 sometimes tilt to one            base can also be
+                                 side. Although the               used in order to keep
+                                 stick just slanted a             the stick in its place.
+                                 little, the tilting is a      3. I could use a
+                                 lot for the magnet
+                                 because then the
+                                 magnet will start to
+                                 attract, by flipping.
+                              3. If there had been a
+                                 wider range of
+                                 magnetic fields, I
+                                 could have more
+                                 insight into the slope
+                                 of the line, giving a
+                                 clearer value of n.
+
+    Extensions
+
+    1.  Different kinds of    1. To see which one can be the best, different
+       magnets                   magnets can be used for the same magnetic
+    2. Seeing how the            levitation experiment. This way one can see which         Extensions
+       temperature can           is better. The slope on the Magnetic Field Strength
+       affect overall            vs distance graph can determine which is best, and
+       performance               diamagnetic materials, ferromagnetic materials,
+    3. Using an EMC              paramagnetic materials, and even electromagnets
+       (Equivalent Magnetic      can be used. One can also experiment with other
+       Circuit)-based            magnetic materials on top that are different from the
+       computation to            ones on the bottom. The highest slope can result in
+       analyze the               the best combination.
+       performance            2. In the Maglev-Cobra system, a system for magnetic
+                                 levitation, there was a temperature factor in which
+                                 when the temperature got to 77 Kelvin, the
+                                 levitation force (therefore the distance) was at its
+                                 lowest, so one can try to see how the temperature
+                                 can affect different combinations of magnets. These
+                                 different combinations of magnets are specified
+                                 above in the extension before this one, and we can
+                                 see which one is better according to the
+                                 temperature.
+                              3. The performance of a system isn’t only evaluated
+                                 using the slope of the magnetic field vs distance
+                                 graph, but it can also be analyzed using an
+                                 equivalent magnetic circuit. Not only is the levitation
+                                 distance important, but also airgap flux density (the
+                                 force of levitation in and of itself, and back-EMF
+                                 (the current that opposes the change induced on it).
+
+
+
+
+                              Clear, concise, complete report
+
+
+
+
+Works Cited:
+                                                          Long list of references - PE
+
+
+
+
+●   “10th Class Science Magnetic Effects of Electric Current Introduction.”
+    Studyadda.com,
+    https://www.studyadda.com/notes/10th-class/science/magnetic-effects-of-electric-curr
+    ent/introduction/6958​.
+●   Bernstein, Pierre, et al. “A New Magnetic Levitation System With an Increased
+    Levitation Force.” ​IEEE Transactions on Applied Superconductivity​, vol. 29, no. 5, 18
+    Feb. 2019, pp. 1–4., doi:10.1109/tasc.2019.2899950.
+●   Bowen-Jones, Michael, and David Homer. ​Oxford IB Physics Textbook 2014 Edition​.
+    Oxford University Press, 2014.
+●   Cho, Han-Wook, et al. “Equivalent Magnetic Circuit Based Levitation Force
+    Computation of Controlled Permanent Magnet Levitation System.” ​IEEE Transactions
+    on Magnetics​, vol. 48, no. 11, Nov. 2012, pp. 4038–4041.,
+    doi:10.1109/tmag.2012.2198800.
+●   “Faraday Disc 2.0 - Energetic Forum.” ​Energetic Forum​,
+    http://www.energeticforum.com/renewable-energy/20778-faraday-disc-2-0-a.html.
+●   Furlani, E.p. “A Formula for the Levitation Force between Magnetic Disks.” ​IEEE
+    Transactions on Magnetics​, vol. 29, no. 6, Nov. 1993, pp. 4165–4169. ​IEEE Xplore
+    Digital Library​, IEEE, doi:10.1109/20.280867.
+●   Valle, Rodrigo, et al. “Electromagnetic Levitation of a Disc.” ​IEEE Transactions on
+    Education​, vol. 55, no. 2, May 2012, pp. 248–254., doi:10.1109/te.2011.2167975.
+●   Venghi, Luis Esteban, et al. “Implementation and Control of a Magnetic Levitation
+    System.” ​IEEE Latin America Transactions​, vol. 14, no. 6, June 2016, pp.
+    2651–2656., doi:10.1109/tla.2016.7555233.
+●   Witzel, John. “Magnetic Levitation [My Favorite Experiment].” ​IEEE Instrumentation &
+    Measurement Magazine​, vol. 13, no. 1, 2010, pp. 39–41.,
+    doi:10.1109/mim.2010.5399216.
+●   WW, Bill, and Instructables. “How Does Magnetic Field Vary With Distance?”
+    Instructables​, Instructables, 16 Oct. 2017,
+    https://www.instructables.com/id/How-does-magnetic-field-vary-with-distance/​.
+

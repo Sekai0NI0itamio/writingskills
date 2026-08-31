@@ -1,0 +1,533 @@
+Submitted by: hxp707
+
+
+                         PHYSICS IA: HOW SALINITY AFFECTS VISCOSITY
+
+
+                                              1. INTRODUCTION
+As a passionate swimmer, I know that there are many extraneous factors which affect a swimmer’s speed. One
+of the factors is the amount of salt present in water, or in scientific terms, the salinity. I know this because I
+have been to many places in which I noticed that it is very difficult to swim, in particular the Dead Sea. An
+aqueous solution of NaCl (table salt) is known as brine. Salinities vary depending on the site of water, for
+example, most swimming pools do not contain salt and are rather chlorinated. On the other hand, seas and
+oceans both contain a lot of salt, where some have higher salinities than others. On average, the salinity of
+seawater is about 3.5%—that is, for every litre of seawater there are approximately 35 grams of salt dissolved
+in it (Andrews, 2018).
+
+
+That being said, it is quite difficult to conduct an accurate experiment which directly investigates the effect of
+salinity on a swimmer’s speed due to the presence of myriad confounding variables, as well as the miniscule
+time differences of the swimmer with relatively large uncertainties caused by reaction time and/or the
+swimmer’s physical condition. Upon researching, I discovered that this topic has links to engineering physics
+and this is where another property becomes useful: dynamic viscosity. The dynamic viscosity of a fluid, η, is a
+quantity that describes the fluid’s resistance to flow, and its SI unit is Pascal-seconds, 𝑃𝑎𝑠 (Kirk, 2014). A fluid
+with a high viscosity will have a high resistance to flow and will require a lot of force to be able to move through
+it. As such, it would be logical to think that water of high viscosity will take longer to swim in than water with
+lower viscosity. This led me to the research question: “How does the salinity of brine affect its viscosity (Pas)?”
+
+
+Viscosity can be calculated using Stokes’ Law, which involves releasing a perfect sphere of known radius and
+density in a fluid of known density and determining the ball’s terminal velocity. A ball in water will have
+upthrust, 𝑈, a viscous drag force, 𝐹𝐷 , and Weight, 𝑊, all acting upon it (see Figure 1). For the ball to be at
+terminal velocity, these vertical forces must be balanced such that:
+                                                   𝑊 = 𝑈 + 𝐹𝐷                                                   (1)
+
+
+By substituting formulae into each of these variables and re-arranging, we can obtain an equation for viscosity
+as follows:
+                                                    2𝑔𝑟 2 (𝜌 − 𝜎)
+                                               𝜂=                 ,                                             (2)
+                                                         9𝑣𝑡
+                                                   (Kirk, 2014)
+where:
+                              𝑔 = gravitational field strength (ms−2 ) = 9.81 ms−2
+                                             𝑟 = radius of sphere (m)
+                                         𝜌 = density of sphere (kgm−3 )
+                                            𝜎 = density of fluid (kgm−3 )
+                                     𝑣𝑡 = terminal velocity of sphere (ms−1 )
+
+
+We can verify that the standard unit of viscosity is indeed 𝑃𝑎𝑠:
+                                                    ms−2 × m2 × kgm−3
+                                            [𝜂] =
+                                                          ms−1
+                                                          kgm0 s−2
+                                                      =
+                                                           ms−1
+                                                     = kgm−1 s−1
+                                                    = (kgm−1 s−2 )s
+Since a pascal is a unit of pressure defined as the force (kgms−2 ) per unit area (m2 ):
+                                                 1 Pa = 1 kgm−1 s−2
+                                                     ∴ [𝜂] = Pas
+
+
+
+
+                  Figure 1: The properties of a perfect sphere in a fluid and the forces acting upon it.
+                                                 Source: (Kirk, 2014)
+
+
+                                                  2. HYPOTHESIS
+Adding salt increases the mass of the fluid and consequently its density, which means that the difference in
+densities (𝜌 − 𝜎) would become smaller. Since this value is directly proportional to the viscosity, one could
+assume that there is a negative linearity between the salinity and viscosity of brine. However, this is assuming
+that the velocity of the sphere will not be affected by the salinity. It would make sense for the sphere to travel
+with a slower terminal velocity when the density of the fluid is increased, which means that a decrease in
+velocity results in an increase in viscosity, as they are inversely proportional, according to (2). Overall, the
+effect of the salinity on the viscosity should, in theory, be dependent upon both the increasing fluid density and
+the decreasing velocity. My intuition tells me that the latter will be the more prominent factor, meaning that an
+increase in the salinity should increase the viscosity of brine.
+
+
+
+
+                                                            2
+                                       3. EXPERIMENTAL DESIGN
+    3.1 Variables
+Independent Variable: The concentration of salt in water (gdm−3 ). The concentration intervals are: 0, 50,
+100, 150, 200, 250, 300, 350 and 400 gdm−3 . The highest interval cannot be higher than 400 gdm−3 because
+the maximum solubility of salt in boiling water is about 40% (Andrews, 2018). Furthermore, by having one of
+my intervals (0 gdm−3 ) as a control with no salt, I was able to compare the calculated value of viscosity to the
+literature value of 0.89 mPas (IAPWS, 2008) at room temperature, 25℃. In order to achieve each salt
+concentration, an equivalent mass had to be calculated, using:
+                                                              mass
+                                         Concentration =                                                       (3)
+                                                            volume
+Since I used a 250ml measuring cylinder, the volume remained constant (assuming that the salt’s volume is
+negligible), therefore the mass was figured out using (3), which resulted in increments of 12.5 grams.
+
+
+Dependent Variable: The viscosity of the brine solution (Pas), which can be calculated using (2). In order to
+do so, the terminal velocity of the ball (ms−1 ) was measured using a motion QED in conjunction with light
+gates. To increase the reliability of the results, the velocity reading was taken three times, and two balls of
+different radii were used to perform the calculations.
+
+In addition to the independent and dependent variables, there are a number of other factors which might affect
+the viscosity, therefore need to be controlled. The table below summarizes these variables.
+
+                               Table 1: Identifying and analysing control variables.
+      Control                                            Why and how it was controlled
+                          The height of the balls from the measuring cylinder and the force applied to them before
+The way in which the      dropping could affect their velocity. I therefore dropped them from the same place—
+  balls are dropped       from the tip of the measuring cylinder—and with no initial force; just casually let the
+                          balls ‘slip’ from my hand.
+                          Since I measured the terminal velocity, the factors of time and distance had to be
+                          considered. The motion QED finds the time; however, it does not know the distance of
+Distance of separation
+                          separation between the light gates and therefore had to be adjusted manually and
+ between light gates
+                          registered as 20cm. This was measured using a ruler and the light gates remained held
+                          in position using a clamp.
+                          Temperature is one of the factors which affects the viscosity of a fluid. Therefore, the air
+Temperature of water
+                          conditioner was set to 25℃.
+                          Both the concentration and the velocity of the ball are affected if the volume of water in
+  Volume of water         the measuring cylinder is changed. As a result, the volume of water for all intervals of
+                          the independent variable stayed at 250ml.
+
+
+
+                                                          3
+                          Dropping the ball in water made it wet, therefore it was dried using a cloth before it was
+ Water on the ball        dropped again, as the added water would increase the mass of the ball, consequently
+                          affecting its velocity, and hence the calculated viscosity.
+                          When filling the measuring cylinder with 250ml of water, the volume was measured at
+   Parallax error         eye level to prevent parallax error—that is, the misreading caused due to the distortion
+                          when viewing from different angles.
+                          In order to measure the mass accurately, the balance was calibrated using the weighing
+Calibrating balance
+                          boat such that only the mass of the salt was measured, preventing a systematic error.
+
+
+    3.2 Apparatus
+Motion QED (±0.001ms−1 )                                           Cloth
+250ml Measuring Cylinder (±2 × 10−6 m3)                            Power Pack
+Balance (±10−5 kg)                                                 Neodymium Magnet
+30cm Ruler (±0.01m)                                                Stirrer
+Micrometre (±10−5 m)                                               Clamp
+500g of Table Salt                                                 Kettle
+8 300ml Beakers                                                    Leads
+2 Light Gates                                                      Weighing Boats
+2 Steel Balls (8mm & 10mm radii)                                   Tap Water
+
+
+    3.3 Procedure
+Firstly, eight solutions of brine were formed, ranging from 12.5g to 100g in increments of 12.5g. The salt was
+measured in weighing boats using a balance. In order to dissolve the salt, it was added to water in a kettle and
+boiled. Following that, the solutions were put in beakers and stirred using a stirrer, then were left for 24 hours
+to cool down to room temperature. This is shown in Figure 2. I proceeded by setting up the apparatus as shown
+in Figure 3. Leads were connected from the power pack to the
+motion QED and light gates—which were held using a clamp
+at a separation distance of 20cm. This was measured using a
+30cm ruler. Note that the uncertainty in the distance
+measurement was not accounted for as there was no option to
+add uncertainties in the motion QED, therefore it was simply
+registered as exactly 20cm. Since the first interval (0 gdm−3 )
+contained no salt, that solution wasn’t heated but rather tested Figure 2: Brine solutions ranging from 12.5𝑔
+immediately. 250ml of tap water was poured into the (left) to 100𝑔 (right).
+measuring cylinder, followed by placing the measuring cylinder between the light gates, setting the motion QED
+to display average velocity, and dropping the 8mm ball from the top of the measuring cylinder. After it passed
+
+
+                                                        4
+     through both the light gates, the velocity was recorded. The ball was removed using the magnet, dried using the
+     cloth, and then dropped again twice. The procedure was repeated using the larger 10mm ball, and then again
+     for the other eight beakers of varying concentrations.
+
+
+
+
+                                                                                                             Balance
+
+Power pack
+                                                                                                       Clamp
+      Light gate
+                                                                                                               Weighing boats
+     Motion QED
+
+   300 ml beaker                                                                                            250 ml measuring
+   containing brine                                                                                         cylinder
+   solution
+
+       Table Salt
+
+                                                                                                           Cloth
+               Stirrer
+
+                           Figure 3: Annotated setup of the apparatus showing most of the equipment.
+
+
+
+     In addition to the velocity, the radius and density of the balls, as well as the density of the solutions were required
+     to be able to calculate the viscosity. While the radii are given as 8mm and 10mm for the balls, these values are
+     not precise and could have been rounded. As such, a micrometre was used to measure the exact radii of the
+     balls. The volume of the sphere was then calculated using the equation:
+                                                               4 3
+                                                          𝑉=     𝜋𝑟                                                     (4)
+                                                               3
+     The balls’ masses were measured using a balance, and with this information, I calculated the balls’ densities
+     using (3) (but in this case concentration is density). Similarly, the solutions’ densities were calculated using (3),
+     where the solution’s mass represents the water’s volume (0.25dm3 ) + the salt’s mass (kg). Finally, the
+     viscosities were calculated using (2).
+
+
+         3.4 Safety Considerations
+     Care was needed when using the water-filled measuring cylinder to ensure than no water would come into
+     contact with any of the electrical equipment as that could have damaged them. Furthermore, the neodymium
+     magnet was very strong and therefore electronic devices had to be kept away from it. Finally, using the light
+
+                                                               5
+        gates resulted in laser light being emitted from them, so I had to be careful to not directly look at it. There were
+        no notable environmental or ethical concerns.
+
+
+                                           4. RESULTS & NUMERICAL ANALYSIS
+
+Table 2: A summary of the properties of the two steel balls. (3) and (4) have been used to calculate the densities and volumes respectively.
+                             Radius                                                          Mass
+                                                            Volume                                                      Density
+                             𝒓/ 𝐦                                                            𝒎/ 𝐤𝐠
+                                                             𝑽/ 𝐦𝟑                                                    𝛒/ 𝐤𝐠𝐦−𝟑
+                        ∆𝒓 = ±𝟏𝟎−𝟓 𝐦                                                    ∆𝒎 = 𝟏𝟎−𝟓 𝐤𝐠
+
+   Small ball              0.00784                 2.02 × 10−6 ± 7.7 × 10−9                 0.01630                   8080 ± 36
+
+   Large ball              0.00944                 3.52 × 10−6 ± 1.1 × 10−8                 0.02835                   8050 ± 28
+
+
+        The values in Table 2 have been formatted to 3 significant figures and the uncertainties to 2 significant figures,
+        with the exception of the mass—which has been formatted to 4 significant figures—because the balance
+        featured higher precision. We can see that the density values for the two balls are similar and this makes sense
+        since they are made of the same material. These values are close to the accepted range for the density of steel:
+        7750–8050 kgm−3 (Wikipedia, 2019). Although the two values aren’t exactly the same, the percentage
+        difference is about 0.4%, which is negligible. All of the percentage uncertainties are miniscule, reflecting the
+        high precision of the micrometre and the balance. The following uncertainty propagations were used to calculate
+        the uncertainties in the volumes and densities of the balls:
+                                                                      ∆𝑟
+                                                              ∆𝑉 = 3𝑉
+                                                                       𝑟
+                                                                   ∆𝑚 ∆𝑉
+                                                          ∆ρ = ρ (    + )
+                                                                    𝑚    𝑉
+
+            Table 3: Data showing the salt concentration and the velocity of the small steel ball. Bold values are anomalies.
+                                                          Terminal Velocity
+                                                               𝒗𝒕 /. 𝐦𝐬−𝟏
+                                                            ∆𝒗𝒕 = ±𝟎. 𝟎𝟎𝟏
+               Concentration                                                                              Mean Velocity
+                  𝒄/ 𝐠𝐝𝐦−𝟑                Trial 1                Trial 2               Trial 3              ̅𝒕 /. 𝐦𝐬−𝟏
+                                                                                                            𝒗
+                   0 ± 0.0                 1.326                  1.355                 1.330              1.34 ± 0.015
+                  50 ± 0.4                 1.321                  1.326                 1.313             1.32 ± 0.0065
+                  100 ± 0.8                1.126                  1.285                 1.297             1.29 ± 0.0060
+                  150 ± 1.2                1.271                  1.278                 1.273             1.27 ± 0.0035
+                  200 ± 1.6                1.267                  1.233                 1.248              1.25 ± 0.017
+                  250 ± 2.0                1.230                  1.241                 1.476             1.24 ± 0.0055
+
+
+                                                                    6
+         300 ± 2.4                1.223                  1.240                  1.229            1.23 ± 0.0085
+         350 ± 2.8                1.195                  1.209                  1.201            1.20 ± 0.0070
+         400 ± 3.2                1.170                  1.190                  1.169             1.18 ± 0.011
+
+
+
+    Table 4: Data showing the salt concentration and the velocity of the large steel ball. Bold values are anomalies.
+                                                 Terminal velocity
+                                                      𝒗𝒕 /. 𝐦𝐬−𝟏
+                                                   ∆𝒗𝒕 = ±𝟎. 𝟎𝟎𝟏
+      Concentration                                                                              Mean Velocity
+         𝒄/ 𝐠𝐝𝐦−𝟑                Trial 1                Trial 2                Trial 3              ̅𝒕 /. 𝐦𝐬−𝟏
+                                                                                                    𝒗
+          0 ± 0.0                 1.378                  1.403                  1.381             1.39 ± 0.013
+          50 ± 0.4                1.372                  1.358                  1.355            1.36 ± 0.0085
+         100 ± 0.8                1.346                  1.350                  1.350            1.35 ± 0.0020
+         150 ± 1.2                1.311                  1.335                  0.632             1.32 ± 0.012
+         200 ± 1.6                1.297                  1.280                  1.292            1.29 ± 0.0085
+         250 ± 2.0                1.258                  1.276                  1.270            1.27 ± 0.0090
+         300 ± 2.4                1.224                  1.227                  1.231            1.23 ± 0.0035
+         350 ± 2.8                1.210                  1.215                  1.223            1.22 ± 0.0065
+         400 ± 3.2                1.185                  1.190                  1.169             1.18 ± 0.011
+
+
+By observing Table 3 & Table 4, we can see that there is a negative correlation between concentration and
+mean velocity. Furthermore, the mean velocities of the larger ball appear to be higher on average than those of
+the small ball. Looking at (2), we can see that 𝑣𝑡 is proportional to 𝑟 2 , so this increase in velocity is
+mathematically comprehensible. The values of the mean velocity were formatted to three significant figures
+while their uncertainties, less precisely, have been formatted to two significant figures, as those are appropriate
+levels of precision given my data. Although the percentage uncertainties are quite low, with the highest being
+about 1.1%; the uncertainty values are close to the concordances of the three readings, which means that the
+reliability is not that high and could have been heavily impacted by random errors. As such, conducting five or
+more trials for each concentration could have potentially resulted in greater reliability. Furthermore, it could
+have allowed for an uncertainty calculation using standard deviation instead of half the range, which provides
+a much more accurate value. Some readings were identified as anomalies (shown in bold) as they were
+unconcordant, i.e. they did not fit within the general trend of the data. For instance, 0.632 in row 4 of Table 4
+is significantly different from 1.335 and 1.311. As such, these anomalies were excluded from further
+calculations. For the following example calculations, row 2 values from Table 4 will be used:
+
+
+
+
+                                                           7
+Uncertainty in concentration:                   Calculation of mean velocity:                Uncertainty in mean velocity:
+ ∆𝑐   ∆𝑚  ∆𝑉                                             𝑣 +𝑣2 +𝑣3                                     𝑣      −𝑣
+    = 𝑚 + 𝑉                                      𝑣̅𝑡 = 1                                      ∆𝑣̅𝑡 = 𝑡 𝑚𝑎𝑥2 𝑡 𝑚𝑖𝑛
+ 𝑐                                                          3
+             ∆𝑚     ∆𝑉                                   1.372+1.358+1.355                             1.372−1.355
+ ∴ ∆𝑐 = 𝑐 ( 𝑚 + 𝑉 )                              𝑣̅𝑡 =                                        ∆𝑣̅𝑡 =
+                                                                 3                                           2
+             0.01   0.002
+ ∆𝑐 = 50 (12.5 + 0.250)                             = 1.361 ms−1                                  = ± 0.0085 ms−1 (2 𝑠. 𝑓. )
+
+ ∆𝑐 = ±0.44                                         = 1.36 ms−1 (3 𝑠. 𝑓. )
+     = ±0.4 gdm−3 (1 𝑑. 𝑝. )
+                                                             Table 6: Data showing the relationship between salt concentration
+Table 5: Variation of mass & density of the brine            and viscosity of brine solutions using two steel balls of different radii.
+solution with increasing salinity.
+         Mass                                                                                              Viscosity
+                                    Density                     Concentration
+        𝒎/. 𝐤𝐠                                                                                              𝜼/. 𝐏𝐚𝐬
+                                  𝝈/ 𝐤𝐠𝐦       −𝟑                    𝒄/. 𝐠𝐝𝐦−𝟑
+   ∆𝒎 = ±𝟎. 𝟎𝟎𝟐                                                                             Small ball                 Large ball
+        0.2500                   1000 ± 16.0                          0 ± 0.0            0.710 ± 0.014               0.987 ± 0.017
+        0.2625                   1050 ± 17.6                         50 ± 0.4            0.714 ± 0.011                1.00 ± 0.015
+        0.2750                   1100 ± 18.0                         100 ± 0.8           0.719 ± 0.010                1.00 ± 0.010
+        0.2875                   1150 ± 18.7                         150 ± 1.2          0.724 ± 0.0090                1.01 ± 0.018
+        0.3000                   1200 ± 19.4                         200 ± 1.6           0.733 ± 0.017                1.03 ± 0.016
+        0.3125                   1250 ± 20.2                         250 ± 2.0           0.740 ± 0.011                1.04 ± 0.017
+        0.3250                   1300 ± 21.0                         300 ± 2.4           0.738 ± 0.013                1.07 ± 0.013
+        0.3375                   1350 ± 21.8                         350 ± 2.8           0.750 ± 0.013                1.07 ± 0.016
+        0.3500                   1400 ± 22.5                         400 ± 3.2           0.761 ± 0.015                1.09 ± 0.020
+
+
+Table 6 suggests that the there is a positive correlation between concentration and the viscosity of the solution
+for both balls, which was expected; however, the viscosity values between the two balls differ significantly by
+about 0.3 Pas, which was not expected, as they should, theoretically, be similar. Furthermore, there seems to be
+a systematic error of ~103 for all the values, since we know that the true value of water’s viscosity is 0.89 mPas,
+whereas the values obtained are significantly higher. These errors will need to be taken into consideration during
+further analysis. The viscosity uncertainties have been formatted to three decimal places and are relatively low,
+ranging from 1.0%–2.3%. As for the uncertainty calculations, using the second row for the large ball:
+
+
+                          2𝑔𝑟 2 (𝜌−𝜎)                       2×9.81×(0.00944)2×(8050−1050)
+                    𝜂=                              ∴𝜂=                                   = 1.00 (3 𝑠. 𝑓. )
+                              9𝑣𝑡                                       9×1.36
+                     ∆𝜂    ∆𝑟   ∆𝑣   ∆(𝜌−𝜎)                                            ∆𝑟    ∆𝑣    ∆𝜌+∆𝜎
+                        = 2 𝑟 + 𝑣 𝑡 + 𝜌−𝜎                                 ∴ ∆𝜂 = 𝜂(2 𝑟 + 𝑣 𝑡 + 𝜌−𝜎 )
+                     𝜂           𝑡                                                            𝑡
+
+                 1×10−5         0.0085        26+17.6
+   ∆𝜂 = 1(2                 +            +               ) = ±0.0145 Pas                    ∴ ∆𝜂 = ±0.015 Pas (2 𝑠. 𝑓. )
+               9.44×10−3         1.36        8050−1050
+
+
+
+
+                                                                     8
+                                               5. GRAPHICAL ANALYSIS
+
+
+
+
+            (Large ball)
+
+
+
+
+            (Small ball)
+
+
+
+
+Figure 4: A graph (created using Desmos) showing a linear relationship between salt concentration, c, and viscosity, η, using
+a small steel ball and a larger one. The lines of best fit (𝑦 = 𝑚𝑥 + 𝑐) are indicated with the red line, while the blue and green
+lines represent the maximum and minimum slopes respectively. The equations, gradients, η intercepts and r2 values are given.
+
+  From the previous section we know that there was a large systematic error in the viscosity values, therefore all
+  the data points have been translated 103 units down (although the values are the same, the units changed to
+  mPas, which represents the shift). We can see that the best fit line passes through all the data points, and that
+  there is a very strong relationship for both balls as the r2 values are 0.9678 and 0.9718 for the small and large
+  balls respectively, reflecting the high precision of the data. The R-squared test assesses the degree of correlation
+  between two variables. A value of 1 shows a perfect fit between the trendline and the data, i.e. a strong linear
+  relationship, whereas a value of 0 shows no statistical relationship between the line and the data. In spite of the
+  high r2 values, the accuracy of the data seems to be lacking as the η-intercepts for both balls are different from
+  what is to be expected. The viscosity of saltless water at room temperature is 0.89 mPas, however the values
+  obtained from both balls are different from this; although the large ball’s value (0.987 mPas) is closer to the
+  true value than the small ball’s value (0.71 mPas). Interestingly, the large ball’s gradient is more than double
+  that of the small ball’s, which is strange since the viscosity should technically be increasing at the same rate
+  with respect to concentration, regardless of the ball used. Although the individual error bars seem to be small
+  and relatively insignificant (particularly the horizontal ones for the concentrations), there are whopping
+  uncertainties in the gradients, at 35% for the large ball and 60% for the small ball; an aspect which hinders the
+  strength of the linear relationships. On the other hand, the uncertainties in the intercepts are significantly lower
+  at about 2%.
+
+                                                               9
+         (Large ball)
+
+
+
+
+         (Small ball)
+
+
+
+
+Figure 5: A graph (created using Desmos) showing a quadratic relationship between salt concentration, c, and viscosity,
+η, using a small steel ball (red) and a larger one (blue). The equations and the r2 values are given.
+
+
+In addition to the linear graph, quadratic models have been plotted. Similarly, the models pass through all the
+data points. At first glance, the quadratic models seem to fit better than the linear ones, due to the slightly higher
+r2 values, however this is a point of discussion.
+
+
+                                                 6. CONCLUSION
+In response to my research question “How does the salinity of brine affect its viscosity (Pas)?”, the data obtained
+seems to support my hypothesis that increasing salinity increases viscosity; a positive correlation. Two different
+models have been found, linear and quadratic. Although the statistical analyses have showed that the quadratic
+model is better than the linear model, it is important to be critical of the fact that quadratic models are
+contextually unrealistic, as they grow rapidly. While the model may pass through all of the current data very
+well, it may not be generalisable for higher values. In other words, at a much higher salt concentration than my
+highest salinity interval, 400 gdm−3 , the viscosity value according to the model—when extrapolated—would
+be extremely high due to the increasing rate of change of a quadratic function, which is impractical. In contrast,
+the linear model has a constant rate of change, therefore higher values of viscosity are predictable and more
+likely to be accurate. Furthermore, a linear relationship is generally better since it mathematically makes sense
+and is more commonly found within many physical phenomena. As such, the most suitable relationship between
+the salinity (𝑐) and viscosity (𝜂), according to this investigation, can be quoted as:
+                                           𝜂 = 0.000122𝑐 + 0.0000946                                                 (5)
+This is the equation of the line given in Figure 4 using the large ball.
+
+
+                                                          10
+The findings of my investigation can be linked back to what sparked my interest in investigating this topic.
+Since salinity and viscosity are directly proportional, it makes sense that it would be harder to swim in more
+salty areas such as the Dead Sea, as more force is required to “push through” the water. This also means that it
+would take longer to swim in salty water than in swimming pools, assuming that chlorine has no effect on
+viscosity, however this could be a topic for further investigation. As such, an implication could be that swimmers
+are likely to perform better in less salty water.
+
+
+                                                7. EVALUATION
+Although I took into consideration the extraneous variables which could affect my investigation, there
+were a few assumptions made and limitations to the experiment which could have hindered the validity
+of my results. According to Stokes’ law, the velocity measured should be the ball’s terminal velocity. Since I
+measured the average velocity between two points, it is uncertain whether or not this represented the terminal
+velocity. This is more applicable to the small ball than the large one, because if we look at (2), we can see that
+for a fluid of constant viscosity, a ball of larger radius would have a lower terminal velocity that is more
+achievable experimentally. This maybe explains why the small ball’s gradient percentage uncertainty is almost
+double the large ball’s. These uncertainties were relatively high and could have potentially hindered the
+precision of my overall results. It could have perhaps been due to the number of calculations involved in
+calculating the viscosity using the measured terminal velocity and other variables, all of which possess relatively
+few uncertainties, but cumulatively led to a somewhat large uncertainty.
+
+
+It was also strange that the two balls had different rates of change, i.e. gradients. In order to resolve the issue of
+varying gradients, it could be beneficial to conduct further conditions where different sized balls are used and
+then comparing the gradients, which could help in determining a more accurate and valid value for the rate of
+change. That being said, the gradient of the graphs does not represent any meaningful physical quantity but
+rather simply shows the rate of change. As such, the value of the gradient should not be a significant issue as it
+does not weaken the idea that there is a positive linear relationship.
+
+
+Additionally, the results lacked accuracy as they were significantly different from the true values as
+aforementioned. The reason as to why the viscosity value for water was off by about 10 3 is perhaps due to the
+balls’ terminal velocity values being incorrect, as this variable is the most likely to have been altered due to the
+experimental design. The separation between the light gates was 20cm, which means that the balls perhaps did
+not have enough time to reach their terminal velocity. This is demonstrated in the calculations below, which
+determine the ‘true’ terminal velocity value which corresponds to a known literature value of the viscosity.
+Rearranging (2) for the terminal velocity:
+                                                       2𝑔𝑟 2 (𝜌 − 𝜎)
+                                                𝑣𝑡 =
+                                                            9𝜂
+
+
+                                                         11
+Substituting in values for the variables and for the viscosity of saltless water:
+                                          2 × 9.81 × 0.009442 (8050 − 1000)
+                                   𝑣𝑡 =
+                                                     9 × 0.00089
+                                              ≈ 1540 ms−1 (3 𝑠. 𝑓. )
+
+
+As we can see, this value is extremely and unexpectedly large and is significantly different from the velocity
+measured, 1.387ms−1 (see Table 4), differing by an order of magnitude of 103 . This makes sense as it explains
+the large systematic errors found in Figure 4. Since water is not a very viscous fluid, the short distance between
+the light gates was not enough to achieve this calculated terminal velocity. Using a larger measuring cylinder
+(e.g. 500 ml) could help in mitigating this systematic error as it would allow for a greater separation distance
+thus giving the balls more time to reach a higher velocity closer to the terminal velocity. Moreover, a larger
+measuring cylinder would have decreased the proximity between the balls and the walls thus reducing the impact
+on the velocity being altered. Although, using a larger measuring cylinder would have required more water and
+consequently more salt in order to achieve the same concentrations.
+
+
+Despite these systematic and random errors which hindered the accuracy and precision of the results, a strong
+linear correlation is evident, suggesting that viscosity is directly proportional to salinity.
+
+
+
+
+                                                  REFERENCES
+
+
+Andrews, N. (2018) How Much Water Is Needed to Dissolve Salt? Available at: https://sciencing.com/much-
+water-needed-dissolve-salt-8755948.html (Accessed: 3 July 2019)
+
+
+Desmos       Graphing      Calculator.      (n.d.).    Desmos       Graphing        Calculator.   Available    at:
+https://www.desmos.com/calculator (Accessed: 15 July 2019)
+
+
+IAWPS (2008) ‘Release on the IAPWS Formulation 2008 for the Viscosity of Ordinary Water Substance’.
+Available at: http://www.iapws.org/relguide/visc.pdf
+
+
+Kirk, T. (2014). Physics for the IB Diploma. Oxford, United Kingdom: Oxford University Press.
+
+
+Wikipedia (2019) Steel. Available at: https://en.wikipedia.org/wiki/Steel#cite_note-6 (Accessed: 4 July 2019)
+
+
+
+
+                                                         12
+

@@ -1,0 +1,536 @@
+The Unequal Effect of Commercial Gentrification on
+ Micro-Businesses in the London Borough of Tower
+                      Hamlets
+
+
+
+
+                        1
+Contents
+1 Introduction                                                                              3
+
+2 Research Methods                                                                          7
+  2.1 Determining the scope of the investigation . . . . . . . . . . . . . . . . . .        7
+  2.2 Data collection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     9
+
+3 Analysis                                                                                 13
+  3.1 H1 : Perception of gentrification in regards to proximity of CBD . . . . . .         13
+  3.2 H2 : Perception of gentrification in regards to business age . . . . . . . . .       17
+  3.3 H3 : Perception of gentrification in regards to adaptation . . . . . . . . . .       21
+
+4 Conclusion                                                                               24
+
+5 Evaluation                                                                               25
+
+A Appendix                                                                                 27
+  A.1 Background Information . . . . . . . . . . . . . . . . . . . . . . . . . . . .       27
+  A.2 Calculations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   28
+      A.2.1 Hypothesis 1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       28
+      A.2.2 Hypothesis 2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       29
+      A.2.3 Hypothesis 3 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       30
+
+
+
+
+                                             2
+1     Introduction
+
+The aim of this research investigation is to determine whether micro businesses in the
+London Borough (LB) of Tower Hamlets are affected equally by commercial gentrifica-
+ton, and if not, to what extent. The investigation links to option G of the IB Geography
+syllabus: Urban Environments. Specifically, ”Urbanization, natural increase and cen-
+tripetal population movements, including rural–urban migration in industrializing cities,
+and inner city gentrification in postindustrial cities”.
+    Commercial gentrification is ”a revitalisation process in which the agents of change
+are not new middle class residents, but new spaces and services aimed at attracting
+them” (Agustı́n Cócola Gant, 2015). Micro businesses refer to all businesses that meet
+the criterion of 10 or less employees and with 2 or less locations that are all located in
+Tower Hamlets. The research question for this investigation is defined as ”To what extent
+does commercial gentrification affect micro-businesses in the London Borough of Tower
+Hamlets equally?”.
+    Tower Hamlets (TH) is a Borough (henceforth abbreviated to LB) located in London,
+UK. 57% of those living in Tower Hamlets are employed, the LB experiences an ume-
+ployment rate of 6.7% (Tower Hamlets Council, 2015). From 1990, Tower Hamlets has
+seen economic growth, with 200 thousand jobs being available, resulting in 3 jobs being
+available for every 2 residents (Tower Hamlets Council, 2010). Nonetheless, the median
+income in TH is £30 thousand, compared to the £45 thousand in the City of London
+(Tower Hamlets Council, 2019).
+    Simultaneously, 42% of the population lives in social housing, a number higher than
+the London average (New Policy Institute, 2016). In 2014, 10 outright orders to repossess
+property are executed by TH landlords per 1000 renting, though only 5 of these ended
+
+
+                                              3
+in eviction (New Policy Institute, 2016). These orders to repossess are rising; 2003 saw
+approximately 300 repossession orders, whereas 2015 saw a threefold increase of approxi-
+mately 900 (New Policy Institute, 2016).
+   88.6% of the enterprises in 2013 employed less than 10 people, making microbusi-
+nesses the majority of commercial activity (Tower Hamlets Council, 2013b). In the same
+year, 27.8% of businesses were younger than two years, 25% being older than ten years
+(Tower Hamlets Council, 2013a). 2012 saw an enterprise birth rate of 17.4% compared
+to the death rate of 12.3%, suggesting an increase in business numbers. Businesses are
+experiencing rent increases, such as railway arch shops in the south of the LB (White,
+2019).
+
+
+
+
+                                           4
+           Figure 1: The area of the LB of Tower Hamlets, shown in yellow
+
+
+   Within the LB, research was conducted in predefined research areas, shown in figure
+2. These are located within Spitalfields, Weavers, Shadwell, Stepney Green, St. Peter’s,
+St. Dunstan’s, Limehouse, Mile End, Poplar, Lansbury, Bromley (both), Bow (both).
+
+
+
+
+                                           5
+              Figure 2: Areas marked in purple are the research areas
+
+
+   H1 states that businesses closer to the City of London/CBD percieve gen-
+trification more positively than other areas.
+   H2 states that newer businesses are impacted more negatively than older
+ones.
+   H3 states that there is a positive correlation between businesses that have
+adapted their products and services and their perception of changes.
+
+
+
+
+                                        6
+2     Research Methods
+
+2.1    Determining the scope of the investigation
+
+Firstly, a basic definition of micro businesses was determined, and the research question
+was finalized. With this definition in mind, Tower Hamlets was explored using Google
+Maps. High mobile phone usage areas (Google Areas of Interest) suggest there is commer-
+cial activity going on in these areas. For example, business phone calls being made and
+data usage (as opposed to WiFi in homes). These areas were then traced onto a custom
+Google Map.
+    These areas were then traversed on Google StreetView to determine their land use.
+Any non-commercial areas were not applicable to the research question, and as such,
+an absence of commercial land caused the area to be rejected. With this process, the
+final research quadrants/research areas were established (abreviated as RQs), which were
+later grouped together to form sectors (RS), as seen in figure 2. This was to effectively
+distribute fieldwork between peers, as well as to enable analysis between various regions.
+
+
+
+
+                                            7
+      (a) Areas of high mobile phone usage on Google MyMaps
+
+
+
+
+                                  8
+
+(b) Research quadrants (purple) within their respective sectors (blue)
+
+             Figure 3: Determining the research area
+   In order to obtain the population size all the research quadrants were again traversed
+on Google Maps/StreetView. The result of this was then put into a spreadsheet, where
+the count in quadrants were summed up to represent their sectors. As such, a hybrid
+technique of random sampling as well as specific areas was used. This is portrayed in
+table 1. In Tower Hamlets, all research areas were traversed yet again and businesses re-
+counted, which yielded up to date sums also found in table 1. As such, with a confidence
+ratio of 95% the target sample size was calculated to be 365 businesses.
+
+        Sector   SV pop. size SV sample size          RL pop. size RL sample size
+         NE          217           67                     164            61
+          E          60            37                     16             14
+         SE          111           52                     114            52
+         SW          193           64                     229            68
+          W          598           83                     744            86
+          C          86            46                     63             38
+         NW         N/A           N/A                     88             46
+        Total       1256           349                   1418           365
+
+      Table 1: Sample sizes per sector: Google StreetView (SV) and in person (RL)
+
+
+
+2.2    Data collection
+
+Data was collected using the Esri Survey123 application, on mobile phones. All surveyors
+were split up into groups of two and then assigned to research areas, so that RQs could be
+surveyed concurrently. These would then conduct the questionnaire presented in figures
+4-6 to the businesses.
+   A total of 341 responses were recorded, which is 24 below the required sample size
+for a 95% confidence level. Not every respondent addressed every question, such that for
+individual questions the sample size is even lower.
+
+
+
+
+                                            9
+                                                                                                     10
+Figure 4: Data collection questionnaire (1/3); justification in red, further information in purple
+                                                                                                     11
+Figure 5: Data collection questionnaire (2/3); justification in red, further information in purple
+                                                                                                     12
+Figure 6: Data collection questionnaire (3/3); justification in red, further information in purple
+3     Analysis
+
+3.1    H1 : Perception of gentrification in regards to proximity of
+
+       CBD
+
+The CBD of London is, as aforementioned, located in the City of London, as well as part
+of Canary Wharf, TH. Using these two areas, two CBD points can be defined within it,
+henceforth identified by alpha, and beta. Alpha is located at 30 St. Mary Axe, City of
+London, also known as the Gherkin, a place of strong commercial activity. This area is
+also very close to TH, which is why it serves as a good reference point. Beta is located in
+Cabot Square, Canary Wharf, an area of land also close to the RQs and within commercial
+land usage and a high income area (Tower Hamlets Council, 2019).
+
+
+
+
+      Figure 7: Locations of points alpha and beta, in relation to the RQs (purple)
+
+                                            13
+   Distance values are the displacement between the coordinates of the CBDs and every
+business (curvature is neglegible). Only regarding the smaller of these two, these could
+be categorized into distance groups (A - G), with the criteria being in table 2.
+
+   Category From (coord. units, inclusive) To (coord. units, exclusive) Members
+      A                  0                            0.005               11
+      B                0.005                          0.01                40
+      C                 0.01                          0.015               0
+      E                0.015                          0.02                69
+      E                 0.02                          0.025               49
+      F                0.025                          0.03                74
+      G                 0.03                          0.035               35
+
+                            Table 2: CBD distance categories
+
+
+   Calculating the average perception for the respective categories yields the data shown
+in figure 8. Whilst the bar chart cannot graph trendlines, it is still clear that there is no
+proportional relationship between the proximity of the CBD and the perception. The chi
+squared test shows that only at a confidence level of 90% it can be said that there is a
+correlation between the distance and perception (see appendix A.2.1).
+
+
+
+
+                                             14
+Figure 8: Distance category vs. average gentrification perception
+
+
+
+
+                               15
+               Figure 9: Gentrification perception by research quadrant
+
+
+   Figure 9 shows the perception of gentrificaiton by quadrant. Especially the businesses
+northwest, near the City of London CBD, percieve this gentrification more positively.
+This could be due to the higher disposable income of those working in the City of London
+(Tower Hamlets Council, 2019). However, as aforementioned, there is no clear trend
+between the location and the distances to the City of London, or even Canary Wharf.
+   Summarising, the hypothesis H1 is invalid; whilst there are significant differences, no
+proportionality can be found. Micro businesses do not experience gentrification equally;
+those near Shoreditch experience it more positively.
+
+
+
+
+                                           16
+3.2    H2 : Perception of gentrification in regards to business age
+
+There are various primary source indicators that can be used in order to determine the
+impact of gentrification in regards to age. As the business birth rate exceeds the death
+rate, perceptions of new businesses can show the ease of business within the area. For
+one, the wellbeing of the business was provided by the survey respondents. As well as
+that, more implicit factors like a change in customer base can indicate business wellbeing.
+   In the survey, the age was not explicitly asked for, but an estimate within certain
+brackets. When assigning positive change a numerical value of 1, negative change a value
+of -1, and neutral a value of 0, the average of these represents the average perception of
+gentrification within a certain age bracket. Using the midpoint of each age group, this
+can be show in a graph in figure 10.
+
+
+
+
+         Figure 10: Median age of business vs average gentrification perception
+
+
+                                            17
+   This shows that the newest businesses percieve the gentrification more negatively than
+those of 2 to 4 years of age. Businesses older than this percieve it more negatively again.
+Due to there being no midpoint in the last category - the range extends infinitely, it was
+not plotted. At a confidence level of 95% using chi squared it can be said that there
+is a statistical relationship between the age of the businesses and their perception of
+gentrification (see appendix A.2.2).
+
+
+
+
+               Figure 11: Prominence of business ages in Tower Hamlets
+
+
+   Figure 11 shows the clusters of businesses between 2 and 4 years, where survival is
+easier (Tower Hamlets Council, 2013a).
+   As aforementioned, a change in customers can also indicate a change in wellbeing.
+In the scope of this investigation, the time period for a change was defined as 2 years.
+Similarly to overall perception, assigning the value 1 to an increase, -1 to a decrease and
+0 to no change, this can be graphed. Again, the age on the X axis in figure 12 refers to
+
+
+                                            18
+the midpoint of the respective bracket.
+
+
+
+
+           Figure 12: Median age of business vs average change in customers
+
+
+   The younger the business, the more they perceive an increase in customers. Particu-
+larly businesses of age 5 to 10 years are impacted significantly. The percentage of change
+to the previous point is most significant here. At a confidence level of 99% it can be said
+that there is a statistical relationship between the business age and change in customers
+(see appendix A.2.2).
+   Figure 13 shows the data from figure 9 as well as a clustered change in customers.
+
+
+
+
+                                            19
+          Figure 13: Change in customers + positive gentrification perception
+
+
+   Referring to figure 13, there are some correlations between the two factors. Increases
+of customers tend to be in areas with more positive ratings. Statistically speaking, there
+is a 100% corrolation between the two (see appendix A.2.2). Particularly in the west of
+Tower Hamlets, near Shoreditch, the concentration of positive ratings as well as increase
+in customer numbers becomes apparent. Overall, older stores are disadvantaged and
+impacted more negatively by commercial gentrification.
+
+
+
+
+                                           20
+3.3    H3 : Perception of gentrification in regards to adaptation
+
+With gentrification, affluent individuals will seek to engage with micro businesses within
+the area. As the demographic changes, the demands will also change, especially due to
+more disposable income. As a result, store owners many needs to change their products,
+in order to comply with their changing client base. Failing to do so will result a fall of
+revenue, and a decreasing business wellbeing.
+
+
+
+
+       Figure 14: Number of businesses that changed their offerings by category
+
+
+   Figure 14 shows the number of businesses that have changed their services or offers due
+to a change in demand, by category. Statistically, there is a correlation between the type
+and whether or not a change was implemented (see appendix A.2.3). The most prominent
+change can be found within the bought products (physical objects that do not fit into the
+other categories) and food businesses. This is due to two factors: the demand to change,
+
+
+                                           21
+as well as the ability to change. Businesses such as dentists or lawyers are most likely
+going to provide the same offerings regardless of the current demographic. However, this
+is not the case for more income elastic products, such as consumables. Secondly, certain
+business types are able to adapt to changes easier. A store is able to change the products
+that are being sold easily; this is not as easy for service orientated businesses.
+
+
+
+
+                      Figure 15: Location of different business types
+
+
+   The clustered location of business types are represented in figure 15. Bought products
+are the prominent type, however there are food services located in the north and south
+east.
+   Moreover, there is a strong correlation (chi squared, 95% confidence level) between
+the perception of gentrification and a change in offerings. More specifically, those that
+
+
+                                             22
+adapted their goods/services perceive gentrification as a more positive thing. This is
+shown in figure 16.
+
+
+
+
+         Figure 16: Positive gentrification perception and a change in products
+
+
+   Referring to figure 16, the most prominent correlation is the approx. 0.3 ratio and
+high concentration of change. This correlation is statistically correct at a confidence level
+of 95% (see appendix A.2.3). Conclusively, the businesses that adopted new products
+were impacted more positively than those that did not.
+
+
+
+
+                                             23
+4     Conclusion
+
+H1 Hypothesised that the businesses closer to the CBD percieved gentrification more
+positively. This hypothesis is not true. Whilst distance to the CBD and perception are
+correlated, there is no linear, proportional or inversely proportional relationship between,
+resulting in the hypothesis being rejected. Generally, businesses near Shoreditch percieved
+this gentrification more positively.
+    H2 Hypothesised that newer businesses are impacted more negatively than older ones.
+The inverse of this was found. With the exception of businesses 2 to 4 years of age, the
+older the business, the more negative their perception of gentrification. This is supported
+by the inversely proportional relationship between age of business and customer numbers
+- the older the store, the less the average customer increase.
+    H3 Hypothesised that there is a positive correlation between businesses that have
+adapted their products and services and their perception of changes. This hypothesis is
+supported. Businesses that indicated they changed their offerings, statistically, also rate
+their perception of gentrification higher. This is partly due to the prominence of bought
+product businesses, which can change their supply relatively easily to meet new consumer
+demands.
+    Answering the main research question, commercial gentrification does not affect micro
+businesses equally within Tower Hamlets. One discriminating factor is age, with younger
+businesses being affected more positively than older ones. Moreover, businesses that are
+willing and have the ability to adjust their services to a change in demographics are
+advantageous. Finally, a closer proximity to affluent areas such as Shoreditch also yields
+a more positive impact of commercial gentrification on the businesses.
+
+
+
+
+                                            24
+5     Evaluation
+
+The questionnaire was designed particularly well as it enabled the quantification of quali-
+tative data by having a significant amount of multiple choice questions. The sampling and
+area selection was also a strength - with the phone useage and StreetView we were able
+to effectively determine areas with large population sizes, allowing our time to be used
+effectively. Due to the digital nature of the collection process, a lot of human error (such
+as mistakes in copying coordinates) could be mitigated, resulting in a high reliability.
+    On the contrary, the sample size was flawed in two ways. Firstly, the sample size was
+calculating by using the population size of each sector, rather than research quadrant. This
+was done to reduce the sample size to make an investigation possible within a timeframe,
+but may have affected the credibility of the responses. Secondly, the sample size was not
+met - 24 responses were lacking. As such, the validity of the data suffered.
+    Even within this sample size, there were various outliers that had to be rejected for
+not meeting the criteria, reducing the number further. Moreover, many responses did not
+address all questions, such that the sample size for treating this data was also not met.
+Furthermore, as many respondents were personally negatively affected by commercial
+gentrification, responses may contain negative biases, limiting objectivity.
+    The data collection process was rather inefficient at times, a way to flag stores to return
+to them later, rather than keeping track of them manually, would be an improvement.
+Moreover, many businesses were willing to answer the survey but unable to due to time;
+so more thorough timeplans would be a further imporvement.
+    For further research, the scope of the investigation could be narrowed. The current
+investigation focused on many different factors to allow for a multitude of hypotheses;
+however narrowing this down could yield more targeted and in-depth research. Possi-
+
+
+                                              25
+ble exploration could be done in the different impacts of commercial gentrification on
+demographics, changes in business attitudes, etc.
+
+
+
+
+                                           26
+A     Appendix
+
+A.1   Background Information
+
+
+
+
+Figure 17: Median household income in Tower Hamlets (Tower Hamlets Council, 2019)
+
+
+
+
+                                       27
+A.2     Calculations
+
+A.2.1    Hypothesis 1
+
+
+
+
+Figure 18: Chi squared statistical test on distance category vs. perception of gentrification
+
+
+
+
+                                             28
+A.2.2   Hypothesis 2
+
+
+
+
+Figure 19: Chi squared statistical test on age of business vs. perception of gentrification
+
+
+
+
+   Figure 20: Chi squared statistical test on age of business vs. change in customers
+
+
+
+
+                                            29
+Figure 21: Chi squared statistical test on change in customers vs. perception of gentrifi-
+cation
+
+
+A.2.3   Hypothesis 3
+
+
+
+
+   Figure 22: Chi squared statistical test on type of business vs. change in products
+
+
+
+
+                                           30
+Figure 23: Chi squared statistical test on change in products vs. perception of gentrifica-
+tion
+
+
+
+
+                                            31
+References
+
+Agustı́n Cócola Gant (2015). “Tourism and commercial gentrification”. In: RC21 Inter-
+   national Conference. url: https://www.rc21.org/en/wp-content/uploads/2014/
+   12/E4-C%C3%B3cola-Gant.pdf.
+New Policy Institute (2016). Demography and deprivation in Southwark and Tower Ham-
+   lets. url: https://www.npi.org.uk/files/6614/7316/1332/Demography_and_
+   deprivation_in_Southwark_and_Tower_Hamlets.pdf.
+Tower Hamlets Council (2010). Local Economic Assessment 2010 Fact Sheet Volume 2:
+   Economy and Enterprise. url: https://www.towerhamlets.gov.uk/Documents/
+   Economic-development/13094-LEA-Fact-sheet-Vol-2jm-v3.pdf.
+— (2013a). Business Demography - Birth, Death and Survival of Businesses in Tower
+   Hamlets. url: https://www.towerhamlets.gov.uk/Documents/Borough_statistics/
+   Economy_and_businesses/Research-Briefing-TH-Business-Demography-2013-
+   10.pdf.
+— (2013b). Tower Hamlets Business Structure - Size, Turnover and Age. url: https:
+   / / www . towerhamlets . gov . uk / Documents / Borough _ statistics / Economy _ and _
+   businesses/Research-Briefing-TH-Business-Structure-2013-11.pdf.
+— (2015). Unemployment and ethnicity: 2011 Census factsheet 2015-05. url: https :
+   / / www . towerhamlets . gov . uk / Documents / Borough _ statistics / Census _ 2011 /
+   2015_06_11_Unemployment_and_ethnicity_Census_factsheet_draft.pdf.
+— (2019). Household Income. url: https://www.towerhamlets.gov.uk/Documents/
+   Borough_statistics/Income_poverty_and_welfare/income_2019_l.pdf.
+White, Tom (2019). “Railway arch shops face eviction after rent rises of up to 85%”. In:
+   The Guardian.
+
+
+                                           32
+

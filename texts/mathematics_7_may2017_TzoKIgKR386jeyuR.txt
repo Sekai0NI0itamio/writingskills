@@ -1,0 +1,946 @@
+Proposing a new probabilistic approach in
+modelling epidemics
+IB Mathematics HL Internal Assessment
+IB Mathematics HL | Internal Assessment                                                           Page | 1
+
+
+
+Introduction
+
+     This investigation aims to propose a new probabilistic approach in modelling epidemics. This
+topic is of significance as though humanity continues to progress in terms of technology, the threat
+of epidemics to our survival is still imminent. A recent example would be our inability to control the
+outbreak of the Zika virus in South America.
+
+
+    My interest in this topic grew after I played a game called Plague Inc. Plague Inc is a game in
+which you can create different types of virus and adjust their properties, such as the virus’
+probability of infection, lethality etc. The goal of the game is to kill the population of the world using
+the virus you created. This, adding to the recent outbreak of the Zika virus, led me to researching
+epidemic models. The SIR Model stood out as it was used before by the Hong Kong Department of
+Health in predicting the SARS outbreak in Hong Kong in 2003, a time when all of us living in Hong
+Kong lived in fear.
+
+     However, I noticed that some of the underlying problems of the SIR Model, such as the number
+of people infected would be exactly equal to the expected value of the number of people infected
+resulting from a certain probability of infection. Thus this investigation would propose a new
+probabilistic approach in modelling epidemics using numerical methods, inverse transform sampling
+and the Monte-Carlo method via a spreadsheet software and graphs.
+
+
+Background research
+
+
+Epidemic Models
+     An epidemic model is a mathematical model that predicts population-level epidemic dynamics
+(Keeling 7). In other words, it predicts how different groups within a population reacts to the invasion
+of an epidemic. The SIR Model is a type of simple epidemic model.
+
+
+The SIR Model
+     The SIR Model is used in epidemiology to compute the amount of susceptible, infected,
+recovered people in a population (Johnson 1). In other words, the model divides the population into
+three groups of people: the people that are susceptible to infection by the epidemic (𝑆), the people
+infected by the epidemic (𝐼), and the people that recovered from the epidemic with immunity (𝑅).
+
+
+     Five key assumptions are made in this model to simplify the calculations.
+
+
+1.   A fixed number of population. The number of people within the population is constant. There
+     are no net birth rates and death rates, as well as immigration to and emigration from the
+     population.
+IB Mathematics HL | Internal Assessment                                                          Page | 2
+
+
+2.   Immunity upon recovery. A person is immune from the epidemic upon recovery. In other words,
+     if a person from the 𝐼 population has recovered, he or she would be put into the 𝑅
+     population group. He or she would be immune to infection by the epidemic and thus unable to
+     be classed as the 𝑆 population again.
+3.   Constant probability of infection. There is a constant probability of infection, and the probability
+     of infection of the epidemic would not change for people of different ages, genders, races etc.
+4.   No inheritance of disease. There is no inheritance of the epidemic, which also means that
+     immunity of the disease is not inheritable as well.
+5.   Homogenous mixing. There is homogenous mixing of the population, meaning that all
+     members of the population have an equal number of interactions with each other over time.
+
+
+The Deterministic SIR Model
+      In a Deterministic SIR Model, there is a fixed infection and recovery rate. In other words, the
+number of people infected and recovered would be exactly equal to the expected number of people
+to be infected and recovered. This leads to far more straightforward equations and exponentially
+distributed infectious periods (Keeling 2). In this report, the accuracy and the realism of the
+Deterministic SIR Model would be evaluated.
+
+
+Inverse of the Cumulative Binomial Probability Distribution Function
+       The binomial probability distribution function of a discrete random variable 𝑋 is as follows.
+
+                      𝑃(𝑋 = 𝑥) = (𝑛𝑥)𝑝 𝑥 (1 − 𝑝)𝑛−𝑥 , 𝑥 = 0, 1, 2, … 𝑛 (Fabio 530)
+Equation 1      The Binomial Probability Distribution Function
+
+
+     (Refer to Equation 1) Where 𝑋 denotes the number of successes in 𝑛 trials such that the
+probability of a success on any one trial is 𝑝, 0 ≤ 𝑝 ≤ 1 (Fabio 530). In other words, the binomial
+probability distribution function provides the probability of 𝑥 number of successes in 𝑛 trials
+given the value of 𝑥. Thus the inverse of this function would provide the value of 𝑥 given the
+probability of 𝑥 number of successes in 𝑛 trials. In this report, the inverse of the cumulative
+binomial probability distribution function would be used in Microsoft Excel to formulate a new
+Probabilistic SIR Model.
+
+
+Monte-Carlo Methods
+     Monte-Carlo methods are methods which solve a problem by generating suitable random
+numbers and observing that fraction of the numbers obeying some property or properties (“Monte-
+Carlo Method”). The method is useful for obtaining numerical solutions to problems which are too
+complicated to solve analytically (“Monte-Carlo Method”). In this report, Monte-Carlo Methods
+would be used in Microsoft Excel to randomly generate samples from a uniform probability
+distribution from 0 to 1 in the inverse of binomial probability distribution function to simulate the
+random probability of one being infected by an epidemic.
+IB Mathematics HL | Internal Assessment                                                                          Page | 3
+
+
+
+Data Collection and Analysis
+
+Equations of the Deterministic SIR Model
+     The independent variable in SIR Models is the time step or the unit time, given by 𝑡. On the
+other hand, there are 3 dependent variables that gives the number of people as a function of unit
+time.
+
+
+  Group       Dependent variables as functions of unit time                          Explanation
+    𝑆                              𝑆(𝑡)                          Represents the number of people 𝑆 population group.
+    𝐼                              𝐼(𝑡)                          Represents the number of people 𝐼 population group.
+    𝑅                              𝑅(𝑡)                          Represents the number of people 𝑅 population group.
+Table 1       The dependent variables in a SIR Model.
+
+
+        Furthermore, there are other variables that are needed for the creation of a SIR Model.
+
+  Variables                                                     Explanation
+        𝑁        Total number of people in the whole population.
+        𝛼        The average number of interactions between people in the population per capita per unit time.
+        𝑖        Probability of (Rate of) infection of the epidemic.
+        𝑟        Probability of (Rate of) recovery from the epidemic.
+Table 2       Other Variables needed for the creation of the SIR Model.
+
+
+    From the above we can create 3 differential equations that represent the rates of change of
+each dependent variable in a Deterministic SIR Model (DSIRM).
+
+
+                                             𝑑𝑆(𝑡)      𝑆(𝑡)   𝐼(𝑡)
+                                                     = − 𝑁 × 𝑁 ×𝑖×𝑁×𝛼
+                                              𝑑𝑡
+
+Equation 2         The rate of change of the number of people in the 𝑆 population group over time in a DSIRM.
+
+
+    (Refer to Equation 2) The probability that a person from the 𝑆 population group meeting a
+person from the 𝐼 population group is 𝑆(𝑡)
+                                         𝑁
+                                             𝐼(𝑡)
+                                           × . The probability that the interaction between the
+                                              𝑁
+𝑆 and 𝐼 person is infectious is 𝑖. The number of interactions per day in the population is (𝑁 × 𝛼).
+Thus all of the variables multiplied results in the rate of change of the number of people in the 𝑆
+population group over time. Note that a negative sign is put in front of the equation as the number
+of people in the 𝑆 population group decreases over time as people are infected.
+
+
+                                     𝑑𝐼(𝑡)      𝑆(𝑡)   𝐼(𝑡)
+                                             = 𝑁 × 𝑁 × 𝑖 × 𝑁 × 𝛼 − 𝐼(𝑡) × 𝑟
+                                      𝑑𝑡
+
+Equation 3         The rate of change of the number of people in the 𝐼 population group over time in a DSIRM.
+IB Mathematics HL | Internal Assessment                                                                    Page | 4
+
+
+    (Refer to Equation 3) Contrary to the previous equation, the first part of the equation is the
+negative of 𝑑𝑆(𝑡)
+             𝑑𝑡
+                 , as the rate of decrease of the number of people being infected in the 𝑆 population
+group over time is the negative of the rate of increase of the number of people in the 𝐼 population
+group over time. However, as the people in in the 𝐼 population group recover, the number of
+people in the 𝐼 population group decreases. The rate at which the number of people in the 𝐼
+population group decreasing over time can be given by −𝐼(𝑡) × 𝑟, thus forming the second part of
+the equation.
+
+
+                                                𝑑𝑅(𝑡)
+                                                        = 𝐼(𝑡) × 𝑟
+                                                 𝑑𝑡
+
+Equation 4        The rate of change of the number of people in the 𝑅 population group over time in a DSIRM.
+
+
+     (Refer to Equation 4) The number of people that recover over time is equal to the number of
+people in the 𝐼 population multiplied by the probability of recovery from the epidemic, which is
+the negative of the second part of the previous equation.
+
+    The DSIRM that will be created in this report will simulate the situation when a hypothetical
+non-lethal epidemic is introduced into a school of 1200 students. The students in the school are
+assumed to have 40 interactions with other students per unit time. The epidemic is assumed to have
+a probability of infection 0.001 and a probability of recovery of 0.01. In other words, 𝑁 = 1200, 𝛼 =
+40, 𝑖 = 0.001, 𝑟 = 0.01.
+
+
+Euler’s Method
+     Euler’s Method is a numerical method used to find numerical approximations to the solution
+of the differential equation 𝑑𝑦
+                             𝑑𝑥
+                                = 𝑓(𝑥, 𝑦) (Blythe 232).
+
+
+      The fundamental approximation in Euler’s Method is as follows.
+
+
+                                               𝑑𝑦                        ∆𝑦
+                                               𝑑𝑥
+                                                  = 𝑓(𝑥, 𝑦) ≈ ∆𝑥
+
+Equation 5        The fundamental approximation in Euler’s method.
+
+
+      From equation 5, we can obtain the following (See Figure 1 for a graphical illustration).
+
+If 𝑥0 increases by ℎ from 𝑥0 to 𝑥1 ,
+
+                                                              ∆𝑦       𝑦1 −𝑦0
+                                              𝑓(𝑥0 , 𝑦0 ) ≈        =
+                                                              ℎ        𝑥1 −𝑥0
+
+
+                                              ℎ × 𝑓(𝑥0 , 𝑦0 ) ≈ 𝑦1 − 𝑦0
+                                              𝑦1 ≈ 𝑦0 + ℎ × 𝑓(𝑥0 , 𝑦0 )
+IB Mathematics HL | Internal Assessment                                                                                   Page | 5
+
+
+                                                                                              In other words, the slope of
+                                                                                        function at (𝑥0 , 𝑦0 ) is used to
+                                                                                        approximate the position of (𝑥1 , 𝑦1 ) .
+                                                                                        Clearly, Euler’s Method only gives an
+                                                                                        approximate solution to an initial-value
+                                                                                        problem (Blythe 233). However, as ℎ
+                                                                                        decreases in value and as the number of
+                                                                                        course corrections increase, the accuracy
+                                                                                        of the approximation using Eurler’s
+Figure 1     A graphical illustration of Euler’s method.                                Method would increase.
+(Source: Blythe, Peter. Mathematics for the International Student:
+International Baccalaureate Mathematics HL (options), InternationalIn a DSIRM, Eurler’s Method will be
+Baccalaureate Diploma Programme. Adelaide Airport, S. Aust.: used to approximate how the number of
+Haese & Harris Publications, 2005, p. 233)                   people in the 𝑆, 𝐼, and 𝑅 change over
+                                                             time.
+
+     The follwing equation can then be derived for the DSIRM.
+                                                       𝑑𝑆(𝑡)                        𝑆     𝐼
+                                  𝑆1 = 𝑆0 + ∆𝑡 ×               = 𝑆0 + ∆𝑡 × (− 0 × 0 × 𝑖 × 𝑁 × 𝛼)
+                                                         𝑑𝑡                         𝑁      𝑁
+                                                 𝑑𝐼(𝑡)                    𝑆0   𝐼0
+                                𝐼1 = 𝐼0 + ∆𝑡 ×           = 𝐼0 + ∆𝑡 × ( ×            × 𝑖 × 𝑁 × 𝛼 − 𝐼0 × 𝑟)
+                                                  𝑑𝑡                       𝑁   𝑁
+                                                                 𝑑𝑅(𝑡)
+                            {            𝑅1 = 𝑅0 + ∆𝑡 ×                  = 𝑅0 + ∆𝑡 × (𝐼0 × 𝑟)
+                                                                  𝑑𝑡
+
+Equation 6         Equation for the DSIRM.
+
+
+     However, errors do still persist when numerical methods are used since they are numerical
+approximations. The most prominent of which is the truncation error, which is the error caused by
+using simple approximations to represent exact formulas (Ledder 2). Truncation errors persist as long
+as exact calculations are not used. Thus truncation errors will always persist in DSIRMs as DSIRMs
+cannot be solved analytically since we cannot obtain an exact analytical expression for the dynamics
+of 𝑆 and 𝐼 through time (Keeling 5). Yet truncation error can be reduced by applying the same
+approximation to a larger number of smaller intervals (Ledder 2). Therefore in this report, ∆𝑡 is set
+to equal to 1 and the model is created for the time period from 𝑡 = 0 to 𝑡 = 1000.
+
+
+Procedures of creating the Deterministic SIR Model in Microsoft Excel
+    The spreadsheet software Microsoft Excel is used to create the DSIRM.
+
+
+
+
+Figure 2     Microsoft Excel layout of creating the DSIRM.
+IB Mathematics HL | Internal Assessment                                                                   Page | 6
+
+
+                    The step-by-step procedures for creating this DSIRM are shown in Appendix 1.
+
+                                   The Deterministic SIR Model generated by linear interpolation
+                                                Total Population     S(t)      I(t)         R(t)
+
+                        1400
+
+                        1200
+
+                        1000
+
+
+
+
+     Number of People
+                        800
+
+                        600
+
+                        400
+
+                        200
+
+                          0
+                               0        200           400            600              800          1000    1200
+                                                                   Time Step
+
+
+Figure 3 The DSIRM generated (See a sample of the data in Appendix 2).
+
+
+Graph Analysis
+     From Figure 3, 𝑆(𝑡) decreases with time with an initially increasing and then decreasing rate.
+𝐼(𝑡) increases and then decreases with time. 𝑅(𝑡) increases with time with an initially increasing
+and then decreasing rate. The functions are expected to behave this way. The total population
+remains constant, which fits the assumption that the epidemic introduced into the population is
+non-lethal. When more and more people get infected initially, the number of people in the 𝑆
+population group should decrease and the number of people in the 𝐼 population group should
+increase. As the model progresses further over time, the infected people start to recover, thus the
+number of people in the 𝐼 population group should decrease and the number of people in the 𝑅
+population group should increase.
+
+
+     The DSIRM generated in Figure 3 closely resembles other DSIRMs in other researches, meaning
+that the model is accurately generated and its error is not large.
+
+
+Evaluation of the Deterministic SIR Model
+     Even though the DSIRM provided a rather thorough simulation of the introduction of the
+epidemic into a closed population, there are two major underlying errors with the model.
+
+
+1.                  It assumed that the number of people infected and recovered would be exactly equal to the
+                    expected value of number of people being infected and recovered, which is not true, as in
+                    reality there would still be an underlying random probability on whether the person would be
+                    infected or not, or recovered or not.
+IB Mathematics HL | Internal Assessment                                                      Page | 7
+
+
+2.   The DSIRM doesn’t account for the fact that it is impossible for a non-integer amount of people
+     to be infected or recovered.
+
+
+      Take 𝑡 = 1 as an example, the number of infected people increased from 3 to 3.0897, while
+the number of recovered people increased from 0 to 0.0309. In reality, it is impossible for the
+epidemic to infect an amount exactly according to the expected value of the probability, and it is
+also impossible to infect 0.0897 persons with a disease or recover 0.0309 persons from a disease as
+there exists only positive integer numbers of people.
+
+
+     Even though one might argue that rounding off the numbers would make the model accurate
+enough for the governments to use, it is not known whether rounding off the numbers would cause
+Round-off errors in the model. Round-off error is caused by using a discrete number of significant
+digits to represent real numbers (Ledder 2). This is another reason why the Probabilistic SIR Model
+is worthwhile to investigate, as there will be no round-off error in it.
+
+Formulation of the Probabilistic SIR Model
+    To solve the underlying problems the DSIRM, the new SIR model has to have the following
+properties.
+
+
+1.   It is probabilistic. It takes into account that there would still be an underlying random
+     probability on whether the person would be infected or not in an interaction between a
+     member of the 𝑆 population and a member of the 𝐼 population.
+2.   It only infects a positive integral number of people. The number of people in the 𝑆, 𝐼 and 𝑅
+     population must be positive integers.
+
+
+      The number of people being infected by the epidemic can be considered to follow a binomial
+distribution, as the epidemic can be considered as performing “Bernoulli trials” on members of the
+𝑆 population when they came into contact members of the 𝐼 population. The outcomes of this
+situation are a certain member of the 𝑆 population either being “infected” or “not infected”, but
+not both. The infections can also be assumed to be independent and the probability of infection is
+assumed to be identical in each interaction between 𝑆 and 𝐼 individuals. Furthermore, the
+number of interactions between 𝑆 and 𝐼 individuals per time period can be estimated based on
+current 𝑆(𝑡) and 𝐼(𝑡) value and the interaction rate. Thus on these conditions, a new Probabilistic
+SIR Model could be proposed.
+
+
+     The new Probabilistic SIR Model (PSIRM) will utilize the inverse of the binomial distribution
+function find the ∆𝑆, ∆𝐼 and ∆𝑅. Monte-Carlo Methods would be used to generate this PSIRM.
+Microsoft Excel will be used to randomly generate samples from a uniform probability distribution
+from 0 to 1 in the inverse of the cumulative binomial probability distribution function (ICBPDF) to
+simulate the random probability of one being infected by an epidemic.
+IB Mathematics HL | Internal Assessment                                                              Page | 8
+
+
+Equations of the Probabilistic SIR Model
+     The ICBPDF is represented in this report as follows.
+
+
+                                                 𝑠 = InvBi(𝑛, 𝑝, 𝑥)
+Equation 7      The ICBPDF.
+
+
+    (Refer to Equation 7) Where 𝑠 denotes the number of successes, 𝑛 denotes the number of
+Bernoulli Trials conducted, 𝑝 denotes the probability of success in the Bernoulli Trials, and 𝑥
+denotes the probability of a 𝑠 number of successes in 𝑛 Bernoulli Trials with a probability of
+success of 𝑝.
+
+
+     From the above equation, the equations for the dependent variable in a PSIRM can be
+represented as follows.
+
+
+                                                        𝑆(𝑡)   𝐼(𝑡)
+                                  ∆𝑆 = −InvBi ( 𝑁 × 𝑁 × 𝑁 × 𝛼, 𝑖, 𝑋)
+
+Equation 8      The change of the number of people in the 𝑆 population group over time in a PSIRM.
+
+
+     (Refer to Equation 8) Similar to Equation 2, the first part of the ICBPDF represents the number
+of interactions between members of the 𝑆 population group and members of the 𝐼 population
+group per unit time, i.e. the number of trials performed on members of the 𝑆 population group.
+The probability of success of the infection is 𝑖. 𝑋 is a continuous random variable that is uniformly
+distributed between 0 and 1, simulating the underlying random probability of a person being
+infected by an epidemic. A negative sign is used here as the number of people in the 𝑆 population
+group must decrease as people get infected.
+
+
+                                          𝑆(𝑡)   𝐼(𝑡)
+                        ∆𝐼 = InvBi ( 𝑁 × 𝑁 × 𝑁 × 𝛼, 𝑖, 𝑋) − InvBi(𝐼(𝑡), 𝑟, 𝑌)
+
+Equation 9      The change of the number of people in the 𝐼 population group over time in a PSIRM.
+
+
+     (Refer to Equation 9) The first part of this equation is the negative of Equation 8, as the decrease
+of the number of people in the 𝑆 population group should be equal to the negative of the increase
+of the number of people in the 𝐼 population group. However, as the people in in the 𝐼 population
+group recover, the number of people in the 𝐼 population group decreases. The number of trials
+performed on the people in the 𝐼 population group is 𝐼(𝑡). The probability of success of the
+recovery is 𝑟. 𝑌 is a continuous random variable that is uniformly distributed between 0 and 1,
+simulating the underlying random probability of a person recovering from an epidemic, thus forming
+the second part of the equation.
+IB Mathematics HL | Internal Assessment                                                                                Page | 9
+
+
+                                                               ∆𝑅 = InvBi(𝐼(𝑡), 𝑟, 𝑌)
+Equation 10                       The change of the number of people in the 𝑅 population group over time in a PSIRM.
+
+
+    (Refer to Equation 10) The number of people that recover over time is equal to the number of
+people that leave the 𝐼 population due to recovery from the epidemic over time, which is the
+negative of the second part of the previous equation.
+
+
+      To allow a comparison between the DSIRM and the PSIRM, a virus with the same specifications
+will be introduced into a population identical to that when used to construct the DSIRM previously
+in this report.
+
+
+Procedures of creating the Probabilistic SIR Model
+    The spreadsheet software Microsoft Excel is used to create the PSIRM.
+
+
+
+
+Figure 4                     Microsoft Excel layout of creating the PSIRM.
+
+
+                  The step-by-step procedures for creating this PSIRM are shown in Appendix 3.
+
+                                        The Probabilistic SIR Model generated by linear interpolation
+                                                        Total Population       S(t)      I(t)         R(t)
+
+                      1400
+
+                      1200
+
+                      1000
+
+
+
+
+   Number of People
+                      800
+
+                      600
+
+                      400
+
+                      200
+
+                        0
+                              0              200              400              600              800          1000       1200
+                                                                             Time Step
+
+
+Figure 5 A sample of the PSIRM generated (See a sample of the data in Appendix 4).
+
+
+                  However, since this SIR Model is probabilistic, it means that for almost every time this model is
+IB Mathematics HL | Internal Assessment                                                            Page | 10
+
+
+reproduced, the resulting model yielded would be different. This is illustrated in Figure 6, as the
+same model as above is reproduced for 20 times.
+
+                                 The Probabilistic SIR Model reproduced for 20 times
+                                         Total Population       S(t)    I(t)         R(t)
+
+                      1400
+
+                      1200
+
+                      1000
+
+
+
+
+   Number of People
+                      800
+
+                      600
+
+                      400
+
+                      200
+
+                        0
+                             0   200           400              600            800          1000     1200
+                                                            Time Step
+
+
+Figure 6 The Probabilistic SIR Model reproduced for 20 times.
+
+
+Graph Analysis
+     (Refer to Figure 3 and Figure 4) As we can see, compared to the smooth lines the dependent
+variables formed over time in the DSIRM, the dependent variables form rough lines over time in the
+PSIRMs. It is due to the fact the outputs of the functions of time of the dependent variables in the
+PSIRM are all discrete values. The total population remains constant, which fits the assumption that
+the epidemic introduced into the population is non-lethal. In Figure 6, the areas formed the
+functions of time of the dependent variables represents the trends of the dependent variables over
+time. 𝑆(𝑡) decreases with time with an initially increasing and then decreasing rate. 𝐼(𝑡)
+increases and then decreases with time. 𝑅(𝑡) increases with time with an initially increasing and
+then decreasing rate.
+
+
+Comparison between the DSIRM and the PSIRM
+     By comparing Figure 3 with Figure 5 and Figure 6, we can compare the properties of the DSIRM
+and the PSIRM.
+
+
+     The major similarity of the DSIRM and the PSIRM is that overall, the yield similar outputs, i.e.
+the shapes formed by the functions of time of the dependent variables of both models are similar,
+as well as the number of people in the 𝑆, 𝐼, and 𝑅 population groups as 𝑡 approaches a really
+large value. This implies that in a long term, the DSIRM can indeed give a rather accurate estimate
+as to how an epidemic interacts in a population group, and thus justifies the use of the DSIRM in
+predicting the long term trends of epidemics.
+IB Mathematics HL | Internal Assessment                                                        Page | 11
+
+
+     However, a major difference between the DSIRM and the PSIRM are the short term results. For
+example, 𝐼(𝑡) in Figure 3 has a much higher rate of increase initially compared to the rate of
+increase of 𝐼(𝑡) in Figure 5. This implies that in a short term, the PSIRM can give a much better
+estimate as to how an epidemic interacts in a population group, and thus the PSIRM should be used
+in predicting the short term trends of epidemics instead of the DSIRM.
+
+
+Evaluation of the Probabilistic SIR Model
+     The advantages of using the PSIRM is that addresses the problem of the number of people
+infected and recovering over time being exactly equal to the expected number of people being
+infected or recovering over time, as well as the number of people in each population group not being
+discrete, that seen in the DSIRM. It is also a more realistic representation of how an epidemic
+interacts in a population in the short term.
+
+
+      However, there are still some disadvantages to the PSIRM. One major disadvantage it is still not
+an accurate estimation of how a disease interacts within a population. It still doesn’t resolve the core
+assumptions in the model that would make the model inaccurate, such as a fixed number of
+population, immunity upon recovery, constant probability of infection for everyone in the population
+in different time periods etc.
+IB Mathematics HL | Internal Assessment                                                       Page | 12
+
+
+
+Conclusion and Further Investigations
+
+Conclusion
+     This investigation aims to propose a new probabilistic approach in modelling epidemics. The
+reason to propose a new model is that the Deterministic SIR Model has the problems of the number
+of people infected and recovering over time being exactly equal to the expected number of people
+being infected or recovering over time, as well as the number of people in each population group
+not being discrete.
+
+
+     A Probabilistic SIR Model is constructed using the Inverse of the Cumulative Binomial
+Distribution Function. Monte-Carlo Methods is used in the Inverse of the Cumulative Binomial
+Distribution Function to obtain samples from an interval of 0 to 1 to obtain the number of people
+being infected and recovering over time.
+
+    The resulting Probabilistic SIR Model addresses the problems mentioned above of the
+Deterministic SIR Model, but still doesn’t resolve some of the assumptions of a SIR Model that would
+make the model inaccurate, such as a fixed number of population, immunity upon recovery, constant
+probability of infection for everyone in the population in different time periods etc.
+
+
+     It can be observed that the Probabilistic SIR Model would yield results different from the
+Deterministic SIR Model in a short term but similar results in a long term. This implies that in a long
+term, the DSIRM can indeed give a rather accurate estimate as to how an epidemic interacts in a
+population group, and thus justifies the use of the DSIRM in predicting the long term trends of
+epidemics. But in a short term, the PSIRM can give a much better estimate as to how an epidemic
+interacts in a population group, and thus the PSIRM should be used in predicting the short term
+trends of epidemics instead of the DSIRM.
+
+
+Further Investigations
+     In Figure 6, we can see that there are areas at which the functions of time of the dependent
+variables converge upon the reproduction of the SIR Model. This means that there is a high
+probability for the functions of time of the dependent variables to be in that area. Thus finding the
+probability distribution of the position of the functions in their respective area could be the subject
+of further investigation, as it would give an area where the functions would probably be in a certain
+period of time, which is more useful than an one-line estimate the DSIRM provides.
+
+
+     Furthermore, a PSIRM can be developed for larger, city-scale communities, such as Hong Kong.
+In order for such a model to be created, factors such as death rate of infection, natural death rate in
+the society, virus changing nature over time due to demographics and seasons etc. The model
+created can then be used as a basis to model real-life epidemics, such as the Zika Virus.
+IB Mathematics HL | Internal Assessment                                                      Page | 13
+
+
+
+Bibliography
+
+Blythe, Peter. Mathematics for the International Student: International Baccalaureate Mathematics
+     HL (options), International Baccalaureate Diploma Programme. Adelaide Airport, S. Aust.:
+     Haese & Harris Publications, 2005. Print.
+
+
+Buckle, Nigel, Fabio Cirrito, and Iain Dunbar. Mathematics Higher Level (core). Camberwell, Vic: IBID,
+    2012. Print.
+
+
+Johnson, Teri. "Mathematical Modeling of Diseases: Susceptible-Infected-Recovered (SIR)
+    Model." Op12no2.me. N.p., 2009. Web. 7 Oct. 2016.
+
+
+Keeling, Matthew James, and Pejman Rohani. Modeling Infectious Diseases in Humans and Animals.
+     Princeton: Princeton UP, 2008. Print.
+
+Ledder, Glenn. "Error in Eurler's Method." University of Nebraska-Lincoln, n.d. Web. 31 Dec. 2016.
+
+
+Mackay, D. J. C. "Introduction to Monte-Calo Methods." Stat.duke.edu. Duke University, n.d. Web. 8
+     Oct. 2016.
+
+
+"Monte Carlo Method." Monte Carlo Method. Wolfram MathWorld, n.d. Web. 31 Dec. 2016.
+IB Mathematics HL | Internal Assessment                                                     Appendix 1
+
+
+
+Appendix 1
+Procedures of creating the Deterministic SIR Model in Microsoft Excel
+    The spreadsheet software Microsoft Excel is used to create the DSIRM.
+
+
+
+
+Figure 1   Microsoft Excel layout of creating the DSIRM.
+
+
+      The procedures for creating this DSIRM is as follows.
+
+
+1.    Enter the constants and their corresponding values in columns Q and R as shown in Figure 2.
+2.    Enter the column headers as shown in boxes A1, B1, C1, D1, E1, G1, H1, I1, K1, L1 and M1 as
+      shown in Figure 2.
+3.    Assuming that the total number of students is 1200, in which 1197, 3 and 0 are initially (𝑡 = 0)
+      susceptible, infected and recovered respectively, enter the respective values into Boxes A2, B2,
+      C2, D2 and E2 as shown in Figure 2.
+4.    Enter Equation 2 into Box G2 in Excel code (“=-C2/B2*D2/B2*$R$3*$R$2*B2”).
+5.    Enter Equation 3 into Box H2 in Excel code (“=-G2-D2*$R$4”).
+6.    Enter Equation 4 into Box I2 in Excel code (“=-G2-H2).
+7.    Obtain ∆𝑆 for 𝑡 = 0 through multiplying 𝑑𝑆(𝑡) 𝑑𝑡
+                                                        with Time step (∆𝑡) by entering “=G2*$R$5”
+      into Box K2.
+8.    Obtain ∆𝐼 for 𝑡 = 0 through multiplying 𝑑𝐼(𝑡)
+                                               𝑑𝑡
+                                                    with Time step (∆𝑡) by entering “=H2*$R$5”
+      into Box L2.
+9.    Obtain ∆𝑅 for 𝑡 = 0 through multiplying 𝑑𝑅(𝑡)
+                                               𝑑𝑡
+                                                    with Time step (∆𝑡) by entering “=I2*$R$5”
+      into Box M2.
+10.   For 𝑡 = 1, enter “1” into Box A3.
+11.   To monitor the total population, enter “=C2+D2+E2” into Box B2.
+12.   To see the value of 𝑆(𝑡) at 𝑡 = 1, enter “=C2+K2” into Box C3.
+13.   To see the value of 𝐼(𝑡) at 𝑡 = 1, enter “=D2+L2” into Box D3.
+14.   To see the value of 𝑅(𝑡) at 𝑡 = 1, enter “=E2+M2” into Box E3.
+15.   Highlight Boxes horizontally from Box G2 to Box M2 and drag it down to Row 3.
+16.   Highlight Boxes horizontally from Box A3 to Box M3 and drag it down to Row 1000.
+IB Mathematics HL | Internal Assessment                                                                    Appendix 2
+
+
+
+Appendix 2
+Sample of the data in the Deterministic SIR Model
+   The following is a sample of the Microsoft Excel data that forms the DSIRM in Figure 2 of this paper.
+IB Mathematics HL | Internal Assessment                                                     Appendix 3
+
+
+
+Appendix 3
+Procedures of creating the Probabilistic SIR Model
+    The spreadsheet software Microsoft Excel is used to create the PSIRM.
+
+
+
+
+Figure 1   Microsoft Excel layout of creating the PSIRM.
+
+
+      The procedures for creating this PSIRM is as follows.
+
+
+1.    Enter the constants and their corresponding values in columns M and N as shown in Figure 4.
+2.    Enter the column headers as shown in boxes A1, B1, C1, D1, E1, G1, H1 and I1 as shown in
+      Figure 4.
+3.    Assuming that the total number of students is 1200, in which 1197, 3 and 0 are initially (𝑡 = 0)
+      susceptible, infected and recovered respectively, enter the respective values into Boxes A2, B2,
+      C2, D2 and E2 as shown in Figure 4.
+4.    Obtain ∆𝑆 for 𝑡 = 0 by entering Equation 8 into Box G2 in Excel code (“=-
+      BINOM.INV(ROUND(C2*D2/B2*$N$2,0), $N$3, RAND())”). Note that a “ROUND(number,
+      num_digits)” function is needed for the first part of Equation 8, as a positive integral number
+      of trials is needed for the ICBPDF. Monte-Carlo methods is used here as a “Rand()” function
+      would give random values from 0 to 1, simulating the underlying random probability of a person
+      being infected by an epidemic.
+5.    Obtain ∆𝐼 for 𝑡 = 0 by entering Equation 9 into Box H2 in Excel code (“=-G2-BINOM.INV(D2,
+      $N$4, RAND())”).
+6.    Obtain ∆𝑅 for 𝑡 = 0by entering Equation 10 into Box I2 in Excel code (“=-G2-H2”).
+7.    For 𝑡 = 1, enter “1” into Box A3.
+8.    To monitor the total population, enter “=C2+D2+E2” into Box B2.
+9.    To see the value of 𝑆(𝑡) at 𝑡 = 1, enter “=C2+K2” into Box C3.
+10.   To see the value of 𝐼(𝑡) at 𝑡 = 1, enter “=D2+L2” into Box D3.
+11.   To see the value of 𝑅(𝑡) at 𝑡 = 1, enter “=E2+M2” into Box E3.
+12.   Highlight Boxes horizontally from Box G2 to Box I2 and drag it down to Row 3.
+13.   Highlight Boxes horizontally from Box A3 to Box I3 and drag it down to Row 1000.
+IB Mathematics HL | Internal Assessment                                                                    Appendix 4
+
+
+
+Appendix 4
+Sample of the data in the Probabilistic SIR Model
+   The following is a sample of the Microsoft Excel data that forms the PSIRM in Figure 3 of this paper.
+IB Mathematics HL | Internal Assessment                                                                         Appendix 5
+
+
+
+Appendix 5
+
+Summary of the Equations, Tables and Figures
+   The following is a summary of the Equations, Tables and Figures shown in the paper.
+
+
+Equations
+                      𝑃(𝑋 = 𝑥) = (𝑛𝑥)𝑝 𝑥 (1 − 𝑝)𝑛−𝑥 , 𝑥 = 0, 1, 2, … 𝑛 (Fabio 530)
+Equation 1      The Binomial Probability Distribution Function
+
+
+                                           𝑑𝑆(𝑡)              𝑆(𝑡)        𝐼(𝑡)
+                                                   = − 𝑁 × 𝑁 ×𝑖×𝑁×𝛼
+                                            𝑑𝑡
+
+Equation 2      The rate of change of the number of people in the 𝑆 population group over time in a DSIRM.
+
+
+                                   𝑑𝐼(𝑡)      𝑆(𝑡)          𝐼(𝑡)
+                                           = 𝑁 × 𝑁 × 𝑖 × 𝑁 × 𝛼 − 𝐼(𝑡) × 𝑟
+                                    𝑑𝑡
+
+Equation 3      The rate of change of the number of people in the 𝐼 population group over time in a DSIRM.
+
+
+                                                        𝑑𝑅(𝑡)
+                                                                   = 𝐼(𝑡) × 𝑟
+                                                            𝑑𝑡
+
+Equation 4      The rate of change of the number of people in the 𝑅 population group over time in a DSIRM.
+
+
+                                                       𝑑𝑦                          ∆𝑦
+                                                          = 𝑓(𝑥, 𝑦) ≈ ∆𝑥
+                                                       𝑑𝑥
+
+Equation 5      The fundamental approximation in Euler’s method.
+
+
+                                                      𝑑𝑆(𝑡)                             𝑆   𝐼
+                               𝑆1 = 𝑆0 + ∆𝑡 ×                 = 𝑆0 + ∆𝑡 × (− 0 × 0 × 𝑖 × 𝑁 × 𝛼)
+                                                       𝑑𝑡                               𝑁   𝑁
+                                              𝑑𝐼(𝑡)                          𝑆0    𝐼0
+                             𝐼1 = 𝐼0 + ∆𝑡 ×            = 𝐼0 + ∆𝑡 × ( ×                  × 𝑖 × 𝑁 × 𝛼 − 𝐼0 × 𝑟)
+                                                 𝑑𝑡                          𝑁     𝑁
+                                                                   𝑑𝑅(𝑡)
+                         {            𝑅1 = 𝑅0 + ∆𝑡 ×                       = 𝑅0 + ∆𝑡 × (𝐼0 × 𝑟)
+                                                                     𝑑𝑡
+
+Equation 6      Equation for the DSIRM.
+
+
+                                                       𝑠 = InvBi(𝑛, 𝑝, 𝑥)
+Equation 7      The ICBPDF.
+
+
+                                                                 𝑆(𝑡)       𝐼(𝑡)
+                                    ∆𝑆 = −InvBi ( 𝑁 × 𝑁 × 𝑁 × 𝛼, 𝑖, 𝑋)
+
+Equation 8      The change of the number of people in the 𝑆 population group over time in a PSIRM.
+IB Mathematics HL | Internal Assessment                                                                         Appendix 5
+
+
+                                             𝑆(𝑡)       𝐼(𝑡)
+                           ∆𝐼 = InvBi (             ×          × 𝑁 × 𝛼, 𝑖, 𝑋) − InvBi(𝐼(𝑡), 𝑟, 𝑌)
+                                              𝑁          𝑁
+
+Equation 9         The change of the number of people in the 𝐼 population group over time in a PSIRM.
+
+
+                                                    ∆𝑅 = InvBi(𝐼(𝑡), 𝑟, 𝑌)
+Equation 10        The change of the number of people in the 𝑅 population group over time in a PSIRM.
+
+
+Tables
+
+
+  Group       Dependent variables as functions of unit time                               Explanation
+    𝑆                                 𝑆(𝑡)                            Represents the number of people 𝑆 population group.
+    𝐼                                 𝐼(𝑡)                            Represents the number of people 𝐼 population group.
+    𝑅                              𝑅(𝑡)                               Represents the number of people 𝑅 population group.
+Table 1       The dependent variables in a SIR Model.
+
+
+  Variables                                                          Explanation
+        𝑁        Total number of people in the whole population.
+        𝛼        The average number of interactions between people in the population per capita per unit time.
+        𝑖        Probability of (Rate of) infection of the epidemic.
+        𝑟        Probability of (Rate of) recovery from the epidemic.
+Table 2       Other Variables needed for the creation of the SIR Model.
+
+
+Figures
+
+
+
+
+                           Figure 1      A graphical illustration of Euler’s method.
+                           (Source: Blythe, Peter. Mathematics for the International Student:
+                           International Baccalaureate Mathematics HL (options), International
+                           Baccalaureate Diploma Programme. Adelaide Airport, S. Aust.: Haese
+                           & Harris Publications, 2005, p. 233)
+IB Mathematics HL | Internal Assessment                                                                             Appendix 5
+
+
+
+
+Figure 2                     Microsoft Excel layout of creating the DSIRM.
+
+
+
+
+                                       The Deterministic SIR Model generated by linear interpolation
+                                                        Total Population       S(t)      I(t)         R(t)
+
+                      1400
+
+                      1200
+
+                      1000
+
+
+
+
+   Number of People
+                      800
+
+                      600
+
+                      400
+
+                      200
+
+                        0
+                              0              200              400              600              800          1000      1200
+                                                                             Time Step
+
+
+Figure 3 The DSIRM generated (See a sample of the data in Appendix 2).
+
+
+
+
+Figure 4                     Microsoft Excel layout of creating the PSIRM.
+IB Mathematics HL | Internal Assessment                                                                 Appendix 5
+
+
+
+                                 The Probabilistic SIR Model generated by linear interpolation
+                                              Total Population     S(t)      I(t)         R(t)
+
+                      1400
+
+                      1200
+
+                      1000
+
+
+
+
+   Number of People
+                      800
+
+                      600
+
+                      400
+
+                      200
+
+                        0
+                             0       200            400            600              800          1000      1200
+                                                                 Time Step
+
+
+Figure 5 A sample of the PSIRM generated (See a sample of the data in Appendix 4).
+
+
+
+                                     The Probabilistic SIR Model reproduced for 20 times
+                                              Total Population     S(t)      I(t)         R(t)
+
+                      1400
+
+                      1200
+
+                      1000
+
+
+
+
+   Number of People
+                      800
+
+                      600
+
+                      400
+
+                      200
+
+                        0
+                             0       200            400            600              800          1000      1200
+                                                                 Time Step
+
+
+Figure 6 The Probabilistic SIR Model reproduced for 20 times.
+

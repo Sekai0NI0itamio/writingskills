@@ -1,0 +1,100 @@
+Link to the article: https://www.bbc.com/news/business-49764964
+This article talks about how India has implemented an expansionary fiscal policy by cutting the
+corporate tax rate from 30% to 22% “in an effort to spur investment and boost growth in the
+country’s faltering economy.”
+
+“Expansionary fiscal policy is a policy involving the increase of government spending and/or the
+reduction of taxation”1. In this case, India has cut the corporate tax rate which “is a levy placed on a
+firm's profit by the government2”. When this tax rate is cut, the profit margin of companies
+increases, and therefore there is an incentive to invest in the company, because return on investment
+has increased. Increase in investment would then lead to an increase in India’s real GDP (Figure 1).
+
+
+
+
+                                                                                                                     Figure 1
+
+Since there is an increase in investment, which is a component of aggregate demand, the aggregate
+demand curve shifts right (increases) from AD0 to AD1. There is a movement alongside the LRAS
+curve and the equilibrium point shifts from (Y0;P0) to (Y1;P1), where Y1>Y0, which means that due
+to cut corporate tax rates India’s real GDP has increased and India has moved closer to its potential
+output level, in that way improving efficiency. Increase in aggregate demand also leads to lower
+unemployment, because to increase aggregate demand (and produce a higher GDP) more resources
+are needed, those including labour resources. Also, as a result of the AD increase inflation arises —
+there is an increase in price level from P0 to P1.
+
+1
+  Finamore, David. ”Fiscal policy: The role of fiscal policy” in Economics: Supporting Every Learner across the IB Continuum, edited by Christian
+Bryan, page 178. Harlow, Essex: Pearson Education Limited, 2014.
+2
+    Kagan, Julia. “Corporate Tax.” Investopedia. Investopedia, January 29, 2020. https://www.investopedia.com/terms/c/corporatetax.asp
+Firms benefit from this tax cut, because they have to pay less money in taxes to the government,
+therefore their post-tax profit increases. Due to this firms invest more, hire new workers and
+therefore Indian households also clearly benefit as their household income increases.
+
+Since firms now are more eager to invest, some of the investment could go to research and
+development. This would improve the current technology, thus either improving productivity or
+increasing the quality of the products, which, in both cases, would lead to economic growth and
+outward shift of LRAS.
+
+Additionally, bigger return on investment, could allow the firms to reduce the price of their
+products, thus increasing their international competitiveness, which could prove to be crucial to
+increase economic stability as currently “The country has relied on domestic consumption to fuel
+growth”.
+
+Comparing this policy with its counterpart, expansionary monetary policy, which is “expansion of
+the money supply and a decrease in interest rates to encourage consumption, investment and
+economic growth”3, this policy seems more effective, as “So far this year, India's central bank has
+cut rates four times and the benchmark rate currently sits at a near-decade low.”, which shows,
+that cutting interest rates seems to not be working and that fiscal policy is working better in this
+situation.
+
+However, there are also downsides to this policy. A loser in this situation is India’s government, as
+now they receive less revenue from firms paying the tax. This reduces their ability to spend money
+on public goods, such as education and transport.
+
+Additional downside to this policy is that it only affects supply-side, it does not deal with the
+demand-side of the market. Since “spending has slowed sharply”, it is possible to argue, that even
+with lower taxes firms will not start investing more, but rather will just keep the extra profit,
+because of insufficient demand for their product. Thus it can be argued that expansionary fiscal
+policy in the form of government spending would work better, because it would directly affect the
+demand side of the market and would also improve the public sector, however, it is of concern that
+from too much government spending the crowding out effect would take place, that is, government
+borrowing would rise the real interest rate, which would then decrease investment — the exact
+opposite of what the Indian government is trying to achieve.
+
+
+
+
+3
+  Finamore, David. ”Monetary policy: The role of monetary policy” in Economics: Supporting Every Learner across the IB Continuum, edited by
+Christian Bryan, page 183. Harlow, Essex: Pearson Education Limited, 2014.
+To conclude, cutting corporate tax rates would cause increased profits for firms and improve the life
+of workers and households, as unemployment would become lower and wages would increase.
+Additionally, it seems that fiscal policy is the correct move from India’s government as monetary
+policy has been proven ineffective so far. However, it is of concern, that tax reduction only affects
+the supply-side, and if the demand-side stays unaltered, the tax cut might not be able to boost the
+economy due to the insufficient demand. This problem could be solved by using expansionary fiscal
+policy in form of government spending, however, that again raises concerns of crowding out and
+reduced investment.
+
+
+
+Word count: 747
+
+
+
+Bibliography
+
+
+1) Finamore, David. ”Fiscal policy: The role of fiscal policy” in Economics: Supporting Every
+Learner across the IB Continuum, edited by Christian Bryan, page 178. Harlow, Essex: Pearson
+Education Limited, 2014.
+2) Finamore, David. ”Monetary policy: The role of monetary policy” in Economics: Supporting
+Every Learner across the IB Continuum, edited by Christian Bryan, page 183. Harlow, Essex:
+Pearson Education Limited, 2014.
+3) “India Delivers Surprise Corporate Tax Cuts to Boost Economy.” BBC News. BBC, September
+20, 2019. https://www.bbc.com/news/business-49764964
+4) Kagan, Julia. “Corporate Tax.” Investopedia. Investopedia, January 29, 2020.
+https://www.investopedia.com/terms/c/corporatetax.asp
+

@@ -1,0 +1,97 @@
+name: IdeaThinkingFlow
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "full = extract+analyze+distill | analyze = notes only | distill = IdeaThinkingFlow.md from cached notes"
+        required: false
+        default: "full"
+        type: choice
+        options: [full, analyze, distill]
+      limit-files:
+        description: "Only process the first N files (0 = all)"
+        required: false
+        default: "0"
+      in-flight:
+        description: "Global concurrent agents"
+        required: false
+        default: "15"
+      per-file:
+        description: "Concurrent agents per file"
+        required: false
+        default: "5"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: idea-flow
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install poppler (pdftotext)
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+
+      - name: Extract PDF texts
+        if: inputs.mode != 'distill'
+        run: python3 scripts/extract_texts.py
+
+      - name: Split into section parts
+        if: inputs.mode != 'distill'
+        run: python3 scripts/split_sections.py
+
+      - name: Analyze idea flow (per-section agents)
+        if: inputs.mode != 'distill'
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: |
+          python3 scripts/analyze_idea_flow.py \
+            --limit-files "${{ inputs.limit-files }}" \
+            --in-flight "${{ inputs.in-flight }}" \
+            --per-file "${{ inputs.per-file }}"
+
+      - name: Distill IdeaThinkingFlow.md
+        if: inputs.mode != 'analyze'
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: python3 scripts/distill_idea_flow.py
+
+      - name: Commit results (resume cache + output)
+        if: always()
+        run: |
+          git config user.name "idea-flow-bot"
+          git config user.email "idea-flow-bot@users.noreply.github.com"
+          git add texts parts notes IdeaThinkingFlow.md cache 2>/dev/null || true
+          git add -A texts parts notes 2>/dev/null || true
+          if [ -f IdeaThinkingFlow.md ]; then git add IdeaThinkingFlow.md; fi
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+          else
+            git commit -m "IdeaThinkingFlow update (run ${{ github.run_id }}, mode ${{ inputs.mode }})"
+            git pull --rebase origin ${GITHUB_REF_NAME} || true
+            git push origin HEAD:${GITHUB_REF_NAME}
+          fi
+
+      - name: Upload artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: idea-flow-results-${{ github.run_id }}
+          path: |
+            IdeaThinkingFlow.md
+            notes/
+          if-no-files-found: warn
+          retention-days: 14

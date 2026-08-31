@@ -1,0 +1,783 @@
+                                IB Chemistry SL Internal Assessment
+
+
+
+                                                 Title:
+
+ An investigation into the effect of the pH of the brewing solution on the extraction of caffeine from a
+                                                cup of tea.
+
+
+                                          Research Question:
+
+What is the effect of increasing the pH (11.238, 11.604, 11.756, 11.858, 11.917) of the aqueous brewing
+ solution consisting of sodium carbonate (Na2CO3) of the tea on the yield of caffeine extracted (in mg
+± 2mg) from a cup of black tea using dichloromethane solvent extraction, measured by iodometric back
+                       titration against a standard solution of sodium thiosulphate.
+
+
+
+                                               May 2021
+
+
+
+
+                                                                                                   1 of 15
+                                                                    CONTENTS
+
+Research Question ................................................................................................................................3
+Introduction ..........................................................................................................................................3
+Background Information: .....................................................................................................................3
+Hypothesis ............................................................................................................................................4
+Variables ...............................................................................................................................................5
+Risk Assessment & Safety ....................................................................................................................6
+Materials & Apparatus ..........................................................................................................................7
+Procedure ..............................................................................................................................................7
+         A. Dichloromethane Solvent Extraction                                                                                                           7
+         B. Iodometric Back Titration                                                                                                                    8
+Results ..................................................................................................................................................8
+         A. Quantitative                                                                                                                                 8
+         B. Qualitative                                                                                                                                  9
+Calculations & Data Processing .........................................................................................................10
+         A. Finding the pH of the brewing solution analytically                                                                                        10
+         B. Calculating the mass of pure caffeine                                                                                                      11
+         C. Calculating random uncertainty of average titre                                                                                            12
+         D. Processed Data Representation                                                                                                              12
+Conclusion & Analysis .......................................................................................................................13
+Evaluation ...........................................................................................................................................13
+
+
+
+
+                                                                                                                                                       2 of 15
+    An investigation into the effect of the brewing solution’s pH on the extraction
+                             of caffeine from a cup of tea.
+Research Question
+What is the effect of increasing the pH (11.23, 11.60, 11.76, 11.86, 11.92) of the aqueous brewing solution
+consisting of sodium carbonate (Na2CO3) using to make tea on the yield of caffeine extracted (in mg) from
+the cup of black tea using dichloromethane solvent extraction, measured by iodometric back titration
+against a standard solution of sodium thiosulphate.
+
+Introduction
+        Pure caffeine (C8H10N4O2) is found in a white, bitter-tasting crystalline
+powder form. It’s a member of the alkaloid class, meaning it is an organic
+compound containing nitrogen atoms. The caffeine molecular structure is made
+up from a purine ring system, and is seen in Figure 11. The compound, however,
+is not commonly found as a powder, but in food grade items such as coffee,
+sodas, energy drinks and tea.
+        With caffeine becoming the most widely used and unregulated
+psychoactive drug2, its components and the amount of such substance in our
+                                                                                         Figure 1: Caffeine
+teas, coffees and energy drinks has become a subject of interest to me. Often                 Molecule
+drinking tea while studying, I saw that the tea bags I used had their caffeine
+content labeled on the side of the box, which piqued my curiosity about how
+much of the it could be experimentally extracted, and if it matched the label. Additionally, I wanted to know
+how I could maximize this yield through manipulating a variable in the extraction process.
+        This investigation aims to explore the effect of raising the pH of the aqueous brewing solution the
+black tea is made in on the yield of caffeine (in mg) produced from the solvent extraction process. This will
+be done through first a dichloromethane (CH2Cl2) extraction to obtain crude caffeine, then an iodometric
+back titration to determine the amount of pure caffeine extracted. Additionally, the analysis of the extracted
+substance’s melting point in comparison to pure caffeine will be conducted.
+Background Information:
+        Tea leaves are made up of 3 main constituents3 (1) cellulose, a natural water-insoluble polymer, (2)
+caffeine, and (3) tannins, a type of phenolic compound.4 In order to extract the caffeine from tea bags, it has
+to be separated from the other constituents through several steps.
+        First the cellulose is removed by extracting the water-soluble constituents through brewing the tea
+bag in hot water. Hot water is necessary as caffeine is not readily soluble at room temperature, having a
+solubility of only 16 mg/mL, but 667 mg/mL at 100°C.5 After cooling, the caffeine then has to be extracted
+from the water using dichloromethane (CH2Cl2), an organic solvent, immiscible in water and commonly
+referred to as DCM. This extraction is possible due to caffeine being more soluble in DCM than in water at
+room temperature (solubility of 16 mg/mL in water and 140 mg/mL in DCM).6
+      However, while the cellulose is removed by this stage, the tannins are still slightly soluble in DCM.
+To remedy this, and facilitate the extraction of only caffeine from the solvent, the tannins need to be
+
+1 “Molecular Structure of Caffeine.” Chemistry Stack Exchange, 15 July 2016, chemistry.stackexchange.com/questions/
+54268/molecular-structure-of-caffeine.
+2 “Caffeine.” Centre for Addiction and Mental Health, www.camh.ca/en/health-info/mental-illness-and-addiction-index/
+caffeine.
+3 Gebely, Tony. “Chemical Compounds in Tea.” Tea Epicure, 22 Feb. 2019, teaepicure.com/tea-chemistry/.
+
+4 “Tannin.” Encyclopædia Britannica, Encyclopædia Britannica, Inc., 27 Jan. 2021, www.britannica.com/science/tannin.
+
+5 “Caffeine (Anhydrous) Product Information.” Sigma-Aldrich, www.sigmaaldrich.com/content/dam/sigma-aldrich/docs/
+Sigma-Aldrich/Product_Information_Sheet/c0750pis.pdf.
+6 Chaugule, Aniket, et al. “Extraction of Caffeine.” International Journal of Advanced Research in Chemical Science, vol. 6,
+no. 9, 2019, pp. 11–19., doi:10.20431/2349-0403.0609002.
+                                                                                                                    3 of 15
+converted into salts. Since they are phenolic compounds, they are acidic enough so that the addition of
+sodium carbonate (Na2CO3), which acts as a base, can cause the deprotonation of their -OH group7 and thus
+the formation of the salts of the tannins will occur. Since theses salts are now insoluble in DCM, and soluble
+in the polar water, caffeine is the only constituent found in the solvent and can be extracted through its
+evaporation.
+        With that being said, certain variables affect the efficiency of this extraction, including the pH of the
+                                        aqueous brewing solution that the tea bags will be submerged in
+                                         during the first step. According to scientific literature by Kim et al.,
+                                         the yield of caffeine extracted “increase[s] when the pH of the
+                                         extraction solution [is] increased from 4 to 7,”8 but begins to
+                                         decrease afterwards.9 The effect of pH and this trend can be
+                                         explained through the dependence of the partition coefficient (Kd) of
+                                         caffeine on the pH of the solution in the system of caffeine-solvent-
+                                         water. The higher the Kd, the higher the concentration of caffeine in
+                                         the solvent instead of the water. According to a study conducted by
+   Figure 2: Kd of caffeine vs. pH
+                                         Klebanov et al., the relationship between the Kd of caffeine and pH
+                                         is as seen in Figure 2.7
+         Due to this trend, I chose pH to be my independent variable to be manipulated. According to a study
+done by Vuong et al. is the last point before increasing the pH drops the efficiency of caffeine extraction.10
+However, their study only investigated pH values up to 10 and only on green tea. I wanted to adapt this to
+see if such trends continued and if they were applicable to black tea, so I set pH values above the range they
+investigated. My dependent variable is the mass of pure caffeine extracted which I measured in mg (± 1). I
+also took into consideration the extraction’s percentage purity after the iodometric back titration through
+calculating the mass of pure caffeine found in the crude extract.
+Hypothesis
+         Since the Kd of caffeine in the solvent starts dropping off
+after a pH of 7, it means that a higher pH begins to decrease the
+concentration of caffeine dissolved in the solvent and increase
+the concentration in water, thus decreasing the yield extracted as
+some caffeine molecules will be left behind. With this theoretical
+background and previous research on green tea and coffee
+pointing to a negative correlation between pH and efficiency of
+caffeine extraction, I predict that the trend will continue when
+investigated with black tea to form a negative linear regression
+between the variables of pH and extracted caffeine in mg as seen
+in the sketch in Figure 3.
+
+
+
+
+                                                                               Figure 3: Predicted trend between pH &
+                                                                                   mass of pure caffeine extracted
+
+
+
+
+7 “Tannin.” Encyclopædia Britannica, Encyclopædia Britannica, Inc., 27 Jan. 2021, www.britannica.com/science/tannin.
+
+8 Kim, Sang-Hee, et al. “Effect of PH on the Green Tea Extraction.” Korean Journal of Food Science and Technology, vol.
+31, no. 4, 31 Aug. 1999, pp. 1024–1028.
+9 Klebanov, G. S., et al. “Extraction of Caffeine from Aqueous Solutions.” Pharmaceutical Chemistry Journal, vol. 1, no. 4,
+1967, pp. 221–223., doi:10.1007/bf00770195.
+10 Vuong, Quan V., et al. “Effects of Aqueous Brewing Solution PH on the Extraction of the Major Green Tea Constituents.”
+Food Research International, vol. 53, no. 2, 14 Sept. 2012, pp. 713–719., doi:10.1016/j.foodres.2012.09.017.
+                                                                                                                    4 of 15
+Variables
+
+                                pH of the aqueous brewing solution containing sodium carbonate
+                                (Na2CO3) that the black tea bags are prepared in— The pH values were
+                                meant to be measured using a pH meter but due to the lab’s meter’s
+                                inaccuracy and inability to be calibrated, the pH had to be found
+    Independent Variable        analytically by using the mass of Na2CO3 added to the solutions. The pH
+                                values (11.238, 11.604, 11.765, 11.858, 11.917 ± 0.004 ) were derived
+                                from different masses (0.980g, 5.010g, 9.987g, 15.109g, 19.876g
+                                ± 0.001) of Na2CO3 by referring back to the HL topic 18 to carry out the
+                                set of calculations needed to find the pH of a weak base.
+
+                                The mass of the pure caffeine extracted from 2 black tea bags measured
+                                in mg (± 1). This will be measured after the extraction of crude caffeine
+     Dependent Variable         from the solvent extraction and the iodometric back titration using a
+                                standard sodium thiosulfate (Na2S2O3) solution of known concentration
+                                (0.005M ± 0.001) has been conducted in order to find the pure mass.
+
+
+Controlled Variables                        Method of Control & Possible Effect on Results
+                                The brand of tea bag was maintained throughout the experiment (Lipton
+                                Yellow Label Black Tea) to control the literature value of caffeine in
+Type of tea bag
+                                them. If different tea bags were used for each trial, the amount of caffeine
+                                extractable would also differ and skew the end results.
+                                Each tea bag was brewed in a beaker containing 150mL (±10) of water to
+Amount of water used for        maintain the same or as similar of a concentration of tea as possible in
+brewing the tea                 each sample. This would allow for a fair comparison of the caffeine
+                                extracts at the end.
+                                Each tea bag was brewed in its water over a constant source of heat for
+Length of time tea was brewed   15.00 minutes ± 0.01minutes. This, again, is to keep a similar
+for                             concentration of tea and get as much of the caffeine into the water as
+                                possible.
+                                A constant volume of 5.00mL ± 0.01mL of the alkali Na2CO3 solution
+Amount of Na2CO3 solution
+                                was pipetted into the brewed tea after it was cooled, regardless of the pH
+added to brewed tea
+                                of the sample.
+                                A constant of 25.0 ± 0.1mL of DCM was measured using a graduated
+Amount of DCM (CH2Cl2) used     cylinder and used in each extraction of the tea. The amount was kept
+for extraction                  controlled in order to not disadvantage any sample with an inadequate
+                                amount of solvent that would skew the final mass to the lower pole.
+                                Each sample with a different pH had 2 separate DCM solvent extractions
+Amount of DCM (CH2Cl2)
+                                conducted on it to get the maximum amount of caffeine removed from
+extractions per sample
+                                the aqueous solution.
+                                After the DCM and aqueous layer were mixed, they were placed into a
+                                separating funnel for the same amount of time of 25.00 ± 0.01min in
+Length of time for DCM
+                                order to separate into different layers. Not keeping this time constant
+(CH2Cl2) and water to settle
+                                would have caused in the loss of some of the DCM containing caffeine
+                                mixed in the aqueous layer still in the separating funnel.
+                                During the iodometric back titration, the concentration of the Lugol’s
+                                iodine stock solution was kept constant at 5% iodine and 10% potassium
+Concentration and Volume of
+                                iodide to facilitate the calculations for the pure caffeine. Additionally, the
+Lugol’s Iodine solution
+                                volume added to the erlenmeyer flask was also constant at 25.0 ± 0.1mL
+                                measured using a graduated cylinder.
+
+
+                                                                                                           5 of 15
+                                     The concentration of sodium thiosulfate used in the burette during the
+Concentration of Sodium
+                                     iodometric back titration was a standard one and was maintained at 0.005
+Thiosulfate (Na2S2O3)
+                                     ± 0.001M.
+                                A constant of only 3 drops of the starch was used during each sample’s
+                                iodometric back titration in order to not cloud up the solution at the end,
+Amount of Starch Indicator used
+                                resulting in a possible overshooting of the end point which is supposed to
+                                be clear at the end.
+
+Uncontrolled                               Possible Method of Control & Possible Effects on Results
+                                   The length of time the separation funnel was shaken was not measured or
+                                   controlled and this could have affected the results since some samples
+                                   would have had increased contacted with the DCM layer due to additional
+Shaking of Separation Funnel
+                                   mixing while others would have had limited contact. The more contact
+                                   there is the greater the extraction of caffeine into the solvent. This could be
+                                   controlled by allocating a number of gentle shakes to be a standard.
+                                   The temperature of the tea after it has cooled down from brewing affects
+                                   the extraction into the DCM since the solubility of caffeine in water and
+                                   DCM fluctuates with the temperature. If the temperature of one sample
+Temperature of Tea after
+                                   was higher than another that means that less caffeine could have been
+cooled
+                                   extracted due to the caffeine still being slightly soluble in water at that
+                                   temperature. A set temperature should have been set as a standard before
+                                   the start of the solvent extraction.
+                                   The balance available at the lab had a tendency to fluctuate a lot and was
+                                   not able to be calibrated. Due to the reliance on its accuracy, it can be said
+                                   that this had an effect on the results at the end as they could be inaccurate
+Fluctuation of digital balance
+                                   and not precisely reflect my yield. This could be avoided and controlled by
+                                   using a balance that has a shield around it, and possibly one that was
+                                   accurate to 4 decimal places instead of 3 as our lab provided.
+
+Risk Assessment & Safety
+
+Hazard                                           Control Measure
+                                                 Gloves should be worn when measuring out the masses and
+Safety: Sodium carbonate (Na2CO3) causes
+                                                 hands should be washed thoroughly after handling the powder.
+skin and serious eye irritation
+                                                 Eye protection goggles should be worn.
+Safety: Dichloromethane (CH2Cl2) causes          Gloves should be worn while pouring out the DCM and hands
+skin irritation and serious eye irritation. It   should be washed thoroughly after handling. It should only be
+may cause drowsiness and dizziness and is        worked with under the fume hood to avoid breathing in the
+slightly toxic if inhaled                        vapors let out while pouring and evaporating it.
+                                         No waste streams containing DCM should be disposed of in
+Environment: Dichloromethane (CH2Cl2) is skinks. Since most of the DCM will be evaporated, the
+toxic to aquatic life                    glassware can be decontaminated with 75% ethanol and left
+                                         under the fume hood to dry
+Safety: Concentrated sulphuric acid              Protective gloves, protective clothing, and eye and face
+(H2SO4) is very toxic through inhalation         protection must be worn. Skin should be washed thoroughly
+and highly corrosive to skin and objects         after use and should be handled under a fume hood.
+                                                 All glassware has to be neutralized and no waste should be
+Environment: Concentrated sulphuric acid         washed down the drain due to its corrosivity characteristic.
+(H2SO4) is extremely toxic to aquatic life       Other waste should be labeled and disposed of through a
+                                                 special waste treatment facility
+
+
+                                                                                                                 6 of 15
+ Safety: Lugol’s iodine solution can cause       Basic protective gloves should be worn and skin should be
+ irritation of the nose and throat is inhaled,   thoroughly washed afterwards. To avoid possible inhalation,
+ and temporary eye and skin irritation           handle the solution under the fume hood.
+                                                 No ethical issues faces due to no living organisms used or
+ Ethical
+                                                 directly endangered through the investigation
+
+Materials & Apparatus
+Dichloromethane Solvent Extraction:                            Iodometric Back Titration:
+   • 5 × 10 Lipton Black Tea tea bags (22mg caffeine)          • 5 × 250 mL erlenmeyer flasks
+                                                               • Distilled Water
+   • 5 × 250 ± 10 mL beakers
+   • Distilled Water (H2O)                                     • 5 × 10.0 ± 0.1mL sulphuric acid (H2SO4)
+   • Stopwatch                                                 • 5 × 25.0 ± 0.1mL Lugol’s iodine solution (5%
+                                                                 iodine, 10% potassium iodide)
+   • 5 × watch glass
+                                                               • Stirring rod
+   • Hot Plate
+                                                               • Funnel
+   • Funnel
+                                                               • Cotton Balls
+   • Cotton Balls
+                                                               • Sodium thiosulphate (Na2S2O3)
+   • Electronic balance ± 0.001g
+                                                               • 50 ± 0.05mL burette
+   • 10.00 ± 0.05ml graduated pipette
+                                                               • Starch
+   • 51.000 ± 0.001g sodium carbonate (Na2CO3)
+                                                               • 5 × 2 × 3 drops starch
+   • 5 × 500 ± 0.2mL volumetric flasks
+   • Stirring Rod
+   • 250 mL separating funnel
+   • 100 ± 1mL graduated cylinder
+   • 5 × 50 ± 1mL dichloromethane (CH2Cl2)
+   • Dropper
+   • Centrifuge & × 4 centrifuge tubes
+   • 5 × 6.000 ± 0.001g magnesium sulphate (MgSO4)
+   • Heating Mantle
+Procedure
+A. Dichloromethane Solvent Extraction11
+1. 2 Lipton Yellow Label tea bags are placed in a 250 ± 10 mL beaker with
+   150 ± 10 mL of boiling distilled water.
+2. The beaker is then placed on a hot plate as seen in Figure 4 with a watch
+   glass on top to avoid evaporation. This is left to brew for 15.00 ± 0.01
+   minutes then removed and left to cool down to room temperature.
+3. Tea bags are then disposed of and the brew is filtered through cotton and
+   a funnel to remove any solid particulates.
+4. 5.0 ± 0.5mL of the alkali sodium carbonate (Na2CO3) solution is added
+   to the brewed tea using a 10.0 ± 0.5mL pipette
+          • Preparation of Sodium Carbonate Solutions:
+           a. Masses of 1.000g, 5.000g, 10.000g, 15.000g and 20.000g
+                (± 0.001) of sodium carbonate (Na2CO3) were measured out
+                using an electronic balance.
+           b. The solid Na2CO3 was added into a 500 mL ± 0.15                Figure 4: Brewing of the tea
+                                                                                        bags
+                volumetric flask of distilled water and stirred.
+5. The brewed tea and sodium carbonate solution is then poured into the
+   250 mL separating funnel and 25 ± 1mLof dichloromethane (CH2Cl2) is added.
+
+
+11 Shakeel, Faiyaz, and Mohammed S. Faisal. “Caffeine: A Potential Complexing Agent for Solubility and Dissolution
+Enhancement of Celecoxib.” Pharmaceutical Biology, vol. 48, no. 1, 2009, pp. 113–115., doi:10.3109/13880200903030074.
+                                                                                                               7 of 15
+6. The funnel is shaken to allow for maximum contact between the two immiscible
+    layers. It’s allowed to relive some of the pressure build up in between shakings.
+    This is then left to settle for 25.00 ± 0.01minutes.
+7. After two distinct layers are formed by the DCM and aqueous brewing solution as
+    seen in Figure 5, the bottom layer, made up of DCM, is drained into a beaker.
+8. The DCM at this point still contains remnants of the aqueous layer, so the drained
+    layer is poured into centrifuge tubes and centrifuged for 3 minutes at 60 rotations
+    per second after which the top layer of dark aqueous solution is removed using a
+    dropper.
+9. Then, the contents of the tubes are poured into a beaker where magnesium
+    sulphate (MgSO4) will be added and stirred in to act as a drying agent that will
+    clump together with any of the excess aqueous brewing solution.
+10. This is then filtered through a funnel with cotton balls to get rid of the clumped
+    magnesium sulphate (MgSO4).                                                                         Figure 5: DCM &
+11. The beaker of clean DCM is then placed on a heating mantle and gently heated                     aqueous brewing solution
+    until all evaporates and power crude caffeine is left behind.                                      in separating funnel
+12. The caffeine in the beaker is then dissolved in distilled water and
+    poured onto a watch glass to crystalize.
+13. The crude caffeine is scratched off the watch glass and placed into
+    vials and weighed as seen in Figure 6.
+
+B. Iodometric Back Titration12
+1. Transfer the contents of a vial of crude caffeine into an
+    erlenmeyer flask with 15.0 mL ± 0.1mL of distilled water.
+                                                                                 Figure 6: Crude Caffeine after
+2. Add 10.0 mL ± 0.1mL of sulphuric acid into the flask.                                 crystallization
+3. Add 25.0 mL ± 0.1mL of the standard Lugol’s iodine solution to
+    the flask and mix with stirring rod until a brown solid precipitate begins to form.
+4. Filter the solution through a funnel with cotton balls then place the flask under a burette filled with the
+    standard sodium thiosulphate solution.
+5. Add 3 drops of starch as an indicator and begin titrating after marking the starting point. The solution
+    should turn dark blue and be colorless at the end point.
+6. Take the final measurement of the burette and repeat for the rest of the samples.
+
+Results
+A. Quantitative
+
+                     Table 1: Mass of crude caffeine extracted ±2mg from the solvent extractions
+
+       pH of Na2CO3 (±0.002)              11.238              11.604            11.756           11.858           11.917
+         Mass of empty vial               12.421              12.407            12.406           12.450           12.414
+              ±0.001g
+          Mass of vial with
+      extracted crude caffeine            12.531              12.505            12.502           12.547           12.508
+              ±0.001g
+      Mass of Extract ±0.002 g             0.110               0.098            0.096             0.097            0.094
+       Mass of Extract ±2mg                 110                  98               96               97                94
+
+
+
+
+12 Wade, Peter, and J. Hannen. “Iodometric Determination of Caffeine.” Journal of the Science of Food and Agriculture, vol.
+1, no. 6, 1950, pp. 177–178., doi:10.1002/jsfa.2740010606.
+                                                                                                                    8 of 15
+        Table 2: Raw quantitative data showing the effect of increasing pH on titre volume from iodometric back titration
+
+                                             Volume of Sodium Thiosulphate added until endpoint
+    pH of
+   Na2CO3                    Titre 1                           Titre 2                           Titre 3                Avg.      Random
+   (±0.002)      Initial      Final      Titre     Initial     Final       Titre      Initial    Final       Titre      Titre      △ of
+                reading      reading    volume    reading     reading     volume     reading    reading     volume     Volume       Avg.
+                ±0.05mL      ±0.05mL    ±0.1mL    ±0.05mL     ±0.05mL     ±0.1mL     ±0.05mL    ±0.05mL     ±0.1mL     ±0.1mL      Titre*
+
+    11.238        0.00        35.45      35.5       0.00       35.55       35.6        0.00       35.95       36.0       35.7       0.2
+
+    11.604        0.00        35.65      35.7       0.00       35.50       35.5        0.00       36.25       36.3       35.8       0.5
+
+    11.756        0.00        36.00      36.0       0.00       36.10       36.1        0.00       36.65       36.7       36.3       0.4
+
+    11.858        0.00        36.80      36.8       0.00       36.50       36.5        0.00       37.10       37.1       36.8       0.3
+
+    11.917        0.00        36.50      36.5       0.00       36.55       36.6        0.00       36.30       36.3       36.5       0.2
+
+      *Note that the calculations for the random uncertainty will be shown in the ‘Calculations and Data Processing’ section
+
+
+
+
+      B. Qualitative
+      After the crude caffeine was extracted from the DCM through evaporation then
+      crystallization, it became clear that the powders were not white as pure caffeine is
+      supposed to be. Almost all my samples had a strong green color visible as seen in
+      Figure 7, which indicates the presence of a lot of impurities. This means that the
+      mass of these extracts cannot be used as a measure of pure caffeine. This bolsters
+      the choice of conducting a quantitative analysis through iodometric back titration to
+      find the mass of the pure caffeine.
+                                                                                                             Figure 7: All crude caffeine
+                                                                                                                  extracted in vials
+
+
+
+
+                            The end point of the iodometric back titration is met when the flask’s contents had a
+                            visible color change from the dark brown-red of iodine to a dark green-blue to the clear
+                            solution found in Figure 8.
+
+
+
+
+ Figure 8: End point for
+iodometric back titration
+
+
+
+
+                                                                                                                                9 of 15
+Calculations & Data Processing
+A. Finding the pH of the brewing solution analytically
+        Part I: Preparing the concentrations of sodium carbonate
+
+                     Table 3: Concentrations of Sodium Carbonate Solutions Prepared
+                         Sodium Carbonate (Na2CO3) in 500 ± 0.2mL
+ Mass (m)                                           Volume (V)                    Concentration
+                  △m            % △ m*                               %△V                              %△C
+ ±0.001g                                              ±0.2ml                          (M)
+   0.980         0.001             0.1                500.0            0.04          1.85 × 10−2           0.1
+                                                                                              −2
+   5.010         0.001             0.02               500.0            0.04          9.45 × 10             0.1
+                                                                                              −1
+   9.987         0.001             0.01               500.0            0.04          1.88 × 10             0.1
+  15.109         0.001             0.01               500.0            0.04          2.85 × 10−1           0.05
+
+                △m
+        %△m =        × 100
+                 m
+                △V                                                            Note that the percentage uncertainty
+        %△V =       × 100                                                      of the molar mass is insignificant
+                V
+            m                                                                 and thus will not be included in the
+                            ∑
+        C=      and % △ C =   ( % △ V )( % △ m)
+           M ×V                                                                       propagation of error
+
+        Part II: Calculating the pH
+Since the pH sensor at the lab was unable to be calibrated properly and continued giving fluctuating,
+illogical values for such a weak base, the pH had to be calculated analytically from the values calculated in
+Table 3.
+
+
+Since the CO2−
+             3 in Na2CO3 acts as a Brønsted–Lowry base, I expanded on my SL curriculum to find the
+analytical way of calculating the pHs of weak bases in water.
+Since the ratio is 1:1, it can be considered that the concentration of Na2CO3 = [CO2−
+                                                                                   3 ]
+
+pKb for CO2−
+          3 = 3.75
+
+Below is a sample calculation of the pH=11.238 sample
+
+                                               Table 4: Calculating ions
+                                   CO 2−
+                                      3                       H2O               OH-                 HCO3-
+ Initial concentration /M       1.85 × 10−2                   —                  0                     0
+      Concertation at         1.85 × 10   −2
+                                               −x             —                  x                     x
+      equilibrium/ M
+       [OH−][ HCO−3 ]
+Kb =
+      [CO2−
+         3 ][OH ]
+                 −
+
+Kb = 10−pKb = 1.78 × 10−4
+                                           [x][x]            x2
+Equilibrium constant expression:Kb =                 =                = 1.78 × 10−4
+                                      [0.018492 − x]   [0.018492 − x]
+Then it can be said that x = [OH−] = 1.7 × 10−3M
+pOH = − log[OH−] = − (log 1.7 × 10−3) = 2.76
+pH = 14.00 − pOH = 14.00 − 2.76 = 11.24
+Since the ratio of concentration to OH- ions is 1:1, it can be considered that they have the same
+uncertainties.
+                                                                                                             10 of 15
+                                        Table 5: calculation of pH and uncertainties
+ ([OH−] × 10−3)/ M     % △ [OH−]            △ [OH−]/ M          pOH                  pH                        △ pH
+ 1.730                 0.1                  0.002               2.762                11.238                    0.002
+ 4.014                 0.1                  0.004               2.396                11.604                    0.004
+ 5.700                 0.1                  0.006               2.244                11.756                    0.006
+ 7.210                 0.05                 0.004               2.142                11.858                    0.004
+ 8.260                 0.05                 0.004               2.083                11.917                    0.004
+        To find the uncertainty of the pOH which uses logarithms, I will have to use the half range method
+to then determine the uncertainty in the processed pH of the varying concentrations of sodium carbonate
+solutions prepared. The resulting uncertainties are viewed in Table 5 above.
+
+B. Calculating the mass of pure caffeine
+(One sample of the calculations produced from the iodometric back titrations is found below, while the final amounts
+are found in Table 4)
+Reaction #1: I2 + 2Na2CO3 → 2NaI + Na2S4O6
+Reaction #2: C8H10N4O2 + 2 I2 + KI + H2SO4 → C8H10N4O2.HI.I4 +KHSO4
+
+                          Table 6: Sample calculations for mass & Purity of caffeine extracted
+                                                                                              Absolute                      Percentage
+              Variable/Unit                             Sample Calculations
+                                                                                            Uncertainty (±)               Uncertainty (%)
+ Concentration of Sodium Thiosulphate
+                                                               0.005                               0.001                          20
+             (Na2S2O3)/ M
+    Volume of Sodium Thiosulphate
+                                                               35.7                                  0.2                          0.6
+       (Na2S2O3) from titre (mL)
+                                                                    C ×V
+                                                              n =
+                                                                    1000
+     Moles of Sodium Thiosulphate
+        (Na2S2O3)reacted/ mol                          0.005 × 35.7                            0.4 × 10−4                 20 + 0.6 = 20.6 ≈ 21
+                                                 n =                = 1.79 × 10−4
+                                                           1000
+
+          Concentration of I2/ M                              0.0121                              0.0001                          0.8
+             Volume of I2/mL                                   25.0                                  0.1                          0.4
+                                                                    C ×V
+                                                              n =
+                                                                    1000
+    Moles of I2 originally added/ mol                                                         0.03 × 10−4                 0.8 + 0.4 = 1.2 ≈ 1
+                                                   0.0121 × 25
+                                               n =             = 3.03 × 10−4 mol
+                                                      1000
+    Moles of I2 reacted with Sodium
+                                                     1.79 × 10−4                        4.0 × 10−5
+       Thiosulphate (Na2S2O3)                  n =               = 8.95 × 10−5mol                  = 2 × 10−5                     22
+          in reaction #1 / mol                            2                                  2
+
+ Number of moles of I2 left for reaction        n = (3.03 × 10−4 ) − (8.95 × 10−5)      (0.03 × 10−4 ) + (2 × 10−5)10−5
+                                                                                                                                  9.5
+              #2/ mol                        = 2.14 × 10−4mol                            = 2.3 × 10−5 ≈ 0.2 × 10−4
+
+    Moles of pure caffeine reacted in                  2.14 × 10−4                      2.0 × 10−5
+           reaction #2/ mol                      n =               = 1.07 × 10−4                   = 0.1 × 10−4                    9
+                                                            2                                2
+
+         Mass of pure caffeine/ mg          m = (1.07 × 10−4 )(194.19) × 1000 = 20.78               0.01                         0.05
+
+   % Purity of caffeine in the extracted             20.78
+                                                           × 100 = 18.9 %                            0.4                    0.05 + 2 = 2
+                 sample                               110
+
+
+
+
+                                                                                                                                       11 of 15
+These same calculations were conducted for the other 4 samples. The final values are seen below in Table 7:
+
+                                                                        Table 7: Crude caffeine vs pure caffeine
+
+                                                                                                                                 Percentage
+  pH of                                           Crude
+ Na2CO3                                          Caffeine        % △ Crude        Pure Caffeine     % △ Pure       Percentage    Uncertainty
+                                                                  Caffeine          ±0.05mg         Caffeine         Purity     of Percentage
+                                                  ±2mg
+                                                                                                                                    Purity
+ 11.238                                              110           1.82%              20.78            2.00%        18.89%         3.82%
+ 11.604                                              98            2.04%              20.77            2.00%        21.19%         4.04%
+ 11.756                                              96            2.08%              20.58            2.00%        21.44%         4.08%
+ 11.858                                              97            2.06%              20.49            2.00%        21.12%         4.06%
+ 11.917                                              94            2.13%              20.47            2.00%        21.78%         4.13%
+
+
+C. Calculating random uncertainty of average titre
+Avergae Volume for pH 11.238 = 35.65mL
+△ V = Vma x − Vaverage = 35.95 − 35.65 = 0.3
+
+△ V = Vaverage − Vmin − = 35.65 − 35.45 = 0.2
+
+The larger random uncertainty is taken, in this case ± 0.2mL. In this case the random uncertainty is greater
+than the burette’s uncertainty (± 0.1mL), I will be ignoring the instrumental uncertainty for the random
+uncertainty calculated.
+D. Processed Data Representation
+
+                                                           Figure 9: mass of pure caffeine vs pH of aqueous brewing solution
+                                         20.8
+
+
+
+
+  Mass of pure caffeine extracted (mg)
+                                         20.7
+
+
+
+                                         20.6
+
+
+
+                                         20.5
+
+
+
+                                         20.4
+
+
+
+                                         20.3
+                                             11.25              11.39               11.53               11.67           11.81            11.95
+                                                                                  pH of aqueous brewing solution
+
+
+
+
+                                                                                                                                       12 of 15
+Conclusion & Analysis
+         The negative correlation represented by the graphed data in Figure 9
+with the linear line of best fit sloping down, shows that as the pH of the aqueous
+solution the tea bags is are brewed in increases from a value of 11.238 to
+11.917, the mass of caffeine extracted through the DCM solvent extraction and
+later calculated through iodometric back titration decreases.
+        The results obtained strongly suggest that the initial hypothesis, which
+stated that the variables would be inversely proportional to one another, is
+correct and sound and even matches the predicted sketch of the results in Figure
+3. These results also follow the general trend found amongst literature that
+investigated the effect of pH on other caffeinated beverages within lower pH             Figure 10: extract in
+                                                                                        melting point apparatus
+levels.                                                                                           #1
+
+         The pattern seen within the data might be caused by pH’s influence on
+caffeine’s Kd in a solvent-water system. Due to a higher pH leading to a lower Kd value, it can be deduced
+that this means there is a higher concentration of caffeine in water as seen in the expressions below, which
+will lead to a lower yield of extraction due to some of it not being present in the solvent. This assumption
+and theoretical background fits the trends seen in the experimental results.
+
+                                   C8 H10 N4O2 (H2O) ⇌ C8 H10 N4O2 (DCM )
+                                                         [C8 H10 N4O2 ](DCM )
+                                                  Kd =
+                                                         [C8 H10 N4O2 ](H2O)
+
+Evaluation
+        Almost all measures of percentage uncertainties are below 2% therefore almost inconsequential,
+therefore bolstering the validity of the conclusions made and the analysis of them. Additionally, there was
+no clear outlier point or anomalous result with the exception of the sample corresponding to the pH value of
+11.858 which had a relatively lower yield compared to its surrounding points. This could be due to
+inconsistencies in the shaking of the DCM as the aqueous layer could
+have not had enough contact with the solvent.
+        Additionally, after the iodometric back titration, a small amount
+of the caffeine from the sample with the highest yield (pH value of
+11.27) was placed into a capillary and investigated using a melting
+point apparatus to compare it to the melting point of a standard caffeine
+sample. This is seen in Figure 10 and Figure 11. While the melting
+point of pure caffeine is 228 ±1°C, my sample’s melting point was 237
+±1°C which increases the validity of the extracted solid actually being
+caffeine.
+        However, my results could benefit from further validation
+through the use of infrared spectroscopy to analyze both a sample from
+                                                                                Figure 11: extract in melting point
+my extractions and one of pure caffeine and comparing the two                              apparatus #2
+fingerprints using technology. This machinery is not accessible, but
+
+                                                                                                           13 of 15
+future investigations could benefit from this.
+        My results’s validity are also inherently flawed as the amount fo caffeine in each tea bag could
+differ greatly due to manufacturing inaccuracies on Lipton’s part. This is as a result of lenient food labeling
+regulations that allow for a large margin of error, leading to my calculations on percentage yield being
+skewed and inaccurate. However, my experiment benefited from the reduction of random errors throughout
+its duration due to to the use of repeated trials and repeated measurements of substances. This improves the
+validity of my results and the conclusions found.
+        To further investigate this theory, a wider range of pHs would be analyzed, ranging from acidic to
+neutral to basic. More types of caffeinated items could also be tested to see if the trend seen within black tea
+is generalizable to other substances. Additionally, more advanced technology could be used to verify that
+the extract produced is actually caffeine such as the use of IR spectroscopy.
+
+
+
+
+                                                                                                        14 of 15
+                                                   Works Cited
+“Caffeine (Anhydrous) Product Information.” Sigma-Aldrich, www.sigmaaldrich.com/content/dam/sigma-
+        aldrich/docs/Sigma-Aldrich/Product_Information_Sheet/c0750pis.pdf.
+
+“Caffeine.” Centre for Addiction and Mental Health, www.camh.ca/en/health-info/mental-illness-and-
+        addiction-index/caffeine.
+
+Chaugule, Aniket, et al. “Extraction of Caffeine.” International Journal of Advanced Research in Chemical
+       Science, vol. 6, no. 9, 2019, pp. 11–19., doi:10.20431/2349-0403.0609002.
+
+Gebely, Tony. “Chemical Compounds in Tea.” Tea Epicure, 22 Feb. 2019, teaepicure.com/tea-chemistry/.
+
+Kim, Sang-Hee, et al. “Effect of PH on the Green Tea Extraction.” Korean Journal of Food Science and
+       Technology, vol. 31, no. 4, 31 Aug. 1999, pp. 1024–1028.
+
+Klebanov, G. S., et al. “Extraction of Caffeine from Aqueous Solutions.” Pharmaceutical Chemistry
+       Journal, vol. 1, no. 4, 1967, pp. 221–223., doi:10.1007/bf00770195.
+
+“Methylene Chloride Standard Operating Procedure.” The UC Center for Laboratory Safety, 12 Nov.
+      2012, sites.chemengr.ucsb.edu/~ceweb/faculty/scott/Chemical%20SOPs/
+      MethyleneChloride.pdf.
+
+Shakeel, Faiyaz, and Mohammed S. Faisal. “Caffeine: A Potential Complexing Agent for Solubility and
+       Dissolution Enhancement of Celecoxib.” Pharmaceutical Biology, vol. 48, no. 1, 2009, pp. 113–
+       115., doi:10.3109/13880200903030074.
+
+“Sulphuric Acid (Concentrated) Material Safety Data Sheet.” The Martin Companies, Aug. 2009,
+       www.northeastern.edu/wanunu/WebsiteMSDSandSOPs/MSDS/Msds_Sulfuric_Acid.pdf.
+
+“Tannin.” Encyclopædia Britannica, Encyclopædia Britannica, Inc., 27 Jan. 2021, www.britannica.com/
+       science/tannin.
+
+Vuong, Quan V., et al. “Effects of Aqueous Brewing Solution PH on the Extraction of the Major Green Tea
+       Constituents.” Food Research International, vol. 53, no. 2, 14 Sept. 2012, pp. 713–719.,
+       doi:10.1016/j.foodres.2012.09.017.
+
+Wade, Peter, and J. Hannen. “Iodometric Determination of Caffeine.” Journal of the Science of Food and
+       Agriculture, vol. 1, no. 6, 1950, pp. 177–178., doi:10.1002/jsfa.2740010606.
+
+
+
+
+                                                                                                    15 of 15
+
+
+
+
+                                                                                             
+
+                                                                                  
+
+                                                                      
+
+                                                                 
+
+                                                            
+
+                                               
+
+                              
+
+                         
+
+               
+
+               
+
+     
+
+

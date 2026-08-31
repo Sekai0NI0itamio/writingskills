@@ -1,0 +1,634 @@
+ THE CHANGE OF DYNAMIC FRICTION IN ALUMINIUM SURFACES THROUGH HEATING
+                  THE ENGINE OIL LAYER BETWEEN THEM
+
+
+Introduction
+Friction is a force that significantly affects the motion of moving objects in everyday life. Friction's presence is often an
+unfavorable phenomenon due to the shifts in force and energy parameters it causes. This has led to investigations that
+aim to find methods to reduce it. One of the places where we notice the importance of reducing friction is combustion
+engines in the automobile industry. Most gasoline combustion engines have an average of around 20% energy
+efficiency1. Meaning that out of 45MJ energy2 produced from the burned diesel, only 9MJ is useful energy. However, due
+to the presence of friction in the engine parts, the useful energy concludes to be less than 9MJ. Therefore, to increase
+an engine's efficiency, it is intended to reduce the value of the coefficient of dynamic friction. One approach to reducing
+friction is the use of lubrification.3 Lubricants form layers between two objects' surfaces, hence making a partial or entire
+separation between them. However, lubricants maintain their own disadvantages to the system; they change phase into
+solid at 3°C4 and into gas at 300°C5. This investigation experiment will help test how the lubricant layer's temperature
+between two aluminum surfaces affects the change in dynamic friction coefficient?
+
+
+Background
+Friction is the resistance force that one surface or object encounters when moving over another. In this investigation,
+friction is symbolized with the symbol (Ff). In nature, we meet two types of friction, static friction, and dynamic friction.
+Static friction occurs when the object and the surface encounter a force of friction that is more significant than the force
+being exerted, therefore leaving no relative movement between the surfaces. Dynamic friction occurs when the force of
+friction is smaller than the force being exerted, thus causing the object to move. In this investigation, I will focus only on
+the dynamic friction. That comes from the fact that static friction in this investigation would be involved only when the
+engine is turned off, which wouldn’t give us the opportunity to evaluate the efficiency of the engine. In comparison,
+dynamic friction occurs only when the engine parts are in motion, which would indeed allow us to gain an outcome for
+the efficiency of the engine. Dynamic Friction (Ff) is calculated using the coefficient of friction (μd) and the normal to the
+surface force (R) through the formula.6
+
+
+
+
+(Ff)- Force of friction
+
+(μd)- Coefficient of dynamic friction
+
+(R)- Normal to the surface force
+
+
+
+
+  1
+    "Toyota Gasoline Engine Achieves Thermal Efficiency Of 38 Percent." 14 Apr. 2014,
+  https://www.greencarreports.com/news/1091436_toyota-gasoline-engine-achieves-thermal-efficiency-of-38-percent. Accessed 17 Feb. 2021.
+  2
+    "Case Study: The effect of an amorphous carbon coated gear-wheel ...."
+  https://www.researchgate.net/publication/316669347_Case_Study_The_effect_of_an_amorphous_carbon_coated_gear-wheel_on_a_hydraulic_orbital
+  _motor's_efficiency_over_time. Accessed 17 Feb. 2021.
+  3
+    "How Does Lubrication Reduce Friction | Shield Lubricants." 24 Oct. 2018, https://shieldoils.com/how-does-lubrication-reduce-friction/.
+  Accessed 10 Mar. 2021.
+  4
+    "What's the Freezing Point of Motor Oil? - bikerscafeblog.com." 16 Jun. 2020, https://bikerscafeblog.com/whats-the-freezing-point-of-motor-oil/.
+  Accessed 18 Feb. 2021.
+  5
+    "Chemistry - Oil as a Lubricant - Petroleum." http://www.petroleum.co.uk/oil-as-a-lubricant. Accessed 23 Aug. 2020.
+  6
+    Homer, David, and Michael Bowen Jones. “Forces.” Physics, Oxford, 2014, pp. 54–58.
+
+
+                                                                                                                                     1
+How does engine lubrication work
+Piston is a moving plate embedded in a cylinder which is made gas-tight by piston rings7
+Fig. 1: Annotated Lubrication System in an engine
+
+
+
+
+                                                                                                                     8
+
+
+
+
+In a combustion engine, oxygen and fuel combine to start the combustion process and produce power to begin the
+piston's reciprocating motion (up and down linear motion)9. The reaction produces high-pressure gas that applies a force
+on the piston and pushes it downwards. The piston is further attached to the crankshaft through a rod, which provides
+the transmission of the power generated.
+
+The lubrication system is responsible for circulating oil to the moving parts of an engine that are acting relative to each
+other and reduce friction between their surfaces.
+
+The pump receives power from the engine due to its connection to the drive belt. Oil is then sucked into the pump from
+the oil span, and crosses through the oil pressure regulator and an oil filter which ensures to clean oil dust particles. The
+oil then passes through oil lines and holes drilled inside the crankshaft to lubricate them. The oil lines are also
+connected to oil sprouts that spread oil upwards to lubricate the piston. The oil, which excesses, drains back to the
+sump, which gathers up the used oil and returns the oil into the pump to be circulated again in the engine.10 11
+
+
+
+
+  7
+     "Piston - Energy Education." 4 Jun. 2018, https://energyeducation.ca/encyclopedia/Piston. Accessed 24 Aug. 2020.
+  8
+     "Engine Lubrication System: definition, parts, types ... - Studentlesson." 21 Jul. 2020,
+  https://studentlesson.com/engine-lubrication-system-definition-parts-types/. Accessed 10 Mar. 2021.
+  9
+     "What does reciprocating motion mean? - Definitions.net." https://www.definitions.net/definition/reciprocating+motion. Accessed 12 Mar.
+  2021.
+  10
+      "Engine Lubrication System." https://www.grc.nasa.gov/www/k-12/airplane/lubesys.html. Accessed 10 Mar. 2021.
+  11
+     "How Engine Lubrication System Works - YouTube." 18 Jul. 2012, https://www.youtube.com/watch?v=mmmcj53TNic. Accessed 10 Mar.
+  2021.
+
+
+                                                                                                                                           2
+        Engine oils and their relationship to temperature
+        Engine oils are any of the numerous substances that consist of base oils enhanced with various additives. They are used
+        for the lubrication of internal combustion engines. The main function of engine oil is the reduction of friction12 and the
+        protection of the surfaces from degradation13. Engine oils improve mechanical efficiency, the load-carrying performance
+        of engine test rings, and engine vehicles' driving performance.14 However, lubricants have practical limitations when it
+        comes to operating temperatures.
+
+        When the engine oil is at high temperatures, the fluid will become too thin, and its viscosity (lubricants resistance to flow)
+        will be very low. When the lubricant is too thin, it does not form a sufficient layer to separate the moving parts, causing
+        the engine to be less efficient while operating. Once they've exceeded their base activation temperature, lubricants will
+        start to oxidize twice as fast per every 10°C you heat them.15
+
+        During an engine startup in low temperatures, such as those experienced in cold weathers, the fluid will start to congeal
+        and restrict the engine oil flow. The lubricant's viscosity is going to be very high, and the oil structure will thicken up.
+        Gears will start to push congealed "pieces'' of engine oil out of the way and won't be able to pass lubricant to the other
+        components that need it as well. This will eventually require higher energy to start the engine since friction between the
+        components has been increased. Components in the engine will starve of lubricant, which would lead to the metal to
+        metal contact. 16
+
+        Experimental Variables
+        The independent variable is the temperature of the engine oil in the experiment. The temperature is measured in °C
+        and is increased every trial by 5°C.
+
+        The dependent variable is the dynamic coefficient of friction or the surface slip resistance coefficient of the object.
+
+        The controlled variables are, the mass of the aluminium cuboid affecting the Normal to the surface (R), the mass of the
+        weights affecting the net force of the system (Fnet) and the distance (s) that the aluminium cuboid crosses.
+
+
+        Hypothesis
+        In an engine, a combustion reaction occurs to the fuel, producing heat and counterforce for the piston, forcing it to
+        move. This counterforce is the useful energy generated from the combustion reaction. Nevertheless, more energy is lost
+        due to the friction of the components in the engine. Engine oil is used to lower friction between the surfaces within the
+        engine block to raise efficiency. However, engine oil shows limitations as it starts to lose its purpose of providing more
+        frictionless contact between components. The engine oil's temperature boundaries where it starts to lose its purpose are
+        at boundaries: lower than 3°C; higher than 300°C. When engine oil temperature rises towards 300°C, it starts to lose its
+        properties, such as becoming thinner and its viscosity drops. Whereas when it drops towards 3°C the liquid starts to
+        thicken and delays the engine components' movements. These will hamper the movement of the piston, leading to less
+        energy generated. Considering this, I hypothesise that the increase in engine oil's temperature from the normal
+        (room) temperature, will increase the dynamic friction between the components.
+
+
+
+
+12
+   "What is Motor Oil? | Pennzoil." https://www.pennzoil.com/en_us/education/know-your-oil/what-is-motor-oil.html. Accessed 9 Jan. 2021.
+13
+   Durak, Ertuğrul & Kurbanoglu, Cahit & Tunay, Recai. (2006). Experimental study of effects of oil additives into coefficient of friction in journal bearings at different
+temperatures. Industrial Lubrication and Tribology. 58. 288-294. 10.1108/00368790610691365.
+14
+   Durak, Ertuğrul & Kurbanoglu, Cahit & Bıyıklıoğlu, Aydın & Kaleli, Hakan. (2003). Measurement of friction force and effects of oil fortifier in engine journal bearings
+under dynamic loading conditions. Tribology International. 36. 599-607. 10.1016/S0301-679X(02)00263-3.
+15
+   "The Effect of Temperature on Lubricant Viscosity | Shell United States."
+https://www.shell.us/business-customers/lubricants-for-business/shell-expertise/our-experts/robert-profilet/effect-of-temperature-on-viscosity.html. Accessed 20
+Feb. 2021.
+16
+   "How Cold Temperatures Affect Your Lubricants." https://www.machinerylubrication.com/Read/30093/cold-temperatures-lubricants. Accessed 20 Feb. 2021.
+
+
+                                                                                                                                                         3
+          Experiment Equipments:
+
+           1. An Aluminium Cuboid with 4x8x1 cm (0.1kg ± 0.005kg)
+           The aluminium Cuboid takes the role of the piston. The reason for choosing aluminium is due to the fact that most of
+               the vehicles use aluminium for their pistons. This is because they are lighter, and have the necessary metal strength
+               needed for the engine.17I will limit my investigation into using one type of the cuboid aluminium.
+           2. An Aluminium Rail Track (0.80m ± 0.005m)
+           The aluminium Rail Track will cover the role of the inner surface of the engine.
+           3. A Fixed Pulley
+           A pulley will be used to change the direction of the force exerted without changing the magnitude of the force
+           4. 1x Photogate
+               “Photogates are a timing device that measures times of the changes in state of an infrared beam that is blocked by
+               a flag of known length, as well as the times the beam is unblocked. Using the flag length, and the blocked time,
+               students can calculate speed.”18
+           5. 1 liter 15W-40 Engine Oil
+           The engine oil will be used in order to measure the various velocities of the aluminium objects when it passes through
+               various engine oil temperatures.
+           6. 200ml Beaker
+           A beaker will be used in order to hold up the engine oil at the heater
+           7. Laboratory hot Plate
+           A heater will be used to heat up the engine oil into different temperatures
+           8. Mercury Lab Thermometer (± 0.05°C)
+           A thermometer that measures a maximum of 100°C will be used in order to measure the exact temperature of engine oil
+           9. String (0.70m ± 0.005m)
+           A non elastic string will be used in order to connect the weights with the aluminium cuboid
+           10. Weights (0.1kg ± 0.005kg)
+           Weights will be used as a pull force for the aluminium cuboid. Weights need to weigh more than the aluminium cuboid.
+
+          Experimental Procedure
+          Fig 2: Diagram of the apparatus for the investigation
+
+
+
+
+17
+     MAHLE GmbH. “Piston Materials.” SpringerLink, 2012, link.springer.com/chapter/10.1007%2F978-3-8348-8662-0_4.
+
+18
+     "Photogates, Fences, and Timers - Product Guides | PASCO." https://www.pasco.com/products/guides/photogates. Accessed 23 Aug. 2020.
+
+
+                                                                                                                                           4
+Follow the sketch of Fig.2
+1.      Position the aluminium rail track on one side end of a desk.
+2.      Hook up the pulley on the side of the rail track that is close to the end of the desk
+3.      Hook up the photogate in the rail track, 10 cm away from the pulley
+4.      Position the aluminium object 65cm away from the photogate.
+5.      Attach the aluminium object to the string, and attach the other end of the string to the weights.
+6.      Wrap the string around the pulley
+7.      Suspend the weights in mid-air while the aluminium object is on the rail track
+8.      Pour 30ml of room temperature engine oil in the beaker and then pour in in the rail track.
+9.      Set the photogate on before starting to take the measurements.
+10.     Release the weights to fall downward under the influence of gravity, in order to accelerate the aluminium object
+11.     Measure the velocity of the aluminium object while passing through the photogate.
+12.     Repeat the experiment 4 times per value of temperature taken
+13.     Clean up the rail track before the next engine oil temperature is poured.
+14.     Pour another 30ml of engine oil in the beaker.
+15.     Increase the temperature of the engine oil by 5°C more than the previous temperature
+16.     Repeat the steps 8-14 until the final temperature to measure is 55 °C
+
+Risk Management
+While conducting an experiment is important to take into consideration the risks that an experiment might hold. The risks
+of the experiment held for this experiment are going to be considered according to the three main criterias: Safety
+Issues; Ethical Issues; and Environmental Issues:
+
+Safety Issues
+To prevent getting burned from the engine oil droplets, the temperatures investigated were ranging from 20 °C to 55 °C.
+Make sure to use heat gloves every time you use the heater. Consider using a N95 mask in order to prevent breathing
+the pollutants that the engine oil might produce while heating up.
+
+Ethical Issues
+The engine oil used will be poured back into its bottle so that it can be recycled for other investigations.
+
+Environmental Issues
+Another reason for not having the engine oil reach high temperatures is due to its capability to pollute the environment.
+When engine oils heat up, they can produce airborne pollutants that can reach into people's lungs and affect their
+health. If engine oil reaches water surfaces as oceans and seas, it floats on the surface of the water. That blocks the
+sunlight and the oxygen that the ocean requires for its creatures to live, thus killing fish and shellfish.19
+
+
+
+
+  19
+    "Why we should recycle used motor oil - Fact sheet."
+  https://www.environment.gov.au/protection/publications/factsheet-why-we-should-recycle-used-motor-oil. Accessed 23 Aug. 2020.
+
+
+                                                                                                                                  5
+Gathering Raw Data
+
+TABLE 1: Velocity values taken every try that the engine oil temperature was increased
+
+
+                                     Final Velocity v ± 0.005 m/s
+    Temperature ±0.5°C /          Trial 1           Trial 2            Trial 3           Trial 4           Average
+      Number of tries              m/s               m/s                m/s                m/s               m/s
+            20 (°C)                1,67              1,80               1,75              1,69               1,73
+            25 (°C)                1,81              1,80               1,79              1,80               1,80
+            30 (°C)               1,89               1,85               1,85              1,85               1,86
+            35 (°C)               1,96               1,97               1,90              1,87               1,93
+            40 (°C)               1,99               2,00               1,99              1,99               2,00
+            45 (°C)               2,02               2,01              2,00               2,01               2,01
+            50 (°C)               2,03               2,01              2,02               2,02               2,02
+            55 (°C)                2,11              2,07               2,10              2,08               2,09
+
+
+
+After the different velocities values were gathered in the experiment, the average of each velocity for each temperature
+change was calculated. This way, instead of taking into concern all four values of velocities of each trial, a generalization
+of these values could be taken into consideration for the analysis. Without getting into a deeper explanation, it becomes
+noticeable that the object’s average velocity has increased for every increase in temperature to the engine oil. This has
+proved that temperature of lubricant does affect the velocity of the cuboid.
+
+
+Analysis and Processing of Data
+
+The first approach towards the analysis of raw data, is to find an equation that allows us the possibility to find μd
+(dynamic coefficient of friction) as an output and the velocity of the cuboid as an input. After that the uncertainties need
+to be calculated as well so that the graphing a data becomes possible
+Figure 3: Sketch of the full body diagram of the aluminium object and the weights
+
+
+
+
+                                                                                                                    6
+In order to determine the coefficient of friction, a free-body diagram of the weights and the aluminium object was made.
+
+The forces acting on the aluminium object are:
+-        Weight (W) acting downard
+-        Normal Force (R) acting upwards to prevent the two solids from passing through each other
+-        Friction (f) between the rail track and the object resisting the motion of the object
+-        Tension (T) on the rope accelerating the object
+The normal to the surface force is canceled out with the weight of the object. That applies because there was no change
+in angle between the rail track and the horizontal surface (thus, both vectors have the same magnitude) and because
+both vectors have opposite directions with each other. This outlasts only the force of tension (T) and friction (f) to be
+further considered in the analysis. Since the object is in motion, it is said that T>f, since a greater force than friction,
+needs to be applied to set the body in motion.
+
+The forces acting on the weights are:
+-        Weight (W) of the weights
+-        Tension (T) on the rope
+In the situation of the weights, the resistance of the dowards pull of gravity is going to be experienced through the
+upward tension force. Since the weights are in motion, it is said that W>T, since a greater force than Tension needs to be
+applied in order to set the body in motion downwards.
+
+Newton’s 2nd law equation will be used for the two free-body diagrams in order to write two equations that will allow us
+to determine two expressions to find the value of tension. The Fnet will be expressed as the force in the direction of the
+motion minus the force that opposes it. This will lead us to the equations [2] and [3].
+
+
+
+Mass of the aluminium cuboid is (m1)= 0.1kg ± 0.005kg
+Length of the distance covered from the cuboid = 0.65m ± 0.005m
+Mass of the weights is (m2) = 0.1kg ± 0.005kg
+
+1.        Finding the value of Tension for The Aluminium Object (Fnet-Net Force (sum of vectors acting on a body20) ; (g-
+Gravitational force, that is equal to 9.81 m/s2)
+Fnet = T − f
+m1 × a = T − (R×μd)
+m1 × a = T − (m1 × g×μd)
+T= m1 × a + (m1 × g×μd) [2]
+
+
+
+2.       Finding the value of Tension for the Weights
+Fnet = W − T
+m2 × a = m2 × a − T
+T = m2 × g − m2 × a [3]
+
+
+The values will be rearranged so that the equation allows the value of the dynamic coefficient of friction as an output.
+This created a proper equation that contained as an output the coefficient of friction and as an input the velocity of the
+aluminium object.
+
+
+  20
+    "Determining the Net Force - The Physics Classroom." https://www.physicsclassroom.com/class/newtlaws/Lesson-2/Determining-the-Net-Force.
+  Accessed 19 Feb. 2021.
+
+
+                                                                                                                                  7
+3.      Set the two tension formulas [2] ; [3] equal to each other and solve for μd
+m1 × a + (m1 × g×μd) = m2 × g − m2 × a
+(m1 × g×μd) = m2 × g - m2 × a − m1 × a
+𝑚 2 × 𝑔 − 𝑚 2 × 𝑎 − 𝑚 2× 𝑎
+                                            =μd
+                    (𝑚 1 × 𝑔)
+
+𝑚 2 × 𝑔 − 𝑎 (𝑚 1 + 𝑚 2)
+                                      =μd
+                   (𝑚 1 × 𝑔)
+
+4.       Use the kinematic equations (it is assumed the cuboid slides in a perfect straight line) in order to substitute the
+value of acceleration with the velocity of the aluminium object.21
+* Kinematic equation:
+v2 = u2 + 2a × ∆𝑠
+Where: v-final velocity; u-initial velocity which is equal to 0 since the object starts at rest; ∆𝑠- change of the distance that
+the object has covered;
+           2
+       𝑣
+a= 2∆𝑠 [4]
+                           2
+                       𝑣
+𝑚 2 × 𝑔 − ( 2∆𝑠 ) (𝑚 1 + 𝑚 2)
+                    (𝑚 1 × 𝑔)
+                                            =μd [5]
+
+Example:
+                                  2
+                           1.73
+0.1 × 9.81 − ( 2×0.65 ) (0.1+ 0.1)
+                    (0.1 × 9.81)
+                                             =μd
+0.981 − (2.302)×(0.2)
+       (0.981)
+                      =μd
+0.981 − (2.302)×(0.2)
+       (0.981)
+                      =μd
+
+0. 53068=μd
+
+μd=0. 53068
+Using the values of average velocities from Table 1, the formula [5] was used to generate the values of dynamic friction
+per each temperature value.
+
+
+UNCERTAINTIES
+We will calculate the error of μd using the method of propagation of errorsI as shown in the following:
+●        m1 = m1 ± Δm
+●        m2 = m2 ± Δm
+●        a = a ± Δa
+●        v = v ± Δv
+●        s = s ± Δs
+
+               2
+           𝑣
+𝑎=         2𝑠
+
+  21
+       Homer, David, and Michael Bowen Jones. “Forces.” Physics, Oxford, 2014, pp. 36–37.
+
+
+                                                                                                                      8
+                         2                              2
+          𝑑          𝑣                       𝑑     𝑣
+Δ𝑎 = 𝑑𝑣 ( 2𝑠 )Δ𝑣 + 𝑑𝑠 ( 2𝑠 )Δ𝑠
+
+                         2                              2
+          𝑑          𝑣                       𝑑     𝑣
+Δ𝑎 = 𝑑𝑣 ( 2𝑠 )Δ𝑣 + 𝑑𝑠 ( 2𝑠 )Δ𝑠
+
+                                         2
+              𝑣                     𝑣
+Δ𝑎 = ( 𝑠 )Δ𝑣 +(                          2   )Δ𝑠
+                                    2𝑠
+
+
+       𝑚 2 × 𝑔 − (𝑎) (𝑚 1 + 𝑚 2)
+μd =
+                         (𝑚 1 × 𝑔)
+
+       𝑑   𝑚 × 𝑔 − (𝑎) (𝑚 + 𝑚 2)        𝑑   𝑚 × 𝑔 − (𝑎) (𝑚 + 𝑚 2)          𝑑   𝑚 × 𝑔 − (𝑎) (𝑚 + 𝑚 2)
+μd =
+       𝑑𝑎
+          ( 2 (𝑚 × 𝑔)1           )Δ𝑎 + 𝑑𝑚 ( 2 (𝑚 × 𝑔)1            )Δ𝑚 1 + 𝑑𝑚 ( 2 (𝑚 × 𝑔)1            )Δ𝑚 2
+                     1                    1           1                      2           1
+
+
+
+
+         (𝑚 1 + 𝑚 2)                                        𝑔−𝑎                𝑎×𝑚 1
+μd =(                               )Δ𝑎 + ( (𝑚                      )Δ𝑚   + (    2      )Δ𝑚 1
+          (𝑚 1 × 𝑔)                                          1
+                                                               × 𝑔)     2     (𝑚   × 𝑔)1
+
+Example:
+For the value of v = 1.73 m/s
+          2                     2
+        𝑣                1.73
+𝑎=      2𝑠
+                  = 2×0.65 = 2. 30
+                                         2
+              𝑣                     𝑣
+Δ𝑎 = ( 𝑠 )Δ𝑣 +(                          2   )Δ𝑠
+                                    2𝑠
+                                                               2
+              1.73                                      1.73
+Δ𝑎 = ( 0.65 ) × 0. 005 +(                                          2   ) × 0. 005
+                                                       2×0.65
+                                                               2
+              1.73                                      1.73
+Δ𝑎 = ( 0.65 ) × 0. 005 +(                                          2   ) × 0. 005
+                                                       2×0.65
+
+Δ𝑎 = 0. 01330 + 0. 017709
+Δ𝑎 = 0. 03101
+
+          (𝑚 1 + 𝑚 2)                                           𝑔−𝑎                   𝑎×𝑚 1
+Δμd =( (𝑚 × 𝑔) )Δ𝑎 + ( (𝑚 × 𝑔) )Δ𝑚   +(    2      )Δ𝑚 1
+         1               1
+                                   2    (𝑚   × 𝑔)                                          1
+
+              (0.1+ 0.1)                                                9.81 − 2.30              2.30 × 0.1
+Δμd =( (0.1 × 9.81) )0. 03101 + ( (0.1 × 9.81) )0. 005 + (                                            2             )0. 005
+                                                                                               (0.1       × 9.81)
+
+              (0.1+ 0.1)                                                9.81 − 2.30              2.30 × 0.1
+Δμd =( (0.1 × 9.81) )0. 03101 + ( (0.1 × 9.81) )0. 005 + (                                            2             )0. 005
+                                                                                               (0.1       × 9.81)
+
+Δμd =0. 00632 + 0. 03826 + 0. 011734
+Δμd =0. 056314
+Δμd =± 0. 056
+
+
+
+
+                                                                                                                              9
+TABLE 2: The dynamic friction coefficient per different values of the temperature
+
+Processed Data Table
+
+                                                   Dynamic Coefficient μd
+                     Temperature ± 0.5°C                Dynamic Coefficient per average               Uncertainty of the dynamic
+                                                                  velocity                                    coefficient
+
+                              20 (°C)                                      0.53                                      ±0.05
+
+                              25 (°C)                                      0.49                                      ±0.05
+
+                              30 (°C)                                      0.45                                      ±0.05
+
+                              35 (°C)                                      0.41                                      ±0.05
+
+                              40 (°C)                                      0.37                                      ±0.05
+
+                              45 (°C)                                      0.36                                      ±0.05
+
+                              50 (°C)                                      0.36                                      ±0.05
+
+                              55 (°C)                                      0.31                                      ±0.05
+
+Table 2 reveals that the dynamic coefficient between two dry aluminum surfaces (1.422) would drop to 0.85 when
+engine oil is applied between the surfaces. This proves that lubrificantes do make the movement easier in an engine.
+
+Graph 1: The Variation of The Coefficient of Friction of the Aluminium object with the change in the Temperature of Oil
+
+
+
+
+Graph 1 shows the relationship between the experimental values of Temperature and and the calculated coefficient of
+dynamic friction. According to the graph, the dynamic coefficient of friction between the surfaces is affected by the
+Temperature of the lubricant and this relationship is linear. As the temperature of the engine oil increases the dynamic
+coefficient of friction decreases.
+
+In this graph, the regression coefficient is R2=0.962, which suggests that the correlation of data with the trendline is very
+strong. Taking into account the values presented in the graph, the hypothesis states proved to be wrong.
+
+
+
+22
+     "Friction and Friction Coefficients - Engineering ToolBox." https://www.engineeringtoolbox.com/friction-coefficients-d_778.html. Accessed 24 Aug. 2020.
+
+
+                                                                                                                                           10
+                                                                                  23
+
+
+The plot above visualizes engine oil characteristics that belong to the category 15W-40(the same as the lubricant used in
+this experiment). By studying the range of this plot in which the experiment will occur (visualized by the blue square),
+specifically the range from 20°C to 55°C, a few conclusions can be made. The kinematic viscosity is seen to drop sharply
+as the temperature increases, whereas the density of the oil falls linearly with the increase in temperature. This means
+that although the density does not decrease by a great margin, the property of kinematic viscosity is affected
+significantly. As expected, with the increase in temperature and the fall of the kinematic viscosity, the dynamic friction
+coefficient will also rise. The experiment aims to gather measurements of the dynamic coefficient of friction in increasing
+temperatures and observe an increasing trend, which would be consistent with the fall of the kinematic viscosity.
+
+The reason why this phenomenon occurred in the experiment focuses on the fact that the low values of temperatures
+have been taken into consideration. Even though the engine oil has been heated up and has started to get thinner and
+lose its viscosity, it won't reach a significant level to affect the dynamic coefficient of friction to increase. Due to that, the
+engine oil is still thick and viscous enough to stay in between the two aluminum surfaces leading to the cuboid aluminum
+to slide faster each time the temperature is increased and thus leading to the dynamic coefficient to decrease. The
+engine oil features are still available to the system; however, it is clear that the moment the engine oil starts to exceed a
+specific temperature, the properties of the lubricant will lose up ;and the results of the research made earlier, will begin
+to show up. Moreover, this investigation's temperature values and the insignificant lowering of viscosity would improve
+the system by allowing the engine oil to cover up the surface in greater detail. The internal friction between the engine
+oil molecules will get lower and allow the dynamic friction to decrease.
+
+Conclusion and Evaluate
+
+In conclusion, this investigation has proven my initial hypothesis to be wrong. The gathered measurements show the
+dynamic coefficient of friction to be decreasing, thus the increase in temperature of this oil would lead to a machine
+running more efficiently. However, although the measurements portray this behavior in the oil, it is important to note that
+my hypothesis was motivated by research, which studies the change of the dynamic friction coefficient at much higher
+temperatures. In higher temperatures, the viscosity of the oil falls to the extent that the oil is not capable of effectively
+coating the surfaces, thus leading to contact and not only higher friction, but also deterioration of mechanical parts. As a
+result, I am inclined to believe that my investigation did not support my hypothesis, because it is not possible for me to
+recreate high oil temperatures in my experiment, and add those measurements to my data. Regardless, the use of this
+lubricant did in fact lead to significantly decreased friction between aluminum parts.
+
+
+
+        23
+          "Viscosity of Engine Oil – viscosity table and ...." https://wiki.anton-paar.com/en/engine-oil/. Accessed
+        12 Mar. 2021.
+
+                                                                                                                      11
+Experimental Assumptions which then translate into the investigation’s limitations have been taken in consideration as
+well such as:
+  1. While it is sliding in the rail track, the trajectory of the cuboid is in a straight line without deviations. Deviations
+      curve the cuboid's trajectory, meaning that the kinematic equations would result in being ineffective. Thus, the
+      cuboid trajectory was a factor that was taken into consideration while holding the experiment. Every time that
+      significant deviations of the cuboid were noticed, the data was dropped. The experiment was repeated for the
+      same conditions.
+  2. The engine oil poured over the rail track is equally distributed across the track. If the engine oil was distributed
+      incorrectly, it would lead the cuboid to experience less friction in the lubricated areas and high friction in
+      unlubricated areas. This would further affect the final velocity of the object, which would direct to an unreliable
+      result.
+  3. The contact between the heated engine oil and the rail track's temperature, doesn't affect the lubricant
+      temperature. In a scenario where the assumption would be considered, it would result in the engine oil's
+      calculated temperatures being inaccurate. That results because the lubricant's internal energy will pass to the rail
+      track by conduction, until both temperatures achieve thermal equilibrium.
+  4. The lubricant's temperature values from 20°C to 55°C are significant enough to provide a conclusion. The
+      research found out that engine oil starts to lose its properties at high temperatures (300°C). This would lead the
+      experiment to be incapable of determining a lubricant's limitations in terms of the dynamic coefficient of friction.
+      This would further lead the conclusion to be inaccurate due to the lack of similar conditions as in a real engine.
+  5. The velocity of the cuboid is the same as the velocity of a piston. A piston's velocity might vary around 25m/s. This
+      has shown a weakness in data representation since they were not so realistic about the situation they were being
+      investigated.
+
+This experiment has some ways of improving such as :
+
+One method of improving my investigation would be the rail track's heating up to the same temperature as the lubricant
+temperature that is being tested. This would reduce the error of values of temperature of the lubricant. That results
+because both materials' temperature would be similar; thus, no significant energy transfer between the two materials
+would occur. A second improvement to the experiment would be to consider the dynamic friction of all the types of
+engine oils. When examining an engine oil, it is essential to consider the location in which the lubricant is used.
+Lubricants that are thin and less likely to thicken in low temperatures allow for a quick start of your engine in cold
+weather. Lubricants that are thick and less likely to thin in hot temperatures allow for the oil to last longer, and perform
+better at higher temperatures. 0W-20 and 5W-30 lubricants are used for colder climates, and; 15W-40 and 20W-50
+lubricants are used for hotter climates.24 Taking this into account, different lubricants would experience different changes
+in viscosity as a response to the temperature changes. Thus it is essential to mention that the results for one lubricant do
+not necessarily apply to all lubricants.
+
+Further studies or an extension to this, would be to determine the dynamic coefficient of friction in pistons with other
+material such as steel, and also in different types of engine oils. Every type of engine oil tends to have a different effect
+on the coefficient compared to the other ones (as mentioned in the analysis). This might lead to the evaluation of one of
+the most efficient engine oils. A further extension would be if the experiment would be conducted in engine oil surfaces
+with higher temperature than 55 °C. This would prove the information gathered from the articles that the engine oil loses
+its properties in high temperatures because it gets thinner and less viscous, proving the stated hypothesis to be true.
+
+Overall, I was amazed that I could clearly demonstrate the relationship of temperature of the oil and the dynamic
+coefficient of friction with all the limitations occurring during the eksperiment. This is just one more fascinating example
+found in the world that could be applied in the Motion unit of physics.
+
+
+
+
+24
+  "Oil viscosity and oil grades | Lubricants - Total Lubricants."
+https://www.lubricants.total.com/consumers/maintenancetips/Oil-viscosity-and-oil-grades. Accessed 12 Mar. 2021.
+
+
+                                                                                                                  12
+

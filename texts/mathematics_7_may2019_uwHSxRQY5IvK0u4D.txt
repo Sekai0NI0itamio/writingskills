@@ -1,0 +1,698 @@
+Introduction
+Doraemon is a manga series and a name of a walking cat-shaped robot that came from the
+future to change youth protagonist’s life using future gadgets that act in magical ways. It is
+a nationwide known character in Japan and has been airing in Japan for more than 40
+years.
+As a citizen of Japan, I, too became fond of this series since when I was small. Although
+now I understand that the technology probably would not be advanced while I am
+                                                                                                             Figure 1
+alive, as a child I genuinely believed that his gadgets are possible sometime soon. It
+was around that time that I started developing interests in industrial design¾ which
+start off as a mere sketch of imaginary items that I wanted to make. Doraemon was a
+huge source of inspiration in those ideas, and eventually led me in studying design principals by
+myself. This interest is also reflected in my MYP Personal Project ‘Typography’ and taking SL Art             in
+Diploma Programme.
+Since I aim to pursue a career in industrial design, I would take this math investigation as an opportunity to use
+my skills in Adobe Illustrator, — a graphics editing software commonly used in an industry — that I have
+developed throughout the years. In scope of finding the aim, this would support further development of my
+career as an industrial designer by demonstrating my spatial perception ability as well as designing a unique
+solution to the proposed issue (in this case finding the volume).
+
+Aim
+I would be able to utilise my skills in industrial design to simply steps, and to develop modeling skills by first,
+creating Doraemon’s model graphically, then applying skills in mathematics of transformation and calculus
+(volumes of revolution) to find out his volume from limited information I am provided of – which is a skill that
+is required for a professional designer.
+By finding out the volume, it would allow to apply this skill when full-scale modeling, which is again an
+important skill in assessing the ergonomics of a product. Silicon casting is typically a popular option in molding.
+The found volume would specifically be applicable in knowing the volume of silicon to be used in this process.
+
+Splitting up into sections
+Before I dive in to calculations, in order to make this investigation intuitive, I have used a 3D Doraemon figure I
+had since I was small. The 3D model I own is vertically symmetrical, which is significant for this investigation as
+when using volume of revolution method, it will revolve the shape 2" radians, thus requiring the shape to be
+symmetrical around the axis of symmetry.
+
+Since Doraemon has a complex shape, it must be split into different sections. Three main section that comprises
+his body are: Head (Face), Body, and feet. Exterior elements such as nose, arms, pocket that stick out of the main
+body parts will be calculated individually and added on to the original volume, as these elements cannot be
+integrated to the original equation.
+
+                       To start off, the picture of Doraemon was calibrated on Illustrator so that it would have a
+                       height of 10cm. In this process, a picture of Doraemon was taken straight above, and the
+                       picture was scaled. The scaling is performed in order to provide ease when magnified to
+                       the actual scale the creator of Doraemon specifies.
+
+                       Defining the height would also signify that the whole of body elements across the x-axis
+                       would add up to 10cm. Since I would be using multiple equations to recreate his body,
+Figure 2 – Doraemon    this would support in specifying the domain as well.
+figure calibrated to
+10cm height
+
+
+
+
+                                                                                                                     1
+Basic Equations
+Based on the adjusted height, I have created an over view of Doraemon’s body using Illustrator’s Ellipse tool and
+Pen tool to visualize the outline of his shape. Ellipse tool can create shapes based of circle, and
+Pen tool can draw any sort of lines. In both cases, the software will provide the dimensions (width and height) of
+created shapes.
+
+
+                                                                                 Green line is used for the head.
+                                                                                 Blue line is used for the bump on
+                                                                                 the neck.
+                                                                                 Pink line is outlining his stomach
+                                                                                 and leg area.
+                                                                                 Orange line is used for his legs.
+
+
+ Figure 3 – A graphical representation of Doraemon using Illustrator
+
+
+From this process, I was able to identify two main types of equation that can be used in order to recreate his body
+structure. Since green and blue line were created using Ellipse tool and adjusted accordingly, we can here apply
+transformation to the general formula of circle, where r is the radius:
+                                                  #$ + &$ = ($
+
+                                                                               On the other hand, the shape of
+                                                                               pink and orange line resembles the
+                                                                               shape of a logistic function (the red
+                                                                               box area of Figure 4). Although the
+                                                                               shape of pink line is opposite to that
+                                                                               of the logistic function, this can be
+                                                                               solved through transformations. For
+ Figure 4 ¾ an example of Logistic                                             the orange line, no problem is seen.
+ function                            Figure 5 ¾ the close up of orange and
+                                     pink line
+
+                                     It may seem that orange and pink line also resemble ln(#) function too.
+                                     However as soon as I graphed, I realized that it is not suitable for modeling,
+                                     because & value kept increasing as # increased, while as seen in Figure 5 the
+                                     lines are rather straight after a while.
+                                     Overall, logistic function be used for its nature of being able to set limits for
+                                     plateau. The general formula is below.
+ Figure 6 ¾ ln(x) function
+
+                                                             )
+                                                   &=
+                                                        1 + + × - ./0
+
+Where ) is the horizontal asymptote, + and 2 being the constant.
+
+
+
+
+                                                                                                                         2
+Domain
+
+
+
+
+The values on                                                                 Figure 7 are numbers showing
+the width of each element. This would be used to determine the domain of a function. Table 1 is a summary of
+what domain each function will be using.
+
+
+                                                                        Table 1
+
+                                                                                  Part Domain
+                                                                                  Head   0 ≤ # < 5.303
+                                                                                  Neck 5.303 ≤ # < 5.840
+                                                                                  Body 5.840 ≤ # < 9.384
+                                                                                  Feet  9.384 ≤ # < 10
+
+Figure 7 — Tracing of a Doraemon with width of each element indicated
+
+alculations of main parts
+Head
+As stated above, head will use the circle formula. To begin with, following basic transformations must be
+identified.
+                                            (# − ℎ9 )$ + (& − :9 )$ = ( $
+
+While both ℎ and : indicates the coordinate of the circle’s center, ℎ translates the x-coordinate, and : translates
+the y-coordinate. In this case, we can see that the green line directly extends from the origin (0,0) (Figure 3/) and
+does not require a vertical translation.
+                                                       :9 = 0
+
+The dimensions of this green line are also provided by the software that was used to create this model. Since the
+graphical representation was created by adjusting the circle, semi-circle, the maximum height (y-axis) of this line
+would provide us the radius.
+
+                                                  (9 = 2.968 (given)
+
+The value of @A is also same as radius, as we want the circumference of the circle to lie on (0,0), not anywhere
+negative.
+
+Overall, following is the equation of the head after substituting the values back in.
+
+                                            (# − 2.968)$ + & $ = 2.968$
+Rearranging:
+                                  & = B2.968$ − (# − 2.968)$
+                                    = B8.809024 − (# $ − 5.936# + 8.809024)
+                                    = B5.936# − # $
+
+
+                                                                                                                      3
+As previously mentioned, the software provides dimensions for the shape created. From this data, I am also come
+to aware that the ellipse is not a complete circle, and it is transformed slightly to match the outline. According to
+the software, width of the circle is 5.764cm, and height is 2.968cm.
+
+Dividing the width by 2 will give enough information to find out the scale factor.
+
+                                               5.764 (width)
+                                                             = 2.882
+                                                     2
+
+I now can adjust the width of the equation to 2.882 cm by applying horizontal compression.
+
+                                                         2.882
+                                   scale factor of # =         = 0.9710242588
+                                                         2.968
+
+Applying the transformation:
+                                          #               #      $
+                    & = U5.936 V                W−V             W {0 ≤ # < 5.303}
+                                    0.9710242588    0.9710242588
+
+From the calculation above, function for the head Z(#) is found.
+                                Z(#) = B6.17# − 1.08# $ {0 ≤ # < 5.303}
+
+Neck
+The bump of his neck, in context is a result of him wearing a choker with a bell. Since it is a choker made of
+strings, it is fair to assume that the cross section is a perfect circle. Therefore, it does not require enlargement or
+compression.
+Letting [(#) be the function of his neck, we know that:
+                                           [(#) = B(($ )$ − (# − ℎ$ )$ + :$
+
+According to the information the software provides, the value for radius is following:
+                                                  ($ = 0.27
+
+In order to allow multiple equations to seamlessly connect with each other, &-value at the domain limit of Head
+equation was found and applied as a transformation so that two equations will not overlap.
+                                               Z(5.303) ≈ 1.610
+                                                                          0
+                                         ]-(^_`ab ^(acdba^_ec f& g           h
+                                                                        1.610
+                                                      :$ = 1.610
+The centre of the circle was also moved for the same reason:
+                                                          0.27 + 5.303    5.5703
+                          ie(_jec^ab ^(acdba^_ec f& g                  h=g       h
+                                                               0             0
+
+                                                     ℎ$ = 5.5703
+
+Final equation of the neck:
+                        [(#) = B0.27$ − (# − 5.5703)$ + 1.610 {5.303 ≤ # < 5.840}
+
+Body
+While logistic function exists, it is much complicated than the circle formula to transform and match the shape.
+Thus, manually adjusting the formula is both time-consuming, and human-eye is never accurate to begin with.
+
+
+
+
+                                                                                                                          4
+I sought for a solution where I can use the existing known data that could be reused mathematically in a form of
+equation. Initially, free mathematics software GeoGebra was used to plot data points on a photograph, but I faced
+a problem where I was not able to calibrate the plot scale as I desired to, which resulted in exporting a dataset
+
+
+
+
+that was nowhere close to the scale seen in
+Figure 7.
+
+As I proceed, I found a free software ‘WebPlotDigitizer’, on the internet. This software was developed aiming to
+‘reverse engineer images of data visualizations to extract the underlying numerical data’ (Rohatagi A., 2018),
+which suits perfect for my situation where I have a visual representation without numerical data, but with
+existing scale.
+
+After exporting a higher resolution image from Illustrator and imported into WebPlotDigitizer, I was able to
+successfully calibrate so that the scale of x and y would match up to that of the image. Following this, I have
+plotted points on the image along the pink line to uncover the numerical value of the body outline. The plots
+were then extracted for further analysis.
+
+
+
+
+        Figure 8 – Process of plotting red dots on the Pink line. Check Appendix A for raw data.
+
+Datasets extracted were analysed in GeoGebra. This software will output the equation for the binary logistic
+regression from datasets using =FitLogistics(Dataset) command.
+A regression is a statistical method of summarising the finding between independent variables and dependent
+variables. Although this case, there no such thing as variables. Despite this, the core aim for the regression is to
+minimize the residual error (the difference between actual value and predicted value) when compared with the
+actual data sets, and GeoGebra will aid in minimizing this.
+
+
+
+
+                                                                                                                       5
+1st attempt
+                                                        In Figure 9, the black dots are the extracted data and
+                                                        orange line is the best-fit GeoGebra gave. As it is apparent
+                                                        from Figure 9, the best-fit command did not work very
+                                                        well. This is perhaps because as seen in Figure 4, a logistic
+                                                        function show an exponential growth rather than
+                                                        exponential decay.
+                                                        The equation exported was following:
+                                                                                      1.69957
+                                                                             &=
+                                                                                   1 + 0ℯ l.m990
+Figure 9 – Initial attempt on Geogebra                  The accuracy of this model was measured using the R-
+                                                        squared (R2) value.
+R is a statistical measure of how well the trend is being represented in a model, from scale of 0 to 1, where 0
+  2
+
+being the least accurate and 1 being a perfect model.
+R2 for Figure 9 was 0.786. The high R2 value despite the discrepancy between real data perhaps arises from the
+data plots that are plotted horizontally.
+The R2 for the plots located in between 8.5 < # < 9.5 in particular was 0.396, further indicating that the model
+generated here is inaccurate.
+
+2nd attempt
+I assumed that this error could be because the shape Figure 5 had was mirrored compared to normal shape of
+logistic function (Figure 4). Therefore, I performed a horizontal reflection for all the datasets extracted, and thus
+would match the shape seen in logistic function.
+Additionally, the whole data set was moved to quadrant 1, as few of the plots after reflected invaded quadrant 4.
+Following translation was applied:
+
+                                                          9.322465
+                                          n(acdba^_ec f& V        W
+                                                              0
+
+-9.322… was the smallest value amongst the data plots, and translation had to be greater than this to make
+everything in quadrant 1. This point now lies at # = 0.
+
+                                                               After reflection and translation, GeoGebra was able
+                                                               to give out an equation of a logistic model that fits
+                                                               the dataset.
+                                                               R2 value for this refined model was 0.995, in which
+                                                               is a fair value to conclude that it is accurate enough
+                                                               to be used.
+
+
+
+
+Figure 10
+Following is the equation generated by GeoGebra
+                                                         1.72496
+                                             _(#) =
+                                                      1 + 0ℯ .$.moop90
+
+As I applied several transformations to obtain this equation, few additional steps must be taken to make this
+model usable. First, the process of horizontal reflection must be reversed.
+
+                                                                      1.72496
+                          Horizontal Reflection: _(−#) =
+                                                              1 + 0.54605ℯ .$.moop9(.0)
+
+
+
+                                                                                                                    6
+                                                  3.544 + 5.84   9.384
+                                  Translation by V            W=V     W
+                                                       0           0
+
+                                                            1.72496
+                            _x−(# − 9.384)y =
+                                                 1 + 0.54605ℯ .$.moop9(.(0.z.{m|))
+
+Therefore, the final function ℎ(#) for his body is _(9.384 − #):
+
+                                           1.72496
+                       ℎ(#) =                                     {5.840 ≤ # < 9.384}
+                                1 + 0.54605ℯ $.moop90.$}.lz9|9{m|
+Feet
+Similar procedure as Body section was used as well for the feet. WebPlotDigitzer allowed me to access the
+numerical data points of orange line, and the datasets extracted from this software was imported to Geogebra,
+which gave the following plots and model:
+
+                                                                       The R2 value for this function was 0.965, in
+                                                                       which is a fair value to say its accurate.
+
+                                                                       No transformations are required for this
+                                                                       model, as I did not perform any of them, as
+                                                                       plot resembled the shape of a logsitic
+                                                                       function from the beginning.
+
+
+
+
+Figure 11
+
+Final equation:
+                                        1.39413
+              :(#) =                                                  {9.384 ≤ # ≤ 10}
+                       1 + (28255299675732400588 × 10{l )- .9|.p|9|o0
+
+
+Main components on graph
+Now that I am done finding 4 main equations that comprise the body, I have graphed and achieved following:
+
+
+
+
+                                                    Figure 12
+
+Unlike the graphical representation from Figure 3, above is mathematical representation. Therefore, integration
+and volume of revolution could be used in order to find the volume of this shape.
+                                                                   É
+                                                                             $
+                                  ]eb~- eZ (-Äeb~^_ec = " Å xZ(#)y Ç#
+                                                                   Ñ
+
+
+
+
+                                                                                                                  7
+                                                                                3D model wascreated based on these
+                                                                                four equations, and despite its few
+                                                                                lacking features (face, pocket, arms),
+                                                                                overall it looks faithful to the actual
+                                                                                design; thus modelled well.
+
+
+
+
+ Figure 13 – 3D model from the revolution of four equations
+
+
+
+
+Volume of Revolutions
+Head
+                                        o.{p{
+                              ]Ö = " Å          Z(#)$ dx
+                                       p
+                                        o.{p{                                      $
+                                  = "Å          VB6.17080# − 1.08068# $ W d#
+                                       p
+                                            o.{p{
+                                  = " áÅ            ( 6.17080# − 1.08068# $ ) d#à
+                                           p
+                                            o.{p{                     o.{p{
+                                  = " áÅ            6.17080# d# − Å           1.08068# $ d# à
+                                           p                        p
+                                                       o.{p{                       o.{p{
+                                           6.187080# $          1.08068# {
+                                  = " âä             ã      −ä              ã     å
+                                             2        p
+                                                                    3        p
+                                  = "( [3.08540# $ ]o.{p{
+                                                    p      − [0.36023# { ]o.{p{
+                                                                          p     )
+                                  = "( 3.08540 × 5.303 − 0.36023 × 5.303{ )
+                                                          $
+
+                                  = "(33.04667)
+                                  ≈ 104
+
+Neck
+               o.m|p
+     ]è = " Å          [(#)$ dx
+              o.{p{
+               o.m|p                                            $
+        = "Å           VB0.27$ − (# − 5.5703)$ + 1.610W d#
+              o.{p{
+               o.m|p
+        = "Å           VB0.27$ − (# − 5.5703)$ + 1.610W VB0.27$ − (# − 5.5703)$ + 1.610W
+              o.{p{
+               o.m|p                                    $
+        = "Å           VB0.27$ − (# − 5.5703)$ W + (2 × 1.61) × B0.27$ − (# − 5.5703)$ + 1.61$ d#
+              o.{p{
+               o.m|p
+        = "Å           (0.0729 − (# − 5.5703)$ ) + 3.21B0.27$ − (# − 5.5703)$ + 2.5921$ d#
+              o.{p{
+
+
+
+Calculation for the highlighted section:
+
+                         = Å 3.21B0.27$ − (# − 5.5703)$ d#
+
+                         let ~ = 0.27$ − (# − 5.5703)$
+
+
+                                                                                                                          8
+                             = 3.21∫ √~ d#
+                                          9
+                             = 3.21∫ ~$ d#
+                         d~
+                            = −2(# − 5.5703)
+                         d#
+                                    1
+                         d# =                d~
+                              −2(# − 5.5703)
+                                          9             1
+                             = 3.21∫ ~$ ×                        d~
+                                                  −2(# − 5.5703)
+                                                     o.m|p
+                               2   {        1
+                       = 3.21 í × ~ ×
+                                   $                ì
+                               3      −2(# − 5.5703) o.{p{
+                                                                             o.m|p
+                               2                          {         1
+                       = 3.21 í × (0.27$ − (# − 5.5703)$ )$ ×               ì
+                               3                              −2(# − 5.5703) o.{p{
+Substituting back to the original:
+
+                                            o.m|p                                            { o.m|p
+                   (# − 5.5703){                   2 (0.27$ − (# − 5.5703)$ )$
+   = " îä0.0729# −               ã       + 3.21 × ï ×                          ñ
+                         3         o.{p{
+                                                   3     −2(# − 5.5703)
+                                                                                               o.{p{
+
+
+
+                    + [2.5921#]o.m|p
+                               o.{p{ ó
+
+
+
+   = "x(0.419196845709 − 0.392954831739) + (−0.000008173599248 − 0.000221185027877)
+                    + (15.137864 − 13.7459063y
+   = "(1.786696125871635)
+   ≈ 5.61
+Body
+                                          z.{m|
+                             ]ò = " Å             ℎ(#)$ dx
+                                        o.m|p
+                                         z.{m|                                           $
+                                                                 1.72496
+                                   = "Å           g                                     h
+                                        o.m|p         1 + 0.54605ℯ $.moop90.$}.lz9|9{m|
+                                   ≈ 30.5
+Feet
+                              9p
+                   ]ô = " Å          :(#)$ dx
+                             z.{m|
+                              9p                                           $
+                                               1.39413
+                  = "Å       g                              {l .9|.p|9|o0 h
+                        z.{m| 1 + (28255299675732400588 × 10 )-
+                  ≈ 3.63
+Total Volume for main parts
+
+                                         ]öÉõú = ]Ö + ]è + ]ò + ]ô
+                                               ≈ 104 + 5.6 + 30.5 + 3.63
+                                               ≈ 144(3s. f. )
+
+
+
+
+                                                                                                       9
+Calculations of Exteriors
+Hand
+Using the dimensions given from the tracings on Illustrator from Ellipse tool, the volume of the hand is below.
+
+
+                                                                                          1.693 $
+                                                                               #$ + &$ = g     h
+                                                                                            2
+                                                                                 (#) = B0.8465$ − # $
+
+Figure 14 – The dimensions of a circle: 1.693cm x 1.693cm
+
+Volume of Revolution:
+                                                            9.}z{
+                                                 ]ö = " Å           (#)$ dx
+                                                            p
+                                                     ≈ 2.54
+Nose
+
+                            Using Ellipse tool again, the dimensions of the red circle is:
+                                                     width: 0.7761 cm and height: 0.8114 cm.
+                                                                                                                p.m99|
+                            The blue line goes through the center of the red circle. By setting the radius to            , we
+                                                                                                                  $
+                            can find out the scale factor to create a circle with same dimensions.
+                                                                     ({ = 0.4057
+
+Figure 15 – Tracings of                                                      0.7761
+the nose                                                scale factor of # =     2
+                                                                             0.8114
+                                                                            V 2 W
+
+                                                                            = 0.956494947
+
+
+                                                     & = B(({ )$ − (# − ({ )$
+                                                                                 #               $
+                                                 c(#) = U0.4057$ − V                    − 0.4057W
+                                                                            0.956494947
+Figure 16 ¾ graph of n(x)
+
+Volume of Revolution:
+                                   ù
+Since nose is a semi-circle shape, $ is applied instead of " in volume of revolution.
+
+                                                       " p.ll}9       $
+                                                 cû =    Å      xc(#)y
+                                                       2 p
+                                                     ≈ 0.143
+Total Volume for exteriors
+                                                   ]ü0 = ]ö + ]ú
+                                                       ≈ 2.541 + 0.143
+                                                       ≈ 2.68 (3. s. f. )
+
+
+
+
+                                                                                                                           10
+Total volume (main + exteriors)
+                                               ]†°†É¢ = ]öÉõú + ]ü0
+                                                      ≈ 144 + 2.68
+                                               ≈ 146(3s. f. )
+
+Finding out the Volume when height is 129.3cm
+Since ]†°†É¢ is a volume when height is 10cm, we can use scale factor : to find the volume when height is
+129.3cm
+
+                                                         129.3
+                                                     :=
+                                                          10
+                                                     : = 12.93
+
+                          ]eb~- £`ab- §a`^e( (]£§) = (•_c-a( £`ab- §a`^e(){
+(BBC, n.d.)
+                                    ]eb~- ¶ℎ-c 129.3cm = ]†°†É¢ × (:){
+                                           = 316000 cm{ (3s. f. )
+
+Conclusion
+         This investigation has fulfilled the aim of finding the volume of Doraemon by utilising my strength in
+computer and graphic design into fields of mathematics. As a result, I was able to derive the approximate volume
+of Doraemon when the height is 129.3cm.
+         As an objective of a future industrial designer, not only appearance but also the materials that comprises
+the product is significant. In many ways, the industrial designer is responsible for the day-to-day interactions of
+customers and designed product, therefore weight would be one of the factors that can alter the design of a
+product. From the finding that his volume is 316000 cm3, and the official data of weight being 129.3kg, the
+density is 0.4g/cm3. Comparing with 2.7 g/cm3 of the 2nd most common used metal Aluminium.
+         Furthermore, it is noted officially that he has a high-tech combustion engine inside his body, thus the
+density of whatever metal they use will be much lighter than 0.4 g/cm3, assuming that it is only used for
+encompassing. Overall, it can be concluded that even if artificial intelligence technology evolves, it is unrealistic
+to expect a robot like him in close future unless new strong and light alloy is developed to sustain his body
+elements.
+         Given that 1L = 1000cm3, the amount of silicon required would be 31.6L. The volume of silicon comes
+in useful when casting a silicon inside the mould.
+
+Visual Accuracy
+Visual accuracy is compared as followed:
+
+
+
+
+ Figure 17
+
+
+As seen in Figure 13, GeoGebra is not capable of adding details onto the 3D model it has displayed, thus I find it
+hard comparing the visual accuracy for it does not look like Doraemon except the shape. Therefore, in Figure 17
+I coloured the model manually by at the same time maintaining the scaling. As a result, from the aesthetic point
+
+                                                                                                                  11
+of view it is fair to say that the equations have depicted the proportions and form of Doraemon accurately when
+viewed from the side. This would also mark that I have successfully managed to create a 3D model out of a real-
+life figure or a mere sketch; which is significant for an industrial designer, because the career requires numbers of
+production of sketches, and modeling them on a computer before it turns into a real-life object.
+Mathematical Accuracy
+Although visually the model looks accurate, it remains unclear whether if it is faithful to the initial graphical
+model created (Figure 3). I would be able to find this through applying the method I discovered while I
+investigated ‘Body’ and ‘Feet’ section. Using WebPlotDigitier, I extracted points from the graphical model and
+then compared the extracted dataset with the plots the equation will give, using R2 value. The result is following:
+Table 2
+
+                  BODY PARTS                  R2                                 Average R2 for all parts
+                         Head               0.978                                           0.972
+                         Neck               0.951
+                         Body               0.995
+                          Feet              0.965
+As much as it looked accurate, the R2 value also show that it is also faithful to the graphical model I initially
+created. However, as seen in the actual 3D figure in Figure 17, although Doraemon does resemble circular shape,
+it is never a transformed circle, but a circle that is a bit inflated. While this is a source of error, it can also be seen
+as a strength as it fully used the current mathematics knowledge to everywhere applicable. Additionally, high R2
+value also proves that the steps I took are reliable and able to yield consistent results; which comes in significant
+in future purposes.
+
+Other evaluations
+ Limitations                        Effect                                          Improvement
+ Arm, bell, pocket was not          Decrease in overall volume figured out;         Use a 3D figure with arms and feet
+ included inside the                thus, less accuracy. Small elements might       separated (less simplified model) to
+ calculation as 3D figure I         seem negligible in 10cm model, but              aim for higher accuracy.
+ own did not seem to portray        when scaled to 129.3cm it can affect in
+ the elements accurately. E.g.      greater scale.
+ the side of arms were stuck
+ to the side of the head which
+ made it impossible to
+ calculate the overall
+ dimensions of his arm.
+ The modelling was based on         I wasn’t able to produce a mathematical         By applying the improvement
+ side-view of the 3D figure         representation which considered the             stated above, this will allow me to
+                                    width when seen from the front. As a            model from the front, as the
+                                    character, there are far more many times        boundaries between hand and
+                                    that the character will be seen from front      head is clear.
+                                    rather than the side.
+ The camera angle was not           Causes a warp in proportion, thus               Using a stand or anything that can
+ completely horizontal / shot       making the modeling (and the tracing)           stabilize the camera and figure
+ from the centre of the 3D          inaccurate. As camera moves off from            position so that picture for
+ figure (The picture used in        the center, the proportions will be             modeling could be shot
+ Figure 3)                          altered                                         perpendicularly.
+
+Moreover, this was my first time learning about logistic function. This knowledge was later applied on biology
+lab report when investigating the limits on photosynthesis rate, and this function supported me in justifying
+hypothesis.
+
+
+
+
+                                                                                                                         12
+                                                References
+
+BBC. (2018). BBC Bitesize - National 5 Maths - Using similarity - Revision 3. Retrieved December 6,
+
+       2018, from https://www.bbc.com/bitesize/guides/zxmfmsg/revision/3
+
+MathsIsFun.com. (2017). Circle Equations. Retrieved December 6, 2018, from
+
+       https://www.mathsisfun.com/algebra/circle-equations.html
+
+Mueller, W. (n.d.). Logistic Functions. Retrieved December 6, 2018, from
+
+       http://wmueller.com/precalculus/families/1_81.html
+
+Rohatgi, A. (2010). WebPlotDigitizer - Extract data from plots, images, and maps. Retrieved from
+
+       https://automeris.io/WebPlotDigitizer/
+
+(TV Asahi). (n.d.). Doraemon [Hero image of Doraemon]. Retrieved from https://www.tv-
+
+       asahi.co.jp/doraemon/cast/img/doraemon.jpg
+
+
+
+
+                                                                                                   13
+
