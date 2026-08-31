@@ -30,7 +30,7 @@ from collections import Counter
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from common import MODEL, chat, log, run_bounded  # noqa: E402
+from common import MODEL, chat, log, redact, run_bounded  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 PARTS = ROOT / "parts" / "parts.json"
@@ -99,7 +99,7 @@ async def analyze_part(job: dict, stats: dict, done_count: dict) -> None:
     except Exception as e:  # noqa: BLE001
         done_count["failed"] += 1
         stats[job["file"]]["status"] = f"err: {str(e)[:28]}"
-        log(f"FAILED {slug}: {str(e)[:120]}")
+        log(f"FAILED {slug}: {redact(str(e))[:120]}")
 
 
 async def main() -> None:
