@@ -48,6 +48,56 @@ PREFERRED = [
 _model_cache: list[str] = []
 _rr = 0
 
+# Runtime model health: models that persistently fail get skipped automatically.
+# 403 (forbidden) = blacklisted for the whole process; repeated 429s/soft errors
+# = timed cooldown. Success resets the counters.
+_health: dict[str, dict] = {}
+BLACKLIST_HOURS = 12
+COOLDOWN_429_MIN = 6
+COOLDOWN_SOFT_MIN = 10
+# Observed consistently-dead models in this environment (seeded blacklisted;
+# remove from this list if OpenRouter's pool recovers them)
+SEED_DEAD = [
+    "thinkingmachines/inkling:free",       # 403 always (agentic-endpoint only)
+    "thinkingmachines/inkling-small:free", # 403 always
+    "google/gemma-4-31b-it:free",          # 429 always
+    "google/gemma-4-26b-a4b-it:free",      # 429 always
+    "poolside/laguna-s-2.1:free",          # 429 always
+    "poolside/laguna-xs-2.1:free",         # 429 always
+]
+for _dead in SEED_DEAD:
+    _health[_dead] = {"fails": 99, "blocked_until": time.time() + BLACKLIST_HOURS * 3600, "reason": "seeded-dead"}
+
+
+def _model_ok(model: str) -> bool:
+    h = _health.get(model)
+    return not h or time.time() >= h.get("blocked_until", 0)
+
+
+def _record_failure(model: str, emsg: str) -> None:
+    h = _health.setdefault(model, {"fails": 0, "blocked_until": 0, "reason": ""})
+    h["fails"] += 1
+    if h.get("blocked_until", 0) > time.time():
+        return
+    if "403" in emsg or "Forbidden" in emsg:
+        h["blocked_until"] = time.time() + BLACKLIST_HOURS * 3600
+        h["reason"] = "403"
+        log(f"  [health] {model} BLACKLISTED {BLACKLIST_HOURS}h (403 Forbidden)")
+    elif "429" in emsg and h["fails"] >= 3:
+        h["blocked_until"] = time.time() + COOLDOWN_429_MIN * 60
+        h["fails"] = 0
+        h["reason"] = "429"
+        log(f"  [health] {model} cooling down {COOLDOWN_429_MIN}m (repeated 429)")
+    elif h["fails"] >= 4:
+        h["blocked_until"] = time.time() + COOLDOWN_SOFT_MIN * 60
+        h["fails"] = 0
+        h["reason"] = "soft"
+        log(f"  [health] {model} cooling down {COOLDOWN_SOFT_MIN}m (repeated soft failures)")
+
+
+def _record_success(model: str) -> None:
+    _health[model] = {"fails": 0, "blocked_until": 0, "reason": ""}
+
 
 def log(msg: str) -> None:
     print(f"[{time.strftime('%H:%M:%S')}] {msg}", flush=True)
@@ -138,7 +188,11 @@ async def chat(prompt: str, max_tokens: int = 12288, temperature: float = 0.4) -
     # free pool instead of herding onto one saturated model
     global _rr
     _rr += 1
-    ladder = base_ladder[_rr % len(base_ladder):] + base_ladder[:_rr % len(base_ladder)]
+    full_ladder = base_ladder[_rr % len(base_ladder):] + base_ladder[:_rr % len(base_ladder)]
+    ladder = [m for m in full_ladder if _model_ok(m)]
+    skipped = len(full_ladder) - len(ladder)
+    if skipped:
+        log(f"  [health] skipping {skipped} blacklisted/cooldown models")
     passes = 1 if MODEL else 3
     for p in range(passes):
         if p > 0:
@@ -195,6 +249,7 @@ async def _ladder_pass(ladder: list[str], prompt: str, max_tokens: int, temperat
                     return out
 
                 raw_out = await loop.run_in_executor(None, do)
+                _record_success(model)
                 m = FINAL_RE.search(raw_out)
                 if m and len(m.group(1).strip()) > 5:
                     # explicitly fenced = trusted at any length
