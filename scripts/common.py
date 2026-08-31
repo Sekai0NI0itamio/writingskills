@@ -27,12 +27,11 @@ META_ECHO_RE = re.compile(r"closing tag|<final>|final answer|wrapped exactly|fol
 
 # Known traps in the free pool: safety classifiers, omni/embed/coder variants,
 # OpenRouter's own router (resolves to a safety model), tiny models.
-EXCLUDE_PATTERNS = ("content-safety", "openrouter/free", "omni", "embed", "lfm-2.5")
+EXCLUDE_PATTERNS = ("content-safety", "openrouter/free", "omni", "embed", "lfm-2.5", "glm-5.2")
 # Strong general writers first; everything else trails by context size.
 PREFERRED = [
     "minimax/minimax-m3:free",
     "minimax/minimax-m2.7:free",
-    "z-ai/glm-5.2:free",
     "thinkingmachines/inkling:free",
     "thinkingmachines/inkling-small:free",
     "inclusionai/ling-3.0-flash-fin:free",
@@ -47,6 +46,7 @@ PREFERRED = [
 ]
 
 _model_cache: list[str] = []
+_rr = 0
 
 
 def log(msg: str) -> None:
@@ -133,7 +133,12 @@ async def chat(prompt: str, max_tokens: int = 12288, temperature: float = 0.4) -
 
     loop = asyncio.get_running_loop()
     last_err = "no attempt"
-    ladder = [MODEL] if MODEL else discover_models()
+    base_ladder = [MODEL] if MODEL else discover_models()
+    # rotate the start position so concurrent agents spread across the whole
+    # free pool instead of herding onto one saturated model
+    global _rr
+    _rr += 1
+    ladder = base_ladder[_rr % len(base_ladder):] + base_ladder[:_rr % len(base_ladder)]
     passes = 1 if MODEL else 3
     for p in range(passes):
         if p > 0:
@@ -207,7 +212,7 @@ async def _ladder_pass(ladder: list[str], prompt: str, max_tokens: int, temperat
                     log(f"  {model}: effort '{EFFORT}' rejected — falling back to high")
                     continue
                 last_err = RuntimeError(redact(f"{model}: {emsg[:140]}"))
-                wait = min(45, 6 * (attempt + 1) * (attempt + 1))
+                wait = min(20, 5 * (attempt + 1))
                 log(f"  {last_err} — retry in {wait}s")
                 await asyncio.sleep(wait)
         log(f"  giving up on {model} — next model")
