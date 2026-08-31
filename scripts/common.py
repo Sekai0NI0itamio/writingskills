@@ -16,6 +16,7 @@ import urllib.request
 
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 MODEL = os.environ.get("IDEA_FLOW_MODEL", "minimax/minimax-m3:free")
+EFFORT = os.environ.get("IDEA_FLOW_EFFORT", "xhigh")  # highest effort minimax-m3 accepts
 
 THINK_RE = re.compile(r"<think>[\s\S]*?</think>", re.IGNORECASE)
 COT_RE = re.compile(r"Here's a thinking process:[\s\S]*?(?=(?:So (?:the|finally)|Therefore|##|###|\Z))", re.IGNORECASE)
@@ -75,12 +76,14 @@ async def chat(prompt: str, max_tokens: int = 12288, temperature: float = 0.4, m
 
     loop = asyncio.get_running_loop()
     last_err = "no attempt"
+    effort = EFFORT
     for attempt in range(max_attempts):
         body = {
             "model": MODEL,
             "stream": True,
             "temperature": temperature,
             "max_tokens": max_tokens,
+            "reasoning": {"effort": effort},
             "messages": [{"role": "user", "content": prompt}],
         }
         try:
@@ -121,7 +124,13 @@ async def chat(prompt: str, max_tokens: int = 12288, temperature: float = 0.4, m
                 return stripped
             raise RuntimeError(f"no usable answer ({len(raw_out)} raw chars)")
         except Exception as e:  # noqa: BLE001
-            last_err = redact(f"{MODEL}: {str(e)[:140]}")
+            emsg = str(e)
+            # reasoning_effort unsupported by this model — drop to high, keep going
+            if effort != "high" and ("reasoning" in emsg.lower() or "effort" in emsg.lower()) and ("400" in emsg or "invalid" in emsg.lower()):
+                effort = "high"
+                log(f"  {MODEL}: reasoning_effort '{EFFORT}' rejected — falling back to high")
+                continue
+            last_err = redact(f"{MODEL}: {emsg[:140]}")
             wait = min(120, 8 * (attempt + 1) * (attempt + 1))
             log(f"  attempt {attempt + 1}/{max_attempts} failed: {last_err} — retry in {wait}s")
             await asyncio.sleep(wait)

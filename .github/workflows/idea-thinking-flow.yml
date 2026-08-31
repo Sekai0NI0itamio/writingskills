@@ -16,7 +16,7 @@ on:
       in-flight:
         description: "Global concurrent agents"
         required: false
-        default: "15"
+        default: "20"
       per-file:
         description: "Concurrent agents per file"
         required: false
