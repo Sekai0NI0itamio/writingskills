@@ -99,10 +99,16 @@ def extract_batches(d: dict) -> list[dict]:
             cat = "function"
         for c in b.get("clusters", []) or []:
             words = []
-            for w, n in c.get("words", []):
-                w = (w or "").strip().lower()
+            for entry in c.get("words", []):
+                if isinstance(entry, (list, tuple)) and len(entry) >= 2:
+                    w = str(entry[0] or "").strip().lower()
+                    n = entry[1] if isinstance(entry[1], (int, float)) else 0
+                elif isinstance(entry, str):
+                    w, n = entry.strip().lower(), 0
+                else:
+                    continue
                 if w:
-                    words.append([w, int(n) if isinstance(n, (int, float)) else 0])
+                    words.append([w, int(n)])
             if words:
                 out.append({"category": cat, "name": (c.get("name") or "unnamed").strip(), "words": words})
     return out
@@ -278,6 +284,9 @@ async def main() -> None:
     t0 = time.time()
     fragments = await categorize_word_chunks(words, args.words_per_agent, args.in_flight)
     clusters = await consolidate(fragments, args.in_flight)
+    raw = json.loads(RAW.read_text())
+    for c in clusters:
+        c["words"] = [[w, raw.get(w, {}).get("n", n)] for w, n in c["words"]]
     clusters = dedupe_words(clusters)
 
     OUT.parent.mkdir(exist_ok=True)

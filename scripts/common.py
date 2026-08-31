@@ -17,6 +17,8 @@ import urllib.request
 
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 MODELS_URL = "https://openrouter.ai/api/v1/models"
+ORCA_URL = "https://api.orcarouter.ai/v1/chat/completions"
+ORCA_PRICING_URL = "https://api.orcarouter.ai/api/pricing"
 MODEL = os.environ.get("IDEA_FLOW_MODEL", "").strip()  # pin one model — empty = auto-free ladder
 EFFORT = os.environ.get("IDEA_FLOW_EFFORT", "xhigh")  # highest reasoning effort tier
 
@@ -166,13 +168,62 @@ def discover_models() -> list[str]:
     return list(_model_cache)
 
 
+_orca_cache: list[str] = []
+
+
+def _orca_key() -> str:
+    return os.environ.get("ORCA_API_KEY", "").strip()
+
+
+def discover_orca_models() -> list[str]:
+    """OrcaRouter free models (-free, reasoning-capable) from the public catalog."""
+    if _orca_cache:
+        return list(_orca_cache)
+    if not _orca_key():
+        return []
+    try:
+        req = urllib.request.Request(ORCA_PRICING_URL, headers={"content-type": "application/json"})
+        d = json.loads(urllib.request.urlopen(req, timeout=30).read())
+        models = d.get("data", d)
+        if isinstance(models, dict):
+            models = models.get("models", [])
+        out = []
+        for m in models:
+            mid = str(m.get("model_name") or m.get("id") or m.get("name") or "")
+            if not mid.endswith("-free"):
+                continue
+            sp = m.get("supported_parameters") or []
+            ctx = m.get("context_length") or 0
+            if ctx and ctx < 60_000:
+                continue
+            if "reasoning_effort" in sp or "reasoning" in sp or True:
+                out.append(mid)
+        _orca_cache.extend(out)
+    except Exception as e:  # noqa: BLE001
+        log(f"orca discovery failed ({redact(str(e))[:80]})")
+    return list(_orca_cache)
+
+
+def build_ladder() -> list[tuple[str, str]]:
+    """Combined ladder: OrcaRouter free first (fresh capacity), then OpenRouter free."""
+    entries: list[tuple[str, str]] = []
+    for mid in discover_orca_models():
+        entries.append(("orcarouter", mid))
+    for mid in discover_models():
+        if _model_ok(mid):
+            entries.append(("openrouter", mid))
+    if not entries:
+        entries = [("openrouter", mid) for mid in PREFERRED]
+    return entries
+
+
 async def chat(prompt: str, max_tokens: int = 12288, temperature: float = 0.4) -> str:
     """One completion. Model: IDEA_FLOW_MODEL pin, else the auto-free ladder.
     reasoning.effort = xhigh (drops to high if a model rejects the tier).
     Ladder mode: up to 3 full passes with cooldowns — free-pool saturation
     clears in waves, so persistence across models is what gets work through."""
-    if not _key():
-        raise RuntimeError("OPENROUTER_API_KEY is not set")
+    if not _key() and not _orca_key():
+        raise RuntimeError("no provider key set (OPENROUTER_API_KEY / ORCA_API_KEY)")
 
     prompt = (
         "OUTPUT FORMAT (mandatory): your visible output must END with the final answer wrapped "
@@ -183,16 +234,15 @@ async def chat(prompt: str, max_tokens: int = 12288, temperature: float = 0.4) -
 
     loop = asyncio.get_running_loop()
     last_err = "no attempt"
-    base_ladder = [MODEL] if MODEL else discover_models()
+    if MODEL:
+        entries = [("openrouter", MODEL)]
+    else:
+        entries = build_ladder()
     # rotate the start position so concurrent agents spread across the whole
     # free pool instead of herding onto one saturated model
     global _rr
     _rr += 1
-    full_ladder = base_ladder[_rr % len(base_ladder):] + base_ladder[:_rr % len(base_ladder)]
-    ladder = [m for m in full_ladder if _model_ok(m)]
-    skipped = len(full_ladder) - len(ladder)
-    if skipped:
-        log(f"  [health] skipping {skipped} blacklisted/cooldown models")
+    ladder = entries[_rr % len(entries):] + entries[:_rr % len(entries)]
     passes = 1 if MODEL else 3
     for p in range(passes):
         if p > 0:
@@ -205,27 +255,42 @@ async def chat(prompt: str, max_tokens: int = 12288, temperature: float = 0.4) -
     raise RuntimeError(redact(f"all ladder models failed; last: {last_err}"))
 
 
-async def _ladder_pass(ladder: list[str], prompt: str, max_tokens: int, temperature: float, loop) -> "str | RuntimeError":
-    """One pass over the ladder. Returns the answer string, or the last error."""
+async def _ladder_pass(ladder: list, prompt: str, max_tokens: int, temperature: float, loop) -> "str | RuntimeError":
+    """One pass over the ladder. Returns the answer string, or the last error.
+    Each entry is (provider, model)."""
     last_err: RuntimeError = RuntimeError("no attempt")
-    for model in ladder:
+    for provider, model in ladder:
+        if not _model_ok(model):
+            continue
         effort = EFFORT
         for attempt in range(2):
-            body = {
-                "model": model,
-                "stream": True,
-                "temperature": temperature,
-                "max_tokens": max_tokens,
-                "reasoning": {"effort": effort},
-                "messages": [{"role": "user", "content": prompt}],
-            }
+            if provider == "orcarouter":
+                body = {
+                    "model": model,
+                    "stream": True,
+                    "temperature": temperature,
+                    "max_tokens": max_tokens,
+                    "reasoning_effort": effort,
+                    "messages": [{"role": "user", "content": prompt}],
+                }
+                url = ORCA_URL
+                headers = {"authorization": f"Bearer {_orca_key()}", "content-type": "application/json"}
+            else:
+                body = {
+                    "model": model,
+                    "stream": True,
+                    "temperature": temperature,
+                    "max_tokens": max_tokens,
+                    "reasoning": {"effort": effort},
+                    "messages": [{"role": "user", "content": prompt}],
+                }
+                url = OPENROUTER_URL
+                headers = _headers()
             try:
-                def do() -> str:
+                def do() -> tuple[str, dict]:
                     chunks: list[str] = []
                     finish = "stop"
-                    req = urllib.request.Request(
-                        OPENROUTER_URL, data=json.dumps(body).encode(), headers=_headers(), method="POST"
-                    )
+                    req = urllib.request.Request(url, data=json.dumps(body).encode(), headers=headers, method="POST")
                     with urllib.request.urlopen(req, timeout=900) as resp:
                         for raw in resp:
                             line = raw.decode("utf-8", errors="replace").strip()
@@ -246,31 +311,46 @@ async def _ladder_pass(ladder: list[str], prompt: str, max_tokens: int, temperat
                     out = "".join(chunks)
                     if finish == "length":
                         raise RuntimeError(f"hit token cap ({max_tokens}) — response truncated")
-                    return out
+                    return out, dict(resp.headers or {})
 
-                raw_out = await loop.run_in_executor(None, do)
+                raw_out, _resp_headers = await loop.run_in_executor(None, do)
                 _record_success(model)
                 m = FINAL_RE.search(raw_out)
                 if m and len(m.group(1).strip()) > 5:
-                    # explicitly fenced = trusted at any length
                     return clean(m.group(1).strip())
                 stripped = clean(raw_out)
-                # unfenced fallback only for real answers — never instruction echo
                 if len(stripped) > 150 and not META_ECHO_RE.search(stripped):
                     return stripped
                 raise RuntimeError(f"no usable answer ({len(raw_out)} raw chars)")
+            except urllib.error.HTTPError as e:
+                emsg = str(e)
+                retry_after = (e.headers or {}).get("retry-after") if hasattr(e, "headers") else None
+                _record_failure(model, emsg)
+                if provider == "orcarouter" and e.code == 429:
+                    if retry_after:
+                        wait = min(300, float(retry_after))
+                        log(f"  {model}: 429 window full — waiting exactly {wait:.0f}s (Retry-After)")
+                        await asyncio.sleep(wait)
+                        continue  # one clean retry after the window refills
+                    # no Retry-After = prompt over the free-tier cap — never retry
+                    log(f"  {model}: 429 without Retry-After (prompt over free cap) — next model")
+                    break
+                last_err = RuntimeError(redact(f"{provider}/{model}: HTTP {e.code} {emsg[:100]}"))
+                wait = min(20, 5 * (attempt + 1))
+                log(f"  {last_err} — retry in {wait}s")
+                await asyncio.sleep(wait)
             except Exception as e:  # noqa: BLE001
                 emsg = str(e)
-                # effort tier unsupported by this model — drop to high, keep going
                 if effort != "high" and ("reasoning" in emsg.lower() or "effort" in emsg.lower()) and ("400" in emsg or "invalid" in emsg.lower()):
                     effort = "high"
                     log(f"  {model}: effort '{EFFORT}' rejected — falling back to high")
                     continue
-                last_err = RuntimeError(redact(f"{model}: {emsg[:140]}"))
+                _record_failure(model, emsg)
+                last_err = RuntimeError(redact(f"{provider}/{model}: {emsg[:140]}"))
                 wait = min(20, 5 * (attempt + 1))
                 log(f"  {last_err} — retry in {wait}s")
                 await asyncio.sleep(wait)
-        log(f"  giving up on {model} — next model")
+        log(f"  giving up on {provider}/{model} — next model")
     return last_err
 
 
