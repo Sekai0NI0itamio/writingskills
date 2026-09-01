@@ -74,14 +74,15 @@ FINAL_TITLE = """# IdeaThinkingFlow — How 6/7-Graded IB Students Express Ideas
 
 
 def build_chunks() -> list[str]:
-    index = json.loads(INDEX.read_text())
+    """Glob the committed note files directly — _index.json can go stale when
+    a mining run's final commit races its progress commits."""
+    notes = sorted(NOTES.glob("*__part*.md"))
     chunks, cur = [], ""
-    for entry in index:
-        f = ROOT / entry["note"]
-        if not f.exists():
+    for f in notes:
+        if f.name.startswith("_"):
             continue
         note = f.read_text(encoding="utf-8", errors="replace")
-        head = f"\n\n===== SOURCE: {entry['file']} — {entry['heading']} =====\n"
+        head = f"\n\n===== SOURCE: {f.stem.replace('__part', ' — part ')} =====\n"
         if len(cur) + len(head) + len(note) > 30_000 and cur:
             chunks.append(cur)
             cur = ""
@@ -103,18 +104,18 @@ async def main() -> None:
     CACHE.mkdir(parents=True, exist_ok=True)
 
     chunks = build_chunks()
-    n_parts = len(json.loads(INDEX.read_text()))
+    n_parts = len([f for f in NOTES.glob("*__part*.md") if not f.name.startswith("_")])
     log(f"{len(chunks)} chunks from {n_parts} part notes")
 
     distillations = []
     for i, chunk in enumerate(chunks):
-        cf = CACHE / f"map_{i:02d}.md"
+        cf = CACHE / f"map_{hashlib.sha1(chunk.encode()).hexdigest()[:12]}.md"
         if cf.exists() and cf.stat().st_size > 400:
             d = cf.read_text(encoding="utf-8")
             log(f"map {i + 1}/{len(chunks)}: cached ({len(d)} chars)")
         else:
             log(f"map {i + 1}/{len(chunks)}: distilling {len(chunk)} chars...")
-            d = await chat(MAP_PROMPT + "\n\n<chunk>\n" + chunk + "\n</chunk>", 12288)
+            d = await chat(MAP_PROMPT + "\n\n<chunk>\n" + chunk + "\n</chunk>", 12288, min_len=200)
             cf.write_text(d, encoding="utf-8")
             log(f"map {i + 1}/{len(chunks)}: -> {len(d)} chars")
         distillations.append(d)
