@@ -15,7 +15,9 @@ from __future__ import annotations
 
 import argparse
 import asyncio
+import hashlib
 import json
+import os
 import re
 import shutil
 import sys
@@ -107,21 +109,32 @@ async def main() -> None:
     n_parts = len([f for f in NOTES.glob("*__part*.md") if not f.name.startswith("_")])
     log(f"{len(chunks)} chunks from {n_parts} part notes")
 
-    distillations = []
-    for i, chunk in enumerate(chunks):
+    inflight = int(os.environ.get("DISTILL_INFLIGHT", "10"))
+    log(f"maps: {len(chunks)} chunks, {inflight} concurrent")
+    sem = asyncio.Semaphore(inflight)
+    progress = {"done": 0}
+
+    async def map_one(i: int, chunk: str) -> str:
         cf = CACHE / f"map_{hashlib.sha1(chunk.encode()).hexdigest()[:12]}.md"
         if cf.exists() and cf.stat().st_size > 400:
             d = cf.read_text(encoding="utf-8")
-            log(f"map {i + 1}/{len(chunks)}: cached ({len(d)} chars)")
-        else:
+            progress["done"] += 1
+            return d
+        async with sem:
             log(f"map {i + 1}/{len(chunks)}: distilling {len(chunk)} chars...")
             d = await chat(MAP_PROMPT + "\n\n<chunk>\n" + chunk + "\n</chunk>", 12288, min_len=200)
-            cf.write_text(d, encoding="utf-8")
-            log(f"map {i + 1}/{len(chunks)}: -> {len(d)} chars")
-        distillations.append(d)
-        if args.test_one:
-            print("\n===== SAMPLE DISTILLATION =====\n" + d[:3000])
-            return
+        cf.parent.mkdir(parents=True, exist_ok=True)
+        cf.write_text(d, encoding="utf-8")
+        progress["done"] += 1
+        if progress["done"] % 25 == 0:
+            log(f"  maps done: {progress['done']}/{len(chunks)}")
+        log(f"map {i + 1}/{len(chunks)}: -> {len(d)} chars")
+        return d
+
+    distillations = await asyncio.gather(*(map_one(i, c) for i, c in enumerate(chunks)))
+    if args.test_one:
+        print("\n===== SAMPLE DISTILLATION =====\n" + distillations[0][:3000])
+        return
 
     # group distillations by section tag
     tag_map = {
