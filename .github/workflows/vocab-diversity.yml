@@ -59,7 +59,9 @@ jobs:
           python3 scripts/vocab/build_tree.py \
             --min-count "${{ inputs.min-count }}" \
             --in-flight "${{ inputs.in-flight }}" \
-            --words-per-agent "${{ inputs.words-per-agent }}"
+            --words-per-agent "${{ inputs.words-per-agent }}" \
+            --max-minutes 205 \
+            --commit-every 25
 
       - name: Compile tool database
         run: python3 scripts/vocab/compile_tool_db.py

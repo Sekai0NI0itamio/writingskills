@@ -115,6 +115,20 @@ def extract_batches(d: dict) -> list[dict]:
     return out
 
 
+def _git_commit(done_n: int) -> None:
+    """Commit+push finished fragments so a hard timeout loses almost nothing."""
+    try:
+        import subprocess
+        subprocess.run(["git", "add", "cache/vocab_tree"], cwd=ROOT, capture_output=True, timeout=60)
+        r = subprocess.run(["git", "commit", "-m", f"vocab tree progress: {done_n} chunks done"], cwd=ROOT, capture_output=True, timeout=60)
+        if r.returncode == 0:
+            subprocess.run(["git", "pull", "--rebase", "origin", "main"], cwd=ROOT, capture_output=True, timeout=120)
+            p = subprocess.run(["git", "push", "origin", "HEAD:main"], cwd=ROOT, capture_output=True, timeout=120)
+            log(f"progress commit pushed ({done_n} chunks, rc={p.returncode})")
+    except Exception as e:  # noqa: BLE001
+        log(f"progress commit failed: {redact(str(e))[:120]}")
+
+
 def chunk_hash(words: list[list]) -> str:
     h = hashlib.sha1(json.dumps(words, separators=(",", ":")).encode()).hexdigest()[:12]
     return h
@@ -138,6 +152,8 @@ async def categorize_word_chunks(words: list[list], per_agent: int, in_flight: i
     progress = {"done": 0}
 
     async def run_chunk(chunk: list[list]) -> None:
+        if deadline is not None and time.time() > deadline:
+            return  # past the graceful stop — this chunk re-runs in the next chained run
         h = chunk_hash(chunk)
         async with sem:
             payload = json.dumps(chunk, separators=(",", ":"))
@@ -156,6 +172,8 @@ async def categorize_word_chunks(words: list[list], per_agent: int, in_flight: i
                 with frag_path.open("a", encoding="utf-8") as f:
                     f.write(json.dumps({"hash": h, "frags": frags}) + "\n")
             progress["done"] += 1
+            if args.commit_every > 0 and progress["done"] % args.commit_every == 0:
+                await asyncio.get_running_loop().run_in_executor(None, _git_commit, progress["done"])
             if progress["done"] % 25 == 0:
                 from common import health_snapshot
                 stats = health_snapshot()
@@ -268,6 +286,8 @@ async def main() -> None:
     ap.add_argument("--in-flight", type=int, default=20)
     ap.add_argument("--test-one", action="store_true")
     ap.add_argument("--reset", action="store_true")
+    ap.add_argument("--max-minutes", type=int, default=0, help="graceful stop: finish in-flight, skip new chunks after N minutes (0 = no limit)")
+    ap.add_argument("--commit-every", type=int, default=0, help="git commit+push fragments every N new chunks (0 = off)")
     args = ap.parse_args()
 
     if args.reset and CACHE.exists():
@@ -278,6 +298,9 @@ async def main() -> None:
 
     words = load_words(args.min_count)
     log(f"{len(words)} words (count >= {args.min_count})")
+    log(f"providers: ORCA_API_KEY {'set' if os.environ.get('ORCA_API_KEY') else 'MISSING'} | OPENROUTER_API_KEY {'set' if os.environ.get('OPENROUTER_API_KEY') else 'MISSING'}")
+    deadline = time.time() + args.max_minutes * 60 if args.max_minutes > 0 else None
+    since_commit = {"n": 0}
     log(f"providers: ORCA_API_KEY {'set' if os.environ.get('ORCA_API_KEY') else 'MISSING'} | OPENROUTER_API_KEY {'set' if os.environ.get('OPENROUTER_API_KEY') else 'MISSING'}")
 
     if args.test_one:
