@@ -1,4 +1,4 @@
-# IdeaThinkingFlow — How 6/7-Graded IB Students Express Ideas
+# IdeaThinkingFlow — How 6/7‑Graded IB Students Express Ideas
 
 > Distilled by AI from 460 section-part analyses of 80 grade-6/7 IB exemplar essays.
 > Every skeleton and flow pattern carries verbatim quotes from the corpus. This file is a
@@ -871,9 +871,9 @@ Rule: each imperative must (a) be executable without prior lab knowledge, (b) na
 7. Cite governing authority: "planned according to" / "conducted under" + specific guideline.
 8. (Optional) Place raw data table after: "Table N. [content] with [flags] marked in [encoding]" bridges to evidence.
 
-Data, Calculations & Results
+*Placeholder – content to be added specific to the investigation.*
 
-Data, Calculations & Results
+---
 
 ## Paragraph Logic-Flow Patterns
 
