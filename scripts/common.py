@@ -142,7 +142,11 @@ def redact(msg: str) -> str:
         msg = msg.replace(k, "***KEY***")
         if len(k) > 20:
             msg = msg.replace(k[:20], "***KEY***")
-    return re.sub(r"[A-Za-z0-9]*sk-or-v1-[A-Za-z0-9]+", "***KEY***", msg)
+    msg = re.sub(r"[A-Za-z0-9]*sk-or-v1-[A-Za-z0-9]+", "***KEY***", msg)
+    msg = re.sub(r"[A-Za-z0-9]*sk-orca-[A-Za-z0-9]+", "***KEY***", msg)
+    msg = re.sub(r"nvapi-[A-Za-z0-9_\-]+", "***KEY***", msg)
+    msg = re.sub(r"vck_[A-Za-z0-9_\-]+", "***KEY***", msg)
+    return msg
 
 
 def clean(text: str) -> str:
