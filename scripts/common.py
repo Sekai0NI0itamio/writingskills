@@ -252,7 +252,7 @@ def build_ladder() -> list[tuple[str, str]]:
     return entries
 
 
-async def chat(prompt: str, max_tokens: int = 12288, temperature: float = 0.4) -> str:
+async def chat(prompt: str, max_tokens: int = 12288, temperature: float = 0.4, min_len: int = 5) -> str:
     """One completion. Model: IDEA_FLOW_MODEL pin, else the auto-free ladder.
     reasoning.effort = xhigh (drops to high if a model rejects the tier).
     Ladder mode: up to 3 full passes with cooldowns — free-pool saturation
