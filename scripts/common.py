@@ -19,6 +19,7 @@ OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 MODELS_URL = "https://openrouter.ai/api/v1/models"
 ORCA_URL = "https://api.orcarouter.ai/v1/chat/completions"
 ORCA_PRICING_URL = "https://api.orcarouter.ai/api/pricing"
+NVIDIA_URL = "https://integrate.api.nvidia.com/v1/chat/completions"
 MODEL = os.environ.get("IDEA_FLOW_MODEL", "").strip()  # pin one model — empty = auto-free ladder
 EFFORT = os.environ.get("IDEA_FLOW_EFFORT", "xhigh")  # highest reasoning effort tier
 
@@ -191,6 +192,10 @@ def _orca_key() -> str:
     return os.environ.get("ORCA_API_KEY", "").strip()
 
 
+def _nvidia_key() -> str:
+    return os.environ.get("NVIDIA_API_KEY", "").strip()
+
+
 def discover_orca_models() -> list[str]:
     """OrcaRouter free models (-free, reasoning-capable) from the public catalog."""
     if _orca_cache:
@@ -221,14 +226,27 @@ def discover_orca_models() -> list[str]:
     return list(_orca_cache)
 
 
+NVIDIA_MODEL = os.environ.get("NVIDIA_MODEL", "deepseek-ai/deepseek-v4-flash-0731")
+
+_nvidia_ok: bool | None = None
+
+
 def build_ladder() -> list[tuple[str, str]]:
-    """Combined ladder: OrcaRouter free first (fresh capacity), then OpenRouter free."""
+    """Combined ladder: OpenRouter minimax-m3 first (the proven primary — the
+    shared rate-limit pressure is gone once the other pipeline finishes), then
+    the rest of the OpenRouter free pool, then OrcaRouter free, then NVIDIA
+    deepseek-v4-flash-0731 (max thinking)."""
     entries: list[tuple[str, str]] = []
+    openrouter = [("openrouter", m) for m in discover_models() if _model_ok(m)]
+    openrouter.sort(key=lambda pm: 0 if pm[1] == "minimax/minimax-m3:free" else 1)
+    entries.extend(openrouter)
     for mid in discover_orca_models():
-        entries.append(("orcarouter", mid))
-    for mid in discover_models():
         if _model_ok(mid):
-            entries.append(("openrouter", mid))
+            entries.append(("orcarouter", mid))
+    if _nvidia_key() and _model_ok(NVIDIA_MODEL) and _nvidia_ok is not False:
+        entries.append(("nvidia", NVIDIA_MODEL))
+        if _nvidia_ok is None:
+            _nvidia_ok = True
     if not entries:
         entries = [("openrouter", mid) for mid in PREFERRED]
     return entries
@@ -239,8 +257,8 @@ async def chat(prompt: str, max_tokens: int = 12288, temperature: float = 0.4) -
     reasoning.effort = xhigh (drops to high if a model rejects the tier).
     Ladder mode: up to 3 full passes with cooldowns — free-pool saturation
     clears in waves, so persistence across models is what gets work through."""
-    if not _key() and not _orca_key():
-        raise RuntimeError("no provider key set (OPENROUTER_API_KEY / ORCA_API_KEY)")
+    if not _key() and not _orca_key() and not _nvidia_key():
+        raise RuntimeError("no provider key set (NVIDIA_API_KEY / ORCA_API_KEY / OPENROUTER_API_KEY)")
 
     prompt = (
         "OUTPUT FORMAT (mandatory): your visible output must END with the final answer wrapped "
@@ -254,19 +272,8 @@ async def chat(prompt: str, max_tokens: int = 12288, temperature: float = 0.4) -
     if MODEL:
         entries = [("openrouter", MODEL)]
     else:
-        # OrcaRouter-first policy: while ANY orca free model is healthy, use
-        # ONLY orca (fresh capacity, no shared-pool saturation). OpenRouter's
-        # free ladder is the fallback for when orca models go unhealthy.
-        orca_all = discover_orca_models()
-        orca = [("orcarouter", m) for m in orca_all if _model_ok(m)]
-        if orca:
-            entries = orca
-            log(f"  [ladder] ORCA-FIRST: {len(entries)} healthy orca models ({', '.join(m for _, m in entries[:3])}...)")
-        else:
-            fb = [("openrouter", m) for m in discover_models() if _model_ok(m)]
-            entries = fb
-            reason = "key missing" if not _orca_key() else ("discovery failed" if not orca_all else "all orca models unhealthy")
-            log(f"  [ladder] orca unavailable ({reason}) — falling back to {len(fb)} openrouter models")
+        entries = build_ladder()
+        log(f"  [ladder] using {len(entries)} models: {', '.join(f'{p}/{m.split(chr(47))[-1]}' for p, m in entries[:4])}...")
     # rotate the start position so concurrent agents spread across the whole
     # free pool instead of herding onto one saturated model
     global _rr
@@ -304,6 +311,20 @@ async def _ladder_pass(ladder: list, prompt: str, max_tokens: int, temperature: 
                 }
                 url = ORCA_URL
                 headers = {"authorization": f"Bearer {_orca_key()}", "content-type": "application/json"}
+            elif provider == "nvidia":
+                # NVIDIA NIM thinking controls (same mapping the gateway uses):
+                # xhigh/max normalize to "max"; enable_thinking via chat_template_kwargs
+                effort_nvidia = "max" if effort in ("xhigh", "max") else effort
+                body = {
+                    "model": model,
+                    "stream": True,
+                    "temperature": temperature,
+                    "max_tokens": max_tokens,
+                    "chat_template_kwargs": {"enable_thinking": True, "clear_thinking": False, "reasoning_effort": effort_nvidia},
+                    "messages": [{"role": "user", "content": prompt}],
+                }
+                url = NVIDIA_URL
+                headers = {"authorization": f"Bearer {_nvidia_key()}", "content-type": "application/json"}
             else:
                 body = {
                     "model": model,
