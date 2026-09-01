@@ -134,7 +134,7 @@ def chunk_hash(words: list[list]) -> str:
     return h
 
 
-async def categorize_word_chunks(words: list[list], per_agent: int, in_flight: int) -> list[dict]:
+async def categorize_word_chunks(words: list[list], per_agent: int, in_flight: int, deadline: float | None = None, commit_every: int = 0) -> list[dict]:
     chunks = [words[i:i + per_agent] for i in range(0, len(words), per_agent)]
     sem = asyncio.Semaphore(in_flight)
     frag_path = CACHE / "fragments.jsonl"
@@ -172,7 +172,7 @@ async def categorize_word_chunks(words: list[list], per_agent: int, in_flight: i
                 with frag_path.open("a", encoding="utf-8") as f:
                     f.write(json.dumps({"hash": h, "frags": frags}) + "\n")
             progress["done"] += 1
-            if args.commit_every > 0 and progress["done"] % args.commit_every == 0:
+            if commit_every > 0 and progress["done"] % commit_every == 0:
                 await asyncio.get_running_loop().run_in_executor(None, _git_commit, progress["done"])
             if progress["done"] % 25 == 0:
                 from common import health_snapshot
@@ -310,7 +310,7 @@ async def main() -> None:
         return
 
     t0 = time.time()
-    fragments = await categorize_word_chunks(words, args.words_per_agent, args.in_flight)
+    fragments = await categorize_word_chunks(words, args.words_per_agent, args.in_flight, deadline, args.commit_every)
     clusters = await consolidate(fragments, args.in_flight)
     raw = json.loads(RAW.read_text())
     for c in clusters:
