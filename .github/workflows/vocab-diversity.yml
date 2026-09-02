@@ -21,6 +21,10 @@ on:
         description: "Words per categorizer agent"
         required: false
         default: "20"
+      chain:
+        description: "Auto-continue chain counter (set automatically — do not touch)"
+        required: false
+        default: "0"
 
 permissions:
   contents: write
@@ -41,6 +45,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
+      - name: Record resume point
+        run: |
+          BEFORE=$(wc -l < cache/vocab_tree/fragments.jsonl 2>/dev/null || echo 0)
+          echo "NOTES_BEFORE=$BEFORE" >> "$GITHUB_ENV"
+          echo "resuming with $BEFORE cached chunks"
 
       - name: Install poppler (pdftotext)
         if: inputs.mode == 'full'
@@ -79,6 +89,40 @@ jobs:
             git pull --rebase origin "${GITHUB_REF_NAME}" || true
             git push origin HEAD:"${GITHUB_REF_NAME}"
           fi
+
+      - name: Chain next run (auto-continue until the tree is compiled)
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          CHAIN="${{ inputs.chain }}"
+          if [ -f vocab/tree.json ]; then
+            echo "tree.json committed — vocab complete, chain ends"
+            exit 0
+          fi
+          if [ "$CHAIN" -ge 40 ]; then
+            echo "chain limit reached — stopping"
+            exit 0
+          fi
+          BEFORE="${NOTES_BEFORE:-0}"
+          AFTER=$(find cache/vocab_tree -name '*.md' 2>/dev/null | wc -l || echo 0)
+          FRAGS=$(wc -l < cache/vocab_tree/fragments.jsonl 2>/dev/null || echo 0)
+          echo "chain=$CHAIN fragments=$FRAGS"
+          if [ "${{ inputs.mode }}" = "compile" ]; then
+            echo "compile run — chain ends here"
+            exit 0
+          fi
+          PROGRESS=$(( FRAGS > BEFORE ? 1 : 0 ))
+          if [ "$PROGRESS" -eq 0 ] && [ "$CHAIN" != "0" ]; then
+            echo "no fragment progress this run — stopping the chain (needs attention)"
+            exit 0
+          fi
+          echo "chaining next vocab run (chain $((CHAIN + 1)))"
+          gh workflow run vocab-diversity.yml \
+            -R "${{ github.repository }}" -f mode=full -f chain=$((CHAIN + 1)) \
+            -f min-count="${{ inputs.min-count }}" \
+            -f in-flight="${{ inputs.in-flight }}" \
+            -f words-per-agent="${{ inputs.words-per-agent }}"
 
       - name: Upload artifacts
         if: always()
