@@ -300,7 +300,21 @@ async def main() -> None:
     log(f"{len(words)} words (count >= {args.min_count})")
     log(f"providers: ORCA_API_KEY {'set' if os.environ.get('ORCA_API_KEY') else 'MISSING'} | OPENROUTER_API_KEY {'set' if os.environ.get('OPENROUTER_API_KEY') else 'MISSING'}")
     deadline = time.time() + args.max_minutes * 60 if args.max_minutes > 0 else None
-    since_commit = {"n": 0}
+
+    # WORD-LEVEL resume: fragments.jsonl is the source of truth — every word
+    # already clustered there is skipped, whatever happens to chunk hashes.
+    frag_path = CACHE / "fragments.jsonl"
+    done_words: set[str] = set()
+    if frag_path.exists():
+        for line in frag_path.read_text().splitlines():
+            try:
+                for f in json.loads(line)["frags"]:
+                    for w, _n in f["words"]:
+                        done_words.add(w)
+            except Exception:
+                continue
+    todo_words = [w for w in words if w[0] not in done_words]
+    log(f"resume: {len(done_words)} words already clustered, {len(todo_words)} remain")
     log(f"providers: ORCA_API_KEY {'set' if os.environ.get('ORCA_API_KEY') else 'MISSING'} | OPENROUTER_API_KEY {'set' if os.environ.get('OPENROUTER_API_KEY') else 'MISSING'}")
 
     if args.test_one:
@@ -310,7 +324,14 @@ async def main() -> None:
         return
 
     t0 = time.time()
-    fragments = await categorize_word_chunks(words, args.words_per_agent, args.in_flight, deadline, args.commit_every)
+    fragments = await categorize_word_chunks(todo_words, args.words_per_agent, args.in_flight, deadline, args.commit_every)
+    # re-attach the previously cached fragments so consolidation sees everything
+    if frag_path.exists():
+        for line in frag_path.read_text().splitlines():
+            try:
+                fragments.extend(json.loads(line)["frags"])
+            except Exception:
+                continue
     clusters = await consolidate(fragments, args.in_flight)
     raw = json.loads(RAW.read_text())
     for c in clusters:

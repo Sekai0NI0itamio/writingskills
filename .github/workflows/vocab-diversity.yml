@@ -47,17 +47,20 @@ jobs:
           python-version: "3.12"
 
       - name: Record resume point
+        id: resume
         run: |
           BEFORE=$(wc -l < cache/vocab_tree/fragments.jsonl 2>/dev/null || echo 0)
           echo "NOTES_BEFORE=$BEFORE" >> "$GITHUB_ENV"
-          echo "resuming with $BEFORE cached chunks"
+          HAVE=$([ -f vocab/raw_counts.json ] && echo true || echo false)
+          echo "have_counts=$HAVE" >> "$GITHUB_OUTPUT"
+          echo "resuming with $BEFORE cached chunks, counts present: $HAVE"
 
       - name: Install poppler (pdftotext)
-        if: inputs.mode == 'full'
+        if: inputs.mode == 'full' && steps.resume.outputs.have_counts == 'false'
         run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
 
       - name: Extract vocabulary
-        if: inputs.mode == 'full'
+        if: inputs.mode == 'full' && steps.resume.outputs.have_counts == 'false'
         run: python3 scripts/vocab/extract_vocab.py
 
       - name: Build word tree (20-word categorizers + consolidation)
