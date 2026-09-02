@@ -1,0 +1,50 @@
+SOURCE: https://writingcenter.fas.harvard.edu/anatomy-body-paragraph
+PART: topic-sentences
+
+When you write strong, clear paragraphs, you are guiding your readers through your argument by showing them how your points fit together to support your thesis. The number of paragraphs in your essay should be determined by the number of steps you need to take to build your argument. To write strong paragraphs, try to focus each paragraph on one main point—and begin a new paragraph when you are moving to a new point or example.
+
+A strong paragraph in an academic essay will usually include these three elements:
+
+A topic sentence.
+
+The topic sentence does double duty for a paragraph. First, a strong topic sentence makes a claim or states a main idea that is then developed in the rest of the paragraph. Second, the topic sentence signals to readers how the paragraph is connected to the larger argument in your paper.
+
+Below is an example of a topic sentence from a paper by Laura Connor ‘23 that analyzes rhetoric used by Frederic Douglass, Mary Wollstonecraft, and Karl Marx. In her paper, Connor argues that Marx’s rhetoric was most effective in driving social change.
+
+In his numerous writings, Marx critiques capitalism by identifying its flaws.
+
+This topic sentence makes a claim that will then need to be supported with evidence: readers can expect that the sentence will be followed by a discussion of what Marx saw as the flaws in capitalism, which will in turn help them understand Connor’s thesis about how these three authors used their rhetoric to effect social change.
+
+A topic sentence signals to your readers what idea is most important in that paragraph—and it also helps you know if you’ve effectively made your point. In this case, Connor has set up the expectation for readers that by the end of the paragraph, they will understand Marx’s view of the flaws in capitalism.
+
+Imagine that, instead of writing “Marx critiques capitalism by identifying its flaws,” Connor had begun that paragraph with a descriptive sentence. For example, she could have written something like this: “Marx wrote a critique of capitalism.” While that sentence describes something that happened, it does not give readers information about what will be in the rest of the paragraph—and it would not have helped Connor figure out how to organize the paragraph.
+
+Evidence.
+
+Once you’ve made a claim in your topic sentence, you’ll need to help your readers see how you arrived at that claim from the evidence that you examined. That evidence may include quotations or paraphrased material from a source, or it may include data, results, or primary source material. In the paragraph that follows Connor’s topic sentence above, she offers several quotations from Marx that demonstrate how he viewed the flaws in capitalism.
+
+Analysis.
+
+It’s not enough to provide evidence to support a claim. You have to tell your readers what you want them to understand about that evidence. In other words, you have to analyze it. How does this evidence support your claim? In Connor’s paragraph, she follows her presentation of evidence with sentences that tell readers what they need to understand about that evidence—specifically that it shows how Marx pointed to the flaws in capitalism without telling his own readers what to think about it, and that this was his strategy.
+
+It might be tempting to end your paragraph with either a sentence summarizing everything you’ve just written or the introduction of a new idea. But in a short paragraph, your readers don’t need a summary of all that you’ve just said. And introducing a new point in the final sentence can confuse readers by leaving them without evidence to support that new point.
+
+Instead, try to end your paragraph with a sentence that tells readers something that they can now understand because they’ve read your paragraph. In Connor’s paragraph, the final sentence doesn’t summarize all of Marx’s specific claims but instead tells readers what to take away from that evidence. After seeing what Marx says about capitalism, Connor explains what the evidence she has just offered suggests about Marx’s beliefs.
+
+Below, you’ll find Connor’s complete paragraph marked with topic sentence, evidence, and Connor’s analysis of the evidence.
+
+Example Paragraph
+
+TOPIC SENTENCE/
+In his numerous writings, Marx critiques capitalism by identifying its flaws.
+
+ANALYSIS OF EVIDENCE/
+By critiquing the political economy and capitalism, Marx implores his reader to think critically about their position in society and restores awareness in the proletariat class.
+
+EVIDENCE/
+To Marx, capitalism is a system characterized by the “exploitation of the many by the few,” in which workers accept the exploitation of their labor and receive only harm of “alienation,” rather than true benefits (MER 487). He writes that “labour produces for the rich wonderful things – but for the worker it produces privation. It produces palaces—but for the worker, hovels. It produces beauty—but for the worker, deformity” (MER 73). Marx argues capitalism is a system in which the laborer is repeatedly harmed and estranged from himself, his labor, and other people, while the owner of his labor – the capitalist – receives the benefits (MER 74). And while industry progresses, the worker “sinks deeper and deeper below the conditions of existence of his own class” (MER 483).
+
+ANALYSIS OF EVIDENCE/
+But while Marx critiques the political economy, he does not explicitly say “capitalism is wrong.” Rather, his close examination of the system makes its flaws obvious. Only once the working class realizes the flaws of the system, Marx believes, will they - must they - rise up against their bourgeois masters and achieve the necessary and inevitable communist revolution.
+
+Not every paragraph will be structured exactly like this one, of course. But as you draft your own paragraphs, look for all three of these elements: topic sentence, evidence, and analysis.

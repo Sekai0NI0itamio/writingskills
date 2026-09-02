@@ -1,0 +1,73 @@
+SOURCE: https://writingcenter.fas.harvard.edu/counterargument
+PART: counterargument
+
+When you make an argument in an academic essay, you are writing for an audience that may not agree with you. In fact, your argument is worth making in the first place because your thesis will not be obvious—or obviously correct—to everyone who considers the question you are asking or the topic you’re addressing. Once you figure out what you want to argue—your essay’s thesis—your task in writing the essay will be to share with your readers the evidence you have considered and to explain how that evidence supports your thesis.
+
+But just offering your readers evidence that supports your thesis isn’t enough. You also need to consider potential counterarguments—the arguments that your readers could reasonably raise to challenge either your thesis or any of the other claims that you make in your argument. It can be helpful to think of counterarguments to your thesis as alternative answers to your question. In order to support your thesis effectively, you will need to explain why it is stronger than the alternatives.
+
+A counterargument shouldn’t be something you add to your essay after you’ve finished it just because you know you’re supposed to include one. Instead, as you write your essay, you should always be thinking about points where a thoughtful reader could reasonably disagree with you. In some cases, you will be writing your essay as a counterargument to someone else’s argument because you think that argument is incorrect or misses something important. In other cases, you’ll need to think through—and address—objections that you think readers may have to your argument.
+
+While it may be tempting to ignore counterarguments that challenge your own argument, you should not do this. Your own argument will be stronger if you can explain to your readers why the counterarguments they may pose are not as strong or convincing as your own argument. If you come up with a counterargument that you can’t refute, then you may decide to revise your thesis or some part of your argument. While that could be frustrating in the moment, challenging your own thinking is an important part of the writing process. By considering potential counterarguments, you will figure out if you actually agree with your own argument. In many cases, you will discover that a counterargument complicates your argument, but doesn’t refute it entirely.
+
+Some counterarguments will directly address your thesis, while other counterarguments will challenge an individual point or set of points elsewhere in your argument. For example, a counterargument might identify:
+
+- a problem with a conclusion you’ve drawn from evidence
+- a problem with an assumption you’ve made
+- a problem with how you are using a key term
+- evidence you haven’t considered
+- a drawback to your proposal
+- a consequence you haven’t considered
+- an alternative interpretation of the evidence
+
+Example
+
+Consider the following thesis for a short paper that analyzes different approaches to stopping climate change:
+
+Climate activism that focuses on personal actions such as recycling obscures the need for systemic change that will be required to slow carbon emissions.
+
+The author of this thesis is promising to make the case that personal actions not only will not solve the climate problem but may actually make the problem more difficult to solve. In order to make a convincing argument, the author will need to consider how thoughtful people might disagree with this claim. In this case, the author might anticipate the following counterarguments:
+
+- By encouraging personal actions, climate activists may raise awareness of the problem and encourage people to support larger systemic change.
+- Personal actions on a global level would actually make a difference.
+- Personal actions may not make a difference, but they will not obscure the need for systemic solutions.
+- Personal actions cannot be put into one category and must be differentiated.
+
+In order to make a convincing argument, the author of this essay may need to address these potential counterarguments. But you don’t need to address every possible counterargument. Rather, you should engage counterarguments when doing so allows you to strengthen your own argument by explaining how it holds up in relation to other arguments.
+
+How to address counterarguments
+
+Once you have considered the potential counterarguments, you will need to figure out how to address them in your essay. In general, to address a counterargument, you’ll need to take the following steps.
+
+1. State the counterargument and explain why a reasonable reader could raise that counterargument.
+
+2. Counter the counterargument. How you grapple with a counterargument will depend on what you think it means for your argument. You may explain why your argument is still convincing, even in light of this other position. You may point to a flaw in the counterargument. You may concede that the counterargument gets something right but then explain why it does not undermine your argument. You may explain why the counterargument is not relevant. You may refine your own argument in response to the counterargument.
+
+Consider the language you are using to address the counterargument. Words like but, however signal to the reader that you are refuting the counterargument. Words like nevertheless, still signal to the reader that your argument is not diminished by the counterargument.
+
+Example Paragraph
+
+Here’s an example of a paragraph in which a counterargument is raised and addressed. The two steps are marked with counterargument and “counter” to the counterargument:
+
+COUNTERARGUMENT/
+But some experts argue that it’s important for individuals to take action to mitigate climate change. In “All That Performative Environmentalism Adds Up,” Annie Lowery argues that personal actions to fight climate change, such as reducing household trash or installing solar panels, matter because change in social behavior can lead to changes in laws.
+
+COUNTER TO THE COUNTERARGUMENT/
+While Lowery may be correct that individual actions can lead to collective action, this focus on individual action can allow corporations to receive positive publicity while continuing to burn fossil fuels at dangerous rates.
+
+Where to address counterarguments
+
+There is no one right place for a counterargument—where you raise a particular counterargument will depend on how it fits in with the rest of your argument. The most common spots are the following:
+
+Before your conclusion
+This is a common and effective spot for a counterargument because it’s a chance to address anything that you think a reader might still be concerned about after you’ve made your main argument. Don’t put a counterargument in your conclusion, however. At that point, you won’t have the space to address it, and readers may come away confused—or less convinced by your argument.
+
+Before your thesis
+Often, your thesis will actually be a counterargument to someone else’s argument. In other words, you will be making your argument because someone else has made an argument that you disagree with. In those cases, you may want to offer that counterargument before you state your thesis to show your readers what’s at stake—someone else has made an unconvincing argument, and you are now going to make a better one.
+
+After your introduction
+In some cases, you may want to respond to a counterargument early in your essay, before you get too far into your argument. This is a good option when you think readers may need to understand why the counterargument is not as strong as your argument before you can even launch your own ideas. You might do this in the paragraph right after your thesis.
+
+Anywhere that makes sense
+As you draft an essay, you should always keep your readers in mind and think about where a thoughtful reader might disagree with you or raise an objection to an assertion or interpretation of evidence that you are offering. In those spots, you can introduce that potential objection and explain why it does not change your argument. If you think it does affect your argument, you can acknowledge that and explain why your argument is still strong.
+
+[1] Annie Lowery, “All that Performative Environmentalism Adds Up.” The Atlantic. August 31, 2020.

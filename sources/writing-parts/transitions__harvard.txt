@@ -1,0 +1,40 @@
+SOURCE: https://writingcenter.fas.harvard.edu/transitions
+PART: transitions
+
+Transitions help your readers move between ideas within a paragraph, between paragraphs, or between sections of your argument. When you are deciding how to transition from one idea to the next, your goal should be to help readers see how your ideas are connected—and how those ideas connect to the big picture.
+
+One useful way to do this is to start with old information and then introduce new information. When you begin a sentence or a paragraph with information that is familiar to your readers, you help your readers make connections between your ideas. For example, consider the difference between these two pairs of sentences below:
+
+Sentence pair #1: Ineffective Transition
+Some experts argue that focusing on individual actions to combat climate change takes the focus away from the collective action required to keep carbon levels from rising. Change will not be effected, say some others, unless individual actions raise the necessary awareness.
+
+While a reader can see the connection between the sentences above, it’s not immediately clear that the second sentence is providing a counterargument to the first. In the example below, key “old information” is repeated in the second sentence to help readers quickly see the connection. This makes the sequence of ideas easier to follow.
+
+Sentence pair #2: Effective Transition
+Some experts argue that focusing on individual actions to combat climate change takes the focus away from the collective action required to keep carbon levels from rising. Other experts argue that individual actions are key to raising the awareness necessary to effect change.
+
+You can use this same technique to create clear transitions between paragraphs. Here’s an example:
+
+Some experts argue that focusing on individual actions to combat climate change takes the focus away from the collective action required to keep carbon levels from rising. Other experts argue that individual actions are key to raising the awareness necessary to effect change. According to Annie Lowery, individual actions are important to making social change because when individuals take action, they can change values, which can lead to more people becoming invested in fighting climate change. She writes, “Researchers believe that these kinds of household-led trends can help avert climate catastrophe, even if government and corporate actions are far more important” (Lowery).
+
+So, what’s an individual household supposed to do?
+
+The repetition of the word “household” in the new paragraph helps readers see the connection between what has come before (a discussion of whether household actions matter) and what is about to come (a proposal for what types of actions households can take to combat climate change).
+
+Sometimes, transitional words can help readers see how ideas are connected. But it’s not enough to just include a “therefore,” “moreover,” “also,” or “in addition.” You should choose these words carefully to show your readers what kind of connection you are making between your ideas.
+
+To decide which transitional word to use, start by identifying the relationship between your ideas. For example, you might be making a comparison or showing a contrast. Transitional words that compare and contrast include also, in the same way, similarly, in contrast, yet, on the one hand, on the other hand. But before you signal comparison, ask these questions: Do your readers need another example of the same thing? Is there a new nuance in this next point that distinguishes it from the previous example? For those relationships between ideas, you might try this type of transition: While x may appear the same, it actually raises a new question in a slightly different way.
+
+expressing agreement or disagreement
+When you are making an argument, you need to signal to readers where you stand in relation to other scholars and critics. You may agree with another person’s claim, you may want to concede some part of the argument even if you don’t agree with everything, or you may disagree. Transitional words that signal agreement, concession, and disagreement include however, nevertheless, actually, still, despite, admittedly, on the contrary, nonetheless.
+
+showing cause and effect
+Transitional phrases that show cause and effect include therefore, hence, consequently, thus, so. Before you choose one of these words, make sure that what you are about to illustrate is really a causal link. Novice writers tend to add therefore and hence when they aren’t sure how to transition; you should reserve these words for when they accurately signal the progression of your ideas.
+
+explaining or elaborating
+Transitions can signal to readers that you are going to expand on a point that you have just made or explain something further. Transitional words that signal explanation or elaboration include in other words, for example, for instance, in particular, that is, to illustrate, moreover.
+
+drawing conclusions
+You can use transitions to signal to readers that you are moving from the body of your argument to your conclusions. Before you use transitional words to signal conclusions, consider whether you can write a stronger conclusion by creating a transition that shows the relationship between your ideas rather than by flagging the paragraph simply as a conclusion. Transitional words that signal a conclusion include in conclusion, as a result, ultimately, overall—but strong conclusions do not necessarily have to include those phrases.
+
+If you’re not sure which transitional words to use—or whether to use one at all—see if you can explain the connection between your paragraphs or sentence either out loud or in the margins of your draft. For example, if you write a paragraph in which you summarize physician Atul Gawande’s argument about the value of incremental care, and then you move on to a paragraph that challenges those ideas, you might write down something like this next to the first paragraph: “In this paragraph I summarize Gawande’s main claim.” Then, next to the second paragraph, you might write, “In this paragraph I present a challenge to Gawande’s main claim.” Now that you have identified the relationship between those two paragraphs, you can choose the most effective transition between them. Since the second paragraph in this example challenges the ideas in the first, you might begin with something like “but,” or “however,” to signal that shift for your readers.

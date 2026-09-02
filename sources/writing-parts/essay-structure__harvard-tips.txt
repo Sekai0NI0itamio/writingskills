@@ -1,0 +1,55 @@
+SOURCE: https://writingcenter.fas.harvard.edu/tips-organizing-your-essay
+PART: essay-structure
+
+If you are used to writing essays that are similar to the five-paragraph essay (one claim and then three points that support that claim), it can be daunting to think about how to structure your ideas in a longer essay. Once you’ve established your thesis, you need to think about how you will move your reader through your argument. In some courses, you will be expected to provide a roadmap in your introduction that explicitly tells readers how your argument is organized. But even when you don’t provide a roadmap, your reader should be able to see the connections between your ideas. As you think about how your ideas fit together, try these three strategies:
+
+Strategy #1: Decompose your thesis into paragraphs
+
+A clear, arguable thesis will tell your readers where you are going to end up, but it can also help you figure out how to get them there. Put your thesis at the top of a blank page and then make a list of the points you will need to make to argue that thesis effectively.
+
+For example, consider this example from the thesis handout:
+
+While Sandel argues persuasively that our instinct to “remake”(54) ourselves into something ever more perfect is a problem, his belief that we can always draw a line between what is medically necessary and what makes us simply “better than well”(51) is less convincing.
+
+To argue this thesis, the author needs to do the following:
+
+- Show what is persuasive about Sandel’s claims about the problems with striving for perfection.
+- Show what is not convincing about Sandel’s claim that we can clearly distinguish between medically necessary enhancements and other enhancements.
+
+Once you have broken down your thesis into main claims, you can then think about what sub-claims you will need to make in order to support each of those main claims. That step might look like this:
+
+- Show what is persuasive about Sandel’s claims about the problems with striving for perfection.
+  - Evidence that Sandel provides to support this claim
+  - Discussion of why this evidence is convincing even in light of potential counterarguments
+- Show what is not convincing about Sandel’s claim that we can clearly distinguish between medically necessary enhancements and other enhancements.
+  - Discussion of cases when medically necessary enhancement and non-medical enhancement cannot be easily distinguished
+  - Analysis of what those cases mean for Sandel’s argument
+  - Consideration of counterarguments (what Sandel might say in response to this section of your argument)
+
+Each argument you will make in an essay will be different, but this strategy will often be a useful first step in figuring out the path of your argument.
+
+Strategy #2: Use subheadings, even if you remove them later
+
+Scientific papers generally include standard subheadings to delineate different sections of the paper, including “introduction,” “methods,” and “discussion.” Even when you are not required to use subheadings, it can be helpful to put them into an early draft to help you see what you’ve written and to begin to think about how your ideas fit together. You can do this by typing subheadings above the sections of your draft.
+
+If you’re having trouble figuring out how your ideas fit together, try beginning with informal subheadings like these:
+
+- Introduction
+- Explain the author’s main point
+- Show why this main point doesn’t hold up when we consider this other example
+- Explain the implications of what I’ve shown for our understanding of the author
+- Show how that changes our understanding of the topic
+
+For longer papers, you may decide to include subheadings to guide your reader through your argument. In those cases, you would need to revise your informal subheadings to be more useful for your readers. For example, if you have initially written in something like “explain the author’s main point,” your final subheading might be something like “Sandel’s main argument” or “Sandel’s opposition to genetic enhancement.” In other cases, once you have the key pieces of your argument in place, you will be able to remove the subheadings.
+
+Strategy #3: Create a reverse outline from your draft
+
+While you may have learned to outline a paper before writing a draft, this step is often difficult because our ideas develop as we write. In some cases, it can be more helpful to write a draft in which you get all of your ideas out and then do a “reverse outline” of what you’ve already written. This doesn’t have to be formal; you can just make a list of the point in each paragraph of your draft and then ask these questions:
+
+- Are those points in an order that makes sense to you?
+- Are there gaps in your argument?
+- Do the topic sentences of the paragraphs clearly state these main points?
+- Do you have more than one paragraph that focuses on the same point? If so, do you need both paragraphs?
+- Do you have some paragraphs that include too many points? If so, would it make more sense to split them up?
+- Do you make points near the end of the draft that would be more effective earlier in your paper?
+- Are there points missing from this draft?

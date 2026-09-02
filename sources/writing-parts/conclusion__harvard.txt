@@ -1,0 +1,50 @@
+SOURCE: https://writingcenter.fas.harvard.edu/conclusions
+PART: conclusion
+
+One of the most common questions we receive at the Writing Center is “what am I supposed to do in my conclusion?” This is a difficult question to answer because there’s no one right answer to what belongs in a conclusion. How you conclude your paper will depend on where you started—and where you traveled. It will also depend on the conventions and expectations of the discipline in which you are writing. For example, while the conclusion to a STEM paper could focus on questions for further study, the conclusion of a literature paper could include a quotation from your central text that can now be understood differently in light of what has been discussed in the paper. You should consult your instructor about expectations for conclusions in a particular discipline.
+
+With that in mind, here are some general guidelines you might find helpful to use as you think about your conclusion.
+
+Begin with the “what”
+
+In a short paper—even a research paper—you don’t need to provide an exhaustive summary as part of your conclusion. But you do need to make some kind of transition between your final body paragraph and your concluding paragraph. This may come in the form of a few sentences of summary. Or it may come in the form of a sentence that brings your readers back to your thesis or main idea and reminds your readers where you began and how far you have traveled.
+
+So, for example, in a paper about the relationship between ADHD and rejection sensitivity, Vanessa Roser begins by introducing readers to the fact that researchers have studied the relationship between the two conditions and then provides her explanation of that relationship. Here’s her thesis: “While socialization may indeed be an important factor in RS, I argue that individuals with ADHD may also possess a neurological predisposition to RS that is exacerbated by the differing executive and emotional regulation characteristic of ADHD.”
+
+In her final paragraph, Roser reminds us of where she started by echoing her thesis: “This literature demonstrates that, as with many other conditions, ADHD and RS share a delicately intertwined pattern of neurological similarities that is rooted in the innate biology of an individual’s mind, a connection that cannot be explained in full by the behavioral mediation hypothesis.”
+
+Highlight the “so what”
+
+At the beginning of your paper, you explain to your readers what’s at stake—why they should care about the argument you’re making. In your conclusion, you can bring readers back to those stakes by reminding them why your argument is important in the first place. You can also draft a few sentences that put those stakes into a new or broader context.
+
+In the conclusion to her paper about ADHD and RS, Roser echoes the stakes she established in her introduction—that research into connections between ADHD and RS has led to contradictory results, raising questions about the “behavioral mediation hypothesis.”
+
+She writes, “as with many other conditions, ADHD and RS share a delicately intertwined pattern of neurological similarities that is rooted in the innate biology of an individual’s mind, a connection that cannot be explained in full by the behavioral mediation hypothesis.”
+
+Leave your readers with the “now what”
+
+After the “what” and the “so what,” you should leave your reader with some final thoughts. If you have written a strong introduction, your readers will know why you have been arguing what you have been arguing—and why they should care. And if you’ve made a good case for your thesis, then your readers should be in a position to see things in a new way, understand new questions, or be ready for something that they weren’t ready for before they read your paper.
+
+In her conclusion, Roser offers two “now what” statements. First, she explains that it is important to recognize that the flawed behavioral mediation hypothesis “seems to place a degree of fault on the individual. It implies that individuals with ADHD must have elicited such frequent or intense rejection by virtue of their inadequate social skills, erasing the possibility that they may simply possess a natural sensitivity to emotion.” She then highlights the broader implications for treatment of people with ADHD, noting that recognizing the actual connection between rejection sensitivity and ADHD “has profound implications for understanding how individuals with ADHD might best be treated in educational settings, by counselors, family, peers, or even society as a whole.”
+
+To find your own “now what” for your essay’s conclusion, try asking yourself these questions:
+
+What can my readers now understand, see in a new light, or grapple with that they would not have understood in the same way before reading my paper? Are we a step closer to understanding a larger phenomenon or to understanding why what was at stake is so important?
+
+What questions can I now raise that would not have made sense at the beginning of my paper? Questions for further research? Other ways that this topic could be approached?
+
+Are there other applications for my research? Could my questions be asked about different data in a different context? Could I use my methods to answer a different question?
+
+What action should be taken in light of this argument? What action do I predict will be taken or could lead to a solution?
+
+What larger context might my argument be a part of?
+
+What to avoid in your conclusion
+
+a complete restatement of all that you have said in your paper.
+
+a substantial counterargument that you do not have space to refute; you should introduce counterarguments before your conclusion.
+
+an apology for what you have not said. If you need to explain the scope of your paper, you should do this sooner—but don’t apologize for what you have not discussed in your paper.
+
+fake transitions like “in conclusion” that are followed by sentences that aren’t actually conclusions. (“In conclusion, I have now demonstrated that my thesis is correct.”)
