@@ -1,0 +1,33 @@
+SOURCE: https://writingcenter.fas.harvard.edu/thesis
+PART: thesis
+Thesis
+Your thesis is the central claim in your essay—your main insight or idea about your source or topic. Your thesis should appear early in an academic essay, followed by a logically constructed argument that supports this central claim. A strong thesis is arguable, which means a thoughtful reader could disagree with it and therefore needs your careful analysis of the evidence to understand how you arrived at this claim. You arrive at your thesis by examining and analyzing the evidence available to you, which might be text or other types of source material.
+A thesis will generally respond to an analytical question or pose a solution to a problem that you have framed for your readers (and for yourself). When you frame that question or problem for your readers, you are telling them what is at stake in your argument—why your question matters and why they should care about the answer. If you can explain to your readers why a question or problem is worth addressing, then they will understand why it's worth reading an essay that develops your thesis—and you will understand why it's worth writing that essay.
+A strong thesis will be arguable rather than descriptive, and it will be the right scope for the essay you are writing. If your thesis is descriptive, then you will not need to convince your readers of anything—you will be naming or summarizing something your readers can already see for themselves. If your thesis is too narrow, you won't be able to explore your topic in enough depth to say something interesting about it. If your thesis is too broad, you may not be able to support it with evidence from the available sources.
+When you are writing an essay for a course assignment, you should make sure you understand what type of claim you are being asked to make. Many of your assignments will be asking you to make analytical claims, which are based on interpretation of facts, data, or sources.
+Some of your assignments may ask you to make normative claims. Normative claims are claims of value or evaluation rather than fact—claims about how things should be rather than how they are. A normative claim makes the case for the importance of something, the action that should be taken, or the way the world should be. When you are asked to write a policy memo, a proposal, or an essay based on your own opinion, you will be making normative claims.
+
+Here are some examples of possible thesis statements for a student's analysis of the article "The Case Against Perfection" by Professor Michael Sandel.
+
+Descriptive thesis (not arguable)
+While Sandel argues that pursuing perfection through genetic engineering would decrease our sense of humility, he claims that the sense of solidarity we would lose is also important.
+This thesis summarizes several points in Sandel's argument, but it does not make a claim about how we should understand his argument. A reader who read Sandel's argument would not also need to read an essay based on this descriptive thesis.
+
+Broad thesis (arguable, but difficult to support with evidence)
+Michael Sandel's arguments about genetic engineering do not take into consideration all the relevant issues.
+This is an arguable claim because it would be possible to argue against it by saying that Michael Sandel's arguments take all of the relevant issues into consideration. But the claim is too broad. Because the thesis does not specify which "issues" it is focused on—or why it matters if they are considered—readers won't know what the rest of the essay will argue, and the writer won't know what to focus on. If there is a particular issue that Sandel does not address, then a more specific version of the thesis would include that issue—and an explanation of why it is important.
+
+Arguable thesis with analytical claim
+While Sandel argues persuasively that our instinct to "remake" (54) ourselves into something ever more perfect is a problem, his belief that we can always draw a line between what is medically necessary and what makes us simply "better than well" (51) is less convincing.
+This is an arguable analytical claim. To argue for this claim, the essay writer will need to show how evidence from the article itself points to this interpretation. It's also a reasonable scope for a thesis because it can be supported with evidence available in the text and is neither too broad nor too narrow.
+
+Arguable thesis with normative claim
+Given Sandel's argument against genetic enhancement, we should not allow parents to decide on using Human Growth Hormone for their children.
+This thesis tells us what we should about a particular issue discussed in Sandel's article, but it does not tell us how we should understand Sandel's argument.
+
+Questions to ask about your thesis
+Is the thesis truly arguable? Does it speak to a genuine dilemma in the source, or would most readers automatically agree with it?
+Is the thesis too obvious? Again, would most or all readers agree with it without needing to see your argument?
+Is the thesis complex enough to require a whole essay's worth of argument?
+Is the thesis supportable with evidence from the text rather than with generalizations or outside research?
+Would anyone want to read a paper in which this thesis was developed? That is, can you explain what this paper is adding to our understanding of a problem, question, or topic?
